@@ -15,6 +15,8 @@ These are established design principles, not implementation commitments.
 | Treat legal access/title and septic/buildability as first-class due diligence. | Maps and soil layers alone cannot establish rights or site approval. |
 | Separate discovery, adjudication, and transaction. | A due-diligence package and resolution of critical unknowns precede offer readiness. |
 
+Sequencing clarification (2026-09-19): begin with dataset discovery and validation, producing a source registry and ingestion plan. Use representative parcels later to test integration once coverage, identifiers and ingestion are understood. See the [source audit](../research/maine-sources/README.md).
+
 ## Open questions
 
 - Actual coverage, freshness, rights, and integration methods for each data source.

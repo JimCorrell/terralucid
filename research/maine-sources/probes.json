@@ -1,0 +1,107 @@
+[
+  {
+    "id": "ut-parcels-metadata",
+    "purpose": "Inspect fields, CRS, query capabilities, limits and descriptions; not a completeness test.",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0?f=pjson"
+  },
+  {
+    "id": "organized-parcels-metadata",
+    "purpose": "Inspect fields, CRS, query capabilities, limits and descriptions; not a completeness test.",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10?f=pjson"
+  },
+  {
+    "id": "lupc-zones-metadata",
+    "purpose": "Inspect fields, CRS, query capabilities, limits and descriptions; not a completeness test.",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson"
+  },
+  {
+    "id": "public-roads-metadata",
+    "purpose": "Inspect fields, CRS, query capabilities, limits and descriptions; not a completeness test.",
+    "url": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/52?f=pjson"
+  },
+  {
+    "id": "nwi-wetlands-metadata",
+    "purpose": "Inspect fields, CRS, query capabilities, limits and descriptions; not a completeness test.",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0?f=pjson"
+  },
+  {
+    "id": "conserved-lands-metadata",
+    "purpose": "Inspect fields, CRS, query capabilities, limits and descriptions; not a completeness test.",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Conserved_Lands_All/FeatureServer/0?f=pjson"
+  },
+  {
+    "id": "civil-boundaries-metadata",
+    "purpose": "Inspect fields, CRS, query capabilities, limits and descriptions; not a completeness test.",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons_Dissolved/FeatureServer/0?f=pjson"
+  },
+  {
+    "id": "flood-availability-metadata",
+    "purpose": "Inspect fields, CRS, query capabilities, limits and descriptions; not a completeness test.",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/0?f=pjson"
+  },
+  {
+    "id": "building-footprints-metadata",
+    "purpose": "Inspect fields, CRS, query capabilities, limits and descriptions; not a completeness test.",
+    "url": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/42?f=pjson"
+  },
+  {
+    "id": "ut-parcels-count",
+    "purpose": "Count source features; not a count of legal properties or complete jurisdiction coverage.",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=1%3D1&returnCountOnly=true"
+  },
+  {
+    "id": "organized-parcels-count",
+    "purpose": "Count source features; not a count of legal properties or complete jurisdiction coverage.",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=1%3D1&returnCountOnly=true"
+  },
+  {
+    "id": "lupc-zones-count",
+    "purpose": "Count source features; not a count of legal properties or complete jurisdiction coverage.",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=1%3D1&returnCountOnly=true"
+  },
+  {
+    "id": "public-roads-count",
+    "purpose": "Count source features; not a count of legal properties or complete jurisdiction coverage.",
+    "url": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/52/query?f=json&where=1%3D1&returnCountOnly=true"
+  },
+  {
+    "id": "conserved-lands-count",
+    "purpose": "Count source features; not a count of legal properties or complete jurisdiction coverage.",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Conserved_Lands_All/FeatureServer/0/query?f=json&where=1%3D1&returnCountOnly=true"
+  },
+  {
+    "id": "civil-boundaries-count",
+    "purpose": "Count source features; not a count of legal properties or complete jurisdiction coverage.",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons_Dissolved/FeatureServer/0/query?f=json&where=1%3D1&returnCountOnly=true"
+  },
+  {
+    "id": "lupc-linked-download",
+    "purpose": "Test the download link published on LUPC's digital data page.",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/LUPC_Zoning/FeatureServer?f=pjson"
+  },
+  {
+    "id": "organized-item",
+    "purpose": "Inspect publisher metadata, modified date and usage constraints.",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/346131b710a645ffb624f448a9cba6d4?f=pjson"
+  },
+  {
+    "id": "ut-item",
+    "purpose": "Inspect publisher metadata, modified date and usage constraints.",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/868097d1a133446f8ffae242929a25dd?f=pjson"
+  },
+  {
+    "id": "conservation-item",
+    "purpose": "Inspect publisher metadata, modified date and usage constraints.",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/ad59f27a21f24f19bb005868a04b65a3?f=pjson"
+  },
+  {
+    "id": "cadastre-catalog",
+    "purpose": "Preserve publisher-linked catalog discovery.",
+    "url": "https://www.arcgis.com/sharing/rest/search?f=pjson&q=group%3A3a46a2d2b27441eeb3d5fea6a141fa48&num=30"
+  },
+  {
+    "id": "tnm-datasets",
+    "purpose": "Inspect downloadable product catalog, before choosing products.",
+    "url": "https://tnmaccess.nationalmap.gov/api/v1/datasets"
+  }
+]

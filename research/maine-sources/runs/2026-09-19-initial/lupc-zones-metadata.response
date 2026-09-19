@@ -1,0 +1,4500 @@
+{
+ "currentVersion": 11.5,
+ "cimVersion": "3.5.0",
+ "id": 0,
+ "name": "Zones",
+ "type": "Feature Layer",
+ "parentLayer": null,
+ "defaultVisibility": true,
+ "minScale": 144447.638572,
+ "maxScale": 0,
+ "canScaleSymbols": true,
+ "referenceScale": 24000,
+ "geometryType": "esriGeometryPolygon",
+ "description": "",
+ "copyrightText": "",
+ "editFieldsInfo": null,
+ "ownershipBasedAccessControlForFeatures": null,
+ "syncCanReturnChanges": true,
+ "relationships": [],
+ "isDataVersioned": false,
+ "isDataArchived": true,
+ "infoInEstimates": [
+  "extent",
+  "count"
+ ],
+ "isDataBranchVersioned": false,
+ "isDataReplicaTracked": true,
+ "isCoGoEnabled": false,
+ "supportsRollbackOnFailureParameter": true,
+ "archivingInfo": {
+  "supportsQueryWithHistoricMoment": true,
+  "startArchivingMoment": 1687443261000
+ },
+ "supportsStatistics": true,
+ "supportsExceedsLimitStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportsValidateSQL": true,
+ "supportsCoordinatesQuantization": true,
+ "supportsQuantizationEditMode": true,
+ "supportsCalculate": true,
+ "supportsASyncCalculate": true,
+ "supportsDurableUrlForSyncModelNone": false,
+ "supportsDatumTransformation": true,
+ "advancedQueryCapabilities": {
+  "supportsPagination": true,
+  "supportsQueryWithDistance": true,
+  "supportsReturningQueryExtent": true,
+  "supportsStatistics": true,
+  "supportsPercentileStatistics": true,
+  "supportsHavingClause": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsCountDistinct": true,
+  "supportsAdvancedQueryRelated": true,
+  "supportsQueryRelatedPagination": true,
+  "supportsCurrentUserQueries": true,
+  "supportsFullTextSearch": true,
+  "fullTextSearchCapabilities": {
+   "supportsSearchOperator": true,
+   "supportsOperator": false,
+   "supportsSqlExpressionInFullText": true
+  },
+  "fullTextSearchableFields": [],
+  "supportsQueryWithResultType": true,
+  "supportsReturningGeometryCentroid": true,
+  "supportsReturningGeometryEnvelope": true,
+  "supportsSqlExpression": true,
+  "supportsQueryWithDatumTransformation": true,
+  "supportsLod": false,
+  "supportsQueryWithLodSR": false,
+  "supportsQueryAnalytic": true,
+  "supportsTrueCurve": true,
+  "supportedCurveTypes": [
+   "esriGeometryCircularArc",
+   "esriGeometryEllipticArc",
+   "esriGeometryBezier3Curve"
+  ],
+  "supportsQueryWithCacheHint": false
+ },
+ "advancedQueryAnalyticCapabilities": {
+  "supportsLinearRegression": true,
+  "supportsAsync": true,
+  "supportsPercentileAnalytic": true
+ },
+ "advancedEditingCapabilities": {
+  "supportedSqlFormatsInCalculate": [
+   "standard"
+  ],
+  "supportsAsyncApplyEdits": true,
+  "supportsApplyEditsbyUploadID": true,
+  "supportedApplyEditsUploadIDFormats": "JSON,PBF"
+ },
+ "hasGeometryProperties": true,
+ "geometryProperties": {
+  "shapeAreaFieldName": "Shape__Area",
+  "shapeLengthFieldName": "Shape__Length",
+  "units": "esriMeters"
+ },
+ "hasMetadata": true,
+ "extent": {
+  "xmin": 336639.9868000001,
+  "ymin": 4844674.630000001,
+  "xmax": 653843.9375,
+  "ymax": 5256292.34,
+  "spatialReference": {
+   "wkid": 26919,
+   "latestWkid": 26919,
+   "xyTolerance": 0.001,
+   "zTolerance": 0.001,
+   "mTolerance": 0.001,
+   "falseX": -5120900,
+   "falseY": -9998100,
+   "xyUnits": 10000,
+   "falseZ": -100000,
+   "zUnits": 10000,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "spatialReference": {
+  "wkid": 26919,
+  "latestWkid": 26919,
+  "xyTolerance": 0.001,
+  "zTolerance": 0.001,
+  "mTolerance": 0.001,
+  "falseX": -5120900,
+  "falseY": -9998100,
+  "xyUnits": 10000,
+  "falseZ": -100000,
+  "zUnits": 10000,
+  "falseM": -100000,
+  "mUnits": 10000
+ },
+ "sourceSpatialReference": {
+  "wkid": 26919,
+  "latestWkid": 26919,
+  "xyTolerance": 0.001,
+  "zTolerance": 0.001,
+  "mTolerance": 0.001,
+  "falseX": -5120900,
+  "falseY": -9998100,
+  "xyUnits": 10000,
+  "falseZ": 0,
+  "zUnits": 1,
+  "falseM": 0,
+  "mUnits": 1
+ },
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "ZONE",
+   "uniqueValueGroups": [
+    {
+     "heading": "ZONE",
+     "classes": [
+      {
+       "label": "D-CI: Commercial Industrial Development",
+       "description": "D-CI: Commercial Industrial Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         197,
+         0,
+         255,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.5
+        }
+       },
+       "values": [
+        [
+         "D-CI: Commercial Industrial"
+        ]
+       ]
+      },
+      {
+       "label": "D-ES: Extended Settlement Development",
+       "description": "D-ES: Extended Settlement Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         168,
+         0,
+         132,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "D-ES: Extended Settlement"
+        ]
+       ]
+      },
+      {
+       "label": "D-GN2: Community Center Development",
+       "description": "D-GN2: Community Center Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         255,
+         115,
+         223,
+         255
+        ],
+        "outline": null
+       },
+       "values": [
+        [
+         "D-GN2: Community Center"
+        ]
+       ]
+      },
+      {
+       "label": "D-GN3: Rural Settlement Development",
+       "description": "D-GN3: Rural Settlement Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         230,
+         152,
+         0,
+         255
+        ],
+        "outline": null
+       },
+       "values": [
+        [
+         "D-GN3: Rural Settlement"
+        ]
+       ]
+      },
+      {
+       "label": "D-GN: General Development",
+       "description": "D-GN: General Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSBackwardDiagonal",
+        "color": [
+         255,
+         0,
+         197,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          255,
+          0,
+          197,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "D-GN: General"
+        ]
+       ]
+      },
+      {
+       "label": "D-LD: Low-Density Development",
+       "description": "D-LD: Low-Density Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         205,
+         102,
+         102,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "D-LD: Low-Density Development"
+        ]
+       ]
+      },
+      {
+       "label": "D-MT1: Maritime Development 1",
+       "description": "D-MT1: Maritime Development 1",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSBackwardDiagonal",
+        "color": [
+         115,
+         223,
+         255,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          169,
+          230,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "values": [
+        [
+         "D-MT1: Maritime 1"
+        ]
+       ]
+      },
+      {
+       "label": "D-MT2: Maritime Development 2",
+       "description": "D-MT2: Maritime Development 2",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSDiagonalCross",
+        "color": [
+         0,
+         92,
+         230,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          92,
+          230,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "D-MT2: Maritime 2"
+        ]
+       ]
+      },
+      {
+       "label": "D-PD: Planned Development",
+       "description": "D-PD: Planned Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         255,
+         231,
+         158,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          178,
+          178,
+          178,
+          255
+         ],
+         "width": 0.1
+        }
+       },
+       "values": [
+        [
+         "D-PD: Planned"
+        ]
+       ]
+      },
+      {
+       "label": "D-PR: Planned Recreation Facility Development",
+       "description": "D-PR: Planned Recreation Facility Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          255,
+          231,
+          158,
+          255
+         ],
+         "width": 2
+        }
+       },
+       "values": [
+        [
+         "D-PR: Planned Recreation Facility"
+        ]
+       ]
+      },
+      {
+       "label": "D-RB: Rural Business Development",
+       "description": "D-RB: Rural Business Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSBackwardDiagonal",
+        "color": [
+         132,
+         0,
+         168,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "D-RB: Rural Business"
+        ]
+       ]
+      },
+      {
+       "label": "D-RD: Resource-Dependent Development",
+       "description": "D-RD: Resource-Dependent Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         112,
+         168,
+         0,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "D-RD: Resource Dependent Development"
+        ]
+       ]
+      },
+      {
+       "label": "D-RF: Recreation Facility Development",
+       "description": "D-RF: Recreation Facility Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         0,
+         168,
+         132,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          107,
+          126,
+          147,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "D-RF: Recreation Facility"
+        ]
+       ]
+      },
+      {
+       "label": "D-RS2: Community Residential Development",
+       "description": "D-RS2: Community Residential Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         245,
+         122,
+         122,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          178,
+          178,
+          178,
+          255
+         ],
+         "width": 0.1
+        }
+       },
+       "values": [
+        [
+         "D-RS2: Community Residential"
+        ]
+       ]
+      },
+      {
+       "label": "D-RS3: Residential Recreation Development",
+       "description": "D-RS3: Residential Recreation Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         255,
+         190,
+         232,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          107,
+          126,
+          147,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "D-RS3: Residential Recreation"
+        ]
+       ]
+      },
+      {
+       "label": "D-RS: Residential Development",
+       "description": "D-RS: Residential Development",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         255,
+         190,
+         190,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "D-RS: Residential"
+        ]
+       ]
+      },
+      {
+       "label": "M-GN: General Management",
+       "description": "M-GN: General Management",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          204,
+          204,
+          204,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "M-GN: General"
+        ]
+       ]
+      },
+      {
+       "label": "M-HP: Highly Productive Management",
+       "description": "M-HP: Highly Productive Management",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          204,
+          204,
+          204,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "M-HP: Highly Productive"
+        ]
+       ]
+      },
+      {
+       "label": "M-NC: Natural Character Management",
+       "description": "M-NC: Natural Character Management",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          204,
+          204,
+          204,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "M-NC: Natural Character"
+        ]
+       ]
+      },
+      {
+       "label": "P-AL: Accessible Lake Protection",
+       "description": "P-AL: Accessible Lake Protection",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         149,
+         216,
+         237,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          204,
+          204,
+          204,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "P-AL: Accessible Lake"
+        ]
+       ]
+      },
+      {
+       "label": "P-AR: Aquifer Protection",
+       "description": "P-AR: Aquifer Protection",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSDiagonalCross",
+        "color": [
+         230,
+         152,
+         0,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          230,
+          152,
+          0,
+          255
+         ],
+         "width": 1.7
+        }
+       },
+       "values": [
+        [
+         "P-AR: Aquifer"
+        ]
+       ]
+      },
+      {
+       "label": "P-FP: Flood Prone Area Protection",
+       "description": "P-FP: Flood Prone Area Protection",
+       "symbol": {
+        "type": "esriPFS",
+        "url": "bbb6240797e878bb2cc906a80ce971f4",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADMklEQVRogbVaUbLkIAjMq+IUnvAdaU/oNd5Wtma2HB423WD4mwQRFejGjM0/18/1kvF9fV1A3rqZ3omxrP5M/Lf1oTfqf1c24H52/15tejuRk8omDqBrSFFdUKTP2LyfrYv0c0QbxvpoygKyBSlhxW6msunzZXf1Ay5QPVEU7shOtOCKjCgH/URIWdFFYbWOX/OTtZ9FyliewxxEDmYLyOwq0aCOXcWYvNnloH9/MuSUaELzfsBEJuypMTDgBRWw3cbOpKLe7y1SZk6gi1MKxrIb6eWjimbYkiW9GpLVEM4K1uXEFId2YKwseOcgGz1qwTLkhErVmAkzB09Ex8yAPltQRp8yfeYdU93nZuwHDqIKFQ1gfit8USkgTNUcbuO3MMGEBYuLzBhG1Mo+1hBFiR6R7ohiKaShGs6RHxcYT8EEG5LsqVc3gImU4ZlM5hDjpFIkmNw6KXaiyVT6u3XMW08lFsjmYE4wclblngqMMDYjmYTd/zCRGe1wzyxX1D50h9MjItsqAKP31SuLLnFHEsIEUzhYTljJTz9XVXfsugl1EiY/kS3mxgDZGgAXJZjosB4UzhWGwvph64Qq5armb8f2Tv9S+sGqg+hm+1TRUQ/CIqUq26gCcqeKzgRzYYiybEPFz24VRX4Nf7Ot3kCvz5/gjwpx38nHCSqFopL4flylm2CuFKUiw0h2UaRuxqkW6hYqRCtMZtVTsCqbq0MS7AQPVE9PrcidJsD8xNGg0w1pZwNYXL2Ur0tMaJy8+e6c2C00Dirg3K2MnXvQyVC1bNcVcGb0K1U36ya8/Gt4fz0t8sdbTuVpBzZW2cIEk3NV3hk9Y21Xip0pu6EYVsaxeYfybxfC0t9IunpvUcK/0sGMqIpWHEWTdL5BnBRbf6Ciod6idfIIzauSAHvyaw8zRq2YiJuOCAefyBul2j2xsXNXZCrfAyJ9NSfZDWH1xq7IIAfVyZTunw1blXxMz2RQ8vr31ep4sjOZBD+mOvrKiXYWcTJ/rXqXyU52YuG+u1dsGBvr1a9JJ/KZ3aCZfZtQgXu34Cdu0hgZqB9EDndzQgV3VqbyhVcty+tpZbqK3a6OX/Rfj+gzqGFyyZ8AAAAASUVORK5CYII=",
+        "contentType": "image/png",
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          168,
+          112,
+          0,
+          255
+         ],
+         "width": 1.5
+        },
+        "width": 42,
+        "height": 42,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xscale": 1,
+        "yscale": 1
+       },
+       "values": [
+        [
+         "P-FP: Flood Prone"
+        ]
+       ]
+      },
+      {
+       "label": "P-FW: Fish and Wildlife Protection",
+       "description": "P-FW: Fish and Wildlife Protection",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSDiagonalCross",
+        "color": [
+         132,
+         2,
+         168,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          197,
+          0,
+          255,
+          255
+         ],
+         "width": 0.1
+        }
+       },
+       "values": [
+        [
+         "P-FW: Fish and Wildlife"
+        ]
+       ]
+      },
+      {
+       "label": "P-GP2: Semi-Remote Lake Protection",
+       "description": "P-GP2: Semi-Remote Lake Protection",
+       "symbol": {
+        "type": "esriPFS",
+        "url": "2ff8e0855e3b3f63d77a20e4b7c6f0fe",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAAD0AAAA9CAYAAAAeYmHpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAD00lEQVRogbWZzY3cMAyF90AgJbqTFJEGUoNrShe55ZRggQyg1ZJ836O8PAxsSaRI8fFHnvj56/ff+8eft+v7t7cJZbzrmCP7RA9HRrz/rIsqpsqQbO06pmRVfOu67hD3987g+//aqDbuhBFvdMp1yMh06fZWumT7Bj31XYCCcPVO1j4ZbpmcUNCuPFQ9U/h1hlX85LmSeS9rPsCberwjCj+a6MhBEx2vZU0Q76xEEl21zoX2BOaEP7KNKcSz8dfYFDWdB114V/whtQAQ7caUtxxvnsD7nT7FNIW4Czkl8yRpTUMqKjjSGttt4DQO+/wkgdGQCjfOVlJG0VJGPeQk2O49KkYC7ynM93floR2NTjOUvYdShELU9YxDUwRVOgRtDiadVocU53ZGuzf1fr9KFs3QJGl04ztEFaSr5xP0XFlMf1WXlMmc0iQ53tu6cL38lc2H2xtQPa89pnfBblLI5mlc78+kNyCHqDweTq9Mmwun1JHc4F4dlceDwOmJckRygvNBY1/v6BKdgtk7CYNKsUoWmSN6ZrxZyEW3CSld1BAqi8icfOG51uxNY/rkUNZx5YVpj2DB+4KxOtmIlj8KcSe37Ad6VxeOqSHEwEm9nni46vyuDN5KAWWIys4dvCtZlQ7dODnYUBmQJptszOnuJkmNHA6C94vcWtoZSKHtdoA7dai5Vni7Bk3gTZOTY6AjZ6cPMa3KDRl3PTWN35MDCqe+OUqtijiXBPfgK/mdM4MoQjY/hXentNO8dId3v25ZEwMpz2Q+U5o2L5nOmceDGpiR4pmUQ0cPAvlsTVSL9+dsnvLttZLKdEglupU+/WupGEmiqSB3mqS6g6VlsfzX8iRjkzlH7iS2VRWJVqtCiBpXcyflqVuvPHztiUzFciVIzWVyJzFN9FP7vChOobOSygGOZ7t91aGp+SgtEIpWAqtxWgnI7c7V8ao6MudePenXaSU4TZgkVOL0HuxsVq1TvCeZOuMLtQkl6gniXefaqJJa9h7AHtwgZF8pJlWAhMZJOIRatAt2O6/T72DKIFUSM6RFp6RDBGadoU98XaGJMapFrvGTg3sC3g7dqg0lECXendZrpbji7SpQPBXTkyzqyHHkKZnhbkqUOblhnSCM9uTRbTolopAb84RXybz25oSUgu5ZzXUKnX45cT0flVLklN3yMUl8FZFyV8mJScNOlamUoN3YBDkEUdF5awJxJ1tPq0ZnUDd+7THtbDqBcVc3n+gCq/3amL4PYX3i3X2OJsvuwDtbIlP0NHN3Yx1PZgxtRpzvb5EJOM3cSkE6r2jyBeed8R8B3NNLbRzQkwAAAABJRU5ErkJggg==",
+        "contentType": "image/png",
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          64,
+          101,
+          235,
+          255
+         ],
+         "width": 0.4
+        },
+        "width": 45.75,
+        "height": 45.75,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xscale": 1,
+        "yscale": 1
+       },
+       "values": [
+        [
+         "P-GP2: Semi-Remote Lake"
+        ]
+       ]
+      },
+      {
+       "label": "P-GP: Great Pond Protection",
+       "description": "P-GP: Great Pond Protection",
+       "symbol": {
+        "type": "esriPFS",
+        "url": "6abd653222a30bafaa70f0bbc52fa056",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAAD0AAAA9CAYAAAAeYmHpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADyElEQVRogbVZa47cMAhOJe6QPVqP2KPVp+hqpI7k9cL3gCw/RoltMJiPhzNxXdd1//n7b/3++HU1KOPdxxzZEz0cGfH62RdVTJUh2dp9jMmq+PZ16BDPd2Tw/X9tVBsjYYo3kHIIGZkuaG+mS7ZvqKd+CmAQrt6VtU+GWyYnGLQrD1XPKvyQYRW/8lzJvLc1X+CtehyRCj810SkHrei4tjWheGcnJdFV61xod2Cu8Ee2sQrxbPw91kUN8qAL74o/mBJIWafsVLIdb07g/aJvMa1C3IUckzlJWt2QigqOao1FGziNwznfSWBqSIUbZzsxo9RSpnrISbDoPSpGBd5dmJ/vzEMnGp1mKHsPpogKUdczDnURVOkQanPQ6bQQUpzbmdq9qQcUaoZWkgYaPyHKIF09T9Czspj+qS4pk9mlTnK8j3Xhevknmw+3N1D1XGdMn4LdpJDNq3F9Piu9gXKIzOPh9Mpqc+GUOiU3uFdH5vFQ4PREOVJygvNBAxnKKJCC2bsSBsgQpewxmZWeGW8WcoE2UUqXaogqS5HZ+cKz9uytxvTkUCrjMy90ewQL3kuM1c5GavlTIe7klvNA7+rC0TVEMbBTrzserjq/lcFbNZKVEoYU95MPkunmCXqfRrH+pk4eYDWU7eMejgTvN7m1FBmoQtvtAE9CqFk7vF2DOvBWk5NjoCPnpC8xzcqNMu56qhu/kwMKp745Su2KOJcE9+Ar+ciZoSiibD6FN1LaaV7Q4d3vW1bHQJWnM58prTYvmc6Zx0M1MCPG0ymHjh4K5LM1US0+n7N5le+slapMh1ii2+nbv5aMUUk0FeSmSQodrFoWy38tJxlbmXPkdmKbVZFASlVC2Dibm5QntJ55eJ2JjMVyJYjNZXI7Ma3ox/Z5U0yhsxPLAY5n0b7s0Nh8VAYwRSuB1bhaCZTbnavjqjoy517d6dfVSjBNmEqoxPQe7GxWrWO8k0yd8QXbRCXVE4p3nWsjS2rZeygGqQ1C9pWiUwWU0JiEQ7BFp2C385p+B2MGsZKYIS2Qkg4pMEOGPvF1RU2MUS1yje8c3BPwduhmbagCUcW73XrNFGe8qALFUzHdyaKOHEcekxnupooykxvWBGFqTx5o0y4pCrkxr/AymetsTpRSgJ7ZHFJo+uXE9XxUSimn7JaPTuKrSCl3lZzoNOyqMpUSajfWQY6CqEDe6kDcydbdqoEMQuPrjGln0w6MUd18ogus9oMxfQ9hPfHuOacmS3TgyJbIFJ1mbjSGeDJj1GbE+f4WmYBp5mYKqvOMOl9wXoyfTx8fIZdkxWoAAAAASUVORK5CYII=",
+        "contentType": "image/png",
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          23,
+          168,
+          232,
+          255
+         ],
+         "width": 0.4
+        },
+        "width": 45.75,
+        "height": 45.75,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xscale": 1,
+        "yscale": 1
+       },
+       "values": [
+        [
+         "P-GP: Great Pond"
+        ]
+       ]
+      },
+      {
+       "label": "P-MA: Mountain Area Protection",
+       "description": "P-MA: Mountain Area Protection",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSCross",
+        "color": [
+         80,
+         92,
+         230,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          178,
+          178,
+          178,
+          255
+         ],
+         "width": 0.1
+        }
+       },
+       "values": [
+        [
+         "P-MA: Mountain Area"
+        ]
+       ]
+      },
+      {
+       "label": "P-RP: Resource Plan Protection",
+       "description": "P-RP: Resource Plan Protection",
+       "symbol": {
+        "type": "esriPFS",
+        "url": "099896f44e63ab3c128c6cf033bdddf0",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAALklEQVQokWNhIBGwkK3hfyjDf8bVDIyE+CwwAWRJfHwWsp1ELGCBMUb9wIA7XgCWjSFGCtW0nwAAAABJRU5ErkJggg==",
+        "contentType": "image/png",
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          230,
+          76,
+          0,
+          255
+         ],
+         "width": 2
+        },
+        "width": 9,
+        "height": 9,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xscale": 1,
+        "yscale": 1
+       },
+       "values": [
+        [
+         "P-RP: Resource Plan"
+        ]
+       ]
+      },
+      {
+       "label": "P-RR100: Recreation - 100' Protection",
+       "description": "P-RR100: Recreation - 100' Protection",
+       "symbol": {
+        "type": "esriPFS",
+        "url": "be5e881b8cefe17cc2bbf9d2d80961f7",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAGEUlEQVR4nL1c7bEbKwx1ZrYjekoLqSEtpCdqSmZn4jsYSzofwlc/8mwWhEDS0YH1fdfj8XjM3z//jl9/fjwMmcHYtU3R3bHjhI59bKZrbb/uf9RB6+cR9F3bkK5s3Nqvcsj+vdo85Oz9WaZrbb+yh5VhjIdnsdBqEZEt1dzIFsXZlS2ZXGw07MpRmo7kO9P3ZBpmeph1o4i95VIGMBE5yRSrNikbz3xmN4xxUGTH3vaSwmwkspPegjYJRRvjNHUzMmGdurZdSvWpnk1Ch5q+Tior452ohFUYLQoVhhmEumJgtSA1hZEDHYfDKowWhdqHWBCUKOukMOrnOvzqkEhGkM5OwXBhQ9VR9fuiMezClGiaIsaoBYMpWKjNLXpfGNipYBNsEEtvnMhBtiiFMROm6F1qBWOjcZfKEBQlu9cV4l7py3RVdq1S8sBsAoXezAOXA9GcSqShze7Y/IKByHjnhDHEIqQcFbMNuL87J5NMH7IlxEAnRZ6CDGapRPaZiZAOrkfzVBEb8kCl7LNyIpXdwuRwUdbetw08jRlT2HCVe7J2nohYmkh3AHn+f67goHJMzGxg9assg5kjJdLR4llPDoH+MFiqFgUmElkMz4Lo2UYVkRMUZRB4pFTGvf8pjEVzW0Wk8oC6KQwVQjqj/tmcEaw4pyD5MiFrQxEyCX6INgDpRLZG8yuprGQljYGdDb6l8j6KCNWJjrBOgRio4NAQqmE0BkVHB4t356hOYtvS15qZKOV/iJi293UWuY894aRK4FmYBfoBqiwC8Kqiuk5jhBkvn4XXjizQPwV5UwFzpJPZaDaFq0is7EzfibC0hNksld0zOiOpolmtvDKNyQzODMrap4iFVUQp0OKSagUDo74vGIgoCNM+xAhy8a6z2a49OxTc/6XeiTgLVFMYYa66QaeOeWiDy/fCXaKspHC1AQqHqxxR6XHpTHmUY6PmARajPI82gKFRmc1sNXXt/NpAJ8wHGONQJMUOJq2VIGCzY527vJF2jk6PwhAmXV1BRSbr6xamp7z9OkvlS09hDOkWiMpJCp65zopIefjrrGoRTLtaeat2BwtZNuCeSD7666wT+KRGCLtBTIqqaRxWYTeyJvBoBwMZ+9A8J6Wswi5+DOBRJeKqeZEDlLSMvjN90irMLK6aqGPk2naKzkTPT6ZySaRXYe/uOkZmbeoBn9n8br8yhRHDVxe5isItP1lxWYegAKFeazIyGgY5VCLrm+nsblgmFI1hyewMiKZTzRUq0U15ZcMiveHfiVRGMukzkuhxIgktAtEk94hX7UN5EnHPpZNIpWrTWJqhYrOSAYzj7b/WRDIMJ5xIYUUYaInmrPpSL5VYDHwKG01VWyYsbWHuCtW5IzmGgbNRDZXoZaOT1alkHHUb43pkiDrU6GUinz0jK/bLtzEn8GYQi1Mxkhmr4Bq7mUgn9bdyKg98HKYPSJz7SgeHo/Wl70QY7w+RUjhFh1kMS3kqUVJ4/fz246LT0TADA7pYtPfLxiu2ZTpQpL69WO+m8RCqrlv93TRmK3gl+5jyLOykscL1FAoRCXM0VPQqZ2j5PlCRIUbd/owtVJXzTlOxzEHwPtCpwM55c32mQsKqi62uKmG37wOdCuzwMkeYiqsWK1XgT3w/eTZdxeGhKl6dOP2UVdhJ10GmGNrk6rtSjVkbmLEIXqi/WI8mVrw7RRxUpHM+7s59y0sR+W4MekoF+qgwMZGpFArnUFGeRJDCIWAaaxDSz0aME11OppUnEZVCTBCRndRVo+N02mY0yUphhr+twhSNqm/Un80apCcbw2ZbuIGd1EX9lQU65NyhUB2oCK/0T0fLKi4/q9qQdNO5CijqB5aZskGkjVo4FB2fmFflqNeJ9B1kf2ZRCl6yFAfpZ+bKBL4T6VKBVVQ8i4S9jM2EpVZs1ZersEIDZqNgOPjataFqT6uwyosUcjwavI0dq0JOFzfpywTmu7JQZSHZ2IjvqRCg4ibC9PJ/g9w1rhK1uOxjPgEj6vP2ZcKpo1fWz+FpnRRW5gwxUE3hKaSsM47dWCUy0YaiNN4/v2CgmsLDxLXvSl9Gf2fue+w/Kxv3m1Sjf7EAAAAASUVORK5CYII=",
+        "contentType": "image/png",
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          168,
+          112,
+          0,
+          255
+         ],
+         "width": 0.4
+        },
+        "width": 60,
+        "height": 60,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xscale": 1,
+        "yscale": 1
+       },
+       "values": [
+        [
+         "P-RR100: Recreation - 100'"
+        ]
+       ]
+      },
+      {
+       "label": "P-RR200: Recreation - 200' Protection",
+       "description": "P-RR200: Recreation - 200' Protection",
+       "symbol": {
+        "type": "esriPFS",
+        "url": "b272ccced3f80c13a8cdbb81abecaecb",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACu0lEQVR4nNVaW27EIAyk0pwiZ9rj9ky5xlb7gURTHn6MDZ2fzUZkbAwxfgQlCPervOv19V2+ouT05GrkQUJomQR70tKJfcZojICeoCehRZEZLBya8RojoFVKIoixsjMO646TyngaBhKlJGAo3irH2Gk9PDnBIM1QXKrH55fuBK+kCdV3t15nLAIkSjEU13jxkgiwiDKc58yI1t2DnpAeya7AJtrIkL5H7X2vMbKNOds50JJZFV4FWLPxUTHBHwN4vPAKu0PpEcASPNtmO2ODGe5XeaecAtGT9yRsKP8QzIQNEmERr4WVj30cYuVtPRPQ5uarSUYkbOid78xVmxnheT8yqRpxo1XUQ2oxAmuCHmPBI5hdpbEmVZ6EDRLlo6s0mjFen+Q6Be5DAxoPEC0gKrRmAfVitLo7qjSZwAmhbASk2SRGD0snza7SsAInaf0CXgXYXls7+dUrtuLDiDAap/gEaAZnVWk0HN5TBszttANenTArgO5AVMF0tKhgC2oFWrijjE+rCo9walvd9ApocEpb3QpUYqsRIqo0mTyoFysjRGw/Zq7Q8vTuqxojF+EI3BXo9HxPe3/4hUgFS2lPlaYFa2eM/qNsRobzFJ0ChfB9z6lt9WVf4HI6opPb6qs5oSTBG2dYeZanwEXIqBgcM+4SCLCEeFaYeQJofRGsyrHArEVafBGsyu0GK3RHCUJ0W51VwodVQYkyFu7s5AwWQe34HW11JvCcTEYFx9tWZwJPgVGCrHK8RqBEgrejN2h57onZ895PfLASbs0VshqjvfNdIwvlUGgnY/VFkBDPlPnPbfVL+qGkNVw9JZKcLQTaAaNBGkGMPJ2ZXa52E1hFi91t9a1xwH1AW93qixCo6y/lWoU8XLPXRvuMKhCSFC1OaatrdiQkg6QVG2+h08Mz0mkFeAh2ltJ6sPiiHyJFnYn8EzUGAAAAAElFTkSuQmCC",
+        "contentType": "image/png",
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          230,
+          0,
+          0,
+          255
+         ],
+         "width": 0.4
+        },
+        "width": 48,
+        "height": 48,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xscale": 1,
+        "yscale": 1
+       },
+       "values": [
+        [
+         "P-RR200: Recreation - 200'"
+        ]
+       ]
+      },
+      {
+       "label": "Recreation Protection",
+       "description": "Recreation Protection",
+       "symbol": {
+        "type": "esriPFS",
+        "url": "0f0f8ebeaeefec20477fcabc014759b3",
+        "imageData": "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",
+        "contentType": "image/png",
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          92,
+          230,
+          255
+         ],
+         "width": 2
+        },
+        "width": 60,
+        "height": 60,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xscale": 1,
+        "yscale": 1
+       },
+       "values": [
+        [
+         "P-RR: Recreation"
+        ]
+       ]
+      },
+      {
+       "label": "P-RT: Special River Protection",
+       "description": "P-RT: Special River Protection",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         207,
+         151,
+         205,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          204,
+          204,
+          204,
+          255
+         ],
+         "width": 0.1
+        }
+       },
+       "values": [
+        [
+         "P-RT: Special River"
+        ]
+       ]
+      },
+      {
+       "label": "P-SG: Soils and Geology Protection",
+       "description": "P-SG: Soils and Geology Protection",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         188,
+         0,
+         0,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          188,
+          0,
+          0,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "P-SG: Soils and Geology"
+        ]
+       ]
+      },
+      {
+       "label": "P-SL1: Shoreland - 250' Protection",
+       "description": "P-SL1: Shoreland - 250' Protection",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          112,
+          255,
+          255
+         ],
+         "width": 2
+        }
+       },
+       "values": [
+        [
+         "P-SL1: Shoreland - 250'"
+        ]
+       ]
+      },
+      {
+       "label": "P-SL2: Shoreland - 75' Protection",
+       "description": "P-SL2: Shoreland - 75' Protection",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          77,
+          168,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "P-SL2: Shoreland - 75'"
+        ]
+       ]
+      },
+      {
+       "label": "P-UA: Unusual Area Protection",
+       "description": "P-UA: Unusual Area Protection",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          132,
+          0,
+          168,
+          255
+         ],
+         "width": 2
+        }
+       },
+       "values": [
+        [
+         "P-UA: Unusual Area"
+        ]
+       ]
+      },
+      {
+       "label": "P-WL1: Wetlands of Special Significance Protection",
+       "description": "P-WL1: Wetlands of Special Significance Protection",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         0,
+         168,
+         132,
+         255
+        ],
+        "outline": null
+       },
+       "values": [
+        [
+         "P-WL1: Wetlands of Special Significance"
+        ]
+       ]
+      },
+      {
+       "label": "P-WL2: Scrub-shrub Wetlands Protection",
+       "description": "P-WL2: Scrub-shrub Wetlands Protection",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         170,
+         255,
+         0,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "P-WL2: Scrub-shrub Wetlands"
+        ]
+       ]
+      },
+      {
+       "label": "P-WL3: Forested Wetlands Protection",
+       "description": "P-WL3: Forested Wetlands Protection",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         233,
+         255,
+         190,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "values": [
+        [
+         "P-WL3: Forested Wetlands"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       197,
+       0,
+       255,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.5
+      }
+     },
+     "value": "D-CI: Commercial Industrial",
+     "label": "D-CI: Commercial Industrial Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       168,
+       0,
+       132,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "D-ES: Extended Settlement",
+     "label": "D-ES: Extended Settlement Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       115,
+       223,
+       255
+      ],
+      "outline": null
+     },
+     "value": "D-GN2: Community Center",
+     "label": "D-GN2: Community Center Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       230,
+       152,
+       0,
+       255
+      ],
+      "outline": null
+     },
+     "value": "D-GN3: Rural Settlement",
+     "label": "D-GN3: Rural Settlement Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSBackwardDiagonal",
+      "color": [
+       255,
+       0,
+       197,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        255,
+        0,
+        197,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "D-GN: General",
+     "label": "D-GN: General Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       205,
+       102,
+       102,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "D-LD: Low-Density Development",
+     "label": "D-LD: Low-Density Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSBackwardDiagonal",
+      "color": [
+       115,
+       223,
+       255,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        169,
+        230,
+        255
+       ],
+       "width": 1
+      }
+     },
+     "value": "D-MT1: Maritime 1",
+     "label": "D-MT1: Maritime Development 1"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSDiagonalCross",
+      "color": [
+       0,
+       92,
+       230,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        92,
+        230,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "D-MT2: Maritime 2",
+     "label": "D-MT2: Maritime Development 2"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       231,
+       158,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        178,
+        178,
+        178,
+        255
+       ],
+       "width": 0.1
+      }
+     },
+     "value": "D-PD: Planned",
+     "label": "D-PD: Planned Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        255,
+        231,
+        158,
+        255
+       ],
+       "width": 2
+      }
+     },
+     "value": "D-PR: Planned Recreation Facility",
+     "label": "D-PR: Planned Recreation Facility Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSBackwardDiagonal",
+      "color": [
+       132,
+       0,
+       168,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "D-RB: Rural Business",
+     "label": "D-RB: Rural Business Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       112,
+       168,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "D-RD: Resource Dependent Development",
+     "label": "D-RD: Resource-Dependent Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       168,
+       132,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        107,
+        126,
+        147,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "D-RF: Recreation Facility",
+     "label": "D-RF: Recreation Facility Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       245,
+       122,
+       122,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        178,
+        178,
+        178,
+        255
+       ],
+       "width": 0.1
+      }
+     },
+     "value": "D-RS2: Community Residential",
+     "label": "D-RS2: Community Residential Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       190,
+       232,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        107,
+        126,
+        147,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "D-RS3: Residential Recreation",
+     "label": "D-RS3: Residential Recreation Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       190,
+       190,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "D-RS: Residential",
+     "label": "D-RS: Residential Development"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        204,
+        204,
+        204,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "M-GN: General",
+     "label": "M-GN: General Management"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        204,
+        204,
+        204,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "M-HP: Highly Productive",
+     "label": "M-HP: Highly Productive Management"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        204,
+        204,
+        204,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "M-NC: Natural Character",
+     "label": "M-NC: Natural Character Management"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       149,
+       216,
+       237,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        204,
+        204,
+        204,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "P-AL: Accessible Lake",
+     "label": "P-AL: Accessible Lake Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSDiagonalCross",
+      "color": [
+       230,
+       152,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        230,
+        152,
+        0,
+        255
+       ],
+       "width": 1.7
+      }
+     },
+     "value": "P-AR: Aquifer",
+     "label": "P-AR: Aquifer Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriPFS",
+      "url": "bbb6240797e878bb2cc906a80ce971f4",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADMklEQVRogbVaUbLkIAjMq+IUnvAdaU/oNd5Wtma2HB423WD4mwQRFejGjM0/18/1kvF9fV1A3rqZ3omxrP5M/Lf1oTfqf1c24H52/15tejuRk8omDqBrSFFdUKTP2LyfrYv0c0QbxvpoygKyBSlhxW6msunzZXf1Ay5QPVEU7shOtOCKjCgH/URIWdFFYbWOX/OTtZ9FyliewxxEDmYLyOwq0aCOXcWYvNnloH9/MuSUaELzfsBEJuypMTDgBRWw3cbOpKLe7y1SZk6gi1MKxrIb6eWjimbYkiW9GpLVEM4K1uXEFId2YKwseOcgGz1qwTLkhErVmAkzB09Ex8yAPltQRp8yfeYdU93nZuwHDqIKFQ1gfit8USkgTNUcbuO3MMGEBYuLzBhG1Mo+1hBFiR6R7ohiKaShGs6RHxcYT8EEG5LsqVc3gImU4ZlM5hDjpFIkmNw6KXaiyVT6u3XMW08lFsjmYE4wclblngqMMDYjmYTd/zCRGe1wzyxX1D50h9MjItsqAKP31SuLLnFHEsIEUzhYTljJTz9XVXfsugl1EiY/kS3mxgDZGgAXJZjosB4UzhWGwvph64Qq5armb8f2Tv9S+sGqg+hm+1TRUQ/CIqUq26gCcqeKzgRzYYiybEPFz24VRX4Nf7Ot3kCvz5/gjwpx38nHCSqFopL4flylm2CuFKUiw0h2UaRuxqkW6hYqRCtMZtVTsCqbq0MS7AQPVE9PrcidJsD8xNGg0w1pZwNYXL2Ur0tMaJy8+e6c2C00Dirg3K2MnXvQyVC1bNcVcGb0K1U36ya8/Gt4fz0t8sdbTuVpBzZW2cIEk3NV3hk9Y21Xip0pu6EYVsaxeYfybxfC0t9IunpvUcK/0sGMqIpWHEWTdL5BnBRbf6Ciod6idfIIzauSAHvyaw8zRq2YiJuOCAefyBul2j2xsXNXZCrfAyJ9NSfZDWH1xq7IIAfVyZTunw1blXxMz2RQ8vr31ep4sjOZBD+mOvrKiXYWcTJ/rXqXyU52YuG+u1dsGBvr1a9JJ/KZ3aCZfZtQgXu34Cdu0hgZqB9EDndzQgV3VqbyhVcty+tpZbqK3a6OX/Rfj+gzqGFyyZ8AAAAASUVORK5CYII=",
+      "contentType": "image/png",
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        168,
+        112,
+        0,
+        255
+       ],
+       "width": 1.5
+      },
+      "width": 42,
+      "height": 42,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "xscale": 1,
+      "yscale": 1
+     },
+     "value": "P-FP: Flood Prone",
+     "label": "P-FP: Flood Prone Area Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSDiagonalCross",
+      "color": [
+       132,
+       2,
+       168,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        197,
+        0,
+        255,
+        255
+       ],
+       "width": 0.1
+      }
+     },
+     "value": "P-FW: Fish and Wildlife",
+     "label": "P-FW: Fish and Wildlife Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriPFS",
+      "url": "2ff8e0855e3b3f63d77a20e4b7c6f0fe",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAAD0AAAA9CAYAAAAeYmHpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAD00lEQVRogbWZzY3cMAyF90AgJbqTFJEGUoNrShe55ZRggQyg1ZJ836O8PAxsSaRI8fFHnvj56/ff+8eft+v7t7cJZbzrmCP7RA9HRrz/rIsqpsqQbO06pmRVfOu67hD3987g+//aqDbuhBFvdMp1yMh06fZWumT7Bj31XYCCcPVO1j4ZbpmcUNCuPFQ9U/h1hlX85LmSeS9rPsCberwjCj+a6MhBEx2vZU0Q76xEEl21zoX2BOaEP7KNKcSz8dfYFDWdB114V/whtQAQ7caUtxxvnsD7nT7FNIW4Czkl8yRpTUMqKjjSGttt4DQO+/wkgdGQCjfOVlJG0VJGPeQk2O49KkYC7ynM93floR2NTjOUvYdShELU9YxDUwRVOgRtDiadVocU53ZGuzf1fr9KFs3QJGl04ztEFaSr5xP0XFlMf1WXlMmc0iQ53tu6cL38lc2H2xtQPa89pnfBblLI5mlc78+kNyCHqDweTq9Mmwun1JHc4F4dlceDwOmJckRygvNBY1/v6BKdgtk7CYNKsUoWmSN6ZrxZyEW3CSld1BAqi8icfOG51uxNY/rkUNZx5YVpj2DB+4KxOtmIlj8KcSe37Ad6VxeOqSHEwEm9nni46vyuDN5KAWWIys4dvCtZlQ7dODnYUBmQJptszOnuJkmNHA6C94vcWtoZSKHtdoA7dai5Vni7Bk3gTZOTY6AjZ6cPMa3KDRl3PTWN35MDCqe+OUqtijiXBPfgK/mdM4MoQjY/hXentNO8dId3v25ZEwMpz2Q+U5o2L5nOmceDGpiR4pmUQ0cPAvlsTVSL9+dsnvLttZLKdEglupU+/WupGEmiqSB3mqS6g6VlsfzX8iRjkzlH7iS2VRWJVqtCiBpXcyflqVuvPHztiUzFciVIzWVyJzFN9FP7vChOobOSygGOZ7t91aGp+SgtEIpWAqtxWgnI7c7V8ao6MudePenXaSU4TZgkVOL0HuxsVq1TvCeZOuMLtQkl6gniXefaqJJa9h7AHtwgZF8pJlWAhMZJOIRatAt2O6/T72DKIFUSM6RFp6RDBGadoU98XaGJMapFrvGTg3sC3g7dqg0lECXendZrpbji7SpQPBXTkyzqyHHkKZnhbkqUOblhnSCM9uTRbTolopAb84RXybz25oSUgu5ZzXUKnX45cT0flVLklN3yMUl8FZFyV8mJScNOlamUoN3YBDkEUdF5awJxJ1tPq0ZnUDd+7THtbDqBcVc3n+gCq/3amL4PYX3i3X2OJsvuwDtbIlP0NHN3Yx1PZgxtRpzvb5EJOM3cSkE6r2jyBeed8R8B3NNLbRzQkwAAAABJRU5ErkJggg==",
+      "contentType": "image/png",
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        64,
+        101,
+        235,
+        255
+       ],
+       "width": 0.4
+      },
+      "width": 45.75,
+      "height": 45.75,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "xscale": 1,
+      "yscale": 1
+     },
+     "value": "P-GP2: Semi-Remote Lake",
+     "label": "P-GP2: Semi-Remote Lake Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriPFS",
+      "url": "6abd653222a30bafaa70f0bbc52fa056",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAAD0AAAA9CAYAAAAeYmHpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADyElEQVRogbVZa47cMAhOJe6QPVqP2KPVp+hqpI7k9cL3gCw/RoltMJiPhzNxXdd1//n7b/3++HU1KOPdxxzZEz0cGfH62RdVTJUh2dp9jMmq+PZ16BDPd2Tw/X9tVBsjYYo3kHIIGZkuaG+mS7ZvqKd+CmAQrt6VtU+GWyYnGLQrD1XPKvyQYRW/8lzJvLc1X+CtehyRCj810SkHrei4tjWheGcnJdFV61xod2Cu8Ee2sQrxbPw91kUN8qAL74o/mBJIWafsVLIdb07g/aJvMa1C3IUckzlJWt2QigqOao1FGziNwznfSWBqSIUbZzsxo9RSpnrISbDoPSpGBd5dmJ/vzEMnGp1mKHsPpogKUdczDnURVOkQanPQ6bQQUpzbmdq9qQcUaoZWkgYaPyHKIF09T9Czspj+qS4pk9mlTnK8j3Xhevknmw+3N1D1XGdMn4LdpJDNq3F9Piu9gXKIzOPh9Mpqc+GUOiU3uFdH5vFQ4PREOVJygvNBAxnKKJCC2bsSBsgQpewxmZWeGW8WcoE2UUqXaogqS5HZ+cKz9uytxvTkUCrjMy90ewQL3kuM1c5GavlTIe7klvNA7+rC0TVEMbBTrzserjq/lcFbNZKVEoYU95MPkunmCXqfRrH+pk4eYDWU7eMejgTvN7m1FBmoQtvtAE9CqFk7vF2DOvBWk5NjoCPnpC8xzcqNMu56qhu/kwMKp745Su2KOJcE9+Ar+ciZoSiibD6FN1LaaV7Q4d3vW1bHQJWnM58prTYvmc6Zx0M1MCPG0ymHjh4K5LM1US0+n7N5le+slapMh1ii2+nbv5aMUUk0FeSmSQodrFoWy38tJxlbmXPkdmKbVZFASlVC2Dibm5QntJ55eJ2JjMVyJYjNZXI7Ma3ox/Z5U0yhsxPLAY5n0b7s0Nh8VAYwRSuB1bhaCZTbnavjqjoy517d6dfVSjBNmEqoxPQe7GxWrWO8k0yd8QXbRCXVE4p3nWsjS2rZeygGqQ1C9pWiUwWU0JiEQ7BFp2C385p+B2MGsZKYIS2Qkg4pMEOGPvF1RU2MUS1yje8c3BPwduhmbagCUcW73XrNFGe8qALFUzHdyaKOHEcekxnupooykxvWBGFqTx5o0y4pCrkxr/AymetsTpRSgJ7ZHFJo+uXE9XxUSimn7JaPTuKrSCl3lZzoNOyqMpUSajfWQY6CqEDe6kDcydbdqoEMQuPrjGln0w6MUd18ogus9oMxfQ9hPfHuOacmS3TgyJbIFJ1mbjSGeDJj1GbE+f4WmYBp5mYKqvOMOl9wXoyfTx8fIZdkxWoAAAAASUVORK5CYII=",
+      "contentType": "image/png",
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        23,
+        168,
+        232,
+        255
+       ],
+       "width": 0.4
+      },
+      "width": 45.75,
+      "height": 45.75,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "xscale": 1,
+      "yscale": 1
+     },
+     "value": "P-GP: Great Pond",
+     "label": "P-GP: Great Pond Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSCross",
+      "color": [
+       80,
+       92,
+       230,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        178,
+        178,
+        178,
+        255
+       ],
+       "width": 0.1
+      }
+     },
+     "value": "P-MA: Mountain Area",
+     "label": "P-MA: Mountain Area Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriPFS",
+      "url": "099896f44e63ab3c128c6cf033bdddf0",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAALklEQVQokWNhIBGwkK3hfyjDf8bVDIyE+CwwAWRJfHwWsp1ELGCBMUb9wIA7XgCWjSFGCtW0nwAAAABJRU5ErkJggg==",
+      "contentType": "image/png",
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        230,
+        76,
+        0,
+        255
+       ],
+       "width": 2
+      },
+      "width": 9,
+      "height": 9,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "xscale": 1,
+      "yscale": 1
+     },
+     "value": "P-RP: Resource Plan",
+     "label": "P-RP: Resource Plan Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriPFS",
+      "url": "be5e881b8cefe17cc2bbf9d2d80961f7",
+      "imageData": "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",
+      "contentType": "image/png",
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        168,
+        112,
+        0,
+        255
+       ],
+       "width": 0.4
+      },
+      "width": 60,
+      "height": 60,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "xscale": 1,
+      "yscale": 1
+     },
+     "value": "P-RR100: Recreation - 100'",
+     "label": "P-RR100: Recreation - 100' Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriPFS",
+      "url": "b272ccced3f80c13a8cdbb81abecaecb",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACu0lEQVR4nNVaW27EIAyk0pwiZ9rj9ky5xlb7gURTHn6MDZ2fzUZkbAwxfgQlCPervOv19V2+ouT05GrkQUJomQR70tKJfcZojICeoCehRZEZLBya8RojoFVKIoixsjMO646TyngaBhKlJGAo3irH2Gk9PDnBIM1QXKrH55fuBK+kCdV3t15nLAIkSjEU13jxkgiwiDKc58yI1t2DnpAeya7AJtrIkL5H7X2vMbKNOds50JJZFV4FWLPxUTHBHwN4vPAKu0PpEcASPNtmO2ODGe5XeaecAtGT9yRsKP8QzIQNEmERr4WVj30cYuVtPRPQ5uarSUYkbOid78xVmxnheT8yqRpxo1XUQ2oxAmuCHmPBI5hdpbEmVZ6EDRLlo6s0mjFen+Q6Be5DAxoPEC0gKrRmAfVitLo7qjSZwAmhbASk2SRGD0snza7SsAInaf0CXgXYXls7+dUrtuLDiDAap/gEaAZnVWk0HN5TBszttANenTArgO5AVMF0tKhgC2oFWrijjE+rCo9walvd9ApocEpb3QpUYqsRIqo0mTyoFysjRGw/Zq7Q8vTuqxojF+EI3BXo9HxPe3/4hUgFS2lPlaYFa2eM/qNsRobzFJ0ChfB9z6lt9WVf4HI6opPb6qs5oSTBG2dYeZanwEXIqBgcM+4SCLCEeFaYeQJofRGsyrHArEVafBGsyu0GK3RHCUJ0W51VwodVQYkyFu7s5AwWQe34HW11JvCcTEYFx9tWZwJPgVGCrHK8RqBEgrejN2h57onZ895PfLASbs0VshqjvfNdIwvlUGgnY/VFkBDPlPnPbfVL+qGkNVw9JZKcLQTaAaNBGkGMPJ2ZXa52E1hFi91t9a1xwH1AW93qixCo6y/lWoU8XLPXRvuMKhCSFC1OaatrdiQkg6QVG2+h08Mz0mkFeAh2ltJ6sPiiHyJFnYn8EzUGAAAAAElFTkSuQmCC",
+      "contentType": "image/png",
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        230,
+        0,
+        0,
+        255
+       ],
+       "width": 0.4
+      },
+      "width": 48,
+      "height": 48,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "xscale": 1,
+      "yscale": 1
+     },
+     "value": "P-RR200: Recreation - 200'",
+     "label": "P-RR200: Recreation - 200' Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriPFS",
+      "url": "0f0f8ebeaeefec20477fcabc014759b3",
+      "imageData": "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",
+      "contentType": "image/png",
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        92,
+        230,
+        255
+       ],
+       "width": 2
+      },
+      "width": 60,
+      "height": 60,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "xscale": 1,
+      "yscale": 1
+     },
+     "value": "P-RR: Recreation",
+     "label": "Recreation Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       207,
+       151,
+       205,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        204,
+        204,
+        204,
+        255
+       ],
+       "width": 0.1
+      }
+     },
+     "value": "P-RT: Special River",
+     "label": "P-RT: Special River Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       188,
+       0,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        188,
+        0,
+        0,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "P-SG: Soils and Geology",
+     "label": "P-SG: Soils and Geology Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        112,
+        255,
+        255
+       ],
+       "width": 2
+      }
+     },
+     "value": "P-SL1: Shoreland - 250'",
+     "label": "P-SL1: Shoreland - 250' Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        77,
+        168,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "P-SL2: Shoreland - 75'",
+     "label": "P-SL2: Shoreland - 75' Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        132,
+        0,
+        168,
+        255
+       ],
+       "width": 2
+      }
+     },
+     "value": "P-UA: Unusual Area",
+     "label": "P-UA: Unusual Area Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       168,
+       132,
+       255
+      ],
+      "outline": null
+     },
+     "value": "P-WL1: Wetlands of Special Significance",
+     "label": "P-WL1: Wetlands of Special Significance Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       170,
+       255,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "P-WL2: Scrub-shrub Wetlands",
+     "label": "P-WL2: Scrub-shrub Wetlands Protection"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       233,
+       255,
+       190,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "P-WL3: Forested Wetlands",
+     "label": "P-WL3: Forested Wetlands Protection"
+    }
+   ],
+   "fieldDelimiter": ",",
+   "authoringInfo": {
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        210,
+        232,
+        255
+       ],
+       "toColor": [
+        252,
+        210,
+        232,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        179,
+        252,
+        179,
+        255
+       ],
+       "toColor": [
+        179,
+        252,
+        179,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        192,
+        250,
+        252,
+        255
+       ],
+       "toColor": [
+        192,
+        250,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        234,
+        187,
+        255
+       ],
+       "toColor": [
+        252,
+        234,
+        187,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        182,
+        188,
+        252,
+        255
+       ],
+       "toColor": [
+        182,
+        188,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        249,
+        182,
+        252,
+        255
+       ],
+       "toColor": [
+        249,
+        182,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        215,
+        252,
+        216,
+        255
+       ],
+       "toColor": [
+        215,
+        252,
+        216,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        207,
+        219,
+        252,
+        255
+       ],
+       "toColor": [
+        207,
+        219,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        233,
+        252,
+        179,
+        255
+       ],
+       "toColor": [
+        233,
+        252,
+        179,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        202,
+        182,
+        255
+       ],
+       "toColor": [
+        252,
+        202,
+        182,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        232,
+        199,
+        252,
+        255
+       ],
+       "toColor": [
+        232,
+        199,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        182,
+        199,
+        255
+       ],
+       "toColor": [
+        252,
+        182,
+        199,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        179,
+        227,
+        255
+       ],
+       "toColor": [
+        252,
+        179,
+        227,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        228,
+        215,
+        255
+       ],
+       "toColor": [
+        252,
+        228,
+        215,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        240,
+        252,
+        207,
+        255
+       ],
+       "toColor": [
+        240,
+        252,
+        207,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        182,
+        203,
+        252,
+        255
+       ],
+       "toColor": [
+        182,
+        203,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        215,
+        240,
+        252,
+        255
+       ],
+       "toColor": [
+        215,
+        240,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        182,
+        252,
+        229,
+        255
+       ],
+       "toColor": [
+        182,
+        252,
+        229,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        208,
+        207,
+        255
+       ],
+       "toColor": [
+        252,
+        208,
+        207,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        249,
+        182,
+        255
+       ],
+       "toColor": [
+        252,
+        249,
+        182,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        179,
+        252,
+        205,
+        255
+       ],
+       "toColor": [
+        179,
+        252,
+        205,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        218,
+        252,
+        197,
+        255
+       ],
+       "toColor": [
+        218,
+        252,
+        197,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        251,
+        215,
+        252,
+        255
+       ],
+       "toColor": [
+        251,
+        215,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        182,
+        228,
+        252,
+        255
+       ],
+       "toColor": [
+        182,
+        228,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        189,
+        190,
+        255
+       ],
+       "toColor": [
+        252,
+        189,
+        190,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        208,
+        189,
+        252,
+        255
+       ],
+       "toColor": [
+        208,
+        189,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        216,
+        207,
+        252,
+        255
+       ],
+       "toColor": [
+        216,
+        207,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        242,
+        215,
+        255
+       ],
+       "toColor": [
+        252,
+        242,
+        215,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        212,
+        252,
+        242,
+        255
+       ],
+       "toColor": [
+        212,
+        252,
+        242,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        192,
+        223,
+        255
+       ],
+       "toColor": [
+        252,
+        192,
+        223,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        227,
+        197,
+        255
+       ],
+       "toColor": [
+        252,
+        227,
+        197,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        199,
+        245,
+        255
+       ],
+       "toColor": [
+        252,
+        199,
+        245,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        184,
+        252,
+        243,
+        255
+       ],
+       "toColor": [
+        184,
+        252,
+        243,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        228,
+        182,
+        252,
+        255
+       ],
+       "toColor": [
+        228,
+        182,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        182,
+        242,
+        255
+       ],
+       "toColor": [
+        252,
+        182,
+        242,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        204,
+        252,
+        229,
+        255
+       ],
+       "toColor": [
+        204,
+        252,
+        229,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        197,
+        252,
+        197,
+        255
+       ],
+       "toColor": [
+        197,
+        252,
+        197,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        216,
+        179,
+        255
+       ],
+       "toColor": [
+        252,
+        216,
+        179,
+        255
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 30,
+  "labelingInfo": null
+ },
+ "hasM": false,
+ "hasZ": false,
+ "allowGeometryUpdates": false,
+ "allowTrueCurvesUpdates": true,
+ "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+ "hasAttachments": false,
+ "supportsApplyEditsWithGlobalIds": true,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "objectIdField": "OBJECTID",
+ "globalIdField": "GlobalID",
+ "displayField": "ZONE",
+ "typeIdField": "ZONE",
+ "subtypeField": "",
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null,
+   "editable": false,
+   "nullable": false,
+   "defaultValue": null,
+   "modelName": "OBJECTID"
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "SHAPE_Area",
+   "domain": null,
+   "editable": false,
+   "nullable": true,
+   "defaultValue": null,
+   "modelName": "Shape.STArea()",
+   "required": true
+  },
+  {
+   "name": "MAP",
+   "type": "esriFieldTypeString",
+   "alias": "MAP",
+   "domain": null,
+   "editable": true,
+   "nullable": true,
+   "length": 125,
+   "defaultValue": null,
+   "modelName": "TOWNNAME"
+  },
+  {
+   "name": "PANEL",
+   "type": "esriFieldTypeString",
+   "alias": "PANEL",
+   "domain": null,
+   "editable": true,
+   "nullable": true,
+   "length": 125,
+   "defaultValue": null,
+   "modelName": "EXTENT"
+  },
+  {
+   "name": "ZONE",
+   "type": "esriFieldTypeString",
+   "alias": "ZONE",
+   "domain": {
+    "type": "codedValue",
+    "name": "LUPC_Symb_Zones_Poly",
+    "description": "LUPC zone list for polygons",
+    "codedValues": [
+     {
+      "name": "D-CI: Commercial Industrial",
+      "code": "D-CI: Commercial Industrial"
+     },
+     {
+      "name": "D-ES: Extended Settlement",
+      "code": "D-ES: Extended Settlement"
+     },
+     {
+      "name": "D-GN: General",
+      "code": "D-GN: General"
+     },
+     {
+      "name": "D-GN2: Community Center",
+      "code": "D-GN2: Community Center"
+     },
+     {
+      "name": "D-GN3: Rural Settlement",
+      "code": "D-GN3: Rural Settlement"
+     },
+     {
+      "name": "D-MT1: Maritime 1",
+      "code": "D-MT1: Maritime 1"
+     },
+     {
+      "name": "D-MT2: Maritime 2",
+      "code": "D-MT2: Maritime 2"
+     },
+     {
+      "name": "D-PD: Planned",
+      "code": "D-PD: Planned"
+     },
+     {
+      "name": "D-PR: Planned Recreation Facility",
+      "code": "D-PR: Planned Recreation Facility"
+     },
+     {
+      "name": "D-RB: Rural Business",
+      "code": "D-RB: Rural Business"
+     },
+     {
+      "name": "D-RD: Resource Dependent Development",
+      "code": "D-RD: Resource Dependent Development"
+     },
+     {
+      "name": "D-RF: Recreation Facility",
+      "code": "D-RF: Recreation Facility"
+     },
+     {
+      "name": "D-RS: Residential",
+      "code": "D-RS: Residential"
+     },
+     {
+      "name": "D-RS2: Community Residential",
+      "code": "D-RS2: Community Residential"
+     },
+     {
+      "name": "D-RS3: Residential Recreation",
+      "code": "D-RS3: Residential Recreation"
+     },
+     {
+      "name": "FEMA",
+      "code": "FEMA"
+     },
+     {
+      "name": "LakesMgmtClass",
+      "code": "LakesMgmtClass"
+     },
+     {
+      "name": "M-GN: General",
+      "code": "M-GN: General"
+     },
+     {
+      "name": "M-HP: Highly Productive",
+      "code": "M-HP: Highly Productive"
+     },
+     {
+      "name": "M-NC: Natural Character",
+      "code": "M-NC: Natural Character"
+     },
+     {
+      "name": "P-4",
+      "code": "P-4"
+     },
+     {
+      "name": "P-AL: Accessible Lake",
+      "code": "P-AL: Accessible Lake"
+     },
+     {
+      "name": "P-AR: Aquifer",
+      "code": "P-AR: Aquifer"
+     },
+     {
+      "name": "P-FP: Flood Prone",
+      "code": "P-FP: Flood Prone"
+     },
+     {
+      "name": "P-FW: Fish and Wildlife",
+      "code": "P-FW: Fish and Wildlife"
+     },
+     {
+      "name": "P-GP: Great Pond",
+      "code": "P-GP: Great Pond"
+     },
+     {
+      "name": "P-GP2: Semi-Remote Lake",
+      "code": "P-GP2: Semi-Remote Lake"
+     },
+     {
+      "name": "P-MA: Mountain Area",
+      "code": "P-MA: Mountain Area"
+     },
+     {
+      "name": "P-RP: Resource Plan",
+      "code": "P-RP: Resource Plan"
+     },
+     {
+      "name": "P-RR: Recreation",
+      "code": "P-RR: Recreation"
+     },
+     {
+      "name": "P-RR100: Recreation - 100'",
+      "code": "P-RR100: Recreation - 100'"
+     },
+     {
+      "name": "P-RR200: Recreation - 200'",
+      "code": "P-RR200: Recreation - 200'"
+     },
+     {
+      "name": "P-RT: Special River",
+      "code": "P-RT: Special River"
+     },
+     {
+      "name": "P-SG: Soils and Geology",
+      "code": "P-SG: Soils and Geology"
+     },
+     {
+      "name": "P-SL1: Shoreland - 250'",
+      "code": "P-SL1: Shoreland - 250'"
+     },
+     {
+      "name": "P-SL2: Shoreland - 75'",
+      "code": "P-SL2: Shoreland - 75'"
+     },
+     {
+      "name": "P-UA: Unusual Area",
+      "code": "P-UA: Unusual Area"
+     },
+     {
+      "name": "P-WL1: Wetlands of Special Significance",
+      "code": "P-WL1: Wetlands of Special Significance"
+     },
+     {
+      "name": "P-WL1ow: Open Water Wetlands",
+      "code": "P-WL1ow: Open Water Wetlands"
+     },
+     {
+      "name": "P-WL1rp: Wetlands of Special Significance",
+      "code": "P-WL1rp: Wetlands of Special Significance"
+     },
+     {
+      "name": "P-WL1rp: Wetlands of Special Significance within a P-RP",
+      "code": "P-WL1rp: Wetlands of Special Significance within a P-RP"
+     },
+     {
+      "name": "P-WL2: Scrub-shrub Wetlands",
+      "code": "P-WL2: Scrub-shrub Wetlands"
+     },
+     {
+      "name": "P-WL2rp: Scrub-shrub Wetlands within a P-RP",
+      "code": "P-WL2rp: Scrub-shrub Wetlands within a P-RP"
+     },
+     {
+      "name": "P-WL3: Forested Wetlands",
+      "code": "P-WL3: Forested Wetlands"
+     },
+     {
+      "name": "P-WL3rp: Forested Wetlands within a P-RP",
+      "code": "P-WL3rp: Forested Wetlands within a P-RP"
+     },
+     {
+      "name": "D-LD: Low-Density Development",
+      "code": "D-LD: Low-Density Development"
+     },
+     {
+      "name": "D-RD: Resource-Dependent Development",
+      "code": "D-RD: Resource-Dependent Development"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   },
+   "editable": true,
+   "nullable": true,
+   "length": 60,
+   "defaultValue": null,
+   "modelName": "ZONE"
+  },
+  {
+   "name": "PUBLISH",
+   "type": "esriFieldTypeString",
+   "alias": "PUBLISH",
+   "domain": {
+    "type": "codedValue",
+    "name": "LUPC_YesNo",
+    "description": "LUPC yes and no options",
+    "codedValues": [
+     {
+      "name": "No",
+      "code": "No"
+     },
+     {
+      "name": "Yes",
+      "code": "Yes"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   },
+   "editable": true,
+   "nullable": true,
+   "length": 3,
+   "defaultValue": "No",
+   "modelName": "PUBLISH"
+  },
+  {
+   "name": "DRAW",
+   "type": "esriFieldTypeString",
+   "alias": "DRAW",
+   "domain": {
+    "type": "codedValue",
+    "name": "LUPC_YesNo",
+    "description": "LUPC yes and no options",
+    "codedValues": [
+     {
+      "name": "No",
+      "code": "No"
+     },
+     {
+      "name": "Yes",
+      "code": "Yes"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   },
+   "editable": true,
+   "nullable": true,
+   "length": 3,
+   "defaultValue": "Yes",
+   "modelName": "DRAW"
+  },
+  {
+   "name": "START_DATE",
+   "type": "esriFieldTypeDate",
+   "alias": "START_DATE",
+   "domain": null,
+   "editable": true,
+   "nullable": true,
+   "length": 8,
+   "defaultValue": null,
+   "modelName": "START_DATE"
+  },
+  {
+   "name": "END_DATE",
+   "type": "esriFieldTypeDate",
+   "alias": "END_DATE",
+   "domain": null,
+   "editable": true,
+   "nullable": true,
+   "length": 8,
+   "defaultValue": null,
+   "modelName": "END_DATE"
+  },
+  {
+   "name": "COMMENT",
+   "type": "esriFieldTypeString",
+   "alias": "COMMENT",
+   "domain": null,
+   "editable": true,
+   "nullable": true,
+   "length": 200,
+   "defaultValue": null,
+   "modelName": "COMMENT"
+  },
+  {
+   "name": "TRACKING_NUMBER",
+   "type": "esriFieldTypeInteger",
+   "alias": "TRACKING_NUMBER",
+   "domain": null,
+   "editable": true,
+   "nullable": true,
+   "defaultValue": null,
+   "modelName": "TRACKING_NUMBER"
+  },
+  {
+   "name": "IDENTIFIER",
+   "type": "esriFieldTypeString",
+   "alias": "IDENTIFIER",
+   "domain": null,
+   "editable": true,
+   "nullable": true,
+   "length": 25,
+   "defaultValue": null,
+   "modelName": "IDENTIFIER"
+  },
+  {
+   "name": "created_user",
+   "type": "esriFieldTypeString",
+   "alias": "created_user",
+   "domain": null,
+   "editable": false,
+   "nullable": true,
+   "length": 255,
+   "defaultValue": null,
+   "modelName": "created_user"
+  },
+  {
+   "name": "created_date",
+   "type": "esriFieldTypeDate",
+   "alias": "created_date",
+   "domain": null,
+   "editable": false,
+   "nullable": true,
+   "length": 8,
+   "defaultValue": null,
+   "modelName": "created_date"
+  },
+  {
+   "name": "last_edited_user",
+   "type": "esriFieldTypeString",
+   "alias": "last_edited_user",
+   "domain": null,
+   "editable": false,
+   "nullable": true,
+   "length": 255,
+   "defaultValue": null,
+   "modelName": "last_edited_user"
+  },
+  {
+   "name": "last_edited_date",
+   "type": "esriFieldTypeDate",
+   "alias": "last_edited_date",
+   "domain": null,
+   "editable": false,
+   "nullable": true,
+   "length": 8,
+   "defaultValue": null,
+   "modelName": "last_edited_date"
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "SHAPE_Length",
+   "domain": null,
+   "editable": false,
+   "nullable": true,
+   "defaultValue": null,
+   "modelName": "Shape.STLength()",
+   "required": true
+  },
+  {
+   "name": "GlobalID",
+   "type": "esriFieldTypeGlobalID",
+   "alias": "GlobalID",
+   "domain": null,
+   "editable": false,
+   "nullable": false,
+   "length": 38,
+   "defaultValue": null,
+   "modelName": "GlobalID"
+  }
+ ],
+ "geometryField": {
+  "name": "Shape",
+  "type": "esriFieldTypeGeometry",
+  "alias": "Shape",
+  "domain": null,
+  "editable": false,
+  "nullable": true,
+  "defaultValue": null,
+  "modelName": "Shape"
+ },
+ "indexes": [
+  {
+   "name": "UUID_432",
+   "isAscending": true,
+   "isUnique": true,
+   "description": "",
+   "fields": "GlobalID"
+  },
+  {
+   "name": "gdb_ct3_432",
+   "isAscending": true,
+   "isUnique": false,
+   "description": "",
+   "fields": "OBJECTID"
+  },
+  {
+   "name": "S354_idx",
+   "isAscending": true,
+   "isUnique": true,
+   "description": "",
+   "fields": "Shape"
+  }
+ ],
+ "datesInUnknownTimezone": false,
+ "dateFieldsTimeReference": {
+  "timeZone": "Eastern Standard Time",
+  "timeZoneIANA": "America/New_York",
+  "respectsDaylightSaving": true
+ },
+ "preferredTimeReference": null,
+ "types": [
+  {
+   "id": "D-CI: Commercial Industrial",
+   "name": "D-CI: Commercial Industrial Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-CI: Commercial Industrial",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-CI: Commercial Industrial",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-ES: Extended Settlement",
+   "name": "D-ES: Extended Settlement Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-ES: Extended Settlement",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-ES: Extended Settlement",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-GN2: Community Center",
+   "name": "D-GN2: Community Center Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-GN2: Community Center",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-GN2: Community Center",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-GN3: Rural Settlement",
+   "name": "D-GN3: Rural Settlement Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-GN3: Rural Settlement",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-GN3: Rural Settlement",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-GN: General",
+   "name": "D-GN: General Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-GN: General",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-GN: General",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-LD: Low-Density Development",
+   "name": "D-LD: Low-Density Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-LD: Low-Density Development",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-LD: Low-Density Development",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-MT1: Maritime 1",
+   "name": "D-MT1: Maritime Development 1",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-MT1: Maritime 1",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-MT1: Maritime 1",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-MT2: Maritime 2",
+   "name": "D-MT2: Maritime Development 2",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-MT2: Maritime 2",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-MT2: Maritime 2",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-PD: Planned",
+   "name": "D-PD: Planned Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-PD: Planned",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-PD: Planned",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-PR: Planned Recreation Facility",
+   "name": "D-PR: Planned Recreation Facility Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-PR: Planned Recreation Facility",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-PR: Planned Recreation Facility",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-RB: Rural Business",
+   "name": "D-RB: Rural Business Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-RB: Rural Business",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-RB: Rural Business",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-RD: Resource Dependent Development",
+   "name": "D-RD: Resource-Dependent Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-RD: Resource Dependent Development",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-RD: Resource Dependent Development",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-RF: Recreation Facility",
+   "name": "D-RF: Recreation Facility Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-RF: Recreation Facility",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-RF: Recreation Facility",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-RS2: Community Residential",
+   "name": "D-RS2: Community Residential Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-RS2: Community Residential",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-RS2: Community Residential",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-RS3: Residential Recreation",
+   "name": "D-RS3: Residential Recreation Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-RS3: Residential Recreation",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-RS3: Residential Recreation",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "D-RS: Residential",
+   "name": "D-RS: Residential Development",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "D-RS: Residential",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "D-RS: Residential",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "M-GN: General",
+   "name": "M-GN: General Management",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "M-GN: General",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "M-GN: General",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "M-HP: Highly Productive",
+   "name": "M-HP: Highly Productive Management",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "M-HP: Highly Productive",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "M-HP: Highly Productive",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "M-NC: Natural Character",
+   "name": "M-NC: Natural Character Management",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "M-NC: Natural Character",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "M-NC: Natural Character",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-AL: Accessible Lake",
+   "name": "P-AL: Accessible Lake Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-AL: Accessible Lake",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-AL: Accessible Lake",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-AR: Aquifer",
+   "name": "P-AR: Aquifer Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-AR: Aquifer",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-AR: Aquifer",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-FP: Flood Prone",
+   "name": "P-FP: Flood Prone Area Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-FP: Flood Prone",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-FP: Flood Prone",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-FW: Fish and Wildlife",
+   "name": "P-FW: Fish and Wildlife Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-FW: Fish and Wildlife",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-FW: Fish and Wildlife",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-GP2: Semi-Remote Lake",
+   "name": "P-GP2: Semi-Remote Lake Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-GP2: Semi-Remote Lake",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-GP2: Semi-Remote Lake",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-GP: Great Pond",
+   "name": "P-GP: Great Pond Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-GP: Great Pond",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-GP: Great Pond",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-MA: Mountain Area",
+   "name": "P-MA: Mountain Area Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-MA: Mountain Area",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-MA: Mountain Area",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-RP: Resource Plan",
+   "name": "P-RP: Resource Plan Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-RP: Resource Plan",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-RP: Resource Plan",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-RR100: Recreation - 100'",
+   "name": "P-RR100: Recreation - 100' Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-RR100: Recreation - 100'",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-RR100: Recreation - 100'",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-RR200: Recreation - 200'",
+   "name": "P-RR200: Recreation - 200' Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-RR200: Recreation - 200'",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-RR200: Recreation - 200'",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-RR: Recreation",
+   "name": "Recreation Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-RR: Recreation",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-RR: Recreation",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-RT: Special River",
+   "name": "P-RT: Special River Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-RT: Special River",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-RT: Special River",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-SG: Soils and Geology",
+   "name": "P-SG: Soils and Geology Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-SG: Soils and Geology",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-SG: Soils and Geology",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-SL1: Shoreland - 250'",
+   "name": "P-SL1: Shoreland - 250' Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-SL1: Shoreland - 250'",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-SL1: Shoreland - 250'",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-SL2: Shoreland - 75'",
+   "name": "P-SL2: Shoreland - 75' Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-SL2: Shoreland - 75'",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-SL2: Shoreland - 75'",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-UA: Unusual Area",
+   "name": "P-UA: Unusual Area Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-UA: Unusual Area",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "PANEL": null,
+       "IDENTIFIER": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "ZONE": "P-UA: Unusual Area",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null,
+       "COMMENT": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-WL1: Wetlands of Special Significance",
+   "name": "P-WL1: Wetlands of Special Significance Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-WL1: Wetlands of Special Significance",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "P-WL1: Wetlands of Special Significance",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-WL2: Scrub-shrub Wetlands",
+   "name": "P-WL2: Scrub-shrub Wetlands Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-WL2: Scrub-shrub Wetlands",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "P-WL2: Scrub-shrub Wetlands",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  },
+  {
+   "id": "P-WL3: Forested Wetlands",
+   "name": "P-WL3: Forested Wetlands Protection",
+   "domains": {
+    "ZONE": {"type": "inherited"},
+    "PUBLISH": {"type": "inherited"},
+    "DRAW": {"type": "inherited"}
+   },
+   "templates": [
+    {
+     "name": "P-WL3: Forested Wetlands",
+     "description": "",
+     "prototype": {
+      "attributes": {
+       "IDENTIFIER": null,
+       "COMMENT": null,
+       "TRACKING_NUMBER": null,
+       "MAP": null,
+       "PANEL": null,
+       "ZONE": "P-WL3: Forested Wetlands",
+       "PUBLISH": "No",
+       "DRAW": "Yes",
+       "START_DATE": null,
+       "END_DATE": null
+      }
+     },
+     "drawingTool": "esriFeatureEditToolPolygon"
+    }
+   ]
+  }
+ ],
+ "templates": [],
+ "maxRecordCount": 2000,
+ "supportedQueryFormats": "JSON, geoJSON, PBF",
+ "supportedExportFormats": "sqlite,filegdb,shapefile,csv,geojson",
+ "capabilities": "Query,Sync,ChangeTracking",
+ "useStandardizedQueries": true,
+ "bigIntegerRestrictedTo53Bits": true,
+ "supportedSpatialRelationships": [
+  "esriSpatialRelIntersects",
+  "esriSpatialRelContains",
+  "esriSpatialRelCrosses",
+  "esriSpatialRelEnvelopeIntersects",
+  "esriSpatialRelIndexIntersects",
+  "esriSpatialRelOverlaps",
+  "esriSpatialRelTouches",
+  "esriSpatialRelWithin",
+  "esriSpatialRelRelation"
+ ],
+ "supportsAppend": true,
+ "supportedAppendFormats": "FILEGDB,PBF",
+ "standardMaxRecordCount": 4000,
+ "tileMaxRecordCount": 4000,
+ "standardMaxRecordCountNoGeometry": 32000,
+ "maxRecordCountFactor": 1,
+ "serviceItemId": "9178f63af283454ab8cc84ce5e5a21c5"
+}

@@ -1,0 +1,2 @@
+# Preserve exact response bytes and keep generated snapshots out of textual diffs.
+research/maine-sources/runs/**/*.response binary

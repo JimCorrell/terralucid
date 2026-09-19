@@ -1,0 +1,42 @@
+[
+  {
+    "id": "organized-assessment-metadata",
+    "purpose": "Verify table fields and relationships without retrieving owner records.",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9?f=pjson",
+    "retrieved_at": "2026-09-19T23:48:34.510214+00:00",
+    "http_status": 200,
+    "final_url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9?f=pjson",
+    "sha256": "3664234f360e0982baf7ca48dba816ffc4bd3555e8f1faa42158a57dd9c15e3a",
+    "bytes": 23256,
+    "status": "JSON_RECEIVED",
+    "response_file": "organized-assessment-metadata.response"
+  },
+  {
+    "id": "ssurgo-maine-surveys",
+    "purpose": "Read the Maine survey-area catalog (bounded to 100 rows); no parcel/site suitability evaluation.",
+    "url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+    "post_json": {
+      "query": "SELECT TOP 100 areasymbol, areaname, saverest FROM sacatalog WHERE areasymbol LIKE 'ME%' ORDER BY areasymbol",
+      "format": "JSON+COLUMNNAME"
+    },
+    "retrieved_at": "2026-09-19T23:48:34.930995+00:00",
+    "http_status": 200,
+    "final_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+    "sha256": "5da9767b2eae19b1d0ec923cc3e30b1d391e3e4c77895a906ad59bc05e7e709b",
+    "bytes": 1548,
+    "status": "JSON_RECEIVED",
+    "response_file": "ssurgo-maine-surveys.response"
+  },
+  {
+    "id": "civil-undissolved-metadata",
+    "purpose": "Check whether the other official civil-boundary product exposes jurisdiction codes.",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/0?f=pjson",
+    "retrieved_at": "2026-09-19T23:48:35.422946+00:00",
+    "http_status": 200,
+    "final_url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/0?f=pjson",
+    "sha256": "41dbec3aedae4d537d4176e6787b334b4c90b60dec9d999ede537422791ccd30",
+    "bytes": 20060,
+    "status": "JSON_RECEIVED",
+    "response_file": "civil-undissolved-metadata.response"
+  }
+]

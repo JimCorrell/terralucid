@@ -1,0 +1,21 @@
+[
+  {
+    "id": "organized-assessment-metadata",
+    "purpose": "Verify table fields and relationships without retrieving owner records.",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9?f=pjson"
+  },
+  {
+    "id": "ssurgo-maine-surveys",
+    "purpose": "Read the Maine survey-area catalog (bounded to 100 rows); no parcel/site suitability evaluation.",
+    "url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+    "post_json": {
+      "query": "SELECT TOP 100 areasymbol, areaname, saverest FROM sacatalog WHERE areasymbol LIKE 'ME%' ORDER BY areasymbol",
+      "format": "JSON+COLUMNNAME"
+    }
+  },
+  {
+    "id": "civil-undissolved-metadata",
+    "purpose": "Check whether the other official civil-boundary product exposes jurisdiction codes.",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/0?f=pjson"
+  }
+]

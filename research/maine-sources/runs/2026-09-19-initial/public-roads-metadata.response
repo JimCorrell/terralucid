@@ -1,0 +1,386 @@
+{
+ "currentVersion": 11.5,
+ "cimVersion": "3.5.0",
+ "id": 52,
+ "name": "MaineDOT Public Roads",
+ "type": "Feature Layer",
+ "description": "",
+ "geometryType": "esriGeometryPolyline",
+ "sourceSpatialReference": {
+  "wkid": 102100,
+  "latestWkid": 3857,
+  "xyTolerance": 0.001,
+  "zTolerance": 0.001,
+  "mTolerance": 0.001,
+  "falseX": -20037700,
+  "falseY": -30241100,
+  "xyUnits": 10000,
+  "falseZ": -100000,
+  "zUnits": 10000,
+  "falseM": 0,
+  "mUnits": 8000
+ },
+ "spatialReference": {
+  "wkid": 102100,
+  "latestWkid": 3857,
+  "xyTolerance": 0.001,
+  "zTolerance": 2,
+  "mTolerance": 0.001,
+  "falseX": -20037700,
+  "falseY": -30241100,
+  "xyUnits": 1.4892314192838538E8,
+  "falseZ": 0,
+  "zUnits": 10000,
+  "falseM": -100000,
+  "mUnits": 10000
+ },
+ "copyrightText": "",
+ "parentLayer": null,
+ "subLayers": [],
+ "minScale": 0,
+ "maxScale": 0,
+ "referenceScale": 0.0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSLS",
+    "style": "esriSLSSolid",
+    "color": [
+     0,
+     0,
+     0,
+     255
+    ],
+    "width": 1
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": true,
+ "extent": {
+  "xmin": -7908873.2918,
+  "ymin": 5322218.816,
+  "xmax": -7453064.2458999995,
+  "ymax": 6001030.389399998,
+  "spatialReference": {
+   "wkid": 102100,
+   "latestWkid": 3857,
+   "xyTolerance": 0.001,
+   "zTolerance": 2,
+   "mTolerance": 0.001,
+   "falseX": -20037700,
+   "falseY": -30241100,
+   "xyUnits": 1.4892314192838538E8,
+   "falseZ": 0,
+   "zUnits": 10000,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "SEGMENT_ID",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "SHAPE",
+   "domain": null
+  },
+  {
+   "name": "aadt_type",
+   "type": "esriFieldTypeString",
+   "alias": "AADT Type",
+   "length": 40,
+   "domain": null
+  },
+  {
+   "name": "priority",
+   "type": "esriFieldTypeDouble",
+   "alias": "Corridor Priority",
+   "domain": null
+  },
+  {
+   "name": "sh_sa_ir",
+   "type": "esriFieldTypeString",
+   "alias": "Designation",
+   "length": 10,
+   "domain": null
+  },
+  {
+   "name": "faadt",
+   "type": "esriFieldTypeInteger",
+   "alias": "Factored AADT",
+   "domain": null
+  },
+  {
+   "name": "fedfunccls",
+   "type": "esriFieldTypeString",
+   "alias": "Federal Func Class",
+   "length": 40,
+   "domain": null
+  },
+  {
+   "name": "fed_urbrur",
+   "type": "esriFieldTypeString",
+   "alias": "Federal Urban/Rural",
+   "length": 40,
+   "domain": null
+  },
+  {
+   "name": "capacity",
+   "type": "esriFieldTypeInteger",
+   "alias": "Hourly Capacity",
+   "domain": null
+  },
+  {
+   "name": "jurisdictn",
+   "type": "esriFieldTypeString",
+   "alias": "Jurisdiction",
+   "length": 40,
+   "domain": null
+  },
+  {
+   "name": "link_id",
+   "type": "esriFieldTypeInteger",
+   "alias": "Link/Element ID",
+   "domain": null
+  },
+  {
+   "name": "nhs_status",
+   "type": "esriFieldTypeString",
+   "alias": "NHS Status",
+   "length": 40,
+   "domain": null
+  },
+  {
+   "name": "num_lanes",
+   "type": "esriFieldTypeInteger",
+   "alias": "Number of Lanes",
+   "domain": null
+  },
+  {
+   "name": "offic_miles",
+   "type": "esriFieldTypeString",
+   "alias": "Official Miles",
+   "length": 3,
+   "domain": null
+  },
+  {
+   "name": "prim_bmp",
+   "type": "esriFieldTypeDouble",
+   "alias": "Primary Route BMP",
+   "domain": null
+  },
+  {
+   "name": "prirtecode",
+   "type": "esriFieldTypeString",
+   "alias": "Primary Route Code",
+   "length": 30,
+   "domain": null
+  },
+  {
+   "name": "prim_emp",
+   "type": "esriFieldTypeDouble",
+   "alias": "Primary Route EMP",
+   "domain": null
+  },
+  {
+   "name": "prirtename",
+   "type": "esriFieldTypeString",
+   "alias": "Primary Route Name",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "segment_id",
+   "type": "esriFieldTypeInteger",
+   "alias": "Segment ID",
+   "domain": null
+  },
+  {
+   "name": "speed_lim",
+   "type": "esriFieldTypeInteger",
+   "alias": "Speed Limit",
+   "domain": null
+  },
+  {
+   "name": "speedsrc",
+   "type": "esriFieldTypeString",
+   "alias": "Speed Limit Source",
+   "length": 10,
+   "domain": null
+  },
+  {
+   "name": "st_urbrur",
+   "type": "esriFieldTypeString",
+   "alias": "State Urban/Rural",
+   "length": 40,
+   "domain": null
+  },
+  {
+   "name": "strtname",
+   "type": "esriFieldTypeString",
+   "alias": "Street Name",
+   "length": 80,
+   "domain": null
+  },
+  {
+   "name": "townname",
+   "type": "esriFieldTypeString",
+   "alias": "Townname",
+   "length": 240,
+   "domain": null
+  },
+  {
+   "name": "towncode",
+   "type": "esriFieldTypeString",
+   "alias": "Towncode",
+   "length": 30,
+   "domain": null
+  },
+  {
+   "name": "cntyname",
+   "type": "esriFieldTypeString",
+   "alias": "County Name",
+   "length": 80,
+   "domain": null
+  },
+  {
+   "name": "cnty_no",
+   "type": "esriFieldTypeString",
+   "alias": "County Number",
+   "length": 10,
+   "domain": null
+  },
+  {
+   "name": "surfc_type",
+   "type": "esriFieldTypeString",
+   "alias": "Surface Type",
+   "length": 40,
+   "domain": null
+  },
+  {
+   "name": "dot_region",
+   "type": "esriFieldTypeString",
+   "alias": "MDOT Region Number",
+   "length": 4,
+   "domain": null
+  },
+  {
+   "name": "dot_region_name",
+   "type": "esriFieldTypeString",
+   "alias": "MDOT Region Name",
+   "length": 40,
+   "domain": null
+  },
+  {
+   "name": "Shape_Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "shape_Length",
+   "domain": null
+  }
+ ],
+ "geometryField": {
+  "name": "Shape",
+  "type": "esriFieldTypeGeometry",
+  "alias": "SHAPE"
+ },
+ "indexes": [
+  {
+   "name": "FDO_OBJECTID",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "FDO_Shape",
+   "fields": "Shape",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 1000,
+ "maxSelectionCount": 2000,
+ "supportsStatistics": true,
+ "supportsExceedsLimitStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, geoJSON, PBF",
+ "isDataVersioned": false,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "supportedSpatialRelationships": [
+  "esriSpatialRelIntersects",
+  "esriSpatialRelContains",
+  "esriSpatialRelCrosses",
+  "esriSpatialRelEnvelopeIntersects",
+  "esriSpatialRelIndexIntersects",
+  "esriSpatialRelOverlaps",
+  "esriSpatialRelTouches",
+  "esriSpatialRelWithin",
+  "esriSpatialRelRelation"
+ ],
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsPercentileStatistics": true,
+  "supportsHavingClause": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsCountDistinct": true,
+  "supportsAdvancedQueryRelated": true,
+  "supportsQueryRelatedPagination": true,
+  "supportsPagination": true,
+  "supportsLod": false,
+  "supportsQueryWithLodSR": false,
+  "supportsTrueCurve": true,
+  "supportsQueryWithDatumTransformation": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true,
+  "supportsTimeRelation": true,
+  "supportsSqlFormat": false,
+  "supportsQueryAnalytic": false,
+  "supportsCurrentUserQueries": true
+ },
+ "supportsDatumTransformation": true,
+ "dateFieldsTimeReference": null,
+ "preferredTimeReference": null,
+ "datesInUnknownTimezone": false,
+ "hasGeometryProperties": true,
+ "geometryProperties": {
+  "shapeLengthFieldName": "Shape_Length",
+  "units": "esriMeters",
+  "mapUnits": {"uwkid": 9001}
+ },
+ "hasMetadata": true,
+ "isDataArchived": false,
+ "archivingInfo": {
+  "supportsQueryWithHistoricMoment": false,
+  "startArchivingMoment": -1
+ },
+ "supportsCoordinatesQuantization": true,
+ "supportsDynamicLegends": true,
+ "serviceItemId": "97a5634edfc84c4d8aea550ca07504c0"
+}
