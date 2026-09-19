@@ -19,4 +19,4 @@ Find remote, rural, private Maine property suitable for the user's intended base
 - Generate a parcel due-diligence package with evidence, critical unknowns, and requests for documents or field/professional checks.
 - Do not mark a parcel offer-ready while critical unknowns for its intended use remain unresolved.
 
-The first proof of concept should test data availability and quality on parcels across unorganized and organized jurisdictions before schemas or automation are fixed.
+Begin with source-level discovery, access tests, coverage, freshness, identifiers and join feasibility across unorganized and organized jurisdictions. Produce a source registry and ingestion plan before fixing schemas or automation. Representative parcels are later integration checks after the data foundation is established.

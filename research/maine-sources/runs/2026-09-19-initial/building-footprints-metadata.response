@@ -1,0 +1,318 @@
+{
+ "currentVersion": 11.5,
+ "cimVersion": "3.5.0",
+ "id": 42,
+ "name": "Buildings Footprints",
+ "type": "Feature Layer",
+ "description": "Vector buildings data downloaded from the OpenStreetMap website",
+ "geometryType": "esriGeometryPolygon",
+ "sourceSpatialReference": {
+  "wkid": 26919,
+  "latestWkid": 26919,
+  "xyTolerance": 0.001,
+  "zTolerance": 0.001,
+  "mTolerance": 0.001,
+  "falseX": -5120900,
+  "falseY": -9998100,
+  "xyUnits": 10000,
+  "falseZ": -100000,
+  "zUnits": 10000,
+  "falseM": -100000,
+  "mUnits": 10000
+ },
+ "spatialReference": {
+  "wkid": 102100,
+  "latestWkid": 3857,
+  "xyTolerance": 0.001,
+  "zTolerance": 2,
+  "mTolerance": 0.001,
+  "falseX": -20037700,
+  "falseY": -30241100,
+  "xyUnits": 1.4892314192838538E8,
+  "falseZ": 0,
+  "zUnits": 10000,
+  "falseM": -100000,
+  "mUnits": 10000
+ },
+ "copyrightText": "Map data (c) OpenStreetMap, ODbL 1.0",
+ "parentLayer": null,
+ "subLayers": [],
+ "minScale": 0,
+ "maxScale": 0,
+ "referenceScale": 0.0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSFS",
+    "style": "esriSFSSolid",
+    "color": [
+     225,
+     225,
+     225,
+     255
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSSolid",
+     "color": [
+      156,
+      156,
+      156,
+      255
+     ],
+     "width": 1.5
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": true,
+ "extent": {
+  "xmin": -7919751.21642352,
+  "ymin": 5307373.669734217,
+  "xmax": -7440060.18436782,
+  "ymax": 6020150.551474101,
+  "spatialReference": {
+   "wkid": 102100,
+   "latestWkid": 3857,
+   "xyTolerance": 0.001,
+   "zTolerance": 2,
+   "mTolerance": 0.001,
+   "falseX": -20037700,
+   "falseY": -30241100,
+   "xyUnits": 1.4892314192838538E8,
+   "falseZ": 0,
+   "zUnits": 10000,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "osm_name",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "objectid",
+   "domain": null
+  },
+  {
+   "name": "OSM_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "Name",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "OSM_ADDR_58_HOUSENUMBER",
+   "type": "esriFieldTypeString",
+   "alias": "House Number",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "OSM_ADDR_58_STREET",
+   "type": "esriFieldTypeString",
+   "alias": "Street",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "OSM_ADDR_58_CITY",
+   "type": "esriFieldTypeString",
+   "alias": "City",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "OSM_ADDR_58_POSTCODE",
+   "type": "esriFieldTypeString",
+   "alias": "Zipcode",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "shape",
+   "domain": null
+  },
+  {
+   "name": "NATURAL",
+   "type": "esriFieldTypeString",
+   "alias": "NATURAL",
+   "length": 30,
+   "domain": {
+    "type": "codedValue",
+    "name": "natural_ply",
+    "description": "",
+    "codedValues": [
+     {
+      "name": "bay",
+      "code": "bay"
+     },
+     {
+      "name": "beach",
+      "code": "beach"
+     },
+     {
+      "name": "cave_entrance",
+      "code": "cave_entrance"
+     },
+     {
+      "name": "cliff",
+      "code": "cliff"
+     },
+     {
+      "name": "coastline",
+      "code": "coastline"
+     },
+     {
+      "name": "fell",
+      "code": "fell"
+     },
+     {
+      "name": "glacier",
+      "code": "glacier"
+     },
+     {
+      "name": "heath",
+      "code": "heath"
+     },
+     {
+      "name": "land",
+      "code": "land"
+     },
+     {
+      "name": "marsh",
+      "code": "marsh"
+     },
+     {
+      "name": "mud",
+      "code": "mud"
+     },
+     {
+      "name": "scree",
+      "code": "scree"
+     },
+     {
+      "name": "scrub",
+      "code": "scrub"
+     },
+     {
+      "name": "water",
+      "code": "water"
+     },
+     {
+      "name": "wetland",
+      "code": "wetland"
+     },
+     {
+      "name": "wood",
+      "code": "wood"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  }
+ ],
+ "geometryField": {
+  "name": "Shape",
+  "type": "esriFieldTypeGeometry",
+  "alias": "shape"
+ },
+ "indexes": [
+  {
+   "name": "FDO_OBJECTID",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "FDO_Shape",
+   "fields": "Shape",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 1000,
+ "maxSelectionCount": 2000,
+ "supportsStatistics": true,
+ "supportsExceedsLimitStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, geoJSON, PBF",
+ "isDataVersioned": false,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "supportedSpatialRelationships": [
+  "esriSpatialRelIntersects",
+  "esriSpatialRelContains",
+  "esriSpatialRelCrosses",
+  "esriSpatialRelEnvelopeIntersects",
+  "esriSpatialRelIndexIntersects",
+  "esriSpatialRelOverlaps",
+  "esriSpatialRelTouches",
+  "esriSpatialRelWithin",
+  "esriSpatialRelRelation"
+ ],
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsPercentileStatistics": true,
+  "supportsHavingClause": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsCountDistinct": true,
+  "supportsAdvancedQueryRelated": true,
+  "supportsQueryRelatedPagination": true,
+  "supportsPagination": true,
+  "supportsLod": false,
+  "supportsQueryWithLodSR": false,
+  "supportsTrueCurve": true,
+  "supportsQueryWithDatumTransformation": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true,
+  "supportsTimeRelation": true,
+  "supportsSqlFormat": false,
+  "supportsQueryAnalytic": false,
+  "supportsCurrentUserQueries": true
+ },
+ "supportsDatumTransformation": true,
+ "dateFieldsTimeReference": null,
+ "preferredTimeReference": null,
+ "datesInUnknownTimezone": false,
+ "hasGeometryProperties": true,
+ "geometryProperties": {
+  "shapeAreaFieldName": "Shape_Area",
+  "shapeLengthFieldName": "Shape_Length",
+  "units": "esriMeters",
+  "mapUnits": {"uwkid": 9001}
+ },
+ "hasMetadata": true,
+ "isDataArchived": false,
+ "archivingInfo": {
+  "supportsQueryWithHistoricMoment": false,
+  "startArchivingMoment": -1
+ },
+ "supportsCoordinatesQuantization": true,
+ "supportsDynamicLegends": true,
+ "serviceItemId": "97a5634edfc84c4d8aea550ca07504c0"
+}

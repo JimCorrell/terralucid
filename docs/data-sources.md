@@ -1,6 +1,6 @@
 # Maine data-source inventory
 
-This is a category inventory from the design discussion, not a verified integration catalog. Confirm current endpoints, licenses, coverage, dates, identifiers, and update cadence before ingestion.
+The table below preserves the category inventory from the design discussion. The [source registry and access audit](../research/maine-sources/README.md) now records tested endpoints, observed gaps, and untested sources as of September 19, 2026. The [ingestion plan](ingestion-plan.md) identifies the checks needed before loading and joining data. Confirm licenses, coverage, dates, identifiers, and update cadence for each source before production ingestion.
 
 | Category | Candidate sources discussed | Caution |
 | --- | --- | --- |

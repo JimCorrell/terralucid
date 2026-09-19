@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ut-town-counts",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=1%3D1&groupByFieldsForStatistics=GEOCODE%2CTOWNNAME&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22feature_count%22%7D%5D&returnGeometry=false&orderByFields=GEOCODE%2CTOWNNAME",
+    "purpose": "Source coverage by reported town; not verified legal jurisdiction coverage.",
+    "retrieved_at": "2026-09-19T23:47:30.493717+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=1%3D1&groupByFieldsForStatistics=GEOCODE%2CTOWNNAME&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22feature_count%22%7D%5D&returnGeometry=false&orderByFields=GEOCODE%2CTOWNNAME",
+    "sha256": "338a9e83a1bfde45bc5c3257426e995fd1da15244d76a3b39fae4c3cb22cc1b2",
+    "bytes": 37848,
+    "status": "JSON_RECEIVED",
+    "response_file": "ut-town-counts.response"
+  },
+  {
+    "id": "organized-town-counts",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=1%3D1&groupByFieldsForStatistics=GEOCODE%2CTOWN%2CCOUNTY&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22feature_count%22%7D%5D&returnGeometry=false&orderByFields=GEOCODE%2CTOWN%2CCOUNTY",
+    "purpose": "Source coverage by reported town and county.",
+    "retrieved_at": "2026-09-19T23:47:31.216159+00:00",
+    "http_status": 200,
+    "final_url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=1%3D1&groupByFieldsForStatistics=GEOCODE%2CTOWN%2CCOUNTY&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22feature_count%22%7D%5D&returnGeometry=false&orderByFields=GEOCODE%2CTOWN%2CCOUNTY",
+    "sha256": "b30b8be14a9f2ec038d5a19edfc4ee6d0f8b4a0024d598ebe9ecdd50ee4b36e4",
+    "bytes": 31424,
+    "status": "JSON_RECEIVED",
+    "response_file": "organized-town-counts.response"
+  },
+  {
+    "id": "organized-date-values",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=1%3D1&groupByFieldsForStatistics=FMUPDAT&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22feature_count%22%7D%5D&returnGeometry=false&orderByFields=FMUPDAT",
+    "purpose": "Inspect actual date-string values before choosing a date parser.",
+    "retrieved_at": "2026-09-19T23:47:32.881227+00:00",
+    "http_status": 200,
+    "final_url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=1%3D1&groupByFieldsForStatistics=FMUPDAT&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22feature_count%22%7D%5D&returnGeometry=false&orderByFields=FMUPDAT",
+    "sha256": "fa482cded45daf9c32dc62c4e568cff6eb865c3959d0c70372bc2c56ea4e882d",
+    "bytes": 4346,
+    "status": "JSON_RECEIVED",
+    "response_file": "organized-date-values.response"
+  },
+  {
+    "id": "zoning-publication-flags",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=1%3D1&groupByFieldsForStatistics=PUBLISH%2CDRAW&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22feature_count%22%7D%5D&returnGeometry=false&orderByFields=PUBLISH%2CDRAW",
+    "purpose": "Investigate publication state; do not assume every returned zone is current.",
+    "retrieved_at": "2026-09-19T23:47:33.509951+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=1%3D1&groupByFieldsForStatistics=PUBLISH%2CDRAW&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22feature_count%22%7D%5D&returnGeometry=false&orderByFields=PUBLISH%2CDRAW",
+    "sha256": "97f617ad8cf5fa445787cbe786cabf6c5d503d2c027f872d0aa5ef2a76706233",
+    "bytes": 426,
+    "status": "JSON_RECEIVED",
+    "response_file": "zoning-publication-flags.response"
+  },
+  {
+    "id": "organized-service",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer?f=pjson",
+    "purpose": "Locate assessment table and declared relationships.",
+    "retrieved_at": "2026-09-19T23:47:37.855821+00:00",
+    "http_status": 200,
+    "final_url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer?f=pjson",
+    "sha256": "d64f2d596a7489e6cf5ec74455642455bad412053932dcae0f8da402563ebd48",
+    "bytes": 9405,
+    "status": "JSON_RECEIVED",
+    "response_file": "organized-service.response"
+  },
+  {
+    "id": "ut-parcels-geometry",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=geojson&where=1%3D1&outFields=OBJECTID%2CGEOCODE%2CTPL%2CGPL%2CMAPYEAR&resultRecordCount=1&orderByFields=OBJECTID&returnGeometry=true&outSR=4326",
+    "purpose": "One feature to verify geometry export, not a parcel assessment.",
+    "retrieved_at": "2026-09-19T23:47:38.089197+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=geojson&where=1%3D1&outFields=OBJECTID%2CGEOCODE%2CTPL%2CGPL%2CMAPYEAR&resultRecordCount=1&orderByFields=OBJECTID&returnGeometry=true&outSR=4326",
+    "sha256": "8a89c39cad3f7355f7c247768e3ae452347b91b1b579c037f3f7f54c04b14f34",
+    "bytes": 661,
+    "status": "JSON_RECEIVED",
+    "response_file": "ut-parcels-geometry.response"
+  },
+  {
+    "id": "organized-parcels-geometry",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=geojson&where=1%3D1&outFields=OBJECTID%2CGEOCODE%2CSTATE_ID%2CMAP_BK_LOT%2CFMUPDAT&resultRecordCount=1&orderByFields=OBJECTID&returnGeometry=true&outSR=4326",
+    "purpose": "One feature to verify geometry export, not a parcel assessment.",
+    "retrieved_at": "2026-09-19T23:47:38.712327+00:00",
+    "http_status": 200,
+    "final_url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=geojson&where=1%3D1&outFields=OBJECTID%2CGEOCODE%2CSTATE_ID%2CMAP_BK_LOT%2CFMUPDAT&resultRecordCount=1&orderByFields=OBJECTID&returnGeometry=true&outSR=4326",
+    "sha256": "a6a52e8f3d8a585303264e6b1426e27a8b7b69a5dd9bab7ab7c2a7939632d747",
+    "bytes": 779,
+    "status": "JSON_RECEIVED",
+    "response_file": "organized-parcels-geometry.response"
+  },
+  {
+    "id": "lupc-zones-geometry",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=geojson&where=1%3D1&outFields=OBJECTID%2CZONE%2CPUBLISH%2CDRAW%2CSTART_DATE%2CEND_DATE&resultRecordCount=1&orderByFields=OBJECTID&returnGeometry=true&outSR=4326",
+    "purpose": "One feature to verify geometry export, not a parcel assessment.",
+    "retrieved_at": "2026-09-19T23:47:38.988312+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=geojson&where=1%3D1&outFields=OBJECTID%2CZONE%2CPUBLISH%2CDRAW%2CSTART_DATE%2CEND_DATE&resultRecordCount=1&orderByFields=OBJECTID&returnGeometry=true&outSR=4326",
+    "sha256": "a780aa724c46c624cc1aca51f63350daccadbae2fb5e18d54cc801a920559252",
+    "bytes": 1189,
+    "status": "JSON_RECEIVED",
+    "response_file": "lupc-zones-geometry.response"
+  },
+  {
+    "id": "elevation-products",
+    "url": "https://tnmaccess.nationalmap.gov/api/v1/products?datasets=Digital%20Elevation%20Model%20(DEM)%201%20meter&bbox=-71.2,43,-66.9,47.5&max=1",
+    "purpose": "Bounded product discovery in a Maine-containing rectangle; footprint is not exact Maine coverage.",
+    "retrieved_at": "2026-09-19T23:47:39.956006+00:00",
+    "http_status": 200,
+    "final_url": "https://tnmaccess.nationalmap.gov/api/v1/products?datasets=Digital%20Elevation%20Model%20(DEM)%201%20meter&bbox=-71.2,43,-66.9,47.5&max=1",
+    "sha256": "ff93e4f41640316460b12c5875549f3a380c3b6ff091567633803240928de1ba",
+    "bytes": 4366,
+    "status": "JSON_RECEIVED",
+    "response_file": "elevation-products.response"
+  },
+  {
+    "id": "hydrography-products",
+    "url": "https://tnmaccess.nationalmap.gov/api/v1/products?datasets=3D%20Hydrography%20Program%20(3DHP)&bbox=-71.2,43,-66.9,47.5&max=1",
+    "purpose": "Bounded product discovery in a Maine-containing rectangle; footprint is not exact Maine coverage.",
+    "retrieved_at": "2026-09-19T23:47:40.573659+00:00",
+    "http_status": 200,
+    "final_url": "https://tnmaccess.nationalmap.gov/api/v1/products?datasets=3D%20Hydrography%20Program%20(3DHP)&bbox=-71.2,43,-66.9,47.5&max=1",
+    "sha256": "29df83bb10821ecafa5c4968da452f543de22c3b8116389d4bdee949c3c54bb9",
+    "bytes": 4390,
+    "status": "JSON_RECEIVED",
+    "response_file": "hydrography-products.response"
+  }
+]

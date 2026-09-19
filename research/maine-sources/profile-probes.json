@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ut-town-counts",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=1%3D1&groupByFieldsForStatistics=GEOCODE%2CTOWNNAME&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22feature_count%22%7D%5D&returnGeometry=false&orderByFields=GEOCODE%2CTOWNNAME",
+    "purpose": "Source coverage by reported town; not verified legal jurisdiction coverage."
+  },
+  {
+    "id": "organized-town-counts",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=1%3D1&groupByFieldsForStatistics=GEOCODE%2CTOWN%2CCOUNTY&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22feature_count%22%7D%5D&returnGeometry=false&orderByFields=GEOCODE%2CTOWN%2CCOUNTY",
+    "purpose": "Source coverage by reported town and county."
+  },
+  {
+    "id": "organized-date-values",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=1%3D1&groupByFieldsForStatistics=FMUPDAT&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22feature_count%22%7D%5D&returnGeometry=false&orderByFields=FMUPDAT",
+    "purpose": "Inspect actual date-string values before choosing a date parser."
+  },
+  {
+    "id": "zoning-publication-flags",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=1%3D1&groupByFieldsForStatistics=PUBLISH%2CDRAW&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22feature_count%22%7D%5D&returnGeometry=false&orderByFields=PUBLISH%2CDRAW",
+    "purpose": "Investigate publication state; do not assume every returned zone is current."
+  },
+  {
+    "id": "organized-service",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer?f=pjson",
+    "purpose": "Locate assessment table and declared relationships."
+  },
+  {
+    "id": "ut-parcels-geometry",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=geojson&where=1%3D1&outFields=OBJECTID%2CGEOCODE%2CTPL%2CGPL%2CMAPYEAR&resultRecordCount=1&orderByFields=OBJECTID&returnGeometry=true&outSR=4326",
+    "purpose": "One feature to verify geometry export, not a parcel assessment."
+  },
+  {
+    "id": "organized-parcels-geometry",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=geojson&where=1%3D1&outFields=OBJECTID%2CGEOCODE%2CSTATE_ID%2CMAP_BK_LOT%2CFMUPDAT&resultRecordCount=1&orderByFields=OBJECTID&returnGeometry=true&outSR=4326",
+    "purpose": "One feature to verify geometry export, not a parcel assessment."
+  },
+  {
+    "id": "lupc-zones-geometry",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=geojson&where=1%3D1&outFields=OBJECTID%2CZONE%2CPUBLISH%2CDRAW%2CSTART_DATE%2CEND_DATE&resultRecordCount=1&orderByFields=OBJECTID&returnGeometry=true&outSR=4326",
+    "purpose": "One feature to verify geometry export, not a parcel assessment."
+  },
+  {
+    "id": "elevation-products",
+    "url": "https://tnmaccess.nationalmap.gov/api/v1/products?datasets=Digital%20Elevation%20Model%20(DEM)%201%20meter&bbox=-71.2,43,-66.9,47.5&max=1",
+    "purpose": "Bounded product discovery in a Maine-containing rectangle; footprint is not exact Maine coverage."
+  },
+  {
+    "id": "hydrography-products",
+    "url": "https://tnmaccess.nationalmap.gov/api/v1/products?datasets=3D%20Hydrography%20Program%20(3DHP)&bbox=-71.2,43,-66.9,47.5&max=1",
+    "purpose": "Bounded product discovery in a Maine-containing rectangle; footprint is not exact Maine coverage."
+  }
+]

@@ -1,0 +1,606 @@
+{
+  "as_of": "2026-09-19",
+  "scope": "Initial source-level research; no parcel suitability scoring or production ingestion.",
+  "status_definitions": {
+    "query_tested": "A bounded data/count/catalog query succeeded; completeness and production readiness remain separate.",
+    "metadata_tested": "Metadata returned; feature retrieval, coverage or joins remain untested.",
+    "publisher_documented": "Official publication route documented; data extraction not tested.",
+    "unresolved": "No usable source verified in this pass."
+  },
+  "sources": [
+    {
+      "id": "ut-parcels",
+      "name": "Unorganized Territory parcel geometry",
+      "publisher": "Maine Revenue Services",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0",
+        "https://www.arcgis.com/home/item.html?id=868097d1a133446f8ffae242929a25dd"
+      ],
+      "coverage": "36,688 source features; 467 GEOCODE/TOWNNAME combinations. Includes some towns and plantations; not equivalent to all UT legal properties.",
+      "identifiers": [
+        "GEOCODE",
+        "TPL",
+        "GPL",
+        "GlobalID",
+        "PLAN_",
+        "LOT"
+      ],
+      "freshness": "MAPYEAR and EDITDATE exist; one geometry sample reports MAPYEAR 1997. Catalog modification is not geometry currency.",
+      "access": "Public ArcGIS query/GeoJSON; advertised page limit 2,000; count, grouping and one geometry tested.",
+      "limitations": [
+        "Assessment boundaries, not legal surveys.",
+        "Four features have blank GEOCODE and null TOWNNAME.",
+        "Publisher cautions some town/plantation ownership information may be five years old."
+      ],
+      "next_verification": [
+        "Profile candidate-key uniqueness and subdivisions; reconcile against civil codes.",
+        "Check source terms, row-level dates and complete pagination before ingestion."
+      ],
+      "probe_ids": [
+        "ut-parcels-metadata",
+        "ut-parcels-count",
+        "ut-town-counts",
+        "ut-parcels-geometry",
+        "ut-item"
+      ],
+      "rights": "Catalog: public access; user assumes risk. Preserve attribution and source caveats; no broader license inferred."
+    },
+    {
+      "id": "organized-parcels",
+      "name": "Organized-town parcel geometry",
+      "publisher": "Maine GeoLibrary / contributing municipalities",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10",
+        "https://www.arcgis.com/home/item.html?id=346131b710a645ffb624f448a9cba6d4"
+      ],
+      "coverage": "708,382 source features; 327 GEOCODE/TOWN/COUNTY combinations, including a blank group. Does not prove complete town coverage.",
+      "identifiers": [
+        "GEOCODE",
+        "STATE_ID",
+        "MAP_BK_LOT",
+        "GlobalID"
+      ],
+      "freshness": "FMUPDAT is text: 26,663 null and 79,322 empty; mixed years, YYYYMMDD and M/D/YYYY; also '0' and '20'. Municipality submissions are irregular.",
+      "access": "Public ArcGIS query/GeoJSON; advertised page limit 2,000; count, groups and one geometry tested.",
+      "limitations": [
+        "14 features have blank GEOCODE/TOWN/COUNTY.",
+        "Layer edit timestamp is not each parcel's update date.",
+        "STATE_ID relationship exists but uniqueness and match rate are untested.",
+        "Observed GEOCODE/name conflicts: 17290 is used for Stow and Sweden; 31030 for Alfred and Arundel. Civil-reference reconciliation is required."
+      ],
+      "next_verification": [
+        "Validate STATE_ID uniqueness and ADB join cardinality.",
+        "Build a jurisdiction-level coverage and freshness inventory; retain raw date plus precision."
+      ],
+      "probe_ids": [
+        "organized-parcels-metadata",
+        "organized-parcels-count",
+        "organized-town-counts",
+        "organized-date-values",
+        "organized-parcels-geometry",
+        "organized-item"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "organized-assessment",
+      "name": "Organized-town assessment table",
+      "publisher": "Maine GeoLibrary / municipalities",
+      "access_status": "metadata_tested",
+      "source_urls": [
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9"
+      ],
+      "coverage": "Associated assessment table exists; row count and geometry match rate untested.",
+      "identifiers": [
+        "STATE_ID",
+        "GEOCODE",
+        "MAP_BK_LOT",
+        "LS_BOOK",
+        "LS_PAGE"
+      ],
+      "freshness": "YEAR_CREAT and source fields exist; row currency not measured.",
+      "access": "Public table metadata; declared one-to-one relationship to layer 10 on STATE_ID.",
+      "limitations": [
+        "Declared relationship is not empirical validation.",
+        "Assessment ownership is distinct from title."
+      ],
+      "next_verification": [
+        "Measure null/duplicate keys and unmatched records without publishing owner details."
+      ],
+      "probe_ids": [
+        "organized-assessment-metadata",
+        "organized-service"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "ut-valuations",
+      "name": "UT valuation books and map/lot indexes",
+      "publisher": "Maine Revenue Services",
+      "access_status": "publisher_documented",
+      "source_urls": [
+        "https://www1.maine.gov/revenue/taxes/property-tax/unorganized-territory/valuation-books"
+      ],
+      "coverage": "2026 county valuation books are listed; page says map/lot indexes are being updated.",
+      "identifiers": [
+        "Township",
+        "map/plan/lot (normalization untested)"
+      ],
+      "freshness": "2026 publication year; per-record dates untested.",
+      "access": "PDF links observed; no extraction or join test performed.",
+      "limitations": [
+        "Book availability is not a validated structured feed.",
+        "Taxpayer record does not establish current vesting."
+      ],
+      "next_verification": [
+        "Inspect one book's layout and extract a bounded table; test crosswalk to MRS identifiers."
+      ],
+      "probe_ids": [],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "civil-boundaries",
+      "name": "Town and township boundary reference",
+      "publisher": "Maine GeoLibrary",
+      "access_status": "metadata_tested",
+      "source_urls": [
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/0",
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons_Dissolved/FeatureServer/0"
+      ],
+      "coverage": "Dissolved layer returns 924 features. Undissolved layer has GEOCODE, COUNTY and TYPE; denominator and code meanings not validated.",
+      "identifiers": [
+        "GEOCODE (undissolved product)",
+        "TOWN",
+        "TYPE",
+        "GlobalID"
+      ],
+      "freshness": "Service edit dates available; legal status and boundaries need appropriate reference dates.",
+      "access": "Public ArcGIS metadata; dissolved feature count tested.",
+      "limitations": [
+        "Dissolved layer lacks GEOCODE despite description mentioning codes.",
+        "Undissolved polygons may have many parts per jurisdiction.",
+        "Do not infer organized/plantation/UT classification solely from a name or legacy LURC field."
+      ],
+      "next_verification": [
+        "Inspect GEOCODES related table and TYPE values; create a dated unique-code reference."
+      ],
+      "probe_ids": [
+        "civil-boundaries-metadata",
+        "civil-boundaries-count",
+        "civil-undissolved-metadata"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "lupc-zoning",
+      "name": "LUPC zoning polygons and official maps",
+      "publisher": "Maine LUPC",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0",
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html"
+      ],
+      "coverage": "168,336 source zone features; all returned publication groups are PUBLISH=Yes and DRAW=Yes.",
+      "identifiers": [
+        "MAP",
+        "PANEL",
+        "ZONE",
+        "IDENTIFIER",
+        "GlobalID"
+      ],
+      "freshness": "START_DATE/END_DATE and edit fields exist. Published GIS may briefly lag official maps.",
+      "access": "State-hosted FeatureServer works; one GeoJSON geometry tested; advertised page limit 2,000. Linked hosted LUPC_Zoning service returned API code 499 Token Required.",
+      "limitations": [
+        "All-Yes flags do not verify legal currency.",
+        "Official maps remain necessary for zoning confirmation.",
+        "Rights and publication semantics need review."
+      ],
+      "next_verification": [
+        "Determine authoritative current-zone selection and map-date reconciliation."
+      ],
+      "probe_ids": [
+        "lupc-zones-metadata",
+        "lupc-zones-count",
+        "zoning-publication-flags",
+        "lupc-zones-geometry",
+        "lupc-linked-download"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "municipal-zoning",
+      "name": "Municipal zoning and shoreland records",
+      "publisher": "Individual municipalities",
+      "access_status": "unresolved",
+      "source_urls": [
+        "https://www.maine.gov/geolib/"
+      ],
+      "coverage": "No statewide municipal zoning source verified in this pass.",
+      "identifiers": [],
+      "freshness": "Unknown.",
+      "access": "Per-municipality source discovery remains open.",
+      "limitations": [
+        "LUPC coverage cannot stand in for municipal zoning."
+      ],
+      "next_verification": [
+        "Inventory municipal publication routes and effective dates by jurisdiction; link maps to ordinances."
+      ],
+      "probe_ids": [],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "soils",
+      "name": "SSURGO / Soil Data Access",
+      "publisher": "USDA NRCS",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://www.nrcs.usda.gov/resources/data-and-reports/soil-survey-geographic-database-ssurgo",
+        "https://sdmdataaccess.nrcs.usda.gov/WebServiceHelp.aspx",
+        "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest"
+      ],
+      "coverage": "20 ME-prefixed survey catalog rows returned; catalog presence does not prove polygon coverage or absence of unmapped units.",
+      "identifiers": [
+        "areasymbol (tested)",
+        "mukey/cokey/chkey (schema verification pending)"
+      ],
+      "freshness": "All returned saverest timestamps are 2025-08-29; this is catalog restoration metadata, not field survey date.",
+      "access": "Bounded read-only POST returned Maine survey catalog; publisher documents survey-area downloads and JSON query service.",
+      "limitations": [
+        "Soil map units do not establish site-specific septic suitability.",
+        "Retain map-unit/component/horizon relationships and units."
+      ],
+      "next_verification": [
+        "Retrieve one survey-area metadata/package manifest; measure NOTCOM and spatial coverage; validate joins."
+      ],
+      "probe_ids": [
+        "ssurgo-maine-surveys"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "wetlands",
+      "name": "National Wetlands Inventory",
+      "publisher": "US Fish and Wildlife Service",
+      "access_status": "metadata_tested",
+      "source_urls": [
+        "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0",
+        "https://www.fws.gov/program/national-wetlands-inventory/download-state-wetlands-data",
+        "https://www.fws.gov/program/national-wetlands-inventory/web-mapping-services"
+      ],
+      "coverage": "National service and Maine state package link documented; Maine completeness not measured.",
+      "identifiers": [
+        "Wetland code fields in service; stable feature key needs validation"
+      ],
+      "freshness": "Download page labels May 2026 release; project/image dates travel separately. Publisher describes May/October updates.",
+      "access": "Public ArcGIS metadata tested; publisher offers state FileGDB and GeoPackage packages; archive not downloaded.",
+      "limitations": [
+        "Mapping age varies by project.",
+        "Screening inventory; no parcel-specific wetland delineation established."
+      ],
+      "next_verification": [
+        "Select Maine package, preserve project metadata, validate coverage and feature identifiers."
+      ],
+      "probe_ids": [
+        "nwi-wetlands-metadata"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "elevation",
+      "name": "3DEP elevation product catalog",
+      "publisher": "US Geological Survey",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://www.usgs.gov/faqs/there-api-accessing-national-map-data",
+        "https://tnmaccess.nationalmap.gov/api/v1/docs"
+      ],
+      "coverage": "Maine-containing bbox query returned 1,860 catalog matches for 1-meter DEM; only one product inspected; this is not a Maine coverage count.",
+      "identifiers": [
+        "sourceId",
+        "downloadURL",
+        "product footprint"
+      ],
+      "freshness": "Product dates available. First result is a neighboring NH project; source acquisition dates and Maine intersection need validation.",
+      "access": "TNM dataset and bounded product queries work; GeoTIFF URL observed; raster not downloaded.",
+      "limitations": [
+        "Bounding-box matches do not prove full state coverage.",
+        "Resolution, vertical units/datum and acquisition date must be retained."
+      ],
+      "next_verification": [
+        "Build Maine-intersecting tile inventory; inspect raster metadata, overlap and gaps before slope/aspect derivation."
+      ],
+      "probe_ids": [
+        "tnm-datasets",
+        "elevation-products"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "hydrography",
+      "name": "3DHP and legacy NHD",
+      "publisher": "US Geological Survey",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://www.usgs.gov/national-hydrography",
+        "https://www.usgs.gov/3d-hydrography-program/access-3dhp-data-products",
+        "https://tnmaccess.nationalmap.gov/api/v1/docs"
+      ],
+      "coverage": "Bounded catalog query returned four 3DHP products; first result is a CONUS FileGDB. Local feature coverage untested.",
+      "identifiers": [
+        "Product sourceId; feature IDs pending schema inspection"
+      ],
+      "freshness": "USGS says NHD retired October 1, 2023 and is no longer maintained; 3DHP is successor. Product version must be retained.",
+      "access": "TNM dataset/product queries work; bulk archive not downloaded.",
+      "limitations": [
+        "Do not treat legacy NHD as continually updated.",
+        "CONUS product presence does not establish local update quality, stream permanence or recreation rights."
+      ],
+      "next_verification": [
+        "Choose appropriate distribution; inspect Maine coverage, feature identifiers, lineage and version."
+      ],
+      "probe_ids": [
+        "tnm-datasets",
+        "hydrography-products"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "flood",
+      "name": "NFHL availability index",
+      "publisher": "FEMA",
+      "access_status": "metadata_tested",
+      "source_urls": [
+        "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/0"
+      ],
+      "coverage": "Availability index metadata works; Maine coverage and actual hazard polygons not queried.",
+      "identifiers": [
+        "STUDY_ID (availability layer)"
+      ],
+      "freshness": "Effective-study and map-revision dates must be established.",
+      "access": "Public ArcGIS metadata tested.",
+      "limitations": [
+        "This probe tested an availability index, not the flood-hazard polygon layer.",
+        "No returned hazard must not be interpreted as no flood risk without coverage evidence."
+      ],
+      "next_verification": [
+        "Identify hazard layer in official service; compare study coverage and effective map dates before overlay."
+      ],
+      "probe_ids": [
+        "flood-availability-metadata"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "roads",
+      "name": "MaineDOT public road centerlines",
+      "publisher": "MaineDOT",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/52"
+      ],
+      "coverage": "100,799 source line features; private/logging-road completeness not assessed.",
+      "identifiers": [
+        "link_id",
+        "segment_id",
+        "towncode"
+      ],
+      "freshness": "No source-wide data date established from layer metadata.",
+      "access": "Public ArcGIS count and metadata tested; advertised page limit 1,000; native Web Mercator.",
+      "limitations": [
+        "Fields such as jurisdictn, surface and traffic require code definitions.",
+        "Geometry does not prove deeded access, maintenance obligation or seasonal passability."
+      ],
+      "next_verification": [
+        "Read data dictionary and dates; validate identifiers and private-road gaps."
+      ],
+      "probe_ids": [
+        "public-roads-metadata",
+        "public-roads-count"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "conservation",
+      "name": "Conserved Lands",
+      "publisher": "Maine DACF / partners",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Conserved_Lands_All/FeatureServer/0",
+        "https://www.maine.gov/dacf/mnap/assistance/conslands.htm",
+        "https://www.arcgis.com/home/item.html?id=ad59f27a21f24f19bb005868a04b65a3"
+      ],
+      "coverage": "12,851 inventory features; not a legal boundary or public-access inventory guarantee.",
+      "identifiers": [
+        "CL_UNIQUEID",
+        "GlobalID",
+        "TAX_MAP_TOWN",
+        "TAX_MAP_BOOK_LOT"
+      ],
+      "freshness": "Item describes annual processing; service edit date is not per-parcel acquisition/currency.",
+      "access": "Public feature metadata/count works; linked Hub page failed in browser fetch, underlying item/service accessible.",
+      "limitations": [
+        "PUB_ACCESS exists but actual permissions need confirmation.",
+        "Approximate ownership/easement geometries."
+      ],
+      "next_verification": [
+        "Validate CL_UNIQUEID, rights fields and tax-map linkage; preserve inventory limitations."
+      ],
+      "probe_ids": [
+        "conservation-item",
+        "conserved-lands-metadata",
+        "conserved-lands-count"
+      ],
+      "rights": "Catalog explicitly says access is not implied and landowner permission is needed; no broader redistribution license established."
+    },
+    {
+      "id": "structures",
+      "name": "Building footprint candidate",
+      "publisher": "MaineDOT service distributing OpenStreetMap data",
+      "access_status": "metadata_tested",
+      "source_urls": [
+        "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/42"
+      ],
+      "coverage": "Coverage unmeasured; E911 facilities catalog is also available but is not a complete residential-building inventory.",
+      "identifiers": [
+        "OBJECTID only in inspected schema; durable upstream key not established"
+      ],
+      "freshness": "Snapshot date unknown.",
+      "access": "Public layer metadata only.",
+      "limitations": [
+        "OpenStreetMap origin means state hosting does not make every building authoritative."
+      ],
+      "next_verification": [
+        "Measure building omission and snapshot age before any privacy/remoteness metric."
+      ],
+      "probe_ids": [
+        "building-footprints-metadata",
+        "cadastre-catalog"
+      ],
+      "rights": "Layer credits OpenStreetMap, ODbL 1.0; resolve attribution/share-alike obligations for intended output."
+    },
+    {
+      "id": "trails",
+      "name": "ATV and snowmobile route information",
+      "publisher": "Maine DACF / IFW / local clubs",
+      "access_status": "publisher_documented",
+      "source_urls": [
+        "https://www.maine.gov/dacf/parks/trail_activities/atv/atv-trails.shtml",
+        "https://www.maine.gov/ifw/atv-snowmobile/index.html"
+      ],
+      "coverage": "Official information routes located; no complete statewide machine-readable trail layer verified.",
+      "identifiers": [],
+      "freshness": "Seasonal status and permissions need current confirmation.",
+      "access": "Official pages and club-map routes; automated feed unknown.",
+      "limitations": [
+        "Trail proximity and permission are different findings."
+      ],
+      "next_verification": [
+        "Inventory reusable route sources, permitted uses, seasonal dates and permission records."
+      ],
+      "probe_ids": [],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "deeds-title",
+      "name": "Deeds, recorded plans and easements",
+      "publisher": "County registries of deeds",
+      "access_status": "publisher_documented",
+      "source_urls": [
+        "https://www.maine.gov/revenue/taxes/property-tax/transfer-tax/county-registries-of-deeds"
+      ],
+      "coverage": "MRS directory identifies county registry routes; no county API/bulk export tested.",
+      "identifiers": [
+        "Registry/jurisdiction + instrument or book/page (format unverified)"
+      ],
+      "freshness": "Document recording date and title currency are distinct.",
+      "access": "Directory reviewed; portal extraction, cost and reuse terms unresolved.",
+      "limitations": [
+        "A retrieved deed does not establish a complete title chain or resolve boundary/access disputes."
+      ],
+      "next_verification": [
+        "Record each registry's index, image/plan access, terms and costs; test document identifiers before automation."
+      ],
+      "probe_ids": [],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "septic-buildability",
+      "name": "Wastewater permits and site evaluation",
+      "publisher": "Maine DHHS / local permitting authorities",
+      "access_status": "publisher_documented",
+      "source_urls": [
+        "https://www1.maine.gov/dhhs/mecdc/services/business-services/hydrology-and-wastewater/subsurface-wastewater-system-permitting"
+      ],
+      "coverage": "Permitting documentation located; permit-record retrieval not tested.",
+      "identifiers": [],
+      "freshness": "Design, site evaluation and permit dates must be tracked separately.",
+      "access": "Official requirements page; no bulk parcel-permit feed verified.",
+      "limitations": [
+        "Mapped soils do not establish site approval."
+      ],
+      "next_verification": [
+        "Identify permit retrieval paths and parcel-linking fields; define which unknowns require a site evaluator."
+      ],
+      "probe_ids": [],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "utilities",
+      "name": "Power, communications and water options",
+      "publisher": "Provider/source not yet selected",
+      "access_status": "unresolved",
+      "source_urls": [],
+      "coverage": "Unknown.",
+      "identifiers": [],
+      "freshness": "Unknown.",
+      "access": "Unknown.",
+      "limitations": [
+        "Network proximity does not establish serviceability or connection cost."
+      ],
+      "next_verification": [
+        "Identify publisher and access terms, then profile coverage and dates before implementation."
+      ],
+      "probe_ids": [],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "current-use-tax",
+      "name": "Tree Growth/current-use tax status",
+      "publisher": "Provider/source not yet selected",
+      "access_status": "unresolved",
+      "source_urls": [],
+      "coverage": "Unknown.",
+      "identifiers": [],
+      "freshness": "Unknown.",
+      "access": "Unknown.",
+      "limitations": [
+        "GIS or listing statements cannot establish enrollment, withdrawals or obligations."
+      ],
+      "next_verification": [
+        "Identify publisher and access terms, then profile coverage and dates before implementation."
+      ],
+      "probe_ids": [],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "listings",
+      "name": "Listing and market records",
+      "publisher": "Provider/source not yet selected",
+      "access_status": "unresolved",
+      "source_urls": [],
+      "coverage": "Unknown.",
+      "identifiers": [],
+      "freshness": "Unknown.",
+      "access": "Unknown.",
+      "limitations": [
+        "No provider, license or ingestion route has been selected."
+      ],
+      "next_verification": [
+        "Identify publisher and access terms, then profile coverage and dates before implementation."
+      ],
+      "probe_ids": [],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "landcover-imagery",
+      "name": "Land cover and imagery for privacy/remoteness",
+      "publisher": "Provider/source not yet selected",
+      "access_status": "unresolved",
+      "source_urls": [],
+      "coverage": "Unknown.",
+      "identifiers": [],
+      "freshness": "Unknown.",
+      "access": "Unknown.",
+      "limitations": [
+        "Coverage, capture date, resolution and permitted reuse need investigation."
+      ],
+      "next_verification": [
+        "Identify publisher and access terms, then profile coverage and dates before implementation."
+      ],
+      "probe_ids": [],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    }
+  ]
+}
