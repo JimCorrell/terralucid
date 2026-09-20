@@ -53,3 +53,12 @@ match; no geometry is silently repaired. See [the load report](../research/maine
 - Parcel identity matching across state, municipal, registry, and listing records.
 - Schema details, scoring weights, thresholds, user interface, and automation choices.
 - Which critical unknowns are mandatory for a particular intended use and offer.
+
+## Reviewed correction layer
+
+After PR #7, the user approved a separate correction layer. Accept its reviewed
+GEOCODE and STATE_ID proposals only for their exact historical source snapshots.
+Preserve raw features, assessment candidates, original geometries, exception holds
+and findings. Acceptance does not change INFERRED evidence into VERIFIED evidence.
+Use immutable source interpretations and append-only acceptance/withdrawal events;
+new source deliveries require new review. See [correction layer](correction-layer.md).
