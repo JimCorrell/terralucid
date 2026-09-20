@@ -66,3 +66,8 @@ The [Osborn FEMA qualification](../osborn-fema/README.md) adds **TL-F-0026** for
 invalid FEMA flood-zone polygons. Its definition and initial review are in
 `research/osborn-fema/findings-plan.json`. TL-F-0105 and TL-F-0109 receive additional
 evidence and remain in progress; no geometry correction is accepted in this step.
+
+The [TL-F-0026 geometry investigation](../fema-geometry-investigation/README.md)
+proposes exact-version, segment-preserving shell/hole decodings for both FEMA
+polygons. They remain unaccepted. TL-F-0026 moves to in progress/high; TL-F-0105
+also records a map/service depiction discrepancy for the smaller feature.

@@ -1,0 +1,23 @@
+{
+  "scope": "TL-F-0026 investigation of two exact-version Osborn FEMA polygons; no accepted correction or parcel screening.",
+  "as_of": "2026-09-20T21:49:09.959587+00:00",
+  "sources": [
+    {
+      "id": "flood",
+      "probe_ids": [
+        "render-27129510",
+        "render-27129583",
+        "layer-metadata",
+        "native-rings",
+        "geojson-recheck",
+        "projected-rings",
+        "esri-polygon-reference"
+      ],
+      "source_urls": [
+        "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28",
+        "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/"
+      ],
+      "rights": "Raw source responses, maps and candidates remain in private source archive; no redistribution determination."
+    }
+  ]
+}

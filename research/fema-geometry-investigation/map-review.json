@@ -1,0 +1,96 @@
+{
+  "pdf_sha256": "fcef7a0a0838e02a45ded5ab071078e5f4938ae02c2849b4bd1639bfb333320b",
+  "prior_audit_sha256": "2f106e1b19fa2b13415741a109d34f1f9dbc4fdb04cf67e77fe882325aebe5ff",
+  "document": "FEMA 22-01-0871P-230595 determination and annotated FIRM enclosures, effective May 31, 2024.",
+  "pdf_pages_reviewed": [
+    6,
+    7,
+    8
+  ],
+  "panel_ids": [
+    "23009C0437D",
+    "23009C0439D",
+    "23009C0443D"
+  ],
+  "review_method": "Visual inspection of full map pages, legends and enlarged unmodified crops (4 pixels per PDF point). Embedded geospatial control values provide approximate crop locators only; no tracing, digitization or geometrical acceptance from raster appearance.",
+  "locators": [
+    {
+      "OBJECTID": 27129510,
+      "pdf_page": 8,
+      "measure_xref": 578,
+      "clip_points": [
+        581.5197202996351,
+        266.6595093603246,
+        713.917898079846,
+        360.660533931572
+      ],
+      "locator_residual_points": 0.2804746324944343,
+      "locator_method": "Affine fit of embedded GPTS to LPTS/BBox, approximate visual locator only; source NAD83 versus map NAD83(2011) realization and rounded control coordinates not resolved. No geometry digitized."
+    },
+    {
+      "OBJECTID": 27129583,
+      "pdf_page": 6,
+      "measure_xref": 354,
+      "clip_points": [
+        1356.6261871615425,
+        1723.177533279173,
+        1466.6804965231568,
+        1871.6195467389189
+      ],
+      "locator_residual_points": 0.1868568369122067,
+      "locator_method": "Affine fit of embedded GPTS to LPTS/BBox, approximate visual locator only; source NAD83 versus map NAD83(2011) realization and rounded control coordinates not resolved. No geometry digitized."
+    },
+    {
+      "OBJECTID": 27129583,
+      "pdf_page": 7,
+      "measure_xref": 467,
+      "clip_points": [
+        1343.51300924737,
+        83.09696677373722,
+        1453.5990340295248,
+        231.5390486852266
+      ],
+      "locator_residual_points": 0.28053892281763965,
+      "locator_method": "Affine fit of embedded GPTS to LPTS/BBox, approximate visual locator only; source NAD83 versus map NAD83(2011) realization and rounded control coordinates not resolved. No geometry digitized."
+    }
+  ],
+  "map_crs_note": "Printed legend and PDF viewport WKT identify NAD83(2011) / UTM19N; NFHL native source is labeled NAD83 EPSG:4269. Realization equivalence is not established; use locators only for visual context.",
+  "observations": [
+    {
+      "OBJECTID": 27129583,
+      "evidence_state": "VERIFIED",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "observation": "At the approximate location across the panel seam near Joe Moore Brook, the maps depict a Zone A area with a shaded Zone X fringe. The larger interior region is not uniformly shaded Zone X. This supports regional category/partition context; map scale, strokes, seam and labels cannot independently certify the exact repeated vertex or each segment."
+    },
+    {
+      "OBJECTID": 27129510,
+      "evidence_state": "VERIFIED",
+      "pdf_pages": [
+        8
+      ],
+      "observation": "The approximate location lies in the blank portion of the 0443D enclosure, east of its depicted western flood corridor. This page does not visibly corroborate the small NFHL feature or its hole. Do not read blank depiction as hazard absence."
+    },
+    {
+      "OBJECTID": 27129510,
+      "evidence_state": "UNKNOWN",
+      "observation": "The reason for the difference between current service depiction and the reviewed revision enclosure remains unresolved. Neither a legal map error nor a missing hazard determination is established; carry a map-evidence hold under TL-F-0105."
+    }
+  ],
+  "service_renders": [
+    {
+      "evidence_ref": "render/render-27129510",
+      "sha256": "634f01bb555ad1922ea3de006dbd75ea7ef5a09a530351d637dc0c83a61321f6",
+      "observation": "Current service shows shaded Zone X bordering Zone A and an unshaded interior opening near the small feature."
+    },
+    {
+      "evidence_ref": "render/render-27129583",
+      "sha256": "b40f20e60374999ee6c6164221508206830561f4ac1b272bc8bafa548e34fbfb",
+      "observation": "Current service shows the larger feature as shaded Zone X surrounding a Zone A area, consistent with retaining an interior hole."
+    }
+  ],
+  "evidence_limit": "FEMA service rendering corroborates displayed fill convention but is not an independent survey or legal determination. Neighbor features are part of the same NFHL snapshot. Exact topology support comes from unchanged native rings, documented Esri conventions and segment/winding checks.",
+  "decision": "Propose two DERIVED structural decodings only. No hole deletion, accepted correction, finding resolution, parcel screening or legal P-FP assignment."
+}

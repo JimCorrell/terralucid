@@ -22,3 +22,6 @@ __pycache__/
 
 /research/osborn-fema/runs/**/*.response
 /research/osborn-fema/large-documents/*.response
+
+/research/fema-geometry-investigation/runs/**/*.response
+/research/fema-geometry-investigation/candidates/*.geojson
