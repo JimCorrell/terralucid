@@ -1,0 +1,183 @@
+{
+  "scope": "Published source qualification for bounded research; not legal advice or property-specific zoning certification.",
+  "jurisdictions": [
+    {
+      "name": "Osborn",
+      "geocode": "09230",
+      "digital_status": "captured_screening_only",
+      "source": "lupc-zoning",
+      "map_key": "osborn",
+      "legal_current_selection": "UNKNOWN",
+      "caveats": [
+        "PUBLISH/DRAW flags and null END_DATE do not establish legal currency.",
+        "Capture uses all observed Osborn polygons without assumed date filtering.",
+        "Map index initial effective date differs from last-edited label; PDF amendments reconcile the 2024 label, not every polygon.",
+        "Official map omits some protections applied by rules or physical conditions."
+      ],
+      "evidence_refs": [
+        "pages/lupc-publication",
+        "discovery/lupc-selected-maps",
+        "documents/osborn-official-map"
+      ]
+    },
+    {
+      "name": "Kingsbury Plt",
+      "geocode": "21110",
+      "digital_status": "no_qualified_municipal_polygons",
+      "source": "municipal-zoning",
+      "legal_current_selection": "UNKNOWN",
+      "caveats": [
+        "LUPC name searches returned no Kingsbury map; envelope query found 95 neighboring polygons labeled Blanchard/Mayfield, not Kingsbury.",
+        "Historical LUPC publication links to a map that now returns HTTP 404.",
+        "Municipality publishes its own map and ordinance; adoption/effective dates and current authority still require confirmation.",
+        "Presence in a UT assessment source does not establish LUPC regulatory jurisdiction."
+      ],
+      "evidence_refs": [
+        "coverage/kingsbury-spatial-count",
+        "followup/kingsbury-neighbor-attributes",
+        "followup/kingsbury-published-map",
+        "kingsbury/kingsbury-municipal-resources",
+        "kingsbury-documents/kingsbury-local-map",
+        "kingsbury-documents/kingsbury-local-ordinance"
+      ]
+    },
+    {
+      "name": "Sweden",
+      "geocode": "17310",
+      "digital_status": "pdf_only_no_qualified_polygons",
+      "source": "municipal-zoning",
+      "legal_current_selection": "UNKNOWN",
+      "caveats": [
+        "Published 2022 map and 2024 ordinance archived; currency and exact authoritative boundaries remain unconfirmed.",
+        "No PDF tracing or parcel zoning inference performed."
+      ],
+      "evidence_refs": [
+        "documents/sweden-zoning-map",
+        "documents/sweden-zoning-ordinance"
+      ]
+    },
+    {
+      "name": "Alfred",
+      "geocode": "31020",
+      "digital_status": "publication_route_only",
+      "source": "municipal-zoning",
+      "legal_current_selection": "UNKNOWN",
+      "caveats": [
+        "Municipal code-enforcement page links to eCode360; direct archive request returned HTTP 403.",
+        "No access-control bypass attempted; zoning text/map currency and usable polygons remain unqualified.",
+        "One original parcel geometry retains raw conflicting GEOCODE 31030 because its correction is held."
+      ],
+      "evidence_refs": [
+        "discovery/alfred-code-enforcement",
+        "documents/alfred-code"
+      ]
+    }
+  ],
+  "document_review": [
+    {
+      "evidence_ref": "documents/osborn-official-map",
+      "sha256": "9de0a5f83415be0433e57d62aba24382dfe71a51ea938a56af595b11fc046beb",
+      "pdf_pages": [
+        1
+      ],
+      "dates": {
+        "adopted": "2005-08-03",
+        "effective": "2005-08-18",
+        "latest_printed_amendment": "2024-08-01"
+      },
+      "evidence_state": "VERIFIED",
+      "verification_scope": "What the inspected publication states; not current legal zoning.",
+      "observation": "Reviewed complete map and enlarged notes/amendment table. Latest listed change is a clerical FEMA-reference correction; initial effective date and latest amendment are distinct. Map notes say some wetland/stream and FEMA protections are not drawn and rules/ground conditions can control."
+    },
+    {
+      "evidence_ref": "documents/sweden-zoning-map",
+      "sha256": "7aa067c01226bd324d22a84629627b2a0700cef7cc7a40a059d5b2dec2f46e25",
+      "pdf_pages": [
+        1
+      ],
+      "dates": {
+        "amended": "2022-06-25"
+      },
+      "evidence_state": "VERIFIED",
+      "verification_scope": "What the inspected publication states; not current legal zoning.",
+      "observation": "Reviewed complete map, legend and caution. District positions are approximate; map directs local official/site confirmation. Parcel background is labeled 2014. No digital polygon source qualified."
+    },
+    {
+      "evidence_ref": "documents/sweden-zoning-ordinance",
+      "sha256": "c41ebd2c09084b781d76c86d93dec28b9a2db57ffdb5d8fc372192487d7295b0",
+      "pdf_pages": [
+        1,
+        7,
+        92
+      ],
+      "dates": {
+        "edition": "2024",
+        "referenced_map_revision": "2022-06"
+      },
+      "evidence_state": "VERIFIED",
+      "verification_scope": "What the inspected publication states; not current legal zoning.",
+      "observation": "Reviewed cover, section VIII.A-C and Appendix A. Ordinance references official map at municipal office; appendix is a reduced approximate copy. No assertion that publication is fully consolidated/current."
+    },
+    {
+      "evidence_ref": "kingsbury-documents/kingsbury-local-map",
+      "sha256": "5f165eb335f9b51a197c0f365f5084a89e504e7fe11b6af845fcf0e4da27905a",
+      "pdf_pages": [
+        1
+      ],
+      "dates": {
+        "printed_raw": "11/115/2019",
+        "effective_date": null
+      },
+      "evidence_state": "VERIFIED",
+      "verification_scope": "What the inspected publication states; not current legal zoning.",
+      "observation": "Reviewed complete map and legend. Printed date string is malformed and retained literally. Municipal map includes Rural, Stream Protection, Limited Residential, Resource Protection and Wind Energy Generation Facility zones. No polygon source or current effective date verified."
+    },
+    {
+      "evidence_ref": "kingsbury-documents/kingsbury-local-ordinance",
+      "sha256": "353d0db862720055667c1f195fe2a98c9436c62d0d7e3c5c4b3e08b47853fcb0",
+      "pdf_pages": [
+        1
+      ],
+      "dates": {
+        "enacted": null,
+        "amended": null
+      },
+      "evidence_state": "VERIFIED",
+      "verification_scope": "What the inspected publication states; not current legal zoning.",
+      "observation": "Reviewed cover; enactment and amendment date lines are blank. File publication does not verify adoption or current legal status."
+    }
+  ],
+  "publication_links": [
+    {
+      "page": "pages/sweden-code-enforcement",
+      "url": "https://swedenmaine.org/wp-content/uploads/2024/07/SW-Zoning-Ordinance-3-23-2024_FINAL.pdf"
+    },
+    {
+      "page": "discovery/sweden-maps",
+      "url": "https://swedenmaine.org/wp-content/uploads/2023/08/App_A_finalcopy23.pdf"
+    },
+    {
+      "page": "discovery/alfred-code-enforcement",
+      "url": "https://ecode360.com/AL1317?needHash=true"
+    },
+    {
+      "page": "kingsbury/kingsbury-municipal-resources",
+      "url": "https://kingsburyplantation.com/wp-content/uploads/2021/08/Kingsbury-Plantation-Land-Use-Zoning-Map.pdf"
+    },
+    {
+      "page": "kingsbury/kingsbury-municipal-resources",
+      "url": "https://kingsburyplantation.com/wp-content/uploads/2021/08/Kingsbury-Plantation-Zoning-Ordinance.pdf"
+    },
+    {
+      "page": "coverage/kingsbury-historical-publication",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/kingsbury-plt.pdf"
+    }
+  ],
+  "rights": "Raw third-party documents and new GIS responses remain in private Supabase storage. No redistribution license established.",
+  "unresolved_actions": [
+    "Confirm authoritative current zoning sources and effective dates for each jurisdiction.",
+    "Review invalid Osborn polygon against native service representation before any alternate decoding.",
+    "Obtain qualified municipal digital polygons or a documented authoritative alternative.",
+    "Resolve map-omitted protections and geometry-sensitive uncertainty before site conclusions."
+  ]
+}

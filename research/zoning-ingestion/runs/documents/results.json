@@ -1,0 +1,83 @@
+[
+  {
+    "id": "lupc-map-name-check",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=UPPER%28TOWNNAME%29+LIKE+%27%25KINGS%25%27+OR+UPPER%28MAP%29+LIKE+%27%25KINGS%25%27&outFields=%2A&returnGeometry=false&f=json",
+    "retrieved_at": "2026-09-20T04:18:17.582886+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=UPPER%28TOWNNAME%29+LIKE+%27%25KINGS%25%27+OR+UPPER%28MAP%29+LIKE+%27%25KINGS%25%27&outFields=%2A&returnGeometry=false&f=json",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "lupc-map-name-check.response",
+    "sha256": "8f8ea3ec7162f83638cbb263c1e0bee866c930834556ce53b3f3a7c7ebceb468",
+    "bytes": 3736,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "alfred-code",
+    "url": "https://ecode360.com/AL1317?needHash=true",
+    "retrieved_at": "2026-09-20T04:18:55.125747+00:00",
+    "http_status": 403,
+    "final_url": "https://ecode360.com/AL1317?needHash=true",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "alfred-code.response",
+    "sha256": "27d20bd51f317583174467150a8a01a39631e48b666b069721dda3c3d0d8b84a",
+    "bytes": 5499,
+    "status": "HTTP_ERROR",
+    "pdf_signature": false
+  },
+  {
+    "id": "sweden-zoning-publication",
+    "url": "https://swedenmaine.org/download/zoning-ordinance/",
+    "retrieved_at": "2026-09-20T04:18:55.417645+00:00",
+    "http_status": 200,
+    "final_url": "https://swedenmaine.org/download/zoning-ordinance/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "sweden-zoning-publication.response",
+    "sha256": "f9d30f3121ce4cc5e6ed1df3cb9f4e7a4f4e3915526dbae6bfaf5e905f0a10d3",
+    "bytes": 76965,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "sweden-zoning-map",
+    "url": "https://swedenmaine.org/wp-content/uploads/2023/08/App_A_finalcopy23.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-20T04:18:56.349418+00:00",
+    "http_status": 200,
+    "final_url": "https://swedenmaine.org/wp-content/uploads/2023/08/App_A_finalcopy23.pdf",
+    "content_type": "application/pdf",
+    "response_file": "sweden-zoning-map.response",
+    "sha256": "7aa067c01226bd324d22a84629627b2a0700cef7cc7a40a059d5b2dec2f46e25",
+    "bytes": 591381,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "sweden-zoning-ordinance",
+    "url": "https://swedenmaine.org/wp-content/uploads/2024/07/SW-Zoning-Ordinance-3-23-2024_FINAL.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-20T04:18:57.577867+00:00",
+    "http_status": 200,
+    "final_url": "https://swedenmaine.org/wp-content/uploads/2024/07/SW-Zoning-Ordinance-3-23-2024_FINAL.pdf",
+    "content_type": "application/pdf",
+    "response_file": "sweden-zoning-ordinance.response",
+    "sha256": "c41ebd2c09084b781d76c86d93dec28b9a2db57ffdb5d8fc372192487d7295b0",
+    "bytes": 4113037,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "osborn-official-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-20T04:18:59.119670+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf",
+    "content_type": "application/pdf",
+    "response_file": "osborn-official-map.response",
+    "sha256": "9de0a5f83415be0433e57d62aba24382dfe71a51ea938a56af595b11fc046beb",
+    "bytes": 2721897,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  }
+]

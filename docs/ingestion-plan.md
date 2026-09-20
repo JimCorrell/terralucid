@@ -65,3 +65,12 @@ Site and professional checks remain explicit unresolved evidence requirements wh
 ## Later integration checks
 
 After the source registry, coverage audit and first loads are usable, select representative parcels to test joins and derivations. User-defined scoring, AI adjudication, a user interface and transaction readiness follow the data foundation. A successful endpoint probe alone does not justify a suitability assessment.
+
+## First zoning pilot
+
+The [bounded zoning ingestion](../research/zoning-ingestion/README.md) qualifies
+Osborn LUPC GIS for provisional geometric screening and inventories municipal
+publication routes for Kingsbury, Sweden and Alfred. It records source gaps,
+invalid geometry, unknown legal currency and downstream correction dependencies.
+Municipal polygon qualification and authoritative date/rule reconciliation remain
+next ingestion gates; this pilot does not satisfy all of step 3.

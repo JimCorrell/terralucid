@@ -1,0 +1,18 @@
+[
+  {
+    "id": "kingsbury-spatial-count",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=1%3D1&geometry=-69.68280078302648%2C45.09999846592585%2C-69.51924552724817%2C45.21274273642585&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false&returnCountOnly=true"
+  },
+  {
+    "id": "kingsbury-spatial-ids",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=1%3D1&geometry=-69.68280078302648%2C45.09999846592585%2C-69.51924552724817%2C45.21274273642585&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false&returnIdsOnly=true"
+  },
+  {
+    "id": "kingsbury-spatial-map-index",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?f=json&where=1%3D1&geometry=-69.68280078302648%2C45.09999846592585%2C-69.51924552724817%2C45.21274273642585&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false&outFields=OBJECTID%2CMAP%2CTOWNNAME%2CURL_LARGE_MAP%2Clast_edited_date_text"
+  },
+  {
+    "id": "kingsbury-historical-publication",
+    "url": "https://www.maine.gov/DACF/lupc/plans_maps_data/resourceplans/prp013_revised.html"
+  }
+]

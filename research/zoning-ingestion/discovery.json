@@ -1,0 +1,18 @@
+[
+  {
+    "id": "lupc-selected-maps",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=TOWNNAME+IN+%28%27Osborn%27%2C%27Kingsbury+Plt%27%2C%27Kingsbury%27%2C%27Sweden%27%2C%27Alfred%27%29+OR+TOWNNAME+LIKE+%27Kingsbury%25%27&outFields=%2A&returnGeometry=false&f=json"
+  },
+  {
+    "id": "sweden-maps",
+    "url": "https://swedenmaine.org/about-sweden/maps/"
+  },
+  {
+    "id": "alfred-code-enforcement",
+    "url": "https://www.alfredme.gov/departments/code_enforcement/index.php"
+  },
+  {
+    "id": "sweden-ordinances",
+    "url": "https://swedenmaine.org/town-office/ordinances/"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "lupc-publication",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html",
+    "retrieved_at": "2026-09-20T04:16:32.024721+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html",
+    "content_type": "text/html",
+    "response_file": "lupc-publication.response",
+    "sha256": "c17e6397d6ff2447cf3cde92dc19cbcd9e6b40deed94a4095423766f9b3a85cc",
+    "bytes": 25238,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "lupc-maps-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0?f=pjson",
+    "retrieved_at": "2026-09-20T04:16:32.504233+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "lupc-maps-metadata.response",
+    "sha256": "cd8098c8c9c046c02ba926492a7e7f120ad2b77c0159c7ed7cf6fd524390bef5",
+    "bytes": 13104,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "lupc-service-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer?f=pjson",
+    "retrieved_at": "2026-09-20T04:16:32.865775+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "lupc-service-metadata.response",
+    "sha256": "4464ef7606d6f2d1ac30df368998c562c440cd38ac9ed0202b6265ffa89879f1",
+    "bytes": 5318,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "lupc-offline-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+    "retrieved_at": "2026-09-20T04:16:33.252745+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "lupc-offline-metadata.response",
+    "sha256": "e431122da6f3b35e17824a8ce0f91b0a020f6adf94138e3ef24a39fbf1f6bc65",
+    "bytes": 110668,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "sweden-code-enforcement",
+    "url": "https://swedenmaine.org/town-office/code-enforcement-officer/",
+    "retrieved_at": "2026-09-20T04:16:33.632602+00:00",
+    "http_status": 200,
+    "final_url": "https://swedenmaine.org/town-office/code-enforcement-officer/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "sweden-code-enforcement.response",
+    "sha256": "1a2879dd40482adc34ec5bacac87b6ac6cb5b114334dad6d7a9eda0f7b418e40",
+    "bytes": 99832,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "alfred-home",
+    "url": "https://www.alfredme.gov/",
+    "retrieved_at": "2026-09-20T04:16:34.914581+00:00",
+    "http_status": 200,
+    "final_url": "https://www.alfredme.gov/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "alfred-home.response",
+    "sha256": "f7d166c9f484fb849368b0f80a9fca613fcff2acfde23e40555cf3edc4a0dc89",
+    "bytes": 45217,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

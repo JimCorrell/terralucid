@@ -1,0 +1,33 @@
+{
+  "purpose": "Bounded zoning screening for existing Osborn/Kingsbury records; all matching source features retained, no legal-current filter assumed. Municipal Sweden/Alfred are documented separately.",
+  "page_size": 50,
+  "max_records_per_source": 3000,
+  "sources": [
+    {
+      "id": "lupc-zoning",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0",
+      "where": "MAP = 'osborn' OR UPPER(MAP) LIKE '%KINGS%'",
+      "fields": [
+        "OBJECTID",
+        "Shape__Area",
+        "MAP",
+        "PANEL",
+        "ZONE",
+        "PUBLISH",
+        "DRAW",
+        "START_DATE",
+        "END_DATE",
+        "COMMENT",
+        "TRACKING_NUMBER",
+        "IDENTIFIER",
+        "created_user",
+        "created_date",
+        "last_edited_user",
+        "last_edited_date",
+        "Shape__Length",
+        "GlobalID"
+      ],
+      "geometry": true
+    }
+  ]
+}

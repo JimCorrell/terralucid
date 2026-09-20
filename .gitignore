@@ -7,3 +7,6 @@ __pycache__/
 
 # Captured third-party documents remain in the private source archive.
 /research/municipal-corroboration/runs/**/*.response
+
+/research/zoning-ingestion/runs/**/*.response
+/research/zoning-ingestion/capture/runs/**/*.response
