@@ -10,3 +10,6 @@ __pycache__/
 
 /research/zoning-ingestion/runs/**/*.response
 /research/zoning-ingestion/capture/runs/**/*.response
+
+/research/osborn-zoning-investigation/runs/**/*.response
+/research/osborn-zoning-investigation/candidate.geojson

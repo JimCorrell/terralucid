@@ -1,0 +1,81 @@
+[
+  {
+    "id": "layer-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+    "retrieved_at": "2026-09-20T19:59:18.660420+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "layer-metadata.response",
+    "sha256": "e431122da6f3b35e17824a8ce0f91b0a020f6adf94138e3ef24a39fbf1f6bc65",
+    "bytes": 110668,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "native-rings",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json",
+    "retrieved_at": "2026-09-20T19:59:19.211053+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "native-rings.response",
+    "sha256": "44542c3a1f1cf7314d8081b1720a7c8061416f0502d93d2a1b4088fda3204331",
+    "bytes": 15844,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "rings-4326",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326",
+    "retrieved_at": "2026-09-20T19:59:45.152872+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "rings-4326.response",
+    "sha256": "f08469f1bbfef88e76bdf6916a5d10d9a6ca12da793ed46e71f4546a167da275",
+    "bytes": 16195,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "geojson-recheck",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=geojson&outSR=4326",
+    "retrieved_at": "2026-09-20T20:00:10.563237+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=geojson&outSR=4326",
+    "content_type": "application/geo+json; charset=UTF-8",
+    "response_file": "geojson-recheck.response",
+    "sha256": "d9ee6d11a6d7562af861628053fb98441b9a62b14b1ceabc2b280b508ac879bb",
+    "bytes": 14684,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "osborn-official-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-20T20:00:11.507591+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf",
+    "content_type": "application/pdf",
+    "response_file": "osborn-official-map.response",
+    "sha256": "9de0a5f83415be0433e57d62aba24382dfe71a51ea938a56af595b11fc046beb",
+    "bytes": 2721897,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "esri-ring-specification",
+    "url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+    "retrieved_at": "2026-09-20T20:00:12.314025+00:00",
+    "http_status": 200,
+    "final_url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+    "content_type": "text/html",
+    "response_file": "esri-ring-specification.response",
+    "sha256": "9bb444674617e320419aacbcc78f4ac47d2db8c23f5b129f8e5ce819f5d4f1d2",
+    "bytes": 266246,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]
