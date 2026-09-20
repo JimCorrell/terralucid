@@ -17,3 +17,7 @@ The [first conflict investigation](research/conflict-investigation/README.md) tr
 The [reviewed correction layer](docs/correction-layer.md) makes snapshot-specific
 municipality and identifier interpretations usable alongside their raw evidence,
 with withdrawal history and unresolved holds preserved.
+
+The [bounded zoning pilot](research/zoning-ingestion/README.md) adds source-preserving
+zoning features and reproducible screening with explicit municipal coverage gaps,
+geometry defects and correction-event dependencies.

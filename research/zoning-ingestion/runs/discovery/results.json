@@ -1,0 +1,54 @@
+[
+  {
+    "id": "lupc-selected-maps",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=TOWNNAME+IN+%28%27Osborn%27%2C%27Kingsbury+Plt%27%2C%27Kingsbury%27%2C%27Sweden%27%2C%27Alfred%27%29+OR+TOWNNAME+LIKE+%27Kingsbury%25%27&outFields=%2A&returnGeometry=false&f=json",
+    "retrieved_at": "2026-09-20T04:17:33.570037+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=TOWNNAME+IN+%28%27Osborn%27%2C%27Kingsbury+Plt%27%2C%27Kingsbury%27%2C%27Sweden%27%2C%27Alfred%27%29+OR+TOWNNAME+LIKE+%27Kingsbury%25%27&outFields=%2A&returnGeometry=false&f=json",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "lupc-selected-maps.response",
+    "sha256": "1c9569342a18165ccd0822135456f06d880a19d5a83ca55de89fed158d62a67f",
+    "bytes": 4855,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "sweden-maps",
+    "url": "https://swedenmaine.org/about-sweden/maps/",
+    "retrieved_at": "2026-09-20T04:17:34.736839+00:00",
+    "http_status": 200,
+    "final_url": "https://swedenmaine.org/about-sweden/maps/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "sweden-maps.response",
+    "sha256": "5670461bc6a1960c6ee704c3198464a20e7d0f45f96777f53eb6ed1cedd4cefb",
+    "bytes": 99174,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "alfred-code-enforcement",
+    "url": "https://www.alfredme.gov/departments/code_enforcement/index.php",
+    "retrieved_at": "2026-09-20T04:17:35.851168+00:00",
+    "http_status": 200,
+    "final_url": "https://www.alfredme.gov/departments/code_enforcement/index.php",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "alfred-code-enforcement.response",
+    "sha256": "f24bcd1a995712faf5a189718105040b38937119eb44abf0be6f0dd3a29440b7",
+    "bytes": 37859,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "sweden-ordinances",
+    "url": "https://swedenmaine.org/town-office/ordinances/",
+    "retrieved_at": "2026-09-20T04:17:36.353164+00:00",
+    "http_status": 200,
+    "final_url": "https://swedenmaine.org/town-office/ordinances/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "sweden-ordinances.response",
+    "sha256": "07ae2a0521719cf05836bd8632c3a5c204685e3908648904c9f29053f8e93643",
+    "bytes": 125591,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

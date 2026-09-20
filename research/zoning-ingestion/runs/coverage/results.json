@@ -1,0 +1,54 @@
+[
+  {
+    "id": "kingsbury-spatial-count",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=1%3D1&geometry=-69.68280078302648%2C45.09999846592585%2C-69.51924552724817%2C45.21274273642585&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false&returnCountOnly=true",
+    "retrieved_at": "2026-09-20T04:22:27.382924+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=1%3D1&geometry=-69.68280078302648%2C45.09999846592585%2C-69.51924552724817%2C45.21274273642585&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false&returnCountOnly=true",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "kingsbury-spatial-count.response",
+    "sha256": "19659dee1004cf067426cf61c7d47e65a1c6a0ed6775c0afabff7647e5534c1a",
+    "bytes": 12,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "kingsbury-spatial-ids",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=1%3D1&geometry=-69.68280078302648%2C45.09999846592585%2C-69.51924552724817%2C45.21274273642585&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false&returnIdsOnly=true",
+    "retrieved_at": "2026-09-20T04:22:29.074527+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=1%3D1&geometry=-69.68280078302648%2C45.09999846592585%2C-69.51924552724817%2C45.21274273642585&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false&returnIdsOnly=true",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "kingsbury-spatial-ids.response",
+    "sha256": "6c895b5d8744253432ece7a125dbe6b3ad7da2cdfbc017efd6ecd006fcc5cc72",
+    "bytes": 901,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "kingsbury-spatial-map-index",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?f=json&where=1%3D1&geometry=-69.68280078302648%2C45.09999846592585%2C-69.51924552724817%2C45.21274273642585&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false&outFields=OBJECTID%2CMAP%2CTOWNNAME%2CURL_LARGE_MAP%2Clast_edited_date_text",
+    "retrieved_at": "2026-09-20T04:22:30.126120+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?f=json&where=1%3D1&geometry=-69.68280078302648%2C45.09999846592585%2C-69.51924552724817%2C45.21274273642585&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false&outFields=OBJECTID%2CMAP%2CTOWNNAME%2CURL_LARGE_MAP%2Clast_edited_date_text",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "kingsbury-spatial-map-index.response",
+    "sha256": "3a592ea21319ec1873b03ae5d858baac48a0bfabf0ceb2497be489231747f3d6",
+    "bytes": 1452,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "kingsbury-historical-publication",
+    "url": "https://www.maine.gov/DACF/lupc/plans_maps_data/resourceplans/prp013_revised.html",
+    "retrieved_at": "2026-09-20T04:22:32.834439+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/DACF/lupc/plans_maps_data/resourceplans/prp013_revised.html",
+    "content_type": "text/html",
+    "response_file": "kingsbury-historical-publication.response",
+    "sha256": "72c468fe05c0d10f2fafe2c73f3d1dcc969a1e098d1f366cc7bad45da06aa32c",
+    "bytes": 22535,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

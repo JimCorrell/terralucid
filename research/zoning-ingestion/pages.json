@@ -1,0 +1,26 @@
+[
+  {
+    "id": "lupc-publication",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html"
+  },
+  {
+    "id": "lupc-maps-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0?f=pjson"
+  },
+  {
+    "id": "lupc-service-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer?f=pjson"
+  },
+  {
+    "id": "lupc-offline-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson"
+  },
+  {
+    "id": "sweden-code-enforcement",
+    "url": "https://swedenmaine.org/town-office/code-enforcement-officer/"
+  },
+  {
+    "id": "alfred-home",
+    "url": "https://www.alfredme.gov/"
+  }
+]

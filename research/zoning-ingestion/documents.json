@@ -1,0 +1,29 @@
+[
+  {
+    "id": "lupc-map-name-check",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=UPPER%28TOWNNAME%29+LIKE+%27%25KINGS%25%27+OR+UPPER%28MAP%29+LIKE+%27%25KINGS%25%27&outFields=%2A&returnGeometry=false&f=json"
+  },
+  {
+    "id": "alfred-code",
+    "url": "https://ecode360.com/AL1317?needHash=true"
+  },
+  {
+    "id": "sweden-zoning-publication",
+    "url": "https://swedenmaine.org/download/zoning-ordinance/"
+  },
+  {
+    "id": "sweden-zoning-map",
+    "url": "https://swedenmaine.org/wp-content/uploads/2023/08/App_A_finalcopy23.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "sweden-zoning-ordinance",
+    "url": "https://swedenmaine.org/wp-content/uploads/2024/07/SW-Zoning-Ordinance-3-23-2024_FINAL.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "osborn-official-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf",
+    "format": "pdf"
+  }
+]

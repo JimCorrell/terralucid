@@ -1,0 +1,131 @@
+{
+  "as_of": "2026-09-20T04:24:06.670612+00:00",
+  "scope": "Bounded zoning pilot: Osborn GIS; municipal publication evidence and explicit unknown coverage.",
+  "sources": [
+    {
+      "id": "lupc-zoning",
+      "name": "LUPC zoning polygons and official maps",
+      "publisher": "Maine LUPC",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?f=json&where=1%3D1&geometry=-69.68280078302648%2C45.09999846592585%2C-69.51924552724817%2C45.21274273642585&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false&outFields=OBJECTID%2CMAP%2CTOWNNAME%2CURL_LARGE_MAP%2Clast_edited_date_text",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=TOWNNAME+IN+%28%27Osborn%27%2C%27Kingsbury+Plt%27%2C%27Kingsbury%27%2C%27Sweden%27%2C%27Alfred%27%29+OR+TOWNNAME+LIKE+%27Kingsbury%25%27&outFields=%2A&returnGeometry=false&f=json",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=UPPER%28TOWNNAME%29+LIKE+%27%25KINGS%25%27+OR+UPPER%28MAP%29+LIKE+%27%25KINGS%25%27&outFields=%2A&returnGeometry=false&f=json",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0?f=pjson",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer?f=pjson",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=geojson&where=1%3D1&objectIds=27204035%2C27204240%2C27204521%2C27205131%2C27206237%2C27206298%2C27206399%2C27206650%2C27207274%2C27207484%2C27207515%2C27207552%2C27208104%2C27208132%2C27208192%2C27208226%2C27208248%2C27208460%2C27209336%2C27210058%2C27210260%2C27211434%2C27211490%2C27211862%2C27212244%2C27212582%2C27213019%2C27213703%2C27214389%2C27214537%2C27214745%2C27214936%2C27215207%2C27215393%2C27215732%2C27215979%2C27216085%2C27216350%2C27217164%2C27217810%2C27217933%2C27218290%2C27218651%2C27218902%2C27220068%2C27220534%2C27222466%2C27222702%2C27223458%2C27223527&outFields=OBJECTID%2CShape__Area%2CMAP%2CPANEL%2CZONE%2CPUBLISH%2CDRAW%2CSTART_DATE%2CEND_DATE%2CCOMMENT%2CTRACKING_NUMBER%2CIDENTIFIER%2Ccreated_user%2Ccreated_date%2Clast_edited_user%2Clast_edited_date%2CShape__Length%2CGlobalID&returnGeometry=true&orderByFields=OBJECTID&outSR=4326",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=geojson&where=1%3D1&objectIds=27223568%2C27224120%2C27224496%2C27224751%2C27224764%2C27224966%2C27225169%2C27225577%2C27225820%2C27226031%2C27226461%2C27227046%2C27227083%2C27227273%2C27227301%2C27227671%2C27227993%2C27228252%2C27228538%2C27229009%2C27230864%2C27230969%2C27231869%2C27232441%2C27232627%2C27232839%2C27233424%2C27233537%2C27234868%2C27235141%2C27235247%2C27236052%2C27236305%2C27236573%2C27236920%2C27237165%2C27237341%2C27237502%2C27237627%2C27237809%2C27238593%2C27238835%2C27238887%2C27240294%2C27240507%2C27240508%2C27240574%2C27240893%2C27241617%2C27242133&outFields=OBJECTID%2CShape__Area%2CMAP%2CPANEL%2CZONE%2CPUBLISH%2CDRAW%2CSTART_DATE%2CEND_DATE%2CCOMMENT%2CTRACKING_NUMBER%2CIDENTIFIER%2Ccreated_user%2Ccreated_date%2Clast_edited_user%2Clast_edited_date%2CShape__Length%2CGlobalID&returnGeometry=true&orderByFields=OBJECTID&outSR=4326",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=geojson&where=1%3D1&objectIds=27242524%2C27242807%2C27242965%2C27243020%2C27243452%2C27243472%2C27243865%2C27243866%2C27244437%2C27245880%2C27246533%2C27246812%2C27247521%2C27248438%2C27249518%2C27249629%2C27249891%2C27250972%2C27251215%2C27252551%2C27253548%2C27253754%2C27254598%2C27255848%2C27256082%2C27256435%2C27256524%2C27256539%2C27256879%2C27257061%2C27258126%2C27258240%2C27258747%2C27258798%2C27258899%2C27259124%2C27259400%2C27259938%2C27259984%2C27260722%2C27261341%2C27261732%2C27261830%2C27262553%2C27262770%2C27263221%2C27264077%2C27264406%2C27264549%2C27264880&outFields=OBJECTID%2CShape__Area%2CMAP%2CPANEL%2CZONE%2CPUBLISH%2CDRAW%2CSTART_DATE%2CEND_DATE%2CCOMMENT%2CTRACKING_NUMBER%2CIDENTIFIER%2Ccreated_user%2Ccreated_date%2Clast_edited_user%2Clast_edited_date%2CShape__Length%2CGlobalID&returnGeometry=true&orderByFields=OBJECTID&outSR=4326",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=geojson&where=1%3D1&objectIds=27264906%2C27265259%2C27265544%2C27265907%2C27265958%2C27266242%2C27268671%2C27268809%2C27269074%2C27269120%2C27269188%2C27269448%2C27270845%2C27271344%2C27271438%2C27271754%2C27272190%2C27272270%2C27272337%2C27272546%2C27272911%2C27272918%2C27273010%2C27273598%2C27274184%2C27275963%2C27276180%2C27277141%2C27277289%2C27278858%2C27279730%2C27279763%2C27279771%2C27280298%2C27280461%2C27280616%2C27280740%2C27282479%2C27282759%2C27283527%2C27283915%2C27283944%2C27284094%2C27285113%2C27285206%2C27285413%2C27285541%2C27286100%2C27286592%2C27287039&outFields=OBJECTID%2CShape__Area%2CMAP%2CPANEL%2CZONE%2CPUBLISH%2CDRAW%2CSTART_DATE%2CEND_DATE%2CCOMMENT%2CTRACKING_NUMBER%2CIDENTIFIER%2Ccreated_user%2Ccreated_date%2Clast_edited_user%2Clast_edited_date%2CShape__Length%2CGlobalID&returnGeometry=true&orderByFields=OBJECTID&outSR=4326",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=geojson&where=1%3D1&objectIds=27288422%2C27289280%2C27289499%2C27290193%2C27290341%2C27290626%2C27290670%2C27290832%2C27291102%2C27292214%2C27292534%2C27292689%2C27293530%2C27294113%2C27294372%2C27294666%2C27295710%2C27296340%2C27297120%2C27297500%2C27298244%2C27298973%2C27299814%2C27299869%2C27300148%2C27300486%2C27300576%2C27301183%2C27301312%2C27302069%2C27302438%2C27302518%2C27303116%2C27303131%2C27303896%2C27304221%2C27305037%2C27305807%2C27306159%2C27306180%2C27306461%2C27306566%2C27306971%2C27306986%2C27307136%2C27307335%2C27307547%2C27307773%2C27307931%2C27308668&outFields=OBJECTID%2CShape__Area%2CMAP%2CPANEL%2CZONE%2CPUBLISH%2CDRAW%2CSTART_DATE%2CEND_DATE%2CCOMMENT%2CTRACKING_NUMBER%2CIDENTIFIER%2Ccreated_user%2Ccreated_date%2Clast_edited_user%2Clast_edited_date%2CShape__Length%2CGlobalID&returnGeometry=true&orderByFields=OBJECTID&outSR=4326",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=geojson&where=1%3D1&objectIds=27309056%2C27309320%2C27309439%2C27309528%2C27309618%2C27310812%2C27311676%2C27311738%2C27311816%2C27312577%2C27312631%2C27314404%2C27315635%2C27316286%2C27316413%2C27316950%2C27316957%2C27317388%2C27317428%2C27317685%2C27318537%2C27318568%2C27319078%2C27319299%2C27319343%2C27319687%2C27319819%2C27319826%2C27319905%2C27321951%2C27322151%2C27322165%2C27322605%2C27322643%2C27323011%2C27323428%2C27323536%2C27323660%2C27325227%2C27325398%2C27325513%2C27326269%2C27326313%2C27326835%2C27327058%2C27327119%2C27327150%2C27327427%2C27328043%2C27328292&outFields=OBJECTID%2CShape__Area%2CMAP%2CPANEL%2CZONE%2CPUBLISH%2CDRAW%2CSTART_DATE%2CEND_DATE%2CCOMMENT%2CTRACKING_NUMBER%2CIDENTIFIER%2Ccreated_user%2Ccreated_date%2Clast_edited_user%2Clast_edited_date%2CShape__Length%2CGlobalID&returnGeometry=true&orderByFields=OBJECTID&outSR=4326",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=geojson&where=1%3D1&objectIds=27329012%2C27329585%2C27330405%2C27330492%2C27331140%2C27331383%2C27331668%2C27331894%2C27332379%2C27332815%2C27333196%2C27333390%2C27334215%2C27334477%2C27335436%2C27335654%2C27335825%2C27335889%2C27336069%2C27336313%2C27337147%2C27338249%2C27338321%2C27338526%2C27338885%2C27339017%2C27339452%2C27339732%2C27340126%2C27340605%2C27340790%2C27341775%2C27342391%2C27343292%2C27343561%2C27343641%2C27343708%2C27344040%2C27344422%2C27344503%2C27344766%2C27345260%2C27345810%2C27345992%2C27346118%2C27347323%2C27348342%2C27349031%2C27349515%2C27349650&outFields=OBJECTID%2CShape__Area%2CMAP%2CPANEL%2CZONE%2CPUBLISH%2CDRAW%2CSTART_DATE%2CEND_DATE%2CCOMMENT%2CTRACKING_NUMBER%2CIDENTIFIER%2Ccreated_user%2Ccreated_date%2Clast_edited_user%2Clast_edited_date%2CShape__Length%2CGlobalID&returnGeometry=true&orderByFields=OBJECTID&outSR=4326",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=geojson&where=1%3D1&objectIds=27350074%2C27350311%2C27351316%2C27351363%2C27351449%2C27351557%2C27351689%2C27351967%2C27352063%2C27352162%2C27352557%2C27352984%2C27353688%2C27354636%2C27355249%2C27355647%2C27357205%2C27357838%2C27358005%2C27358042%2C27358105%2C27358162%2C27359080%2C27359369%2C27359785%2C27359883%2C27359954%2C27360308%2C27360848%2C27362223%2C27364378%2C27366910%2C27370388&outFields=OBJECTID%2CShape__Area%2CMAP%2CPANEL%2CZONE%2CPUBLISH%2CDRAW%2CSTART_DATE%2CEND_DATE%2CCOMMENT%2CTRACKING_NUMBER%2CIDENTIFIER%2Ccreated_user%2Ccreated_date%2Clast_edited_user%2Clast_edited_date%2CShape__Length%2CGlobalID&returnGeometry=true&orderByFields=OBJECTID&outSR=4326",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&objectIds=27204306%2C27207029%2C27208266%2C27208506%2C27212082%2C27214259%2C27215160%2C27215665%2C27219160%2C27220038%2C27220907%2C27223729%2C27225297%2C27225637%2C27226132%2C27227719%2C27229256%2C27233409%2C27236497%2C27240800%2C27242671%2C27243278%2C27247103%2C27249375%2C27251805%2C27253380%2C27260031%2C27261396%2C27261618%2C27263518%2C27272819%2C27273982%2C27274401%2C27276089%2C27279077%2C27279911%2C27281018%2C27282059%2C27283418%2C27284111%2C27284192%2C27285459%2C27290045%2C27290506%2C27292339%2C27293401%2C27293445%2C27293602%2C27296523%2C27299109%2C27300754%2C27302055%2C27303277%2C27303367%2C27305000%2C27305046%2C27305387%2C27306596%2C27306610%2C27307051%2C27307063%2C27309431%2C27309959%2C27310370%2C27315414%2C27316114%2C27316285%2C27318795%2C27320464%2C27329131%2C27331666%2C27334504%2C27336878%2C27337171%2C27337829%2C27338427%2C27338928%2C27339593%2C27339825%2C27340217%2C27340875%2C27343362%2C27345252%2C27346163%2C27347098%2C27350877%2C27350891%2C27351034%2C27353605%2C27354814%2C27357904%2C27358293%2C27359476%2C27359632%2C27361836&outFields=OBJECTID%2CMAP%2CZONE&returnGeometry=false",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=1%3D1&geometry=-69.68280078302648%2C45.09999846592585%2C-69.51924552724817%2C45.21274273642585&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false&returnCountOnly=true",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=1%3D1&geometry=-69.68280078302648%2C45.09999846592585%2C-69.51924552724817%2C45.21274273642585&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false&returnIdsOnly=true",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=MAP+%3D+%27osborn%27+OR+UPPER%28MAP%29+LIKE+%27%25KINGS%25%27&returnGeometry=false&returnCountOnly=true",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?f=json&where=MAP+%3D+%27osborn%27+OR+UPPER%28MAP%29+LIKE+%27%25KINGS%25%27&returnGeometry=false&returnIdsOnly=true",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+        "https://www.maine.gov/DACF/lupc/plans_maps_data/resourceplans/prp013_revised.html",
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html",
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/kingsbury-plt.pdf",
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf"
+      ],
+      "coverage": "Bounded pilot; see zoning-ingestion report qualification and exact predicates.",
+      "identifiers": [
+        "MAP",
+        "PANEL",
+        "ZONE",
+        "IDENTIFIER",
+        "GlobalID"
+      ],
+      "freshness": "See preserved publisher fields, document review and unresolved current-zone selection.",
+      "access": "383 Osborn features captured; one invalid polygon excluded from calculations.",
+      "limitations": [
+        "All-Yes flags do not verify legal currency.",
+        "Official maps remain necessary for zoning confirmation.",
+        "Rights and publication semantics need review.",
+        "See qualification.json for this pilot; no current legal zone or buildability certified."
+      ],
+      "next_verification": [
+        "Determine authoritative current-zone selection and map-date reconciliation."
+      ],
+      "probe_ids": [
+        "kingsbury-spatial-count",
+        "kingsbury-spatial-ids",
+        "kingsbury-spatial-map-index",
+        "kingsbury-historical-publication",
+        "lupc-selected-maps",
+        "lupc-map-name-check",
+        "osborn-official-map",
+        "kingsbury-neighbor-attributes",
+        "kingsbury-published-map",
+        "lupc-publication",
+        "lupc-maps-metadata",
+        "lupc-service-metadata",
+        "lupc-offline-metadata",
+        "lupc-zoning-metadata-start",
+        "lupc-zoning-count-0",
+        "lupc-zoning-ids-0",
+        "lupc-zoning-page-0",
+        "lupc-zoning-page-1",
+        "lupc-zoning-page-2",
+        "lupc-zoning-page-3",
+        "lupc-zoning-page-4",
+        "lupc-zoning-page-5",
+        "lupc-zoning-page-6",
+        "lupc-zoning-page-7",
+        "lupc-zoning-ids-end-0",
+        "lupc-zoning-metadata-end"
+      ],
+      "rights": "Private research archive only; no bulk redistribution license established."
+    },
+    {
+      "id": "municipal-zoning",
+      "name": "Municipal zoning and shoreland records",
+      "publisher": "Individual municipalities",
+      "access_status": "partially_tested",
+      "source_urls": [
+        "https://ecode360.com/AL1317?needHash=true",
+        "https://kingsburyplantation.com/resources/",
+        "https://kingsburyplantation.com/wp-content/uploads/2021/08/Kingsbury-Plantation-Land-Use-Zoning-Map.pdf",
+        "https://kingsburyplantation.com/wp-content/uploads/2021/08/Kingsbury-Plantation-Zoning-Ordinance.pdf",
+        "https://swedenmaine.org/about-sweden/maps/",
+        "https://swedenmaine.org/download/zoning-ordinance/",
+        "https://swedenmaine.org/town-office/code-enforcement-officer/",
+        "https://swedenmaine.org/town-office/ordinances/",
+        "https://swedenmaine.org/wp-content/uploads/2023/08/App_A_finalcopy23.pdf",
+        "https://swedenmaine.org/wp-content/uploads/2024/07/SW-Zoning-Ordinance-3-23-2024_FINAL.pdf",
+        "https://www.alfredme.gov/",
+        "https://www.alfredme.gov/departments/code_enforcement/index.php"
+      ],
+      "coverage": "Bounded pilot; see zoning-ingestion report qualification and exact predicates.",
+      "identifiers": [],
+      "freshness": "See preserved publisher fields, document review and unresolved current-zone selection.",
+      "access": "Municipal publication routes tested; no usable digital polygons qualified; Alfred code request returned 403.",
+      "limitations": [
+        "LUPC coverage cannot stand in for municipal zoning.",
+        "See qualification.json for this pilot; no current legal zone or buildability certified."
+      ],
+      "next_verification": [
+        "Inventory municipal publication routes and effective dates by jurisdiction; link maps to ordinances."
+      ],
+      "probe_ids": [
+        "sweden-maps",
+        "alfred-code-enforcement",
+        "sweden-ordinances",
+        "alfred-code",
+        "sweden-zoning-publication",
+        "sweden-zoning-map",
+        "sweden-zoning-ordinance",
+        "kingsbury-municipal-resources",
+        "kingsbury-local-map",
+        "kingsbury-local-ordinance",
+        "sweden-code-enforcement",
+        "alfred-home"
+      ],
+      "rights": "Private research archive only; no bulk redistribution license established."
+    }
+  ]
+}

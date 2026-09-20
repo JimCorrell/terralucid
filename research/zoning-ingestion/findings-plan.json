@@ -1,0 +1,15 @@
+{
+  "new_findings": [{
+    "finding_id": "TL-F-0025",
+    "title": "Invalid Osborn zoning polygon excluded from screening",
+    "description": "Captured LUPC zoning OBJECTID 27232839 (P-WL2) has a ring self-intersection. Preserve its original geometry; exclusion means apparent uncovered area cannot be interpreted as unregulated land.",
+    "source_ids": ["lupc-zoning"],
+    "scope": {"map": "osborn", "object_id": 27232839},
+    "evidence_state": "DERIVED"
+  }],
+  "reviews": [
+    {"finding_id":"TL-F-0109","status":"in_progress","priority":"medium","next_action":"Confirm current-zone selection with publisher evidence; reconcile polygon dates and map-omitted protections before legal zoning use.","note":"Captured 383 Osborn polygons with reconciled membership. All flags are Yes and END_DATE null, but no authoritative legal-current predicate is established. The official map's 2024 amendment is a clerical FEMA-reference correction; rule-based protections can be omitted from its drawing.","report_pointer":"/qualification/jurisdictions/0"},
+    {"finding_id":"TL-F-0110","status":"in_progress","priority":"medium","next_action":"Qualify authoritative municipal digital boundaries and current adoption/effective dates for Kingsbury, Sweden and Alfred; resolve Alfred publication access through an authorized source.","note":"Archived municipal Kingsbury and Sweden maps/ordinances. Kingsbury's municipal ordinance cover has blank enactment/amendment dates and its map date is malformed; a historical LUPC map link is 404. Sweden's map is approximate. Alfred's official page links to eCode360, whose archive request returned 403. No municipal polygons qualified; affected records remain UNKNOWN.","report_pointer":"/qualification"},
+    {"finding_id":"TL-F-0025","status":"open","priority":"high","next_action":"Compare the invalid polygon with native source geometry and official map evidence; retain an excluded original unless a reviewed alternate interpretation is justified.","note":"One invalid Osborn P-WL2 polygon is archived and excluded without repair. Screening records flag the incomplete capture and identify the source record whose envelope may overlap it.","report_pointer":"/zone_features"}
+  ]
+}

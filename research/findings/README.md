@@ -55,3 +55,9 @@ Each definition and its initial next action is in [catalog.json](catalog.json). 
 
 The initial seed catalog remains unchanged. This subsequent finding is defined in
 [its investigation](../municipal-corroboration/new-findings.json); current status lives in Supabase.
+
+The [zoning pilot](../zoning-ingestion/README.md) adds **TL-F-0025** for an invalid
+Osborn zoning polygon excluded from calculations, and appends evidence/reviews to
+TL-F-0109 (LUPC qualification) and TL-F-0110 (municipal qualification). Its new
+finding definition is in `research/zoning-ingestion/findings-plan.json`; the
+original seed catalog remains unchanged.

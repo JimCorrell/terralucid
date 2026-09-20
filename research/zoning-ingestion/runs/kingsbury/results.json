@@ -1,0 +1,15 @@
+[
+  {
+    "id": "kingsbury-municipal-resources",
+    "url": "https://kingsburyplantation.com/resources/",
+    "retrieved_at": "2026-09-20T04:23:28.184805+00:00",
+    "http_status": 200,
+    "final_url": "https://kingsburyplantation.com/resources/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "kingsbury-municipal-resources.response",
+    "sha256": "c593f926e97a62a244d529e2e46e199cbc8678fa355b9f5d55d4978a676c430c",
+    "bytes": 104232,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

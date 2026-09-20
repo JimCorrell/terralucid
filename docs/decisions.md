@@ -74,3 +74,14 @@ evidentiary reason. Preserve the acceptance event used by each result so later
 review can identify affected analyses. This policy does not transfer corrections
 to new snapshots or certify uncorrected values. Consumer enforcement and analytical
 result tracking remain downstream implementation work.
+
+## Bounded zoning evidence and downstream dependency tracking
+
+The user approved the zoning ingestion pilot. Preserve all observed zoning
+features and publication evidence, with unknown legal currency when a current-zone
+selection rule has not been established. Use accepted correction values for their
+exact versions and record the review event used. Retain immutable analytical
+results and flag them for review after input/correction changes. Treat missing
+municipal digital coverage and omitted rule-based protections as explicit unknowns;
+no PDF-derived zoning boundaries or legal buildability conclusions are introduced.
+See [the pilot report](../research/zoning-ingestion/README.md).

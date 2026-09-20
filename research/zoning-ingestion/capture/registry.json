@@ -1,0 +1,50 @@
+{
+  "as_of": "2026-09-20T04:20:26.556512+00:00",
+  "scope": "Bounded zoning screening for existing Osborn/Kingsbury records; all matching source features retained, no legal-current filter assumed. Municipal Sweden/Alfred are documented separately.",
+  "sources": [
+    {
+      "id": "lupc-zoning",
+      "name": "LUPC zoning polygons and official maps",
+      "publisher": "Maine LUPC",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0",
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html"
+      ],
+      "coverage": "383 records in explicit bounded scope; see batch.json.",
+      "identifiers": [
+        "MAP",
+        "PANEL",
+        "ZONE",
+        "IDENTIFIER",
+        "GlobalID"
+      ],
+      "freshness": "START_DATE/END_DATE and edit fields exist. Published GIS may briefly lag official maps.",
+      "access": "Bounded attribute/geometry extraction with membership reconciliation.",
+      "limitations": [
+        "All-Yes flags do not verify legal currency.",
+        "Official maps remain necessary for zoning confirmation.",
+        "Rights and publication semantics need review."
+      ],
+      "next_verification": [
+        "Determine authoritative current-zone selection and map-date reconciliation."
+      ],
+      "probe_ids": [
+        "lupc-zoning-metadata-start",
+        "lupc-zoning-count-0",
+        "lupc-zoning-ids-0",
+        "lupc-zoning-page-0",
+        "lupc-zoning-page-1",
+        "lupc-zoning-page-2",
+        "lupc-zoning-page-3",
+        "lupc-zoning-page-4",
+        "lupc-zoning-page-5",
+        "lupc-zoning-page-6",
+        "lupc-zoning-page-7",
+        "lupc-zoning-ids-end-0",
+        "lupc-zoning-metadata-end"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    }
+  ]
+}

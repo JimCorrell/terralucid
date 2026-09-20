@@ -1,0 +1,30 @@
+[
+  {
+    "id": "kingsbury-local-map",
+    "url": "https://kingsburyplantation.com/wp-content/uploads/2021/08/Kingsbury-Plantation-Land-Use-Zoning-Map.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-20T04:24:06.195125+00:00",
+    "http_status": 200,
+    "final_url": "https://kingsburyplantation.com/wp-content/uploads/2021/08/Kingsbury-Plantation-Land-Use-Zoning-Map.pdf",
+    "content_type": "application/pdf",
+    "response_file": "kingsbury-local-map.response",
+    "sha256": "5f165eb335f9b51a197c0f365f5084a89e504e7fe11b6af845fcf0e4da27905a",
+    "bytes": 640772,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "kingsbury-local-ordinance",
+    "url": "https://kingsburyplantation.com/wp-content/uploads/2021/08/Kingsbury-Plantation-Zoning-Ordinance.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-20T04:24:06.670612+00:00",
+    "http_status": 200,
+    "final_url": "https://kingsburyplantation.com/wp-content/uploads/2021/08/Kingsbury-Plantation-Zoning-Ordinance.pdf",
+    "content_type": "application/pdf",
+    "response_file": "kingsbury-local-ordinance.response",
+    "sha256": "353d0db862720055667c1f195fe2a98c9436c62d0d7e3c5c4b3e08b47853fcb0",
+    "bytes": 801604,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  }
+]
