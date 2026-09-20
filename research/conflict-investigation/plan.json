@@ -1,0 +1,38 @@
+{
+  "purpose": "Investigate all ten recorded organized-source code/name conflict groups against dated civil GIS. No source correction or legal parcel assignment.",
+  "page_size": 100,
+  "max_records_per_source": 3000,
+  "sources": [
+    {
+      "id": "organized-parcels",
+      "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10",
+      "where": "(GEOCODE='13030' AND TOWN=' ') OR (GEOCODE='17290' AND TOWN='Sweden') OR (GEOCODE='19170' AND TOWN=' ') OR (GEOCODE='19170' AND TOWN='Easr Millinocket') OR (GEOCODE='19170' AND TOWN='East Milinocket') OR (GEOCODE='19170' AND TOWN='East Millinocket''') OR (GEOCODE='21110' AND TOWN='Kingsbury Plantation') OR (GEOCODE='25150' AND TOWN='Highland Plantation') OR (GEOCODE='25150' AND TOWN='UNK') OR (GEOCODE='31030' AND TOWN='Alfred')",
+      "fields": [
+        "OBJECTID",
+        "GlobalID",
+        "GEOCODE",
+        "TOWN",
+        "COUNTY",
+        "STATE_ID",
+        "MAP_BK_LOT",
+        "FMUPDAT"
+      ],
+      "geometry": true
+    },
+    {
+      "id": "civil-boundaries",
+      "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/0",
+      "where": "GEOCODE IN ('13030','17290','17310','19170','21110','25150','31020','31030')",
+      "fields": [
+        "OBJECTID",
+        "GlobalID",
+        "GEOCODE",
+        "TOWN",
+        "COUNTY",
+        "TYPE",
+        "LAND"
+      ],
+      "geometry": true
+    }
+  ]
+}

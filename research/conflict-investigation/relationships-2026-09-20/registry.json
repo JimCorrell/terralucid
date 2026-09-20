@@ -1,0 +1,142 @@
+{
+  "as_of": "2026-09-20T01:25:22.345425+00:00",
+  "scope": "Complete selected assessment identifiers for Alfred, Arundel and Sweden plus Arundel geometry identifiers, to investigate candidate-key collisions. No owner/address fields.",
+  "sources": [
+    {
+      "id": "organized-parcels",
+      "name": "Organized-town parcel geometry",
+      "publisher": "Maine GeoLibrary / contributing municipalities",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10",
+        "https://www.arcgis.com/home/item.html?id=346131b710a645ffb624f448a9cba6d4"
+      ],
+      "coverage": "1998 records in explicit bounded scope; see batch.json.",
+      "identifiers": [
+        "GEOCODE",
+        "STATE_ID",
+        "MAP_BK_LOT",
+        "GlobalID"
+      ],
+      "freshness": "FMUPDAT is text: 26,663 null and 79,322 empty; mixed years, YYYYMMDD and M/D/YYYY; also '0' and '20'. Municipality submissions are irregular.",
+      "access": "Bounded attribute/geometry extraction with membership reconciliation.",
+      "limitations": [
+        "14 features have blank GEOCODE/TOWN/COUNTY.",
+        "Layer edit timestamp is not each parcel's update date.",
+        "STATE_ID relationship exists but uniqueness and match rate are untested.",
+        "Observed GEOCODE/name conflicts: 17290 is used for Stow and Sweden; 31030 for Alfred and Arundel. Civil-reference reconciliation is required."
+      ],
+      "next_verification": [
+        "Validate STATE_ID uniqueness and ADB join cardinality.",
+        "Build a jurisdiction-level coverage and freshness inventory; retain raw date plus precision."
+      ],
+      "probe_ids": [
+        "organized-parcels-metadata-start",
+        "organized-parcels-count-0",
+        "organized-parcels-ids-0",
+        "organized-parcels-page-0",
+        "organized-parcels-page-1",
+        "organized-parcels-page-2",
+        "organized-parcels-page-3",
+        "organized-parcels-page-4",
+        "organized-parcels-page-5",
+        "organized-parcels-page-6",
+        "organized-parcels-page-7",
+        "organized-parcels-page-8",
+        "organized-parcels-page-9",
+        "organized-parcels-page-10",
+        "organized-parcels-page-11",
+        "organized-parcels-page-12",
+        "organized-parcels-page-13",
+        "organized-parcels-page-14",
+        "organized-parcels-page-15",
+        "organized-parcels-page-16",
+        "organized-parcels-page-17",
+        "organized-parcels-page-18",
+        "organized-parcels-page-19",
+        "organized-parcels-ids-end-0",
+        "organized-parcels-metadata-end"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "organized-assessment",
+      "name": "Organized-town assessment table",
+      "publisher": "Maine GeoLibrary / municipalities",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9"
+      ],
+      "coverage": "4425 records in explicit bounded scope; see batch.json.",
+      "identifiers": [
+        "STATE_ID",
+        "GEOCODE",
+        "MAP_BK_LOT",
+        "LS_BOOK",
+        "LS_PAGE"
+      ],
+      "freshness": "YEAR_CREAT and source fields exist; row currency not measured.",
+      "access": "Bounded attribute/geometry extraction with membership reconciliation.",
+      "limitations": [
+        "Declared relationship is not empirical validation.",
+        "Assessment ownership is distinct from title."
+      ],
+      "next_verification": [
+        "Measure null/duplicate keys and unmatched records without publishing owner details."
+      ],
+      "probe_ids": [
+        "organized-assessment-metadata-start",
+        "organized-assessment-count-0",
+        "organized-assessment-ids-0",
+        "organized-assessment-page-0",
+        "organized-assessment-page-1",
+        "organized-assessment-page-2",
+        "organized-assessment-page-3",
+        "organized-assessment-page-4",
+        "organized-assessment-page-5",
+        "organized-assessment-page-6",
+        "organized-assessment-page-7",
+        "organized-assessment-page-8",
+        "organized-assessment-page-9",
+        "organized-assessment-page-10",
+        "organized-assessment-page-11",
+        "organized-assessment-page-12",
+        "organized-assessment-page-13",
+        "organized-assessment-page-14",
+        "organized-assessment-page-15",
+        "organized-assessment-page-16",
+        "organized-assessment-page-17",
+        "organized-assessment-page-18",
+        "organized-assessment-page-19",
+        "organized-assessment-page-20",
+        "organized-assessment-page-21",
+        "organized-assessment-page-22",
+        "organized-assessment-page-23",
+        "organized-assessment-page-24",
+        "organized-assessment-page-25",
+        "organized-assessment-page-26",
+        "organized-assessment-page-27",
+        "organized-assessment-page-28",
+        "organized-assessment-page-29",
+        "organized-assessment-page-30",
+        "organized-assessment-page-31",
+        "organized-assessment-page-32",
+        "organized-assessment-page-33",
+        "organized-assessment-page-34",
+        "organized-assessment-page-35",
+        "organized-assessment-page-36",
+        "organized-assessment-page-37",
+        "organized-assessment-page-38",
+        "organized-assessment-page-39",
+        "organized-assessment-page-40",
+        "organized-assessment-page-41",
+        "organized-assessment-page-42",
+        "organized-assessment-page-43",
+        "organized-assessment-page-44",
+        "organized-assessment-ids-end-0",
+        "organized-assessment-metadata-end"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    }
+  ]
+}

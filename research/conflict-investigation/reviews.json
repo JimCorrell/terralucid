@@ -1,0 +1,61 @@
+{
+  "status": "in_progress",
+  "reviews": [
+    {
+      "finding_id": "TL-F-0002",
+      "priority": "high",
+      "next_action": "Obtain municipal or publisher corroboration for a versioned Sweden jurisdiction crosswalk; retain 75 unmatched geometries and shared assessment candidates for review.",
+      "note": "DERIVED: all 691 valid Sweden geometry interior points fall in civil code 17310; minimum area overlap is 99.995091306%. All identifiers use 17310; 616 exact links reach 613 distinct assessment records. INFERRED: geometry GEOCODE 17290 is a source coding defect. No correction has been accepted.",
+      "report_pointer": "/spatial_groups/0"
+    },
+    {
+      "finding_id": "TL-F-0003",
+      "priority": "high",
+      "next_action": "Corroborate the Alfred code/prefix correction with municipal or publisher evidence, review invalid OBJECTID 439584 and the 38 unmatched prefix trials, then propose an explicit versioned crosswalk.",
+      "note": "DERIVED: 1633 valid Alfred geometry interior points fall in civil code 31020, with at least 99.7371454855% area overlap; one invalid geometry is excluded. All 1634 raw identifiers use 31030 and have no exact assessment match. A diagnostic prefix substitution yields 1596 distinct single candidates with equal nonblank MAP_BK_LOT. INFERRED: the reported GEOCODE and STATE_ID prefix are incorrect; substitution is not an accepted parcel join.",
+      "report_pointer": "/assessment_summary/Alfred"
+    },
+    {
+      "finding_id": "TL-F-0004",
+      "priority": "medium",
+      "next_action": "Review explicit source-specific aliases and missing-name candidates; keep the two invalid Kingsbury geometries separate and require an approved normalization rule before applying changes.",
+      "note": "DERIVED: all 267 valid geometries in the eight smaller name-conflict groups agree spatially with their reported jurisdiction code. Two Kingsbury geometries are invalid. Differences comprise plantation abbreviations, three East Millinocket spelling/punctuation variants, two blank names and one UNK name. No source fields were rewritten.",
+      "report_pointer": "/spatial_groups"
+    },
+    {
+      "finding_id": "TL-F-0008",
+      "priority": "high",
+      "next_action": "Investigate the six repeated Sweden key groups and Alfred cemetery key as geometry parts, missing identifiers or assessment units; keep source-record identity distinct.",
+      "note": "DERIVED: Sweden has 691 geometries and 664 distinct raw identifiers; six keys repeat, including ISLAND and CEMETERY labels. Alfred has 1634 geometries and 1633 distinct identifiers, with 31030_10-CEM repeated twice. No Alfred raw key is shared with the 1998 captured Arundel geometry identifiers. This negative collision result is limited to the recorded scope.",
+      "report_pointer": "/repeated_raw_keys"
+    },
+    {
+      "finding_id": "TL-F-0009",
+      "priority": "high",
+      "next_action": "Reconcile the 75 Sweden exact-unmatched records and 38 Alfred prefix-trial-unmatched records with municipal map/lot evidence and source dates; do not classify labeled cemetery/island rows as exempt without evidence.",
+      "note": "DERIVED: Sweden has 75 exact-unmatched geometries. Alfred has 1634 exact-unmatched geometries; the prefix hypothesis reduces this to 38, but those 1596 trial links remain unaccepted. The full raw unmatched-key lists are retained. Other unmatched records from the first bounded ingestion remain unresolved.",
+      "report_pointer": "/unmatched_raw_keys"
+    },
+    {
+      "finding_id": "TL-F-0010",
+      "priority": "high",
+      "next_action": "Review Sweden keys 17310_R01-24-0 and 17310_U08-18-A to establish why multiple geometry rows share one assessment record; do not enforce a global one-to-one join.",
+      "note": "DERIVED: Sweden has 616 single-candidate geometry rows but only 613 distinct matched assessment records. Three geometries share the R01-24-0 key and two share U08-18-A. The 1596 Alfred prefix-trial candidates are distinct assessment records, which does not establish legal parcel identity.",
+      "report_pointer": "/assessment_summary"
+    },
+    {
+      "finding_id": "TL-F-0022",
+      "priority": "high",
+      "next_action": "Inspect invalid Alfred OBJECTID 439584 and Kingsbury OBJECTIDs 1073761/1073853 against publisher/municipal geometry evidence; retain originals and avoid silent repair. Legal boundary authority remains unresolved.",
+      "note": "DERIVED: the conflict capture has three invalid geometries, excluded from spatial assignment, and 44 valid civil reference features. Boundary slivers remain visible through both whole-polygon coverage and area-overlap measurements; interior-point coverage is not full containment or surveyed boundary evidence.",
+      "report_pointer": "/spatial_groups"
+    },
+    {
+      "finding_id": "TL-F-0023",
+      "priority": "high",
+      "next_action": "Use the Sweden code investigation as evidence when proposing a reviewed jurisdiction crosswalk; retain raw candidate-code disagreements until an explicit rule is approved.",
+      "note": "DERIVED: all 616 Sweden assessment links disagree on raw GEOCODE but agree with the 17310 STATE_ID prefix and civil spatial evidence. This explains the 616 code-disagreement flags in the first bounded batch as a likely geometry coding defect, without certifying the underlying parcel joins.",
+      "report_pointer": "/assessment_summary/Sweden"
+    }
+  ]
+}

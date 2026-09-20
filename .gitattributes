@@ -5,3 +5,7 @@ research/maine-coverage/runs/**/*.response binary
 research/maine-coverage/report.json -diff
 
 research/maine-ingestion/**/runs/**/*.response binary
+
+research/conflict-investigation/**/runs/**/*.response binary
+research/conflict-investigation/report.json -diff
+research/conflict-investigation/**/batch.json -diff
