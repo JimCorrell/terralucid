@@ -1,0 +1,228 @@
+{
+  "base_package_members": {
+    "23009C0443D.pgw": {
+      "bytes": 73,
+      "sha256": "01829a00cd4b7b4475eb07e91901ed9d12d4bdd89f085f6ac8f7dd7c3ba306b6"
+    },
+    "23009C0443D.png": {
+      "bytes": 8287126,
+      "sha256": "acd5155f41b965ce864073be3935b8dcd6bd53efbfb3c3a4ca1eb73d52293ce9"
+    },
+    "READ-ME.pdf": {
+      "bytes": 227788,
+      "sha256": "8c1c8ef4097b277c101d8e0b55d0e2fd73204491921e3d38fc6d93fb1e6dd8db"
+    }
+  },
+  "checks": {
+    "no_geometry_or_screening_mutation": true,
+    "source_PDF_bytes_unchanged": true
+  },
+  "evidence": {
+    "reference/base-panel-0443": {
+      "bytes": 7806262,
+      "content_type": "application/zip",
+      "final_url": "https://map1.msc.fema.gov/bundle/23009C0443D.zip?LOC=cddfedab46e74c6d494e347379725540",
+      "http_status": 200,
+      "id": "base-panel-0443",
+      "pdf_signature": false,
+      "response_file": "base-panel-0443.response",
+      "response_path": "runs/reference/base-panel-0443.response",
+      "retrieved_at": "2026-09-20T23:24:52.421066+00:00",
+      "sha256": "704e6516d99589892837ac420cda9c8964ef422eb7b3c194c2d7a2184c7d4f19",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=FINAL_PRODUCT&productSubTypeID=FIRM_PANEL&productID=23009C0443D"
+    },
+    "reference/final-notice": {
+      "bytes": 217731,
+      "content_type": "application/pdf",
+      "final_url": "https://www.govinfo.gov/content/pkg/FR-2024-06-14/pdf/2024-13142.pdf",
+      "format": "pdf",
+      "http_status": 200,
+      "id": "final-notice",
+      "pdf_signature": true,
+      "response_file": "final-notice.response",
+      "response_path": "runs/reference/final-notice.response",
+      "retrieved_at": "2026-09-20T23:24:55.955499+00:00",
+      "sha256": "96c1845500a6b2b40b4f106be4c17c4601dcbbf91e54633de8fb699dd7904260",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2024-06-14/pdf/2024-13142.pdf"
+    },
+    "reference/nfhl-guidance": {
+      "bytes": 479,
+      "content_type": "text/html",
+      "final_url": "https://www.fema.gov/sites/default/files/documents/fema_national-flood-hazard-layer_112021.pdf",
+      "format": "pdf",
+      "http_status": 403,
+      "id": "nfhl-guidance",
+      "pdf_signature": false,
+      "response_file": "nfhl-guidance.response",
+      "response_path": "runs/reference/nfhl-guidance.response",
+      "retrieved_at": "2026-09-20T23:24:56.611421+00:00",
+      "sha256": "67420f5ddfa4489911567afdfbe6e43f8b8dc7ed3454c374ef5924d06bd840ab",
+      "status": "HTTP_ERROR",
+      "url": "https://www.fema.gov/sites/default/files/documents/fema_national-flood-hazard-layer_112021.pdf"
+    }
+  },
+  "evidence_state": "DERIVED",
+  "finding_reviews": [
+    {
+      "finding_id": "TL-F-0105",
+      "next_action": "Obtain authoritative explanation of the retained 0443D blank area and controlling depiction at FLD_AR_ID 23009C_14660; retain separate current-revision and LUPC adoption checks. Unsent inquiry questions are documented.",
+      "note": "2016 base panel already shows a similar large white Osborn area; legacy mask carry-forward is an inference, not confirmed publisher intent. Federal Register 2024-13142 corroborates finalization of Osborn case 22-01-0871P on May 31, 2024. Neither fact certifies the regulatory role of covered graphics. Originals retained; no correction accepted.",
+      "priority": "medium",
+      "report_pointer": "/review",
+      "status": "in_progress"
+    },
+    {
+      "finding_id": "TL-F-0026",
+      "next_action": "Review any future FEMA geometry acceptance separately from legal applicability; carry the unresolved 0443D publisher clarification and adoption/version qualifications.",
+      "note": "Case finalization is independently corroborated; similar blanking predates the revision. Specific hidden graphics remain legally unqualified. The two exact-version structural geometry proposals remain unaccepted and unchanged.",
+      "priority": "high",
+      "report_pointer": "/review/conclusion",
+      "status": "in_progress"
+    }
+  ],
+  "inputs": {
+    "research/fema-map-discrepancy/report.json": "b06c8d155bc23b05a3bc0f7d221a7ff53bc2924021d379762ea7731515a00e35",
+    "research/fema-mask-purpose/diagnostics/base-2016.png": "49a9d2836a0be56b8f8129105840e50b584f61bbfd14d68b68520208e13dd773",
+    "research/fema-mask-purpose/diagnostics/notice-50604.png": "a123470c74c95c92b72c7a686cf7e1ee9f1a4668b097875ab078cfe4dc561beb",
+    "research/fema-mask-purpose/diagnostics/notice-50606.png": "eb7339e9642e3e0b82ffc7d54de50774f6528407a16517bfe94847d01ad6b8da",
+    "research/fema-mask-purpose/diagnostics/revision-published-2024.png": "0518dcf92ed5b2ee4ffaa92ae888a82e33c4e3fc4e2a974cb269733bef6c07de",
+    "research/fema-mask-purpose/probes.json": "e2712a3d89be178dc716311bb511c310580eec09c2f0a0bd511e53578a4936d6",
+    "research/fema-mask-purpose/publisher-questions.md": "95ff8bebe304e42eba66c63a457c9ea12cbaec23944113ca6e2546b892cd3c05",
+    "research/fema-mask-purpose/review.json": "72bcecd2ef6e30835c5c5136f21662f647ede3b64a5c5f0fdf54ba0dd1897d4d",
+    "research/osborn-fema/report.json": "2f106e1b19fa2b13415741a109d34f1f9dbc4fdb04cf67e77fe882325aebe5ff",
+    "research/osborn-fema/runs/catalog/catalog-osborn.response": "a1f383c46dc925c993d2be44a0b499e5f8f77208296098264101ef433d0ab806",
+    "scripts/collect_document_evidence.py": "512463a8e1b2f024b99084f00dd97c6fc853051be480e98335a4d96466c6b1e9",
+    "scripts/investigate_fema_map_mask.py": "9ebe9b6e1a2fc13fd8e5d03f3bf65654d65d86e47c6c4e219772a681f82f81bc",
+    "scripts/investigate_osborn_fema.py": "d982a9f237ef74d51f6f3ff1adc23c1a700c0db3ff0e1aa46617a70a0c8e751c",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b"
+  },
+  "large_document_evidence": {
+    "encoding": "Concatenate exact bytes in offset order; no compression or PDF rewrite.",
+    "parts": [
+      {
+        "bytes": 20971520,
+        "offset": 0,
+        "sha256": "d0e5cf007e2de64a57acbd078406f2cfb903b9ff69cc3a5174a503082039e8ee",
+        "storage_object": "sha256/d0e5cf007e2de64a57acbd078406f2cfb903b9ff69cc3a5174a503082039e8ee.response"
+      },
+      {
+        "bytes": 20971520,
+        "offset": 20971520,
+        "sha256": "93527ef2178dcb60aab12400710fc8547fed81a877df0cf0cace5ac289b87d4a",
+        "storage_object": "sha256/93527ef2178dcb60aab12400710fc8547fed81a877df0cf0cace5ac289b87d4a.response"
+      },
+      {
+        "bytes": 11085003,
+        "offset": 41943040,
+        "sha256": "26801f79d8c5e8680df8e27d42dc82bbf37f3806256b325a248157107c6bd71b",
+        "storage_object": "sha256/26801f79d8c5e8680df8e27d42dc82bbf37f3806256b325a248157107c6bd71b.response"
+      }
+    ],
+    "response_path": "large-documents/osborn-lomr-document.response",
+    "retrieval": {
+      "bytes": 53028043,
+      "content_type": "application/pdf",
+      "final_url": "https://map1.msc.fema.gov/mipdata/22-01-0871P-230595.pdf?LOC=17d6746ea315852081764b86852926ef",
+      "http_status": 200,
+      "id": "osborn-lomr-document",
+      "pdf_signature": true,
+      "response_file": "osborn-lomr-document.response",
+      "retrieved_at": "2026-09-20T21:22:09.443632+00:00",
+      "sha256": "fcef7a0a0838e02a45ded5ab071078e5f4938ae02c2849b4bd1639bfb333320b",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=LOMC&productSubTypeID=LOMR&productID=22-01-0871P-230595"
+    },
+    "storage_reason": "Original exceeds private bucket 50 MiB object limit; audit references parts, no ordinary source_response row for this PDF."
+  },
+  "method": "scripts/investigate_fema_mask_purpose.py",
+  "method_sha256": "7870259d8f46c2c13f174d8000dd565dfd446805a7e28a92f7dbfeb1948615f1",
+  "prior_audit_sha256": "b06c8d155bc23b05a3bc0f7d221a7ff53bc2924021d379762ea7731515a00e35",
+  "renderings": {
+    "base-2016": {
+      "display": "published/default; no layer toggle",
+      "height": 1800,
+      "path": "research/fema-mask-purpose/diagnostics/base-2016.png",
+      "sha256": "49a9d2836a0be56b8f8129105840e50b584f61bbfd14d68b68520208e13dd773",
+      "width": 1200
+    },
+    "notice-50604": {
+      "display": "published/default; no layer toggle",
+      "height": 1553,
+      "path": "research/fema-mask-purpose/diagnostics/notice-50604.png",
+      "sha256": "a123470c74c95c92b72c7a686cf7e1ee9f1a4668b097875ab078cfe4dc561beb",
+      "width": 1200
+    },
+    "notice-50606": {
+      "display": "published/default; no layer toggle",
+      "height": 1553,
+      "path": "research/fema-mask-purpose/diagnostics/notice-50606.png",
+      "sha256": "eb7339e9642e3e0b82ffc7d54de50774f6528407a16517bfe94847d01ad6b8da",
+      "width": 1200
+    },
+    "revision-published-2024": {
+      "display": "published/default; no layer toggle",
+      "height": 1800,
+      "path": "research/fema-mask-purpose/diagnostics/revision-published-2024.png",
+      "sha256": "0518dcf92ed5b2ee4ffaa92ae888a82e33c4e3fc4e2a974cb269733bef6c07de",
+      "width": 1200
+    }
+  },
+  "review": {
+    "conclusion": {
+      "case_finalization": "VERIFIED historical finalization for Osborn effective May 31, 2024",
+      "downstream": "Retain the effective NFHL evidence and map discrepancy together. Do not interpret white display as no flood hazard, activate a mask-hidden map, or accept the two pending geometry proposals through this review.",
+      "hidden_graphics_regulatory_status": "UNKNOWN for the specific covered area; the case's legal effect does not by itself certify hidden graphics",
+      "mask_purpose": "UNKNOWN; legacy mask carry-forward is INFERRED, not confirmed"
+    },
+    "limits": [
+      "Bounded source research; no statewide ingestion, parcel assessment, coordinate change or geometry acceptance.",
+      "The generic NFHL guidance request returned HTTP 403 and provides no substantive guidance evidence.",
+      "No comparison copy from Waltham or the large neighboring 22-01-0873P determination was retrieved in this step.",
+      "No inquiry was sent. Publisher questions are an unsent review artifact."
+    ],
+    "next_evidence_needed": [
+      "FEMA/authoritative map repository explanation for the mask and identification of the controlling depiction at OBJECTID 27129510 (FLD_AR_ID 23009C_14660).",
+      "If the enclosure is defective, obtain an official corrected enclosure or written clarification with date and source provenance.",
+      "Keep LUPC adoption and any later revision/revalidation checks separate from this display investigation."
+    ],
+    "observations": [
+      {
+        "evidence_state": "VERIFIED",
+        "observation": "The July 20, 2016 base panel already displays a large white area over labeled Osborn, leaving imagery visible along the west and south. This is a raster publication; it cannot prove the identity of a PDF mask object.",
+        "source": "base-panel-0443 / 23009C0443D.png"
+      },
+      {
+        "evidence_state": "VERIFIED",
+        "observation": "The May 31, 2024 annotated enclosure displays a similar large white area. PR #17 established that an opaque PDF MASK layer covers existing hazard graphics. This comparison is visual, not an exact registered boundary comparison.",
+        "source": "prior PDF page 8 / panel 23009C0443D"
+      },
+      {
+        "evidence_state": "INFERRED",
+        "observation": "A legacy blanking treatment retained during revision is a plausible explanation. The 2016 FIS recorded no identified SFHA for Osborn, whereas the 2024 determination adds Zone A and shaded Zone X. These observations support investigating a retained cartographic mask, but do not prove an accidental omission, FEMA intent, or which hidden graphics are operative.",
+        "source": "base panel + prior mask audit + historical FIS context"
+      },
+      {
+        "evidence_state": "VERIFIED",
+        "observation": "The determination revises Osborn's effective NFIP map and directs use of the annotated enclosures for floodplain management and insurance. It identifies changes from unshaded Zone X to Zone A and shaded Zone X, retains stricter state/local requirements, and says the base FIRM will not be physically republished at that time. It does not explain the mask.",
+        "source": "original determination PDF pages 1, 3 and 4"
+      },
+      {
+        "evidence_state": "VERIFIED",
+        "observation": "The June 14, 2024 Federal Register notice states the listed flood hazard determinations are finalized after the notice/appeal process. The Osborn row identifies case 22-01-0871P, CID 230595 and May 31, 2024. This independently corroborates finalization; it does not identify individual polygon vertices or resolve the masked display.",
+        "source": "final-notice PDF pages 1 and 3 / printed pages 50604 and 50606"
+      },
+      {
+        "evidence_state": "UNKNOWN",
+        "observation": "FEMA's reason for retaining the blank area, whether the published enclosure needs correction, and regulatory applicability of the particular covered graphics remain unconfirmed. Current legal currency, subsequent actions, LUPC adoption and parcel-specific applicability are not certified by this historical notice.",
+        "source": "review scope"
+      }
+    ]
+  },
+  "runtime": {
+    "MuPDF": "1.24.11",
+    "PyMuPDF": "1.24.14"
+  },
+  "scope": "Historical 2016 base panel compared with archived 2024 revision and finalization notice; no current legal certification"
+}

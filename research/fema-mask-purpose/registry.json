@@ -1,0 +1,20 @@
+{
+  "scope": "Osborn 0443D mask purpose follow-up; original public evidence retained privately",
+  "as_of": "2026-09-20T23:24:56.611421+00:00",
+  "sources": [
+    {
+      "id": "fema-mask-purpose-evidence",
+      "probe_ids": [
+        "base-panel-0443",
+        "final-notice",
+        "nfhl-guidance"
+      ],
+      "source_urls": [
+        "https://msc.fema.gov/portal/downloadProduct?productTypeID=FINAL_PRODUCT&productSubTypeID=FIRM_PANEL&productID=23009C0443D",
+        "https://www.govinfo.gov/content/pkg/FR-2024-06-14/pdf/2024-13142.pdf",
+        "https://www.fema.gov/sites/default/files/documents/fema_national-flood-hazard-layer_112021.pdf"
+      ],
+      "rights": "Official publications preserved in private source archive; no map replacement or redistribution implied."
+    }
+  ]
+}

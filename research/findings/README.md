@@ -76,3 +76,8 @@ The [0443D display follow-up](../fema-map-discrepancy/README.md) explains the ap
 blankness as an opaque PDF MASK layer over existing graphics. TL-F-0105 still
 tracks the mask's regulatory purpose and other qualification gaps; TL-F-0026's
 proposals remain unaccepted. Earlier map observations are retained in history.
+
+The [FEMA mask-purpose follow-up](../fema-mask-purpose/README.md) appends evidence
+for TL-F-0105 and TL-F-0026: a similar blank region predates the revision, and the
+Federal Register confirms historical finalization. Both findings remain in progress;
+mask intent and the status of specific covered graphics still need clarification.

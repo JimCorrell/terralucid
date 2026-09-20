@@ -1,0 +1,16 @@
+[
+  {
+    "id": "base-panel-0443",
+    "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=FINAL_PRODUCT&productSubTypeID=FIRM_PANEL&productID=23009C0443D"
+  },
+  {
+    "id": "final-notice",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2024-06-14/pdf/2024-13142.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "nfhl-guidance",
+    "url": "https://www.fema.gov/sites/default/files/documents/fema_national-flood-hazard-layer_112021.pdf",
+    "format": "pdf"
+  }
+]
