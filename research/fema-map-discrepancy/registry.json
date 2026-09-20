@@ -1,0 +1,16 @@
+{
+  "scope": "PDF display investigation of archived FEMA evidence; no new FEMA data capture.",
+  "as_of": "2026-09-20T22:31:37.802377+00:00",
+  "sources": [
+    {
+      "id": "pdf-layer-method-reference",
+      "probe_ids": [
+        "pdf-layer-reference"
+      ],
+      "source_urls": [
+        "https://pymupdf.readthedocs.io/en/latest/document.html"
+      ],
+      "rights": "Reference and derived map diagnostics archived privately."
+    }
+  ]
+}

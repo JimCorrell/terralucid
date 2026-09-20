@@ -151,3 +151,11 @@ before and after this load. There remain 2,648 default zoning screenings, 119
 holds, 153 revisions and zero stale defaults. The private bucket and checked
 client-access denials remain intact. The report reproduces byte-for-byte and all
 53 Python tests pass.
+
+## Subsequent map-display investigation
+
+The [0443D follow-up](../fema-map-discrepancy/README.md) explains the default-view
+blankness using an opaque PDF MASK layer. Existing hazard graphics are visible
+underneath in a controlled diagnostic view. The earlier report is retained;
+mask purpose and regulatory interpretation remain unresolved, and neither
+geometry proposal is activated by this additional evidence.

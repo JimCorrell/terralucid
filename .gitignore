@@ -25,3 +25,6 @@ __pycache__/
 
 /research/fema-geometry-investigation/runs/**/*.response
 /research/fema-geometry-investigation/candidates/*.geojson
+
+/research/fema-map-discrepancy/runs/**/*.response
+/research/fema-map-discrepancy/diagnostics/*.png

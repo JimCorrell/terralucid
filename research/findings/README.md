@@ -71,3 +71,8 @@ The [TL-F-0026 geometry investigation](../fema-geometry-investigation/README.md)
 proposes exact-version, segment-preserving shell/hole decodings for both FEMA
 polygons. They remain unaccepted. TL-F-0026 moves to in progress/high; TL-F-0105
 also records a map/service depiction discrepancy for the smaller feature.
+
+The [0443D display follow-up](../fema-map-discrepancy/README.md) explains the apparent
+blankness as an opaque PDF MASK layer over existing graphics. TL-F-0105 still
+tracks the mask's regulatory purpose and other qualification gaps; TL-F-0026's
+proposals remain unaccepted. Earlier map observations are retained in history.
