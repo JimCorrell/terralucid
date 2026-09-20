@@ -1,12 +1,12 @@
 # Decision log
 
-These are established design principles, not implementation commitments.
+These are established design principles and the explicitly selected implementation choices.
 
 | Decision | Rationale or limit |
 | --- | --- |
 | Use a data-first geospatial acquisition engine. | Compute parcel facts from sourced records and GIS before AI analysis. |
 | Make parcel the canonical entity. | Listings are transient and may not exist for off-market land. |
-| Favor PostgreSQL/PostGIS; Supabase is the likely canonical store. | The spatial model needs reproducible queries; final deployment remains open. |
+| Use PostgreSQL/PostGIS on Supabase. | Supabase selected by the user after the initial source audit; canonical parcel integration remains later work. |
 | Optimize for remote, rural, private characteristics. | Organized town, plantation, and unorganized territory are jurisdiction attributes, not a ranking goal by themselves. |
 | Keep remoteness distinct from access quality. | Isolation is desirable; uncertain legal or practical access is a separate risk. |
 | Use deterministic GIS and user-defined scoring before AI adjudication. | AI interprets a sourced packet; it does not create the underlying facts. |
@@ -16,6 +16,14 @@ These are established design principles, not implementation commitments.
 | Separate discovery, adjudication, and transaction. | A due-diligence package and resolution of critical unknowns precede offer readiness. |
 
 Sequencing clarification (2026-09-19): begin with dataset discovery and validation, producing a source registry and ingestion plan. Use representative parcels later to test integration once coverage, identifiers and ingestion are understood. See the [source audit](../research/maine-sources/README.md).
+
+## Initial storage implementation
+
+Use private Supabase Storage for exact research snapshots and a private `ingest`
+schema for registry versions, retrieval provenance and three existing geometry
+samples. SHA-256 object names and deterministic observation identities support
+reproducible loads. This is an implementation choice for the bounded audit load,
+not a bulk retention or refresh policy. See [setup and checks](supabase-staging.md).
 
 ## Open questions
 
