@@ -1,0 +1,208 @@
+{
+  "checks": {
+    "all_page_drawing_instruction_streams_unchanged": true,
+    "control_pages_7_and_9_pixel_identical": true,
+    "modified_PDF_saved": false,
+    "no_geometry_or_screening_change": true,
+    "only_catalog_dictionary_changed_before_serialization": true,
+    "original_PDF_bytes_unchanged": true,
+    "restored_page_8_crop_pixel_identical": true
+  },
+  "conclusion": {
+    "display_discrepancy": "EXPLAINED: opaque white optional-content mask covers existing hazard graphics.",
+    "geometry_proposals": "UNCHANGED, proposed_not_accepted",
+    "legal_applicability": "UNKNOWN",
+    "mask_purpose": "UNKNOWN",
+    "regulatory_role_of_hidden_graphics": "UNKNOWN",
+    "underlying_graphics": "Visual context is consistent with the earlier NFHL rendering; exact survey/topology equivalence is not established."
+  },
+  "evidence": {
+    "reference/pdf-layer-reference": {
+      "bytes": 437485,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://pymupdf.readthedocs.io/en/latest/document.html",
+      "http_status": 200,
+      "id": "pdf-layer-reference",
+      "pdf_signature": false,
+      "response_file": "pdf-layer-reference.response",
+      "response_path": "runs/reference/pdf-layer-reference.response",
+      "retrieved_at": "2026-09-20T22:31:37.802377+00:00",
+      "sha256": "550520068ef3483d11361605b3ce401d9e4aa3963fa496c9f9ad14af06239fd9",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://pymupdf.readthedocs.io/en/latest/document.html"
+    }
+  },
+  "evidence_state": "DERIVED",
+  "finding_reviews": [
+    {
+      "finding_id": "TL-F-0105",
+      "next_action": "Clarify the regulatory purpose of the 0443D PDF mask and the status of the covered graphics with authoritative evidence; continue revision coverage and LUPC adoption qualification.",
+      "note": "The apparent blank-map discrepancy is explained by opaque white MASK OCG 103. Hiding only that group in an in-memory view reveals existing hazard graphics at the prior locator; restoring it exactly reproduces the original pixels. This supersedes uncertainty about missing graphic content, not the published presentation or regulatory interpretation. Source PDF preserved; hidden graphics are diagnostic only.",
+      "priority": "medium",
+      "report_pointer": "/conclusion",
+      "status": "in_progress"
+    },
+    {
+      "finding_id": "TL-F-0026",
+      "next_action": "Review the two existing exact-version shell/hole proposals and any future FEMA acceptance layer while preserving mask-purpose, regulatory-adoption and source-version qualifications.",
+      "note": "Additional map evidence explains why the smaller polygon appeared uncorroborated in the default 0443D display: an opaque MASK layer covers the region. Underlying graphics provide visual context but do not certify the exact vertex touch or legal applicability. Candidate hashes and original exclusions are unchanged; neither proposal accepted.",
+      "priority": "high",
+      "report_pointer": "/review",
+      "status": "in_progress"
+    }
+  ],
+  "inputs": {
+    "research/fema-geometry-investigation/map-review.json": "207dfebda240bfad89bec72ef5684ceda5ee1aa92ef56118d3e1f2caca491f27",
+    "research/fema-geometry-investigation/report.json": "97dcabac9db9de0f153760755f8fe6e2088d9588c73e98bd58b7505fb7cbd5f3",
+    "research/fema-geometry-investigation/runs/render/render-27129510.response": "634f01bb555ad1922ea3de006dbd75ea7ef5a09a530351d637dc0c83a61321f6",
+    "research/fema-map-discrepancy/diagnostics/diagnostic-mask-hidden.png": "3848a7112836e52c1259ab594fa5d7b5e1ed7aaaa552a3425ae7c68b731d6b5f",
+    "research/fema-map-discrepancy/diagnostics/published-display.png": "2efdc58114f81df1deb2c4a9b803fbf22f2b69d5cfb66fcb79f16930867e3834",
+    "research/fema-map-discrepancy/probes.json": "760ab664b82a8f9c9ba8fd2c9f5f628780b073a3e7494f86f776e3cec746ff68",
+    "research/fema-map-discrepancy/review.json": "243f0950cbef8f395b6e43a7823983864a4b6f97409114c71ca48f8cf1528d73",
+    "scripts/collect_document_evidence.py": "512463a8e1b2f024b99084f00dd97c6fc853051be480e98335a4d96466c6b1e9",
+    "scripts/investigate_osborn_fema.py": "d982a9f237ef74d51f6f3ff1adc23c1a700c0db3ff0e1aa46617a70a0c8e751c",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b"
+  },
+  "large_document_evidence": {
+    "encoding": "Concatenate exact bytes in offset order; no compression or PDF rewrite.",
+    "parts": [
+      {
+        "bytes": 20971520,
+        "offset": 0,
+        "sha256": "d0e5cf007e2de64a57acbd078406f2cfb903b9ff69cc3a5174a503082039e8ee",
+        "storage_object": "sha256/d0e5cf007e2de64a57acbd078406f2cfb903b9ff69cc3a5174a503082039e8ee.response"
+      },
+      {
+        "bytes": 20971520,
+        "offset": 20971520,
+        "sha256": "93527ef2178dcb60aab12400710fc8547fed81a877df0cf0cace5ac289b87d4a",
+        "storage_object": "sha256/93527ef2178dcb60aab12400710fc8547fed81a877df0cf0cace5ac289b87d4a.response"
+      },
+      {
+        "bytes": 11085003,
+        "offset": 41943040,
+        "sha256": "26801f79d8c5e8680df8e27d42dc82bbf37f3806256b325a248157107c6bd71b",
+        "storage_object": "sha256/26801f79d8c5e8680df8e27d42dc82bbf37f3806256b325a248157107c6bd71b.response"
+      }
+    ],
+    "response_path": "large-documents/osborn-lomr-document.response",
+    "retrieval": {
+      "bytes": 53028043,
+      "content_type": "application/pdf",
+      "final_url": "https://map1.msc.fema.gov/mipdata/22-01-0871P-230595.pdf?LOC=17d6746ea315852081764b86852926ef",
+      "http_status": 200,
+      "id": "osborn-lomr-document",
+      "pdf_signature": true,
+      "response_file": "osborn-lomr-document.response",
+      "retrieved_at": "2026-09-20T21:22:09.443632+00:00",
+      "sha256": "fcef7a0a0838e02a45ded5ab071078e5f4938ae02c2849b4bd1639bfb333320b",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=LOMC&productSubTypeID=LOMR&productID=22-01-0871P-230595"
+    },
+    "storage_reason": "Original exceeds private bucket 50 MiB object limit; audit references parts, no ordinary source_response row for this PDF."
+  },
+  "mask": {
+    "covers_diagnostic_clip": true,
+    "diagnostic_clip_page_points": [
+      560,
+      240,
+      740,
+      390
+    ],
+    "fill": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group_dictionary": "<<\n  /Name <FEFF004D00410053004B>\n  /Type /OCG\n  /Usage <<\n    /CreatorInfo <<\n      /Creator (Esri ArcMap 10.9.1.28388)\n      /SubType (Layer)\n    >>\n  >>\n>>",
+    "name": "MASK",
+    "opacity": 1.0,
+    "optional_content_group_xref": 103,
+    "page_resource": "OC6",
+    "page_xref": 190,
+    "paint_sequence": 2581,
+    "path_page_points": [
+      [
+        1473.822998046875,
+        1616.1259765625
+      ],
+      [
+        436.31500244140625,
+        1616.1259765625
+      ],
+      [
+        436.7950134277344,
+        138.95703125
+      ],
+      [
+        1462.782958984375,
+        131.037109375
+      ],
+      [
+        1473.822998046875,
+        1616.1259765625
+      ]
+    ],
+    "pdf_page": 8
+  },
+  "method": "scripts/investigate_fema_map_mask.py",
+  "method_sha256": "9ebe9b6e1a2fc13fd8e5d03f3bf65654d65d86e47c6c4e219772a681f82f81bc",
+  "renderings": {
+    "diagnostic-mask-hidden": {
+      "bytes": 663421,
+      "classification": "DERIVED diagnostic rendering; not a revised official map",
+      "height": 600,
+      "path": "research/fema-map-discrepancy/diagnostics/diagnostic-mask-hidden.png",
+      "pixel_sha256": "7971fa5c925db3f6d5df23c3853acbe0eb6d0e5dbbfd2a2ab15b912030b1742e",
+      "sha256": "3848a7112836e52c1259ab594fa5d7b5e1ed7aaaa552a3425ae7c68b731d6b5f",
+      "width": 720
+    },
+    "published-display": {
+      "bytes": 2860,
+      "classification": "DERIVED diagnostic rendering; not a revised official map",
+      "height": 600,
+      "path": "research/fema-map-discrepancy/diagnostics/published-display.png",
+      "pixel_sha256": "791d032e8aabedf99c0610f15aed1653db87fbff6ed1c89c2a7790f2ba288280",
+      "sha256": "2efdc58114f81df1deb2c4a9b803fbf22f2b69d5cfb66fcb79f16930867e3834",
+      "width": 720
+    }
+  },
+  "review": {
+    "interpretation": "The previously recorded display discrepancy has a reproducible presentation explanation. Prior default-view observations remain true; the inference of missing graphic evidence is superseded by this additional layer inspection.",
+    "limits": [
+      "Approximate locator inherited from prior audit; no new georeferencing or coordinate correction.",
+      "Map imagery and strokes do not establish exact vertex-touch topology or surveyed boundaries.",
+      "The two existing geometry proposals remain unaccepted; exclusions and all zoning screenings remain unchanged.",
+      "Diagnostic PNGs must be labeled with display state. No modified PDF is published or archived as an official source."
+    ],
+    "observations": [
+      {
+        "evidence_state": "VERIFIED",
+        "observation": "The default page has a white region at the prior feature locator. Page resource OC6 references optional-content group 103 named MASK, created as a layer by Esri ArcMap. Its opaque white four-segment fill covers the entire diagnostic crop."
+      },
+      {
+        "evidence_state": "DERIVED",
+        "observation": "A temporary in-memory rendering with only OCG 103 excluded reveals imagery, cyan flood areas and a shaded fringe at that same location. The visual pattern is consistent with the previously archived FEMA service rendering. No coordinates, map symbols or page drawing instructions were added."
+      },
+      {
+        "evidence_state": "UNKNOWN",
+        "observation": "The reason FEMA applied this mask and the regulatory role of the covered graphics are not established by the PDF structure or layer toggle. Hidden content must not replace the published map or establish legal applicability."
+      }
+    ],
+    "panel": "23009C0443D",
+    "pdf_sha256": "fcef7a0a0838e02a45ded5ab071078e5f4938ae02c2849b4bd1639bfb333320b",
+    "reviewed_page": 8,
+    "source": "Original archived FEMA 22-01-0871P-230595 revision document, effective May 31, 2024."
+  },
+  "runtime": {
+    "MuPDF": "1.24.11",
+    "PyMuPDF": "1.24.14"
+  },
+  "scope": {
+    "OBJECTID": 27129510,
+    "new_FEMA_capture": false,
+    "panel": "23009C0443D",
+    "prior_audit_sha256": "97dcabac9db9de0f153760755f8fe6e2088d9588c73e98bd58b7505fb7cbd5f3",
+    "purpose": "Explain the existing captured map/service display discrepancy"
+  }
+}

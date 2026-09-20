@@ -1,0 +1,27 @@
+{
+  "pdf_sha256": "fcef7a0a0838e02a45ded5ab071078e5f4938ae02c2849b4bd1639bfb333320b",
+  "reviewed_page": 8,
+  "panel": "23009C0443D",
+  "source": "Original archived FEMA 22-01-0871P-230595 revision document, effective May 31, 2024.",
+  "observations": [
+    {
+      "evidence_state": "VERIFIED",
+      "observation": "The default page has a white region at the prior feature locator. Page resource OC6 references optional-content group 103 named MASK, created as a layer by Esri ArcMap. Its opaque white four-segment fill covers the entire diagnostic crop."
+    },
+    {
+      "evidence_state": "DERIVED",
+      "observation": "A temporary in-memory rendering with only OCG 103 excluded reveals imagery, cyan flood areas and a shaded fringe at that same location. The visual pattern is consistent with the previously archived FEMA service rendering. No coordinates, map symbols or page drawing instructions were added."
+    },
+    {
+      "evidence_state": "UNKNOWN",
+      "observation": "The reason FEMA applied this mask and the regulatory role of the covered graphics are not established by the PDF structure or layer toggle. Hidden content must not replace the published map or establish legal applicability."
+    }
+  ],
+  "interpretation": "The previously recorded display discrepancy has a reproducible presentation explanation. Prior default-view observations remain true; the inference of missing graphic evidence is superseded by this additional layer inspection.",
+  "limits": [
+    "Approximate locator inherited from prior audit; no new georeferencing or coordinate correction.",
+    "Map imagery and strokes do not establish exact vertex-touch topology or surveyed boundaries.",
+    "The two existing geometry proposals remain unaccepted; exclusions and all zoning screenings remain unchanged.",
+    "Diagnostic PNGs must be labeled with display state. No modified PDF is published or archived as an official source."
+  ]
+}

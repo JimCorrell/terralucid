@@ -40,3 +40,9 @@ vertex-touching native rings and proposes boundary-preserving shell/hole decodin
 The proposals are not accepted. The reviewed 0443D map enclosure is blank at one
 feature's approximate location despite current service depiction; carry this
 map-evidence discrepancy under TL-F-0105 rather than clearing or deleting hazards.
+
+The [0443D display investigation](../research/fema-map-discrepancy/README.md)
+explains that blank region: an opaque PDF MASK layer covers existing hazard
+graphics. Preserve the published display and label any layer-hidden diagnostic
+view. Mask purpose and regulatory status remain unknown; inspecting hidden
+content does not establish adoption or authorize a replacement map.

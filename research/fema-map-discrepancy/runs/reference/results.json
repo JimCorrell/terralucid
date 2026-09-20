@@ -1,0 +1,15 @@
+[
+  {
+    "id": "pdf-layer-reference",
+    "url": "https://pymupdf.readthedocs.io/en/latest/document.html",
+    "retrieved_at": "2026-09-20T22:31:37.802377+00:00",
+    "http_status": 200,
+    "final_url": "https://pymupdf.readthedocs.io/en/latest/document.html",
+    "content_type": "text/html; charset=utf-8",
+    "response_file": "pdf-layer-reference.response",
+    "sha256": "550520068ef3483d11361605b3ce401d9e4aa3963fa496c9f9ad14af06239fd9",
+    "bytes": 437485,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]
