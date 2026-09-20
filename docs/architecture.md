@@ -11,3 +11,13 @@ TerraLucid is a data-first geospatial acquisition engine. The canonical entity i
 PostgreSQL with PostGIS on Supabase is the selected geospatial foundation. The initial implementation is [private source staging](supabase-staging.md); canonical parcel integration follows source validation. Keep raw source records and retrieval dates so calculations can be reproduced. AI is an analyst over the evidence, not the system of record.
 
 Remoteness and access quality are separate dimensions. Jurisdiction type (organized town, plantation, unorganized territory) is an attribute. Regulatory consequences belong in separate sourced findings; the jurisdiction label itself is not the search objective.
+
+## Analytical source interpretation
+
+Downstream analysis uses accepted corrections as its default interpretation for
+the exact reviewed source version. Read effective properties with their correction
+history, provenance, evidence classification and unresolved findings. Preserve raw
+sources for audit and evidence-based reconsideration. An analytical override to
+raw values needs a recorded evidentiary reason; new deliveries require validation.
+See [the correction-layer policy](correction-layer.md) for consumer requirements
+and the distinction between documented policy and implemented controls.

@@ -14,3 +14,11 @@ Track source and ingestion deficiencies in the private findings register describ
 in `docs/findings-register.md`. Preserve stable finding IDs and evidence links.
 Append reviews through finding events; do not overwrite history or reset status
 when reloading data. New evidence after resolution must remain visible for review.
+
+For downstream analysis, default to accepted corrections through
+`ingest.corrected_source.effective_properties` for the exact reviewed source
+version. Preserve evidence classification, provenance, holds and findings in
+results. Using an original value instead of an accepted correction requires a
+recorded evidentiary reason and source/correction versions; raw inspection for
+an audit is always available. New snapshots require new validation. Follow
+[the correction-layer policy](docs/correction-layer.md).

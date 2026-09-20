@@ -62,3 +62,15 @@ Preserve raw features, assessment candidates, original geometries, exception hol
 and findings. Acceptance does not change INFERRED evidence into VERIFIED evidence.
 Use immutable source interpretations and append-only acceptance/withdrawal events;
 new source deliveries require new review. See [correction layer](correction-layer.md).
+
+
+## Default interpretation for downstream analysis
+
+The user confirmed that accepted corrections are the default for downstream
+analysis. Use the effective values for their exact reviewed source versions,
+carrying evidence classification, provenance and unresolved holds forward. Retain
+raw values for audit; overriding an accepted value in analysis requires a recorded
+evidentiary reason. Preserve the acceptance event used by each result so later
+review can identify affected analyses. This policy does not transfer corrections
+to new snapshots or certify uncorrected values. Consumer enforcement and analytical
+result tracking remain downstream implementation work.

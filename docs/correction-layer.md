@@ -36,6 +36,38 @@ investigation references, not a claim that every issue applies to every record.
 The source-freshness finding TL-F-0024 remains open. The stored hold list covers this
 review's exceptions; an empty list does not certify a clean or offer-ready parcel.
 
+## Default for downstream analysis
+
+Use `ingest.corrected_source.effective_properties` as the default interpretation
+for records in this layer. Wherever an accepted correction applies, downstream
+filters, jurisdiction groupings, candidate matching and derived analyses must use
+that corrected value. Unchanged fields retain their source values. Raw evidence
+remains available for provenance, comparison and evidentiary review.
+
+A deliberate analytical override to a raw value requires a recorded evidentiary
+reason, supporting references, affected fields and exact source/correction
+versions. Merely inspecting the original for audit does not constitute an override.
+If new evidence warrants withdrawing a correction generally, append a review event;
+do not silently bypass acceptance or overwrite the source.
+
+Every derived result must retain the source snapshot and feature checksum, audit
+and correction IDs, and the acceptance event ID used, along with applicable
+provenance, evidence classification, holds and findings. Accepted corrections
+remain INFERRED. A later review does not rewrite prior analytical results: dependent
+results need explicit recomputation or review when their interpretation changes.
+
+When no accepted correction exists, the effective view retains the raw properties
+and exposes its proposed, held or revoked status. Records outside this layer use
+their versioned source interpretation and existing quality flags. Neither case
+implies that the raw values are verified or suitable for every calculation; a
+blocking unknown must propagate as unknown or prevent the affected calculation.
+New source snapshots never inherit these corrections automatically.
+
+This is the required policy for downstream consumers as they are implemented.
+The current database view provides the effective values and history; it does not
+yet enforce consumer routing, record analytical overrides or invalidate derived
+results automatically. Those controls belong with the downstream analysis work.
+
 ## Safe use
 
 Query this view explicitly for the intended `audit_sha256`, `source_id`,
