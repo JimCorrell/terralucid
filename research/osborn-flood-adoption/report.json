@@ -1,0 +1,357 @@
+{
+  "checks": {
+    "no_geometry_or_screening_change": true,
+    "osborn_map_identical_to_prior_review": true
+  },
+  "evidence": {
+    "procedure/chapter-4": {
+      "bytes": 154106,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/laws_rules/rule_chapters/Ch04_ver2023_August.pdf",
+      "http_status": 200,
+      "id": "chapter-4",
+      "pdf_signature": true,
+      "response_file": "chapter-4.response",
+      "response_path": "runs/procedure/chapter-4.response",
+      "retrieved_at": "2026-09-20T23:39:10.702655+00:00",
+      "sha256": "c7b97a0bfe4640e72b7849376c4fd5eddc337932251dd9a0bb29adb080c6a06e",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/laws_rules/rule_chapters/Ch04_ver2023_August.pdf"
+    },
+    "procedure/chapter-4-index": {
+      "bytes": 22320,
+      "content_type": "text/html",
+      "final_url": "https://www.maine.gov/dacf/lupc/laws_rules/rule_chapters/additional_chapters.html",
+      "http_status": 200,
+      "id": "chapter-4-index",
+      "pdf_signature": false,
+      "response_file": "chapter-4-index.response",
+      "response_path": "runs/procedure/chapter-4-index.response",
+      "retrieved_at": "2026-09-20T23:39:11.873504+00:00",
+      "sha256": "8a9000b7b3cc30ee7b9f758e475ba4232b81164059d0baa9a2522a0ce45b4ca8",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/laws_rules/rule_chapters/additional_chapters.html"
+    },
+    "procedure/incorporation-reference": {
+      "bytes": 22577,
+      "content_type": "text/html",
+      "final_url": "https://www.maine.gov/dacf/lupc/laws_rules/materials_incorporated.shtml",
+      "http_status": 200,
+      "id": "incorporation-reference",
+      "pdf_signature": false,
+      "response_file": "incorporation-reference.response",
+      "response_path": "runs/procedure/incorporation-reference.response",
+      "retrieved_at": "2026-09-20T23:39:12.361923+00:00",
+      "sha256": "26bb71db0314f2a8120547bfde678e945a8ad1c69bbe0740332a162e6047af4d",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/laws_rules/materials_incorporated.shtml"
+    },
+    "publication/august-2024-agenda": {
+      "bytes": 188248,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/tools/whatsnew/attach.php?an=1&id=12914495",
+      "http_status": 200,
+      "id": "august-2024-agenda",
+      "pdf_signature": true,
+      "response_file": "august-2024-agenda.response",
+      "response_path": "runs/publication/august-2024-agenda.response",
+      "retrieved_at": "2026-09-20T23:37:47.126083+00:00",
+      "sha256": "fb5ccb1e959459166c29cc1a8a497b6f9208575053c1ebbc87f8fa3fd76a3131",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/tools/whatsnew/attach.php?an=1&id=12914495"
+    },
+    "publication/calendar-archive": {
+      "bytes": 65781,
+      "content_type": "text/html",
+      "final_url": "https://www.maine.gov/dacf/lupc/about/calendar/calendar_archive.shtml",
+      "http_status": 200,
+      "id": "calendar-archive",
+      "pdf_signature": false,
+      "response_file": "calendar-archive.response",
+      "response_path": "runs/publication/calendar-archive.response",
+      "retrieved_at": "2026-09-20T23:37:48.452974+00:00",
+      "sha256": "195a898a0951238ffedbf6873543bc35696b470ba22d69f93df2cf9aa2ca6f26",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/about/calendar/calendar_archive.shtml"
+    },
+    "publication/five-year-report": {
+      "bytes": 122,
+      "content_type": "text/html",
+      "final_url": "https://www1.maine.gov/dacf/lupc/projects/location_of_development/reports/AdjSub_5Yr_Report_Final4-2-2026.pdf",
+      "http_status": 502,
+      "id": "five-year-report",
+      "pdf_signature": false,
+      "response_file": "five-year-report.response",
+      "response_path": "runs/publication/five-year-report.response",
+      "retrieved_at": "2026-09-20T23:37:47.607809+00:00",
+      "sha256": "880c929020d4b79bf1995656d21d9a6859aab3a9460f941eb0b1a6e5502ee4cc",
+      "status": "HTTP_ERROR",
+      "url": "https://www1.maine.gov/dacf/lupc/projects/location_of_development/reports/AdjSub_5Yr_Report_Final4-2-2026.pdf"
+    },
+    "publication/flood-rule-basis": {
+      "bytes": 238042,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/laws_rules/proposed_rules/chapter10/flood/BasisStatement.pdf",
+      "http_status": 200,
+      "id": "flood-rule-basis",
+      "pdf_signature": true,
+      "response_file": "flood-rule-basis.response",
+      "response_path": "runs/publication/flood-rule-basis.response",
+      "retrieved_at": "2026-09-20T23:37:47.970373+00:00",
+      "sha256": "8fa7697ccf68e686f3b746d62628d0a57c20a2492fb94ef2936ce10fd891dfff",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/laws_rules/proposed_rules/chapter10/flood/BasisStatement.pdf"
+    },
+    "publication/osborn-map": {
+      "bytes": 2721897,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf",
+      "http_status": 200,
+      "id": "osborn-map",
+      "pdf_signature": true,
+      "response_file": "osborn-map.response",
+      "response_path": "runs/publication/osborn-map.response",
+      "retrieved_at": "2026-09-20T23:37:45.856054+00:00",
+      "sha256": "9de0a5f83415be0433e57d62aba24382dfe71a51ea938a56af595b11fc046beb",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf"
+    },
+    "publication/rules-index": {
+      "bytes": 20159,
+      "content_type": "text/html",
+      "final_url": "https://www.maine.gov/dacf/lupc/laws_rules/ch10.html",
+      "http_status": 200,
+      "id": "rules-index",
+      "pdf_signature": false,
+      "response_file": "rules-index.response",
+      "response_path": "runs/publication/rules-index.response",
+      "retrieved_at": "2026-09-20T23:37:45.544035+00:00",
+      "sha256": "2ffa765a52742487a028f6620df211e0ebee8935931dcab7aa1bfaf87dba90ef",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/laws_rules/ch10.html"
+    },
+    "publication/zp796-probe": {
+      "bytes": 884293,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/signedpermits/zp796.pdf",
+      "http_status": 200,
+      "id": "zp796-probe",
+      "pdf_signature": true,
+      "response_file": "zp796-probe.response",
+      "response_path": "runs/publication/zp796-probe.response",
+      "retrieved_at": "2026-09-20T23:37:46.580720+00:00",
+      "sha256": "99b5fffd32db59f318549b136da8c6507446beb547e9321f7af173a072ecd25f",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/signedpermits/zp796.pdf"
+    }
+  },
+  "evidence_state": "DERIVED",
+  "finding_reviews": [
+    {
+      "finding_id": "TL-F-0109",
+      "next_action": "Ask LUPC for the controlling record or written interpretation for Osborn CID 230595 and case 22-01-0871P, including whether the 2016 reference incorporates this LOMR and the applicable effective date. Preserve the answer and distinguish it from the FEMA mask inquiry.",
+      "note": "Signed ZP 796 confirms the August 2024 Osborn map amendment was clerical, retaining existing zoning. Chapter 4 permits staff adoption of amended FEMA maps; authority does not establish a specific action. The existing 2016 reference and Chapter 10 do not resolve incorporation of case 22-01-0871P in this review. Non-adoption is not established. All other currency/omitted-protection qualifications remain.",
+      "priority": "medium",
+      "report_pointer": "/review",
+      "status": "in_progress"
+    },
+    {
+      "finding_id": "TL-F-0105",
+      "next_action": "Obtain the authoritative 0443D mask clarification and LUPC incorporation record/interpretation for case 22-01-0871P; retain separate revision currency and parcel applicability checks.",
+      "note": "LUPC incorporation review locates signed ZP 796 but establishes only clerical scope. Federal finalization remains corroborated; LUPC applicability and the FEMA mask question remain separate unknowns. Preserve Zone X/SFHA distinctions; no geometry proposal accepted.",
+      "priority": "medium",
+      "report_pointer": "/review/conclusion",
+      "status": "in_progress"
+    }
+  ],
+  "inputs": {
+    "research/fema-mask-purpose/report.json": "769cff43b96b0c5fc909e6dd7821bf9d96e5ac1cf21c2170c718c36f183d95e1",
+    "research/lupc-currency/report.json": "027c4170c9fc7748d5f40b64ed45cca8c11ec09a90a1bca473f1333a9fc28b9e",
+    "research/lupc-currency/runs/publication/chapter-10.response": "167196d1e19ddc9c02e8b7f2b0921049ce5609cdbee2eecef38f1d93365ef274",
+    "research/osborn-flood-adoption/diagnostics/chapter-10-133.png": "30bd46e62772aa4363472a6140de17a539a9f03f7ab29eb2b606e2922995cc88",
+    "research/osborn-flood-adoption/diagnostics/chapter-10-251.png": "7d2224f439a3688e6774feb7ceca15e00b518abeec7c25546ad77e812ad173e4",
+    "research/osborn-flood-adoption/diagnostics/chapter-4-49.png": "8aeedc605fee0a2d194f81237336542bb30ea1a9ed35cc56537dcde4a1299b86",
+    "research/osborn-flood-adoption/diagnostics/flood-rule-basis-1.png": "a06169069d2b9edef52345142355b4aa810346be03b9f512b393cadf3c7e7874",
+    "research/osborn-flood-adoption/diagnostics/flood-rule-basis-2.png": "1ada9c074b6070d9f1c44f26de06d2bbabad9b16d2257902b87b4140f24de98f",
+    "research/osborn-flood-adoption/diagnostics/zp796-probe-1.png": "1b072ec7254c0c00c347c25ee8aa816b5d494f556c92ba1aa33445fa3d783e8f",
+    "research/osborn-flood-adoption/diagnostics/zp796-probe-10.png": "b4fd92b6430457d708f7cdecf0de15e72ea162c033fe836c026162384f3ee60c",
+    "research/osborn-flood-adoption/diagnostics/zp796-probe-2.png": "e9b12474d0247fe1ed0c761e644eb1173a0c97882d72a18d06849f199dcb6539",
+    "research/osborn-flood-adoption/diagnostics/zp796-probe-3.png": "7d4b8870a1d194afb7e9a82ab201cbee4ea54d3d753267b8fdea28990bc1a92b",
+    "research/osborn-flood-adoption/diagnostics/zp796-probe-4.png": "fd23873db8dae57ef28af32c464fd0bdea86248a09942c82fb695ce400bacba3",
+    "research/osborn-flood-adoption/followup-probes.json": "9ff652e8af6a0a945cba4bcd52804870986372d3cf398a1c0fc4538b3aa7d0bc",
+    "research/osborn-flood-adoption/probes.json": "d5db2efe61db627c075733134e46a6db1906a280277e2ec3c267090b6a9c1021",
+    "research/osborn-flood-adoption/publisher-questions.md": "9a1c2c87a224c2ec92ff369f34dee46d2c2dc99b41d5e3e97ac0ad3d090742b9",
+    "research/osborn-flood-adoption/review.json": "a447f9127140ce5ba847de946ff4371da6ca03f9c9f0046d7d85b294cbd13a38",
+    "scripts/collect_document_evidence.py": "512463a8e1b2f024b99084f00dd97c6fc853051be480e98335a4d96466c6b1e9",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b"
+  },
+  "method": "scripts/investigate_osborn_flood_adoption.py",
+  "method_sha256": "befa7d09789bb02bfed340ca4476e18c09818ef81d945ae6bbe51e3d6a0fa35b",
+  "renderings": {
+    "chapter-10/133": {
+      "display": "default; source unchanged",
+      "path": "research/osborn-flood-adoption/diagnostics/chapter-10-133.png",
+      "pdf_page": 133,
+      "sha256": "30bd46e62772aa4363472a6140de17a539a9f03f7ab29eb2b606e2922995cc88"
+    },
+    "chapter-10/251": {
+      "display": "default; source unchanged",
+      "path": "research/osborn-flood-adoption/diagnostics/chapter-10-251.png",
+      "pdf_page": 251,
+      "sha256": "7d2224f439a3688e6774feb7ceca15e00b518abeec7c25546ad77e812ad173e4"
+    },
+    "chapter-4/49": {
+      "display": "default; source unchanged",
+      "path": "research/osborn-flood-adoption/diagnostics/chapter-4-49.png",
+      "pdf_page": 49,
+      "sha256": "8aeedc605fee0a2d194f81237336542bb30ea1a9ed35cc56537dcde4a1299b86"
+    },
+    "flood-rule-basis/1": {
+      "display": "default; source unchanged",
+      "path": "research/osborn-flood-adoption/diagnostics/flood-rule-basis-1.png",
+      "pdf_page": 1,
+      "sha256": "a06169069d2b9edef52345142355b4aa810346be03b9f512b393cadf3c7e7874"
+    },
+    "flood-rule-basis/2": {
+      "display": "default; source unchanged",
+      "path": "research/osborn-flood-adoption/diagnostics/flood-rule-basis-2.png",
+      "pdf_page": 2,
+      "sha256": "1ada9c074b6070d9f1c44f26de06d2bbabad9b16d2257902b87b4140f24de98f"
+    },
+    "zp796-probe/1": {
+      "display": "default; source unchanged",
+      "path": "research/osborn-flood-adoption/diagnostics/zp796-probe-1.png",
+      "pdf_page": 1,
+      "sha256": "1b072ec7254c0c00c347c25ee8aa816b5d494f556c92ba1aa33445fa3d783e8f"
+    },
+    "zp796-probe/10": {
+      "display": "default; source unchanged",
+      "path": "research/osborn-flood-adoption/diagnostics/zp796-probe-10.png",
+      "pdf_page": 10,
+      "sha256": "b4fd92b6430457d708f7cdecf0de15e72ea162c033fe836c026162384f3ee60c"
+    },
+    "zp796-probe/2": {
+      "display": "default; source unchanged",
+      "path": "research/osborn-flood-adoption/diagnostics/zp796-probe-2.png",
+      "pdf_page": 2,
+      "sha256": "e9b12474d0247fe1ed0c761e644eb1173a0c97882d72a18d06849f199dcb6539"
+    },
+    "zp796-probe/3": {
+      "display": "default; source unchanged",
+      "path": "research/osborn-flood-adoption/diagnostics/zp796-probe-3.png",
+      "pdf_page": 3,
+      "sha256": "7d4b8870a1d194afb7e9a82ab201cbee4ea54d3d753267b8fdea28990bc1a92b"
+    },
+    "zp796-probe/4": {
+      "display": "default; source unchanged",
+      "path": "research/osborn-flood-adoption/diagnostics/zp796-probe-4.png",
+      "pdf_page": 4,
+      "sha256": "fd23873db8dae57ef28af32c464fd0bdea86248a09942c82fb695ce400bacba3"
+    }
+  },
+  "review": {
+    "conclusion": {
+      "downstream": "Retain versioned FEMA hazards for qualified source analysis with LUPC applicability UNKNOWN. No legal P-FP overlay, flood clearance, geometry acceptance or screening recalculation follows from this review.",
+      "fema_revision_finalization": "Previously corroborated federal finalization remains distinct from LUPC incorporation",
+      "lupc_incorporation_of_22_01_0871p": "UNKNOWN; reviewed evidence does not resolve whether the existing adoption reference includes this later LOMR or whether a separate action controls",
+      "non_adoption": "NOT ESTABLISHED; absence of a located adoption record is not proof the revision is inapplicable",
+      "zone_x_crosswalk": "Do not automatically translate the pending 0.2-percent Zone X polygons into P-FP. The quoted FEMA SFHA list names A, AE and VE; independent LUPC designations and broader flood-prone-area rules remain relevant.",
+      "zp796_scope": "VERIFIED clerical text correction with existing zoning retained; not evidence of a new hazard-boundary adoption"
+    },
+    "documents": [
+      {
+        "evidence_state": "VERIFIED",
+        "observations": [
+          "The signed ZP 796 decision dated July 17, 2024 approves clerical map-note corrections effective August 1, 2024. Finding 5 states existing zoning remains unchanged; Osborn is included in the FIS/FIRM community list in finding 13.",
+          "Findings 8-11 describe adoption by map note and distinguish FIRM-only communities from county FIS/FIRM communities. The county example cites the 2016 Hancock FIS. The approved action corrects note wording; it does not establish adoption of the specific May 2024 Osborn LOMR."
+        ],
+        "pdf_pages": [
+          1,
+          2,
+          3,
+          4,
+          10
+        ],
+        "source": "publication/zp796-probe"
+      },
+      {
+        "evidence_state": "VERIFIED",
+        "observations": [
+          "The captured map is byte-identical to the prior reviewed map. Its note references the July 20, 2016 Hancock FIS and accompanying FIRM; its August 1, 2024 amendment is labeled a clerical correction."
+        ],
+        "pdf_pages": [
+          1
+        ],
+        "source": "publication/osborn-map"
+      },
+      {
+        "evidence_state": "VERIFIED",
+        "observations": [
+          "Section 4.08,B,2,b permits staff handling of routine proposals to adopt new or amended FEMA maps. Delegated authority is not evidence that staff adopted this particular LOMR; a missing Commission agenda item would not establish non-adoption."
+        ],
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          45
+        ],
+        "source": "procedure/chapter-4"
+      },
+      {
+        "evidence_state": "VERIFIED",
+        "observations": [
+          "Section 10.23,C,2 identifies FEMA SFHA Zones A, AE and VE and requires an adoption note on the official map. FEMA boundaries also apply where they differ from Commission-mapped P-FP boundaries.",
+          "Section 10.25,T,1,d expressly addresses a LOMA/LOMR determining that a specified structure or property is outside the SFHA. This removal provision is not evidence that every hazard-adding LOMR is automatically incorporated. Broader flood-prone-area provisions still require consideration."
+        ],
+        "pdf_pages": [
+          133,
+          251
+        ],
+        "printed_pages": [
+          125,
+          243
+        ],
+        "source": "prior:research/lupc-currency/runs/publication/chapter-10.response"
+      },
+      {
+        "evidence_state": "VERIFIED",
+        "observations": [
+          "The February 12, 2025 adopted basis statement describes updates to flood development standards and NFIP consistency. Its stated purpose is not a determination adopting Osborn case 22-01-0871P."
+        ],
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "source": "publication/flood-rule-basis"
+      },
+      {
+        "evidence_state": "VERIFIED",
+        "observations": [
+          "LUPC's explanatory page says incorporation by reference identifies title, version and publication date. It supplies process context, not an Osborn-specific interpretation of a later LOMR."
+        ],
+        "source": "procedure/incorporation-reference"
+      }
+    ],
+    "next_action": "Ask LUPC for the controlling record or written interpretation for Osborn CID 230595 and case 22-01-0871P, including whether the 2016 reference incorporates this LOMR and the applicable effective date. Preserve the answer and distinguish it from the FEMA mask inquiry.",
+    "scope": "Osborn LUPC incorporation of FEMA case 22-01-0871P; publication review, not a parcel-specific legal determination",
+    "search_scope": {
+      "limits": [
+        "Not an exhaustive search of every staff decision, correspondence, minute or later amendment.",
+        "The five-year report retrieval returned HTTP 502; its search snippet is discovery context only and is not used as substantive evidence.",
+        "No publisher contact or formal advisory ruling requested.",
+        "The FEMA PDF mask remains a separate unresolved presentation question."
+      ],
+      "routes": [
+        "Official Osborn map and current Chapter 10 index",
+        "Signed-permit path probe for ZP 796, confirmed as the signed decision by retrieved content",
+        "Commission calendar archive and August 2024 agenda",
+        "Official Chapter 4 index and delegation text",
+        "2025 flood-rule basis statement and incorporation-reference page"
+      ]
+    }
+  },
+  "runtime": {
+    "MuPDF": "1.24.11",
+    "PyMuPDF": "1.24.14"
+  }
+}

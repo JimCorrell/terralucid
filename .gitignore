@@ -31,3 +31,6 @@ __pycache__/
 
 /research/fema-mask-purpose/runs/**/*.response
 /research/fema-mask-purpose/diagnostics/*.png
+
+/research/osborn-flood-adoption/runs/**/*.response
+/research/osborn-flood-adoption/diagnostics/*.png

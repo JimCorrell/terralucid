@@ -1,0 +1,34 @@
+{
+  "scope": "Osborn LUPC flood adoption documentary review",
+  "as_of": "2026-09-20T23:39:12.361923+00:00",
+  "sources": [
+    {
+      "id": "lupc-flood-adoption-evidence",
+      "probe_ids": [
+        "rules-index",
+        "osborn-map",
+        "zp796-probe",
+        "august-2024-agenda",
+        "five-year-report",
+        "flood-rule-basis",
+        "calendar-archive",
+        "chapter-4",
+        "chapter-4-index",
+        "incorporation-reference"
+      ],
+      "source_urls": [
+        "https://www.maine.gov/dacf/lupc/laws_rules/ch10.html",
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf",
+        "https://www.maine.gov/dacf/lupc/signedpermits/zp796.pdf",
+        "https://www.maine.gov/tools/whatsnew/attach.php?an=1&id=12914495",
+        "https://www1.maine.gov/dacf/lupc/projects/location_of_development/reports/AdjSub_5Yr_Report_Final4-2-2026.pdf",
+        "https://www.maine.gov/dacf/lupc/laws_rules/proposed_rules/chapter10/flood/BasisStatement.pdf",
+        "https://www.maine.gov/dacf/lupc/about/calendar/calendar_archive.shtml",
+        "https://www.maine.gov/dacf/lupc/laws_rules/rule_chapters/Ch04_ver2023_August.pdf",
+        "https://www.maine.gov/dacf/lupc/laws_rules/rule_chapters/additional_chapters.html",
+        "https://www.maine.gov/dacf/lupc/laws_rules/materials_incorporated.shtml"
+      ],
+      "rights": "Public agency documents retained privately for source qualification."
+    }
+  ]
+}

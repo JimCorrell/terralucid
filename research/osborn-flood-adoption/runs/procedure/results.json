@@ -1,0 +1,41 @@
+[
+  {
+    "id": "chapter-4",
+    "url": "https://www.maine.gov/dacf/lupc/laws_rules/rule_chapters/Ch04_ver2023_August.pdf",
+    "retrieved_at": "2026-09-20T23:39:10.702655+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/laws_rules/rule_chapters/Ch04_ver2023_August.pdf",
+    "content_type": "application/pdf",
+    "response_file": "chapter-4.response",
+    "sha256": "c7b97a0bfe4640e72b7849376c4fd5eddc337932251dd9a0bb29adb080c6a06e",
+    "bytes": 154106,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "chapter-4-index",
+    "url": "https://www.maine.gov/dacf/lupc/laws_rules/rule_chapters/additional_chapters.html",
+    "retrieved_at": "2026-09-20T23:39:11.873504+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/laws_rules/rule_chapters/additional_chapters.html",
+    "content_type": "text/html",
+    "response_file": "chapter-4-index.response",
+    "sha256": "8a9000b7b3cc30ee7b9f758e475ba4232b81164059d0baa9a2522a0ce45b4ca8",
+    "bytes": 22320,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "incorporation-reference",
+    "url": "https://www.maine.gov/dacf/lupc/laws_rules/materials_incorporated.shtml",
+    "retrieved_at": "2026-09-20T23:39:12.361923+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/laws_rules/materials_incorporated.shtml",
+    "content_type": "text/html",
+    "response_file": "incorporation-reference.response",
+    "sha256": "26bb71db0314f2a8120547bfde678e945a8ad1c69bbe0740332a162e6047af4d",
+    "bytes": 22577,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

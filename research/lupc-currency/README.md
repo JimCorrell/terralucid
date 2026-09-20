@@ -128,3 +128,11 @@ both screening-history tables match. There are still 2,648 default screenings,
 153 revisions and zero stale defaults. Private bucket, RLS and client access
 denials remain intact. The investigation reproduces byte-for-byte; all 45 Python
 tests pass, including the four new source-response validation tests.
+
+## Later flood-adoption review
+
+The [Osborn adoption investigation](../osborn-flood-adoption/README.md) obtains
+signed ZP 796 and confirms its clerical scope. It also documents staff adoption
+authority and relevant Chapter 10 provisions. Incorporation of case 22-01-0871P
+remains unknown; existing map dates do not establish non-adoption. The broader
+TL-F-0109 qualifications above remain in force.

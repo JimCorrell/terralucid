@@ -81,3 +81,8 @@ The [FEMA mask-purpose follow-up](../fema-mask-purpose/README.md) appends eviden
 for TL-F-0105 and TL-F-0026: a similar blank region predates the revision, and the
 Federal Register confirms historical finalization. Both findings remain in progress;
 mask intent and the status of specific covered graphics still need clarification.
+
+The [LUPC flood-adoption investigation](../osborn-flood-adoption/README.md) appends
+reviews to TL-F-0109 and TL-F-0105. Signed ZP 796 establishes the clerical scope of
+the August 2024 amendment. The specific 2024 LOMR's LUPC incorporation remains
+unknown, with unsent questions identifying the missing record or interpretation.
