@@ -14,3 +14,5 @@ research/municipal-corroboration/runs/**/*.response binary
 research/municipal-corroboration/report.json -diff
 research/zoning-ingestion/report.json -diff
 research/zoning-ingestion/analysis-inputs.json -diff
+
+research/zoning-geometry-correction/report.json -diff

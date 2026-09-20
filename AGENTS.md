@@ -22,3 +22,9 @@ results. Using an original value instead of an accepted correction requires a
 recorded evidentiary reason and source/correction versions; raw inspection for
 an audit is always available. New snapshots require new validation. Follow
 [the correction-layer policy](docs/correction-layer.md).
+
+For reviewed zoning geometry, use `ingest.corrected_zoning_feature` and
+`ingest.zoning_screening_latest`, scoped to the intended original audit. Check
+`needs_revisit` before using a screening; stale results require review or
+recomputation. Preserve geometry acceptance-event dependencies and limits. See
+[the geometry correction policy](docs/zoning-geometry-corrections.md).

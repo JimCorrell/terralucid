@@ -21,3 +21,8 @@ sources for audit and evidence-based reconsideration. An analytical override to
 raw values needs a recorded evidentiary reason; new deliveries require validation.
 See [the correction-layer policy](correction-layer.md) for consumer requirements
 and the distinction between documented policy and implemented controls.
+
+Reviewed zoning geometry follows the same exact-version policy through
+`ingest.corrected_zoning_feature`. Consumers use `ingest.zoning_screening_latest`
+and inspect `needs_revisit`; geometry review changes preserve prior results and
+flag dependent calculations. See [geometry history](zoning-geometry-corrections.md).

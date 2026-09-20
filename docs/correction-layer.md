@@ -148,3 +148,10 @@ Verified in the selected Supabase project on 2026-09-20 UTC:
 
 These observations describe this deployment, not ongoing monitoring or evidence
 that source information is current.
+
+## Separate zoning geometry interpretation
+
+The [zoning geometry layer](zoning-geometry-corrections.md) now provides accepted
+geometry defaults and immutable dependent screening revisions for the reviewed
+Osborn source version. This is separate from the property correction tables
+described above; Alfred's geometry proposal is still pending.

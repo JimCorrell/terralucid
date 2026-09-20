@@ -13,3 +13,5 @@ __pycache__/
 
 /research/osborn-zoning-investigation/runs/**/*.response
 /research/osborn-zoning-investigation/candidate.geojson
+
+/research/zoning-geometry-correction/analysis-inputs.json

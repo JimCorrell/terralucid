@@ -76,6 +76,7 @@ Municipal polygon qualification and authoritative date/rule reconciliation remai
 next ingestion gates; this pilot does not satisfy all of step 3.
 
 The [Osborn geometry investigation](../research/osborn-zoning-investigation/README.md)
-proposes an exact-version shell/hole decoding for TL-F-0025, with unchanged source
-segments. It remains unaccepted; geometry interpretation history and explicit
-recomputation are required before downstream use. The original exclusion remains.
+supports an exact-version shell/hole decoding for TL-F-0025, with unchanged source
+segments. The [geometry correction layer](zoning-geometry-corrections.md) now accepts
+that interpretation and provides versioned Osborn screening revisions. Historical
+exclusions remain preserved; the projection and legal-currency caveats remain open.
