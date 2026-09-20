@@ -74,3 +74,8 @@ publication routes for Kingsbury, Sweden and Alfred. It records source gaps,
 invalid geometry, unknown legal currency and downstream correction dependencies.
 Municipal polygon qualification and authoritative date/rule reconciliation remain
 next ingestion gates; this pilot does not satisfy all of step 3.
+
+The [Osborn geometry investigation](../research/osborn-zoning-investigation/README.md)
+proposes an exact-version shell/hole decoding for TL-F-0025, with unchanged source
+segments. It remains unaccepted; geometry interpretation history and explicit
+recomputation are required before downstream use. The original exclusion remains.

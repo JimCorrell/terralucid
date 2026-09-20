@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-09-20T20:00:12.314025+00:00",
+  "scope": "TL-F-0025: one Osborn polygon representation investigation; no new legal zoning assignment.",
+  "sources": [
+    {
+      "id": "lupc-zoning",
+      "name": "LUPC Osborn zoning geometry and official map",
+      "publisher": "Maine LUPC",
+      "probe_ids": [
+        "layer-metadata",
+        "native-rings",
+        "rings-4326",
+        "geojson-recheck",
+        "osborn-official-map"
+      ],
+      "source_urls": [
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=geojson&outSR=4326",
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf"
+      ],
+      "rights": "Private research archive; bulk redistribution rights not established."
+    },
+    {
+      "id": "esri-geometry-format",
+      "name": "ArcGIS REST geometry representation specification",
+      "publisher": "Esri",
+      "probe_ids": [
+        "esri-ring-specification"
+      ],
+      "source_urls": [
+        "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/"
+      ]
+    }
+  ]
+}

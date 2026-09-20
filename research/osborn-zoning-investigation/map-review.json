@@ -1,0 +1,42 @@
+{
+  "pdf_sha256": "9de0a5f83415be0433e57d62aba24382dfe71a51ea938a56af595b11fc046beb",
+  "page": 1,
+  "review_type": "Manual visual review of full page, local detail and notes; no boundary digitization.",
+  "rendering": "Poppler full-page render; PyMuPDF 1.24.14 detail and notes crops.",
+  "locator": {
+    "purpose": "Approximate visual navigation only, not a boundary transform",
+    "pdf_main_viewport_bbox_bottom_left": [
+      32.649999,
+      201.59999,
+      2048.65,
+      1677.6
+    ],
+    "pdf_main_viewport_gpts_lat_lon": [
+      44.72648,
+      -68.36203,
+      44.83897,
+      -68.36079,
+      44.83756,
+      -68.14485,
+      44.72507,
+      -68.14651
+    ],
+    "approximate_touch_point_page_coordinates_top_left": [
+      674.2672744080259,
+      938.4647419560572
+    ],
+    "detail_crop_points_top_left": [
+      534.2672744080259,
+      838.4647419560572,
+      834.2672744080259,
+      1068.4647419560572
+    ],
+    "method": "Project embedded geographic corner coordinates from NAD83 to EPSG:26919; interpolate native vertex within the main map viewport to select a visual crop. Rounded corner coordinates and map linework cannot certify exact topology."
+  },
+  "observations": [
+    "The local map detail shows a P-WL2-colored wetland corridor and surrounding other subdistricts. It corroborates general mapped context, not the exact vertex contact or the legal boundary.",
+    "The map lists initial adoption 2005-08-03 and effectiveness 2005-08-18; amendments include 2016-04-28, 2021-03-25 and 2024-08-01. The 2024 entry is a clerical FEMA map-reference correction.",
+    "Map notes defer to Chapter 10 descriptions when inconsistent and identify protections omitted from the drawing and dependencies on water locations on the ground."
+  ],
+  "conclusion": "No PDF-traced correction is warranted. The proposed shell/hole representation is supported by native coordinate topology and Esri semantics, not by precise measurements of this map. Legal currency and site-specific application remain UNKNOWN."
+}

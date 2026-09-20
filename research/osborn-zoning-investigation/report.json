@@ -1,0 +1,269 @@
+{
+  "downstream": {
+    "limit": "No new parcel intersection, coverage, legal zoning or buildability result is adopted by this investigation.",
+    "original_exclusion_retained": true,
+    "prior_envelope_candidates": [
+      {
+        "basis": "Original screening envelope candidate only; not a legal zoning assignment",
+        "source_feature_sha256": "c17f305d7f5f91ca17ef302ae78e683b0c0e256332237f3fa72cc3fde1a51a03",
+        "subject_id": "9b1ae8c797c956163c5951a71713f7dbb8518d159a03907d001cd6841e201307"
+      }
+    ],
+    "prior_results_changed": false
+  },
+  "evidence": {
+    "source/esri-ring-specification": {
+      "bytes": 266246,
+      "content_type": "text/html",
+      "final_url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+      "http_status": 200,
+      "id": "esri-ring-specification",
+      "pdf_signature": false,
+      "response_file": "esri-ring-specification.response",
+      "response_path": "runs/source/esri-ring-specification.response",
+      "retrieved_at": "2026-09-20T20:00:12.314025+00:00",
+      "sha256": "9bb444674617e320419aacbcc78f4ac47d2db8c23f5b129f8e5ce819f5d4f1d2",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/"
+    },
+    "source/geojson-recheck": {
+      "bytes": 14684,
+      "content_type": "application/geo+json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=geojson&outSR=4326",
+      "http_status": 200,
+      "id": "geojson-recheck",
+      "pdf_signature": false,
+      "response_file": "geojson-recheck.response",
+      "response_path": "runs/source/geojson-recheck.response",
+      "retrieved_at": "2026-09-20T20:00:10.563237+00:00",
+      "sha256": "d9ee6d11a6d7562af861628053fb98441b9a62b14b1ceabc2b280b508ac879bb",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=geojson&outSR=4326"
+    },
+    "source/layer-metadata": {
+      "bytes": 110668,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+      "http_status": 200,
+      "id": "layer-metadata",
+      "pdf_signature": false,
+      "response_file": "layer-metadata.response",
+      "response_path": "runs/source/layer-metadata.response",
+      "retrieved_at": "2026-09-20T19:59:18.660420+00:00",
+      "sha256": "e431122da6f3b35e17824a8ce0f91b0a020f6adf94138e3ef24a39fbf1f6bc65",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson"
+    },
+    "source/native-rings": {
+      "bytes": 15844,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json",
+      "http_status": 200,
+      "id": "native-rings",
+      "pdf_signature": false,
+      "response_file": "native-rings.response",
+      "response_path": "runs/source/native-rings.response",
+      "retrieved_at": "2026-09-20T19:59:19.211053+00:00",
+      "sha256": "44542c3a1f1cf7314d8081b1720a7c8061416f0502d93d2a1b4088fda3204331",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json"
+    },
+    "source/osborn-official-map": {
+      "bytes": 2721897,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf",
+      "format": "pdf",
+      "http_status": 200,
+      "id": "osborn-official-map",
+      "pdf_signature": true,
+      "response_file": "osborn-official-map.response",
+      "response_path": "runs/source/osborn-official-map.response",
+      "retrieved_at": "2026-09-20T20:00:11.507591+00:00",
+      "sha256": "9de0a5f83415be0433e57d62aba24382dfe71a51ea938a56af595b11fc046beb",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf"
+    },
+    "source/rings-4326": {
+      "bytes": 16195,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326",
+      "http_status": 200,
+      "id": "rings-4326",
+      "pdf_signature": false,
+      "response_file": "rings-4326.response",
+      "response_path": "runs/source/rings-4326.response",
+      "retrieved_at": "2026-09-20T19:59:45.152872+00:00",
+      "sha256": "f08469f1bbfef88e76bdf6916a5d10d9a6ca12da793ed46e71f4546a167da275",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326"
+    }
+  },
+  "evidence_state": "DERIVED",
+  "finding_review": {
+    "finding_id": "TL-F-0025",
+    "next_action": "Review the proposed exact-version shell/hole decoding; if accepted, add geometry interpretation history and recompute affected zoning screening. Retain original exclusion until then.",
+    "note": "Native Esri rings and unchanged GeoJSON reveal one repeated vertex forming a shell and a touching hole. A valid alternate decode preserves every coordinate/segment and agrees with native ring roles. Official map supports regional P-WL2 context but cannot independently certify the point-touch topology or legal boundary. Proposal archived, not accepted; prior results unchanged.",
+    "priority": "high",
+    "status": "in_progress"
+  },
+  "format_interpretation": {
+    "conclusion": "The native single ring has a vertex touch allowed by the documented Esri representation. Its unsplit GeoJSON ring is invalid under the GEOS checks used by this pilot. This is a representation compatibility issue, not proof that the publisher wetland boundary is wrong.",
+    "evidence_ref": "source/esri-ring-specification",
+    "observation": "Esri permits vertex self-touching and prescribes even-odd display filling; native exteriors are clockwise and holes counterclockwise.",
+    "supported_decode": "Split only at the repeated vertex. The two simple loops have opposite winding; the exterior covers the hole and their boundaries share exactly that point. Every input segment and its multiplicity are retained."
+  },
+  "inputs": {
+    "research/osborn-zoning-investigation/candidate.geojson": "95a8e3fe2fc8b4150bbcc8dee8ae1308afd198debfe40091673a8018335aabb2",
+    "research/osborn-zoning-investigation/map-review.json": "955565c4341cae2f87a4dcd6428f973908097c5ed96447361b2db85283ace783",
+    "research/osborn-zoning-investigation/probes.json": "a20ac1fbf072c846c39c60ccd37c9da8decf866114575267c9e9feda76bd52d5",
+    "research/zoning-ingestion/capture/runs/bounded/lupc-zoning-page-1.response": "19b0172f2b5e07c9892f12acb61d327fb93d6b1320b27bde768a334235fc0ed7",
+    "research/zoning-ingestion/capture/runs/bounded/results.json": "5c11079c52e08548f8e7a49c56a4c3aa6610ac9abb5b07daa02bb12894dbdad0",
+    "research/zoning-ingestion/report.json": "4c2fb616dbc8ab23c9fe1d04df8ec16cbafbce24fe30543df32269e5e2f0a63c",
+    "research/zoning-ingestion/runs/documents/osborn-official-map.response": "9de0a5f83415be0433e57d62aba24382dfe71a51ea938a56af595b11fc046beb",
+    "scripts/collect_document_evidence.py": "512463a8e1b2f024b99084f00dd97c6fc853051be480e98335a4d96466c6b1e9",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b"
+  },
+  "map_evidence": {
+    "conclusion": "No PDF-traced correction is warranted. The proposed shell/hole representation is supported by native coordinate topology and Esri semantics, not by precise measurements of this map. Legal currency and site-specific application remain UNKNOWN.",
+    "locator": {
+      "approximate_touch_point_page_coordinates_top_left": [
+        674.2672744080259,
+        938.4647419560572
+      ],
+      "detail_crop_points_top_left": [
+        534.2672744080259,
+        838.4647419560572,
+        834.2672744080259,
+        1068.4647419560572
+      ],
+      "method": "Project embedded geographic corner coordinates from NAD83 to EPSG:26919; interpolate native vertex within the main map viewport to select a visual crop. Rounded corner coordinates and map linework cannot certify exact topology.",
+      "pdf_main_viewport_bbox_bottom_left": [
+        32.649999,
+        201.59999,
+        2048.65,
+        1677.6
+      ],
+      "pdf_main_viewport_gpts_lat_lon": [
+        44.72648,
+        -68.36203,
+        44.83897,
+        -68.36079,
+        44.83756,
+        -68.14485,
+        44.72507,
+        -68.14651
+      ],
+      "purpose": "Approximate visual navigation only, not a boundary transform"
+    },
+    "observations": [
+      "The local map detail shows a P-WL2-colored wetland corridor and surrounding other subdistricts. It corroborates general mapped context, not the exact vertex contact or the legal boundary.",
+      "The map lists initial adoption 2005-08-03 and effectiveness 2005-08-18; amendments include 2016-04-28, 2021-03-25 and 2024-08-01. The 2024 entry is a clerical FEMA map-reference correction.",
+      "Map notes defer to Chapter 10 descriptions when inconsistent and identify protections omitted from the drawing and dependencies on water locations on the ground."
+    ],
+    "page": 1,
+    "pdf_sha256": "9de0a5f83415be0433e57d62aba24382dfe71a51ea938a56af595b11fc046beb",
+    "rendering": "Poppler full-page render; PyMuPDF 1.24.14 detail and notes crops.",
+    "review_type": "Manual visual review of full page, local detail and notes; no boundary digitization.",
+    "unchanged_from_prior_capture": true
+  },
+  "method": "scripts/investigate_osborn_zoning.py",
+  "method_sha256": "f3587380e6b2f7f9c3f9c7dfdf175b6dbee9449a4cbf176d34f1db882cf48bb5",
+  "proposal": {
+    "acceptance_gate": "Review and explicitly accept this exact-version alternate interpretation in a geometry correction layer, then recompute dependent screening as a new result version. No accepted geometry mechanism exists yet.",
+    "candidate_sha256": "95a8e3fe2fc8b4150bbcc8dee8ae1308afd198debfe40091673a8018335aabb2",
+    "candidate_storage_object": "sha256/95a8e3fe2fc8b4150bbcc8dee8ae1308afd198debfe40091673a8018335aabb2.response",
+    "evidence_state": "DERIVED",
+    "geometry_type": "Polygon",
+    "holes": 1,
+    "legal_zoning_state": "UNKNOWN",
+    "original_coordinate_and_segment_preservation": true,
+    "shells": 1,
+    "status": "proposed_not_accepted"
+  },
+  "runtime": {
+    "geos": "3.11.4",
+    "proj": "9.3.0",
+    "pyproj": "3.6.1",
+    "shapely": "2.0.7"
+  },
+  "scope": {
+    "finding_id": "TL-F-0025",
+    "map": "osborn",
+    "object_id": 27232839,
+    "prior_audit_sha256": "4c2fb616dbc8ab23c9fe1d04df8ec16cbafbce24fe30543df32269e5e2f0a63c"
+  },
+  "source_comparison": {
+    "all_attributes_match_across_formats": true,
+    "area_limit": "Agreement with the publisher area is internal consistency, not independent legal-boundary verification.",
+    "export_crs": "EPSG:4326",
+    "export_geos_reason": "Ring Self-intersection[-68.2929065574806 44.7695404569619]",
+    "export_geos_valid": false,
+    "geographic_service_diagnostics": {
+      "all_segments_preserved_with_multiplicity": true,
+      "boundary_contact_type": "Point",
+      "candidate_valid": true,
+      "hole_coordinate_count_including_closure": 27,
+      "hole_counterclockwise": true,
+      "input_coordinate_count_including_closure": 345,
+      "repeated_vertex": [
+        -68.29290655748065,
+        44.76954045696188
+      ],
+      "shell_coordinate_count_including_closure": 319,
+      "shell_counterclockwise": false,
+      "zero_based_indices": [
+        1,
+        27
+      ]
+    },
+    "geojson_diagnostics": {
+      "all_segments_preserved_with_multiplicity": true,
+      "boundary_contact_type": "Point",
+      "candidate_valid": true,
+      "hole_coordinate_count_including_closure": 27,
+      "hole_counterclockwise": false,
+      "input_coordinate_count_including_closure": 345,
+      "repeated_vertex": [
+        -68.29290655748065,
+        44.76954045696188
+      ],
+      "shell_coordinate_count_including_closure": 319,
+      "shell_counterclockwise": true,
+      "zero_based_indices": [
+        317,
+        343
+      ]
+    },
+    "local_projection_operation": "axis order change (2D) + Inverse of NAD83 to WGS 84 (1) + UTM zone 19N",
+    "native_candidate_area_m2": 114022.95444303358,
+    "native_crs": "EPSG:26919",
+    "native_diagnostics": {
+      "all_segments_preserved_with_multiplicity": true,
+      "boundary_contact_type": "Point",
+      "candidate_valid": true,
+      "hole_coordinate_count_including_closure": 27,
+      "hole_counterclockwise": true,
+      "input_coordinate_count_including_closure": 345,
+      "repeated_vertex": [
+        555952.7400000002,
+        4957591.92
+      ],
+      "shell_coordinate_count_including_closure": 319,
+      "shell_counterclockwise": false,
+      "zero_based_indices": [
+        1,
+        27
+      ]
+    },
+    "native_geos_reason": "Ring Self-intersection[555952.74 4957591.92]",
+    "native_hole_area_m2": 1458.4899999962654,
+    "native_shell_area_m2": 115481.44444302985,
+    "native_single_ring_geos_valid": false,
+    "original_feature_sha256": "814115b0ee3e4da18f393a9e163f71ac0072807fe307bb0d522a8684f30d4731",
+    "projected_geojson_candidate_area_m2": 114022.9956055897,
+    "projection_hausdorff_distance_m": 1.0224033590668986,
+    "projection_limit": "About 1.02 m separates the service-native boundary and the locally projected geographic export. The service datum transformation has not been reconciled. The proposal preserves the original EPSG:4326 export exactly; it does not replace it with transformed native coordinates or claim cross-CRS coordinate equivalence.",
+    "publisher_shape_area_m2": 114022.954443,
+    "unchanged_entire_geojson_feature": true
+  }
+}
