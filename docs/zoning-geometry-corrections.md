@@ -67,11 +67,17 @@ who deliberately bypasses them.
 
 The exact EPSG:4326 export's vertex locations and boundary segments are retained;
 the self-touching ring is expressed as an exterior and a touching hole. Acceptance
-keeps the **DERIVED** evidence state. Approximately one metre still separates the
-native service geometry and a local projection of the geographic export. No
-native-coordinate substitution is performed. That unresolved projection issue
-remains with TL-F-0025; authoritative currency and map-omitted protections remain
-with TL-F-0109. Legal zoning and buildability remain UNKNOWN.
+keeps the **DERIVED** evidence state. The later [projection investigation](../research/osborn-projection/README.md)
+reconciles the approximately one-metre difference: the observed service output
+matches inverse ESRI:108190, whereas the local automatic projection used a
+different NAD83/WGS84 operation. TL-F-0025 is resolved for this reviewed version.
+No coordinates, accepted interpretation or screening metrics are changed.
+Historical reports retain their original unresolved-projection caveat; consult
+the later finding review for its disposition. Numerical agreement does not
+establish survey accuracy. Future native-coordinate or precision-sensitive
+analysis must qualify its transformation explicitly. Authoritative currency and
+map-omitted protections remain with TL-F-0109. Legal zoning and buildability
+remain UNKNOWN.
 
 See [the activation report](../research/zoning-geometry-correction/README.md) for
 results, preparation and verification.

@@ -1,0 +1,230 @@
+{
+  "comparisons": {
+    "explicit_108190_roundtrip_vs_native": {
+      "maximum_m": 3.451691323133251e-07,
+      "minimum_m": 3.38525367207133e-07
+    },
+    "explicit_1188_vs_service_default": {
+      "maximum_m": 1.0225082545557733,
+      "minimum_m": 1.022432597039347
+    },
+    "explicit_1515_vs_service_default": {
+      "maximum_m": 0.013525310709204166,
+      "minimum_m": 0.013524029603316246
+    },
+    "inverse_108190_prediction_vs_service": {
+      "maximum_m": 1.9053742347811127e-08,
+      "minimum_m": 1.2971822430551163e-08
+    },
+    "local_default_roundtrip_vs_native": {
+      "maximum_m": 1.0224034858177746,
+      "minimum_m": 1.0223278300618375
+    },
+    "native_inverse_projection_vs_service_nad83": {
+      "maximum_m": 3.4238773327909275e-09,
+      "minimum_m": 0.0
+    }
+  },
+  "conclusion": "The observed service default is numerically equivalent to inverse ESRI:108190 (WGS_1984_(ITRF00)_To_NAD_1983). Local automatic EPSG:1188 uses a different datum operation, explaining the approximately 1.022 m discrepancy. Explicit service 108190 matches every default coordinate; 1188 and 1515 controls do not.",
+  "evidence": {
+    "comparison/default-wgs84": {
+      "bytes": 16195,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326",
+      "http_status": 200,
+      "id": "default-wgs84",
+      "pdf_signature": false,
+      "response_file": "default-wgs84.response",
+      "response_path": "runs/comparison/default-wgs84.response",
+      "retrieved_at": "2026-09-20T20:46:16.878311+00:00",
+      "sha256": "f08469f1bbfef88e76bdf6916a5d10d9a6ca12da793ed46e71f4546a167da275",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326"
+    },
+    "comparison/explicit-108190": {
+      "bytes": 16292,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326&datumTransformation=108190",
+      "http_status": 200,
+      "id": "explicit-108190",
+      "pdf_signature": false,
+      "response_file": "explicit-108190.response",
+      "response_path": "runs/comparison/explicit-108190.response",
+      "retrieved_at": "2026-09-20T20:47:33.945384+00:00",
+      "sha256": "e18b3c857f687c9de8f938f0d9d644ba4a58da5d42d156dc50d4184d085127e1",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326&datumTransformation=108190"
+    },
+    "comparison/explicit-1188": {
+      "bytes": 16282,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326&datumTransformation=1188",
+      "http_status": 200,
+      "id": "explicit-1188",
+      "pdf_signature": false,
+      "response_file": "explicit-1188.response",
+      "response_path": "runs/comparison/explicit-1188.response",
+      "retrieved_at": "2026-09-20T20:46:43.146092+00:00",
+      "sha256": "3e76f15ce03fa3b680d5845f3d9f602fe66fd58f48f18aa292ae0d8c392c29e7",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326&datumTransformation=1188"
+    },
+    "comparison/explicit-1515": {
+      "bytes": 16291,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326&datumTransformation=1515",
+      "http_status": 200,
+      "id": "explicit-1515",
+      "pdf_signature": false,
+      "response_file": "explicit-1515.response",
+      "response_path": "runs/comparison/explicit-1515.response",
+      "retrieved_at": "2026-09-20T20:47:07.926447+00:00",
+      "sha256": "6e3c5d67c577d073d4fd9be83c2f5cd3f68725f758a325af29f7546fca4d623c",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326&datumTransformation=1515"
+    },
+    "comparison/layer-metadata": {
+      "bytes": 110668,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+      "http_status": 200,
+      "id": "layer-metadata",
+      "pdf_signature": false,
+      "response_file": "layer-metadata.response",
+      "response_path": "runs/comparison/layer-metadata.response",
+      "retrieved_at": "2026-09-20T20:45:51.275075+00:00",
+      "sha256": "e431122da6f3b35e17824a8ce0f91b0a020f6adf94138e3ef24a39fbf1f6bc65",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson"
+    },
+    "comparison/layer-metadata-end": {
+      "bytes": 110668,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+      "http_status": 200,
+      "id": "layer-metadata-end",
+      "pdf_signature": false,
+      "response_file": "layer-metadata-end.response",
+      "response_path": "runs/comparison/layer-metadata-end.response",
+      "retrieved_at": "2026-09-20T20:47:37.648993+00:00",
+      "sha256": "e431122da6f3b35e17824a8ce0f91b0a020f6adf94138e3ef24a39fbf1f6bc65",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson"
+    },
+    "comparison/nad83-geographic": {
+      "bytes": 16201,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4269",
+      "http_status": 200,
+      "id": "nad83-geographic",
+      "pdf_signature": false,
+      "response_file": "nad83-geographic.response",
+      "response_path": "runs/comparison/nad83-geographic.response",
+      "retrieved_at": "2026-09-20T20:46:41.700704+00:00",
+      "sha256": "7741b5ecd198e648293aaa3f1eca5990bae25cc56686e580153caa212572d31d",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4269"
+    },
+    "comparison/native": {
+      "bytes": 15844,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+      "http_status": 200,
+      "id": "native",
+      "pdf_signature": false,
+      "response_file": "native.response",
+      "response_path": "runs/comparison/native.response",
+      "retrieved_at": "2026-09-20T20:45:51.716594+00:00",
+      "sha256": "44542c3a1f1cf7314d8081b1720a7c8061416f0502d93d2a1b4088fda3204331",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=26919"
+    },
+    "comparison/query-documentation": {
+      "bytes": 650736,
+      "content_type": "text/html",
+      "final_url": "https://developers.arcgis.com/rest/services-reference/enterprise/query-feature-service-layer/",
+      "http_status": 200,
+      "id": "query-documentation",
+      "pdf_signature": false,
+      "response_file": "query-documentation.response",
+      "response_path": "runs/comparison/query-documentation.response",
+      "retrieved_at": "2026-09-20T20:47:36.491612+00:00",
+      "sha256": "4e8afb262edc081223eda1ca521b58aeeace2827a679a6867a8062ca3d98f948",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://developers.arcgis.com/rest/services-reference/enterprise/query-feature-service-layer/"
+    },
+    "comparison/service-metadata": {
+      "bytes": 5088,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer?f=pjson",
+      "http_status": 200,
+      "id": "service-metadata",
+      "pdf_signature": false,
+      "response_file": "service-metadata.response",
+      "response_path": "runs/comparison/service-metadata.response",
+      "retrieved_at": "2026-09-20T20:45:50.910917+00:00",
+      "sha256": "d26095a067219cfefab7fb4999c8662a6e0b52d910244cbfbdfa4a3c2004c318",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer?f=pjson"
+    },
+    "comparison/transformation-ids": {
+      "bytes": 300662,
+      "content_type": "text/html",
+      "final_url": "https://developers.arcgis.com/enterprise-sdk/api-reference/net/esriSRGeoTransformationType/",
+      "http_status": 200,
+      "id": "transformation-ids",
+      "pdf_signature": false,
+      "response_file": "transformation-ids.response",
+      "response_path": "runs/comparison/transformation-ids.response",
+      "retrieved_at": "2026-09-20T20:47:37.105752+00:00",
+      "sha256": "180fab8d5ea973a890c60e05ba9182ee6d46efb8b578992fe1cd945a2aaa04e6",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://developers.arcgis.com/enterprise-sdk/api-reference/net/esriSRGeoTransformationType/"
+    }
+  },
+  "evidence_state": "DERIVED",
+  "finding_review": {
+    "finding_id": "TL-F-0025",
+    "next_action": "Reopen on changed source or contradictory evidence. Qualify and pin transformations before new native-coordinate or precision-sensitive analysis; retain TL-F-0109 legal-currency review.",
+    "note": "PR12 accepted the segment-preserving ring interpretation. This review reconciles the remaining one-metre discrepancy using all 345 vertices and explicit service transformation controls. Resolution applies to this source version only; accepted geometry and all screening results remain unchanged.",
+    "priority": "medium",
+    "status": "resolved"
+  },
+  "inputs": {
+    "research/osborn-projection/operations.json": "bad87c33288111777a81b9778c4ba529c03902f7166f8a9d67d10a52d357471a",
+    "research/osborn-projection/probes.json": "38ac7630d4c9d136c1ab748556211a03c494aac73ae51012ba8aefb90cd288a7",
+    "research/osborn-zoning-investigation/report.json": "1c37372f5957128a95b3a9d25a7a43286423cbf1ed8831d70bd305b90d933067",
+    "research/osborn-zoning-investigation/runs/source/native-rings.response": "44542c3a1f1cf7314d8081b1720a7c8061416f0502d93d2a1b4088fda3204331",
+    "research/osborn-zoning-investigation/runs/source/rings-4326.response": "f08469f1bbfef88e76bdf6916a5d10d9a6ca12da793ed46e71f4546a167da275",
+    "scripts/collect_document_evidence.py": "512463a8e1b2f024b99084f00dd97c6fc853051be480e98335a4d96466c6b1e9",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b"
+  },
+  "limits": [
+    "Numerical closure is not survey accuracy or independent positional verification.",
+    "Hidden server default configuration is not established; conclusion is based on observed output and explicit controls.",
+    "No geometry, screening, metric, acceptance event or global CRS policy changes. Historical unresolved-projection caveats remain immutable; consult this later review.",
+    "No claim of current legal zoning, title, access or buildability. TL-F-0109 remains separate.",
+    "New versions, precision-sensitive native-coordinate work and other datasets require explicit CRS operation qualification."
+  ],
+  "method": "scripts/investigate_osborn_projection.py",
+  "method_sha256": "b192b90ba0a9b9afab778b55b41cede8a0b145fb0746f6062e1c951389b95c61",
+  "observations": {
+    "attributes_match": true,
+    "default_equals_explicit_108190_every_coordinate": true,
+    "default_operation_declared_in_metadata": false,
+    "local_default_operation": "axis order change (2D) + Inverse of NAD83 to WGS 84 (1) + UTM zone 19N",
+    "metadata_unchanged_during_capture": true,
+    "unchanged_from_PR11": true
+  },
+  "runtime": {
+    "proj": "9.3.0",
+    "proj_database_sha256": "b22eaceefa1abbfaac81b7df416b8b6fd9cfe869e15597f8cadafaf46bcef142",
+    "pyproj": "3.6.1"
+  },
+  "scope": {
+    "coordinate_occurrences": 345,
+    "coverage": "One unchanged Osborn polygon, not statewide or other source versions.",
+    "finding_id": "TL-F-0025",
+    "object_id": 27232839
+  }
+}
