@@ -1,0 +1,28 @@
+{
+  "purpose": "Bounded source ingestion validation: overlap, unmatched assessment and code conflict; not property selection.",
+  "page_size": 25,
+  "max_records_per_source": 2000,
+  "sources": [
+    {
+      "id": "ut-parcels",
+      "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0",
+      "where": "GEOCODE IN ('09230','21110')",
+      "fields": ["OBJECTID","GlobalID","GEOCODE","TOWNNAME","TPL","GPL","PLAN_","LOT","MAPYEAR","EDITDATE"],
+      "geometry": true
+    },
+    {
+      "id": "organized-parcels",
+      "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10",
+      "where": "GEOCODE IN ('09230','21110') OR TOWN = 'Sweden'",
+      "fields": ["OBJECTID","GlobalID","GEOCODE","TOWN","COUNTY","STATE_ID","MAP_BK_LOT","FMUPDAT"],
+      "geometry": true
+    },
+    {
+      "id": "organized-assessment",
+      "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9",
+      "key_source": "organized-parcels",
+      "fields": ["OBJECTID","GlobalID","GEOCODE","STATE_ID","MAP_BK_LOT","YEAR_CREAT","SOURCE"],
+      "geometry": false
+    }
+  ]
+}

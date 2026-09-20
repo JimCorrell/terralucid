@@ -3,3 +3,5 @@ research/maine-sources/runs/**/*.response binary
 research/maine-coverage/runs/**/*.response binary
 # Generated report is reviewed through the narrative and reproducible calculation.
 research/maine-coverage/report.json -diff
+
+research/maine-ingestion/**/runs/**/*.response binary

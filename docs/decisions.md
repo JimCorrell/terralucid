@@ -34,6 +34,19 @@ Use GEOCODES.STATUS for the dated reference classification; civil polygon TYPE i
 not jurisdiction organization. Raw code/name conflicts remain unresolved until
 reviewed. Source presence is not evidence of complete jurisdiction coverage.
 
+## Findings follow-up and bounded ingestion
+
+The user approved adding the findings register with the next ingestion step.
+Implement stable issue IDs, append-only status/priority/next-action events and
+versioned evidence occurrences in private Supabase staging. Repeated loads must
+preserve reviews; later evidence after resolution is flagged for another review.
+Initial priority is operational review triage, not a parcel ranking weight.
+
+Use source/version/OBJECTID row identity with retained GlobalID and raw business
+identifiers in the first bounded load. Preserve zero/one/multiple assessment
+candidates, invalid geometries and unknowns. No candidate is a canonical parcel
+match; no geometry is silently repaired. See [the load report](../research/maine-ingestion/README.md).
+
 ## Open questions
 
 - Actual coverage, freshness, rights, and integration methods for each data source.

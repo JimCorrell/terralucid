@@ -25,6 +25,12 @@ Start with the civil-boundary reference, MRS parcel geometry, organized-town par
 
 ## 2. Design and implement a minimal source-preserving load
 
+The [bounded ingestion step](../research/maine-ingestion/README.md) now preserves
+2,058 source records and candidate assessment links. The [findings register](findings-register.md)
+tracks audit deficiencies and record-level occurrences with stable IDs, next actions
+and review history. This validates the bounded workflow; statewide coverage and
+canonical identity remain separate gates.
+
 Use PostgreSQL/PostGIS on the user-selected Supabase project. The first staging model preserves the existing research audit, exact responses and three geometry samples. It validates storage and traceability while the coverage and identity audit remains open; it does not imply readiness for bulk parcel ingestion.
 
 For each source delivery retain the publisher, source ID, exact URL/query, retrieval time, publisher version/date, response or file checksum, coordinate reference system, terms/caveats and ingestion outcome. Raw snapshots should remain reproducible. Exact research artifacts use a private Supabase Storage bucket. Bulk retention and refresh cadence remain open decisions.

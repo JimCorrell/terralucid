@@ -9,3 +9,8 @@ Classify findings as VERIFIED, DERIVED, INFERRED, or UNKNOWN. Record the support
 Treat legal access, title, boundary uncertainty, septic suitability, and buildability as due-diligence matters. Do not claim that a road, trail, soil map, or zoning overlay alone establishes a legal right or site-specific approval. Resolve critical unknowns before marking a parcel offer-ready.
 
 Keep implementation minimal. Document new decisions in `docs/decisions.md`; label proposals and unresolved questions as such. Do not assume an endpoint, dataset coverage, schema, scoring weight, or regulatory conclusion without verification.
+
+Track source and ingestion deficiencies in the private findings register described
+in `docs/findings-register.md`. Preserve stable finding IDs and evidence links.
+Append reviews through finding events; do not overwrite history or reset status
+when reloading data. New evidence after resolution must remain visible for review.
