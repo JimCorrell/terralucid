@@ -1,0 +1,46 @@
+[
+  {
+    "id": "service-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer?f=pjson"
+  },
+  {
+    "id": "layer-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson"
+  },
+  {
+    "id": "native",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=26919"
+  },
+  {
+    "id": "default-wgs84",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326"
+  },
+  {
+    "id": "nad83-geographic",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4269"
+  },
+  {
+    "id": "explicit-1188",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326&datumTransformation=1188"
+  },
+  {
+    "id": "explicit-1515",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326&datumTransformation=1515"
+  },
+  {
+    "id": "explicit-108190",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326&datumTransformation=108190"
+  },
+  {
+    "id": "query-documentation",
+    "url": "https://developers.arcgis.com/rest/services-reference/enterprise/query-feature-service-layer/"
+  },
+  {
+    "id": "transformation-ids",
+    "url": "https://developers.arcgis.com/enterprise-sdk/api-reference/net/esriSRGeoTransformationType/"
+  },
+  {
+    "id": "layer-metadata-end",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "as_of": "2026-09-20T20:47:37.648993+00:00",
+  "scope": "TL-F-0025: coordinate transformation comparison for one unchanged Osborn polygon.",
+  "sources": [
+    {
+      "id": "lupc-zoning",
+      "publisher": "Maine LUPC",
+      "probe_ids": [
+        "service-metadata",
+        "layer-metadata",
+        "native",
+        "default-wgs84",
+        "nad83-geographic",
+        "explicit-1188",
+        "explicit-1515",
+        "explicit-108190",
+        "layer-metadata-end"
+      ],
+      "source_urls": [
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer?f=pjson",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4269",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326&datumTransformation=1188",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326&datumTransformation=1515",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27232839&outFields=%2A&returnGeometry=true&f=json&outSR=4326&datumTransformation=108190",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson"
+      ],
+      "rights": "Private evidence archive; redistribution rights not established."
+    },
+    {
+      "id": "esri-transformation-docs",
+      "publisher": "Esri",
+      "probe_ids": [
+        "query-documentation",
+        "transformation-ids"
+      ],
+      "source_urls": [
+        "https://developers.arcgis.com/rest/services-reference/enterprise/query-feature-service-layer/",
+        "https://developers.arcgis.com/enterprise-sdk/api-reference/net/esriSRGeoTransformationType/"
+      ],
+      "rights": "Private evidence archive; redistribution rights not established."
+    }
+  ]
+}
