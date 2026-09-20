@@ -1,0 +1,141 @@
+{
+  "scope": "Osborn source qualification and rule dependencies; no parcel-specific regulatory determination.",
+  "review_method": "Manual visual inspection of PDF pages and enlarged map notes; reading of publisher HTML, service metadata and statute. No PDF tracing or rule-generated zoning geometry.",
+  "documents": [
+    {
+      "evidence_ref": "publication/osborn-map",
+      "sha256": "9de0a5f83415be0433e57d62aba24382dfe71a51ea938a56af595b11fc046beb",
+      "pdf_pages": [
+        1
+      ],
+      "observations": [
+        "Signed certification block; initial adoption 2005-08-03 and effectiveness 2005-08-18. Latest printed amendment 2024-08-01 (ZP796) is a clerical FEMA map-adoption text correction.",
+        "Map explicitly omits some P-WL waterbody/stream-associated wetlands and P-SL2 along streams through wetlands; water-based boundaries depend on ground locations.",
+        "Flood note adopts Hancock County FIS dated 2016-07-20 and accompanying FIRM by reference; special flood hazard areas apply as P-FP even when absent from this drawing."
+      ],
+      "verification_scope": "VERIFIED publication contents, not current legal status or parcel applicability."
+    },
+    {
+      "evidence_ref": "publication/chapter-10",
+      "sha256": "167196d1e19ddc9c02e8b7f2b0921049ce5609cdbee2eecef38f1d93365ef274",
+      "pdf_pages": [
+        1,
+        14,
+        15,
+        133,
+        170,
+        178,
+        179
+      ],
+      "printed_pages": [
+        "cover",
+        "6",
+        "7",
+        "125",
+        "162",
+        "170",
+        "171"
+      ],
+      "sections": [
+        "10.04",
+        "10.05",
+        "10.23,C,2",
+        "10.23,L,2",
+        "10.23,N,2"
+      ],
+      "observations": [
+        "Cover and publisher index identify latest revision 2026-04-06. Section 10.04 identifies official maps and amendments as zoning records; 10.05 directs uncertain boundaries to statute and Commission interpretation.",
+        "10.23,C,2 incorporates FEMA flood areas and says FEMA boundaries also apply where Commission-mapped boundaries differ.",
+        "10.23,L,2 describes P-SL1/P-SL2 using horizontal distance from relevant watermarks/wetland edges and waterbody characteristics. A generic stream-centerline buffer is insufficient.",
+        "10.23,N,2 includes waterbodies and qualifying wetlands; Commission evaluation uses NWI and, when required, site delineation. Small mapped inclusions and development-subdistrict exceptions prevent treating an inventory as a complete legal classification."
+      ],
+      "verification_scope": "VERIFIED contents of selected published sections; no complete rule/amendment or permitting review."
+    }
+  ],
+  "publication_observations": [
+    {
+      "evidence_ref": "publication/publication",
+      "evidence_state": "VERIFIED",
+      "observation": "Publisher warns that digital data can lag official maps and directs map comparison. The displayed town Update Date is populated from last_edited_date_text, not EFFECTIVE_DATE. No verified legal-current query predicate is supplied here."
+    },
+    {
+      "evidence_ref": "comparison/boundary-statute",
+      "evidence_state": "VERIFIED",
+      "locator": "12 M.R.S. 685-A(2), especially D and G",
+      "observation": "Statute addresses water-based boundaries and assigns ground/map discrepancies or other uncertainty to Commission interpretation."
+    },
+    {
+      "evidence_ref": "publication/published-zones-metadata",
+      "evidence_state": "VERIFIED",
+      "observation": "PUBLISH and DRAW domains enumerate Yes/No; captured metadata supplies no legal-current interpretation of these values or END_DATE."
+    },
+    {
+      "evidence_ref": "publication/download-service",
+      "evidence_state": "VERIFIED",
+      "observation": "Publisher-linked hosted download endpoint returned HTTP 200 with application error 499 Token Required. This is failed public data access, not an empty zoning dataset. No bypass attempted."
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "current_map_and_amendments",
+      "state": "UNKNOWN",
+      "evidence_refs": [
+        "publication/osborn-map",
+        "publication/map-record",
+        "publication/publication",
+        "publication/chapter-10"
+      ],
+      "required_evidence": "LUPC confirmation of current official Osborn map and all effective amendments, plus documented meaning of GIS flags/dates and current selection rule.",
+      "downstream_rule": "Keep legal currency UNKNOWN; retain every captured feature and all dates. Do not substitute service update time for legal effective date."
+    },
+    {
+      "id": "fema_adoption_and_revisions",
+      "state": "UNKNOWN",
+      "evidence_refs": [
+        "publication/osborn-map",
+        "publication/chapter-10"
+      ],
+      "required_evidence": "Authoritative Hancock County FIS/FIRM panels covering Osborn, applicable amendments/revisions and reconciliation to LUPC adoption.",
+      "downstream_rule": "No P-FP polygon or no intersection does not establish absence of flood protections. Qualify FEMA evidence before computing an additional screening overlay."
+    },
+    {
+      "id": "wetlands_and_waterbodies",
+      "state": "UNKNOWN",
+      "evidence_refs": [
+        "publication/osborn-map",
+        "publication/chapter-10"
+      ],
+      "required_evidence": "Qualified wetland/hydrography inputs with scale, vintage and coverage; site delineation or Commission interpretation where needed.",
+      "downstream_rule": "Retain omitted-protection unknowns; NWI absence does not clear wetlands, and an inventory is not a legal P-WL assignment."
+    },
+    {
+      "id": "shoreland_and_ground_boundary",
+      "state": "UNKNOWN",
+      "evidence_refs": [
+        "publication/osborn-map",
+        "publication/chapter-10",
+        "comparison/boundary-statute"
+      ],
+      "required_evidence": "Relevant watermarks, wetland edges, drainage and waterbody attributes, boundary confidence and Commission interpretation where uncertain.",
+      "downstream_rule": "Do not create authoritative buffers from approximate centerlines or treat mapped coverage as regulatory completeness."
+    },
+    {
+      "id": "redistribution_and_download",
+      "state": "UNKNOWN",
+      "evidence_refs": [
+        "publication/publication",
+        "publication/download-service",
+        "publication/published-zones-metadata"
+      ],
+      "required_evidence": "Publisher clarification of accessible download route and redistribution terms.",
+      "downstream_rule": "Keep exact third-party responses private; free availability alone does not establish a redistribution license."
+    }
+  ],
+  "finding_review": {
+    "finding_id": "TL-F-0109",
+    "status": "in_progress",
+    "priority": "medium",
+    "next_action": "Obtain LUPC confirmation of current Osborn map/amendments and GIS flag/date semantics; qualify adopted FEMA panels/revisions, then wetlands/hydrography evidence. Resolve site boundary dependencies before legal zoning use.",
+    "note": "Documented publication/date semantics and rule-based omissions with exact sources. Published and offline Osborn attributes reconcile by GlobalID, but legal-current selection, full amendment history, omitted-protection extent and redistribution rights remain UNKNOWN. No geometry or screening changes; do not close this finding."
+  }
+}

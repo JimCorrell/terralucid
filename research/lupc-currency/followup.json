@@ -1,0 +1,22 @@
+[
+  {
+    "id": "boundary-statute",
+    "url": "https://www.legislature.maine.gov/statutes/12/title12sec685-A.html"
+  },
+  {
+    "id": "published-ids",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/4/query?where=MAP%3D%27osborn%27&returnIdsOnly=true&f=json"
+  },
+  {
+    "id": "published-attributes",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/4/query?where=MAP%3D%27osborn%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultRecordCount=2000&f=json"
+  },
+  {
+    "id": "offline-ids",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?where=MAP%3D%27osborn%27&returnIdsOnly=true&f=json"
+  },
+  {
+    "id": "offline-attributes",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?where=MAP%3D%27osborn%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultRecordCount=2000&f=json"
+  }
+]

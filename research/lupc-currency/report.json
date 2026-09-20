@@ -1,0 +1,642 @@
+{
+  "attribute_comparison": {
+    "common_fields_compared": [
+      "COMMENT",
+      "DRAW",
+      "END_DATE",
+      "GlobalID",
+      "IDENTIFIER",
+      "MAP",
+      "PANEL",
+      "PUBLISH",
+      "START_DATE",
+      "TRACKING_NUMBER",
+      "ZONE",
+      "created_date",
+      "created_user",
+      "last_edited_date",
+      "last_edited_user"
+    ],
+    "date_histograms": {
+      "START_DATE": [
+        {
+          "count": 347,
+          "raw_milliseconds": 1124337600000,
+          "utc": "2005-08-18T04:00:00+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 1470283200000,
+          "utc": "2016-08-04T04:00:00+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 1616644800000,
+          "utc": "2021-03-25T04:00:00+00:00"
+        },
+        {
+          "count": 17,
+          "raw_milliseconds": 274593600000,
+          "utc": "1978-09-14T04:00:00+00:00"
+        },
+        {
+          "count": 15,
+          "raw_milliseconds": 381128400000,
+          "utc": "1982-01-29T05:00:00+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 463464000000,
+          "utc": "1984-09-08T04:00:00+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 686548800000,
+          "utc": "1991-10-04T04:00:00+00:00"
+        }
+      ],
+      "last_edited_date": [
+        {
+          "count": 7,
+          "raw_milliseconds": 1536355343000,
+          "utc": "2018-09-07T21:22:23+00:00"
+        },
+        {
+          "count": 37,
+          "raw_milliseconds": 1536355344000,
+          "utc": "2018-09-07T21:22:24+00:00"
+        },
+        {
+          "count": 141,
+          "raw_milliseconds": 1536355345000,
+          "utc": "2018-09-07T21:22:25+00:00"
+        },
+        {
+          "count": 80,
+          "raw_milliseconds": 1536355346000,
+          "utc": "2018-09-07T21:22:26+00:00"
+        },
+        {
+          "count": 58,
+          "raw_milliseconds": 1536355347000,
+          "utc": "2018-09-07T21:22:27+00:00"
+        },
+        {
+          "count": 8,
+          "raw_milliseconds": 1536355348000,
+          "utc": "2018-09-07T21:22:28+00:00"
+        },
+        {
+          "count": 14,
+          "raw_milliseconds": 1536355349000,
+          "utc": "2018-09-07T21:22:29+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 1536355350000,
+          "utc": "2018-09-07T21:22:30+00:00"
+        },
+        {
+          "count": 2,
+          "raw_milliseconds": 1536355461000,
+          "utc": "2018-09-07T21:24:21+00:00"
+        },
+        {
+          "count": 3,
+          "raw_milliseconds": 1536355463000,
+          "utc": "2018-09-07T21:24:23+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 1536355464000,
+          "utc": "2018-09-07T21:24:24+00:00"
+        },
+        {
+          "count": 5,
+          "raw_milliseconds": 1536355465000,
+          "utc": "2018-09-07T21:24:25+00:00"
+        },
+        {
+          "count": 8,
+          "raw_milliseconds": 1536355466000,
+          "utc": "2018-09-07T21:24:26+00:00"
+        },
+        {
+          "count": 3,
+          "raw_milliseconds": 1536355467000,
+          "utc": "2018-09-07T21:24:27+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 1536355468000,
+          "utc": "2018-09-07T21:24:28+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 1536355469000,
+          "utc": "2018-09-07T21:24:29+00:00"
+        },
+        {
+          "count": 5,
+          "raw_milliseconds": 1536355489000,
+          "utc": "2018-09-07T21:24:49+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 1604598953000,
+          "utc": "2020-11-05T17:55:53+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 1604598967000,
+          "utc": "2020-11-05T17:56:07+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 1604598985000,
+          "utc": "2020-11-05T17:56:25+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 1610648811000,
+          "utc": "2021-01-14T18:26:51+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 1619653416000,
+          "utc": "2021-04-28T23:43:36+00:00"
+        },
+        {
+          "count": 1,
+          "raw_milliseconds": 1726593980000,
+          "utc": "2024-09-17T17:26:20+00:00"
+        },
+        {
+          "count": 2,
+          "raw_milliseconds": 1726594054000,
+          "utc": "2024-09-17T17:27:34+00:00"
+        }
+      ]
+    },
+    "different_OBJECTID_count": 383,
+    "flags": {
+      "DRAW": {
+        "Yes": 383
+      },
+      "END_DATE": {
+        "None": 383
+      },
+      "PUBLISH": {
+        "Yes": 383
+      }
+    },
+    "geometry_comparison": "Not performed: queries intentionally omit geometry; identity/attribute reconciliation does not establish geometric equality or legal currency.",
+    "matching_common_attributes": true,
+    "membership_reconciled_against_ids": true,
+    "noncomparable_fields": {
+      "offline_only": [
+        "Shape__Area",
+        "Shape__Length"
+      ],
+      "published_only": [
+        "Shape.STArea()",
+        "Shape.STLength()"
+      ]
+    },
+    "offline_attributes_identical_to_ingested_snapshot": true,
+    "records_each_service": 383,
+    "unique_GlobalID_sets_equal": true
+  },
+  "document_review": {
+    "dependencies": [
+      {
+        "downstream_rule": "Keep legal currency UNKNOWN; retain every captured feature and all dates. Do not substitute service update time for legal effective date.",
+        "evidence_refs": [
+          "publication/osborn-map",
+          "publication/map-record",
+          "publication/publication",
+          "publication/chapter-10"
+        ],
+        "id": "current_map_and_amendments",
+        "required_evidence": "LUPC confirmation of current official Osborn map and all effective amendments, plus documented meaning of GIS flags/dates and current selection rule.",
+        "state": "UNKNOWN"
+      },
+      {
+        "downstream_rule": "No P-FP polygon or no intersection does not establish absence of flood protections. Qualify FEMA evidence before computing an additional screening overlay.",
+        "evidence_refs": [
+          "publication/osborn-map",
+          "publication/chapter-10"
+        ],
+        "id": "fema_adoption_and_revisions",
+        "required_evidence": "Authoritative Hancock County FIS/FIRM panels covering Osborn, applicable amendments/revisions and reconciliation to LUPC adoption.",
+        "state": "UNKNOWN"
+      },
+      {
+        "downstream_rule": "Retain omitted-protection unknowns; NWI absence does not clear wetlands, and an inventory is not a legal P-WL assignment.",
+        "evidence_refs": [
+          "publication/osborn-map",
+          "publication/chapter-10"
+        ],
+        "id": "wetlands_and_waterbodies",
+        "required_evidence": "Qualified wetland/hydrography inputs with scale, vintage and coverage; site delineation or Commission interpretation where needed.",
+        "state": "UNKNOWN"
+      },
+      {
+        "downstream_rule": "Do not create authoritative buffers from approximate centerlines or treat mapped coverage as regulatory completeness.",
+        "evidence_refs": [
+          "publication/osborn-map",
+          "publication/chapter-10",
+          "comparison/boundary-statute"
+        ],
+        "id": "shoreland_and_ground_boundary",
+        "required_evidence": "Relevant watermarks, wetland edges, drainage and waterbody attributes, boundary confidence and Commission interpretation where uncertain.",
+        "state": "UNKNOWN"
+      },
+      {
+        "downstream_rule": "Keep exact third-party responses private; free availability alone does not establish a redistribution license.",
+        "evidence_refs": [
+          "publication/publication",
+          "publication/download-service",
+          "publication/published-zones-metadata"
+        ],
+        "id": "redistribution_and_download",
+        "required_evidence": "Publisher clarification of accessible download route and redistribution terms.",
+        "state": "UNKNOWN"
+      }
+    ],
+    "documents": [
+      {
+        "evidence_ref": "publication/osborn-map",
+        "observations": [
+          "Signed certification block; initial adoption 2005-08-03 and effectiveness 2005-08-18. Latest printed amendment 2024-08-01 (ZP796) is a clerical FEMA map-adoption text correction.",
+          "Map explicitly omits some P-WL waterbody/stream-associated wetlands and P-SL2 along streams through wetlands; water-based boundaries depend on ground locations.",
+          "Flood note adopts Hancock County FIS dated 2016-07-20 and accompanying FIRM by reference; special flood hazard areas apply as P-FP even when absent from this drawing."
+        ],
+        "pdf_pages": [
+          1
+        ],
+        "sha256": "9de0a5f83415be0433e57d62aba24382dfe71a51ea938a56af595b11fc046beb",
+        "verification_scope": "VERIFIED publication contents, not current legal status or parcel applicability."
+      },
+      {
+        "evidence_ref": "publication/chapter-10",
+        "observations": [
+          "Cover and publisher index identify latest revision 2026-04-06. Section 10.04 identifies official maps and amendments as zoning records; 10.05 directs uncertain boundaries to statute and Commission interpretation.",
+          "10.23,C,2 incorporates FEMA flood areas and says FEMA boundaries also apply where Commission-mapped boundaries differ.",
+          "10.23,L,2 describes P-SL1/P-SL2 using horizontal distance from relevant watermarks/wetland edges and waterbody characteristics. A generic stream-centerline buffer is insufficient.",
+          "10.23,N,2 includes waterbodies and qualifying wetlands; Commission evaluation uses NWI and, when required, site delineation. Small mapped inclusions and development-subdistrict exceptions prevent treating an inventory as a complete legal classification."
+        ],
+        "pdf_pages": [
+          1,
+          14,
+          15,
+          133,
+          170,
+          178,
+          179
+        ],
+        "printed_pages": [
+          "cover",
+          "6",
+          "7",
+          "125",
+          "162",
+          "170",
+          "171"
+        ],
+        "sections": [
+          "10.04",
+          "10.05",
+          "10.23,C,2",
+          "10.23,L,2",
+          "10.23,N,2"
+        ],
+        "sha256": "167196d1e19ddc9c02e8b7f2b0921049ce5609cdbee2eecef38f1d93365ef274",
+        "verification_scope": "VERIFIED contents of selected published sections; no complete rule/amendment or permitting review."
+      }
+    ],
+    "finding_review": {
+      "finding_id": "TL-F-0109",
+      "next_action": "Obtain LUPC confirmation of current Osborn map/amendments and GIS flag/date semantics; qualify adopted FEMA panels/revisions, then wetlands/hydrography evidence. Resolve site boundary dependencies before legal zoning use.",
+      "note": "Documented publication/date semantics and rule-based omissions with exact sources. Published and offline Osborn attributes reconcile by GlobalID, but legal-current selection, full amendment history, omitted-protection extent and redistribution rights remain UNKNOWN. No geometry or screening changes; do not close this finding.",
+      "priority": "medium",
+      "status": "in_progress"
+    },
+    "publication_observations": [
+      {
+        "evidence_ref": "publication/publication",
+        "evidence_state": "VERIFIED",
+        "observation": "Publisher warns that digital data can lag official maps and directs map comparison. The displayed town Update Date is populated from last_edited_date_text, not EFFECTIVE_DATE. No verified legal-current query predicate is supplied here."
+      },
+      {
+        "evidence_ref": "comparison/boundary-statute",
+        "evidence_state": "VERIFIED",
+        "locator": "12 M.R.S. 685-A(2), especially D and G",
+        "observation": "Statute addresses water-based boundaries and assigns ground/map discrepancies or other uncertainty to Commission interpretation."
+      },
+      {
+        "evidence_ref": "publication/published-zones-metadata",
+        "evidence_state": "VERIFIED",
+        "observation": "PUBLISH and DRAW domains enumerate Yes/No; captured metadata supplies no legal-current interpretation of these values or END_DATE."
+      },
+      {
+        "evidence_ref": "publication/download-service",
+        "evidence_state": "VERIFIED",
+        "observation": "Publisher-linked hosted download endpoint returned HTTP 200 with application error 499 Token Required. This is failed public data access, not an empty zoning dataset. No bypass attempted."
+      }
+    ],
+    "review_method": "Manual visual inspection of PDF pages and enlarged map notes; reading of publisher HTML, service metadata and statute. No PDF tracing or rule-generated zoning geometry.",
+    "scope": "Osborn source qualification and rule dependencies; no parcel-specific regulatory determination."
+  },
+  "download_access": {
+    "application_error": {
+      "code": 499,
+      "details": [
+        "Token Required"
+      ],
+      "message": "Token Required",
+      "messageCode": "GWM_0003"
+    },
+    "http_status": 200
+  },
+  "evidence": {
+    "comparison/boundary-statute": {
+      "bytes": 54562,
+      "content_type": "text/html",
+      "final_url": "https://www.legislature.maine.gov/statutes/12/title12sec685-A.html",
+      "http_status": 200,
+      "id": "boundary-statute",
+      "pdf_signature": false,
+      "response_file": "boundary-statute.response",
+      "response_path": "runs/comparison/boundary-statute.response",
+      "retrieved_at": "2026-09-20T21:03:34.358467+00:00",
+      "sha256": "b3a0e1463e75326c991d4fe8014316b2129b07bbfd75329ecc367a2875fd0aa1",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.legislature.maine.gov/statutes/12/title12sec685-A.html"
+    },
+    "comparison/offline-attributes": {
+      "bytes": 194526,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?where=MAP%3D%27osborn%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultRecordCount=2000&f=json",
+      "http_status": 200,
+      "id": "offline-attributes",
+      "pdf_signature": false,
+      "response_file": "offline-attributes.response",
+      "response_path": "runs/comparison/offline-attributes.response",
+      "retrieved_at": "2026-09-20T21:04:02.834448+00:00",
+      "sha256": "8f26561079958cd03d474da1fd5ce85cffd50c4be84ea19bb4d1a6b500fc91da",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?where=MAP%3D%27osborn%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultRecordCount=2000&f=json"
+    },
+    "comparison/offline-ids": {
+      "bytes": 3493,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?where=MAP%3D%27osborn%27&returnIdsOnly=true&f=json",
+      "http_status": 200,
+      "id": "offline-ids",
+      "pdf_signature": false,
+      "response_file": "offline-ids.response",
+      "response_path": "runs/comparison/offline-ids.response",
+      "retrieved_at": "2026-09-20T21:03:37.376013+00:00",
+      "sha256": "90ac420c2896609621d187c915e2cb614befbb1c2d95bedef37065e56ab41dd6",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?where=MAP%3D%27osborn%27&returnIdsOnly=true&f=json"
+    },
+    "comparison/published-attributes": {
+      "bytes": 196053,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/4/query?where=MAP%3D%27osborn%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultRecordCount=2000&f=json",
+      "http_status": 200,
+      "id": "published-attributes",
+      "pdf_signature": false,
+      "response_file": "published-attributes.response",
+      "response_path": "runs/comparison/published-attributes.response",
+      "retrieved_at": "2026-09-20T21:03:36.077345+00:00",
+      "sha256": "b0961c86aaafa6da529e5d4e18239d8b496916d62e5f0cd1da86f7ec4f8da51c",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/4/query?where=MAP%3D%27osborn%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultRecordCount=2000&f=json"
+    },
+    "comparison/published-ids": {
+      "bytes": 2375,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/4/query?where=MAP%3D%27osborn%27&returnIdsOnly=true&f=json",
+      "http_status": 200,
+      "id": "published-ids",
+      "pdf_signature": false,
+      "response_file": "published-ids.response",
+      "response_path": "runs/comparison/published-ids.response",
+      "retrieved_at": "2026-09-20T21:03:34.882169+00:00",
+      "sha256": "cfbbf22e3a98a300ece25170de7aa7f23c8cf4db805c9d6379dd085455ee720d",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/4/query?where=MAP%3D%27osborn%27&returnIdsOnly=true&f=json"
+    },
+    "publication/chapter-10": {
+      "bytes": 5086756,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/laws_rules/rule_chapters/Ch10_ver2026-04-06.pdf",
+      "http_status": 200,
+      "id": "chapter-10",
+      "pdf_signature": true,
+      "response_file": "chapter-10.response",
+      "response_path": "runs/publication/chapter-10.response",
+      "retrieved_at": "2026-09-20T21:01:58.177118+00:00",
+      "sha256": "167196d1e19ddc9c02e8b7f2b0921049ce5609cdbee2eecef38f1d93365ef274",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/laws_rules/rule_chapters/Ch10_ver2026-04-06.pdf"
+    },
+    "publication/download-service": {
+      "bytes": 170,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/LUPC_Zoning/FeatureServer?f=pjson",
+      "http_status": 200,
+      "id": "download-service",
+      "pdf_signature": false,
+      "response_file": "download-service.response",
+      "response_path": "runs/publication/download-service.response",
+      "retrieved_at": "2026-09-20T21:02:04.164969+00:00",
+      "sha256": "06e467aec7ba27d5107a5e00d79c4b11221d46836625a2b30a62c8dea0e63623",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/LUPC_Zoning/FeatureServer?f=pjson"
+    },
+    "publication/map-metadata": {
+      "bytes": 13104,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0?f=pjson",
+      "http_status": 200,
+      "id": "map-metadata",
+      "pdf_signature": false,
+      "response_file": "map-metadata.response",
+      "response_path": "runs/publication/map-metadata.response",
+      "retrieved_at": "2026-09-20T21:01:59.858878+00:00",
+      "sha256": "cd8098c8c9c046c02ba926492a7e7f120ad2b77c0159c7ed7cf6fd524390bef5",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0?f=pjson"
+    },
+    "publication/map-record": {
+      "bytes": 4855,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=TOWNNAME%3D%27Osborn%27&outFields=%2A&returnGeometry=false&f=json",
+      "http_status": 200,
+      "id": "map-record",
+      "pdf_signature": false,
+      "response_file": "map-record.response",
+      "response_path": "runs/publication/map-record.response",
+      "retrieved_at": "2026-09-20T21:02:00.187451+00:00",
+      "sha256": "1c9569342a18165ccd0822135456f06d880a19d5a83ca55de89fed158d62a67f",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=TOWNNAME%3D%27Osborn%27&outFields=%2A&returnGeometry=false&f=json"
+    },
+    "publication/osborn-map": {
+      "bytes": 2721897,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf",
+      "http_status": 200,
+      "id": "osborn-map",
+      "pdf_signature": true,
+      "response_file": "osborn-map.response",
+      "response_path": "runs/publication/osborn-map.response",
+      "retrieved_at": "2026-09-20T21:01:59.110699+00:00",
+      "sha256": "9de0a5f83415be0433e57d62aba24382dfe71a51ea938a56af595b11fc046beb",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf"
+    },
+    "publication/publication": {
+      "bytes": 25238,
+      "content_type": "text/html",
+      "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html",
+      "http_status": 200,
+      "id": "publication",
+      "pdf_signature": false,
+      "response_file": "publication.response",
+      "response_path": "runs/publication/publication.response",
+      "retrieved_at": "2026-09-20T21:01:57.527633+00:00",
+      "sha256": "c17e6397d6ff2447cf3cde92dc19cbcd9e6b40deed94a4095423766f9b3a85cc",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html"
+    },
+    "publication/published-zones-metadata": {
+      "bytes": 81411,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/4?f=pjson",
+      "http_status": 200,
+      "id": "published-zones-metadata",
+      "pdf_signature": false,
+      "response_file": "published-zones-metadata.response",
+      "response_path": "runs/publication/published-zones-metadata.response",
+      "retrieved_at": "2026-09-20T21:02:03.820577+00:00",
+      "sha256": "6910bb22c9942feaab49359548f25b488401d73a462ea14a9a16e22da763c0ea",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/4?f=pjson"
+    },
+    "publication/rules-index": {
+      "bytes": 20159,
+      "content_type": "text/html",
+      "final_url": "https://www.maine.gov/dacf/lupc/laws_rules/ch10.html",
+      "http_status": 200,
+      "id": "rules-index",
+      "pdf_signature": false,
+      "response_file": "rules-index.response",
+      "response_path": "runs/publication/rules-index.response",
+      "retrieved_at": "2026-09-20T21:01:57.942135+00:00",
+      "sha256": "2ffa765a52742487a028f6620df211e0ebee8935931dcab7aa1bfaf87dba90ef",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/laws_rules/ch10.html"
+    },
+    "publication/update-metadata": {
+      "bytes": 2398,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/7?f=pjson",
+      "http_status": 200,
+      "id": "update-metadata",
+      "pdf_signature": false,
+      "response_file": "update-metadata.response",
+      "response_path": "runs/publication/update-metadata.response",
+      "retrieved_at": "2026-09-20T21:02:01.464757+00:00",
+      "sha256": "98760280e6bab8f34dd0d234a0703a5967b0eb26d8516e02e892fbb4415f62fb",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/7?f=pjson"
+    },
+    "publication/update-records": {
+      "bytes": 629,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/7/query?where=1%3D1&outFields=%2A&returnGeometry=false&f=json",
+      "http_status": 200,
+      "id": "update-records",
+      "pdf_signature": false,
+      "response_file": "update-records.response",
+      "response_path": "runs/publication/update-records.response",
+      "retrieved_at": "2026-09-20T21:02:01.811226+00:00",
+      "sha256": "14fde3039288548838961bd96842b01ba661e993a301344933f4bcb03ec398d7",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/7/query?where=1%3D1&outFields=%2A&returnGeometry=false&f=json"
+    }
+  },
+  "evidence_state": "DERIVED",
+  "finding_review": {
+    "finding_id": "TL-F-0109",
+    "next_action": "Obtain LUPC confirmation of current Osborn map/amendments and GIS flag/date semantics; qualify adopted FEMA panels/revisions, then wetlands/hydrography evidence. Resolve site boundary dependencies before legal zoning use.",
+    "note": "Documented publication/date semantics and rule-based omissions with exact sources. Published and offline Osborn attributes reconcile by GlobalID, but legal-current selection, full amendment history, omitted-protection extent and redistribution rights remain UNKNOWN. No geometry or screening changes; do not close this finding.",
+    "priority": "medium",
+    "status": "in_progress"
+  },
+  "inputs": {
+    "research/lupc-currency/followup.json": "1742c7e6d78bfec589e123c9276266e7e9736c753aae2a68ee1f1391b33b87da",
+    "research/lupc-currency/probes.json": "a122c499da87652c0d8dcc1e4dd65471f8c38a10ce98beb214864bb7d12388fc",
+    "research/lupc-currency/review.json": "f064239f3d7643d6a597ada4a842880c02b8215eb6474022bebb53538fcb6025",
+    "research/zoning-ingestion/capture/runs/bounded/lupc-zoning-page-0.response": "0fd5bc9da7918a195f2e5fdf57cd812db86e686192b9ea4d20d8103428786cbc",
+    "research/zoning-ingestion/capture/runs/bounded/lupc-zoning-page-1.response": "19b0172f2b5e07c9892f12acb61d327fb93d6b1320b27bde768a334235fc0ed7",
+    "research/zoning-ingestion/capture/runs/bounded/lupc-zoning-page-2.response": "f464ebc7b50930354af032688bf6ed5f4851ec17db781a3454a92ee166ffadbf",
+    "research/zoning-ingestion/capture/runs/bounded/lupc-zoning-page-3.response": "e114a7c55941008e43b0057257032fd08de5c7a628ab166668a174f35568c60f",
+    "research/zoning-ingestion/capture/runs/bounded/lupc-zoning-page-4.response": "fd8f830fca9908ae1bc8ae5ce6986aeaf9fd71b7e1f77cb35f88f369cebe3c52",
+    "research/zoning-ingestion/capture/runs/bounded/lupc-zoning-page-5.response": "e40899c75be796865cff5717b4a62b05e9b02c52d4e12aa85d6b5cfb820842a8",
+    "research/zoning-ingestion/capture/runs/bounded/lupc-zoning-page-6.response": "fb731e365e507046b819ca183d15fafe71e3965104c9469a2119c5f104693601",
+    "research/zoning-ingestion/capture/runs/bounded/lupc-zoning-page-7.response": "ebe9a8945b69560a4e0dd3cbcf8b908038841f08b534ef88c4e6a4e15b886cdc",
+    "research/zoning-ingestion/capture/runs/bounded/results.json": "5c11079c52e08548f8e7a49c56a4c3aa6610ac9abb5b07daa02bb12894dbdad0",
+    "research/zoning-ingestion/report.json": "4c2fb616dbc8ab23c9fe1d04df8ec16cbafbce24fe30543df32269e5e2f0a63c",
+    "scripts/collect_document_evidence.py": "512463a8e1b2f024b99084f00dd97c6fc853051be480e98335a4d96466c6b1e9",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b"
+  },
+  "method": "scripts/investigate_lupc_currency.py",
+  "method_sha256": "f767564e18b286579abdf7ced2703d5828d04957ad8d3a2043cfeae8fe66825f",
+  "publication_dates": {
+    "displayed_update_date": "8/1/2024",
+    "interpretation": "Initial effective/amend fields, per-map display/edit time, service-wide update label, rule edition and FEMA adoption date are different clocks. None certifies all current legal amendments or a parcel zone.",
+    "map_dates": {
+      "ADOPT_DATE": {
+        "raw_milliseconds": 1123041600000,
+        "utc": "2005-08-03T04:00:00+00:00"
+      },
+      "AMEND_DATE": {
+        "raw_milliseconds": 1124337600000,
+        "utc": "2005-08-18T04:00:00+00:00"
+      },
+      "EFFECTIVE_DATE": {
+        "raw_milliseconds": 1124337600000,
+        "utc": "2005-08-18T04:00:00+00:00"
+      },
+      "FEMA_Effective_Date": {
+        "raw_milliseconds": 1468987200000,
+        "utc": "2016-07-20T04:00:00+00:00"
+      },
+      "last_edited_date": {
+        "raw_milliseconds": 1722624887000,
+        "utc": "2024-08-02T18:54:47+00:00"
+      }
+    },
+    "map_unchanged_from_ingestion": true,
+    "rule_revision_date": "2026-04-06",
+    "service_update_label": {
+      "DATA_LAYER": "Zones",
+      "UPDATE_DATE": "2026-09-15",
+      "UPDATE_TEXT": "Last updated on September 15, 2026"
+    }
+  },
+  "qualification": {
+    "complete_regulatory_coverage": "UNKNOWN",
+    "geometry_or_screening_changes": false,
+    "legal_current_selection": "UNKNOWN",
+    "redistribution_permission": "UNKNOWN",
+    "screening_only": true
+  },
+  "scope": "Osborn source qualification and rule dependencies; no parcel-specific regulatory determination."
+}

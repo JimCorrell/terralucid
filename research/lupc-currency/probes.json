@@ -1,0 +1,42 @@
+[
+  {
+    "id": "publication",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html"
+  },
+  {
+    "id": "rules-index",
+    "url": "https://www.maine.gov/dacf/lupc/laws_rules/ch10.html"
+  },
+  {
+    "id": "chapter-10",
+    "url": "https://www.maine.gov/dacf/lupc/laws_rules/rule_chapters/Ch10_ver2026-04-06.pdf"
+  },
+  {
+    "id": "osborn-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf"
+  },
+  {
+    "id": "map-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0?f=pjson"
+  },
+  {
+    "id": "map-record",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=TOWNNAME%3D%27Osborn%27&outFields=%2A&returnGeometry=false&f=json"
+  },
+  {
+    "id": "update-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/7?f=pjson"
+  },
+  {
+    "id": "update-records",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/7/query?where=1%3D1&outFields=%2A&returnGeometry=false&f=json"
+  },
+  {
+    "id": "published-zones-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/4?f=pjson"
+  },
+  {
+    "id": "download-service",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/LUPC_Zoning/FeatureServer?f=pjson"
+  }
+]
