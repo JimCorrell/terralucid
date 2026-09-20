@@ -1,0 +1,22 @@
+[
+  {
+    "id": "layer-metadata",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28?f=pjson"
+  },
+  {
+    "id": "native-rings",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=json"
+  },
+  {
+    "id": "geojson-recheck",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=geojson&outSR=4269"
+  },
+  {
+    "id": "projected-rings",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=json&outSR=26919"
+  },
+  {
+    "id": "esri-polygon-reference",
+    "url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/"
+  }
+]

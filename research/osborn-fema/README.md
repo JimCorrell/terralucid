@@ -159,3 +159,10 @@ both zoning-screening history tables match. The 2,648 default screenings retain
 result. The archive remains private and the checked client access remains denied.
 The report reproduces byte-for-byte and all 49 Python tests pass. No schema or
 accepted geometry change was made.
+
+## Subsequent geometry investigation
+
+The [TL-F-0026 follow-up](../fema-geometry-investigation/README.md) identifies the
+two ring-structure problems and archives exact-version alternate decodings without
+accepting them. It also records a map/service depiction discrepancy at the smaller
+feature. This original qualification report and its exclusion counts are unchanged.

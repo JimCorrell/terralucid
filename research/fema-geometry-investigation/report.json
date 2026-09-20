@@ -1,0 +1,603 @@
+{
+  "area_crs": "EPSG:26919 NAD83 UTM19N",
+  "coverage_diagnostic": {
+    "adopted": false,
+    "all_existing_results_unchanged": true,
+    "basis": "Counterfactual jurisdiction coverage using two proposed decodings; not parcel screening or legal coverage.",
+    "candidate_overlap_with_prior_valid_m2": 0.0,
+    "candidate_union_m2": 2487.82334235114,
+    "prior_valid_union_m2": 98456372.74541952,
+    "remaining_geometric_gap_m2": 0.0
+  },
+  "evidence": {
+    "render/render-27129510": {
+      "bytes": 30866,
+      "content_type": "image/png",
+      "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/export?bbox=-68.30407628233903%2C44.77690806673482%2C-68.30141027426166%2C44.778800514001404&bboxSR=4269&imageSR=26919&size=1000%2C1000&format=png32&transparent=false&layers=show%3A28&f=image",
+      "http_status": 200,
+      "id": "render-27129510",
+      "pdf_signature": false,
+      "response_file": "render-27129510.response",
+      "response_path": "runs/render/render-27129510.response",
+      "retrieved_at": "2026-09-20T21:49:09.314362+00:00",
+      "sha256": "634f01bb555ad1922ea3de006dbd75ea7ef5a09a530351d637dc0c83a61321f6",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/export?bbox=-68.30407628233903%2C44.77690806673482%2C-68.30141027426166%2C44.778800514001404&bboxSR=4269&imageSR=26919&size=1000%2C1000&format=png32&transparent=false&layers=show%3A28&f=image"
+    },
+    "render/render-27129583": {
+      "bytes": 25597,
+      "content_type": "image/png",
+      "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/export?bbox=-68.3156595232904%2C44.77953175359802%2C-68.31229079606342%2C44.781922902174514&bboxSR=4269&imageSR=26919&size=1000%2C1000&format=png32&transparent=false&layers=show%3A28&f=image",
+      "http_status": 200,
+      "id": "render-27129583",
+      "pdf_signature": false,
+      "response_file": "render-27129583.response",
+      "response_path": "runs/render/render-27129583.response",
+      "retrieved_at": "2026-09-20T21:49:09.959587+00:00",
+      "sha256": "b40f20e60374999ee6c6164221508206830561f4ac1b272bc8bafa548e34fbfb",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/export?bbox=-68.3156595232904%2C44.77953175359802%2C-68.31229079606342%2C44.781922902174514&bboxSR=4269&imageSR=26919&size=1000%2C1000&format=png32&transparent=false&layers=show%3A28&f=image"
+    },
+    "service/esri-polygon-reference": {
+      "bytes": 266246,
+      "content_type": "text/html",
+      "final_url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+      "http_status": 200,
+      "id": "esri-polygon-reference",
+      "pdf_signature": false,
+      "response_file": "esri-polygon-reference.response",
+      "response_path": "runs/service/esri-polygon-reference.response",
+      "retrieved_at": "2026-09-20T21:46:18.248447+00:00",
+      "sha256": "9bb444674617e320419aacbcc78f4ac47d2db8c23f5b129f8e5ce819f5d4f1d2",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/"
+    },
+    "service/geojson-recheck": {
+      "bytes": 37491,
+      "content_type": "application/geo+json;charset=UTF-8",
+      "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=geojson&outSR=4269",
+      "http_status": 200,
+      "id": "geojson-recheck",
+      "pdf_signature": false,
+      "response_file": "geojson-recheck.response",
+      "response_path": "runs/service/geojson-recheck.response",
+      "retrieved_at": "2026-09-20T21:46:17.388337+00:00",
+      "sha256": "7d04cdb342c16595701fd7472ec7cba2634ebffa9077daf0a00f8943b92204a8",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=geojson&outSR=4269"
+    },
+    "service/layer-metadata": {
+      "bytes": 70584,
+      "content_type": "text/plain;charset=UTF-8",
+      "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28?f=pjson",
+      "http_status": 200,
+      "id": "layer-metadata",
+      "pdf_signature": false,
+      "response_file": "layer-metadata.response",
+      "response_path": "runs/service/layer-metadata.response",
+      "retrieved_at": "2026-09-20T21:46:16.488609+00:00",
+      "sha256": "829d52a49c26455353535af5c6002e50ab154bd54fb962b4300d88d325755995",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28?f=pjson"
+    },
+    "service/native-rings": {
+      "bytes": 39793,
+      "content_type": "application/json;charset=UTF-8",
+      "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=json",
+      "http_status": 200,
+      "id": "native-rings",
+      "pdf_signature": false,
+      "response_file": "native-rings.response",
+      "response_path": "runs/service/native-rings.response",
+      "retrieved_at": "2026-09-20T21:46:16.920701+00:00",
+      "sha256": "2fce3b64dd90b4865ae1b2e2d8c2099ddf9022ffbae18b29afad37aac7e05a1f",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=json"
+    },
+    "service/projected-rings": {
+      "bytes": 38860,
+      "content_type": "application/json;charset=UTF-8",
+      "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=json&outSR=26919",
+      "http_status": 200,
+      "id": "projected-rings",
+      "pdf_signature": false,
+      "response_file": "projected-rings.response",
+      "response_path": "runs/service/projected-rings.response",
+      "retrieved_at": "2026-09-20T21:46:17.760430+00:00",
+      "sha256": "c83c204e40fac8ab6111c168c10456b83a59a2e009002ca261997d2d133c0466",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=json&outSR=26919"
+    }
+  },
+  "evidence_state": "DERIVED",
+  "features": [
+    {
+      "LOMR_footprints_covering_candidate": [
+        "22-01-0871P"
+      ],
+      "OBJECTID": 27129510,
+      "attributes_equal_across_representations": true,
+      "export_diagnostics": {
+        "all_segments_preserved_with_multiplicity": true,
+        "boundary_contact_type": "Point",
+        "candidate_valid": true,
+        "hole_coordinate_count_including_closure": 10,
+        "hole_counterclockwise": false,
+        "input_coordinate_count_including_closure": 280,
+        "repeated_vertex": [
+          -68.30353506730592,
+          44.778026508438586
+        ],
+        "shell_coordinate_count_including_closure": 271,
+        "shell_counterclockwise": true,
+        "zero_based_indices": [
+          0,
+          270
+        ]
+      },
+      "export_geos_validity_reason": "Ring Self-intersection[-68.3035350673059 44.7780265084386]",
+      "hole_context": {
+        "coverage_fraction": 1.0,
+        "features": [
+          {
+            "OBJECTID": 27128999,
+            "intersection_area_m2": 8.526051134093075,
+            "original_feature_sha256": "688fb864dab85a3000ec44902df0b9697ce07b39018e4c92ea3cbc54f96b3353",
+            "prior_evidence_ref": "geometry/hazards-geometry-1",
+            "response_sha256": "407477badeaeeff91986d993bae4716dee98faccd35cf371722a87095dd0ac82",
+            "subtype": "AREA OF MINIMAL FLOOD HAZARD",
+            "zone": "X"
+          }
+        ],
+        "limit": "Neighboring source features corroborate partitioning, not independent legal authority; a hole is not a flood-risk clearance.",
+        "union_area_m2": 8.526051134093075
+      },
+      "native_diagnostics": {
+        "all_segments_preserved_with_multiplicity": true,
+        "boundary_contact_type": "Point",
+        "candidate_valid": true,
+        "hole_coordinate_count_including_closure": 10,
+        "hole_counterclockwise": true,
+        "input_coordinate_count_including_closure": 280,
+        "repeated_vertex": [
+          -68.30353506730592,
+          44.778026508438586
+        ],
+        "shell_coordinate_count_including_closure": 271,
+        "shell_counterclockwise": false,
+        "zero_based_indices": [
+          0,
+          9
+        ]
+      },
+      "native_geos_validity_reason": "Ring Self-intersection[-68.3035350673059 44.7780265084386]",
+      "panel_intersections": [
+        "23009C0443D"
+      ],
+      "prior_evidence_ref": "geometry/hazards-geometry-6",
+      "projection_comparison": {
+        "hausdorff_distance_m": 1.895104138657882e-09,
+        "local_operation": "axis order change (2D) + UTM zone 19N",
+        "service_projected_candidate_area_m2": 656.7502576417273,
+        "symmetric_difference_m2": 2.905837087268737e-07
+      },
+      "proposal": {
+        "area_m2": 656.7502576053882,
+        "decoded_area_square_degrees": 7.472012684588562e-08,
+        "evidence_state": "DERIVED",
+        "hole_area_m2": 8.526051134093075,
+        "holes": 1,
+        "jurisdiction_covers_candidate": true,
+        "jurisdiction_intersection_area_m2": 656.7502576053882,
+        "path": "research/fema-geometry-investigation/candidates/27129510.geojson",
+        "publisher_area_square_degrees": 7.472012684978851e-08,
+        "segments_preserved_with_multiplicity": true,
+        "sha256": "0d796ca7739669f47bc861e64d77dc874752ae90847499e82623890d82ba1af4",
+        "shell_area_m2": 665.2763087394814,
+        "shells": 1,
+        "status": "proposed_not_accepted",
+        "storage_object": "sha256/0d796ca7739669f47bc861e64d77dc874752ae90847499e82623890d82ba1af4.response",
+        "valid": true
+      },
+      "response_sha256": "0bbdf5eb308f30fdb2db824a9146249a0d9172941cabb88a70bd0c435d95b263",
+      "service_projected_diagnostics": {
+        "all_segments_preserved_with_multiplicity": true,
+        "boundary_contact_type": "Point",
+        "candidate_valid": true,
+        "hole_coordinate_count_including_closure": 10,
+        "hole_counterclockwise": true,
+        "input_coordinate_count_including_closure": 280,
+        "repeated_vertex": [
+          555103.6346527989,
+          4958528.343092287
+        ],
+        "shell_coordinate_count_including_closure": 271,
+        "shell_counterclockwise": false,
+        "zero_based_indices": [
+          0,
+          9
+        ]
+      },
+      "source_attributes": {
+        "AR_REVERT": null,
+        "AR_SUBTRV": null,
+        "BFE_REVERT": -9999,
+        "DEPTH": -9999,
+        "DEP_REVERT": -9999,
+        "DFIRM_ID": "23009C",
+        "DUAL_ZONE": null,
+        "FLD_AR_ID": "23009C_14660",
+        "FLD_ZONE": "X",
+        "GFID": "6686b9ae-d7f5-4d41-93c9-940139ab71c5",
+        "GlobalID": "{9ABEFE3A-0D76-4798-A3B5-547884DA24B2}",
+        "LEN_UNIT": null,
+        "OBJECTID": 27129510,
+        "SFHA_TF": "F",
+        "SHAPE.STArea()": 7.472012684978851e-08,
+        "SHAPE.STLength()": 0.0057367176852754585,
+        "SOURCE_CIT": "23009C_LOMC5",
+        "STATIC_BFE": -9999,
+        "STUDY_TYP": "NP",
+        "VELOCITY": -9999,
+        "VEL_UNIT": null,
+        "V_DATUM": null,
+        "ZONE_SUBTY": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD"
+      },
+      "source_feature_sha256": "9156ed1b432d2a04098d3f708d71978a17cc68a061642851b1723c5f040c2c6d",
+      "unchanged_original_feature": true
+    },
+    {
+      "LOMR_footprints_covering_candidate": [
+        "22-01-0871P"
+      ],
+      "OBJECTID": 27129583,
+      "attributes_equal_across_representations": true,
+      "export_diagnostics": {
+        "all_segments_preserved_with_multiplicity": true,
+        "boundary_contact_type": "Point",
+        "candidate_valid": true,
+        "hole_coordinate_count_including_closure": 339,
+        "hole_counterclockwise": false,
+        "input_coordinate_count_including_closure": 605,
+        "repeated_vertex": [
+          -68.31384651573683,
+          44.781376353367136
+        ],
+        "shell_coordinate_count_including_closure": 267,
+        "shell_counterclockwise": true,
+        "zero_based_indices": [
+          265,
+          603
+        ]
+      },
+      "export_geos_validity_reason": "Ring Self-intersection[-68.3138465157368 44.7813763533671]",
+      "hole_context": {
+        "coverage_fraction": 0.9999999999999997,
+        "features": [
+          {
+            "OBJECTID": 27129549,
+            "intersection_area_m2": 4.765637653562889,
+            "original_feature_sha256": "b12cdfd963fd85ea199a5f731e11e59e54618f4c8e2d4dffab85ac05d240eb9b",
+            "prior_evidence_ref": "geometry/hazards-geometry-6",
+            "response_sha256": "0bbdf5eb308f30fdb2db824a9146249a0d9172941cabb88a70bd0c435d95b263",
+            "subtype": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD",
+            "zone": "X"
+          },
+          {
+            "OBJECTID": 27181082,
+            "intersection_area_m2": 5016.107689213658,
+            "original_feature_sha256": "62f1cf36cda94ebf424724ac464c59a8443b8317f2bcbab695c06b3afb0260a2",
+            "prior_evidence_ref": "geometry/hazards-geometry-15",
+            "response_sha256": "8df1c742242c3c69977cc3bfb513d7b436c6fc1f218f40c6703a8106ac2050d8",
+            "subtype": null,
+            "zone": "A"
+          }
+        ],
+        "limit": "Neighboring source features corroborate partitioning, not independent legal authority; a hole is not a flood-risk clearance.",
+        "union_area_m2": 5020.8733268672195
+      },
+      "native_diagnostics": {
+        "all_segments_preserved_with_multiplicity": true,
+        "boundary_contact_type": "Point",
+        "candidate_valid": true,
+        "hole_coordinate_count_including_closure": 339,
+        "hole_counterclockwise": true,
+        "input_coordinate_count_including_closure": 605,
+        "repeated_vertex": [
+          -68.31384651573683,
+          44.781376353367136
+        ],
+        "shell_coordinate_count_including_closure": 267,
+        "shell_counterclockwise": false,
+        "zero_based_indices": [
+          1,
+          339
+        ]
+      },
+      "native_geos_validity_reason": "Ring Self-intersection[-68.3138465157368 44.7813763533671]",
+      "panel_intersections": [
+        "23009C0437D",
+        "23009C0439D"
+      ],
+      "prior_evidence_ref": "geometry/hazards-geometry-6",
+      "projection_comparison": {
+        "hausdorff_distance_m": 2.3283064365386963e-09,
+        "local_operation": "axis order change (2D) + UTM zone 19N",
+        "service_projected_candidate_area_m2": 1831.0730847181721,
+        "symmetric_difference_m2": 4.764629896529234e-07
+      },
+      "proposal": {
+        "area_m2": 1831.073084745749,
+        "decoded_area_square_degrees": 2.0833659747099274e-07,
+        "evidence_state": "DERIVED",
+        "hole_area_m2": 5020.873326867221,
+        "holes": 1,
+        "jurisdiction_covers_candidate": true,
+        "jurisdiction_intersection_area_m2": 1831.0730847457535,
+        "path": "research/fema-geometry-investigation/candidates/27129583.geojson",
+        "publisher_area_square_degrees": 2.0833659747241348e-07,
+        "segments_preserved_with_multiplicity": true,
+        "sha256": "a76e414db793129a488fd82747b4272172f346afac5c3bf2c5e888fcee476413",
+        "shell_area_m2": 6851.94641161297,
+        "shells": 1,
+        "status": "proposed_not_accepted",
+        "storage_object": "sha256/a76e414db793129a488fd82747b4272172f346afac5c3bf2c5e888fcee476413.response",
+        "valid": true
+      },
+      "response_sha256": "0bbdf5eb308f30fdb2db824a9146249a0d9172941cabb88a70bd0c435d95b263",
+      "service_projected_diagnostics": {
+        "all_segments_preserved_with_multiplicity": true,
+        "boundary_contact_type": "Point",
+        "candidate_valid": true,
+        "hole_coordinate_count_including_closure": 339,
+        "hole_counterclockwise": true,
+        "input_coordinate_count_including_closure": 605,
+        "repeated_vertex": [
+          554284.6633453548,
+          4958893.5204960825
+        ],
+        "shell_coordinate_count_including_closure": 267,
+        "shell_counterclockwise": false,
+        "zero_based_indices": [
+          1,
+          339
+        ]
+      },
+      "source_attributes": {
+        "AR_REVERT": null,
+        "AR_SUBTRV": null,
+        "BFE_REVERT": -9999,
+        "DEPTH": -9999,
+        "DEP_REVERT": -9999,
+        "DFIRM_ID": "23009C",
+        "DUAL_ZONE": null,
+        "FLD_AR_ID": "23009C_14733",
+        "FLD_ZONE": "X",
+        "GFID": "6686b9ae-d7f5-4d41-93c9-940139ab71c5",
+        "GlobalID": "{F15E548A-02CD-4F86-B294-F678D1F60B67}",
+        "LEN_UNIT": null,
+        "OBJECTID": 27129583,
+        "SFHA_TF": "F",
+        "SHAPE.STArea()": 2.0833659747241348e-07,
+        "SHAPE.STLength()": 0.012212965424693805,
+        "SOURCE_CIT": "23009C_LOMC5",
+        "STATIC_BFE": -9999,
+        "STUDY_TYP": "NP",
+        "VELOCITY": -9999,
+        "VEL_UNIT": null,
+        "V_DATUM": null,
+        "ZONE_SUBTY": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD"
+      },
+      "source_feature_sha256": "e4d8768fe47d414f0b334a6335fd98332cb32a4b26ea5d505e9017c788413369",
+      "unchanged_original_feature": true
+    }
+  ],
+  "finding_reviews": [
+    {
+      "finding_id": "TL-F-0026",
+      "next_action": "Review the exact-version shell/hole proposals; retain original exclusion until accepted through a FEMA geometry interpretation layer. Resolve or explicitly carry the 0443D map discrepancy in dependent use.",
+      "note": "Both native Esri rings contain exactly one vertex touch and opposite-winding nested loops. Proposed valid decodings preserve every segment and agree with service projection. Map context supports the larger feature but does not certify either touch; the smaller feature falls in a blank part of the reviewed 0443D enclosure. Proposals archived, not accepted.",
+      "priority": "high",
+      "report_pointer": "/features",
+      "status": "in_progress"
+    },
+    {
+      "finding_id": "TL-F-0105",
+      "next_action": "Reconcile current NFHL hazard depiction with the blank 0443D revision enclosure at OBJECTID 27129510; continue neighboring-revision and amendment coverage qualification before parcel screening.",
+      "note": "TL-F-0026 now has two exact-version decoding proposals. Native/export identity and ring roles are corroborated; live service rendering depicts hazards where the reviewed 0443D enclosure is blank at the approximate locator. This is an unresolved map/service evidence discrepancy, not proof of legal map error or a basis to remove the hazard. Existing adoption and coverage unknowns remain.",
+      "priority": "medium",
+      "report_pointer": "/map_evidence",
+      "status": "in_progress"
+    }
+  ],
+  "inputs": {
+    "research/fema-geometry-investigation/candidates/27129510.geojson": "0d796ca7739669f47bc861e64d77dc874752ae90847499e82623890d82ba1af4",
+    "research/fema-geometry-investigation/candidates/27129583.geojson": "a76e414db793129a488fd82747b4272172f346afac5c3bf2c5e888fcee476413",
+    "research/fema-geometry-investigation/map-review.json": "207dfebda240bfad89bec72ef5684ceda5ee1aa92ef56118d3e1f2caca491f27",
+    "research/fema-geometry-investigation/probes.json": "b358b5a650c4378c60db450abb70cff255bd76f30e2bba561112b78d2b8610bd",
+    "research/fema-geometry-investigation/render-probes.json": "aa97b4ac29fae73e81387ea68b67967435a103023e4fd63840276a350142a1ac",
+    "research/osborn-fema/report.json": "2f106e1b19fa2b13415741a109d34f1f9dbc4fdb04cf67e77fe882325aebe5ff",
+    "research/osborn-fema/runs/features/lomr-features.response": "517441aaa1a22da6b774670f9a05726742b91be0629dc4e8aa25d1af843aa448",
+    "research/osborn-fema/runs/features/panels-features.response": "e079291a40ee64d244c4c90bb3f0d3e62c2ef176bd624ab460f84c8c68b49a00",
+    "research/osborn-fema/runs/geometry/hazards-geometry-1.response": "407477badeaeeff91986d993bae4716dee98faccd35cf371722a87095dd0ac82",
+    "research/osborn-fema/runs/geometry/hazards-geometry-10.response": "0576815e9377b6eeda2f44b46a8349f0edde89856bcf0c732ffc374a53d624b1",
+    "research/osborn-fema/runs/geometry/hazards-geometry-11.response": "623fc907b7e78b16fd4be5c2e2c1229a488db889136a2264c9914a73f6793b50",
+    "research/osborn-fema/runs/geometry/hazards-geometry-12.response": "816812927ba0d0cf9686fd6bdcfde0802be99a5e853d006e366ccacc418390e5",
+    "research/osborn-fema/runs/geometry/hazards-geometry-13.response": "2e04887b6572e808aa08d831f011a4b5d5911f7e6a9cfa6babfd35b6c3e689a2",
+    "research/osborn-fema/runs/geometry/hazards-geometry-14.response": "68ef5ba0a2c2dfecb6bcd5a41c960f46fcd00e7699cb3b323a293a167c823682",
+    "research/osborn-fema/runs/geometry/hazards-geometry-15.response": "8df1c742242c3c69977cc3bfb513d7b436c6fc1f218f40c6703a8106ac2050d8",
+    "research/osborn-fema/runs/geometry/hazards-geometry-16.response": "ee464e858fd4b42eeff82e1d94001e094c692af10f7a32ec296f2bd28619370e",
+    "research/osborn-fema/runs/geometry/hazards-geometry-2.response": "d4b167b7e43a4f70e97794559a46e400d54f58ddbbbf7c0e4ada4e92f1d50673",
+    "research/osborn-fema/runs/geometry/hazards-geometry-3.response": "fdf0c615be2b11635e92aa95dd347053c95188a7e8bcf19a594aa7a70441d61b",
+    "research/osborn-fema/runs/geometry/hazards-geometry-4.response": "243b807aa4f810631b7b5a18174be872e4f57354e2863b871a6fe47e59189ae7",
+    "research/osborn-fema/runs/geometry/hazards-geometry-5.response": "258294391f27e9fd7920c78c7626cc34461cc8b8ef51844c66387247f1ab9706",
+    "research/osborn-fema/runs/geometry/hazards-geometry-6.response": "0bbdf5eb308f30fdb2db824a9146249a0d9172941cabb88a70bd0c435d95b263",
+    "research/osborn-fema/runs/geometry/hazards-geometry-7.response": "7b29044825b737545fb7acd24cb2fb36b6055b662ecabbb7a0c22cc94fa5108f",
+    "research/osborn-fema/runs/geometry/hazards-geometry-8.response": "52eaef6295432f44f7141bcb823d97806d0d352f28d846e085bf5a92ad5f3c7f",
+    "research/osborn-fema/runs/geometry/hazards-geometry-9.response": "e24add999b104eb0bab8c2cc8806a24a9aa53570e67fb63e7876b7dfea14cf6e",
+    "research/osborn-fema/runs/identity/osborn-jurisdiction.response": "813824533f6c03c71fb8024431e0bd9f86e10b46c8e9ba12eb9c2ddf4d13696a",
+    "research/osborn-fema/runs/membership/hazards-ids.response": "80af69e08b1e415bc53be55dca8dc408048e5f62c6c145b98f858fa4e634eba1",
+    "scripts/collect_document_evidence.py": "512463a8e1b2f024b99084f00dd97c6fc853051be480e98335a4d96466c6b1e9",
+    "scripts/investigate_osborn_fema.py": "d982a9f237ef74d51f6f3ff1adc23c1a700c0db3ff0e1aa46617a70a0c8e751c",
+    "scripts/investigate_osborn_zoning.py": "f3587380e6b2f7f9c3f9c7dfdf175b6dbee9449a4cbf176d34f1db882cf48bb5",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b"
+  },
+  "interpretation": {
+    "acceptance": "Proposed only for the exact original feature versions; no FEMA geometry correction/acceptance layer exists yet. Originals remain excluded from dependent calculations.",
+    "conclusion": "Vertex-touching rings permitted by Esri persist in the GeoJSON export, where unsplit rings fail GEOS validation. Native ring structure and documented winding support an alternate shell/hole decode, not a claim that the source boundary is wrong.",
+    "operation": "Reuse the prior narrow single-touch decoder. No snapping, buffering, polygonization, make_valid, coordinate movement or segment deletion.",
+    "reference": "service/esri-polygon-reference"
+  },
+  "large_document_evidence": {
+    "encoding": "Concatenate exact bytes in offset order; no compression or PDF rewrite.",
+    "parts": [
+      {
+        "bytes": 20971520,
+        "offset": 0,
+        "sha256": "d0e5cf007e2de64a57acbd078406f2cfb903b9ff69cc3a5174a503082039e8ee",
+        "storage_object": "sha256/d0e5cf007e2de64a57acbd078406f2cfb903b9ff69cc3a5174a503082039e8ee.response"
+      },
+      {
+        "bytes": 20971520,
+        "offset": 20971520,
+        "sha256": "93527ef2178dcb60aab12400710fc8547fed81a877df0cf0cace5ac289b87d4a",
+        "storage_object": "sha256/93527ef2178dcb60aab12400710fc8547fed81a877df0cf0cace5ac289b87d4a.response"
+      },
+      {
+        "bytes": 11085003,
+        "offset": 41943040,
+        "sha256": "26801f79d8c5e8680df8e27d42dc82bbf37f3806256b325a248157107c6bd71b",
+        "storage_object": "sha256/26801f79d8c5e8680df8e27d42dc82bbf37f3806256b325a248157107c6bd71b.response"
+      }
+    ],
+    "response_path": "large-documents/osborn-lomr-document.response",
+    "retrieval": {
+      "bytes": 53028043,
+      "content_type": "application/pdf",
+      "final_url": "https://map1.msc.fema.gov/mipdata/22-01-0871P-230595.pdf?LOC=17d6746ea315852081764b86852926ef",
+      "http_status": 200,
+      "id": "osborn-lomr-document",
+      "pdf_signature": true,
+      "response_file": "osborn-lomr-document.response",
+      "retrieved_at": "2026-09-20T21:22:09.443632+00:00",
+      "sha256": "fcef7a0a0838e02a45ded5ab071078e5f4938ae02c2849b4bd1639bfb333320b",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=LOMC&productSubTypeID=LOMR&productID=22-01-0871P-230595"
+    },
+    "storage_reason": "Original exceeds private bucket 50 MiB object limit; audit references parts, no ordinary source_response row for this PDF."
+  },
+  "map_evidence": {
+    "decision": "Propose two DERIVED structural decodings only. No hole deletion, accepted correction, finding resolution, parcel screening or legal P-FP assignment.",
+    "document": "FEMA 22-01-0871P-230595 determination and annotated FIRM enclosures, effective May 31, 2024.",
+    "evidence_limit": "FEMA service rendering corroborates displayed fill convention but is not an independent survey or legal determination. Neighbor features are part of the same NFHL snapshot. Exact topology support comes from unchanged native rings, documented Esri conventions and segment/winding checks.",
+    "locators": [
+      {
+        "OBJECTID": 27129510,
+        "clip_points": [
+          581.5197202996351,
+          266.6595093603246,
+          713.917898079846,
+          360.660533931572
+        ],
+        "locator_method": "Affine fit of embedded GPTS to LPTS/BBox, approximate visual locator only; source NAD83 versus map NAD83(2011) realization and rounded control coordinates not resolved. No geometry digitized.",
+        "locator_residual_points": 0.2804746324944343,
+        "measure_xref": 578,
+        "pdf_page": 8
+      },
+      {
+        "OBJECTID": 27129583,
+        "clip_points": [
+          1356.6261871615425,
+          1723.177533279173,
+          1466.6804965231568,
+          1871.6195467389189
+        ],
+        "locator_method": "Affine fit of embedded GPTS to LPTS/BBox, approximate visual locator only; source NAD83 versus map NAD83(2011) realization and rounded control coordinates not resolved. No geometry digitized.",
+        "locator_residual_points": 0.1868568369122067,
+        "measure_xref": 354,
+        "pdf_page": 6
+      },
+      {
+        "OBJECTID": 27129583,
+        "clip_points": [
+          1343.51300924737,
+          83.09696677373722,
+          1453.5990340295248,
+          231.5390486852266
+        ],
+        "locator_method": "Affine fit of embedded GPTS to LPTS/BBox, approximate visual locator only; source NAD83 versus map NAD83(2011) realization and rounded control coordinates not resolved. No geometry digitized.",
+        "locator_residual_points": 0.28053892281763965,
+        "measure_xref": 467,
+        "pdf_page": 7
+      }
+    ],
+    "map_crs_note": "Printed legend and PDF viewport WKT identify NAD83(2011) / UTM19N; NFHL native source is labeled NAD83 EPSG:4269. Realization equivalence is not established; use locators only for visual context.",
+    "observations": [
+      {
+        "OBJECTID": 27129583,
+        "evidence_state": "VERIFIED",
+        "observation": "At the approximate location across the panel seam near Joe Moore Brook, the maps depict a Zone A area with a shaded Zone X fringe. The larger interior region is not uniformly shaded Zone X. This supports regional category/partition context; map scale, strokes, seam and labels cannot independently certify the exact repeated vertex or each segment.",
+        "pdf_pages": [
+          6,
+          7
+        ]
+      },
+      {
+        "OBJECTID": 27129510,
+        "evidence_state": "VERIFIED",
+        "observation": "The approximate location lies in the blank portion of the 0443D enclosure, east of its depicted western flood corridor. This page does not visibly corroborate the small NFHL feature or its hole. Do not read blank depiction as hazard absence.",
+        "pdf_pages": [
+          8
+        ]
+      },
+      {
+        "OBJECTID": 27129510,
+        "evidence_state": "UNKNOWN",
+        "observation": "The reason for the difference between current service depiction and the reviewed revision enclosure remains unresolved. Neither a legal map error nor a missing hazard determination is established; carry a map-evidence hold under TL-F-0105."
+      }
+    ],
+    "panel_ids": [
+      "23009C0437D",
+      "23009C0439D",
+      "23009C0443D"
+    ],
+    "pdf_pages_reviewed": [
+      6,
+      7,
+      8
+    ],
+    "pdf_sha256": "fcef7a0a0838e02a45ded5ab071078e5f4938ae02c2849b4bd1639bfb333320b",
+    "prior_audit_sha256": "2f106e1b19fa2b13415741a109d34f1f9dbc4fdb04cf67e77fe882325aebe5ff",
+    "review_method": "Visual inspection of full map pages, legends and enlarged unmodified crops (4 pixels per PDF point). Embedded geospatial control values provide approximate crop locators only; no tracing, digitization or geometrical acceptance from raster appearance.",
+    "service_renders": [
+      {
+        "evidence_ref": "render/render-27129510",
+        "observation": "Current service shows shaded Zone X bordering Zone A and an unshaded interior opening near the small feature.",
+        "sha256": "634f01bb555ad1922ea3de006dbd75ea7ef5a09a530351d637dc0c83a61321f6"
+      },
+      {
+        "evidence_ref": "render/render-27129583",
+        "observation": "Current service shows the larger feature as shaded Zone X surrounding a Zone A area, consistent with retaining an interior hole.",
+        "sha256": "b40f20e60374999ee6c6164221508206830561f4ac1b272bc8bafa548e34fbfb"
+      }
+    ]
+  },
+  "method": "scripts/investigate_fema_geometry.py",
+  "method_sha256": "967f202cb7b7400767c659f7967916fc59654e2ffc3eb1af6db5d010be208b17",
+  "runtime": {
+    "GEOS": "3.11.4",
+    "PROJ": "9.3.0",
+    "pyproj": "3.6.1",
+    "shapely": "2.0.7"
+  },
+  "scope": {
+    "OBJECTIDs": [
+      27129510,
+      27129583
+    ],
+    "community": "Osborn",
+    "finding_id": "TL-F-0026",
+    "prior_audit_sha256": "2f106e1b19fa2b13415741a109d34f1f9dbc4fdb04cf67e77fe882325aebe5ff"
+  },
+  "source_crs": "EPSG:4269 NAD83"
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "layer-metadata",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28?f=pjson",
+    "retrieved_at": "2026-09-20T21:46:16.488609+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28?f=pjson",
+    "content_type": "text/plain;charset=UTF-8",
+    "response_file": "layer-metadata.response",
+    "sha256": "829d52a49c26455353535af5c6002e50ab154bd54fb962b4300d88d325755995",
+    "bytes": 70584,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "native-rings",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=json",
+    "retrieved_at": "2026-09-20T21:46:16.920701+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=json",
+    "content_type": "application/json;charset=UTF-8",
+    "response_file": "native-rings.response",
+    "sha256": "2fce3b64dd90b4865ae1b2e2d8c2099ddf9022ffbae18b29afad37aac7e05a1f",
+    "bytes": 39793,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "geojson-recheck",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=geojson&outSR=4269",
+    "retrieved_at": "2026-09-20T21:46:17.388337+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=geojson&outSR=4269",
+    "content_type": "application/geo+json;charset=UTF-8",
+    "response_file": "geojson-recheck.response",
+    "sha256": "7d04cdb342c16595701fd7472ec7cba2634ebffa9077daf0a00f8943b92204a8",
+    "bytes": 37491,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "projected-rings",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=json&outSR=26919",
+    "retrieved_at": "2026-09-20T21:46:17.760430+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?objectIds=27129510%2C27129583&outFields=%2A&returnGeometry=true&returnTrueCurves=true&f=json&outSR=26919",
+    "content_type": "application/json;charset=UTF-8",
+    "response_file": "projected-rings.response",
+    "sha256": "c83c204e40fac8ab6111c168c10456b83a59a2e009002ca261997d2d133c0466",
+    "bytes": 38860,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "esri-polygon-reference",
+    "url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+    "retrieved_at": "2026-09-20T21:46:18.248447+00:00",
+    "http_status": 200,
+    "final_url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+    "content_type": "text/html",
+    "response_file": "esri-polygon-reference.response",
+    "sha256": "9bb444674617e320419aacbcc78f4ac47d2db8c23f5b129f8e5ce819f5d4f1d2",
+    "bytes": 266246,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

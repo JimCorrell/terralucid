@@ -34,3 +34,9 @@ base FIRM/FIS retains its 2016 date. Keep these dates separate and do not treat 
 2016 no-SFHA note as current clearance. Two invalid FEMA polygons are preserved
 under TL-F-0026; parcel screening and LUPC adoption remain pending qualification.
 This is bounded Osborn source evidence, not statewide FEMA ingestion.
+
+[TL-F-0026 follow-up](../research/fema-geometry-investigation/README.md) identifies
+vertex-touching native rings and proposes boundary-preserving shell/hole decodings.
+The proposals are not accepted. The reviewed 0443D map enclosure is blank at one
+feature's approximate location despite current service depiction; carry this
+map-evidence discrepancy under TL-F-0105 rather than clearing or deleting hazards.
