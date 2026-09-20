@@ -9,3 +9,5 @@ The [coverage and identifier audit](research/maine-coverage/README.md) records s
 
 [Bounded source ingestion](research/maine-ingestion/README.md) now connects source records
 to the [findings register](docs/findings-register.md) for continuing follow-up.
+
+The [first conflict investigation](research/conflict-investigation/README.md) traces Sweden, Alfred and smaller name differences to spatial and assessment evidence.

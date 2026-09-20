@@ -1,0 +1,37 @@
+{
+  "purpose": "Complete selected assessment identifiers for Alfred, Arundel and Sweden plus Arundel geometry identifiers, to investigate candidate-key collisions. No owner/address fields.",
+  "page_size": 100,
+  "max_records_per_source": 5000,
+  "sources": [
+    {
+      "id": "organized-parcels",
+      "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10",
+      "where": "TOWN = 'Arundel' AND GEOCODE = '31030'",
+      "fields": [
+        "OBJECTID",
+        "GlobalID",
+        "GEOCODE",
+        "TOWN",
+        "STATE_ID",
+        "MAP_BK_LOT",
+        "FMUPDAT"
+      ],
+      "geometry": false
+    },
+    {
+      "id": "organized-assessment",
+      "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9",
+      "fields": [
+        "OBJECTID",
+        "GlobalID",
+        "GEOCODE",
+        "STATE_ID",
+        "MAP_BK_LOT",
+        "YEAR_CREAT",
+        "SOURCE"
+      ],
+      "geometry": false,
+      "where": "GEOCODE IN ('31020','31030','17310') OR STATE_ID LIKE '31020_%' OR STATE_ID LIKE '31030_%' OR STATE_ID LIKE '17310_%'"
+    }
+  ]
+}
