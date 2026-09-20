@@ -161,3 +161,28 @@ boundary touches and correction guards. `tests/zoning_ingestion.sql` uses a
 local disposable PostgreSQL/PostGIS database with previous prepared loads and
 reviews: it independently checks a calculated area, stale dependency detection,
 immutable results, conflicting replay and preservation of unknown coverage.
+
+## Live deployment verification
+
+Verified in Supabase project `yytsjlmbyqhcqfalbjca` on 2026-09-20 UTC:
+
+- Migration `20260920050000` applied; 69 archive objects downloaded and verified
+  against their SHA-256 checksums before loading.
+- Audit `4c2fb616dbc8ab23c9fe1d04df8ec16cbafbce24fe30543df32269e5e2f0a63c`
+  is stored with 383 zoning features (382 valid, one invalid), 2,648 screenings
+  and 651 observed positive-area intersections.
+- All 119 correction holds and original UT finding references are preserved;
+  2,324 analyses retain acceptance-event references. No inputs need revisit at
+  this checkpoint; legal zoning remains UNKNOWN throughout.
+- Original staging stays at 2,058 source records and 737 candidate links. The
+  findings register has 42 findings and 57 review events: TL-F-0025 is open,
+  TL-F-0109 and TL-F-0110 are in progress.
+- RLS is enabled, client access is denied, and the source archive remains private.
+- The first application attempt failed and was confirmed fully rolled back. The
+  unchanged prepared SQL committed on retry. The initial failure's cause was not
+  retained by the loader's generic error output; no partial batch was accepted.
+- 35 Python tests and the final disposable-database load/replay/invariant tests
+  passed. Synthetic mutations were confined to that disposable database.
+
+These are deployment observations, not ongoing monitoring or certification of
+source currency, legal zoning, or site feasibility.
