@@ -1,0 +1,12 @@
+[
+  {
+    "id": "sweden-identifier-prefix",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=GEOCODE+%3D+%2717290%27+AND+TOWN+%3D+%27Sweden%27+AND+STATE_ID+LIKE+%2717310%25%27&returnCountOnly=true&returnGeometry=false",
+    "purpose": "Count suspect code/name records whose STATE_ID prefix supports the reference name code; supporting evidence only, no automatic correction."
+  },
+  {
+    "id": "alfred-identifier-prefix",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=GEOCODE+%3D+%2731030%27+AND+TOWN+%3D+%27Alfred%27+AND+STATE_ID+LIKE+%2731020%25%27&returnCountOnly=true&returnGeometry=false",
+    "purpose": "Count suspect code/name records whose STATE_ID prefix supports the reference name code; supporting evidence only, no automatic correction."
+  }
+]

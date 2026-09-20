@@ -30,6 +30,15 @@ class SourceStagingTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             staging.verify(self.output, self.output / 'objects')
 
+    def test_stale_report_method_stops_before_output(self):
+        report = json.loads((staging.ROOT / 'research/maine-coverage/report.json').read_text())
+        report['method_sha256'] = '0' * 64
+        report_path = self.root / 'stale-report.json'
+        report_path.write_text(json.dumps(report))
+        with self.assertRaisesRegex(ValueError, 'method changed'):
+            staging.prepare(staging.ROOT / 'research/maine-coverage', self.output, report_path)
+        self.assertFalse(self.output.exists())
+
     def test_altered_source_stops_before_output(self):
         next((self.audit / 'runs').glob('*/*.response')).write_bytes(b'changed')
         with self.assertRaises(ValueError):

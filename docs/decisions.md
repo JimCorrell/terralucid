@@ -25,6 +25,15 @@ samples. SHA-256 object names and deterministic observation identities support
 reproducible loads. This is an implementation choice for the bounded audit load,
 not a bulk retention or refresh policy. See [setup and checks](supabase-staging.md).
 
+## Audit-driven staging constraints
+
+The [coverage audit](../research/maine-coverage/README.md) found missing/repeated
+parcel identifiers and assessment matches with multiple rows. Preserve source
+records separately; do not enforce STATE_ID/TPL/GPL as canonical unique parcel keys.
+Use GEOCODES.STATUS for the dated reference classification; civil polygon TYPE is
+not jurisdiction organization. Raw code/name conflicts remain unresolved until
+reviewed. Source presence is not evidence of complete jurisdiction coverage.
+
 ## Open questions
 
 - Actual coverage, freshness, rights, and integration methods for each data source.

@@ -1,2 +1,5 @@
 # Preserve exact response bytes and keep generated snapshots out of textual diffs.
 research/maine-sources/runs/**/*.response binary
+research/maine-coverage/runs/**/*.response binary
+# Generated report is reviewed through the narrative and reproducible calculation.
+research/maine-coverage/report.json -diff

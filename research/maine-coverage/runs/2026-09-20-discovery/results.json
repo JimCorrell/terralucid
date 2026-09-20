@@ -1,0 +1,26 @@
+[
+  {
+    "id": "civil-service",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer?f=pjson",
+    "purpose": "Discover published civil reference tables.",
+    "retrieved_at": "2026-09-20T00:19:14.362075+00:00",
+    "http_status": 200,
+    "final_url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer?f=pjson",
+    "sha256": "b9e2c9b309317f3540d601522c4de83fcde36b1b1bc71f29d171d5ee5aa52a94",
+    "bytes": 6448,
+    "status": "JSON_RECEIVED",
+    "response_file": "civil-service.response"
+  },
+  {
+    "id": "geocodes-metadata",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/1?f=pjson",
+    "purpose": "Inspect code reference fields, classification and query capabilities.",
+    "retrieved_at": "2026-09-20T00:19:14.778285+00:00",
+    "http_status": 200,
+    "final_url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/1?f=pjson",
+    "sha256": "9a27c77b160c21ff09320f17c98a72b75e90e272490d47d3c4c174d81be75f56",
+    "bytes": 14245,
+    "status": "JSON_RECEIVED",
+    "response_file": "geocodes-metadata.response"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "ut-tpl-present-simple",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=TPL+IS+NOT+NULL+AND+TPL+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "ut-tpl-distinct-simple",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=TPL+IS+NOT+NULL+AND+TPL+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=TPL",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "ut-gpl-present-simple",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=GPL+IS+NOT+NULL+AND+GPL+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "ut-gpl-distinct-simple",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=GPL+IS+NOT+NULL+AND+GPL+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=GPL",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "ut-globalid-present-simple",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=GlobalID+IS+NOT+NULL+AND+GlobalID+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "ut-globalid-distinct-simple",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=GlobalID+IS+NOT+NULL+AND+GlobalID+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=GlobalID",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "ut-geocode-plan--lot-present-simple",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=GEOCODE+IS+NOT+NULL+AND+GEOCODE+%3C%3E+%27%27+AND+PLAN_+IS+NOT+NULL+AND+PLAN_+%3C%3E+%27%27+AND+LOT+IS+NOT+NULL+AND+LOT+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "organized-state-id-present-simple",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=STATE_ID+IS+NOT+NULL+AND+STATE_ID+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "organized-state-id-distinct-simple",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=STATE_ID+IS+NOT+NULL+AND+STATE_ID+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=STATE_ID",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "organized-globalid-present-simple",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=GlobalID+IS+NOT+NULL+AND+GlobalID+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "organized-globalid-distinct-simple",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=GlobalID+IS+NOT+NULL+AND+GlobalID+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=GlobalID",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "organized-geocode-map-bk-lot-present-simple",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=GEOCODE+IS+NOT+NULL+AND+GEOCODE+%3C%3E+%27%27+AND+MAP_BK_LOT+IS+NOT+NULL+AND+MAP_BK_LOT+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "assessment-state-id-present-simple",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=STATE_ID+IS+NOT+NULL+AND+STATE_ID+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "assessment-state-id-distinct-simple",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=STATE_ID+IS+NOT+NULL+AND+STATE_ID+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=STATE_ID",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "assessment-globalid-present-simple",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=GlobalID+IS+NOT+NULL+AND+GlobalID+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "assessment-globalid-distinct-simple",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=GlobalID+IS+NOT+NULL+AND+GlobalID+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=GlobalID",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "assessment-geocode-map-bk-lot-present-simple",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=GEOCODE+IS+NOT+NULL+AND+GEOCODE+%3C%3E+%27%27+AND+MAP_BK_LOT+IS+NOT+NULL+AND+MAP_BK_LOT+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count non-null/nonempty raw candidate values; whitespace is not normalized. Previous TRIM syntax was rejected."
+  },
+  {
+    "id": "assessment-date-values",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=1%3D1&returnGeometry=false&groupByFieldsForStatistics=YEAR_CREAT&orderByFields=YEAR_CREAT&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D",
+    "purpose": "Complete aggregate profile; require count reconciliation and no transfer-limit flag."
+  },
+  {
+    "id": "organized-sample-oids",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=1%3D1&returnGeometry=false&groupByFieldsForStatistics=GEOCODE%2CTOWN%2CCOUNTY&orderByFields=GEOCODE%2CTOWN%2CCOUNTY&outStatistics=%5B%7B%22statisticType%22%3A+%22min%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22sample_oid%22%7D%5D",
+    "purpose": "One minimum OBJECTID per source code/name/county group; deterministic coverage sample, not random."
+  }
+]

@@ -4,6 +4,12 @@ The immediate milestone is a verified source registry and an ingestion plan. The
 
 ## 1. Complete the coverage and identity audit
 
+The [coverage and identifier audit](../research/maine-coverage/README.md) now establishes
+917 status-coded reference entries, reported source presence and candidate-key
+quality. The bounded assessment join disproves a universal one-to-one assumption.
+Full match coverage, current legal-effective dates and UT valuation linkage remain
+open; these findings support source staging with explicit unresolved records.
+
 Start with the civil-boundary reference, MRS parcel geometry, organized-town parcel geometry, and the associated assessment sources.
 
 - Validate the civil GEOCODES reference and jurisdiction TYPE meanings. Establish a dated jurisdiction denominator before reporting coverage percentages.

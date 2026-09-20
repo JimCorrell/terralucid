@@ -44,8 +44,13 @@ npx --yes supabase@2.117.0 db push --linked
 npx --yes supabase@2.117.0 seed buckets --linked
 python3 -m unittest discover -s tests
 python3 scripts/prepare_source_staging.py prepare --output .local/source-load
-npx --yes supabase@2.117.0 storage cp --experimental --linked --recursive --jobs 4 --content-type application/json .local/source-load/objects/sha256 ss:///terralucid-source-snapshots/sha256
+npx --yes supabase@2.117.0 storage cp --experimental --linked --recursive --jobs 4 --content-type application/json .local/source-load/objects/sha256 ss:///terralucid-source-snapshots/
 ```
+
+Upload the `sha256` directory to the bucket root as shown: this CLI appends the
+source directory name when the destination already exists. Targeting an existing
+`sha256` prefix can incorrectly produce `sha256/sha256`. The download destination
+must also be fresh. Verify manifest paths before loading database references.
 
 Use a fresh output directory for a fresh preparation; an existing directory is
 rejected to prevent stale upload files. Reuse a prepared directory for retries.
@@ -105,3 +110,17 @@ References: [PostGIS](https://supabase.com/docs/guides/database/extensions/postg
 [migrations](https://supabase.com/docs/guides/deployment/database-migrations),
 [private buckets](https://supabase.com/docs/guides/storage/buckets/fundamentals),
 [API schema exposure](https://supabase.com/docs/guides/api/using-custom-schemas).
+
+## Coverage audit extension
+
+The [coverage audit](../research/maine-coverage/README.md) adds a second registry
+version for four audited sources, 121 observations and one DERIVED report in
+`ingest.audit_result`. The original 22-source registry and 34 observations remain
+unchanged. The three geometry samples remain format probes. The initial-load
+acceptance counts above are historical; use `scripts/check_coverage_audit.sql` for
+the new report's source-scoped counts and privacy checks.
+
+`prepare_source_staging.py --audit research/maine-coverage --report
+research/maine-coverage/report.json` supports this additional batch. The report and
+its calculation code are archived alongside raw responses. Preparation rejects a
+report whose recorded evidence or method checksum differs from the supplied inputs.

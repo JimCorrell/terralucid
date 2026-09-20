@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ut-key-null",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&returnGeometry=false&where=GPL+IS+NULL&returnCountOnly=true",
+    "purpose": "Distinguish server comparisons for missing, empty and space-only keys."
+  },
+  {
+    "id": "ut-key-empty",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&returnGeometry=false&where=GPL+%3D+%27%27&returnCountOnly=true",
+    "purpose": "Distinguish server comparisons for missing, empty and space-only keys."
+  },
+  {
+    "id": "ut-key-space",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&returnGeometry=false&where=GPL+%3D+%27+%27&returnCountOnly=true",
+    "purpose": "Distinguish server comparisons for missing, empty and space-only keys."
+  },
+  {
+    "id": "ut-missing-by-jurisdiction",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&returnGeometry=false&where=GPL+IS+NULL+OR+GPL+%3D+%27%27&groupByFieldsForStatistics=GEOCODE%2CTOWNNAME&orderByFields=GEOCODE%2CTOWNNAME&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D",
+    "purpose": "Source groups with missing candidate identifiers."
+  },
+  {
+    "id": "ut-globalid-present",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&returnGeometry=false&where=GlobalID+IS+NOT+NULL&outFields=GlobalID&returnCountOnly=true&returnDistinctValues=false",
+    "purpose": "GUID field uses null checks only, not string comparisons."
+  },
+  {
+    "id": "ut-globalid-distinct",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&returnGeometry=false&where=GlobalID+IS+NOT+NULL&outFields=GlobalID&returnCountOnly=true&returnDistinctValues=true",
+    "purpose": "GUID field uses null checks only, not string comparisons."
+  },
+  {
+    "id": "ut-duplicate-sample",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&returnGeometry=false&where=GPL+IS+NOT+NULL+AND+GPL+%3C%3E+%27%27&groupByFieldsForStatistics=GPL&orderByFields=GPL&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D&havingClause=COUNT%28OBJECTID%29+%3E+1&resultRecordCount=20",
+    "purpose": "First 20 repeated keys, for inspection only; not a full duplicate inventory."
+  },
+  {
+    "id": "organized-key-null",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&returnGeometry=false&where=STATE_ID+IS+NULL&returnCountOnly=true",
+    "purpose": "Distinguish server comparisons for missing, empty and space-only keys."
+  },
+  {
+    "id": "organized-key-empty",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&returnGeometry=false&where=STATE_ID+%3D+%27%27&returnCountOnly=true",
+    "purpose": "Distinguish server comparisons for missing, empty and space-only keys."
+  },
+  {
+    "id": "organized-key-space",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&returnGeometry=false&where=STATE_ID+%3D+%27+%27&returnCountOnly=true",
+    "purpose": "Distinguish server comparisons for missing, empty and space-only keys."
+  },
+  {
+    "id": "organized-missing-by-jurisdiction",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&returnGeometry=false&where=STATE_ID+IS+NULL+OR+STATE_ID+%3D+%27%27&groupByFieldsForStatistics=GEOCODE%2CTOWN%2CCOUNTY&orderByFields=GEOCODE%2CTOWN%2CCOUNTY&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D",
+    "purpose": "Source groups with missing candidate identifiers."
+  },
+  {
+    "id": "organized-globalid-present",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&returnGeometry=false&where=GlobalID+IS+NOT+NULL&outFields=GlobalID&returnCountOnly=true&returnDistinctValues=false",
+    "purpose": "GUID field uses null checks only, not string comparisons."
+  },
+  {
+    "id": "organized-globalid-distinct",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&returnGeometry=false&where=GlobalID+IS+NOT+NULL&outFields=GlobalID&returnCountOnly=true&returnDistinctValues=true",
+    "purpose": "GUID field uses null checks only, not string comparisons."
+  },
+  {
+    "id": "organized-duplicate-sample",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&returnGeometry=false&where=STATE_ID+IS+NOT+NULL+AND+STATE_ID+%3C%3E+%27%27&groupByFieldsForStatistics=STATE_ID&orderByFields=STATE_ID&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D&havingClause=COUNT%28OBJECTID%29+%3E+1&resultRecordCount=20",
+    "purpose": "First 20 repeated keys, for inspection only; not a full duplicate inventory."
+  },
+  {
+    "id": "assessment-key-null",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&returnGeometry=false&where=STATE_ID+IS+NULL&returnCountOnly=true",
+    "purpose": "Distinguish server comparisons for missing, empty and space-only keys."
+  },
+  {
+    "id": "assessment-key-empty",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&returnGeometry=false&where=STATE_ID+%3D+%27%27&returnCountOnly=true",
+    "purpose": "Distinguish server comparisons for missing, empty and space-only keys."
+  },
+  {
+    "id": "assessment-key-space",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&returnGeometry=false&where=STATE_ID+%3D+%27+%27&returnCountOnly=true",
+    "purpose": "Distinguish server comparisons for missing, empty and space-only keys."
+  },
+  {
+    "id": "assessment-missing-by-jurisdiction",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&returnGeometry=false&where=STATE_ID+IS+NULL+OR+STATE_ID+%3D+%27%27&groupByFieldsForStatistics=GEOCODE&orderByFields=GEOCODE&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D",
+    "purpose": "Source groups with missing candidate identifiers."
+  },
+  {
+    "id": "assessment-globalid-present",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&returnGeometry=false&where=GlobalID+IS+NOT+NULL&outFields=GlobalID&returnCountOnly=true&returnDistinctValues=false",
+    "purpose": "GUID field uses null checks only, not string comparisons."
+  },
+  {
+    "id": "assessment-globalid-distinct",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&returnGeometry=false&where=GlobalID+IS+NOT+NULL&outFields=GlobalID&returnCountOnly=true&returnDistinctValues=true",
+    "purpose": "GUID field uses null checks only, not string comparisons."
+  },
+  {
+    "id": "assessment-duplicate-sample",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&returnGeometry=false&where=STATE_ID+IS+NOT+NULL+AND+STATE_ID+%3C%3E+%27%27&groupByFieldsForStatistics=STATE_ID&orderByFields=STATE_ID&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D&havingClause=COUNT%28OBJECTID%29+%3E+1&resultRecordCount=20",
+    "purpose": "First 20 repeated keys, for inspection only; not a full duplicate inventory."
+  },
+  {
+    "id": "organized-join-sample",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&returnGeometry=false&where=1%3D1&objectIds=1073976%2C88708%2C163199%2C163241%2C176006%2C313306%2C25600%2C330150%2C817064%2C335405%2C78631%2C333252%2C656628%2C240283%2C592367%2C1101913%2C238755%2C234091%2C48137%2C365404%2C1075551%2C1050306%2C232358%2C60397%2C239943%2C233079%2C240261%2C242565%2C36459%2C665646%2C241940%2C1110420%2C239917%2C241963%2C442062%2C365510%2C673563%2C512958%2C517464%2C559848%2C520842%2C1068492%2C530199%2C563173%2C173618%2C370924%2C536796%2C570029%2C537515%2C540413%2C198560%2C40983%2C573916%2C1126496%2C510853%2C954585%2C542252%2C1029421%2C547816%2C106346%2C382083%2C385243%2C385633%2C386920%2C387958%2C391452%2C1086917%2C154344%2C392387%2C393649%2C654434%2C394559%2C395495%2C396351%2C183%2C1%2C1063272%2C273%2C26789%2C31404%2C1520%2C2770%2C24601%2C1503%2C1115849%2C20683%2C693357%2C26203%2C8034%2C9453%2C196493%2C594216%2C8640%2C9468%2C660944%2C9895%2C13750%2C14256%2C14405%2C27342%2C26329%2C30226%2C1166572%2C1124818%2C18680%2C21%2C20620%2C20624%2C33335%2C44288%2C373634%2C592721%2C1146231%2C1098210%2C1151163%2C90350%2C347240%2C1154706%2C35907%2C316816%2C1118304%2C237363%2C338601%2C249736%2C56392%2C132156%2C257134%2C258044%2C1078741%2C264094%2C953283%2C1082487%2C1103624%2C1102306%2C54714%2C39526%2C399015%2C108722%2C847083%2C309745%2C177821%2C168927%2C111671%2C255623%2C41382%2C128084%2C401075%2C399307%2C588920%2C358200%2C116075%2C708969%2C403029%2C195033%2C400021%2C166800%2C319819%2C698770%2C177213%2C1159708%2C1072848%2C118585%2C86642%2C35100%2C334074%2C423733%2C100749%2C352939%2C349126%2C1041872%2C71621%2C424647%2C425018%2C588142%2C483406%2C60385%2C426222%2C72287%2C102812%2C427647%2C430432%2C1163064%2C431867%2C432401%2C433900%2C1122656%2C85390%2C107674%2C434591%2C450904%2C461502%2C462401%2C1094635%2C47511%2C1100212%2C406955%2C1104376%2C1138482%2C1138421%2C1137992%2C1137792%2C1137963%2C1141469%2C1105411%2C1153403%2C704985%2C466232%2C468974%2C470432%2C60396%2C132085%2C471237%2C472637%2C475796%2C700448%2C409384%2C1109427%2C477957%2C1152755%2C114378%2C361492%2C1073707%2C1108985%2C402558%2C35602%2C80617%2C356827%2C348064%2C247554%2C339389%2C712592%2C341259%2C35606%2C410139%2C90474%2C1103743%2C86095%2C1073877%2C1073905%2C161460%2C412147%2C1120330%2C103839%2C1123615%2C364631%2C1111580%2C412745%2C126940%2C405207%2C58526%2C405826%2C345932%2C142665%2C164350%2C1040175%2C416314%2C71383%2C71043%2C1157514%2C1158998%2C182068%2C105235%2C276724%2C686191%2C1093274%2C276778%2C278662%2C1095439%2C282066%2C280191%2C280226%2C282875%2C282893%2C284776%2C284790%2C284811%2C283570%2C284853%2C285325%2C288010%2C290111%2C290359%2C290179%2C304887%2C292938%2C1107759%2C293038%2C292974%2C295552%2C296839%2C295604%2C300415%2C300009%2C302096%2C300076%2C304102%2C300123%2C303429%2C303662%2C304059%2C303802%2C304023%2C417628%2C438430%2C440064%2C436221%2C443251%2C478650%2C482456%2C963407%2C567715%2C1052462%2C1167855%2C726038%2C690258%2C491364%2C494841%2C497014%2C702544%2C890656%2C1012406%2C503755%2C1019519%2C41303%2C420684%2C137593%2C595412&outFields=OBJECTID%2CGEOCODE%2CTOWN%2CCOUNTY%2CSTATE_ID%2CMAP_BK_LOT%2CFMUPDAT&orderByFields=OBJECTID&resultRecordCount=2000",
+    "purpose": "One minimum OBJECTID per reported jurisdiction group; identifiers only."
+  },
+  {
+    "id": "geocodes-policy",
+    "url": "https://www.maine.gov/geolib/policies/geocodes.html",
+    "purpose": "Official status-code definitions; HTML snapshot."
+  },
+  {
+    "id": "civil-metadata-document",
+    "url": "https://maine.maps.arcgis.com/sharing/rest/content/items/289a91e826fd4f518debdd824d5dd16d/info/metadata/metadata.xml?format=default&output=html",
+    "purpose": "Publisher metadata distinguishes TYPE (polygon type) from jurisdiction status; HTML snapshot."
+  }
+]

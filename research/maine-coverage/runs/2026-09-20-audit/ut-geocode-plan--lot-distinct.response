@@ -1,0 +1,1 @@
+{"error":{"code":400,"message":"When returnCountOnly and returnDistinctValues are true, more than one field specified in outFields is not supported.","details":[]}}

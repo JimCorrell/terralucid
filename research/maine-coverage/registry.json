@@ -1,0 +1,245 @@
+{
+  "as_of": "2026-09-20",
+  "scope": "Coverage and identifier audit; four-source registry version. Original source registry remains unchanged.",
+  "sources": [
+    {
+      "id": "ut-parcels",
+      "name": "Unorganized Territory parcel geometry",
+      "publisher": "Maine Revenue Services",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0",
+        "https://www.arcgis.com/home/item.html?id=868097d1a133446f8ffae242929a25dd"
+      ],
+      "coverage": "36,688 features under 463 recognized status-coded jurisdictions. Four missing GPL values and 69 rows with unrecognized nonblank GEOCODEs.",
+      "identifiers": [
+        "GEOCODE",
+        "TPL",
+        "GPL",
+        "GlobalID",
+        "PLAN_",
+        "LOT"
+      ],
+      "freshness": "MAPYEAR and EDITDATE exist; one geometry sample reports MAPYEAR 1997. Catalog modification is not geometry currency.",
+      "access": "Complete aggregate coverage, date and key counts; repeated-key groups inspected.",
+      "limitations": [
+        "Assessment boundaries, not legal surveys.",
+        "Four features have blank GEOCODE and null TOWNNAME.",
+        "Publisher cautions some town/plantation ownership information may be five years old."
+      ],
+      "next_verification": [
+        "See coverage audit README for remaining gates."
+      ],
+      "probe_ids": [
+        "ut-count",
+        "ut-count-end",
+        "ut-dates",
+        "ut-duplicate-sample",
+        "ut-geocode-plan--lot-distinct",
+        "ut-geocode-plan--lot-present",
+        "ut-geocode-plan--lot-present-simple",
+        "ut-globalid-distinct",
+        "ut-globalid-distinct-simple",
+        "ut-globalid-present",
+        "ut-globalid-present-simple",
+        "ut-gpl-distinct",
+        "ut-gpl-distinct-simple",
+        "ut-gpl-present",
+        "ut-gpl-present-simple",
+        "ut-jurisdictions",
+        "ut-key-empty",
+        "ut-key-null",
+        "ut-key-space",
+        "ut-metadata",
+        "ut-metadata-end",
+        "ut-missing-by-jurisdiction",
+        "ut-tpl-distinct",
+        "ut-tpl-distinct-simple",
+        "ut-tpl-present",
+        "ut-tpl-present-simple"
+      ],
+      "rights": "Catalog: public access; user assumes risk. Preserve attribution and source caveats; no broader license inferred."
+    },
+    {
+      "id": "organized-parcels",
+      "name": "Organized-town parcel geometry",
+      "publisher": "Maine GeoLibrary / contributing municipalities",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10",
+        "https://www.arcgis.com/home/item.html?id=346131b710a645ffb624f448a9cba6d4"
+      ],
+      "coverage": "708,382 features under 318 recognized status-coded jurisdictions. 3,809 missing STATE_IDs; code/name conflicts retained.",
+      "identifiers": [
+        "GEOCODE",
+        "STATE_ID",
+        "MAP_BK_LOT",
+        "GlobalID"
+      ],
+      "freshness": "FMUPDAT is text: 26,663 null and 79,322 empty; mixed years, YYYYMMDD and M/D/YYYY; also '0' and '20'. Municipality submissions are irregular.",
+      "access": "Complete aggregate coverage, date and key counts; bounded identifier-only join sample.",
+      "limitations": [
+        "Assessment boundaries, not legal surveys.",
+        "Municipal submissions are voluntary and irregular.",
+        "Sweden/Alfred code/name conflicts remain in raw data. STATE_ID prefixes corroborate Sweden reference code only; Alfred remains ambiguous.",
+        "STATE_ID is not unique and includes placeholders; source records must not be silently merged."
+      ],
+      "next_verification": [
+        "See coverage audit README for remaining gates."
+      ],
+      "probe_ids": [
+        "alfred-identifier-prefix",
+        "join-geometry-0",
+        "join-geometry-1",
+        "join-geometry-10",
+        "join-geometry-2",
+        "join-geometry-3",
+        "join-geometry-4",
+        "join-geometry-5",
+        "join-geometry-6",
+        "join-geometry-7",
+        "join-geometry-8",
+        "join-geometry-9",
+        "organized-count",
+        "organized-count-end",
+        "organized-dates",
+        "organized-duplicate-sample",
+        "organized-geocode-map-bk-lot-distinct",
+        "organized-geocode-map-bk-lot-present",
+        "organized-geocode-map-bk-lot-present-simple",
+        "organized-globalid-distinct",
+        "organized-globalid-distinct-simple",
+        "organized-globalid-present",
+        "organized-globalid-present-simple",
+        "organized-join-sample",
+        "organized-join-sample-0",
+        "organized-join-sample-1",
+        "organized-join-sample-2",
+        "organized-join-sample-3",
+        "organized-join-sample-4",
+        "organized-join-sample-5",
+        "organized-jurisdictions",
+        "organized-key-empty",
+        "organized-key-null",
+        "organized-key-space",
+        "organized-metadata",
+        "organized-metadata-end",
+        "organized-missing-by-jurisdiction",
+        "organized-repeated-key-examples",
+        "organized-sample-oids",
+        "organized-state-id-distinct",
+        "organized-state-id-distinct-simple",
+        "organized-state-id-present",
+        "organized-state-id-present-simple",
+        "sweden-identifier-prefix"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "organized-assessment",
+      "name": "Organized-town assessment table",
+      "publisher": "Maine GeoLibrary / municipalities",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9"
+      ],
+      "coverage": "522,253 rows across 211 reported codes. Statewide count and key profile plus bounded 321-key join test completed.",
+      "identifiers": [
+        "STATE_ID",
+        "GEOCODE",
+        "MAP_BK_LOT",
+        "LS_BOOK",
+        "LS_PAGE"
+      ],
+      "freshness": "YEAR_CREAT and source fields exist; row currency not measured.",
+      "access": "Identifiers and aggregates only; no owner fields requested.",
+      "limitations": [
+        "STATE_ID has missing and repeated values; declared one-to-one relation fails in the sample.",
+        "Sample match results are not a statewide match rate.",
+        "Assessment ownership is distinct from title."
+      ],
+      "next_verification": [
+        "See coverage audit README for remaining gates."
+      ],
+      "probe_ids": [
+        "assessment-count",
+        "assessment-count-end",
+        "assessment-date-values",
+        "assessment-dates",
+        "assessment-duplicate-sample",
+        "assessment-geocode-map-bk-lot-distinct",
+        "assessment-geocode-map-bk-lot-present",
+        "assessment-geocode-map-bk-lot-present-simple",
+        "assessment-globalid-distinct",
+        "assessment-globalid-distinct-simple",
+        "assessment-globalid-present",
+        "assessment-globalid-present-simple",
+        "assessment-jurisdictions",
+        "assessment-key-empty",
+        "assessment-key-null",
+        "assessment-key-space",
+        "assessment-metadata",
+        "assessment-metadata-end",
+        "assessment-missing-by-jurisdiction",
+        "assessment-repeated-key-examples",
+        "assessment-state-id-distinct",
+        "assessment-state-id-distinct-simple",
+        "assessment-state-id-present",
+        "assessment-state-id-present-simple",
+        "join-assessment-0",
+        "join-assessment-1",
+        "join-assessment-10",
+        "join-assessment-2",
+        "join-assessment-3",
+        "join-assessment-4",
+        "join-assessment-5",
+        "join-assessment-6",
+        "join-assessment-7",
+        "join-assessment-8",
+        "join-assessment-9"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "civil-boundaries",
+      "name": "Town and township boundary reference",
+      "publisher": "Maine GeoLibrary",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/0",
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons_Dissolved/FeatureServer/0",
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/1"
+      ],
+      "coverage": "933 unique reference codes: 917 with C/T/P/U/R status plus 16 county-island codes. All 917 occur in the civil polygon layer. Dated reference, not current legal-status certification.",
+      "identifiers": [
+        "GEOCODE (undissolved product)",
+        "TOWN",
+        "TYPE",
+        "GlobalID"
+      ],
+      "freshness": "Service edit dates available; legal status and boundaries need appropriate reference dates.",
+      "access": "Code table and complete civil code/type aggregates retrieved and count-reconciled.",
+      "limitations": [
+        "TYPE describes polygon type, not municipal organization.",
+        "Dataset legal-effective dates remain unknown.",
+        "County-island records are excluded explicitly from the 917-code comparison denominator."
+      ],
+      "next_verification": [
+        "See coverage audit README for remaining gates."
+      ],
+      "probe_ids": [
+        "civil-code-types",
+        "civil-count",
+        "civil-count-end",
+        "civil-metadata-document",
+        "civil-service",
+        "geocodes-count",
+        "geocodes-count-end",
+        "geocodes-metadata",
+        "geocodes-policy",
+        "geocodes-records"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    }
+  ]
+}

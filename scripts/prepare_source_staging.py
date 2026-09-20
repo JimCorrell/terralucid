@@ -34,7 +34,7 @@ def jsql(value):
     return literal(canonical(value)) + '::jsonb'
 
 
-def prepare(audit, output):
+def prepare(audit, output, report_path=None):
     # Validate everything in memory before producing a load file.
     objects = {}
 
@@ -114,10 +114,36 @@ def prepare(audit, output):
                     geometries += 1
     if not observations:
         raise ValueError('No recorded responses found')
+    if report_path is not None:
+        report_bytes = report_path.read_bytes()
+        report = json.loads(report_bytes)
+        if report.get('evidence_state') != 'DERIVED':
+            raise ValueError('Audit report must be explicitly DERIVED')
+        method_path = (ROOT / report['method']).resolve()
+        if ROOT not in method_path.parents or method_path.suffix != '.py':
+            raise ValueError('Audit method must be a Python file inside the repository')
+        method_bytes = method_path.read_bytes()
+        if digest(method_bytes) != report['method_sha256']:
+            raise ValueError('Audit method changed; regenerate report')
+        expected_evidence = {}
+        for log in sorted((audit / 'runs').glob('*/results.json')):
+            for record in json.loads(log.read_bytes()):
+                observation = log.parent.name + '/' + record['id']
+                expected_evidence[observation] = dict(record, response_path=(log.parent / record['response_file']).relative_to(audit).as_posix())
+        if report['evidence'] != expected_evidence:
+            raise ValueError('Report evidence differs from source logs; regenerate report')
+        report_sha, report_key = archive(report_bytes)
+        archive(method_bytes)
+        sql.append('INSERT INTO ingest.audit_result '
+                   '(sha256,registry_sha256,evidence_state,method_path,method_sha256,document,storage_bucket,storage_object) VALUES (' +
+                   ','.join([literal(report_sha), literal(registry_sha), literal('DERIVED'),
+                             literal(report['method']), literal(report['method_sha256']), jsql(report),
+                             literal(BUCKET), literal(report_key)]) + ') ON CONFLICT DO NOTHING;')
     sql.append('COMMIT;')
     manifest = {'bucket': BUCKET, 'registry_sha256': registry_sha,
                 'sources': len(source_ids), 'observations': observations,
                 'geometry_samples': geometries, 'outcomes': outcomes,
+                'audit_reports': int(report_path is not None),
                 'objects': {key: {'sha256': digest(data), 'bytes': len(data)}
                             for key, data in sorted(objects.items())}}
     # A fresh destination prevents stale files from entering a later upload.
@@ -145,10 +171,12 @@ def main():
     parser.add_argument('action', choices=['prepare', 'verify'])
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--download', type=Path)
+    parser.add_argument('--audit', type=Path, default=AUDIT)
+    parser.add_argument('--report', type=Path, help='Optional derived audit report to archive and load')
     args = parser.parse_args()
     if args.action == 'verify' and args.download is None:
         parser.error('--download is required for verify')
-    result = prepare(AUDIT, args.output) if args.action == 'prepare' else verify(args.output, args.download)
+    result = prepare(args.audit, args.output, args.report) if args.action == 'prepare' else verify(args.output, args.download)
     print(json.dumps(result, indent=2))
 
 
