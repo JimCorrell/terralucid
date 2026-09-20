@@ -95,3 +95,24 @@ loads in that order. Replay the correction load, then run
 `tests/correction_layer.sql`; its synthetic reviews roll back. Never run that test
 against the live project. Run the Python suite with the existing conflict-analysis
 requirements installed.
+
+## Deployment verification
+
+Verified in the selected Supabase project on 2026-09-20 UTC:
+
+- Migration `20260920040000` applied; the correction load committed atomically.
+- 2,325 snapshot records, 2,324 accepted proposals/events, and one entirely held
+  record. Effective properties contain 2,324 municipality-code changes and 1,595
+  identifier changes; all 119 records with holds retain them.
+- Original staging remains at 2,058 source records and 737 assessment candidates.
+  The findings register remains at 41 findings and 54 review events.
+- New tables have RLS enabled; client access to tables/view and the review function
+  is denied. The previously downloaded 44-object municipal archive passed checksum
+  verification before loading.
+- 29 Python tests passed. Disposable PostgreSQL tests passed the repeated loads,
+  withdrawal/reacceptance, replay-after-withdrawal, stale review, changed snapshot
+  and feature, preserved holds, excluded invalid geometry and immutable-history
+  checks. Synthetic reviews were not run against the live project.
+
+These observations describe this deployment, not ongoing monitoring or evidence
+that source information is current.
