@@ -1,6 +1,6 @@
 # Source-first ingestion plan
 
-The immediate milestone is a verified source registry and an ingestion plan. The [initial audit](../research/maine-sources/README.md) provides 34 recorded access/profile checks and an explicit gap list. The steps below are proposed implementation work, not a finalized schema or infrastructure selection.
+The immediate milestone is a verified source registry and an ingestion plan. The [initial audit](../research/maine-sources/README.md) provides 34 recorded access/profile checks and an explicit gap list. Supabase is now selected, and the [first staging load](supabase-staging.md) preserves that audit. The broader coverage, identity and bulk-ingestion work below remains open.
 
 ## 1. Complete the coverage and identity audit
 
@@ -19,9 +19,9 @@ Start with the civil-boundary reference, MRS parcel geometry, organized-town par
 
 ## 2. Design and implement a minimal source-preserving load
 
-Use the audit to propose the first PostgreSQL/PostGIS staging model and confirm deployment choices. Supabase remains the likely host; this research has not provisioned it.
+Use PostgreSQL/PostGIS on the user-selected Supabase project. The first staging model preserves the existing research audit, exact responses and three geometry samples. It validates storage and traceability while the coverage and identity audit remains open; it does not imply readiness for bulk parcel ingestion.
 
-For each source delivery retain the publisher, source ID, exact URL/query, retrieval time, publisher version/date, response or file checksum, coordinate reference system, terms/caveats and ingestion outcome. Raw snapshots should remain reproducible. Bulk data storage location, retention and refresh cadence are open decisions.
+For each source delivery retain the publisher, source ID, exact URL/query, retrieval time, publisher version/date, response or file checksum, coordinate reference system, terms/caveats and ingestion outcome. Raw snapshots should remain reproducible. Exact research artifacts use a private Supabase Storage bucket. Bulk retention and refresh cadence remain open decisions.
 
 For ArcGIS sources, read live layer metadata, use a stable pagination strategy, honor advertised page limits, detect transfer-limit flags, and reconcile loaded counts. A service count is a control total, not a guarantee of correct or complete legal property data. Service drift during a load requires reconciliation. Preserve source geometries and identifiers; log transformations and geometry repairs.
 
