@@ -4,3 +4,6 @@
 __pycache__/
 *.pyc
 .local/
+
+# Captured third-party documents remain in the private source archive.
+/research/municipal-corroboration/runs/**/*.response

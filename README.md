@@ -11,3 +11,5 @@ The [coverage and identifier audit](research/maine-coverage/README.md) records s
 to the [findings register](docs/findings-register.md) for continuing follow-up.
 
 The [first conflict investigation](research/conflict-investigation/README.md) traces Sweden, Alfred and smaller name differences to spatial and assessment evidence.
+
+[Municipal corroboration and proposed corrections](research/municipal-corroboration/README.md) add dated map evidence, explicit exception holds, and a native-ring diagnosis.

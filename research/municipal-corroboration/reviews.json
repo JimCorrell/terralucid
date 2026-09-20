@@ -1,0 +1,52 @@
+{
+  "reviews": [
+    {
+      "finding_id": "TL-F-0002",
+      "status": "in_progress",
+      "priority": "high",
+      "next_action": "Review the 691 snapshot-specific Sweden jurisdiction proposals, then implement explicit acceptance/projection while retaining unmatched and shared-candidate flags.",
+      "note": "Municipal publication chain and map context corroborate Sweden. Prepared 691 proposed GEOCODE changes from 17290 to 17310, bound to exact source checksums. Per-record municipal verification and canonical parcel identity are not asserted. Raw data and prior reviews remain unchanged.",
+      "report_pointer": "/crosswalk"
+    },
+    {
+      "finding_id": "TL-F-0003",
+      "status": "in_progress",
+      "priority": "high",
+      "next_action": "Review 1633 Alfred jurisdiction proposals and 1595 identifier proposals; retain 38 unmatched identifier cases and the original invalid-geometry case pending separate review.",
+      "note": "Town-published 2026 maps corroborate Alfred map context. Prepared 1633 proposed GEOCODE changes and 1595 STATE_ID prefix proposals with matching assessment map/lot evidence. The additional original-invalid record is excluded even though its native format can be decoded validly. Proposals remain unaccepted.",
+      "report_pointer": "/crosswalk"
+    },
+    {
+      "finding_id": "TL-F-0010",
+      "status": "in_progress",
+      "priority": "high",
+      "next_action": "Reconcile GIS features sharing Sweden R01-24-0 and U08-18-A against assessor records or source map geometry before merging or declaring one-to-one identity.",
+      "note": "Sweden R-1 visibly labels lot 24, while U-8 shows both 18 and 18A. These map labels do not establish why three and two GIS features respectively share one identifier. Five shared-candidate rows retain their exception flags.",
+      "report_pointer": "/document_review"
+    },
+    {
+      "finding_id": "TL-F-0022",
+      "status": "in_progress",
+      "priority": "high",
+      "next_action": "Review explicit native-ring decoding for Alfred 439584, then test a separately versioned geometry interpretation in ingestion; keep original GeoJSON and revisit other invalid cases independently.",
+      "note": "DERIVED: current native ArcGIS rings have two clockwise exteriors and one counterclockwise hole. The hole equals feature 439585 (4-25-2). GeoJSON exports the same ring as an extra filled polygon, producing nested shells. Explicit native decoding is valid and has zero area overlap with the inset. The municipal map depicts lot 25-2 within 25. No stored geometry was repaired.",
+      "report_pointer": "/geometry_format_evidence"
+    },
+    {
+      "finding_id": "TL-F-0023",
+      "status": "in_progress",
+      "priority": "high",
+      "next_action": "Review the Sweden jurisdiction proposal before using normalized code comparisons; keep candidate identity and multiplicity review separate.",
+      "note": "A source-version-specific GEOCODE proposal now exists for Sweden with municipal context and prior deterministic evidence. It is not applied, and the 616 raw candidate-code disagreements remain preserved.",
+      "report_pointer": "/crosswalk"
+    },
+    {
+      "finding_id": "TL-F-0024",
+      "status": "open",
+      "priority": "medium",
+      "next_action": "Establish publication lineage and obtain appropriately dated source snapshots before treating these corrected historical codes as current parcel data. Preserve printed revision precision separately from filenames and base dates.",
+      "note": "DERIVED from direct document observations and captured source fields: Sweden GIS is dated 4/1/2011 and Alfred GIS 2013. Alfred town maps print April 1, 2026, while its provider 2025 index prints April 1, 2024. Sweden Overall prints April 2021; other reviewed Sweden sheets show a 1972 publisher/base label without an established current revision date. Filename years are not accepted as effective dates.",
+      "report_pointer": "/source_dates"
+    }
+  ]
+}

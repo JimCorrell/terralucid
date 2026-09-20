@@ -1,0 +1,14 @@
+[
+  {
+    "id": "alfred-geojson-recheck",
+    "source_id": "organized-parcels",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=geojson&objectIds=439584%2C439585&outFields=OBJECTID%2CGlobalID%2CGEOCODE%2CTOWN%2CSTATE_ID%2CMAP_BK_LOT%2CFMUPDAT&returnGeometry=true&outSR=4326",
+    "purpose": "Compare current GeoJSON output with native ArcGIS rings for identical object IDs"
+  },
+  {
+    "id": "esri-ring-specification",
+    "source_id": "esri-geometry-spec",
+    "url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+    "purpose": "Publisher format specification for exterior and interior ring orientation"
+  }
+]

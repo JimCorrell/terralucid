@@ -1,0 +1,114 @@
+{
+  "as_of": "2026-09-20T01:49:41.357316+00:00",
+  "scope": "Municipal corroboration and snapshot-specific correction proposals, not accepted canonical parcel joins.",
+  "sources": [
+    {
+      "id": "alfred-municipal",
+      "name": "Alfred Municipal",
+      "publisher": "Town of Alfred and town-linked assessor",
+      "limitations": [
+        "Document publication is not legal boundary certification."
+      ],
+      "rights": "Publicly accessible research evidence; broader redistribution/reuse rights not established.",
+      "source_urls": [
+        "https://www.alfredme.gov/document_center/assessors_data/Index.pdf?t=202608121313370",
+        "https://www.alfredme.gov/document_center/assessors_data/TAX%20MAPS%202026%208.pdf?t=202608121318330",
+        "https://www.alfredme.gov/document_center/assessors_data/TAX%20MAPS%202026%2014.pdf?t=202608121321210",
+        "https://jeo-cama-files.s3.amazonaws.com/alfred/Alfred%202025%20Index.pdf",
+        "https://www.alfredme.gov/forms_and_documents/assessors_data/tax_maps.php",
+        "https://jeodonnell.com/cama/alfred/"
+      ],
+      "probe_ids": [
+        "alfred-town-index",
+        "alfred-town-map4",
+        "alfred-town-map10",
+        "alfred-provider-index",
+        "alfred-town-maps",
+        "alfred-assessor"
+      ],
+      "access_status": "documents_tested",
+      "coverage": "Bounded municipal corroboration; see document review and report.",
+      "freshness": "Preserve document labels, printed revision dates and retrieval times separately."
+    },
+    {
+      "id": "sweden-municipal",
+      "name": "Sweden Municipal",
+      "publisher": "Town of Sweden and town-linked assessor",
+      "limitations": [
+        "Document publication is not legal boundary certification."
+      ],
+      "rights": "Publicly accessible research evidence; broader redistribution/reuse rights not established.",
+      "source_urls": [
+        "https://jeo-cama-files.s3.amazonaws.com/sweden/Sweden%202025%20Index.pdf",
+        "https://jeo-cama-files.s3.amazonaws.com/sweden/Sweden%202025%20Overall.pdf",
+        "https://jeo-cama-files.s3.amazonaws.com/sweden/Sweden%202025%20R01.pdf",
+        "https://jeo-cama-files.s3.amazonaws.com/sweden/Sweden%202025%20U08.pdf",
+        "https://swedenmaine.org/access-tax-records/",
+        "https://jeodonnell.com/cama/sweden/"
+      ],
+      "probe_ids": [
+        "sweden-provider-index",
+        "sweden-provider-overall",
+        "sweden-provider-r01",
+        "sweden-provider-u08",
+        "sweden-town-assessing",
+        "sweden-assessor"
+      ],
+      "access_status": "documents_tested",
+      "coverage": "Bounded municipal corroboration; see document review and report.",
+      "freshness": "Preserve document labels, printed revision dates and retrieval times separately."
+    },
+    {
+      "id": "organized-parcels",
+      "name": "Organized-town parcel geometry",
+      "publisher": "Maine GeoLibrary / contributing municipalities",
+      "access_status": "query_tested",
+      "source_urls": [
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=geojson&objectIds=439584%2C439585&outFields=OBJECTID%2CGlobalID%2CGEOCODE%2CTOWN%2CSTATE_ID%2CMAP_BK_LOT%2CFMUPDAT&returnGeometry=true&outSR=4326",
+        "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&objectIds=439584%2C439585&outFields=OBJECTID%2CGlobalID%2CGEOCODE%2CTOWN%2CSTATE_ID%2CMAP_BK_LOT%2CFMUPDAT&returnGeometry=true&outSR=4326"
+      ],
+      "coverage": "Bounded municipal corroboration; see document review and report.",
+      "identifiers": [
+        "GEOCODE",
+        "STATE_ID",
+        "MAP_BK_LOT",
+        "GlobalID"
+      ],
+      "freshness": "Preserve document labels, printed revision dates and retrieval times separately.",
+      "access": "Public ArcGIS query/GeoJSON; advertised page limit 2,000; count, groups and one geometry tested.",
+      "limitations": [
+        "14 features have blank GEOCODE/TOWN/COUNTY.",
+        "Layer edit timestamp is not each parcel's update date.",
+        "STATE_ID relationship exists but uniqueness and match rate are untested.",
+        "Observed GEOCODE/name conflicts: 17290 is used for Stow and Sweden; 31030 for Alfred and Arundel. Civil-reference reconciliation is required."
+      ],
+      "next_verification": [
+        "Validate STATE_ID uniqueness and ADB join cardinality.",
+        "Build a jurisdiction-level coverage and freshness inventory; retain raw date plus precision."
+      ],
+      "probe_ids": [
+        "alfred-geojson-recheck",
+        "alfred-native-rings"
+      ],
+      "rights": "No redistribution license established in this pass; review publisher terms before bulk redistribution."
+    },
+    {
+      "id": "esri-geometry-spec",
+      "name": "Esri Geometry Spec",
+      "publisher": "Esri",
+      "limitations": [
+        "Document publication is not legal boundary certification."
+      ],
+      "rights": "Publicly accessible research evidence; broader redistribution/reuse rights not established.",
+      "source_urls": [
+        "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/"
+      ],
+      "probe_ids": [
+        "esri-ring-specification"
+      ],
+      "access_status": "documents_tested",
+      "coverage": "Bounded municipal corroboration; see document review and report.",
+      "freshness": "Preserve document labels, printed revision dates and retrieval times separately."
+    }
+  ]
+}
