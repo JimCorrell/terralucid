@@ -120,3 +120,11 @@ correction/event and screening-history fingerprints match before/after. The
 The bucket is private and checked client access remains denied. All 54 Python
 tests pass, including the same-name mask isolation test; the report reproduces
 byte-for-byte.
+
+## Later purpose investigation
+
+The [base-panel and final-notice comparison](../fema-mask-purpose/README.md) finds
+similar blanking on the 2016 base panel. Legacy carry-forward is a supported
+hypothesis, not a confirmed explanation. Historical revision finalization is
+independently corroborated; the mask's intent and specific covered graphics remain
+unqualified. This follow-up preserves the report and observations above.

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "base-panel-0443",
+    "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=FINAL_PRODUCT&productSubTypeID=FIRM_PANEL&productID=23009C0443D",
+    "retrieved_at": "2026-09-20T23:24:52.421066+00:00",
+    "http_status": 200,
+    "final_url": "https://map1.msc.fema.gov/bundle/23009C0443D.zip?LOC=cddfedab46e74c6d494e347379725540",
+    "content_type": "application/zip",
+    "response_file": "base-panel-0443.response",
+    "sha256": "704e6516d99589892837ac420cda9c8964ef422eb7b3c194c2d7a2184c7d4f19",
+    "bytes": 7806262,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "final-notice",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2024-06-14/pdf/2024-13142.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-20T23:24:55.955499+00:00",
+    "http_status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/FR-2024-06-14/pdf/2024-13142.pdf",
+    "content_type": "application/pdf",
+    "response_file": "final-notice.response",
+    "sha256": "96c1845500a6b2b40b4f106be4c17c4601dcbbf91e54633de8fb699dd7904260",
+    "bytes": 217731,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "nfhl-guidance",
+    "url": "https://www.fema.gov/sites/default/files/documents/fema_national-flood-hazard-layer_112021.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-20T23:24:56.611421+00:00",
+    "http_status": 403,
+    "final_url": "https://www.fema.gov/sites/default/files/documents/fema_national-flood-hazard-layer_112021.pdf",
+    "content_type": "text/html",
+    "response_file": "nfhl-guidance.response",
+    "sha256": "67420f5ddfa4489911567afdfbe6e43f8b8dc7ed3454c374ef5924d06bd840ab",
+    "bytes": 479,
+    "status": "HTTP_ERROR",
+    "pdf_signature": false
+  }
+]

@@ -46,3 +46,9 @@ explains that blank region: an opaque PDF MASK layer covers existing hazard
 graphics. Preserve the published display and label any layer-hidden diagnostic
 view. Mask purpose and regulatory status remain unknown; inspecting hidden
 content does not establish adoption or authorize a replacement map.
+
+The [mask-purpose follow-up](../research/fema-mask-purpose/README.md) finds a similar
+blank area on the 2016 base panel and independently corroborates the 2024 revision's
+finalization. Carry-forward of an older mask is INFERRED; its intended purpose and
+the status of specific covered graphics remain UNKNOWN. Publisher questions are
+prepared but unsent. Do not treat blank display as absence of flood hazard.
