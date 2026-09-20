@@ -1,0 +1,24 @@
+{
+  "scope":"Osborn LUPC incorporation of FEMA case 22-01-0871P; publication review, not a parcel-specific legal determination",
+  "documents":[
+    {"source":"publication/zp796-probe","pdf_pages":[1,2,3,4,10],"evidence_state":"VERIFIED","observations":["The signed ZP 796 decision dated July 17, 2024 approves clerical map-note corrections effective August 1, 2024. Finding 5 states existing zoning remains unchanged; Osborn is included in the FIS/FIRM community list in finding 13.","Findings 8-11 describe adoption by map note and distinguish FIRM-only communities from county FIS/FIRM communities. The county example cites the 2016 Hancock FIS. The approved action corrects note wording; it does not establish adoption of the specific May 2024 Osborn LOMR."]},
+    {"source":"publication/osborn-map","pdf_pages":[1],"evidence_state":"VERIFIED","observations":["The captured map is byte-identical to the prior reviewed map. Its note references the July 20, 2016 Hancock FIS and accompanying FIRM; its August 1, 2024 amendment is labeled a clerical correction."]},
+    {"source":"procedure/chapter-4","pdf_pages":[49],"printed_pages":[45],"evidence_state":"VERIFIED","observations":["Section 4.08,B,2,b permits staff handling of routine proposals to adopt new or amended FEMA maps. Delegated authority is not evidence that staff adopted this particular LOMR; a missing Commission agenda item would not establish non-adoption."]},
+    {"source":"prior:research/lupc-currency/runs/publication/chapter-10.response","pdf_pages":[133,251],"printed_pages":[125,243],"evidence_state":"VERIFIED","observations":["Section 10.23,C,2 identifies FEMA SFHA Zones A, AE and VE and requires an adoption note on the official map. FEMA boundaries also apply where they differ from Commission-mapped P-FP boundaries.","Section 10.25,T,1,d expressly addresses a LOMA/LOMR determining that a specified structure or property is outside the SFHA. This removal provision is not evidence that every hazard-adding LOMR is automatically incorporated. Broader flood-prone-area provisions still require consideration."]},
+    {"source":"publication/flood-rule-basis","pdf_pages":[1,2],"evidence_state":"VERIFIED","observations":["The February 12, 2025 adopted basis statement describes updates to flood development standards and NFIP consistency. Its stated purpose is not a determination adopting Osborn case 22-01-0871P."]},
+    {"source":"procedure/incorporation-reference","evidence_state":"VERIFIED","observations":["LUPC's explanatory page says incorporation by reference identifies title, version and publication date. It supplies process context, not an Osborn-specific interpretation of a later LOMR."]}
+  ],
+  "conclusion":{
+    "zp796_scope":"VERIFIED clerical text correction with existing zoning retained; not evidence of a new hazard-boundary adoption",
+    "fema_revision_finalization":"Previously corroborated federal finalization remains distinct from LUPC incorporation",
+    "lupc_incorporation_of_22_01_0871p":"UNKNOWN; reviewed evidence does not resolve whether the existing adoption reference includes this later LOMR or whether a separate action controls",
+    "non_adoption":"NOT ESTABLISHED; absence of a located adoption record is not proof the revision is inapplicable",
+    "zone_x_crosswalk":"Do not automatically translate the pending 0.2-percent Zone X polygons into P-FP. The quoted FEMA SFHA list names A, AE and VE; independent LUPC designations and broader flood-prone-area rules remain relevant.",
+    "downstream":"Retain versioned FEMA hazards for qualified source analysis with LUPC applicability UNKNOWN. No legal P-FP overlay, flood clearance, geometry acceptance or screening recalculation follows from this review."
+  },
+  "search_scope":{
+    "routes":["Official Osborn map and current Chapter 10 index","Signed-permit path probe for ZP 796, confirmed as the signed decision by retrieved content","Commission calendar archive and August 2024 agenda","Official Chapter 4 index and delegation text","2025 flood-rule basis statement and incorporation-reference page"],
+    "limits":["Not an exhaustive search of every staff decision, correspondence, minute or later amendment.","The five-year report retrieval returned HTTP 502; its search snippet is discovery context only and is not used as substantive evidence.","No publisher contact or formal advisory ruling requested.","The FEMA PDF mask remains a separate unresolved presentation question."]
+  },
+  "next_action":"Ask LUPC for the controlling record or written interpretation for Osborn CID 230595 and case 22-01-0871P, including whether the 2016 reference incorporates this LOMR and the applicable effective date. Preserve the answer and distinguish it from the FEMA mask inquiry."
+}

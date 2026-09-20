@@ -1,0 +1,93 @@
+[
+  {
+    "id": "rules-index",
+    "url": "https://www.maine.gov/dacf/lupc/laws_rules/ch10.html",
+    "retrieved_at": "2026-09-20T23:37:45.544035+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/laws_rules/ch10.html",
+    "content_type": "text/html",
+    "response_file": "rules-index.response",
+    "sha256": "2ffa765a52742487a028f6620df211e0ebee8935931dcab7aa1bfaf87dba90ef",
+    "bytes": 20159,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "osborn-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf",
+    "retrieved_at": "2026-09-20T23:37:45.856054+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/osborn.pdf",
+    "content_type": "application/pdf",
+    "response_file": "osborn-map.response",
+    "sha256": "9de0a5f83415be0433e57d62aba24382dfe71a51ea938a56af595b11fc046beb",
+    "bytes": 2721897,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "zp796-probe",
+    "url": "https://www.maine.gov/dacf/lupc/signedpermits/zp796.pdf",
+    "retrieved_at": "2026-09-20T23:37:46.580720+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/signedpermits/zp796.pdf",
+    "content_type": "application/pdf",
+    "response_file": "zp796-probe.response",
+    "sha256": "99b5fffd32db59f318549b136da8c6507446beb547e9321f7af173a072ecd25f",
+    "bytes": 884293,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "august-2024-agenda",
+    "url": "https://www.maine.gov/tools/whatsnew/attach.php?an=1&id=12914495",
+    "retrieved_at": "2026-09-20T23:37:47.126083+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/tools/whatsnew/attach.php?an=1&id=12914495",
+    "content_type": "application/pdf",
+    "response_file": "august-2024-agenda.response",
+    "sha256": "fb5ccb1e959459166c29cc1a8a497b6f9208575053c1ebbc87f8fa3fd76a3131",
+    "bytes": 188248,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "five-year-report",
+    "url": "https://www1.maine.gov/dacf/lupc/projects/location_of_development/reports/AdjSub_5Yr_Report_Final4-2-2026.pdf",
+    "retrieved_at": "2026-09-20T23:37:47.607809+00:00",
+    "http_status": 502,
+    "final_url": "https://www1.maine.gov/dacf/lupc/projects/location_of_development/reports/AdjSub_5Yr_Report_Final4-2-2026.pdf",
+    "content_type": "text/html",
+    "response_file": "five-year-report.response",
+    "sha256": "880c929020d4b79bf1995656d21d9a6859aab3a9460f941eb0b1a6e5502ee4cc",
+    "bytes": 122,
+    "status": "HTTP_ERROR",
+    "pdf_signature": false
+  },
+  {
+    "id": "flood-rule-basis",
+    "url": "https://www.maine.gov/dacf/lupc/laws_rules/proposed_rules/chapter10/flood/BasisStatement.pdf",
+    "retrieved_at": "2026-09-20T23:37:47.970373+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/laws_rules/proposed_rules/chapter10/flood/BasisStatement.pdf",
+    "content_type": "application/pdf",
+    "response_file": "flood-rule-basis.response",
+    "sha256": "8fa7697ccf68e686f3b746d62628d0a57c20a2492fb94ef2936ce10fd891dfff",
+    "bytes": 238042,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "calendar-archive",
+    "url": "https://www.maine.gov/dacf/lupc/about/calendar/calendar_archive.shtml",
+    "retrieved_at": "2026-09-20T23:37:48.452974+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/about/calendar/calendar_archive.shtml",
+    "content_type": "text/html",
+    "response_file": "calendar-archive.response",
+    "sha256": "195a898a0951238ffedbf6873543bc35696b470ba22d69f93df2cf9aa2ca6f26",
+    "bytes": 65781,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

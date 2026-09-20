@@ -52,3 +52,9 @@ blank area on the 2016 base panel and independently corroborates the 2024 revisi
 finalization. Carry-forward of an older mask is INFERRED; its intended purpose and
 the status of specific covered graphics remain UNKNOWN. Publisher questions are
 prepared but unsent. Do not treat blank display as absence of flood hazard.
+
+The [LUPC flood-adoption review](../research/osborn-flood-adoption/README.md)
+retrieves signed ZP 796: the August 2024 map change corrected text while retaining
+existing zoning. Incorporation of FEMA case 22-01-0871P remains UNKNOWN; neither
+adoption nor non-adoption follows from the available dates. Keep FEMA hazard class,
+LUPC applicability and the mask question separate; do not equate all Zone X with P-FP.
