@@ -85,3 +85,12 @@ results and flag them for review after input/correction changes. Treat missing
 municipal digital coverage and omitted rule-based protections as explicit unknowns;
 no PDF-derived zoning boundaries or legal buildability conclusions are introduced.
 See [the pilot report](../research/zoning-ingestion/README.md).
+
+## Reviewed zoning geometry acceptance
+
+After merged PR #11, the user authorized an append-only geometry correction layer,
+acceptance of the exact reviewed Osborn shell/hole decoding, and versioned
+recomputation. Default downstream zoning analysis to the accepted geometry view
+and latest screening view with explicit staleness checks. Preserve original
+features, historical results, DERIVED evidence, projection caveats and unknown
+legal currency. See [geometry correction policy](zoning-geometry-corrections.md).
