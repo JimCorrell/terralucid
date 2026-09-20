@@ -1,0 +1,67 @@
+[
+  {
+    "id": "boundary-statute",
+    "url": "https://www.legislature.maine.gov/statutes/12/title12sec685-A.html",
+    "retrieved_at": "2026-09-20T21:03:34.358467+00:00",
+    "http_status": 200,
+    "final_url": "https://www.legislature.maine.gov/statutes/12/title12sec685-A.html",
+    "content_type": "text/html",
+    "response_file": "boundary-statute.response",
+    "sha256": "b3a0e1463e75326c991d4fe8014316b2129b07bbfd75329ecc367a2875fd0aa1",
+    "bytes": 54562,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "published-ids",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/4/query?where=MAP%3D%27osborn%27&returnIdsOnly=true&f=json",
+    "retrieved_at": "2026-09-20T21:03:34.882169+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/4/query?where=MAP%3D%27osborn%27&returnIdsOnly=true&f=json",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "published-ids.response",
+    "sha256": "cfbbf22e3a98a300ece25170de7aa7f23c8cf4db805c9d6379dd085455ee720d",
+    "bytes": 2375,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "published-attributes",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/4/query?where=MAP%3D%27osborn%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultRecordCount=2000&f=json",
+    "retrieved_at": "2026-09-20T21:03:36.077345+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/4/query?where=MAP%3D%27osborn%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultRecordCount=2000&f=json",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "published-attributes.response",
+    "sha256": "b0961c86aaafa6da529e5d4e18239d8b496916d62e5f0cd1da86f7ec4f8da51c",
+    "bytes": 196053,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "offline-ids",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?where=MAP%3D%27osborn%27&returnIdsOnly=true&f=json",
+    "retrieved_at": "2026-09-20T21:03:37.376013+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?where=MAP%3D%27osborn%27&returnIdsOnly=true&f=json",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "offline-ids.response",
+    "sha256": "90ac420c2896609621d187c915e2cb614befbb1c2d95bedef37065e56ab41dd6",
+    "bytes": 3493,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "offline-attributes",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?where=MAP%3D%27osborn%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultRecordCount=2000&f=json",
+    "retrieved_at": "2026-09-20T21:04:02.834448+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?where=MAP%3D%27osborn%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultRecordCount=2000&f=json",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "offline-attributes.response",
+    "sha256": "8f26561079958cd03d474da1fd5ce85cffd50c4be84ea19bb4d1a6b500fc91da",
+    "bytes": 194526,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

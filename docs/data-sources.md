@@ -14,3 +14,13 @@ The table below preserves the category inventory from the design discussion. The
 | Utilities and listings | Provider information and listing sources | Coverage and claims may be incomplete or stale; corroborate material claims. |
 
 Actual septic suitability requires site-specific evaluation. Recorded deed descriptions or survey plans may support boundary analysis, but any reconstructed geometry remains distinct from a licensed survey.
+
+## LUPC qualification follow-up
+
+The [TL-F-0109 investigation](../research/lupc-currency/README.md) distinguishes
+Osborn's map amendments, service update label and current published rule edition.
+Matching digital attributes do not establish legal currency. Keep flood, wetland,
+shoreland and physical-boundary dependencies explicit; complete polygon coverage
+does not establish complete regulatory coverage. TL-F-0109 remains in progress.
+The next proposed source qualification is the FEMA evidence referenced by Osborn's
+map, before any additional screening overlay or legal zoning conclusion.

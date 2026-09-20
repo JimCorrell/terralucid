@@ -17,3 +17,5 @@ __pycache__/
 /research/zoning-geometry-correction/analysis-inputs.json
 
 /research/osborn-projection/runs/**/*.response
+
+/research/lupc-currency/runs/**/*.response
