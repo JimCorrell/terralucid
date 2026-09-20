@@ -1,0 +1,30 @@
+[
+  {
+    "id": "availability-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/0/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true"
+  },
+  {
+    "id": "panels-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/3/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true"
+  },
+  {
+    "id": "lomr-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/1/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true"
+  },
+  {
+    "id": "loma-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/34/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true"
+  },
+  {
+    "id": "hazards-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true"
+  },
+  {
+    "id": "hancock-study",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/41/query?where=DFIRM_ID%3D%2723009C%27&outFields=%2A&returnGeometry=false&f=json"
+  },
+  {
+    "id": "osborn-loma-by-cid",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/34/query?where=CID%3D%27230595%27&outFields=%2A&returnGeometry=false&f=json"
+  }
+]

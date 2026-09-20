@@ -1,0 +1,48 @@
+{
+  "new_findings": [
+    {
+      "finding_id": "TL-F-0026",
+      "title": "Invalid FEMA flood-zone geometry in Osborn capture",
+      "description": "Two native NAD83 GeoJSON flood-zone polygons fail ring validity in the bounded Osborn NFHL capture. Originals are preserved and excluded from intersection/area calculations pending source-native and map corroboration.",
+      "source_ids": [
+        "flood"
+      ],
+      "scope": {
+        "community": "Osborn",
+        "CID": "230595",
+        "layer": 28,
+        "OBJECTIDs": [
+          27129510,
+          27129583
+        ]
+      },
+      "evidence_state": "DERIVED"
+    }
+  ],
+  "reviews": [
+    {
+      "finding_id": "TL-F-0026",
+      "status": "open",
+      "priority": "high",
+      "report_pointer": "/hazards/invalid_features",
+      "next_action": "Compare the two invalid polygons with native Esri service geometry and the 2024 annotated map evidence. Investigate representation versus source topology; propose a correction only with evidence and retain a hold meanwhile.",
+      "note": "Original coordinates and attributes archived; no automatic repair or parcel clearance. Exact validity diagnostics and source IDs retained in this audit."
+    },
+    {
+      "finding_id": "TL-F-0105",
+      "status": "in_progress",
+      "priority": "medium",
+      "report_pointer": "/document_review",
+      "next_action": "Resolve TL-F-0026; reconcile the boundary-sensitive neighboring LOMR and amendment coverage before bounded parcel screening. Broader Maine coverage remains unqualified.",
+      "note": "Qualified Osborn hazard, availability, panels, revisions and study metadata; verified 2024 LOMR effective date against the original determination and reconciled 1503 captured IDs. Historical 2016 no-SFHA statements are not current clearance. Preserve separate catalog issue/effective clocks."
+    },
+    {
+      "finding_id": "TL-F-0109",
+      "status": "in_progress",
+      "priority": "medium",
+      "report_pointer": "/qualification",
+      "next_action": "Confirm LUPC treatment of the May 31, 2024 FEMA revision and current Osborn map/amendment history; continue wetland/hydrography and ground-boundary qualification.",
+      "note": "FEMA letter revises five Osborn panels and adds mapped hazard areas without revising the 2016 FIS report. This resolves a FEMA evidence dependency but does not establish LUPC legal currency, adoption or parcel applicability. Existing zoning screenings and holds unchanged."
+    }
+  ]
+}

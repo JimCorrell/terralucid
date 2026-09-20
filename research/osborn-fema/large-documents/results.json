@@ -1,0 +1,15 @@
+[
+  {
+    "id": "osborn-lomr-document",
+    "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=LOMC&productSubTypeID=LOMR&productID=22-01-0871P-230595",
+    "retrieved_at": "2026-09-20T21:22:09.443632+00:00",
+    "http_status": 200,
+    "final_url": "https://map1.msc.fema.gov/mipdata/22-01-0871P-230595.pdf?LOC=17d6746ea315852081764b86852926ef",
+    "content_type": "application/pdf",
+    "response_file": "osborn-lomr-document.response",
+    "sha256": "fcef7a0a0838e02a45ded5ab071078e5f4938ae02c2849b4bd1639bfb333320b",
+    "bytes": 53028043,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  }
+]

@@ -61,3 +61,8 @@ Osborn zoning polygon excluded from calculations, and appends evidence/reviews t
 TL-F-0109 (LUPC qualification) and TL-F-0110 (municipal qualification). Its new
 finding definition is in `research/zoning-ingestion/findings-plan.json`; the
 original seed catalog remains unchanged.
+
+The [Osborn FEMA qualification](../osborn-fema/README.md) adds **TL-F-0026** for two
+invalid FEMA flood-zone polygons. Its definition and initial review are in
+`research/osborn-fema/findings-plan.json`. TL-F-0105 and TL-F-0109 receive additional
+evidence and remain in progress; no geometry correction is accepted in this step.

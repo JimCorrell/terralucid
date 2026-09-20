@@ -1,0 +1,10 @@
+[
+  {
+    "id": "osborn-jurisdiction",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/22/query?where=ST_FIPS%3D%2723%27+AND+%28UPPER%28POL_NAME1%29+LIKE+%27%25OSBORN%25%27+OR+UPPER%28POL_NAME2%29+LIKE+%27%25OSBORN%25%27%29&outFields=%2A&returnGeometry=true&outSR=4269&f=json"
+  },
+  {
+    "id": "msc-products-page",
+    "url": "https://msc.fema.gov/portal/advanceSearch"
+  }
+]

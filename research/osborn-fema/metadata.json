@@ -1,0 +1,35 @@
+[
+  {
+    "id": "availability-metadata",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/0?f=pjson"
+  },
+  {
+    "id": "panels-metadata",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/3?f=pjson"
+  },
+  {
+    "id": "lomr-metadata",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/1?f=pjson"
+  },
+  {
+    "id": "loma-metadata",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/34?f=pjson"
+  },
+  {
+    "id": "jurisdictions-metadata",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/22?f=pjson"
+  },
+  {
+    "id": "hazards-metadata",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28?f=pjson"
+  },
+  {
+    "id": "study-metadata",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/41?f=pjson"
+  },
+  {
+    "id": "hancock-determination",
+    "url": "https://www.maine.gov/dacf/lupc/projects/fema/map_adoption/LettersOfFinalDetermination_Hancock.pdf",
+    "format": "pdf"
+  }
+]

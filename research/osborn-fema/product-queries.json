@@ -1,0 +1,22 @@
+[
+  {
+    "id": "osborn-lomr-document",
+    "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=LOMC&productSubTypeID=LOMR&productID=22-01-0871P-230595"
+  },
+  {
+    "id": "fis-volume-1",
+    "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=FINAL_PRODUCT&productSubTypeID=FIS_REPORT&productID=23009CV001A"
+  },
+  {
+    "id": "fis-volume-2",
+    "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=FINAL_PRODUCT&productSubTypeID=FIS_REPORT&productID=23009CV002A"
+  },
+  {
+    "id": "firm-index-1",
+    "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=FINAL_PRODUCT&productSubTypeID=FIRM_PANEL_INDEX&productID=23009CIND1A"
+  },
+  {
+    "id": "firm-index-2",
+    "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=FINAL_PRODUCT&productSubTypeID=FIRM_PANEL_INDEX&productID=23009CIND2A"
+  }
+]

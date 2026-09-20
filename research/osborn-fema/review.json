@@ -1,0 +1,102 @@
+{
+  "scope": "Osborn FEMA source qualification: NFHL features intersecting the FEMA jurisdiction envelope, then deterministic jurisdiction intersections. Hancock catalog context; no statewide ingestion or parcel flood determination.",
+  "review_method": "Manual visual inspection of listed PDF pages and index image, with text extraction as navigation; no automated legal interpretation.",
+  "documents": [
+    {
+      "evidence_ref": "large-documents/osborn-lomr-document",
+      "sha256": "fcef7a0a0838e02a45ded5ab071078e5f4938ae02c2849b4bd1639bfb333320b",
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "observations": [
+        "Determination identifies Osborn CID 230595, case 22-01-0871P; issued January 8, 2024, effective May 31, 2024. Other affected communities include Waltham and Eastbrook.",
+        "Page 1 revises five July 20, 2016 panels: 23009C0437D, 23009C0439D, 23009C0443D, 23009C0606D, 23009C0630D. No revision to the FIS report.",
+        "Page 1 describes increases from unshaded Zone X to Zone A and shaded Zone X for named river/tributary reaches. This is the letter summary, not a computed parcel-level before/after comparison.",
+        "Page 4 says FEMA will not physically revise or republish the base FIRM at this time; the annotated maps accompany the letter.",
+        "Pages 6\u201310 are annotated panel enclosures in the above order. They show revised areas and Zone A/Zone X markings; neighboring case footprints appear as well. No tracing or geometry correction was performed."
+      ],
+      "verification_scope": "VERIFIED publication contents; not parcel applicability or complete legal status."
+    },
+    {
+      "evidence_ref": "products/fis-volume-1",
+      "sha256": "76740a246743cc12b1289a06d3ae5fa762e781fb6e95f309ef7cecb45a932ab8",
+      "pdf_pages": [
+        20,
+        75
+      ],
+      "observations": [
+        "2016 FIS Table 1 (printed page 14) lists Osborn CID 230595 with 13 panels; eight are not printed. Footnote says no Special Flood Hazard Areas identified.",
+        "Table 3 (printed page 69) reports Osborn Zone X. These are historical study contents and do not establish current absence of hazards after the 2024 revision."
+      ],
+      "verification_scope": "VERIFIED publication contents; not parcel applicability or complete legal status."
+    },
+    {
+      "evidence_ref": "products/fis-volume-2",
+      "sha256": "5508b2fde1e4010b517b450a6878a604cdb18e3d568e4511a494c24ba4fe061b",
+      "pdf_pages": [
+        98
+      ],
+      "observations": [
+        "Table 28 (printed page 179) records Osborn initial FIRM July 20, 2016 and no revision at that time, with no-SFHA footnote. Historical study, not current revision history."
+      ],
+      "verification_scope": "VERIFIED publication contents; not parcel applicability or complete legal status."
+    },
+    {
+      "evidence_ref": "products/firm-index-1",
+      "sha256": "b1cf6fa91bb6f6d342bcc91879f820a23a7780c78943baba50b0bb94826071e9",
+      "pdf_pages": [],
+      "observations": [
+        "Visual inspection of index sheet 1 shows Osborn CID 230595 and panel grid. Index effective date July 20, 2016; asterisks mark panels not printed because no SFHA identified in that publication."
+      ],
+      "verification_scope": "VERIFIED publication contents; not parcel applicability or complete legal status.",
+      "image_review": true
+    },
+    {
+      "evidence_ref": "prior:research/lupc-currency/runs/publication/chapter-10.response",
+      "sha256": "167196d1e19ddc9c02e8b7f2b0921049ce5609cdbee2eecef38f1d93365ef274",
+      "pdf_pages": [
+        389
+      ],
+      "observations": [
+        "Appendix E is RESERVED in the captured 2026-04-06 rule edition; it supplies no Osborn adoption table. Prior qualification reviewed section 10.23,C and the official Osborn map separately."
+      ],
+      "verification_scope": "VERIFIED selected page contents only."
+    }
+  ],
+  "fis_osborn_panels": [
+    "23009C0430D",
+    "23009C0435D",
+    "23009C0437D",
+    "23009C0439D",
+    "23009C0441D",
+    "23009C0442D",
+    "23009C0443D",
+    "23009C0444D",
+    "23009C0475D",
+    "23009C0606D",
+    "23009C0607D",
+    "23009C0630D",
+    "23009C0650D"
+  ],
+  "lomr_issue_date": "2024-01-08",
+  "lomr_effective_date": "2024-05-31",
+  "limits": [
+    "Effective NFHL is the selected service. Availability and panel coverage are not proof of regulatory completeness or absence of risk.",
+    "LOMR 22-01-0873P has a small intersection at the FEMA jurisdiction boundary; its Mariaville determination has not been retrieved/reviewed. Do not assign it to Osborn from this sliver alone.",
+    "LOMA envelope candidate is in Mariaville and lies outside the Osborn polygon. The separate CID query is empty; point accuracy and catalog panel links prevent a blanket claim that no applicable amendments exist.",
+    "MSC EFFECTIVE/LOMC associations include neighboring communities. Empty searches for partial case IDs are unsuccessful discovery probes, not absence evidence. HISTORIC and PENDING return empty for the Osborn community search; no complete preliminary/history certification follows.",
+    "Current county ZIP is cataloged but not downloaded. Preserve catalog product dates and filenames independently; neither proves complete legal currency.",
+    "2016 LUPC adoption context and the Osborn map note do not establish incorporation of the 2024 revision. Keep TL-F-0109 open and seek authoritative reconciliation before legal P-FP use.",
+    "NFHL publication and community status URLs returned HTTP 403; archived as access failures, not negative data. No access bypass.",
+    "Two invalid NFHL polygons are excluded unchanged. No parcel overlays, accepted geometry corrections, permit conclusions or flood clearances in this step."
+  ]
+}

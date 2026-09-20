@@ -21,3 +21,7 @@ with withdrawal history and unresolved holds preserved.
 The [bounded zoning pilot](research/zoning-ingestion/README.md) adds source-preserving
 zoning features and reproducible screening with explicit municipal coverage gaps,
 geometry defects and correction-event dependencies.
+
+[Osborn FEMA source qualification](research/osborn-fema/README.md) connects current
+flood-zone evidence to the 2016 study and 2024 map revision, preserving geometry
+issues and legal-adoption unknowns before parcel screening.

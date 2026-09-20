@@ -1,0 +1,54 @@
+[
+  {
+    "id": "fis-volume-1",
+    "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=FINAL_PRODUCT&productSubTypeID=FIS_REPORT&productID=23009CV001A",
+    "retrieved_at": "2026-09-20T21:22:14.636299+00:00",
+    "http_status": 200,
+    "final_url": "https://map1.msc.fema.gov/data/23/S/PDF/23009CV001A.pdf?LOC=e3bdab8b0a746a5f08c746512c82e2c5",
+    "content_type": "application/pdf",
+    "response_file": "fis-volume-1.response",
+    "sha256": "76740a246743cc12b1289a06d3ae5fa762e781fb6e95f309ef7cecb45a932ab8",
+    "bytes": 5204114,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "fis-volume-2",
+    "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=FINAL_PRODUCT&productSubTypeID=FIS_REPORT&productID=23009CV002A",
+    "retrieved_at": "2026-09-20T21:22:16.211087+00:00",
+    "http_status": 200,
+    "final_url": "https://map1.msc.fema.gov/data/23/S/PDF/23009CV002A.pdf?LOC=dd5e8dad5c1c7fc491120b83b76c8031",
+    "content_type": "application/pdf",
+    "response_file": "fis-volume-2.response",
+    "sha256": "5508b2fde1e4010b517b450a6878a604cdb18e3d568e4511a494c24ba4fe061b",
+    "bytes": 4943522,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "firm-index-1",
+    "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=FINAL_PRODUCT&productSubTypeID=FIRM_PANEL_INDEX&productID=23009CIND1A",
+    "retrieved_at": "2026-09-20T21:22:18.798017+00:00",
+    "http_status": 200,
+    "final_url": "https://map1.msc.fema.gov/data/23/P/Firm/23009CIND1A.png?LOC=2b70633fbe3ef5421bf4e6f39e752ba2",
+    "content_type": "image/png",
+    "response_file": "firm-index-1.response",
+    "sha256": "b1cf6fa91bb6f6d342bcc91879f820a23a7780c78943baba50b0bb94826071e9",
+    "bytes": 783588,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "firm-index-2",
+    "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=FINAL_PRODUCT&productSubTypeID=FIRM_PANEL_INDEX&productID=23009CIND2A",
+    "retrieved_at": "2026-09-20T21:22:19.908862+00:00",
+    "http_status": 200,
+    "final_url": "https://map1.msc.fema.gov/data/23/P/Firm/23009CIND2A.png?LOC=dc41ee8e5c8b01042ad0ef62802d1efc",
+    "content_type": "image/png",
+    "response_file": "firm-index-2.response",
+    "sha256": "89781a039cd70be63837bb3c5719509e222fa73cc78bd83204a867b3e48c61aa",
+    "bytes": 902140,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]
