@@ -1,0 +1,20 @@
+[
+  {
+    "finding_id": "TL-F-0024",
+    "title": "Source freshness differs across GIS and municipal maps",
+    "description": "Captured Sweden GIS has FMUPDAT 4/1/2011 and Alfred GIS has FMUPDAT 2013. Municipal/provider map filenames, printed revisions and original base years differ. A corrected historical identifier does not establish current parcel geometry or assessment identity.",
+    "source_ids": [
+      "organized-parcels",
+      "alfred-municipal",
+      "sweden-municipal"
+    ],
+    "scope": {
+      "investigation": "municipal-corroboration",
+      "towns": [
+        "Sweden",
+        "Alfred"
+      ]
+    },
+    "evidence_state": "DERIVED"
+  }
+]

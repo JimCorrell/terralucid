@@ -9,3 +9,6 @@ research/maine-ingestion/**/runs/**/*.response binary
 research/conflict-investigation/**/runs/**/*.response binary
 research/conflict-investigation/report.json -diff
 research/conflict-investigation/**/batch.json -diff
+
+research/municipal-corroboration/runs/**/*.response binary
+research/municipal-corroboration/report.json -diff

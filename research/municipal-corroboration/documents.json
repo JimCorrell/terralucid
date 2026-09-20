@@ -1,0 +1,82 @@
+[
+  {
+    "id": "alfred-town-index",
+    "source_id": "alfred-municipal",
+    "url": "https://www.alfredme.gov/document_center/assessors_data/Index.pdf?t=202608121313370",
+    "format": "pdf",
+    "purpose": "Town/map context and selected exception corroboration; not a legal boundary verification",
+    "publication_page": "alfred-town-maps",
+    "observed_href": "document_center/assessors_data/Index.pdf?t=202608121313370",
+    "document_base": "https://www.alfredme.gov/"
+  },
+  {
+    "id": "alfred-town-map4",
+    "source_id": "alfred-municipal",
+    "url": "https://www.alfredme.gov/document_center/assessors_data/TAX%20MAPS%202026%208.pdf?t=202608121318330",
+    "format": "pdf",
+    "purpose": "Town/map context and selected exception corroboration; not a legal boundary verification",
+    "publication_page": "alfred-town-maps",
+    "observed_href": "document_center/assessors_data/TAX MAPS 2026 8.pdf?t=202608121318330",
+    "document_base": "https://www.alfredme.gov/"
+  },
+  {
+    "id": "alfred-town-map10",
+    "source_id": "alfred-municipal",
+    "url": "https://www.alfredme.gov/document_center/assessors_data/TAX%20MAPS%202026%2014.pdf?t=202608121321210",
+    "format": "pdf",
+    "purpose": "Town/map context and selected exception corroboration; not a legal boundary verification",
+    "publication_page": "alfred-town-maps",
+    "observed_href": "document_center/assessors_data/TAX MAPS 2026 14.pdf?t=202608121321210",
+    "document_base": "https://www.alfredme.gov/"
+  },
+  {
+    "id": "alfred-provider-index",
+    "source_id": "alfred-municipal",
+    "url": "https://jeo-cama-files.s3.amazonaws.com/alfred/Alfred%202025%20Index.pdf",
+    "format": "pdf",
+    "purpose": "Town/map context and selected exception corroboration; not a legal boundary verification",
+    "publication_page": "alfred-assessor",
+    "observed_href": "https://jeo-cama-files.s3.amazonaws.com/alfred/Alfred%202025%20Index.pdf",
+    "document_base": ""
+  },
+  {
+    "id": "sweden-provider-index",
+    "source_id": "sweden-municipal",
+    "url": "https://jeo-cama-files.s3.amazonaws.com/sweden/Sweden%202025%20Index.pdf",
+    "format": "pdf",
+    "purpose": "Town/map context and selected exception corroboration; not a legal boundary verification",
+    "publication_page": "sweden-assessor",
+    "observed_href": "https://jeo-cama-files.s3.amazonaws.com/sweden/Sweden%202025%20Index.pdf",
+    "document_base": ""
+  },
+  {
+    "id": "sweden-provider-overall",
+    "source_id": "sweden-municipal",
+    "url": "https://jeo-cama-files.s3.amazonaws.com/sweden/Sweden%202025%20Overall.pdf",
+    "format": "pdf",
+    "purpose": "Town/map context and selected exception corroboration; not a legal boundary verification",
+    "publication_page": "sweden-assessor",
+    "observed_href": "https://jeo-cama-files.s3.amazonaws.com/sweden/Sweden%202025%20Overall.pdf",
+    "document_base": ""
+  },
+  {
+    "id": "sweden-provider-r01",
+    "source_id": "sweden-municipal",
+    "url": "https://jeo-cama-files.s3.amazonaws.com/sweden/Sweden%202025%20R01.pdf",
+    "format": "pdf",
+    "purpose": "Town/map context and selected exception corroboration; not a legal boundary verification",
+    "publication_page": "sweden-assessor",
+    "observed_href": "https://jeo-cama-files.s3.amazonaws.com/sweden/Sweden%202025%20R01.pdf",
+    "document_base": ""
+  },
+  {
+    "id": "sweden-provider-u08",
+    "source_id": "sweden-municipal",
+    "url": "https://jeo-cama-files.s3.amazonaws.com/sweden/Sweden%202025%20U08.pdf",
+    "format": "pdf",
+    "purpose": "Town/map context and selected exception corroboration; not a legal boundary verification",
+    "publication_page": "sweden-assessor",
+    "observed_href": "https://jeo-cama-files.s3.amazonaws.com/sweden/Sweden%202025%20U08.pdf",
+    "document_base": ""
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "review_method": "Visual inspection of all eight complete PDF pages and enlarged revision blocks using PyMuPDF 1.24.14. Text extraction was sparse or empty for seven maps; no OCR-based parcel matching was used.",
+  "scope": "Publication, municipal context, printed dates and selected map labels only; not georeferencing or exhaustive parcel validation.",
+  "documents": [
+    {
+      "evidence_ref": "documents/alfred-town-index",
+      "sha256": "eeb36a6be9c2073fbfd8acfe4f366f8e1f022311eff757c17339e40567cdf10d",
+      "page": 1,
+      "evidence_state": "VERIFIED",
+      "verified_claim_scope": "What the cited document visibly states or depicts, not legal boundary accuracy or current parcel identity.",
+      "municipality_label": "Alfred",
+      "map_sheet": "INDEX",
+      "printed_revision": {
+        "value": "2026-04-01",
+        "precision": "day"
+      },
+      "inspection_region": "bottom title block and full map",
+      "observation": "Footer explicitly states revision to April 1, 2026. Map index depicts Alfred with Sanford, Shapleigh, Waterboro and Lyman as neighboring municipalities."
+    },
+    {
+      "evidence_ref": "documents/alfred-town-map4",
+      "sha256": "082425bd17dba1993c933056d26e738abac14b5aad31077aecf052b329b6c319",
+      "page": 1,
+      "evidence_state": "VERIFIED",
+      "verified_claim_scope": "What the cited document visibly states or depicts, not legal boundary accuracy or current parcel identity.",
+      "municipality_label": "Alfred",
+      "map_sheet": "4",
+      "printed_revision": {
+        "value": "2026-04-01",
+        "precision": "day"
+      },
+      "inspection_region": "bottom title block; upper-right lot 25 and inset 25-2",
+      "observation": "Map 4 identifies lot 25 and an inset lot 25-2. This supports the inset/hole interpretation but does not validate precise GIS coordinates or legal ownership."
+    },
+    {
+      "evidence_ref": "documents/alfred-town-map10",
+      "sha256": "65910fd2d647b6ec9768b886d8c775d32368fcd1c5b891a12b6df367dd385b4a",
+      "page": 1,
+      "evidence_state": "VERIFIED",
+      "verified_claim_scope": "What the cited document visibly states or depicts, not legal boundary accuracy or current parcel identity.",
+      "municipality_label": "Alfred",
+      "map_sheet": "10",
+      "printed_revision": {
+        "value": "2026-04-01",
+        "precision": "day"
+      },
+      "inspection_region": "bottom title block and full map",
+      "observation": "Map 10 publication and revision are corroborated. No individual cemetery-key equivalence is established in this pass."
+    },
+    {
+      "evidence_ref": "documents/alfred-provider-index",
+      "sha256": "02748785911ecc9327ab1362db776d59c570fe72cd55e32e0595c438fd78e9ce",
+      "page": 1,
+      "evidence_state": "VERIFIED",
+      "verified_claim_scope": "What the cited document visibly states or depicts, not legal boundary accuracy or current parcel identity.",
+      "municipality_label": "Alfred",
+      "map_sheet": "INDEX",
+      "printed_revision": {
+        "value": "2024-04-01",
+        "precision": "day"
+      },
+      "inspection_region": "bottom title block",
+      "observation": "The filename says 2025 but the printed revision says April 1, 2024. Preserve both rather than treating the filename as currency."
+    },
+    {
+      "evidence_ref": "documents/sweden-provider-index",
+      "sha256": "926ef9a21ce99e3e04ee9cbb837215cf473786ae0430491abada1eaa65080b62",
+      "page": 1,
+      "evidence_state": "VERIFIED",
+      "verified_claim_scope": "What the cited document visibly states or depicts, not legal boundary accuracy or current parcel identity.",
+      "municipality_label": "Sweden",
+      "map_sheet": "INDEX",
+      "printed_revision": {
+        "value": null,
+        "precision": "unknown"
+      },
+      "inspection_region": "bottom title block, legend and full map",
+      "observation": "Publisher block includes 1972; an explicit current revision date is not established. Map identifies rural R and urban U sheets and neighboring Lovell, Fryeburg, Waterford and Bridgton."
+    },
+    {
+      "evidence_ref": "documents/sweden-provider-overall",
+      "sha256": "eab8aeeee666a415ff040b82dd830ccc17e8c96759d673d82bc22753c7b6b3a2",
+      "page": 1,
+      "evidence_state": "VERIFIED",
+      "verified_claim_scope": "What the cited document visibly states or depicts, not legal boundary accuracy or current parcel identity.",
+      "municipality_label": "Sweden",
+      "map_sheet": "Overall",
+      "printed_revision": {
+        "value": "2021-04",
+        "precision": "month"
+      },
+      "inspection_region": "sideways bottom/right margin revision text",
+      "observation": "The filename says 2025 but the map explicitly says revised to April 2021; no day is invented."
+    },
+    {
+      "evidence_ref": "documents/sweden-provider-r01",
+      "sha256": "05cb530ca009e63a440ff6d2cb3150ac0e7d5be257da5479a629549fae10eb06",
+      "page": 1,
+      "evidence_state": "VERIFIED",
+      "verified_claim_scope": "What the cited document visibly states or depicts, not legal boundary accuracy or current parcel identity.",
+      "municipality_label": "Sweden",
+      "map_sheet": "R-1",
+      "printed_revision": {
+        "value": null,
+        "precision": "unknown"
+      },
+      "inspection_region": "bottom title block and lot 24 in lower map",
+      "observation": "Map labels lot 24 with 446 acres; this is map context only and does not establish why three GIS features share R01-24-0. Publisher block includes 1972 without an established current revision date."
+    },
+    {
+      "evidence_ref": "documents/sweden-provider-u08",
+      "sha256": "34f5815d6668cfb480c926256e54aae2f614d7bc8fdbb3275e47ec1155b90092",
+      "page": 1,
+      "evidence_state": "VERIFIED",
+      "verified_claim_scope": "What the cited document visibly states or depicts, not legal boundary accuracy or current parcel identity.",
+      "municipality_label": "Sweden",
+      "map_sheet": "U-8",
+      "printed_revision": {
+        "value": null,
+        "precision": "unknown"
+      },
+      "inspection_region": "bottom title block; lower-left lots 18 and 18A",
+      "observation": "Map visibly labels both 18 and 18A near Buker Road. Do not infer that two GIS records with U08-18-A are duplicate legal parcels or safe to merge. Publisher block includes 1972 without an established current revision date."
+    }
+  ]
+}

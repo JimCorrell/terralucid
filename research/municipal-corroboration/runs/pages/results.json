@@ -1,0 +1,54 @@
+[
+  {
+    "id": "sweden-town-assessing",
+    "source_id": "sweden-municipal",
+    "url": "https://swedenmaine.org/access-tax-records/",
+    "purpose": "Verify municipal publication chain and map links",
+    "retrieved_at": "2026-09-20T01:44:32.338887+00:00",
+    "http_status": 200,
+    "final_url": "https://swedenmaine.org/access-tax-records/",
+    "sha256": "b818ceffdca7618e59d0a86df140412532cef98a527ce1a37e106d9ce540ca25",
+    "bytes": 73274,
+    "status": "NON_JSON_RESPONSE",
+    "response_file": "sweden-town-assessing.response"
+  },
+  {
+    "id": "sweden-assessor",
+    "source_id": "sweden-municipal",
+    "url": "https://jeodonnell.com/cama/sweden/",
+    "purpose": "Verify municipal publication chain and map links",
+    "retrieved_at": "2026-09-20T01:44:33.421180+00:00",
+    "http_status": 200,
+    "final_url": "https://jeodonnell.com/cama/sweden/",
+    "sha256": "090ee173a85ad861f3f23230b6955e3bb419d62585e22213c2e50fcc85a1ddb1",
+    "bytes": 275054,
+    "status": "NON_JSON_RESPONSE",
+    "response_file": "sweden-assessor.response"
+  },
+  {
+    "id": "alfred-town-maps",
+    "source_id": "alfred-municipal",
+    "url": "https://www.alfredme.gov/forms_and_documents/assessors_data/tax_maps.php",
+    "purpose": "Verify municipal publication chain and map links",
+    "retrieved_at": "2026-09-20T01:44:35.383842+00:00",
+    "http_status": 200,
+    "final_url": "https://www.alfredme.gov/forms_and_documents/assessors_data/tax_maps.php",
+    "sha256": "87478570332854a057d0442690faa805fe46f8e7a7777b6d8c2ae18add1cc372",
+    "bytes": 30387,
+    "status": "NON_JSON_RESPONSE",
+    "response_file": "alfred-town-maps.response"
+  },
+  {
+    "id": "alfred-assessor",
+    "source_id": "alfred-municipal",
+    "url": "https://jeodonnell.com/cama/alfred/",
+    "purpose": "Verify municipal publication chain and map links",
+    "retrieved_at": "2026-09-20T01:44:36.121376+00:00",
+    "http_status": 200,
+    "final_url": "https://jeodonnell.com/cama/alfred/",
+    "sha256": "17e621ec8fe6345c32ecd5351e169668f98f7be7ebb2944c13fc9aedfd188665",
+    "bytes": 602619,
+    "status": "NON_JSON_RESPONSE",
+    "response_file": "alfred-assessor.response"
+  }
+]

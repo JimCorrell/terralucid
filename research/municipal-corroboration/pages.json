@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sweden-town-assessing",
+    "source_id": "sweden-municipal",
+    "url": "https://swedenmaine.org/access-tax-records/",
+    "purpose": "Verify municipal publication chain and map links"
+  },
+  {
+    "id": "sweden-assessor",
+    "source_id": "sweden-municipal",
+    "url": "https://jeodonnell.com/cama/sweden/",
+    "purpose": "Verify municipal publication chain and map links"
+  },
+  {
+    "id": "alfred-town-maps",
+    "source_id": "alfred-municipal",
+    "url": "https://www.alfredme.gov/forms_and_documents/assessors_data/tax_maps.php",
+    "purpose": "Verify municipal publication chain and map links"
+  },
+  {
+    "id": "alfred-assessor",
+    "source_id": "alfred-municipal",
+    "url": "https://jeodonnell.com/cama/alfred/",
+    "purpose": "Verify municipal publication chain and map links"
+  }
+]

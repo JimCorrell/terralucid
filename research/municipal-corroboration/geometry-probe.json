@@ -1,0 +1,8 @@
+[
+  {
+    "id": "alfred-native-rings",
+    "source_id": "organized-parcels",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&objectIds=439584%2C439585&outFields=OBJECTID%2CGlobalID%2CGEOCODE%2CTOWN%2CSTATE_ID%2CMAP_BK_LOT%2CFMUPDAT&returnGeometry=true&outSR=4326",
+    "purpose": "Inspect original ArcGIS ring structure for the invalid Alfred record and the inset map-lot record; no repair"
+  }
+]

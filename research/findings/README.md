@@ -46,3 +46,12 @@ These stable IDs were seeded from the audits. **Current status and next actions 
 | TL-F-0117 | National Wetlands Inventory: source qualification | medium |
 
 Each definition and its initial next action is in [catalog.json](catalog.json). Reviews and resolutions append evidence-linked events; do not change this catalog to overwrite history.
+
+## Findings introduced after the initial seed
+
+| ID | Finding | Initial priority | Evidence |
+| --- | --- | --- | --- |
+| TL-F-0024 | Source freshness differs across GIS and municipal maps | medium | [Municipal corroboration](../municipal-corroboration/README.md) |
+
+The initial seed catalog remains unchanged. This subsequent finding is defined in
+[its investigation](../municipal-corroboration/new-findings.json); current status lives in Supabase.

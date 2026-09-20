@@ -1,0 +1,28 @@
+[
+  {
+    "id": "alfred-geojson-recheck",
+    "source_id": "organized-parcels",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=geojson&objectIds=439584%2C439585&outFields=OBJECTID%2CGlobalID%2CGEOCODE%2CTOWN%2CSTATE_ID%2CMAP_BK_LOT%2CFMUPDAT&returnGeometry=true&outSR=4326",
+    "purpose": "Compare current GeoJSON output with native ArcGIS rings for identical object IDs",
+    "retrieved_at": "2026-09-20T01:49:41.007269+00:00",
+    "http_status": 200,
+    "final_url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=geojson&objectIds=439584%2C439585&outFields=OBJECTID%2CGlobalID%2CGEOCODE%2CTOWN%2CSTATE_ID%2CMAP_BK_LOT%2CFMUPDAT&returnGeometry=true&outSR=4326",
+    "sha256": "092cd5e1cfc2b7e302bc4bdbe0fbe060e5deda77593a65874394c4b16703d839",
+    "bytes": 6134,
+    "status": "JSON_RECEIVED",
+    "response_file": "alfred-geojson-recheck.response"
+  },
+  {
+    "id": "esri-ring-specification",
+    "source_id": "esri-geometry-spec",
+    "url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+    "purpose": "Publisher format specification for exterior and interior ring orientation",
+    "retrieved_at": "2026-09-20T01:49:41.357316+00:00",
+    "http_status": 200,
+    "final_url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+    "sha256": "9bb444674617e320419aacbcc78f4ac47d2db8c23f5b129f8e5ce819f5d4f1d2",
+    "bytes": 266246,
+    "status": "NON_JSON_RESPONSE",
+    "response_file": "esri-ring-specification.response"
+  }
+]
