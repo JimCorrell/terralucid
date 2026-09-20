@@ -22,5 +22,15 @@ Osborn's map amendments, service update label and current published rule edition
 Matching digital attributes do not establish legal currency. Keep flood, wetland,
 shoreland and physical-boundary dependencies explicit; complete polygon coverage
 does not establish complete regulatory coverage. TL-F-0109 remains in progress.
-The next proposed source qualification is the FEMA evidence referenced by Osborn's
-map, before any additional screening overlay or legal zoning conclusion.
+The FEMA follow-up below addresses part of this dependency; additional screening
+and legal zoning conclusions still require the recorded qualifications.
+
+## FEMA qualification follow-up
+
+The [Osborn FEMA investigation](../research/osborn-fema/README.md) captures effective
+NFHL hazard features, panels, availability, revision footprints and official
+study/revision documents. A May 31, 2024 revision adds mapped hazards while the
+base FIRM/FIS retains its 2016 date. Keep these dates separate and do not treat the
+2016 no-SFHA note as current clearance. Two invalid FEMA polygons are preserved
+under TL-F-0026; parcel screening and LUPC adoption remain pending qualification.
+This is bounded Osborn source evidence, not statewide FEMA ingestion.

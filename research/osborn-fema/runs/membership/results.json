@@ -1,0 +1,93 @@
+[
+  {
+    "id": "availability-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/0/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "retrieved_at": "2026-09-20T21:17:18.471999+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/0/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "content_type": "application/json;charset=UTF-8",
+    "response_file": "availability-ids.response",
+    "sha256": "9a2d112eedf06045ed3ef618ed47a8a7d4dccb9fd0c102ecc8b7728f0d04d7d9",
+    "bytes": 50,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "panels-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/3/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "retrieved_at": "2026-09-20T21:17:18.804710+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/3/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "content_type": "application/json;charset=UTF-8",
+    "response_file": "panels-ids.response",
+    "sha256": "0f3f1e8caf9b821121efc09d4edf42ceec9140753b427f3ec1af287fcf672c61",
+    "bytes": 144,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "lomr-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/1/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "retrieved_at": "2026-09-20T21:17:19.134741+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/1/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "content_type": "application/json;charset=UTF-8",
+    "response_file": "lomr-ids.response",
+    "sha256": "6535e7162a445a923911fcd09c14cab1a2880ec4c41e30bab306c42aaeb1231d",
+    "bytes": 67,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "loma-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/34/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "retrieved_at": "2026-09-20T21:17:19.420899+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/34/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "content_type": "application/json;charset=UTF-8",
+    "response_file": "loma-ids.response",
+    "sha256": "4aca183b837e0359ac283d4dc9a7d187ecd95384e447870c6019f9437bb24d9f",
+    "bytes": 53,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "hazards-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "retrieved_at": "2026-09-20T21:17:19.764122+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?where=1%3D1&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "content_type": "application/json;charset=UTF-8",
+    "response_file": "hazards-ids.response",
+    "sha256": "80af69e08b1e415bc53be55dca8dc408048e5f62c6c145b98f858fa4e634eba1",
+    "bytes": 13573,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "hancock-study",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/41/query?where=DFIRM_ID%3D%2723009C%27&outFields=%2A&returnGeometry=false&f=json",
+    "retrieved_at": "2026-09-20T21:17:20.692177+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/41/query?where=DFIRM_ID%3D%2723009C%27&outFields=%2A&returnGeometry=false&f=json",
+    "content_type": "application/json;charset=UTF-8",
+    "response_file": "hancock-study.response",
+    "sha256": "993df5753a2a2027afb049830fc6ca5a509e5595ea401906b23abf1a1844348f",
+    "bytes": 4051,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "osborn-loma-by-cid",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/34/query?where=CID%3D%27230595%27&outFields=%2A&returnGeometry=false&f=json",
+    "retrieved_at": "2026-09-20T21:17:21.006062+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/34/query?where=CID%3D%27230595%27&outFields=%2A&returnGeometry=false&f=json",
+    "content_type": "application/json;charset=UTF-8",
+    "response_file": "osborn-loma-by-cid.response",
+    "sha256": "7cf2097c827add76f6c5e4ded126b8fe0e40a1040ff632b2db0c8f5a38d7df45",
+    "bytes": 1852,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

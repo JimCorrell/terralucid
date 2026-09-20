@@ -1,0 +1,30 @@
+[
+  {
+    "id": "nfhl-service",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer?f=pjson"
+  },
+  {
+    "id": "nfhl-guidance",
+    "url": "https://hazards.fema.gov/femaportal/wps/portal/NFHLWMS"
+  },
+  {
+    "id": "nfhl-publication",
+    "url": "https://www.fema.gov/flood-maps/national-flood-hazard-layer"
+  },
+  {
+    "id": "msc-home",
+    "url": "https://msc.fema.gov/portal/home"
+  },
+  {
+    "id": "lupc-adoption-history",
+    "url": "https://www.maine.gov/dacf/lupc/projects/fema/fema.html"
+  },
+  {
+    "id": "maine-mapping-resources",
+    "url": "https://www.maine.gov/moca/programs/floodplain-management-program/mapping-resources"
+  },
+  {
+    "id": "community-status",
+    "url": "https://www.fema.gov/cis/ME.pdf"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "osborn-jurisdiction",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/22/query?where=ST_FIPS%3D%2723%27+AND+%28UPPER%28POL_NAME1%29+LIKE+%27%25OSBORN%25%27+OR+UPPER%28POL_NAME2%29+LIKE+%27%25OSBORN%25%27%29&outFields=%2A&returnGeometry=true&outSR=4269&f=json",
+    "retrieved_at": "2026-09-20T21:16:18.701644+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/22/query?where=ST_FIPS%3D%2723%27+AND+%28UPPER%28POL_NAME1%29+LIKE+%27%25OSBORN%25%27+OR+UPPER%28POL_NAME2%29+LIKE+%27%25OSBORN%25%27%29&outFields=%2A&returnGeometry=true&outSR=4269&f=json",
+    "content_type": "application/json;charset=UTF-8",
+    "response_file": "osborn-jurisdiction.response",
+    "sha256": "813824533f6c03c71fb8024431e0bd9f86e10b46c8e9ba12eb9c2ddf4d13696a",
+    "bytes": 13451,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "msc-products-page",
+    "url": "https://msc.fema.gov/portal/advanceSearch",
+    "retrieved_at": "2026-09-20T21:16:19.058422+00:00",
+    "http_status": 200,
+    "final_url": "https://msc.fema.gov/portal/advanceSearch",
+    "content_type": "text/html;charset=UTF-8",
+    "response_file": "msc-products-page.response",
+    "sha256": "2cbdffb0bf5a19e9f137ff61591e5f8f139dfc025f400eeeef0aec9cefa094e2",
+    "bytes": 199118,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

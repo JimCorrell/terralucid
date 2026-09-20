@@ -1,0 +1,93 @@
+[
+  {
+    "id": "nfhl-service",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer?f=pjson",
+    "retrieved_at": "2026-09-20T21:15:07.555996+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer?f=pjson",
+    "content_type": "text/plain;charset=UTF-8",
+    "response_file": "nfhl-service.response",
+    "sha256": "22df132084b15179a2b216343cc6705e20d2e5e306e85ce385b97cc3fdd86a72",
+    "bytes": 11814,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "nfhl-guidance",
+    "url": "https://hazards.fema.gov/femaportal/wps/portal/NFHLWMS",
+    "retrieved_at": "2026-09-20T21:15:08.059301+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/femaportal/wps/portal/NFHLWMS",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "nfhl-guidance.response",
+    "sha256": "fb4f7838ebc19e446c52be0e29e0fe32ad6a2c97497b64bd0d19136d73eab58e",
+    "bytes": 48127,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "nfhl-publication",
+    "url": "https://www.fema.gov/flood-maps/national-flood-hazard-layer",
+    "retrieved_at": "2026-09-20T21:15:08.471909+00:00",
+    "http_status": 403,
+    "final_url": "https://www.fema.gov/flood-maps/national-flood-hazard-layer",
+    "content_type": "text/html",
+    "response_file": "nfhl-publication.response",
+    "sha256": "23b0ee9c71a7cb47d23621ab25c4633181c07dc06e28dfc554fe49b6d813f321",
+    "bytes": 424,
+    "status": "HTTP_ERROR",
+    "pdf_signature": false
+  },
+  {
+    "id": "msc-home",
+    "url": "https://msc.fema.gov/portal/home",
+    "retrieved_at": "2026-09-20T21:15:08.773381+00:00",
+    "http_status": 200,
+    "final_url": "https://msc.fema.gov/portal/home",
+    "content_type": "text/html;charset=UTF-8",
+    "response_file": "msc-home.response",
+    "sha256": "afcb262f2bd86ca2b81c4e2b5f8636117c42d52a0ac035a3e3dc76af6c0d1295",
+    "bytes": 36662,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "lupc-adoption-history",
+    "url": "https://www.maine.gov/dacf/lupc/projects/fema/fema.html",
+    "retrieved_at": "2026-09-20T21:15:09.358779+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/projects/fema/fema.html",
+    "content_type": "text/html",
+    "response_file": "lupc-adoption-history.response",
+    "sha256": "86ac647b6dbbd5c62a4994507fce5522ce8c8e5e786fc03d5dba6356157bcb3a",
+    "bytes": 29229,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "maine-mapping-resources",
+    "url": "https://www.maine.gov/moca/programs/floodplain-management-program/mapping-resources",
+    "retrieved_at": "2026-09-20T21:15:09.733654+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/moca/programs/floodplain-management-program/mapping-resources",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "maine-mapping-resources.response",
+    "sha256": "59ef57e94e6089927993d46bbbbfa6ae56ce6a487b077c4aec24716ae1983ea4",
+    "bytes": 31466,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "community-status",
+    "url": "https://www.fema.gov/cis/ME.pdf",
+    "retrieved_at": "2026-09-20T21:15:10.115453+00:00",
+    "http_status": 403,
+    "final_url": "https://www.fema.gov/cis/ME.pdf",
+    "content_type": "text/html",
+    "response_file": "community-status.response",
+    "sha256": "3727d1ed24c9abf4500b4feef8e3c90fb29666ea17882007234f8f44469ec9ad",
+    "bytes": 384,
+    "status": "HTTP_ERROR",
+    "pdf_signature": false
+  }
+]
