@@ -1,0 +1,1884 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Maine Town and Township Boundary Polygons</title>
+        <style type="text/css">
+EM { font-style: normal; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #333333 } 
+.allLinks { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #3399CC; text-decoration: none} 
+A.allLinks:hover { color: #FFCC00; text-decoration: underline } 
+.formText { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000} 
+.selectText { font-family: "Courier New", Courier, mono; font-size: 9pt; color: #000000} 
+.headerLinks { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #72C7F1; text-decoration: none; font-weight: bold }
+A.headerLinks:link { color: #72C7F1 } 
+A.headerLinks:visited { color: #72C7F1 } 
+A.headerLinks:hover { color: #FFCC00; text-decoration: underline } 
+div.allLinks { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #FFFFFF; text-decoration: none} 
+.gateTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt; font-weight: bold; color: #CC3333} 
+.gateTitleText { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #999999} 
+.gateIntro { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #000000}
+.boxTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #006699} 
+.explorerTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #CC3333}
+.explorerText { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 14pt; color: #333333} 
+.explorerList { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 12pt; color: #333333} 
+.detailsTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #333333} 
+.detailsText { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; color: #333333}
+.boxText { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000}
+.subText { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000} 
+A.boxText:link { color: #000000 } A.boxText:visited { color: #000000 } 
+A.boxText:hover { color: #000000; text-decoration: underline } 
+A:link { color: #006699; text-decoration: none } 
+A:visited { color: #006699; text-decoration: none } 
+A:hover { color: #339933; text-decoration: underline } 
+.footerLinks { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #666666; text-decoration: none} 
+A.footerLinks:link { color: #666666; } 
+A.footerLinks:visited { color: #666666 } 
+A.footerLinks:hover { color: #000000; text-decoration: underline } 
+.mainTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13pt; font-weight: bold; color: #CC3333} 
+.mainGreyTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13pt; color: #A0A0A0} 
+.smallTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #999999; font-weight: bold} 
+.sectionTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; font-weight: bold; color: #006699} 
+.headTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color: #333333; font-weight: bold}
+.toolbarTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt; color: #333333;}
+.bodyText { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 16pt; color: #333333}
+.bodyTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #333333}
+LI { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 14pt; color: #333333}
+.homeBottomLinks { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000; text-decoration: none ; font-weight: bold } 
+A.homeBottomLinks:link { color: #000000 } 
+A.homeBottomLinks:visited { color: #000000 } 
+A.homeBottomLinks:hover { color: #FF6600; text-decoration: underline }
+.homepageText { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; line-height: 19pt; color: #000000; } 
+.homeTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #CC3333} 
+.homeBold { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color: #000000; } 
+.homeLinkBold { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color: #006699} 
+A.homeLinkBold:link { color: #006699 } 
+A.homeLinkBold:visited { color: #006699 } 
+A.homeLinkBold:hover { color: #006699; text-decoration: underline } 
+.homeLink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #006699} 
+A.homeLink:link { color: #006699 }
+A.homeLink:visited { color: #006699 } 
+A.homeLink:hover { color: #006699; text-decoration: underline }
+</style>
+    </head>
+    <body class="bodyText">
+        <h1 class="toolbarTitle">Maine Town and Township Boundary Polygons</h1>
+        <hr>
+        <dl>
+            <dt>
+                <em>Identification Information: </em>
+            </dt>
+            <dd>
+                <dl>
+                    <dt>
+                        <em>Citation: </em>
+                    </dt>
+                    <dd>
+                        <dl>
+                            <dt>
+                                <em>Citation Information: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Publication Date: </em>20210802
+                                    </dt>
+                                    <dt>
+                                        <em>Title: </em>Maine Town and Township Boundary Polygons
+                                    </dt>
+                                    <dt>
+                                        <em>Geospatial Data Presentation Form: </em>vector digital data
+                                    </dt>
+                                </dl>
+                            </dd>
+                        </dl>
+                    </dd>
+                    <dt>
+                        <em>Description: </em>
+                    </dt>
+                    <dd>
+                        <dl>
+                            <dt>
+                                <em>Abstract: </em>&ldquo;Maine Town and Townships Boundary Polygons Feature&rdquo; depicts political boundaries for all Organized Towns and Unorganized Territories in Maine at 1:24,000 scale. The layer also includes common town names and authoritative geocodes. The layer was created using the USGS 7.5-minute map series and the Maine GIS base layer COAST, which contains Maine's coastal Mean High Water (MHW) mark and Maine islands. To correct mapping errors and reflect changes to Minor Civil Division (MCD) boundaries, arcs and polygons were added or updated using the following data sources: photorevised USGS data; Maine GIS base layer coincident features; legal descriptions; GPS data; and Maine Department of Transportation (MEDOT) engineering plans.&amp;nbsp;&ldquo;Maine Town and Townships Boundary Polygons Feature&rdquo; also contains USGS 1:100,000-scale data and U.S. Department of Commerce Census Bureau TIGER Line Files from 1990 and 2000 where these provide a more correct or best available representation of a feature in question.Traffic Light Protocol (TLP): White.
+                            </dt>
+                            <dt>
+                                <em>Purpose: </em>Organized Town and Unorganized Territory political boundary polygons for all municipalities and townships in the state of Maine at 1:24,000 scale. Data at this scale is suitable for detailed studies and local planning.
+                            </dt>
+                        </dl>
+                    </dd>
+                    <dt>
+                        <em>Time Period of Content: </em>
+                    </dt>
+                    <dd>
+                        <dl>
+                            <dt>
+                                <em>Time Period Information: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Single Date/Time: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Calendar Date: </em>20260406
+                                            </dt>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Currentness Reference: </em>Data current as of April 6, 2026.
+                            </dt>
+                        </dl>
+                    </dd>
+                    <dt>
+                        <em>Status: </em>
+                    </dt>
+                    <dd>
+                        <dl>
+                            <dt>
+                                <em>Progress: </em>Complete
+                            </dt>
+                            <dt>
+                                <em>Maintenance and Update Frequency: </em>As needed
+                            </dt>
+                        </dl>
+                    </dd>
+                    <dt>
+                        <em>Spatial Domain: </em>
+                    </dt>
+                    <dd>
+                        <dl>
+                            <dt>
+                                <em>Bounding Coordinates: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>West Bounding Coordinate: </em>-71.166757
+                                    </dt>
+                                    <dt>
+                                        <em>East Bounding Coordinate: </em>-66.78175
+                                    </dt>
+                                    <dt>
+                                        <em>North Bounding Coordinate: </em>47.460074
+                                    </dt>
+                                    <dt>
+                                        <em>South Bounding Coordinate: </em>42.909625
+                                    </dt>
+                                </dl>
+                            </dd>
+                        </dl>
+                    </dd>
+                    <dt>
+                        <em>Keywords: </em>
+                    </dt>
+                    <dd>
+                        <dl>
+                            <dt>
+                                <em>Theme: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Theme Keyword Thesaurus: </em>ISO 19115-1:2014
+                                    </dt>
+                                    <dt>
+                                        <em>Theme Keyword: </em>boundaries
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Theme: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Theme Keyword Thesaurus: </em>Maine GIS Thesaurus-Theme
+                                    </dt>
+                                    <dt>
+                                        <em>Theme Keyword: </em>boundaries
+                                    </dt>
+                                    <dt>
+                                        <em>Theme Keyword: </em>towns
+                                    </dt>
+                                    <dt>
+                                        <em>Theme Keyword: </em>townships
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Place: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Place Keyword Thesaurus: </em>Maine GIS Thesaurus-Place
+                                    </dt>
+                                    <dt>
+                                        <em>Place Keyword: </em>Maine
+                                    </dt>
+                                    <dt>
+                                        <em>Place Keyword: </em>United States
+                                    </dt>
+                                </dl>
+                            </dd>
+                        </dl>
+                    </dd>
+                    <dt>
+                        <em>Access Constraints: </em>None
+                    </dt>
+                    <dt>
+                        <em>Use Constraints: </em>Access: Public. Use: User accepts risk. Not for use in scales greater than 1:24,000.
+                    </dt>
+                    <dt>
+                        <em>Point of Contact: </em>
+                    </dt>
+                    <dd>
+                        <dl>
+                            <dt>
+                                <em>Contact Information: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Contact Organization Primary: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Contact Organization: </em>MEGIS
+                                            </dt>
+                                            <dt>
+                                                <em>Contact Person: </em>Maine Office of Geographic Information Systems
+                                            </dt>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Contact Position: </em>GIS Coordinator
+                                    </dt>
+                                    <dt>
+                                        <em>Contact Address: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Address Type: </em>mailing
+                                            </dt>
+                                            <dt>
+                                                <em>Address: </em>State House Station #145
+                                            </dt>
+                                            <dt>
+                                                <em>City: </em>Augusta
+                                            </dt>
+                                            <dt>
+                                                <em>State or Province: </em>Maine
+                                            </dt>
+                                            <dt>
+                                                <em>Postal Code: </em>04330
+                                            </dt>
+                                            <dt>
+                                                <em>Country: </em>US
+                                            </dt>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Contact Voice Telephone: </em>207-624-7700
+                                    </dt>
+                                    <dt>
+                                        <em>Contact Electronic Mail Address: </em><a href="mailto:OIT.Customer-Support@maine.gov">OIT.Customer-Support@maine.gov</a>
+                                    </dt>
+                                    <dt>
+                                        <em>Hours: </em>0800 - 1700 EST
+                                    </dt>
+                                    <dt>
+                                        <em>Contact Instructions: </em>Monday through Friday
+                                    </dt>
+                                </dl>
+                            </dd>
+                        </dl>
+                    </dd>
+                    <dt>
+                        <em>Data Set Credit: </em>MaineIT GIS, Maine GeoLibrary, MaineDOT, USGS, USDC, U.S. Census Bureau
+                    </dt>
+                    <dt>
+                        <em>Native Data Set Environment: </em>Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9273
+                    </dt>
+                </dl>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <em>Data Quality Information: </em>
+            </dt>
+            <dd>
+                <dl>
+                    <dt>
+                        <em>Logical Consistency Report: </em>The data are updated to reflect changes as soon as possible.
+                    </dt>
+                    <dt>
+                        <em>Completeness Report: </em>Data are updated to reflect changes as necessary in an ongoing process with no start and no end.
+                    </dt>
+                    <dt>
+                        <em>Lineage: </em>
+                    </dt>
+                    <dd>
+                        <dl>
+                            <dt>
+                                <em>Source Information: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Type of Source Media: </em>None
+                                    </dt>
+                                    <dt>
+                                        <em>Source Contribution: </em>The coverage was created from USGS, 7.5 minute map series, town boundaries. The Maine GIS base layer COAST, which contained Maine's coastal Mean High Water (MHW) mark and Maine islands, were used in the development of METWP24. To correct mapping errors and reflect changes to Minor Civil Division (MCD) boundaries, arcs and polygons were added to or updated in METWP24 from: photorevised USGS data; Maine GIS base layer coincident features; legal descriptions; GPS data; and Maine Department of Transportation (MEDOT) engineering plans.
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Process Step: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Process Description: </em>
+                                        <pre>Modified Atkinson Twp, Cary Twp, and Codyville Twp to comply with legislative deorganization name changes.</pre>
+                                    </dt>
+                                    <dt>
+                                        <em>Process Date: </em>20190806
+                                    </dt>
+                                    <dt>
+                                        <em>Process Contact: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Contact Information: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Contact Organization Primary: </em>
+                                                    </dt>
+                                                    <dd>
+                                                        <dl>
+                                                            <dt>
+                                                                <em>Contact Organization: </em>MEGIS
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Contact Person: </em>Maine Office of Geographic Information Systems
+                                                            </dt>
+                                                        </dl>
+                                                    </dd>
+                                                    <dt>
+                                                        <em>Contact Position: </em>GIS Coordinator
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Contact Address: </em>
+                                                    </dt>
+                                                    <dd>
+                                                        <dl>
+                                                            <dt>
+                                                                <em>Address Type: </em>mailing
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Address: </em>State House Station #145
+                                                            </dt>
+                                                            <dt>
+                                                                <em>City: </em>Augusta
+                                                            </dt>
+                                                            <dt>
+                                                                <em>State or Province: </em>Maine
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Postal Code: </em>04330
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Country: </em>US
+                                                            </dt>
+                                                        </dl>
+                                                    </dd>
+                                                    <dt>
+                                                        <em>Contact Voice Telephone: </em>207-624-7700
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Contact Electronic Mail Address: </em><a href="mailto:OIT.Customer-Support@maine.gov">OIT.Customer-Support@maine.gov</a>
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Hours: </em>9 am to 5 pm EST
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Contact Instructions: </em>Monday through Friday
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Process Step: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Process Description: </em>
+                                        <pre>Updated metadata as part of rehosting updated data layers to ArcGIS Online.</pre>
+                                    </dt>
+                                    <dt>
+                                        <em>Process Date: </em>20210802
+                                    </dt>
+                                    <dt>
+                                        <em>Process Contact: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Contact Information: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Contact Organization Primary: </em>
+                                                    </dt>
+                                                    <dd>
+                                                        <dl>
+                                                            <dt>
+                                                                <em>Contact Organization: </em>MEGIS
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Contact Person: </em>Maine Office of Geographic Information Systems
+                                                            </dt>
+                                                        </dl>
+                                                    </dd>
+                                                    <dt>
+                                                        <em>Contact Position: </em>GIS Coordinator
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Contact Address: </em>
+                                                    </dt>
+                                                    <dd>
+                                                        <dl>
+                                                            <dt>
+                                                                <em>Address Type: </em>mailing
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Address: </em>State House Station #145
+                                                            </dt>
+                                                            <dt>
+                                                                <em>City: </em>Augusta
+                                                            </dt>
+                                                            <dt>
+                                                                <em>State or Province: </em>Maine
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Postal Code: </em>04330
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Country: </em>US
+                                                            </dt>
+                                                        </dl>
+                                                    </dd>
+                                                    <dt>
+                                                        <em>Contact Voice Telephone: </em>207-624-7700
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Contact Electronic Mail Address: </em><a href="mailto:OIT.Customer-Support@maine.gov">OIT.Customer-Support@maine.gov</a>
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Hours: </em>9 am to 5 pm EST
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Contact Instructions: </em>Monday through Friday
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Process Step: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Process Description: </em>
+                                        <pre>Modified Halfway Rock town designation from Chebeague Island to Harpswell per documents provided by the the Town of Harpswell ([Quitclaim Deed 60226 Bk: 32731 Pg: 326], [Quitclaim Deed 60227 Bk: 32731 Pg: 330], and [Easement Deed 60675 Bk: 32735 Pg: 337]).</pre>
+                                    </dt>
+                                    <dt>
+                                        <em>Process Date: </em>20240131
+                                    </dt>
+                                    <dt>
+                                        <em>Process Contact: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Contact Information: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Contact Organization Primary: </em>
+                                                    </dt>
+                                                    <dd>
+                                                        <dl>
+                                                            <dt>
+                                                                <em>Contact Organization: </em>MEGIS
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Contact Person: </em>Maine Office of Geographic Information Systems
+                                                            </dt>
+                                                        </dl>
+                                                    </dd>
+                                                    <dt>
+                                                        <em>Contact Position: </em>GIS Coordinator
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Contact Address: </em>
+                                                    </dt>
+                                                    <dd>
+                                                        <dl>
+                                                            <dt>
+                                                                <em>Address Type: </em>mailing
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Address: </em>State House Station #145
+                                                            </dt>
+                                                            <dt>
+                                                                <em>City: </em>Augusta
+                                                            </dt>
+                                                            <dt>
+                                                                <em>State or Province: </em>Maine
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Postal Code: </em>04330
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Country: </em>US
+                                                            </dt>
+                                                        </dl>
+                                                    </dd>
+                                                    <dt>
+                                                        <em>Contact Voice Telephone: </em>207-624-7700
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Contact Electronic Mail Address: </em><a href="mailto:OIT.Customer-Support@maine.gov">OIT.Customer-Support@maine.gov</a>
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Hours: </em>0800 - 1700 EST
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Contact Instructions: </em>Monday through Friday
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Process Step: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Process Description: </em>
+                                        <pre>Modified the Islesboro and North Haven town boundaries to align with the update to the Knox County and Waldo County boundary change signed into law on March 3, 2023. See P&amp;S Law 2023 Chapter 1 S.D. 58 - L.D. 119.</pre>
+                                    </dt>
+                                    <dt>
+                                        <em>Process Date: </em>20240221
+                                    </dt>
+                                    <dt>
+                                        <em>Process Contact: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Contact Information: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Contact Organization Primary: </em>
+                                                    </dt>
+                                                    <dd>
+                                                        <dl>
+                                                            <dt>
+                                                                <em>Contact Organization: </em>MEGIS
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Contact Person: </em>Maine Office of Geographic Information Systems
+                                                            </dt>
+                                                        </dl>
+                                                    </dd>
+                                                    <dt>
+                                                        <em>Contact Position: </em>GIS Coordinator
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Contact Address: </em>
+                                                    </dt>
+                                                    <dd>
+                                                        <dl>
+                                                            <dt>
+                                                                <em>Address Type: </em>mailing
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Address: </em>State House Station #145
+                                                            </dt>
+                                                            <dt>
+                                                                <em>City: </em>Augusta
+                                                            </dt>
+                                                            <dt>
+                                                                <em>State or Province: </em>Maine
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Postal Code: </em>04330
+                                                            </dt>
+                                                            <dt>
+                                                                <em>Country: </em>US
+                                                            </dt>
+                                                        </dl>
+                                                    </dd>
+                                                    <dt>
+                                                        <em>Contact Voice Telephone: </em>207-624-7700
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Contact Electronic Mail Address: </em><a href="mailto:OIT.Customer-Support@maine.gov">OIT.Customer-Support@maine.gov</a>
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Hours: </em>0800 - 1700 EST
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Contact Instructions: </em>Monday through Friday
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                        </dl>
+                    </dd>
+                </dl>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <em>Spatial Data Organization Information: </em>
+            </dt>
+            <dd>
+                <dl>
+                    <dt>
+                        <em>Direct Spatial Reference Method: </em>Vector
+                    </dt>
+                    <dt>
+                        <em>Point and Vector Object Information: </em>
+                    </dt>
+                    <dd>
+                        <dl>
+                            <dt>
+                                <em>SDTS Terms Description: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>SDTS Point and Vector Object Type: </em>GT-polygon composed of chains
+                                    </dt>
+                                    <dt>
+                                        <em>Point and Vector Object Count: </em>8421
+                                    </dt>
+                                </dl>
+                            </dd>
+                        </dl>
+                    </dd>
+                </dl>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <em>Entity and Attribute Information: </em>
+            </dt>
+            <dd>
+                <dl>
+                    <dt>
+                        <em>Detailed Description: </em>
+                    </dt>
+                    <dd>
+                        <dl>
+                            <dt>
+                                <em>Entity Type: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Entity Type Label: </em>Maine_Boundaries_Town_Polygon
+                                    </dt>
+                                    <dt>
+                                        <em>Entity Type Definition: </em>polygon feature class
+                                    </dt>
+                                    <dt>
+                                        <em>Entity Type Definition Source: </em>Environmental Systems Research Institute, Inc. (ESRI)
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>TOWN
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>town or reservation name as listed in "Standard Geographic Code for Maine Minor Civil Divisions"
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>For a current digital copy of "Standard Geocodes for Maine Minor Civil Divisions" in .dbf or comma delimited text format see http://megis.maine.gov/catalog "Tables" link.
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>GlobalID
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>A field of type UUID (Universal Unique Identifier) in which values are automatically assigned by the geodatabase when a row is created. The GlobalID field is necessary for maintaining object uniqueness across replicas. All feature classes and tables participating in one-way or two-way replication must contain the GlobalID field. This field is not editable and is automatically populated when it is added for existing data.
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>http://support.esri.com/en/knowledgebase/GISDictionary/term/GlobalID
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>SHAPE
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>Feature geometry.
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>ESRI
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Unrepresentable Domain: </em>Coordinates defining the features.
+                                            </dt>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>COUNTY
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>Maine county name
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>Federal Information Processing Standards Publication Series of the National Institute of Standards and Technology (NIST) For a current digital copy of "Standard Geocodes for Maine Minor Civil Divisions" in .dbf or comma delimited text format see http://megis.maine.gov/catalog "Tables" link.
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>CIREG
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>Coastal Island Registry Number indicator (The format used to establish an ISLANDID for each island, is the same as that used for Coastal Island Registry (CIREG) numbers. Not all islands are part of the registry. CIREG numbers are therefore, a subset of ISLANDID. Where a CIREG number exists, the item CIREG is flagged 'y' and the ISLANDID is also the CIREG number for the island.)
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>Title33 Chapter 25 section 1201,&lt;http://janus.state.me.us/legis/statutes/&gt;, refer to "Maine Revised Statutes Annotated" and supplements for complete certified text. The Coastal Island Registry was established within the Bureau of Parks and Lands, under the Director of the Bureau of Parks and Lands, to maintain a listing, index number, and description of all coastal islands.
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>n
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>a Coastal Island Registry number does not exist for this island
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>y
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>ISLANDID also represents a Coastal Island Registry number
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>LAND
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>identifies land and non-land areas
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>MEGIS
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>y
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>polygon represents land
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>n
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>polygon represents fresh, estuarine or marine waters
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>ISLAND
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>identifies island polygons
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>MEGIS
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>y
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>coastal, lake or river island
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>n
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>non-island
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>OBJECTID
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>Internal feature number.
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>ESRI
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Unrepresentable Domain: </em>Sequential unique whole numbers that are automatically generated.
+                                            </dt>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>TAG
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>item used to select a single feature for labeling purposes
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>MEGIS
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>y
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Use point for labeling.
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>n
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Do not use point for labeling.
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>GEOCODENUM
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>numeric data type equivalent to GEOCODE field
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>For a current digital copy of "Standard Geocodes for Maine Minor Civil Divisions" in .dbf or comma delimited text format see http://megis.maine.gov/catalog "Tables".
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>GEOCODE
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>5 character code corresponding to the "Standard Geographic Code for Maine Counties and Minor Civil Divisions", 1971
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>MEGIS
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>DOT_REGNUM
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>MEDOT region number
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>MEDOT
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>Shape.STLength()
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>Software determined attribute
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>ESRI
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>Shape.STArea()
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>Software determined attribute
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>ESRI
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>TYPE
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>Type of polygon
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>MEGIS
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>LURC
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>identifies areas of state which are under Maine Land Use Regulation Commission (LURC) jurisdiction
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>Maine Department of Conservation; Land Use Regulatory Commission
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>y
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>area recorded as LURC jurisdiction
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>n
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>area not recorded as LURC jurisdiction
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>ISLANDID
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>a unique ISLANDID for each marine island (The format used to establish an ISLANDID for each island, is the same as that used for Coastal Island Registry (CIREG) numbers. Not all islands are part of the registry. CIREG numbers are therefore, a subset of ISLANDID. Where a CIREG number exists, the item CIREG is flagged 'y' and the ISLANDID is also the CIREG number for the island.)
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>Maine Department of Inland Fisheries and Wildlife
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>created_user
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>Identifies the user who created or edited the attribute.
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>MEGIS
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>created_date
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>The date the attribute was created/edited.
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>MEGIS
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>last_edited_user
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>Records the last user to edit the attribute.
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>MEGIS
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>last_edited_date
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>Records the most recent date that the attribute field was edited.
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>MEGIS
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>DOT_REGION
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>region used by MEDOT organizational structure for all maintenance and construction activities.
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>MEDOT
+                                    </dt>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>CNTYCODE
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>Code corresponds to the federal (FIPS) code established for each of Maine's sixteen counties. The county code is also represented in the first two digits of Maine's official Standard Geographic Code (geocode), a five digit code that uniquely identifies Minor Civil Divisions and Indian Reservation land in the Maine.
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>Federal Information Processing Standards Publication Series of the National Institute of Standards and Technology (NIST) For a current digital copy of "Standard Geocodes for Maine Minor Civil Divisions" in .dbf or comma delimited text format see http://megis.maine.gov/catalog "Tables" link.
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>11
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Kennebec
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>17
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Oxford
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>27
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Waldo
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>29
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Washington
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>07
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Franklin
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>03
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Aroostook
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>13
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Knox
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>05
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Cumberland
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>15
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Lincoln
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>09
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Hancock
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>23
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Sagadahoc
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>25
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Somerset
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>21
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Piscataquis
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>01
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Androscoggin
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>31
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>York
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>19
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>Penobscot
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <em>Attribute: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Attribute Label: </em>BAXTER
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition: </em>identifies areas within the jurisdiction of Baxter State Park Authority (BSPA)
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Definition Source: </em>BSPA
+                                    </dt>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>1
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>area under BSPA jurisdiction
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Attribute Domain Values: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Enumerated Domain: </em>
+                                            </dt>
+                                            <dd>
+                                                <dl>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value: </em>0
+                                                    </dt>
+                                                    <dt>
+                                                        <em>Enumerated Domain Value Definition: </em>area not under BSPA jurisdiction
+                                                    </dt>
+                                                </dl>
+                                            </dd>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                        </dl>
+                    </dd>
+                    <dt>
+                        <em>Overview Description: </em>
+                    </dt>
+                    <dd>
+                        <dl>
+                            <dt>
+                                <em>Entity and Attribute Overview: </em>
+                                <pre>POLYGONS in METWP24 are attributed with the items TOWN, COUNTY, GEOCODE, and CNTYCODE as found in "Standard Geographic Codes for Maine Minor Civil Divisions". METWP24 also contains the item CIREG flagging those islands whose ISLANDID is also a Maine Department of Conservation, Bureau of Parks and Lands, Coastal Island Registry (CIREG) number.</pre>
+                            </dt>
+                            <dt>
+                                <em>Entity and Attribute Detail Citation: </em>The ArcView shapefile and ArcGIS geodatabase formats, commonly used for Maine GIS data, carry default identifiers and attributes that are software generated and/or important for internal recordkeeping. These are listed here to avoid repetition for every layer, and may not be repeated in the attribute descriptions and definitions of each layer. Common software generated identifiers and attributes in Maine GIS data include: FID (feature identifier), Shape (feature geometry), OBJECTID and SHAPE_lengt. In addition, most GIS formats will carry fields for PERIMETER, AREA and/or LENGTH according to feature geometry. These fields are typically available by default, with the units based on coordinate system or projection units of GIS data. Most GIS software packages also provide a means to calculate these values. It is important to test any columns containing PERIMETER, AREA or LENGTH values before using them for analysis purposes. These important values can be carried from format to format and become out-dated. Verify that the values are correct. Also, in your GIS software, please view the properties of data layers for the map units used to calculate these fields, and for the units set for display purposes.
+                            </dt>
+                        </dl>
+                    </dd>
+                </dl>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <em>Distribution Information: </em>
+            </dt>
+            <dd>
+                <dl>
+                    <dt>
+                        <em>Distributor: </em>
+                    </dt>
+                    <dd>
+                        <dl>
+                            <dt>
+                                <em>Contact Information: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Contact Organization Primary: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Contact Organization: </em>MEGIS
+                                            </dt>
+                                            <dt>
+                                                <em>Contact Person: </em>Maine Office of Geographic Information Systems
+                                            </dt>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Contact Position: </em>GIS Coordinator
+                                    </dt>
+                                    <dt>
+                                        <em>Contact Address: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Address Type: </em>mailing
+                                            </dt>
+                                            <dt>
+                                                <em>Address: </em>State House Station #145
+                                            </dt>
+                                            <dt>
+                                                <em>City: </em>Augusta
+                                            </dt>
+                                            <dt>
+                                                <em>State or Province: </em>Maine
+                                            </dt>
+                                            <dt>
+                                                <em>Postal Code: </em>04330
+                                            </dt>
+                                            <dt>
+                                                <em>Country: </em>US
+                                            </dt>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Contact Voice Telephone: </em>207-624-7700
+                                    </dt>
+                                    <dt>
+                                        <em>Contact Electronic Mail Address: </em><a href="mailto:OIT.Customer-Support@maine.gov">OIT.Customer-Support@maine.gov</a>
+                                    </dt>
+                                    <dt>
+                                        <em>Hours: </em>0800 - 1700 EST
+                                    </dt>
+                                    <dt>
+                                        <em>Contact Instructions: </em>Monday through Friday
+                                    </dt>
+                                </dl>
+                            </dd>
+                        </dl>
+                    </dd>
+                    <dt>
+                        <em>Distribution Liability: </em>Disclaimer:
+Information provided by the Maine Office of Geographic Information Systems and Maine GeoLibrary on this site is accurate to the best of our knowledge and is subject to change on a regular basis. While the Maine Office of Geographic Information Systems makes every effort to provide useful and accurate information, we do not warrant the information to be, complete, factual, or timely. Information is provided on an "as is" and an "as available" basis. The State of Maine disclaims any liability, loss, injury, or damage incurred as a consequence, directly or indirectly, resulting from the use and application of any of the contents of this web site.
+                    </dt>
+                </dl>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <em>Metadata Reference Information: </em>
+            </dt>
+            <dd>
+                <dl>
+                    <dt>
+                        <em>Metadata Date: </em>20240223
+                    </dt>
+                    <dt>
+                        <em>Metadata Contact: </em>
+                    </dt>
+                    <dd>
+                        <dl>
+                            <dt>
+                                <em>Contact Information: </em>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt>
+                                        <em>Contact Organization Primary: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Contact Organization: </em>MEGIS
+                                            </dt>
+                                            <dt>
+                                                <em>Contact Person: </em>Maine Office of Geographic Information Systems
+                                            </dt>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Contact Position: </em>GIS Coordinator
+                                    </dt>
+                                    <dt>
+                                        <em>Contact Address: </em>
+                                    </dt>
+                                    <dd>
+                                        <dl>
+                                            <dt>
+                                                <em>Address Type: </em>mailing
+                                            </dt>
+                                            <dt>
+                                                <em>Address: </em>State House Station #145
+                                            </dt>
+                                            <dt>
+                                                <em>City: </em>Augusta
+                                            </dt>
+                                            <dt>
+                                                <em>State or Province: </em>Maine
+                                            </dt>
+                                            <dt>
+                                                <em>Postal Code: </em>04330
+                                            </dt>
+                                            <dt>
+                                                <em>Country: </em>US
+                                            </dt>
+                                        </dl>
+                                    </dd>
+                                    <dt>
+                                        <em>Contact Voice Telephone: </em>207-624-7700
+                                    </dt>
+                                    <dt>
+                                        <em>Contact Electronic Mail Address: </em><a href="mailto:OIT.Customer-Support@maine.gov">OIT.Customer-Support@maine.gov</a>
+                                    </dt>
+                                    <dt>
+                                        <em>Hours: </em>0800 - 1700
+                                    </dt>
+                                    <dt>
+                                        <em>Contact Instructions: </em>Monday through Friday
+                                    </dt>
+                                </dl>
+                            </dd>
+                        </dl>
+                    </dd>
+                    <dt>
+                        <em>Metadata Standard Name: </em>FGDC Content Standard for Digital Geospatial Metadata
+                    </dt>
+                    <dt>
+                        <em>Metadata Standard Version: </em>FGDC-STD-001-1998
+                    </dt>
+                    <dt>
+                        <em>Metadata Time Convention: </em>local time
+                    </dt>
+                    <dt>
+                        <em>Metadata Use Constraints: </em>Disclaimer:Information provided by the Maine Office of Geographic Information Systems and Maine GeoLibrary on this site is accurate to the best of our knowledge and is subject to change on a regular basis. While the Maine Office of Geographic Information Systems makes every effort to provide useful and accurate information, we do not warrant the information to be, complete, factual, or timely. Information is provided on an "as is" and an "as available" basis. The State of Maine disclaims any liability, loss, injury, or damage incurred as a consequence, directly or indirectly, resulting from the use and application of any of the contents of this web site.
+                    </dt>
+                </dl>
+            </dd>
+        </dl>
+    </body>
+</html>

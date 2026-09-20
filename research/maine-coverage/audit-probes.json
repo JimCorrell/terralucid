@@ -1,0 +1,182 @@
+[
+  {
+    "id": "geocodes-count",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Reference table control count."
+  },
+  {
+    "id": "geocodes-records",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=false&outFields=OBJECTID%2CCOMMONNAME%2CCOUNTY%2CGEOCODE%2CCNTYCODE%2CSTATUS%2CCODE1982%2CCODE1971%2CNOTES&orderByFields=OBJECTID&resultRecordCount=2000",
+    "purpose": "Dated code and status reference; preserve alternate/historical records."
+  },
+  {
+    "id": "civil-code-types",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&groupByFieldsForStatistics=GEOCODE%2CTOWN%2CCOUNTY%2CTYPE&orderByFields=GEOCODE%2CTOWN%2CCOUNTY%2CTYPE&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D",
+    "purpose": "Complete aggregate profile; require count reconciliation and no transfer-limit flag."
+  },
+  {
+    "id": "civil-count",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Civil polygon count for aggregate reconciliation."
+  },
+  {
+    "id": "ut-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0?f=pjson",
+    "purpose": "Current fields, editing timestamp and capabilities for audit."
+  },
+  {
+    "id": "ut-count",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=1%3D1&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Current source row count."
+  },
+  {
+    "id": "ut-jurisdictions",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=1%3D1&returnGeometry=false&groupByFieldsForStatistics=GEOCODE%2CTOWNNAME&orderByFields=GEOCODE%2CTOWNNAME&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D",
+    "purpose": "Complete aggregate profile; require count reconciliation and no transfer-limit flag."
+  },
+  {
+    "id": "ut-dates",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=1%3D1&returnGeometry=false&groupByFieldsForStatistics=GEOCODE%2CTOWNNAME%2CMAPYEAR&orderByFields=GEOCODE%2CTOWNNAME%2CMAPYEAR&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D",
+    "purpose": "Complete aggregate profile; require count reconciliation and no transfer-limit flag."
+  },
+  {
+    "id": "ut-tpl-present",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=TPL+IS+NOT+NULL+AND+TRIM%28TPL%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "ut-tpl-distinct",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=TPL+IS+NOT+NULL+AND+TRIM%28TPL%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=TPL",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "ut-gpl-present",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=GPL+IS+NOT+NULL+AND+TRIM%28GPL%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "ut-gpl-distinct",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=GPL+IS+NOT+NULL+AND+TRIM%28GPL%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=GPL",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "ut-globalid-present",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=GlobalID+IS+NOT+NULL+AND+TRIM%28GlobalID%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "ut-globalid-distinct",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=GlobalID+IS+NOT+NULL+AND+TRIM%28GlobalID%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=GlobalID",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "ut-geocode-plan--lot-present",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=GEOCODE+IS+NOT+NULL+AND+TRIM%28GEOCODE%29+%3C%3E+%27%27+AND+PLAN_+IS+NOT+NULL+AND+TRIM%28PLAN_%29+%3C%3E+%27%27+AND+LOT+IS+NOT+NULL+AND+TRIM%28LOT%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "ut-geocode-plan--lot-distinct",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0/query?f=json&where=GEOCODE+IS+NOT+NULL+AND+TRIM%28GEOCODE%29+%3C%3E+%27%27+AND+PLAN_+IS+NOT+NULL+AND+TRIM%28PLAN_%29+%3C%3E+%27%27+AND+LOT+IS+NOT+NULL+AND+TRIM%28LOT%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=GEOCODE%2CPLAN_%2CLOT",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "organized-metadata",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10?f=pjson",
+    "purpose": "Current fields, editing timestamp and capabilities for audit."
+  },
+  {
+    "id": "organized-count",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=1%3D1&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Current source row count."
+  },
+  {
+    "id": "organized-jurisdictions",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=1%3D1&returnGeometry=false&groupByFieldsForStatistics=GEOCODE%2CTOWN%2CCOUNTY&orderByFields=GEOCODE%2CTOWN%2CCOUNTY&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D",
+    "purpose": "Complete aggregate profile; require count reconciliation and no transfer-limit flag."
+  },
+  {
+    "id": "organized-dates",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=1%3D1&returnGeometry=false&groupByFieldsForStatistics=GEOCODE%2CTOWN%2CCOUNTY%2CFMUPDAT&orderByFields=GEOCODE%2CTOWN%2CCOUNTY%2CFMUPDAT&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D",
+    "purpose": "Complete aggregate profile; require count reconciliation and no transfer-limit flag."
+  },
+  {
+    "id": "organized-state-id-present",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=STATE_ID+IS+NOT+NULL+AND+TRIM%28STATE_ID%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "organized-state-id-distinct",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=STATE_ID+IS+NOT+NULL+AND+TRIM%28STATE_ID%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=STATE_ID",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "organized-globalid-present",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=GlobalID+IS+NOT+NULL+AND+TRIM%28GlobalID%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "organized-globalid-distinct",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=GlobalID+IS+NOT+NULL+AND+TRIM%28GlobalID%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=GlobalID",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "organized-geocode-map-bk-lot-present",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=GEOCODE+IS+NOT+NULL+AND+TRIM%28GEOCODE%29+%3C%3E+%27%27+AND+MAP_BK_LOT+IS+NOT+NULL+AND+TRIM%28MAP_BK_LOT%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "organized-geocode-map-bk-lot-distinct",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10/query?f=json&where=GEOCODE+IS+NOT+NULL+AND+TRIM%28GEOCODE%29+%3C%3E+%27%27+AND+MAP_BK_LOT+IS+NOT+NULL+AND+TRIM%28MAP_BK_LOT%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=GEOCODE%2CMAP_BK_LOT",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "assessment-metadata",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9?f=pjson",
+    "purpose": "Current fields, editing timestamp and capabilities for audit."
+  },
+  {
+    "id": "assessment-count",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=1%3D1&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Current source row count."
+  },
+  {
+    "id": "assessment-jurisdictions",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=1%3D1&returnGeometry=false&groupByFieldsForStatistics=GEOCODE&orderByFields=GEOCODE&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D",
+    "purpose": "Complete aggregate profile; require count reconciliation and no transfer-limit flag."
+  },
+  {
+    "id": "assessment-dates",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=1%3D1&returnGeometry=false&groupByFieldsForStatistics=GEOCODE%2CYEAR_CREAT&orderByFields=GEOCODE%2CYEAR_CREAT&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22OBJECTID%22%2C+%22outStatisticFieldName%22%3A+%22n%22%7D%5D",
+    "purpose": "Complete aggregate profile; require count reconciliation and no transfer-limit flag."
+  },
+  {
+    "id": "assessment-state-id-present",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=STATE_ID+IS+NOT+NULL+AND+TRIM%28STATE_ID%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "assessment-state-id-distinct",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=STATE_ID+IS+NOT+NULL+AND+TRIM%28STATE_ID%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=STATE_ID",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "assessment-globalid-present",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=GlobalID+IS+NOT+NULL+AND+TRIM%28GlobalID%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "assessment-globalid-distinct",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=GlobalID+IS+NOT+NULL+AND+TRIM%28GlobalID%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=GlobalID",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "assessment-geocode-map-bk-lot-present",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=GEOCODE+IS+NOT+NULL+AND+TRIM%28GEOCODE%29+%3C%3E+%27%27+AND+MAP_BK_LOT+IS+NOT+NULL+AND+TRIM%28MAP_BK_LOT%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  },
+  {
+    "id": "assessment-geocode-map-bk-lot-distinct",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/9/query?f=json&where=GEOCODE+IS+NOT+NULL+AND+TRIM%28GEOCODE%29+%3C%3E+%27%27+AND+MAP_BK_LOT+IS+NOT+NULL+AND+TRIM%28MAP_BK_LOT%29+%3C%3E+%27%27&returnGeometry=false&returnCountOnly=true&returnDistinctValues=true&outFields=GEOCODE%2CMAP_BK_LOT",
+    "purpose": "Count nonblank rows or distinct raw candidate keys; no normalization or legal identity assertion."
+  }
+]

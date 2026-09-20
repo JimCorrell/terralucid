@@ -1,0 +1,12 @@
+[
+  {
+    "id": "civil-service",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer?f=pjson",
+    "purpose": "Discover published civil reference tables."
+  },
+  {
+    "id": "geocodes-metadata",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/1?f=pjson",
+    "purpose": "Inspect code reference fields, classification and query capabilities."
+  }
+]

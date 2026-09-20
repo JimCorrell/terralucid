@@ -1,0 +1,1 @@
+{"displayFieldName":"","fieldAliases":{"GEOCODE":"GEOCODE","TOWNNAME":"TOWNNAME","n":"n"},"fields":[{"name":"GEOCODE","type":"esriFieldTypeString","alias":"GEOCODE","length":5},{"name":"TOWNNAME","type":"esriFieldTypeString","alias":"TOWNNAME","length":40},{"name":"n","type":"esriFieldTypeInteger","alias":"n"}],"features":[{"attributes":{"GEOCODE":" ","TOWNNAME":null,"n":4}}]}
