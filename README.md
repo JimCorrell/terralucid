@@ -6,3 +6,6 @@ See [architecture](docs/architecture.md), [source audit](research/maine-sources/
 [ingestion plan](docs/ingestion-plan.md), and [Supabase staging setup](docs/supabase-staging.md).
 
 The [coverage and identifier audit](research/maine-coverage/README.md) records source presence, key conflicts and assessment-join limits.
+
+[Bounded source ingestion](research/maine-ingestion/README.md) now connects source records
+to the [findings register](docs/findings-register.md) for continuing follow-up.

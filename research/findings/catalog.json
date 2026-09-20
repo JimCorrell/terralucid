@@ -1,0 +1,783 @@
+{
+  "description": "Initial follow-up definitions. Stable IDs must never be reused. Status comes from append-only database events, not this seed file.",
+  "priority_policy": {
+    "high": "Blocks trusted identity, coverage or geometry interpretation.",
+    "medium": "Source qualification or follow-up needed before the dependent use.",
+    "low": "Nonblocking documentation follow-up."
+  },
+  "findings": [
+    {
+      "finding_id": "TL-F-0001",
+      "title": "Source presence gaps",
+      "description": "Neither parcel source reports records under 141 reference codes. Code conflicts mean this is not proof of absent data.",
+      "source_ids": [
+        "ut-parcels",
+        "organized-parcels"
+      ],
+      "scope": {
+        "report_pointer": "/jurisdictions",
+        "reference_codes": [
+          "01040",
+          "01070",
+          "01140",
+          "03010",
+          "03020",
+          "03030",
+          "03060",
+          "03070",
+          "03150",
+          "03170",
+          "03210",
+          "03240",
+          "03270",
+          "03290",
+          "03330",
+          "03340",
+          "03350",
+          "03400",
+          "03410",
+          "03420",
+          "03450",
+          "03460",
+          "03480",
+          "03490",
+          "03520",
+          "03550",
+          "03580",
+          "03590",
+          "03600",
+          "03610",
+          "03630",
+          "03660",
+          "03670",
+          "03811",
+          "05055",
+          "05085",
+          "07010",
+          "07140",
+          "07190",
+          "09240",
+          "11010",
+          "11030",
+          "11040",
+          "11080",
+          "11170",
+          "11200",
+          "11230",
+          "11260",
+          "11270",
+          "13070",
+          "13080",
+          "15130",
+          "15150",
+          "17010",
+          "17030",
+          "17050",
+          "17190",
+          "17217",
+          "17250",
+          "17260",
+          "17310",
+          "17320",
+          "19010",
+          "19030",
+          "19070",
+          "19090",
+          "19100",
+          "19120",
+          "19190",
+          "19200",
+          "19210",
+          "19220",
+          "19230",
+          "19320",
+          "19330",
+          "19340",
+          "19360",
+          "19390",
+          "19400",
+          "19410",
+          "19420",
+          "19440",
+          "19460",
+          "19470",
+          "19510",
+          "19560",
+          "19570",
+          "19580",
+          "19610",
+          "19620",
+          "19630",
+          "21010",
+          "21060",
+          "21100",
+          "21140",
+          "21150",
+          "21160",
+          "21170",
+          "21180",
+          "21190",
+          "21200",
+          "21210",
+          "21805",
+          "21813",
+          "25020",
+          "25040",
+          "25050",
+          "25060",
+          "25070",
+          "25080",
+          "25110",
+          "25130",
+          "25140",
+          "25160",
+          "25180",
+          "25190",
+          "25210",
+          "25220",
+          "25230",
+          "25260",
+          "25270",
+          "25290",
+          "25849",
+          "27020",
+          "27040",
+          "27050",
+          "27090",
+          "27130",
+          "27140",
+          "27170",
+          "27200",
+          "27250",
+          "27260",
+          "29410",
+          "29480",
+          "29832",
+          "31020",
+          "31070",
+          "31180",
+          "31210",
+          "31260"
+        ]
+      },
+      "evidence_state": "DERIVED",
+      "priority": "high",
+      "next_action": "Investigate each absent reference code and municipal publication routes before claiming coverage."
+    },
+    {
+      "finding_id": "TL-F-0002",
+      "title": "Sweden code/name conflict",
+      "description": "691 organized records named Sweden report Stow code 17290; identifier prefixes support 17310.",
+      "source_ids": [
+        "organized-parcels"
+      ],
+      "scope": {
+        "report_pointer": "/code_name_conflicts",
+        "source_name": "Sweden"
+      },
+      "evidence_state": "DERIVED",
+      "priority": "high",
+      "next_action": "Corroborate with municipal/source geometry evidence; record an explicit correction crosswalk without altering raw data."
+    },
+    {
+      "finding_id": "TL-F-0003",
+      "title": "Alfred code/name conflict",
+      "description": "1,634 records named Alfred report Arundel code 31030; identifier prefixes do not corroborate Alfred.",
+      "source_ids": [
+        "organized-parcels"
+      ],
+      "scope": {
+        "report_pointer": "/code_name_conflicts",
+        "source_name": "Alfred"
+      },
+      "evidence_state": "DERIVED",
+      "priority": "high",
+      "next_action": "Determine whether name, code or both are wrong using independent municipal evidence."
+    },
+    {
+      "finding_id": "TL-F-0004",
+      "title": "Other jurisdiction-name discrepancies",
+      "description": "Blank names, misspellings and Plantation/Plt variants remain explicit differences.",
+      "source_ids": [
+        "organized-parcels"
+      ],
+      "scope": {
+        "report_pointer": "/code_name_conflicts"
+      },
+      "evidence_state": "DERIVED",
+      "priority": "medium",
+      "next_action": "Review each difference and document accepted aliases separately from source values."
+    },
+    {
+      "finding_id": "TL-F-0005",
+      "title": "Unrecognized jurisdiction codes",
+      "description": "UT codes 59793 and 65185 are absent from the reference; affected records remain unassigned.",
+      "source_ids": [
+        "ut-parcels"
+      ],
+      "scope": {
+        "report_pointer": "/unrecognized_source_groups",
+        "reported_codes": [
+          "59793",
+          "65185"
+        ]
+      },
+      "evidence_state": "DERIVED",
+      "priority": "high",
+      "next_action": "Trace publisher identifiers and geometry location before proposing jurisdiction matches."
+    },
+    {
+      "finding_id": "TL-F-0006",
+      "title": "Blank jurisdiction identifiers",
+      "description": "Four UT and fourteen organized source rows lack jurisdiction codes.",
+      "source_ids": [
+        "ut-parcels",
+        "organized-parcels"
+      ],
+      "scope": {
+        "report_pointer": "/unrecognized_source_groups"
+      },
+      "evidence_state": "DERIVED",
+      "priority": "high",
+      "next_action": "Locate affected source records and collect independent assignment evidence."
+    },
+    {
+      "finding_id": "TL-F-0007",
+      "title": "Missing candidate parcel identifiers",
+      "description": "Candidate identifiers are missing in UT geometry, organized geometry and assessment sources.",
+      "source_ids": [
+        "ut-parcels",
+        "organized-parcels",
+        "organized-assessment"
+      ],
+      "scope": {
+        "report_pointer": "/key_profiles"
+      },
+      "evidence_state": "DERIVED",
+      "priority": "high",
+      "next_action": "Preserve source row identity and investigate identifiers without dropping unmatched rows."
+    },
+    {
+      "finding_id": "TL-F-0008",
+      "title": "Repeated and placeholder identifiers",
+      "description": "TPL/GPL/STATE_ID repeat; placeholders and one-to-many source representations need interpretation.",
+      "source_ids": [
+        "ut-parcels",
+        "organized-parcels",
+        "organized-assessment"
+      ],
+      "scope": {
+        "report_pointer": "/key_profiles"
+      },
+      "evidence_state": "DERIVED",
+      "priority": "high",
+      "next_action": "Classify repeated-key groups and test candidate compound keys before canonical matching."
+    },
+    {
+      "finding_id": "TL-F-0009",
+      "title": "Assessment records unmatched by identifier",
+      "description": "143 keys in the audit sample had no assessment match. Missing matches are not proof of absent assessments.",
+      "source_ids": [
+        "organized-parcels",
+        "organized-assessment"
+      ],
+      "scope": {
+        "report_pointer": "/join_sample"
+      },
+      "evidence_state": "DERIVED",
+      "priority": "high",
+      "next_action": "Investigate unmatched keys and alternate municipal feeds; retain the exact matching scope."
+    },
+    {
+      "finding_id": "TL-F-0010",
+      "title": "Assessment relationship multiplicity",
+      "description": "The declared one-to-one relationship fails for eleven sampled keys.",
+      "source_ids": [
+        "organized-parcels",
+        "organized-assessment"
+      ],
+      "scope": {
+        "report_pointer": "/join_sample"
+      },
+      "evidence_state": "DERIVED",
+      "priority": "high",
+      "next_action": "Review all candidate rows and distinguish assessment units, geometry parts and faulty identifiers."
+    },
+    {
+      "finding_id": "TL-F-0011",
+      "title": "Missing source dates",
+      "description": "Many records lack FMUPDAT or MAPYEAR values.",
+      "source_ids": [
+        "ut-parcels",
+        "organized-parcels"
+      ],
+      "scope": {
+        "report_pointer": "/date_profiles"
+      },
+      "evidence_state": "DERIVED",
+      "priority": "medium",
+      "next_action": "Seek dated municipal deliveries or provenance; keep retrieval time distinct from source currency."
+    },
+    {
+      "finding_id": "TL-F-0012",
+      "title": "Malformed or uninterpreted source dates",
+      "description": "Zero/short values cannot be interpreted as reliable dates.",
+      "source_ids": [
+        "ut-parcels",
+        "organized-parcels"
+      ],
+      "scope": {
+        "report_pointer": "/date_profiles"
+      },
+      "evidence_state": "DERIVED",
+      "priority": "medium",
+      "next_action": "Resolve date meanings with publisher evidence; retain original values and precision."
+    },
+    {
+      "finding_id": "TL-F-0013",
+      "title": "Jurisdiction legal-effective dates unknown",
+      "description": "The dated GEOCODES reference does not establish current legal status for each jurisdiction.",
+      "source_ids": [
+        "civil-boundaries"
+      ],
+      "scope": {
+        "report_pointer": "/jurisdictions"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Establish effective dates and authority for jurisdiction changes before regulatory conclusions."
+    },
+    {
+      "finding_id": "TL-F-0014",
+      "title": "Source record identifier stability untested",
+      "description": "GlobalID is unique in the audit, but stability across refreshes and legal-identity meaning remain untested.",
+      "source_ids": [
+        "ut-parcels",
+        "organized-parcels",
+        "organized-assessment"
+      ],
+      "scope": {
+        "report_pointer": "/key_profiles"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Compare successive source deliveries; retain source/version/OID alongside GlobalID."
+    },
+    {
+      "finding_id": "TL-F-0015",
+      "title": "Compound-key uniqueness untested",
+      "description": "A multi-field distinct query was rejected; map/lot composite uniqueness is unresolved.",
+      "source_ids": [
+        "ut-parcels",
+        "organized-parcels",
+        "organized-assessment"
+      ],
+      "scope": {
+        "report_pointer": "/evidence/2026-09-20-audit/ut-geocode-plan--lot-distinct"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "high",
+      "next_action": "Profile composite keys from preserved source records without lossy normalization."
+    },
+    {
+      "finding_id": "TL-F-0016",
+      "title": "UT valuation-book linkage untested",
+      "description": "Valuation PDFs have not been validated as a structured source or joined to GIS identifiers.",
+      "source_ids": [
+        "ut-parcels",
+        "ut-valuations"
+      ],
+      "scope": {
+        "registry_source": "ut-valuations"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Inspect a bounded valuation book and map/lot index; document extraction and join evidence."
+    },
+    {
+      "finding_id": "TL-F-0017",
+      "title": "Source rights and reuse limits unresolved",
+      "description": "Public endpoint access alone does not establish redistribution or bulk-use rights.",
+      "source_ids": [
+        "ut-parcels",
+        "organized-parcels",
+        "organized-assessment",
+        "ut-valuations",
+        "civil-boundaries",
+        "lupc-zoning",
+        "municipal-zoning",
+        "soils",
+        "wetlands",
+        "elevation",
+        "hydrography",
+        "flood",
+        "roads",
+        "conservation",
+        "structures",
+        "trails",
+        "deeds-title",
+        "septic-buildability",
+        "utilities",
+        "current-use-tax",
+        "listings",
+        "landcover-imagery"
+      ],
+      "scope": {
+        "registry_sources": [
+          "ut-parcels",
+          "organized-parcels",
+          "organized-assessment",
+          "ut-valuations",
+          "civil-boundaries",
+          "lupc-zoning",
+          "municipal-zoning",
+          "soils",
+          "wetlands",
+          "elevation",
+          "hydrography",
+          "flood",
+          "roads",
+          "conservation",
+          "structures",
+          "trails",
+          "deeds-title",
+          "septic-buildability",
+          "utilities",
+          "current-use-tax",
+          "listings",
+          "landcover-imagery"
+        ]
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Record publisher terms and attribution requirements for each source before broader distribution."
+    },
+    {
+      "finding_id": "TL-F-0018",
+      "title": "Parcel-source overlap unresolved",
+      "description": "Five jurisdiction codes occur in both parcel products; parcel-level overlap is unmeasured.",
+      "source_ids": [
+        "ut-parcels",
+        "organized-parcels"
+      ],
+      "scope": {
+        "report_pointer": "/jurisdictions"
+      },
+      "evidence_state": "DERIVED",
+      "priority": "high",
+      "next_action": "Compare source geometries and identifiers; preserve distinct source records until matching evidence supports a crosswalk."
+    },
+    {
+      "finding_id": "TL-F-0019",
+      "title": "Assessment YEAR_CREAT semantics unresolved",
+      "description": "The date field has diverse values and a truncated per-jurisdiction profile was excluded.",
+      "source_ids": [
+        "organized-assessment"
+      ],
+      "scope": {
+        "report_pointer": "/assessment_year_creat"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Confirm field meaning, then profile all values with complete pagination."
+    },
+    {
+      "finding_id": "TL-F-0020",
+      "title": "Full assessment join coverage unmeasured",
+      "description": "The 321-key geographic sample is not a statewide match rate.",
+      "source_ids": [
+        "organized-parcels",
+        "organized-assessment"
+      ],
+      "scope": {
+        "report_pointer": "/join_sample"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Measure full-source join cardinality after reliable source ingestion and key profiling."
+    },
+    {
+      "finding_id": "TL-F-0021",
+      "title": "Jurisdiction parcel completeness unknown",
+      "description": "Observed source presence does not establish complete legal-parcel coverage.",
+      "source_ids": [
+        "ut-parcels",
+        "organized-parcels"
+      ],
+      "scope": {
+        "report_pointer": "/jurisdictions"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "high",
+      "next_action": "Reconcile jurisdiction deliveries against authoritative dated inventories and omissions."
+    },
+    {
+      "finding_id": "TL-F-0022",
+      "title": "Geometry quality and boundary authority unresolved",
+      "description": "Valid GIS geometry does not establish legal boundary confidence; invalid/missing/undecodable geometry needs review.",
+      "source_ids": [
+        "ut-parcels",
+        "organized-parcels"
+      ],
+      "scope": {
+        "report_pointer": "/summary"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "high",
+      "next_action": "Review geometry defects without silent repair; obtain separate boundary evidence for boundary-sensitive conclusions."
+    },
+    {
+      "finding_id": "TL-F-0023",
+      "title": "Assessment candidate jurisdiction disagreement",
+      "description": "One sampled one-to-one identifier match disagrees on GEOCODE.",
+      "source_ids": [
+        "organized-parcels",
+        "organized-assessment"
+      ],
+      "scope": {
+        "report_pointer": "/join_sample/results"
+      },
+      "evidence_state": "DERIVED",
+      "priority": "high",
+      "next_action": "Investigate candidate code disagreements before treating identifiers as trusted links."
+    },
+    {
+      "finding_id": "TL-F-0101",
+      "title": "Conserved Lands: source qualification",
+      "description": "PUB_ACCESS exists but actual permissions need confirmation.; Approximate ownership/easement geometries.",
+      "source_ids": [
+        "conservation"
+      ],
+      "scope": {
+        "registry_source": "conservation"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Validate CL_UNIQUEID, rights fields and tax-map linkage; preserve inventory limitations."
+    },
+    {
+      "finding_id": "TL-F-0102",
+      "title": "Tree Growth/current-use tax status: source qualification",
+      "description": "GIS or listing statements cannot establish enrollment, withdrawals or obligations.",
+      "source_ids": [
+        "current-use-tax"
+      ],
+      "scope": {
+        "registry_source": "current-use-tax"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Identify publisher and access terms, then profile coverage and dates before implementation."
+    },
+    {
+      "finding_id": "TL-F-0103",
+      "title": "Deeds, recorded plans and easements: source qualification",
+      "description": "A retrieved deed does not establish a complete title chain or resolve boundary/access disputes.",
+      "source_ids": [
+        "deeds-title"
+      ],
+      "scope": {
+        "registry_source": "deeds-title"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Record each registry's index, image/plan access, terms and costs; test document identifiers before automation."
+    },
+    {
+      "finding_id": "TL-F-0104",
+      "title": "3DEP elevation product catalog: source qualification",
+      "description": "Bounding-box matches do not prove full state coverage.; Resolution, vertical units/datum and acquisition date must be retained.",
+      "source_ids": [
+        "elevation"
+      ],
+      "scope": {
+        "registry_source": "elevation"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Build Maine-intersecting tile inventory; inspect raster metadata, overlap and gaps before slope/aspect derivation."
+    },
+    {
+      "finding_id": "TL-F-0105",
+      "title": "NFHL availability index: source qualification",
+      "description": "This probe tested an availability index, not the flood-hazard polygon layer.; No returned hazard must not be interpreted as no flood risk without coverage evidence.",
+      "source_ids": [
+        "flood"
+      ],
+      "scope": {
+        "registry_source": "flood"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Identify hazard layer in official service; compare study coverage and effective map dates before overlay."
+    },
+    {
+      "finding_id": "TL-F-0106",
+      "title": "3DHP and legacy NHD: source qualification",
+      "description": "Do not treat legacy NHD as continually updated.; CONUS product presence does not establish local update quality, stream permanence or recreation rights.",
+      "source_ids": [
+        "hydrography"
+      ],
+      "scope": {
+        "registry_source": "hydrography"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Choose appropriate distribution; inspect Maine coverage, feature identifiers, lineage and version."
+    },
+    {
+      "finding_id": "TL-F-0107",
+      "title": "Land cover and imagery for privacy/remoteness: source qualification",
+      "description": "Coverage, capture date, resolution and permitted reuse need investigation.",
+      "source_ids": [
+        "landcover-imagery"
+      ],
+      "scope": {
+        "registry_source": "landcover-imagery"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Identify publisher and access terms, then profile coverage and dates before implementation."
+    },
+    {
+      "finding_id": "TL-F-0108",
+      "title": "Listing and market records: source qualification",
+      "description": "No provider, license or ingestion route has been selected.",
+      "source_ids": [
+        "listings"
+      ],
+      "scope": {
+        "registry_source": "listings"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Identify publisher and access terms, then profile coverage and dates before implementation."
+    },
+    {
+      "finding_id": "TL-F-0109",
+      "title": "LUPC zoning polygons and official maps: source qualification",
+      "description": "All-Yes flags do not verify legal currency.; Official maps remain necessary for zoning confirmation.; Rights and publication semantics need review.",
+      "source_ids": [
+        "lupc-zoning"
+      ],
+      "scope": {
+        "registry_source": "lupc-zoning"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Determine authoritative current-zone selection and map-date reconciliation."
+    },
+    {
+      "finding_id": "TL-F-0110",
+      "title": "Municipal zoning and shoreland records: source qualification",
+      "description": "LUPC coverage cannot stand in for municipal zoning.",
+      "source_ids": [
+        "municipal-zoning"
+      ],
+      "scope": {
+        "registry_source": "municipal-zoning"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Inventory municipal publication routes and effective dates by jurisdiction; link maps to ordinances."
+    },
+    {
+      "finding_id": "TL-F-0111",
+      "title": "MaineDOT public road centerlines: source qualification",
+      "description": "Fields such as jurisdictn, surface and traffic require code definitions.; Geometry does not prove deeded access, maintenance obligation or seasonal passability.",
+      "source_ids": [
+        "roads"
+      ],
+      "scope": {
+        "registry_source": "roads"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Read data dictionary and dates; validate identifiers and private-road gaps."
+    },
+    {
+      "finding_id": "TL-F-0112",
+      "title": "Wastewater permits and site evaluation: source qualification",
+      "description": "Mapped soils do not establish site approval.",
+      "source_ids": [
+        "septic-buildability"
+      ],
+      "scope": {
+        "registry_source": "septic-buildability"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Identify permit retrieval paths and parcel-linking fields; define which unknowns require a site evaluator."
+    },
+    {
+      "finding_id": "TL-F-0113",
+      "title": "SSURGO / Soil Data Access: source qualification",
+      "description": "Soil map units do not establish site-specific septic suitability.; Retain map-unit/component/horizon relationships and units.",
+      "source_ids": [
+        "soils"
+      ],
+      "scope": {
+        "registry_source": "soils"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Retrieve one survey-area metadata/package manifest; measure NOTCOM and spatial coverage; validate joins."
+    },
+    {
+      "finding_id": "TL-F-0114",
+      "title": "Building footprint candidate: source qualification",
+      "description": "OpenStreetMap origin means state hosting does not make every building authoritative.",
+      "source_ids": [
+        "structures"
+      ],
+      "scope": {
+        "registry_source": "structures"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Measure building omission and snapshot age before any privacy/remoteness metric."
+    },
+    {
+      "finding_id": "TL-F-0115",
+      "title": "ATV and snowmobile route information: source qualification",
+      "description": "Trail proximity and permission are different findings.",
+      "source_ids": [
+        "trails"
+      ],
+      "scope": {
+        "registry_source": "trails"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Inventory reusable route sources, permitted uses, seasonal dates and permission records."
+    },
+    {
+      "finding_id": "TL-F-0116",
+      "title": "Power, communications and water options: source qualification",
+      "description": "Network proximity does not establish serviceability or connection cost.",
+      "source_ids": [
+        "utilities"
+      ],
+      "scope": {
+        "registry_source": "utilities"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Identify publisher and access terms, then profile coverage and dates before implementation."
+    },
+    {
+      "finding_id": "TL-F-0117",
+      "title": "National Wetlands Inventory: source qualification",
+      "description": "Mapping age varies by project.; Screening inventory; no parcel-specific wetland delineation established.",
+      "source_ids": [
+        "wetlands"
+      ],
+      "scope": {
+        "registry_source": "wetlands"
+      },
+      "evidence_state": "UNKNOWN",
+      "priority": "medium",
+      "next_action": "Select Maine package, preserve project metadata, validate coverage and feature identifiers."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "batch_id": "53583bba4ab54f4774893ce9004b33a73302f9609f791d46f69506bfecd08816",
+  "manifest_sha256": "5a8ebb6cd4e63f42ed2bfeb819236de88d99ae60f0f2c39240e589ce61e7568c",
+  "audit_sha256": "5bfee572136f75ac84bdb5e732b4dc9083d8fc4f59b234b035295e30540b51cc",
+  "records": {
+    "ut-parcels": 323,
+    "organized-parcels": 1001,
+    "organized-assessment": 734
+  },
+  "assessment_candidate_links": 737,
+  "candidate_counts": {
+    "1": 737,
+    "0": 264
+  },
+  "quality_flags_before_postgis": {
+    "source_overlap_unresolved": 633,
+    "uninterpreted_source_date": 1,
+    "missing_source_date": 151,
+    "repeated_candidate_key_in_batch": 50,
+    "assessment_no_match": 264,
+    "code_name_conflict": 861,
+    "assessment_geocode_disagreement": 616,
+    "assessment_date_semantics": 734
+  },
+  "initial_findings": 40,
+  "record_occurrences_before_postgis": 3310,
+  "method_checksums": {
+    "scripts/prepare_bounded_ingestion.py": "ed169254f56c5aac84f7421c799aa9d5aa834cc59965fdd03f738c94ffd07cf4",
+    "scripts/collect_bounded_sources.py": "0fd48ccd1a77173014fb13ff0289f87711334400e397f322095ee4687ad6eb4d",
+    "scripts/audit_maine_coverage.py": "0f174a77b5c9cc18310614583239353c0e9d0f6cd96e0a9fc5db885db702b56b",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b",
+    "supabase/migrations/20260920030000_bounded_ingestion_findings.sql": "eebe179dc47d6acb0c8d46b6a77c9e6129aa92cb963047a5898085cbadc1b30a"
+  }
+}
