@@ -132,6 +132,28 @@ migration `20260921040000_county_source_inventory.sql` and the atomic load. Run
 fixture; it deliberately attempts changed replay, extra rows, deletion and a partial
 batch. Never run synthetic mutation tests on the live project.
 
+## Streamed first-load transport
+
+For the larger county transfer, `scripts/repack_county_transfer.py` converts the
+prepared feature INSERTs into COPY groups of 25. It checks every source ID and
+input-text checksum against the same audit before producing a usable transfer.
+`transport-verification.json` pins both SQL files and the transport method.
+Source data and the audit are unchanged. The transaction's statement timeout is
+disabled for this bounded administrative load; normal session settings resume at
+transaction end.
+
+```sh
+python scripts/repack_county_transfer.py --prepared .local/county-load \
+  --report research/piscataquis-ingestion/report.json --output .local/county-copy-load
+python scripts/apply_prepared_load.py --prepared .local/county-copy-load \
+  --download .local/county-download --project-ref yytsjlmbyqhcqfalbjca
+```
+
+COPY requires an empty county batch and rejects an already loaded audit before
+mutation. Use the original prepared INSERT file for replay; do not partially append
+or disable batch completeness checks. The full streamed load, empty-batch guard,
+existing integrity checks and transport escaping tests passed in isolation.
+
 ## Validation and deployment checkpoint
 
 Final private audit:
@@ -143,19 +165,36 @@ Raw captures and the complete audit are in the existing private source bucket.
 the archived retrieval logs. Large request/page manifests remain private to keep
 the PR focused on methods and evaluation.
 
-**102 Python tests pass.** The disposable PostGIS database passed every migration,
+**105 Python tests pass.** The disposable PostGIS database passed every migration,
 the full **120,449-row** load, exact replay, completeness rejection, altered-replay
 rejection, batch sealing, geometry holds, privacy and immutable-history checks.
 The original and optimized transfer reproduce identical per-feature fingerprints,
 coverage evaluation and project lineage.
 
-The complete test database uses about **1.1 GB** (county feature table/indexes:
-1,110 MB). Confirm the live project's capacity before applying the migration and
-full feature load; this exceeds Supabase's published Free 500 MB database limit.
-No billing or subscription change is authorized or performed by this PR.
+The user confirmed capacity and authorized the feature load before merging PR #28.
+Migration `20260921040000_county_source_inventory.sql` and the full atomic load are
+**applied in Supabase**. The first attempt rolled back during a server interruption;
+a readback confirmed zero batches and features before retry. The cause of the
+interruption was not established. A streamed COPY retry preserved every original
+input fingerprint. See `transport-verification.json`. Readback confirms **120,449 feature rows**, all source
+counts/checksum fingerprints matching the audit, **183 retained geometry holds**,
+and zero unexpected geometry states or native CRS values.
 
-The live checkpoint is recorded in `checkpoint.json`. The source observations,
-audit and follow-up findings can be loaded independently of the larger feature
-inventory. Until that checkpoint confirms the migration and feature load, the
-county geometry is **not yet queryable in Supabase**. Use
-`scripts/check_county_inventory.sql` only after the full feature load.
+During the retry, the server remained active while transfer slowed. Refreshing
+planner statistics on the county feature table completed successfully and was
+followed by faster transfer. A stale cached plan is a possible explanation, not a
+verified cause. The full read-only verification exceeded the query service timeout
+and passed in a separate read-only session with a ten-minute local timeout.
+
+Live database size at verification: **1237 MB**; county feature table and
+indexes: **1148 MB**. Tables/view remain private, RLS is enabled,
+and the archive bucket remains private. The 694 source observations, 11 finding
+occurrences and TL-F-0029 review were replayed without duplication. Prior accepted
+geometry, screenings and review fingerprints are unchanged.
+
+See `checkpoint.json` and `live-verification.json` for the deployment evidence.
+`scripts/verify_county_load.sql` reproduces the full read-only load verification.
+County geometry is now queryable through `ingest.county_inventory`, scoped to the
+exact audit. It remains a source inventory, **not qualified parcel screening**;
+geometry holds, source age, coverage gaps and legal unknowns remain unresolved.
+Use `scripts/check_county_inventory.sql` for read-only follow-up checks.

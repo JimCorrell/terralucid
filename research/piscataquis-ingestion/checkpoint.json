@@ -7,7 +7,7 @@
     "runs/capture/results.json": "b49a76a700248ee1a477be09a59732d726a1aa8e1c1c4f0996dddb286a203cef",
     "runs/discovery/results.json": "78742c95e0f57f8c580ddf7a420d8d331177d3653ddf23eb651fdf6893b24b5a"
   },
-  "county_feature_table_exists": false,
+  "county_feature_table_exists": true,
   "county_finding": {
     "event_id": "fd5c48e2efada65944104341322d6a69d9a2fa4a28a8627121316ca9b75896cb",
     "finding_id": "TL-F-0029",
@@ -16,14 +16,33 @@
     "priority": "high",
     "status": "open"
   },
-  "database_size": "89 MB",
-  "feature_load_applied": false,
-  "feature_load_status": "Pending confirmation of live database capacity; isolated county table/indexes measured 1110 MB",
+  "database_size": "1237 MB",
+  "feature_load_applied": true,
+  "feature_load_status": "Loaded and verified in Supabase after user confirmation of capacity",
+  "feature_table_size": "1148 MB",
   "finding_occurrences": 11,
+  "first_attempt_interruption_cause": "UNKNOWN; server restart observed and connections were temporarily unavailable",
+  "first_attempt_rolled_back": true,
+  "first_attempt_verified_feature_rows": 0,
   "isolated_feature_rows": 120449,
-  "migration_applied": false,
+  "last_verified_feature_rows": 120449,
+  "live_feature_rows": 120449,
+  "live_geometry_holds": 183,
+  "live_manifest_matches": true,
+  "live_verification_transport": "Read-only psql transaction with 10-minute local statement timeout after the query service timed out",
+  "live_verified_at": "2026-09-21T15:25:19.944228+00:00",
+  "migration_applied": true,
   "prior_history_fingerprints_unchanged": true,
+  "private_tables": true,
+  "private_view": true,
   "project_ref": "yytsjlmbyqhcqfalbjca",
-  "python_tests_passed": 102,
-  "source_observations": 694
+  "python_tests_passed": 105,
+  "retry_statistics_refresh": {
+    "action": "ANALYZE ingest.county_inventory_feature during the active COPY load",
+    "cause": "INFERRED possible stale cached plan; the active cached plan was not captured",
+    "result": "Completed successfully; transfer throughput increased afterward"
+  },
+  "server_restart_observed": "2026-09-21 13:50:57.6702+00",
+  "source_observations": 694,
+  "transfer_mode": "COPY in groups of 25 with exact input fingerprints"
 }
