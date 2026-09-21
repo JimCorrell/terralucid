@@ -1,0 +1,27 @@
+{
+  "scope": "Bounded NWI displacement controls and package imagery lineage; no source replacement",
+  "sources": [
+    {
+      "id": "nwi-projection-controls",
+      "publisher": "USFWS/USGS",
+      "probe_ids": [
+        "service-metadata",
+        "layer-metadata",
+        "native",
+        "default-albers",
+        "explicit-1188",
+        "explicit-1515",
+        "explicit-108190",
+        "layer-metadata-end"
+      ]
+    },
+    {
+      "id": "projection-documentation",
+      "publisher": "Esri and PROJ",
+      "probe_ids": [
+        "query-documentation",
+        "operation-selection"
+      ]
+    }
+  ]
+}

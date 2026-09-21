@@ -83,3 +83,9 @@ bytes and attributes. The package uses equivalent CRS identifier EPSG:5070 witho
 coordinate transformation. Candidate links remain INFERRED, and existing service
 defaults remain unchanged. `ingest.wetlands_package_current` exposes comparison and
 service review dependencies; source selection and boundary differences remain explicit.
+
+The later [projection/lineage audit](../research/wetlands-projection-lineage/README.md)
+numerically explains the bounded displacement using explicit ESRI:108190 and
+qualifies native package project coverage. Consult it alongside historical comparison
+metrics; source geometries, inferred identities and default views remain unchanged.
+May 1983 imagery and undated supplementation remain explicit qualifications.

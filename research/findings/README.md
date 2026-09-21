@@ -124,3 +124,9 @@ The [bounded package load](../wetlands-package-load/README.md) appends TL-F-0117
 evidence for separately queryable native package features and inferred candidate
 links. Projection cause, package imagery/project coverage, broader qualification
 and applicability remain open. TL-F-0027/0028 resolutions remain unchanged.
+
+The [wetlands projection and lineage review](../wetlands-projection-lineage/README.md)
+appends TL-F-0117 evidence that numerically reconciles all 669 service/package pairs
+and qualifies four native project footprints, with per-feature spatial lineage.
+TL-F-0117 remains in progress for wider coverage/refresh, identity, imagery age
+and legal applicability. TL-F-0027/0028 resolutions and source interpretations remain unchanged.

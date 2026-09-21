@@ -1,0 +1,34 @@
+[
+  {
+    "id": "service-metadata",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer?f=pjson"
+  },
+  {
+    "id": "layer-metadata",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0?f=pjson"
+  },
+  {
+    "id": "native",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=3857"
+  },
+  {
+    "id": "default-albers",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=5070"
+  },
+  {
+    "id": "explicit-1188",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=5070&datumTransformation=1188"
+  },
+  {
+    "id": "explicit-1515",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=5070&datumTransformation=1515"
+  },
+  {
+    "id": "explicit-108190",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=5070&datumTransformation=108190"
+  },
+  {
+    "id": "layer-metadata-end",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0?f=pjson"
+  }
+]

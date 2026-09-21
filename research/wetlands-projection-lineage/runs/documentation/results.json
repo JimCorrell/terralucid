@@ -1,0 +1,28 @@
+[
+  {
+    "id": "query-documentation",
+    "url": "https://developers.arcgis.com/rest/services-reference/enterprise/query-map-service-layer/",
+    "retrieved_at": "2026-09-21T12:05:04.515324+00:00",
+    "http_status": 200,
+    "final_url": "https://developers.arcgis.com/rest/services-reference/enterprise/query-map-service-layer/",
+    "content_type": "text/html",
+    "response_file": "query-documentation.response",
+    "sha256": "ba50fb448e9b3482441942aa33edbfd93825388248cbcff3dbfe470984efa97d",
+    "bytes": 475522,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "operation-selection",
+    "url": "https://proj.org/en/stable/operations/operations_computation.html",
+    "retrieved_at": "2026-09-21T12:05:05.078139+00:00",
+    "http_status": 200,
+    "final_url": "https://proj.org/en/stable/operations/operations_computation.html",
+    "content_type": "text/html; charset=utf-8",
+    "response_file": "operation-selection.response",
+    "sha256": "c76c2afe9f8e575a4289f4783ebcabc1bad2950cfcabd7f03e04b04224310e35",
+    "bytes": 171016,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

@@ -124,3 +124,10 @@ The [bounded package load](../research/wetlands-package-load/README.md) now stor
 those 669 package candidates separately. Next investigate the consistent displacement
 and qualify package imagery/project coverage before broader ingestion. Inferred
 identity, native geometry differences and refresh/legal unknowns remain visible.
+
+The [bounded projection/lineage investigation](../research/wetlands-projection-lineage/README.md)
+explains the measured displacement through explicit operation controls and records
+package-specific project coverage for every loaded feature. Next qualify broader
+package geometry/project coverage and refresh behavior, keeping cross-release
+identity, old imagery and field/regulatory evidence unresolved. Existing comparison
+metrics remain historical; no global transformation or source preference is changed.
