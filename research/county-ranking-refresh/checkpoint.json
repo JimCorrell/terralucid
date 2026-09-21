@@ -1,0 +1,14 @@
+{
+  "accepted_correction_versions_unchanged": true,
+  "county_original_fingerprints_unchanged": true,
+  "finding_event_id": "b2b3582b20cbea28d585f9bc6b427f12254552f24afe47d9169ece8f482cf0ef",
+  "geometry_snapshot_id": "6953a46ca94beb0c5fa74bac958926d015afb78c65ccfe28c35b08fc10f9d048",
+  "live_verified_at": "2026-09-21T23:05:07.441967+00:00",
+  "load_sha256": "57a886a3c4a9e27fbaaad5f14ada9890e785cd52fbaedce2343633d48234e8a5",
+  "other_findings_unchanged": true,
+  "qualified_for_parcel_screening": false,
+  "ranking_audit_sha256": "07efac22afa8829de039ada598fa06533f378c33edc720f40a255b67c75d0136",
+  "remaining_total_holds": 178,
+  "remaining_zoning_holds": 157,
+  "verified_archive_objects": 152
+}

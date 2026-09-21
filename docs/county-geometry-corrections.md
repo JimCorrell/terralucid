@@ -44,8 +44,10 @@ explicit extension; do not update immutable history.
 
 ## Dependencies for downstream analysis
 
-There are no existing county screening results to recompute. Future consumers
-must integrate this protocol before persisting or using county results:
+The [refreshed zoning-hold ranking](../research/county-ranking-refresh/README.md)
+is a downstream result bound to a correction snapshot. It remains an investigation
+priority list, not a county screening result. Consumers must integrate this protocol
+before persisting or using county results:
 
 1. Use PostgreSQL’s default READ COMMITTED isolation. In the same transaction
    as reading effective inputs, call

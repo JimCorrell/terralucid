@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid county ranking refresh",
+  "expected_event_id": "253522a585f627cf40532f7e1278fb10529d92f9b03538a48ec2a7bd67f0f846",
+  "finding_id": "TL-F-0029",
+  "next_action": "Investigate East Middlesex Canal Grant 27304757 first, then T7 R11 WELS 27270812 and T4 R11 WELS 27207268 as bounded cases using native source and official map evidence. Preserve 21 parcel holds, municipal applicability and wetland imagery follow-ups; check ranking snapshot currency before use.",
+  "note": "Refreshed all 157 remaining zoning holds against five accepted exact versions; original ranking and sources preserved. Envelope priorities remain DERIVED upper bounds, not parcel screening.",
+  "priority": "high",
+  "status": "in_progress"
+}

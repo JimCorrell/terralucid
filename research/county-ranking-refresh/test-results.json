@@ -1,0 +1,25 @@
+{
+  "checks": [
+    "overlapping candidates counted once; holes, disjoint parts and boundary touches",
+    "stale/changed dependencies and changed hold cohort rejected",
+    "multiple civil records per jurisdiction aggregated",
+    "157 unique remaining holds; monotonic upper bounds",
+    "new coverage agrees with prior activation analyses within 0.01 square metre"
+  ],
+  "direct_overlay_checks": [
+    {
+      "direct_overlay_difference_m2": 2.980232238769531e-07,
+      "object_id": 27304757
+    },
+    {
+      "direct_overlay_difference_m2": 1.6391277313232422e-07,
+      "object_id": 27270812
+    },
+    {
+      "direct_overlay_difference_m2": 0.00029118359088897705,
+      "object_id": 27257109
+    }
+  ],
+  "passed": true,
+  "unit_tests": 5
+}
