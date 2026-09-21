@@ -97,3 +97,9 @@ The [NWI classification review](../wetlands-classification/README.md) resolves
 matches. The upstream duplicate join persists; this is not a publisher-repair claim.
 TL-F-0117 retains package/identity/projection and applicability work. TL-F-0028 is
 unchanged and open. Earlier definitions and findings history remain intact.
+
+The [availability geometry review](../wetlands-availability/README.md) moves
+**TL-F-0028 to in progress** with an exact-segment decomposition proposal. Native
+and exported boundaries agree; five self-touching rings explain the strict validity
+failure. Acceptance/dependency handling remains pending. TL-F-0117 stays in progress;
+TL-F-0027's classification resolution is unchanged.

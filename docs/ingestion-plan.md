@@ -95,3 +95,8 @@ archives the Maine GeoPackage and resolves the eight lookup interpretations.
 Package/service identifiers and projected boundaries differ; candidate comparisons
 do not establish a general crosswalk. Availability geometry (TL-F-0028), wider
 package qualification and a queryable wetlands load remain future work.
+
+The [availability follow-up](../research/wetlands-availability/README.md) diagnoses
+TL-F-0028 and archives an unaccepted exact-segment decode. Review acceptance and
+version dependencies before enabling that coverage overlay. Source-image age,
+package/service reconciliation and field/regulatory limits remain separate gates.

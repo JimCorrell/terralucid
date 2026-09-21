@@ -1,0 +1,10 @@
+{
+  "scope": "TL-F-0028, exact prior national Wetlands_Status OBJECTID 3, with bounded Osborn coverage corroboration.",
+  "evidence_state": "DERIVED",
+  "conclusion": "The strict-validity failure is consistent with a representation incompatibility: Esri allows vertex self-touches, while the exported unsplit rings fail GEOS validation. Eleven exact repeated vertices in five rings split into simple cycles. Documented winding and unique hole containment yield a valid candidate while preserving every directed boundary segment and its multiplicity.",
+  "proposal": "Archive a proposed EPSG:3857 MultiPolygon with 93 shells and 74 holes. No source coordinate is moved, no edge removed, no hole filled and no general repair applied. This is a source-version-specific proposal; not an automatic repair fallback or an accepted effective geometry.",
+  "map_review": "Visually inspected the original 800x800 service-rendered PNG for the requested Osborn envelope. It is solid green, matching the layer's Digital renderer. This corroborates regional availability only; it does not independently certify eleven distant contact vertices or national boundary accuracy. Service aspect-ratio adjustment may expand the requested extent.",
+  "coverage": "The candidate covers the exact prior FEMA Osborn study boundary. Four valid imagery-source footprints also cover it. All eleven contact vertices are outside that boundary. These agree on mapping availability, not exhaustive wetland detection, present-day imagery, or legal applicability.",
+  "downstream": "Keep the original geometry hold until the proposal is explicitly accepted and dependent coverage calculations retain the source audit, candidate hash and acceptance event. New source versions require review. Existing correction views and zoning screenings are unchanged.",
+  "remaining": "May 1983 imagery, package/service identity and projection differences, wider package qualification and field/regulatory due diligence remain unresolved. No parcel screening or legal wetland determination is introduced."
+}
