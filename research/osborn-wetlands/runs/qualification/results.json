@@ -1,0 +1,80 @@
+[
+  {
+    "id": "data-source-service",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer?f=pjson",
+    "retrieved_at": "2026-09-20T23:53:26.690564+00:00",
+    "http_status": 200,
+    "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "data-source-service.response",
+    "sha256": "ad02d3ad3b2011200f7c4fd1045bf3cff41e5fbeac82e5ca33ce47e33277a6b3",
+    "bytes": 4686,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "wetlands-status-service",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer?f=pjson",
+    "retrieved_at": "2026-09-20T23:53:27.982228+00:00",
+    "http_status": 200,
+    "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "wetlands-status-service.response",
+    "sha256": "a379fd2f52ef3d79c9eeab548d375f407690f74ef2ae4234b9b0b0e125fc2893",
+    "bytes": 3252,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "disclaimer",
+    "url": "https://www.fws.gov/page/wetlands-geodatabase-disclaimer",
+    "retrieved_at": "2026-09-20T23:53:28.717855+00:00",
+    "http_status": 200,
+    "final_url": "https://www.fws.gov/page/wetlands-geodatabase-disclaimer",
+    "content_type": "text/html; charset=utf-8",
+    "response_file": "disclaimer.response",
+    "sha256": "ef1f7da4c0638b69cfb9c299a75a48d168fca3bb3ab1c56507b2d7b597a4b157",
+    "bytes": 87412,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "limitations",
+    "url": "https://www.fws.gov/node/264582",
+    "retrieved_at": "2026-09-20T23:53:29.179014+00:00",
+    "http_status": 200,
+    "final_url": "https://www.fws.gov/page/wetlands-data-limitations-exclusions-and-precautions",
+    "content_type": "text/html; charset=utf-8",
+    "response_file": "limitations.response",
+    "sha256": "2f0500906fb3690803a86c7f77ac6d6e05373117267621babad986f20924a0e9",
+    "bytes": 89062,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "caution",
+    "url": "https://www.fws.gov/node/264583",
+    "retrieved_at": "2026-09-20T23:53:29.910406+00:00",
+    "http_status": 200,
+    "final_url": "https://www.fws.gov/page/wetlands-geodatabase-user-caution",
+    "content_type": "text/html; charset=utf-8",
+    "response_file": "caution.response",
+    "sha256": "3ee913abf1392b98c60dc48706551a7ba62d9ca587b4a871c4d42dc9f9d29698",
+    "bytes": 89692,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "wetland-ids",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+    "retrieved_at": "2026-09-20T23:53:30.592321+00:00",
+    "http_status": 200,
+    "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "wetland-ids.response",
+    "sha256": "b410515d79e81e4b8c9a35127bf6286759d23e14eb978cdbcceae0ad152cb865",
+    "bytes": 5471,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

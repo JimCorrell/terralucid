@@ -1,0 +1,26 @@
+[
+  {
+    "id": "project-metadata",
+    "url": "https://documentst.ecosphere.fws.gov/wetlands/data/metadata/FWS_Wetlands_Project_Metadata.xml"
+  },
+  {
+    "id": "esri-polygons",
+    "url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/"
+  },
+  {
+    "id": "image-year-ids-end",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/2/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true"
+  },
+  {
+    "id": "image-year-layer-end",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/2?f=pjson"
+  },
+  {
+    "id": "mapping-status-ids-end",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true"
+  },
+  {
+    "id": "mapping-status-layer-end",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0?f=pjson"
+  }
+]

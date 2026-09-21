@@ -1,0 +1,34 @@
+[
+  {
+    "id": "image-year-ids",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/2/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true"
+  },
+  {
+    "id": "image-year-features",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/2/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true"
+  },
+  {
+    "id": "image-year-count",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/2/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnCountOnly=true"
+  },
+  {
+    "id": "mapping-status-ids",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true"
+  },
+  {
+    "id": "mapping-status-features",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true"
+  },
+  {
+    "id": "mapping-status-count",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnCountOnly=true"
+  },
+  {
+    "id": "wetland-ids-end",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true"
+  },
+  {
+    "id": "wetland-layer-end",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0?f=pjson"
+  }
+]

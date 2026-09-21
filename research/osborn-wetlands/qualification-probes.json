@@ -1,0 +1,26 @@
+[
+  {
+    "id": "data-source-service",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer?f=pjson"
+  },
+  {
+    "id": "wetlands-status-service",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer?f=pjson"
+  },
+  {
+    "id": "disclaimer",
+    "url": "https://www.fws.gov/page/wetlands-geodatabase-disclaimer"
+  },
+  {
+    "id": "limitations",
+    "url": "https://www.fws.gov/node/264582"
+  },
+  {
+    "id": "caution",
+    "url": "https://www.fws.gov/node/264583"
+  },
+  {
+    "id": "wetland-ids",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true"
+  }
+]

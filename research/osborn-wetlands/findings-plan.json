@@ -1,0 +1,59 @@
+{
+  "new_findings": [
+    {
+      "finding_id": "TL-F-0027",
+      "title": "NWI joined classification definitions conflict for repeated feature IDs",
+      "description": "Eight native wetland IDs in the bounded Osborn service capture have identical core attributes and geometry but conflicting joined wetland-code definitions. ID-only results repeat those identifiers; distinct IDs match the count. Joined interpretations remain held.",
+      "source_ids": [
+        "wetlands"
+      ],
+      "scope": {
+        "community": "Osborn envelope",
+        "objectids": [
+          2274990,
+          2275013,
+          2275026,
+          2275028,
+          2275040,
+          2279189,
+          2279269,
+          2279274
+        ]
+      },
+      "evidence_state": "DERIVED"
+    },
+    {
+      "finding_id": "TL-F-0028",
+      "title": "NWI national availability polygon fails strict native-ring decoding",
+      "description": "The mapping-status feature intersecting Osborn (OBJECTID 3, Digital) contains a self-intersecting native ring. Its geometry is preserved and excluded from coverage overlays; valid source-imagery footprints independently cover the bounded study area.",
+      "source_ids": [
+        "wetlands"
+      ],
+      "scope": {
+        "service": "Wetlands_Status",
+        "layer": 0,
+        "OBJECTID": 3,
+        "impact": "Availability overlay; wetland inventory geometries separately validated"
+      },
+      "evidence_state": "DERIVED"
+    }
+  ],
+  "reviews": [
+    {
+      "finding_id": "TL-F-0027",
+      "status": "open",
+      "priority": "medium",
+      "report_pointer": "/joined_code_conflicts",
+      "note": "All variants retained. Only identical Wetlands.* core attributes and geometry are grouped for the bounded profile; joined interpretations are not selected or corrected.",
+      "next_action": "Compare the eight feature codes and conflicting lookup rows with the official classification reference and Maine package. Propose a versioned interpretation only if corroborated."
+    },
+    {
+      "finding_id": "TL-F-0028",
+      "status": "open",
+      "priority": "medium",
+      "report_pointer": "/coverage/mapping-status",
+      "note": "Strict decoder finds a self-intersecting ring. No repair, correction acceptance or availability-area claim. Four valid source-imagery footprints cover the study scope, with old-image and mapping-omission caveats.",
+      "next_action": "Investigate native ring structure and alternative official availability evidence before using this status polygon for coverage overlays. Preserve originals and separate source footprint coverage from real wetland completeness."
+    }
+  ]
+}

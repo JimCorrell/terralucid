@@ -1,0 +1,80 @@
+[
+  {
+    "id": "project-metadata",
+    "url": "https://documentst.ecosphere.fws.gov/wetlands/data/metadata/FWS_Wetlands_Project_Metadata.xml",
+    "retrieved_at": "2026-09-20T23:55:51.661239+00:00",
+    "http_status": 200,
+    "final_url": "https://documentst.ecosphere.fws.gov/wetlands/data/metadata/FWS_Wetlands_Project_Metadata.xml",
+    "content_type": "text/xml",
+    "response_file": "project-metadata.response",
+    "sha256": "5c5715ce634d13b7d512d68ae390ee13b9bba335d466ce5584c8954c94feab98",
+    "bytes": 18354,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "esri-polygons",
+    "url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+    "retrieved_at": "2026-09-20T23:55:52.488315+00:00",
+    "http_status": 200,
+    "final_url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+    "content_type": "text/html",
+    "response_file": "esri-polygons.response",
+    "sha256": "9bb444674617e320419aacbcc78f4ac47d2db8c23f5b129f8e5ce819f5d4f1d2",
+    "bytes": 266246,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "image-year-ids-end",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/2/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+    "retrieved_at": "2026-09-20T23:55:53.204868+00:00",
+    "http_status": 200,
+    "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/2/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "image-year-ids-end.response",
+    "sha256": "6ab183e5beb30aadc0080ca72459adada4cfe29dfb272dcc8d201cad40f0e40e",
+    "bytes": 70,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "image-year-layer-end",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/2?f=pjson",
+    "retrieved_at": "2026-09-20T23:55:53.765837+00:00",
+    "http_status": 200,
+    "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/2?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "image-year-layer-end.response",
+    "sha256": "017580f853ad757b5e1e5db38da9fb2af128e456dba0b70767e3dd58cd9d4e34",
+    "bytes": 26756,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "mapping-status-ids-end",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+    "retrieved_at": "2026-09-20T23:55:54.290621+00:00",
+    "http_status": 200,
+    "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0/query?f=json&geometry=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&geometryType=esriGeometryEnvelope&inSR=4269&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "mapping-status-ids-end.response",
+    "sha256": "a7921b2f3b1ed45d2b602aad6eb37cf2cc26ef55edb56133391fbbe9cd18ead3",
+    "bytes": 48,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "mapping-status-layer-end",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0?f=pjson",
+    "retrieved_at": "2026-09-20T23:55:54.760967+00:00",
+    "http_status": 200,
+    "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "mapping-status-layer-end.response",
+    "sha256": "89aeff1f841c7a2def6690cc064cc2e103a3ae9d061c6f1e0aa5bd93b77c8fd6",
+    "bytes": 10012,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

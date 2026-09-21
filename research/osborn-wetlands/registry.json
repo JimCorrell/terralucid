@@ -1,0 +1,93 @@
+{
+  "scope": "Bounded Osborn NWI service source qualification; no statewide package ingestion or parcel screening",
+  "as_of": "2026-09-20T23:55:54.760967+00:00",
+  "sources": [
+    {
+      "id": "wetlands",
+      "name": "USFWS NWI inventory, image lineage and availability",
+      "probe_ids": [
+        "image-year-ids",
+        "image-year-features",
+        "image-year-count",
+        "mapping-status-ids",
+        "mapping-status-features",
+        "mapping-status-count",
+        "wetland-ids-end",
+        "wetland-layer-end",
+        "nwi-services",
+        "nwi-service",
+        "nwi-layer",
+        "state-downloads",
+        "web-services",
+        "mapper",
+        "image-year-layer",
+        "mapping-status-layer",
+        "wetland-page-1",
+        "wetland-page-2",
+        "wetland-page-3",
+        "wetland-page-4",
+        "wetland-page-5",
+        "wetland-page-6",
+        "wetland-page-7",
+        "wetland-page-8",
+        "wetland-page-9",
+        "wetland-page-10",
+        "wetland-page-11",
+        "wetland-page-12",
+        "wetland-page-13",
+        "wetland-page-14",
+        "wetland-count",
+        "project-metadata",
+        "image-year-ids-end",
+        "image-year-layer-end",
+        "mapping-status-ids-end",
+        "mapping-status-layer-end",
+        "data-source-service",
+        "wetlands-status-service",
+        "disclaimer",
+        "limitations",
+        "caution",
+        "wetland-ids"
+      ],
+      "source_urls": [
+        "https://documentst.ecosphere.fws.gov/wetlands/data/metadata/FWS_Wetlands_Project_Metadata.xml",
+        "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/",
+        "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer",
+        "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/2",
+        "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/2/query",
+        "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer",
+        "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0",
+        "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query",
+        "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer",
+        "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0",
+        "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0/query",
+        "https://www.fws.gov/node/264582",
+        "https://www.fws.gov/node/264583",
+        "https://www.fws.gov/page/wetlands-geodatabase-disclaimer",
+        "https://www.fws.gov/program/national-wetlands-inventory/download-state-wetlands-data",
+        "https://www.fws.gov/program/national-wetlands-inventory/web-mapping-services",
+        "https://www.fws.gov/program/national-wetlands-inventory/wetlands-mapper"
+      ],
+      "rights": "Captured evidence remains private; inventory is not a regulatory delineation."
+    },
+    {
+      "id": "maine-dep-discovery",
+      "probe_ids": [
+        "dep-service"
+      ],
+      "source_urls": [
+        "https://gis.maine.gov/mapservices/rest/services/dep/MaineDEP_Parcels_NDW_NWI_NHD/MapServer?f=pjson"
+      ],
+      "qualification": "Parcel layer discovered; not used as wetlands boundary source."
+    },
+    {
+      "id": "esri-native-format",
+      "probe_ids": [
+        "esri-polygons"
+      ],
+      "source_urls": [
+        "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/"
+      ]
+    }
+  ]
+}

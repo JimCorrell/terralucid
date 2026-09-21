@@ -1,0 +1,19 @@
+{
+  "scope": "Bounded Osborn NWI source qualification; native service snapshots in private evidence staging, not statewide package ingestion or parcel screening.",
+  "evidence_state": "INFERRED",
+  "conclusion": "The NWI inventory can support qualified discovery of mapped wetland and deepwater features. Source-imagery age, mapping omissions, native geometry holds, and regulatory-boundary differences must accompany downstream use.",
+  "verified_source_statements": [
+    "Four intersecting source-imagery records report IMAGE_YR 1983, IMAGE_DATE 05/83, scale 1:58K, CIR. Comments record NWI Version 2 stream supplementation using NHD 931v220 or 931v210; those strings are not acquisition dates.",
+    "USFWS warns that inventory products use a biological definition and cannot establish the presence, absence, or extent of regulated wetlands. On-site conditions can differ from imagery interpretation.",
+    "The state download page links Maine GeoPackage and File Geodatabase packages. Neither package is loaded in this bounded service qualification.",
+    "State download page labels the current release May 2026. This is not the acquisition date of Osborn source imagery, and package bytes have not been compared with the service."
+  ],
+  "date_handling": "Keep retrieval time, publisher release label, source-image year/month, supplementation lineage and any future field observation date separate. IMAGE_DATE 05/83 has month precision; no invented day or present-day currency.",
+  "identity": "Wetlands.OBJECTID is a service snapshot identifier. Wetlands.GLOBALID is profiled as a candidate, without assuming persistence across releases or equivalence to state-package IDs.",
+  "geometry_policy": "Preserve native Esri EPSG:3857 rings. Decode only simple closed rings with unambiguous documented shell/hole roles. Hold failures; do not repair. Project valid decodings into EPSG:26919 for bounded audit calculations. No correction is accepted.",
+  "coverage_policy": "Availability and source-project coverage do not establish exhaustive mapping. Empty inventory space remains unknown for real or regulated wetlands. Union includes mapped deepwater habitats; it is not a statutory wetland acreage statistic.",
+  "regulatory_policy": "No automatic crosswalk from Cowardin codes to LUPC P-WL, DEP/NRPA jurisdiction, federal jurisdiction, septic suitability, or buildability. Existing LUPC omitted-protection and legal-currency qualifications remain open.",
+  "rights": "Exact captured evidence retained privately. This investigation does not establish redistribution rights for every linked dataset, map base, or third-party contribution.",
+  "next_action": "Resolve TL-F-0027 joined classification conflicts and TL-F-0028 availability geometry; reconcile the Maine package with this bounded service snapshot before wider loading. Preserve May 1983 imagery and NHD lineage, test cross-release identifiers, and retain field delineation/regulatory applicability as separate due-diligence requirements.",
+  "classification_policy": "Retain eight conflicting joined code definitions as a hold. Exact Wetlands.* attributes and geometry agree across those rows; grouping identical core records is an explicit derived profile, not a source correction."
+}
