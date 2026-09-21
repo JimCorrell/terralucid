@@ -1,0 +1,76 @@
+{
+  "accepted": [
+    {
+      "candidate_sha256": "63a8d72b865ff1543accf8b0831a0a9a6baac343844fe8f5dedd16aa1bfe0d09",
+      "correction_id": "c916460613425b3431bbd549b0424d4ec5ea629fff6bc7e379f8fbdf621b8f8a",
+      "effective_scope_relation": "interior",
+      "geometry_event_id": "9461ad650fb93ff085159e107e11dd64031cf60ac9dd95e567ba6d7cecc9b197",
+      "object_id": 27249007,
+      "srid": 26919,
+      "valid": true
+    },
+    {
+      "candidate_sha256": "6c080b3c394a2a3da1d9989cd2040d57cbae7ee4120a9edd82416e31297e7b23",
+      "correction_id": "75228c9dab20e577d6d2a4011a16e1847aa94ab2107097116ce76daa8e11b1f4",
+      "effective_scope_relation": "interior",
+      "geometry_event_id": "c409ce31b99d3b8a8f0e80334735eda52c006d6f103c59c8fc02ef504ace6dd0",
+      "object_id": 27291625,
+      "srid": 26919,
+      "valid": true
+    },
+    {
+      "candidate_sha256": "178f59b92aa942bdec0d6eafe800fa2650f054d5bc29a48cc1bd8b2670914ae9",
+      "correction_id": "1923fce64a18116ebc9cda52b44d6dff59a631934da6e9939ed8da1fad035843",
+      "effective_scope_relation": "interior",
+      "geometry_event_id": "75820753f2a02a4540be8e1c3f6cd234bf8b3ef9a3cb1e10b69e4e65aa08b55a",
+      "object_id": 27334504,
+      "srid": 26919,
+      "valid": true
+    }
+  ],
+  "archive_bucket_private": true,
+  "county_fingerprints_unchanged": true,
+  "county_rows": 120449,
+  "effective_total_holds": 180,
+  "effective_zoning_holds": 159,
+  "finding_reviews": [
+    {
+      "event_id": "9de17af9073931f245d5bce23d553518949f8f14c4f22355f2700504a8e22fdb",
+      "finding_id": "TL-F-0022",
+      "next_action": "Review explicit native-ring decoding for Alfred 439584, then test a separately versioned geometry interpretation in ingestion; keep original GeoJSON and revisit other invalid cases independently.",
+      "occurrence_count": 8,
+      "priority": "high",
+      "status": "in_progress"
+    },
+    {
+      "event_id": "3454dfa3a4e6510c39480f8d4ee49e3fc41b641a2e1b39ac800b2d96d6700b36",
+      "finding_id": "TL-F-0029",
+      "next_action": "Review the two exact-version Moosehead Junction 27208875 and Spencer Bay 27336229 proposals before extending county acceptance. Preserve remaining zoning, parcel, municipal-applicability and wetlands-age follow-ups.",
+      "occurrence_count": 5,
+      "priority": "high",
+      "status": "in_progress"
+    },
+    {
+      "event_id": "3882de3a73b11d225c0e9e49cb537d4828b19c121edf7def01aeb87507b3efd9",
+      "finding_id": "TL-F-0109",
+      "next_action": "Ask LUPC for the controlling record or written interpretation for Osborn CID 230595 and case 22-01-0871P, including whether the 2016 reference incorporates this LOMR and the applicable effective date. Preserve the answer and distinguish it from the FEMA mask inquiry.",
+      "occurrence_count": 6,
+      "priority": "medium",
+      "status": "in_progress"
+    }
+  ],
+  "investigated_features_still_held": true,
+  "investigation_audit_present": true,
+  "investigation_occurrences": 1,
+  "original_total_holds": 183,
+  "original_zoning_holds": 162,
+  "qualified_rows": 0,
+  "snapshots": [
+    {
+      "needs_revisit": false,
+      "snapshot_id": "d0756dd73405ebd6ae3aa3a72db2d91a9f2fd5a74355e1324f628c14f25bc4c9",
+      "source_audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259"
+    }
+  ],
+  "verified_at": "2026-09-21T18:57:17.658832+00:00"
+}

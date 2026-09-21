@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid Moosehead Junction and Spencer Bay investigation",
+  "expected_event_id": "261b9b2c436a3e8fbae0752a4814de7ce6477d532eac5d44a8a22373a26b47e7",
+  "finding_id": "TL-F-0029",
+  "next_action": "Review the two exact-version Moosehead Junction 27208875 and Spencer Bay 27336229 proposals before extending county acceptance. Preserve remaining zoning, parcel, municipal-applicability and wetlands-age follow-ups.",
+  "note": "Both remaining investigated features contain point-touching pairs of counterclockwise hole loops. Bounded candidates retain complete source segment multiplicity and match independent even-odd fill. Proposals only; source holds and three existing acceptances are unchanged.",
+  "priority": "high",
+  "status": "in_progress"
+}

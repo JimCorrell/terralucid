@@ -57,3 +57,6 @@ __pycache__/
 /research/piscataquis-zoning-holds/runs/**/*.response
 /research/piscataquis-zoning-holds/diagnostics/
 /research/piscataquis-zoning-holds/candidates/
+
+/research/moosehead-spencer/candidates/
+/research/moosehead-spencer/diagnostics/

@@ -111,3 +111,8 @@ County geometry activation is recorded in the
 remains in progress: three reviewed representations can clear their effective
 geometry holds while original holds and remaining county deficiencies persist.
 No other finding is closed by this activation.
+
+The [Moosehead Junction / Spencer Bay investigation](../research/moosehead-spencer/README.md)
+identifies point-touching hole pairs and records two complete-feature proposals.
+TL-F-0029 remains in progress pending their review; neither source hold is cleared
+and no existing county acceptance is changed by this investigation.
