@@ -1,0 +1,70 @@
+{
+  "baseline_snapshot_id": "6953a46ca94beb0c5fa74bac958926d015afb78c65ccfe28c35b08fc10f9d048",
+  "corrections": [
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "4a78f4fa910dfea90cbabc5226220c4181a4e78fe9fb14d0ce06b02a1f9c8a7a",
+        "event_id": "7cfa01611b5311df343ab41705332468b5ad4765496d6e7cf3f2221460ce79d3",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "47b5a125668da3580220741a6430dcfba6e558d0c85bad26bd7cae51d437a148",
+      "correction_id": "4a78f4fa910dfea90cbabc5226220c4181a4e78fe9fb14d0ce06b02a1f9c8a7a",
+      "object_id": 27304757,
+      "source_feature_sha256": "d8ad546f62c7caa0177deafa717756273144164ce5db812ee86f9d5d5d1f834a",
+      "source_input_sha256": "3a9e9548ee4acc06578591b4d3b66e9dbccd0b5276a3f0b84eaf3448033afe48"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "3b0dac42bb781dc5cd2c4f7a3cc627b4d64ab2d47b997ffebde7fbc0ebe6085c",
+        "event_id": "ae4e5cfaddb8d73100f497173c1386e8f07e9cae84128a002e9cb6083a4622ad",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "ca169c3ab9bcb181c9e3533cb83b5463eb443b5d29ea1e866ccd61dfe5040a6a",
+      "correction_id": "3b0dac42bb781dc5cd2c4f7a3cc627b4d64ab2d47b997ffebde7fbc0ebe6085c",
+      "object_id": 27270812,
+      "source_feature_sha256": "b4a2f1f57ba74468b7a413bc8ae16f5c2bb0aec443c3dfce27658259197a2f42",
+      "source_input_sha256": "370d4abffde6fad8a40338eefbeec4db390849c060ac0cb38898641147b22fc8"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "a0f01e34a133492da74c5635ec5d0eeb4641775354ff2cce754d2861f6a0bc35",
+        "event_id": "6d49364cc221c47e27e3ee9ed1d3eefc1f4381c7b41c45e665ea511cdc61ab16",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "0d121d894fd418c3f71f885790bd4bdd4d1981fed5a542237f508835a964bf98",
+      "correction_id": "a0f01e34a133492da74c5635ec5d0eeb4641775354ff2cce754d2861f6a0bc35",
+      "object_id": 27207268,
+      "source_feature_sha256": "ad28bee9d6ff509dc642a6442e6181084671e81855de4b7a890c875f67e15b4e",
+      "source_input_sha256": "f857700d1a74e7d9b7b4f8d8d34ef509c9bb088684d937c5608e58f861ce93df"
+    }
+  ],
+  "evidence_state": "DERIVED",
+  "expected_effective_total_holds": 175,
+  "expected_effective_zoning_holds": 154,
+  "expected_original_total_holds": 183,
+  "expected_original_zoning_holds": 162,
+  "inputs": {
+    "research/piscataquis-ingestion/transport-verification.json": "78f7a6d43b1312917f58a28c3981924df6eb65552efc545bfa429b53c00f0272",
+    "research/three-zoning-acceptance/baseline.json": "409e6b74e6f000e23af1a075bdc0e7a2261792f97b75cf7fc3fbc155172d7ac5",
+    "research/three-zoning-priorities/report.json": "a4b734b5498166be9a802b3cdc4dd08c24567ac10bb9f6764962f187e346d797",
+    "scripts/prepare_three_zoning_acceptance.py": "94b9343f46b810a3364e50cceea3ceff3834a2b2d14e5498ad46d2e5ed03619d",
+    "supabase/migrations/20260921070000_three_zoning_acceptance.sql": "ce36d6f42f6cc101ac2add1fdb8a54c37012149d84c7dcc769a931134712ee38"
+  },
+  "limits": [
+    "Geometry interpretations only, not legal zoning or surveyed boundaries.",
+    "Other county holds, municipal applicability, parcel identity and wetland age remain unresolved.",
+    "Three additional exact versions only; preserve the prior five corrections. New captures require new review."
+  ],
+  "method": "scripts/prepare_three_zoning_acceptance.py",
+  "method_sha256": "94b9343f46b810a3364e50cceea3ceff3834a2b2d14e5498ad46d2e5ed03619d",
+  "proposal_audit_sha256": "a4b734b5498166be9a802b3cdc4dd08c24567ac10bb9f6764962f187e346d797",
+  "qualified_for_parcel_screening": false,
+  "review_audit_sha256": "a4b734b5498166be9a802b3cdc4dd08c24567ac10bb9f6764962f187e346d797",
+  "source_audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259"
+}

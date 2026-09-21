@@ -10,11 +10,16 @@ requires a recorded evidentiary reason and source/correction versions.
 
 ## Bounded acceptance
 
-The layer supports five exact Piscataquis versions: Blanchard 27334504 and
+The layer supports eight exact Piscataquis versions: Blanchard 27334504 and
 Atkinson 27249007 / 27291625 (reviewed in PR #30), plus Moosehead Junction
-27208875 and Spencer Bay 27336229 (reviewed in PR #33). Each group retains its
-own pinned proposal/review audits and explicit source-hash field. The new pair
-also requires the reviewed source-cycle roles. The database verifies the
+27208875 and Spencer Bay 27336229 (reviewed in PR #33), plus East Middlesex Canal Grant
+27304757, T7 R11 WELS 27270812 and T4 R11 WELS 27207268 (PR #36).
+Each group retains pinned audits and an explicit source-hash field. The newest
+three bind both audit references to the exact PR #36 combined investigation,
+which contains proposals and separate fixed-candidate cycle/fill checks. This
+exception applies only to those three IDs and that audit hash; the earlier groups
+still require their distinct proposal and review audits. The latter five
+corrections also require reviewed source-cycle roles. The database verifies the
 pinned proposal and review audits, source and candidate bytes, native EPSG:26919,
 validity and complete original segment multiplicity. Validity alone cannot qualify
 a candidate. Additional sources or interpretations require explicit review and an
@@ -46,7 +51,9 @@ explicit extension; do not update immutable history.
 
 The [refreshed zoning-hold ranking](../research/county-ranking-refresh/README.md)
 is a downstream result bound to a correction snapshot. It remains an investigation
-priority list, not a county screening result. Consumers must integrate this protocol
+priority list, not a county screening result. Its five-correction snapshot becomes
+stale after the three PR #36 acceptances; recompute before using the ranking.
+Consumers must integrate this protocol
 before persisting or using county results:
 
 1. Use PostgreSQL’s default READ COMMITTED isolation. In the same transaction
@@ -77,3 +84,9 @@ is application history protection, not tamper-proof storage.
 
 See [activation evidence](../research/county-corrections/README.md) and the
 [original county evaluation](../research/piscataquis-ingestion/README.md).
+
+The [three-priority activation](../research/three-zoning-acceptance/README.md)
+requires the reviewed five-correction snapshot for its initial atomic load.
+A changed baseline or a partially present cohort requires review. Exact historical
+full-load replay preserves later correction events and cannot restore an earlier
+acceptance after withdrawal.
