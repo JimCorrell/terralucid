@@ -94,3 +94,12 @@ recomputation. Default downstream zoning analysis to the accepted geometry view
 and latest screening view with explicit staleness checks. Preserve original
 features, historical results, DERIVED evidence, projection caveats and unknown
 legal currency. See [geometry correction policy](zoning-geometry-corrections.md).
+
+## Reviewed NWI availability acceptance
+
+After merged PR #22, the user approved activation of the exact-segment Digital
+availability interpretation, with original geometry preserved, append-only review
+events and stale-result dependencies. The bounded Osborn coverage calculation is
+DERIVED; completeness, current conditions and legal applicability remain UNKNOWN.
+This resolves TL-F-0028's exact-version representation hold. See the
+[availability geometry policy](availability-geometry-corrections.md).

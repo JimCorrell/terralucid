@@ -103,3 +103,8 @@ The [availability geometry review](../wetlands-availability/README.md) moves
 and exported boundaries agree; five self-touching rings explain the strict validity
 failure. Acceptance/dependency handling remains pending. TL-F-0117 stays in progress;
 TL-F-0027's classification resolution is unchanged.
+
+The [availability acceptance](../availability-acceptance/README.md) resolves
+**TL-F-0028 for the exact reviewed representation**, with acceptance history and
+coverage dependencies. TL-F-0117 remains in progress; TL-F-0027 remains resolved
+for its eight reviewed classifications. Earlier occurrences/reviews are unchanged.
