@@ -1,0 +1,570 @@
+{
+  "cases": [
+    {
+      "additional_gap_area_m2": 8569283.94022319,
+      "area_difference_from_publisher_m2": 2.7194619178771973e-06,
+      "candidate_area_m2": 9270013.539984569,
+      "candidate_equals_service_geojson": null,
+      "candidate_path": "research/piscataquis-zoning-holds/candidates/27334504.geojson",
+      "candidate_sha256": "178f59b92aa942bdec0d6eafe800fa2650f054d5bc29a48cc1bd8b2670914ae9",
+      "county_feature_sha256": "315481d15b68765c5b8087bb93be3e08b8ebf759f2eb1133be52acc6817a18ab",
+      "details": {
+        "candidate_holes": 181,
+        "candidate_shells": 142,
+        "nested_hole_assignments": [],
+        "segments_preserved_with_multiplicity": true,
+        "source_rings": 322,
+        "splits": [
+          {
+            "diagnostic": {
+              "all_segments_preserved_with_multiplicity": true,
+              "boundary_contact_type": "Point",
+              "candidate_valid": true,
+              "hole_coordinate_count_including_closure": 10,
+              "hole_counterclockwise": true,
+              "input_coordinate_count_including_closure": 120,
+              "repeated_vertex": [
+                453955.53000000026,
+                5012829.75
+              ],
+              "shell_coordinate_count_including_closure": 111,
+              "shell_counterclockwise": false,
+              "zero_based_indices": [
+                1,
+                10
+              ]
+            },
+            "source_ring": 146
+          }
+        ]
+      },
+      "geojson_attributes_match_native": true,
+      "invalid_rings": [
+        {
+          "index": 146,
+          "reason": "Ring Self-intersection[453955.53 5012829.75]"
+        }
+      ],
+      "map": "blanchard-twp",
+      "native_coordinates_and_selected_attributes_unchanged": true,
+      "native_feature_sha256": "315481d15b68765c5b8087bb93be3e08b8ebf759f2eb1133be52acc6817a18ab",
+      "object_id": 27334504,
+      "original_hold": "Ring Self-intersection[453955.53 5012829.75]",
+      "original_response_sha256": "eaaecbdd69d637795bafb644ced85a2b15fcde56e732c6da00bf9f2e6b31e25d",
+      "publisher_area_m2": 9270013.53998185,
+      "rank": 1,
+      "service_geojson_same_native_segments": true,
+      "service_geojson_valid": false,
+      "service_geojson_validity": "Ring Self-intersection[453955.53 5012829.75]",
+      "status": "proposed_not_accepted",
+      "zone": "P-SL2: Shoreland - 75'"
+    },
+    {
+      "county_feature_sha256": "57952c641c28d9e0c212511eac83ca804c9443570bdb6573e7b61b90f6595812",
+      "geojson_attributes_match_native": true,
+      "invalid_rings": [
+        {
+          "index": 18,
+          "reason": "Ring Self-intersection[450703.27 5032681.46]"
+        },
+        {
+          "index": 44,
+          "reason": "Ring Self-intersection[448814.4001 5029198.02]"
+        },
+        {
+          "index": 163,
+          "reason": "Ring Self-intersection[445363.2501 5034239.94]"
+        }
+      ],
+      "map": "moosehead-junction-twp",
+      "native_coordinates_and_selected_attributes_unchanged": true,
+      "native_feature_sha256": "57952c641c28d9e0c212511eac83ca804c9443570bdb6573e7b61b90f6595812",
+      "object_id": 27208875,
+      "original_hold": "Ring Self-intersection[450703.27 5032681.46]",
+      "original_response_sha256": "b26638d34a362a72c6b542f1b06193a6fa404da3098613ffa6cb3c2ef3294794",
+      "rank": 2,
+      "reason": "Not opposite-winding nested loops with one vertex contact",
+      "service_geojson_same_native_segments": true,
+      "service_geojson_valid": false,
+      "service_geojson_validity": "Ring Self-intersection[445363.2501 5034239.94]",
+      "status": "held_no_proposal",
+      "zone": "P-SL2: Shoreland - 75'"
+    },
+    {
+      "county_feature_sha256": "7622647f1978750573db4cbc2a8bb8beaa700431805cd6ac22de8082f84c1d20",
+      "geojson_attributes_match_native": true,
+      "invalid_rings": [
+        {
+          "index": 22,
+          "reason": "Ring Self-intersection[465376.86 5062600.26]"
+        },
+        {
+          "index": 44,
+          "reason": "Ring Self-intersection[464350.45 5058506.28]"
+        }
+      ],
+      "map": "spencer-bay-twp",
+      "native_coordinates_and_selected_attributes_unchanged": true,
+      "native_feature_sha256": "7622647f1978750573db4cbc2a8bb8beaa700431805cd6ac22de8082f84c1d20",
+      "object_id": 27336229,
+      "original_hold": "Ring Self-intersection[465376.86 5062600.26]",
+      "original_response_sha256": "a366de6109fd490746caa6ecdf61f4cd1a7b813772294d6d78484ecf8455f300",
+      "rank": 3,
+      "reason": "Not opposite-winding nested loops with one vertex contact",
+      "service_geojson_same_native_segments": true,
+      "service_geojson_valid": false,
+      "service_geojson_validity": "Ring Self-intersection[464350.45 5058506.28]",
+      "status": "held_no_proposal",
+      "zone": "P-SL2: Shoreland - 75'"
+    },
+    {
+      "additional_gap_area_m2": 62467163.73842636,
+      "area_difference_from_publisher_m2": 1.3187527656555176e-06,
+      "candidate_area_m2": 62467164.23787344,
+      "candidate_equals_service_geojson": null,
+      "candidate_path": "research/piscataquis-zoning-holds/candidates/27249007.geojson",
+      "candidate_sha256": "63a8d72b865ff1543accf8b0831a0a9a6baac343844fe8f5dedd16aa1bfe0d09",
+      "county_feature_sha256": "f2c45568f9fdda4c800ef864b8a28071a0b11db43d3f6f3e6cd842c4cc66b828",
+      "details": {
+        "candidate_holes": 96,
+        "candidate_shells": 384,
+        "nested_hole_assignments": [],
+        "segments_preserved_with_multiplicity": true,
+        "source_rings": 479,
+        "splits": [
+          {
+            "diagnostic": {
+              "all_segments_preserved_with_multiplicity": true,
+              "boundary_contact_type": "Point",
+              "candidate_valid": true,
+              "hole_coordinate_count_including_closure": 57,
+              "hole_counterclockwise": true,
+              "input_coordinate_count_including_closure": 11346,
+              "repeated_vertex": [
+                493814.1003999999,
+                5004138.3234
+              ],
+              "shell_coordinate_count_including_closure": 11290,
+              "shell_counterclockwise": false,
+              "zero_based_indices": [
+                0,
+                11289
+              ]
+            },
+            "source_ring": 0
+          }
+        ]
+      },
+      "geojson_attributes_match_native": true,
+      "invalid_rings": [
+        {
+          "index": 0,
+          "reason": "Ring Self-intersection[493814.1004 5004138.3234]"
+        }
+      ],
+      "map": "atkinson-twp",
+      "native_coordinates_and_selected_attributes_unchanged": true,
+      "native_feature_sha256": "f2c45568f9fdda4c800ef864b8a28071a0b11db43d3f6f3e6cd842c4cc66b828",
+      "object_id": 27249007,
+      "original_hold": "Ring Self-intersection[493814.1004 5004138.3234]",
+      "original_response_sha256": "52f94b6fbbcef463a5e2415cde069d5568483177cf22a171c5d89f257e052cfa",
+      "publisher_area_m2": 62467164.23787212,
+      "rank": 7,
+      "service_geojson_same_native_segments": true,
+      "service_geojson_valid": false,
+      "service_geojson_validity": "Ring Self-intersection[493814.1004 5004138.3234]",
+      "status": "proposed_not_accepted",
+      "zone": "M-GN: General"
+    },
+    {
+      "additional_gap_area_m2": 8196229.71061084,
+      "area_difference_from_publisher_m2": -8.596107363700867e-07,
+      "candidate_area_m2": 8345728.61823077,
+      "candidate_equals_service_geojson": true,
+      "candidate_path": "research/piscataquis-zoning-holds/candidates/27291625.geojson",
+      "candidate_sha256": "6c080b3c394a2a3da1d9989cd2040d57cbae7ee4120a9edd82416e31297e7b23",
+      "county_feature_sha256": "0f51e30d68245f962c4eaab29a2ebfb82a5e9268c2c2e0fb39798d1e2c0d1458",
+      "details": {
+        "candidate_holes": 222,
+        "candidate_shells": 174,
+        "nested_hole_assignments": [
+          {
+            "chosen_innermost_shell": 165,
+            "containing_shell_indices": [
+              165,
+              21
+            ],
+            "hole_index_after_split": 212
+          },
+          {
+            "chosen_innermost_shell": 166,
+            "containing_shell_indices": [
+              166,
+              17
+            ],
+            "hole_index_after_split": 213
+          },
+          {
+            "chosen_innermost_shell": 167,
+            "containing_shell_indices": [
+              167,
+              0
+            ],
+            "hole_index_after_split": 214
+          },
+          {
+            "chosen_innermost_shell": 168,
+            "containing_shell_indices": [
+              168,
+              0
+            ],
+            "hole_index_after_split": 215
+          },
+          {
+            "chosen_innermost_shell": 169,
+            "containing_shell_indices": [
+              169,
+              0
+            ],
+            "hole_index_after_split": 216
+          },
+          {
+            "chosen_innermost_shell": 170,
+            "containing_shell_indices": [
+              170,
+              0
+            ],
+            "hole_index_after_split": 217
+          },
+          {
+            "chosen_innermost_shell": 171,
+            "containing_shell_indices": [
+              171,
+              0
+            ],
+            "hole_index_after_split": 218
+          },
+          {
+            "chosen_innermost_shell": 172,
+            "containing_shell_indices": [
+              172,
+              108
+            ],
+            "hole_index_after_split": 219
+          },
+          {
+            "chosen_innermost_shell": 173,
+            "containing_shell_indices": [
+              173,
+              108
+            ],
+            "hole_index_after_split": 220
+          },
+          {
+            "chosen_innermost_shell": 173,
+            "containing_shell_indices": [
+              173,
+              108
+            ],
+            "hole_index_after_split": 221
+          }
+        ],
+        "segments_preserved_with_multiplicity": true,
+        "source_rings": 396,
+        "splits": []
+      },
+      "geojson_attributes_match_native": true,
+      "invalid_rings": [],
+      "map": "atkinson-twp",
+      "native_coordinates_and_selected_attributes_unchanged": true,
+      "native_feature_sha256": "0f51e30d68245f962c4eaab29a2ebfb82a5e9268c2c2e0fb39798d1e2c0d1458",
+      "object_id": 27291625,
+      "original_hold": "Ambiguous/uncontained hole",
+      "original_response_sha256": "a4e561d8820251eca823382c79fdda76fc2709a1b483982793af15df8086a00e",
+      "publisher_area_m2": 8345728.61823163,
+      "rank": 8,
+      "service_geojson_same_native_segments": true,
+      "service_geojson_valid": true,
+      "service_geojson_validity": "Valid Geometry",
+      "status": "proposed_not_accepted",
+      "zone": "P-SL2: Shoreland - 75'"
+    }
+  ],
+  "county_audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259",
+  "evidence": {
+    "maps/atkinson-twp-map": {
+      "bytes": 3513625,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/atkinson-twp.pdf",
+      "format": "pdf",
+      "http_status": 200,
+      "id": "atkinson-twp-map",
+      "pdf_signature": true,
+      "response_file": "atkinson-twp-map.response",
+      "response_path": "runs/maps/atkinson-twp-map.response",
+      "retrieved_at": "2026-09-21T15:38:25.218416+00:00",
+      "sha256": "fa5ea501ea113556c2798f724dc51f63f5e163fc6eab3bdec63276ae5a472504",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/atkinson-twp.pdf"
+    },
+    "maps/blanchard-twp-map": {
+      "bytes": 2695191,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/blanchard-twp.pdf",
+      "format": "pdf",
+      "http_status": 200,
+      "id": "blanchard-twp-map",
+      "pdf_signature": true,
+      "response_file": "blanchard-twp-map.response",
+      "response_path": "runs/maps/blanchard-twp-map.response",
+      "retrieved_at": "2026-09-21T15:38:23.488240+00:00",
+      "sha256": "f288558c9a36b39d8be94d2e9c87d95f248f78581d527e07854eff377c0338f2",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/blanchard-twp.pdf"
+    },
+    "maps/moosehead-junction-twp-map": {
+      "bytes": 1859824,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/moosehead-junction-twp.pdf",
+      "format": "pdf",
+      "http_status": 200,
+      "id": "moosehead-junction-twp-map",
+      "pdf_signature": true,
+      "response_file": "moosehead-junction-twp-map.response",
+      "response_path": "runs/maps/moosehead-junction-twp-map.response",
+      "retrieved_at": "2026-09-21T15:38:22.896696+00:00",
+      "sha256": "31ad814b659c8e35fdc26fd83219a8fd6dfa2411073d10dfef699564fe53f665",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/moosehead-junction-twp.pdf"
+    },
+    "maps/spencer-bay-twp-map": {
+      "bytes": 2063235,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/spencer-bay-twp.pdf",
+      "format": "pdf",
+      "http_status": 200,
+      "id": "spencer-bay-twp-map",
+      "pdf_signature": true,
+      "response_file": "spencer-bay-twp-map.response",
+      "response_path": "runs/maps/spencer-bay-twp-map.response",
+      "retrieved_at": "2026-09-21T15:38:24.150234+00:00",
+      "sha256": "80c85e5461bc6ac4a57dc627478f028217f36bb0a1d26ee2f2b5864869d41e88",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/spencer-bay-twp.pdf"
+    },
+    "source/geojson-27208875": {
+      "bytes": 1298251,
+      "content_type": "application/geo+json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27208875&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+      "http_status": 200,
+      "id": "geojson-27208875",
+      "pdf_signature": false,
+      "response_file": "geojson-27208875.response",
+      "response_path": "runs/source/geojson-27208875.response",
+      "retrieved_at": "2026-09-21T15:38:38.980599+00:00",
+      "sha256": "cbc183ad6ddef2ec95d00c5a8c3dec2ad8485ff0f0c4ede5839e032854eaa07a",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27208875&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919"
+    },
+    "source/geojson-27249007": {
+      "bytes": 1868566,
+      "content_type": "application/geo+json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27249007&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+      "http_status": 200,
+      "id": "geojson-27249007",
+      "pdf_signature": false,
+      "response_file": "geojson-27249007.response",
+      "response_path": "runs/source/geojson-27249007.response",
+      "retrieved_at": "2026-09-21T15:39:56.444903+00:00",
+      "sha256": "144e297f0763294645e5482a719c8f2a001bbabfa8dac53eefc6847ee59bd81f",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27249007&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919"
+    },
+    "source/geojson-27291625": {
+      "bytes": 2638568,
+      "content_type": "application/geo+json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27291625&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+      "http_status": 200,
+      "id": "geojson-27291625",
+      "pdf_signature": false,
+      "response_file": "geojson-27291625.response",
+      "response_path": "runs/source/geojson-27291625.response",
+      "retrieved_at": "2026-09-21T15:39:59.584981+00:00",
+      "sha256": "54e0535376aaba0ace657a1805054ef5fc9dbf71164f24b7641669d3ec2caae9",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27291625&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919"
+    },
+    "source/geojson-27334504": {
+      "bytes": 2047493,
+      "content_type": "application/geo+json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27334504&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+      "http_status": 200,
+      "id": "geojson-27334504",
+      "pdf_signature": false,
+      "response_file": "geojson-27334504.response",
+      "response_path": "runs/source/geojson-27334504.response",
+      "retrieved_at": "2026-09-21T15:38:10.453479+00:00",
+      "sha256": "f35fe872290eb419155567098060b7ee0ad6487dc606e1fc528ae73eb0978263",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27334504&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919"
+    },
+    "source/geojson-27336229": {
+      "bytes": 1803647,
+      "content_type": "application/geo+json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27336229&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+      "http_status": 200,
+      "id": "geojson-27336229",
+      "pdf_signature": false,
+      "response_file": "geojson-27336229.response",
+      "response_path": "runs/source/geojson-27336229.response",
+      "retrieved_at": "2026-09-21T15:39:29.747255+00:00",
+      "sha256": "e02219ad5b2f885b04a83a13b2d94138020261700222934876657fce14e5af45",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27336229&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919"
+    },
+    "source/layer-metadata": {
+      "bytes": 110668,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+      "http_status": 200,
+      "id": "layer-metadata",
+      "pdf_signature": false,
+      "response_file": "layer-metadata.response",
+      "response_path": "runs/source/layer-metadata.response",
+      "retrieved_at": "2026-09-21T15:37:44.246334+00:00",
+      "sha256": "e431122da6f3b35e17824a8ce0f91b0a020f6adf94138e3ef24a39fbf1f6bc65",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson"
+    },
+    "source/map-index": {
+      "bytes": 16704,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=TOWNNAME+like+%27%25Blanchard%25%27+OR+TOWNNAME+like+%27%25Moosehead%25%27+OR+TOWNNAME+like+%27%25Spencer+Bay%25%27+OR+TOWNNAME+like+%27%25Atkinson%25%27&outFields=%2A&returnGeometry=false&f=json",
+      "http_status": 200,
+      "id": "map-index",
+      "pdf_signature": false,
+      "response_file": "map-index.response",
+      "response_path": "runs/source/map-index.response",
+      "retrieved_at": "2026-09-21T15:37:44.678199+00:00",
+      "sha256": "d97fa883baff61838d08b3f1d603c703333b9f0ad489609269a456ab99f9e8b8",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=TOWNNAME+like+%27%25Blanchard%25%27+OR+TOWNNAME+like+%27%25Moosehead%25%27+OR+TOWNNAME+like+%27%25Spencer+Bay%25%27+OR+TOWNNAME+like+%27%25Atkinson%25%27&outFields=%2A&returnGeometry=false&f=json"
+    },
+    "source/native-27208875": {
+      "bytes": 1299464,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27208875&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+      "http_status": 200,
+      "id": "native-27208875",
+      "pdf_signature": false,
+      "response_file": "native-27208875.response",
+      "response_path": "runs/source/native-27208875.response",
+      "retrieved_at": "2026-09-21T15:38:35.892218+00:00",
+      "sha256": "5a64f77b5f3d7d41cf0c64c64f9262ad16d0f2e802cb181af635d05376720c31",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27208875&outFields=%2A&returnGeometry=true&f=json&outSR=26919"
+    },
+    "source/native-27249007": {
+      "bytes": 1869249,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27249007&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+      "http_status": 200,
+      "id": "native-27249007",
+      "pdf_signature": false,
+      "response_file": "native-27249007.response",
+      "response_path": "runs/source/native-27249007.response",
+      "retrieved_at": "2026-09-21T15:39:31.239607+00:00",
+      "sha256": "a3e8baeafc99833efde6041feea60b02b7397917fec65ea5044f9cb0faf2ddf2",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27249007&outFields=%2A&returnGeometry=true&f=json&outSR=26919"
+    },
+    "source/native-27291625": {
+      "bytes": 2639671,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27291625&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+      "http_status": 200,
+      "id": "native-27291625",
+      "pdf_signature": false,
+      "response_file": "native-27291625.response",
+      "response_path": "runs/source/native-27291625.response",
+      "retrieved_at": "2026-09-21T15:39:58.037653+00:00",
+      "sha256": "905363b9b1a89448b6ffdff2e3a6860a572863dabb7189d529bd5d39e3a70ac1",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27291625&outFields=%2A&returnGeometry=true&f=json&outSR=26919"
+    },
+    "source/native-27334504": {
+      "bytes": 2048660,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27334504&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+      "http_status": 200,
+      "id": "native-27334504",
+      "pdf_signature": false,
+      "response_file": "native-27334504.response",
+      "response_path": "runs/source/native-27334504.response",
+      "retrieved_at": "2026-09-21T15:37:45.730883+00:00",
+      "sha256": "854e966be1f7c317e8235cb384750fe5824c0852b232886dc00b737b362eaec2",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27334504&outFields=%2A&returnGeometry=true&f=json&outSR=26919"
+    },
+    "source/native-27336229": {
+      "bytes": 1804798,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27336229&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+      "http_status": 200,
+      "id": "native-27336229",
+      "pdf_signature": false,
+      "response_file": "native-27336229.response",
+      "response_path": "runs/source/native-27336229.response",
+      "retrieved_at": "2026-09-21T15:39:04.762429+00:00",
+      "sha256": "1f8f8638934fa92e0aa2d94944810d4b48aebb057f75af9d83ee1cace28fcbf4",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27336229&outFields=%2A&returnGeometry=true&f=json&outSR=26919"
+    },
+    "source/publisher-page": {
+      "bytes": 25238,
+      "content_type": "text/html",
+      "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html",
+      "http_status": 200,
+      "id": "publisher-page",
+      "pdf_signature": false,
+      "response_file": "publisher-page.response",
+      "response_path": "runs/source/publisher-page.response",
+      "retrieved_at": "2026-09-21T15:37:43.791608+00:00",
+      "sha256": "c17e6397d6ff2447cf3cde92dc19cbcd9e6b40deed94a4095423766f9b3a85cc",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html"
+    },
+    "specification/esri-ring-specification": {
+      "bytes": 266246,
+      "content_type": "text/html",
+      "final_url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+      "http_status": 200,
+      "id": "esri-ring-specification",
+      "pdf_signature": false,
+      "response_file": "esri-ring-specification.response",
+      "response_path": "runs/specification/esri-ring-specification.response",
+      "retrieved_at": "2026-09-21T15:41:57.342827+00:00",
+      "sha256": "9bb444674617e320419aacbcc78f4ac47d2db8c23f5b129f8e5ce819f5d4f1d2",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/"
+    }
+  },
+  "evidence_state": "DERIVED",
+  "inputs": {
+    "research/piscataquis-zoning-holds/map-review.json": "180bf1f82ab628ad3f448980cc8ed2aaac826a0607875a41008b9c2cccafa064",
+    "research/piscataquis-zoning-holds/ranking.json": "e346d801cff4cad0a65494a53d3992199848266bbe1693de28a3a3b4efb02768",
+    "scripts/investigate_county_zoning.py": "0574ee8c779ba2f038b185892c012319afd40d4d45a6dd2d1614964df590f379",
+    "scripts/investigate_osborn_wetlands.py": "e5e30a137f6c280ac376426d41b11a2fe72f5fa9dc20a6a577a60952c89999dc",
+    "scripts/investigate_osborn_zoning.py": "f3587380e6b2f7f9c3f9c7dfdf175b6dbee9449a4cbf176d34f1db882cf48bb5"
+  },
+  "limits": [
+    "Proposals only. County holds and effective geometry unchanged.",
+    "PDFs corroborate general context, not exact vertex topology or legal currency.",
+    "Published area agreement is a numeric cross-check, not authority.",
+    "Unsupported touch patterns remain held; no automatic general repair.",
+    "No parcel screening or geometry acceptance; Osborn acceptance does not transfer."
+  ],
+  "method": "scripts/investigate_county_zoning_cases.py",
+  "method_sha256": "0fc73a80251b4ee293b1d4325ee165e21ac8356be3b3e3d807a43da2d6583e58",
+  "proposed_combined_gap_area_m2": 79232677.07633428
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "moosehead-junction-twp-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/moosehead-junction-twp.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-21T15:38:22.896696+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/moosehead-junction-twp.pdf",
+    "content_type": "application/pdf",
+    "response_file": "moosehead-junction-twp-map.response",
+    "sha256": "31ad814b659c8e35fdc26fd83219a8fd6dfa2411073d10dfef699564fe53f665",
+    "bytes": 1859824,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "blanchard-twp-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/blanchard-twp.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-21T15:38:23.488240+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/blanchard-twp.pdf",
+    "content_type": "application/pdf",
+    "response_file": "blanchard-twp-map.response",
+    "sha256": "f288558c9a36b39d8be94d2e9c87d95f248f78581d527e07854eff377c0338f2",
+    "bytes": 2695191,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "spencer-bay-twp-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/spencer-bay-twp.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-21T15:38:24.150234+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/spencer-bay-twp.pdf",
+    "content_type": "application/pdf",
+    "response_file": "spencer-bay-twp-map.response",
+    "sha256": "80c85e5461bc6ac4a57dc627478f028217f36bb0a1d26ee2f2b5864869d41e88",
+    "bytes": 2063235,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "atkinson-twp-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/atkinson-twp.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-21T15:38:25.218416+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/atkinson-twp.pdf",
+    "content_type": "application/pdf",
+    "response_file": "atkinson-twp-map.response",
+    "sha256": "fa5ea501ea113556c2798f724dc51f63f5e163fc6eab3bdec63276ae5a472504",
+    "bytes": 3513625,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  }
+]

@@ -95,3 +95,8 @@ adds **TL-F-0029** for county qualification and appends audit evidence to existi
 coverage, identifier/date, overlap, geometry, zoning and NWI categories. Prior review
 states are preserved. Holds and coverage gaps remain actionable after successful
 loading; source retention does not resolve them.
+
+The [county zoning hold investigation](../research/piscataquis-zoning-holds/README.md)
+ranks the 162 zoning holds and investigates five cases. Three exact-version
+interpretations are proposed, with acceptance still pending; all original holds
+remain. TL-F-0029 tracks review/activation and remaining county qualification.

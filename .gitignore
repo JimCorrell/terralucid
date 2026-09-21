@@ -53,3 +53,7 @@ __pycache__/
 /research/piscataquis-ingestion/report.json
 /research/piscataquis-ingestion/capture.json
 /research/piscataquis-ingestion/runs/capture/results.json
+
+/research/piscataquis-zoning-holds/runs/**/*.response
+/research/piscataquis-zoning-holds/diagnostics/
+/research/piscataquis-zoning-holds/candidates/
