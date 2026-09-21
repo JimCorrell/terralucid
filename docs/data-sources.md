@@ -105,3 +105,9 @@ The [bounded package ingestion](../research/wetlands-package-load/README.md) pre
 669 native package features in private PostGIS, with original blobs/attributes and
 INFERRED service candidate links. This neither replaces the service nor establishes
 new imagery dates, accepted identity links or statewide qualification.
+
+The [projection and lineage follow-up](../research/wetlands-projection-lineage/README.md)
+numerically reconciles all 669 pairs through explicit ESRI:108190, supported by four
+unchanged live service controls. Four native package project footprints cover the
+load and study boundary, retaining May 1983 imagery and undated NHD supplementation.
+This neither corrects source geometry nor establishes current/complete/legal wetlands.

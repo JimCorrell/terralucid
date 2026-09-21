@@ -1,0 +1,519 @@
+{
+  "conclusion": "The bounded displacement is numerically reconciled by explicit ESRI:108190, distinguished from EPSG:1188 and EPSG:1515. Four unchanged live service controls have default output identical to explicit 108190. This supports an operation-choice explanation, not proof of hidden publisher production history or positional accuracy. Package project footprints qualify spatial lineage only; dates and remaining gaps are recorded separately.",
+  "controls": [
+    {
+      "local_to_service_explicit_m": {
+        "EPSG:1188": 0.00010500474326377798,
+        "EPSG:1515": 1.8955331702760998e-08,
+        "ESRI:108190": 2.4789630722638526e-08
+      },
+      "service_default_to_package_m": 4.436881677132203e-05,
+      "service_objectid": 1886218
+    },
+    {
+      "local_to_service_explicit_m": {
+        "EPSG:1188": 0.000105016127361079,
+        "EPSG:1515": 1.7528915987088075e-08,
+        "ESRI:108190": 2.3744159907068987e-08
+      },
+      "service_default_to_package_m": 3.812864500765215e-05,
+      "service_objectid": 2274990
+    },
+    {
+      "local_to_service_explicit_m": {
+        "EPSG:1188": 0.00010500652583604953,
+        "EPSG:1515": 1.964627123412582e-08,
+        "ESRI:108190": 2.785417517412115e-08
+      },
+      "service_default_to_package_m": 4.895125981792176e-05,
+      "service_objectid": 2320442
+    },
+    {
+      "local_to_service_explicit_m": {
+        "EPSG:1188": 0.00010503061111167689,
+        "EPSG:1515": 2.002884928845481e-08,
+        "ESRI:108190": 2.6374686990876303e-08
+      },
+      "service_default_to_package_m": 4.80867530998473e-05,
+      "service_objectid": 9415660
+    }
+  ],
+  "details": {
+    "bytes": 477940,
+    "path": "research/wetlands-projection-lineage/detailed-results.response",
+    "sha256": "cd2d28164a8f608227efe59f0429061d0ce9b839f9f91bf46fea9e20d6194147"
+  },
+  "evidence": {
+    "controls/default-albers": {
+      "bytes": 484745,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=5070",
+      "http_status": 200,
+      "id": "default-albers",
+      "pdf_signature": false,
+      "response_file": "default-albers.response",
+      "response_path": "runs/controls/default-albers.response",
+      "retrieved_at": "2026-09-21T12:02:46.875873+00:00",
+      "sha256": "0fd63dc70a58da907dd94caaba0c132675288ea291492c6ab0c3d595c315d3a1",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=5070"
+    },
+    "controls/explicit-108190": {
+      "bytes": 484745,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=5070&datumTransformation=108190",
+      "http_status": 200,
+      "id": "explicit-108190",
+      "pdf_signature": false,
+      "response_file": "explicit-108190.response",
+      "response_path": "runs/controls/explicit-108190.response",
+      "retrieved_at": "2026-09-21T12:02:50.073741+00:00",
+      "sha256": "0fd63dc70a58da907dd94caaba0c132675288ea291492c6ab0c3d595c315d3a1",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=5070&datumTransformation=108190"
+    },
+    "controls/explicit-1188": {
+      "bytes": 484561,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=5070&datumTransformation=1188",
+      "http_status": 200,
+      "id": "explicit-1188",
+      "pdf_signature": false,
+      "response_file": "explicit-1188.response",
+      "response_path": "runs/controls/explicit-1188.response",
+      "retrieved_at": "2026-09-21T12:02:48.326496+00:00",
+      "sha256": "a5358da455fdc95dc8f169dd3a99c71ca45755663ea4508bfab98962df28da92",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=5070&datumTransformation=1188"
+    },
+    "controls/explicit-1515": {
+      "bytes": 484705,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=5070&datumTransformation=1515",
+      "http_status": 200,
+      "id": "explicit-1515",
+      "pdf_signature": false,
+      "response_file": "explicit-1515.response",
+      "response_path": "runs/controls/explicit-1515.response",
+      "retrieved_at": "2026-09-21T12:02:49.189155+00:00",
+      "sha256": "35d4ed201756614b2bd46324d5d967cbf3c65ad1de183f7f7729138750a72989",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=5070&datumTransformation=1515"
+    },
+    "controls/layer-metadata": {
+      "bytes": 21276,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0?f=pjson",
+      "http_status": 200,
+      "id": "layer-metadata",
+      "pdf_signature": false,
+      "response_file": "layer-metadata.response",
+      "response_path": "runs/controls/layer-metadata.response",
+      "retrieved_at": "2026-09-21T12:02:45.135509+00:00",
+      "sha256": "975c06d4c44ecedf23d1d5930ac1316913234ed0fd5b3a76fc365d07db466459",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0?f=pjson"
+    },
+    "controls/layer-metadata-end": {
+      "bytes": 21276,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0?f=pjson",
+      "http_status": 200,
+      "id": "layer-metadata-end",
+      "pdf_signature": false,
+      "response_file": "layer-metadata-end.response",
+      "response_path": "runs/controls/layer-metadata-end.response",
+      "retrieved_at": "2026-09-21T12:02:50.877018+00:00",
+      "sha256": "975c06d4c44ecedf23d1d5930ac1316913234ed0fd5b3a76fc365d07db466459",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0?f=pjson"
+    },
+    "controls/native": {
+      "bytes": 493220,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=3857",
+      "http_status": 200,
+      "id": "native",
+      "pdf_signature": false,
+      "response_file": "native.response",
+      "response_path": "runs/controls/native.response",
+      "retrieved_at": "2026-09-21T12:02:45.773808+00:00",
+      "sha256": "5542fbc9bb73c64ccce4d888a3695363d18f75d450d359677cf8571aeba2eb06",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=1886218%2C2274990%2C2320442%2C9415660&outFields=%2A&returnGeometry=true&f=json&outSR=3857"
+    },
+    "controls/service-metadata": {
+      "bytes": 2714,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer?f=pjson",
+      "http_status": 200,
+      "id": "service-metadata",
+      "pdf_signature": false,
+      "response_file": "service-metadata.response",
+      "response_path": "runs/controls/service-metadata.response",
+      "retrieved_at": "2026-09-21T12:02:44.412285+00:00",
+      "sha256": "eb49a38f05aeacbe58c868910667805f5080dfbb5641cd50311653a5c05a7fc7",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer?f=pjson"
+    },
+    "documentation/operation-selection": {
+      "bytes": 171016,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://proj.org/en/stable/operations/operations_computation.html",
+      "http_status": 200,
+      "id": "operation-selection",
+      "pdf_signature": false,
+      "response_file": "operation-selection.response",
+      "response_path": "runs/documentation/operation-selection.response",
+      "retrieved_at": "2026-09-21T12:05:05.078139+00:00",
+      "sha256": "c76c2afe9f8e575a4289f4783ebcabc1bad2950cfcabd7f03e04b04224310e35",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://proj.org/en/stable/operations/operations_computation.html"
+    },
+    "documentation/query-documentation": {
+      "bytes": 475522,
+      "content_type": "text/html",
+      "final_url": "https://developers.arcgis.com/rest/services-reference/enterprise/query-map-service-layer/",
+      "http_status": 200,
+      "id": "query-documentation",
+      "pdf_signature": false,
+      "response_file": "query-documentation.response",
+      "response_path": "runs/documentation/query-documentation.response",
+      "retrieved_at": "2026-09-21T12:05:04.515324+00:00",
+      "sha256": "ba50fb448e9b3482441942aa33edbfd93825388248cbcff3dbfe470984efa97d",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://developers.arcgis.com/rest/services-reference/enterprise/query-map-service-layer/"
+    }
+  },
+  "evidence_state": "DERIVED",
+  "finding_review": {
+    "finding_id": "TL-F-0117",
+    "next_action": "Qualify wider package geometry/project coverage and freshness before statewide ingestion; keep the explicit operation version pinned for any proposed new comparison, and retain source/identity/legal qualifications.",
+    "note": "Numerically reconciled the bounded service/package displacement using explicit ESRI:108190 for all 669 pairs, with four unchanged live service controls and EPSG:1188/1515 alternatives. Four package projects cover all 669 features and the study boundary; lineage attributes agree with the archived service and retain May 1983 imagery plus undated NHD supplementation. Native project coverage is recorded per feature, including multi-project overlaps. No geometry correction or identity acceptance; old imagery, undated supplementation, wider qualification, refresh and legal applicability remain open.",
+    "priority": "medium",
+    "status": "in_progress"
+  },
+  "inputs": {
+    "research/availability-acceptance/report.json": "72c1e0f8114cc0f8c8cae6be84c3f575ca80758e1c640ecfa98704835dae56a2",
+    "research/osborn-fema/runs/identity/osborn-jurisdiction.response": "813824533f6c03c71fb8024431e0bd9f86e10b46c8e9ba12eb9c2ddf4d13696a",
+    "research/osborn-wetlands/registry.json": "a0953efb0d78ba3308ad1f10f7142345f20fcf2df6dd6ce82c7992d20441c154",
+    "research/osborn-wetlands/report.json": "e1449e8384d5d712dfdae9df26814330d1b9f7dc31ae82fc8765bce565b61906",
+    "research/osborn-wetlands/runs/coverage/image-year-features.response": "104749b11cde12dda3f106e5af1716872a0111d8870bb92b1c59f361f24c6dbe",
+    "research/osborn-wetlands/runs/features/wetland-page-1.response": "e49fbae0ab6204ca592edc21f088695bc5d00c8bec6bb058cc08ea048a7af862",
+    "research/osborn-wetlands/runs/features/wetland-page-10.response": "fd04ddf5a1c13daf9706a0874b8f846a89e8aecd945c8fefb6f7e73c1fe730c6",
+    "research/osborn-wetlands/runs/features/wetland-page-11.response": "d89e9a6a1d7b48b0cfc2ef6546cfb5cd4feb2f16b3cc1d0bf6a4e04a6741c690",
+    "research/osborn-wetlands/runs/features/wetland-page-12.response": "c35b98e979c19cb110546aaf0e3d60d4e254c273ad62df32c476f9a765156fa9",
+    "research/osborn-wetlands/runs/features/wetland-page-13.response": "b158c14d6ee9558128203ba68c32ece1a40aabf956639bf5b9c378797ea74b1e",
+    "research/osborn-wetlands/runs/features/wetland-page-14.response": "ce79497d91084e77e67c5b557168a7d46bbea7777ca6e14fed81e6972eb12790",
+    "research/osborn-wetlands/runs/features/wetland-page-2.response": "68b451322c0579c08dba35723a7c0853a5ff36201611e9ee6523e458e60857bf",
+    "research/osborn-wetlands/runs/features/wetland-page-3.response": "17e79acd9d2dce1102443d3b8d627a9888a62ca4533ec844a96bb8ab68b67fc7",
+    "research/osborn-wetlands/runs/features/wetland-page-4.response": "1188e9b6c16054ec603b3dd45f3779b365fb9eb7a154a91b868c2f7b183f4fe2",
+    "research/osborn-wetlands/runs/features/wetland-page-5.response": "3f723c8437561116037ee45d263b2918c8b707f22f70668edae45645633106b4",
+    "research/osborn-wetlands/runs/features/wetland-page-6.response": "9595aa74009f1f74532a584c63189b57fa4b93819f904a7c87246d84f60de8e9",
+    "research/osborn-wetlands/runs/features/wetland-page-7.response": "8000a1e52854ae820b65e3a94ed3f321706655fccc73b161bbad8b09bebbaa45",
+    "research/osborn-wetlands/runs/features/wetland-page-8.response": "222ee35d4a39fa41fa00288d4cab215ea22875980bcb9f13b3ac56e7ec25632c",
+    "research/osborn-wetlands/runs/features/wetland-page-9.response": "89fc2af97a47d266b4c2bd130ee97530e6300393a890743709424bebefb0fbe5",
+    "research/wetlands-classification/report.json": "a1fd940a039662c703ec254963e70cd245f0632c970a62748591e5136f261c12",
+    "research/wetlands-load/report.json": "5802819c4376110fcac2a58b3bdf652e82524472ae15ba62913a4375551f3d39",
+    "research/wetlands-package-comparison/detailed-results.response": "07dd03febb6368257f3437b429bcad8b9b1a67e541ab98776614155ea5265585",
+    "research/wetlands-package-comparison/report.json": "076cb7321ad0b8cad052a4bf51a18028413b88e788082ddbc347158919ec18ed",
+    "research/wetlands-package-load/report.json": "6703cb4fd92661c09a4baadc1daee77b86ef1f20dff2155bdae2dfcf74ccce02",
+    "research/wetlands-projection-lineage/detailed-results.response": "cd2d28164a8f608227efe59f0429061d0ce9b839f9f91bf46fea9e20d6194147",
+    "research/wetlands-projection-lineage/documentation-probes.json": "e514c00b12dd2ce352a66df49099513dc9dee828b9450febb2dd457bdc6eaf51",
+    "research/wetlands-projection-lineage/probes.json": "ec0e149ead418cc031b5bf71dc432c06f0320c44c1ecfb53738931da32038a8f",
+    "research/wetlands-projection-lineage/registry.json": "eb0a6b390178a04ad09677ff4e18e39dd868a0b14eb3f1d52e13dee3260b0fd5",
+    "scripts/collect_document_evidence.py": "512463a8e1b2f024b99084f00dd97c6fc853051be480e98335a4d96466c6b1e9",
+    "scripts/investigate_osborn_wetlands.py": "e5e30a137f6c280ac376426d41b11a2fe72f5fa9dc20a6a577a60952c89999dc",
+    "scripts/investigate_wetlands_classification.py": "6fd0bc125759b63f86795ea0c9625666ce9586fb74b75bd2b45ddc765d13a4fa",
+    "scripts/investigate_wetlands_lineage.py": "7490911cd66cf737e40ea0b2918a52a22a63b9f829e59c14623c8595cb74ef48",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b",
+    "scripts/prepare_wetlands_load.py": "a36635e8bb70d1539f9b41ad1789c8a3e0bbeba35098d213ff68595e91102639",
+    "scripts/prepare_wetlands_package_load.py": "0ca85bd6af24615655a9b05c406581a580c8b60ff85414aefb81826f6e74df2a",
+    "scripts/prepare_zoning_geometry.py": "90f9797a15ad9d13dfa7630315d4f8f3731005b5e8b485dd5583ca7509c35d7e",
+    "supabase/migrations/20260921020000_bounded_wetlands.sql": "949e22f04748ca2930e300bd26be73227d4b9b80555e1e07cdf6342d63fbe7b2",
+    "supabase/migrations/20260921030000_wetlands_package_load.sql": "33b08e5e8a68cf476dec9ab73fc22a28d26bd7fe2abc054e81ab494a813fbe31"
+  },
+  "limits": [
+    "No source geometry, acceptance event, source preference, candidate identity or stored comparison metric is changed. Earlier results remain historical evidence.",
+    "All per-feature identities remain INFERRED. Numerical closure is not survey accuracy, legal delineation or a statewide transformation policy.",
+    "Package project coverage is a spatial association, not a direct per-feature provenance key or proof of exhaustive/current wetlands. Overlapping footprints and boundary touches are preserved.",
+    "May 1983 imagery and undated NHD supplementation remain qualified; publication/retrieval dates do not imply new imagery. Wider package coverage and refresh remain unqualified."
+  ],
+  "method": "scripts/investigate_wetlands_lineage.py",
+  "method_sha256": "7490911cd66cf737e40ea0b2918a52a22a63b9f829e59c14623c8595cb74ef48",
+  "operations": {
+    "EPSG:1188": {
+      "direction": "inverse NAD83-to-WGS84 operation",
+      "name": "NAD83 to WGS 84 (1)",
+      "pipeline": "proj=noop ellps=GRS80",
+      "reported_accuracy_m": 4.0
+    },
+    "EPSG:1515": {
+      "direction": "inverse NAD83-to-WGS84 operation",
+      "name": "NAD83 to WGS 84 (5)",
+      "pipeline": "proj=pipeline step proj=axisswap order=2,1 step proj=unitconvert xy_in=deg xy_out=rad step proj=push v_3 step proj=cart ellps=GRS80 step proj=helmert x=-0.991 y=1.9072 z=0.5129 rx=-0.0257899075194932 ry=-0.0096500989602704 rz=-0.0116599432323421 s=0 convention=coordinate_frame step inv proj=cart ellps=WGS84 step proj=pop v_3 step proj=unitconvert xy_in=rad xy_out=deg step proj=axisswap order=2,1",
+      "reported_accuracy_m": -1.0
+    },
+    "ESRI:108190": {
+      "direction": "forward WGS84 to NAD83",
+      "name": "WGS_1984_(ITRF00)_To_NAD_1983",
+      "pipeline": "proj=pipeline step proj=axisswap order=2,1 step proj=unitconvert xy_in=deg xy_out=rad step proj=push v_3 step proj=cart ellps=WGS84 step proj=helmert x=0.9956 y=-1.9013 z=-0.5215 rx=0.025915 ry=0.009426 rz=0.011599 s=0.00062 convention=coordinate_frame step inv proj=cart ellps=GRS80 step proj=pop v_3 step proj=unitconvert xy_in=rad xy_out=deg step proj=axisswap order=2,1",
+      "reported_accuracy_m": 0.1
+    }
+  },
+  "package": {
+    "bytes": 437448614,
+    "comparison_operation": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=aea lat_0=23 lon_0=-96 lat_1=29.5 lat_2=45.5 x_0=0 y_0=0 ellps=GRS80",
+    "comparison_reported_accuracy_m": 4.0,
+    "extracted": {
+      "bytes": 993513472,
+      "member": "ME_geopackage_wetlands.gpkg",
+      "sha256": "a224dc073dc87b1a6fccead6f8701304aa67cf734cd351b7e5fc28c2c3b2018f"
+    },
+    "final_url": "https://documentst.ecosphere.fws.gov/wetlands/data/State-Downloads/ME_geopackage_wetlands.zip",
+    "headers": {
+      "Accept-Ranges": "bytes",
+      "Connection": "close",
+      "Content-Length": "437448614",
+      "Content-Type": "application/zip",
+      "Date": "Mon, 21 Sep 2026 00:10:39 GMT",
+      "ETag": "\"435e70c5478fc3b860c99c04e9b492ad-26\"",
+      "Last-Modified": "Wed, 29 Apr 2026 16:18:10 GMT",
+      "Server": "AmazonS3",
+      "Via": "1.1 464b491a9abf8ea780af299d2685fe56.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Id": "4G9AFbV3mc7UqQypkdKbprj7Clb_MEsYN6sGjXTD4HF8TUHxHkF7sw==",
+      "X-Amz-Cf-Pop": "IAD61-P11",
+      "X-Cache": "Miss from cloudfront",
+      "x-amz-server-side-encryption": "AES256",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-version-id": "YjZPMi2QmM6coZ.p4QL_OEAPl4PfrPOX"
+    },
+    "http_status": 200,
+    "inventory_rows": 587644,
+    "parts": [
+      {
+        "bytes": 40000000,
+        "offset": 0,
+        "sha256": "09919fec78a758d04d0840df2c65a6aded2c0b0347454c3caa03dbbd166e8bf9",
+        "storage_object": "sha256/09919fec78a758d04d0840df2c65a6aded2c0b0347454c3caa03dbbd166e8bf9.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 40000000,
+        "sha256": "dbb8556b618da2f7e4dc0aa753a7031fb269571bd0891102d06d325023980552",
+        "storage_object": "sha256/dbb8556b618da2f7e4dc0aa753a7031fb269571bd0891102d06d325023980552.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 80000000,
+        "sha256": "50c40cfe4f5feab4f91adcd2052680076d716d4b2726524db1e8e5de4822545e",
+        "storage_object": "sha256/50c40cfe4f5feab4f91adcd2052680076d716d4b2726524db1e8e5de4822545e.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 120000000,
+        "sha256": "7e9679395fe63273bb0eff68f41f1424c779ba57f96db51394c5e7e4a9b5327d",
+        "storage_object": "sha256/7e9679395fe63273bb0eff68f41f1424c779ba57f96db51394c5e7e4a9b5327d.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 160000000,
+        "sha256": "8ce02606e04ff1ec7b6b5d91eb41b15112a7f0af0d7065d48407282f09a62a30",
+        "storage_object": "sha256/8ce02606e04ff1ec7b6b5d91eb41b15112a7f0af0d7065d48407282f09a62a30.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 200000000,
+        "sha256": "cf074e990699364ff5d86cdf99f00b5d919b325242708a569d102e377d9efd8e",
+        "storage_object": "sha256/cf074e990699364ff5d86cdf99f00b5d919b325242708a569d102e377d9efd8e.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 240000000,
+        "sha256": "c9d81efee1e1102c2c8bfb7c7863fa5bef701be16bebfd1f7ae4cde110509034",
+        "storage_object": "sha256/c9d81efee1e1102c2c8bfb7c7863fa5bef701be16bebfd1f7ae4cde110509034.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 280000000,
+        "sha256": "67f5d3d9b0c4ac93a4866bac5ad2c8a6cd51ba0acac7811609b9bc48cff3848a",
+        "storage_object": "sha256/67f5d3d9b0c4ac93a4866bac5ad2c8a6cd51ba0acac7811609b9bc48cff3848a.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 320000000,
+        "sha256": "9bd2d1d2eadd85f2b3785fbf2115cb5fba583e9434c9355a4a6331619bfd757d",
+        "storage_object": "sha256/9bd2d1d2eadd85f2b3785fbf2115cb5fba583e9434c9355a4a6331619bfd757d.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 360000000,
+        "sha256": "b65ad2d9a8775707fd33bc91039ad92a6c3279e34ff0038360a9356a41f9471b",
+        "storage_object": "sha256/b65ad2d9a8775707fd33bc91039ad92a6c3279e34ff0038360a9356a41f9471b.response"
+      },
+      {
+        "bytes": 37448614,
+        "offset": 400000000,
+        "sha256": "8ffc6f50fe7dc34dd9ef050e1b92f3cb3e0f149594bc0bd591b330c46b5c0f6c",
+        "storage_object": "sha256/8ffc6f50fe7dc34dd9ef050e1b92f3cb3e0f149594bc0bd591b330c46b5c0f6c.response"
+      }
+    ],
+    "response_path": "package/maine.zip.response",
+    "retrieved_at": "2026-09-21T00:10:37.792973+00:00",
+    "scope": "Entire ZIP archived; eight-record comparison only. Not statewide feature ingestion or identity/geometry reconciliation.",
+    "sha256": "ae1332336dbe5b6d255c29d75134c2959370ce9aa43c94fc2abb413475f1dcd1",
+    "srs_wkt": "PROJCS[\"NAD_1983_Albers\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Albers\"],PARAMETER[\"False_Easting\",0.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-96.0],PARAMETER[\"Standard_Parallel_1\",29.5],PARAMETER[\"Standard_Parallel_2\",45.5],PARAMETER[\"Latitude_Of_Origin\",23.0],UNIT[\"Meter\",1.0]]",
+    "url": "https://documentst.ecosphere.fws.gov/wetlands/data/State-Downloads/ME_geopackage_wetlands.zip"
+  },
+  "package_audit_sha256": "6703cb4fd92661c09a4baadc1daee77b86ef1f20dff2155bdae2dfcf74ccce02",
+  "projects": [
+    {
+      "attributes": {
+        "ALL_SCALES": "1:58K",
+        "COMMENTS": "NWI Version 2 derived by supplementing single-line stream features not mapped by the NWI with NHD 931v220.",
+        "EMULSION": "CIR",
+        "FGDC_METADATA": "https://documentst.ecosphere.fws.gov/wetlands/data/metadata/FWS_Wetlands_Project_Metadata.xml",
+        "IMAGE_DATE": "05/83",
+        "IMAGE_SCALE": 58000,
+        "IMAGE_YR": 1983,
+        "OBJECTID": 179,
+        "PROJECT_NAME": "Rocky Pond",
+        "SOURCE_TYPE": "CIR",
+        "STATUS": "Digital",
+        "SUPPMAPINFO": "None"
+      },
+      "geometry_blob_sha256": "b2c62d3b8a3ef21d3a83027f741df03df59be65b3ad3429ccddb07834c79c2b5",
+      "lineage_attribute_differences": {},
+      "service_108190_to_package_hausdorff_m": 3.2841727867504346e-05,
+      "service_project_id": 42129
+    },
+    {
+      "attributes": {
+        "ALL_SCALES": "1:58K",
+        "COMMENTS": "NWI Version 2 derived by supplementing single-line stream features not mapped by the NWI with NHD 931v220.",
+        "EMULSION": "CIR",
+        "FGDC_METADATA": "https://documentst.ecosphere.fws.gov/wetlands/data/metadata/FWS_Wetlands_Project_Metadata.xml",
+        "IMAGE_DATE": "05/83",
+        "IMAGE_SCALE": 58000,
+        "IMAGE_YR": 1983,
+        "OBJECTID": 188,
+        "PROJECT_NAME": "Molasses Pond",
+        "SOURCE_TYPE": "CIR",
+        "STATUS": "Digital",
+        "SUPPMAPINFO": "None"
+      },
+      "geometry_blob_sha256": "9893582fc453734246f00c6d93e7b26ea555e68911eb02f8fd5c6d7039a78bb0",
+      "lineage_attribute_differences": {},
+      "service_108190_to_package_hausdorff_m": 4.4454183961419304e-05,
+      "service_project_id": 42921
+    },
+    {
+      "attributes": {
+        "ALL_SCALES": "1:58K",
+        "COMMENTS": "NWI Version 2 derived by supplementing single-line stream features not mapped by the NWI with NHD 931v220.",
+        "EMULSION": "CIR",
+        "FGDC_METADATA": "https://documentst.ecosphere.fws.gov/wetlands/data/metadata/FWS_Wetlands_Project_Metadata.xml",
+        "IMAGE_DATE": "05/83",
+        "IMAGE_SCALE": 58000,
+        "IMAGE_YR": 1983,
+        "OBJECTID": 196,
+        "PROJECT_NAME": "Eastbrook",
+        "SOURCE_TYPE": "CIR",
+        "STATUS": "Digital",
+        "SUPPMAPINFO": "None"
+      },
+      "geometry_blob_sha256": "94400d39b362391a5645e575df695977ab30f3efaa45670f9f165ad3c88025dc",
+      "lineage_attribute_differences": {},
+      "service_108190_to_package_hausdorff_m": 4.4454183961419304e-05,
+      "service_project_id": 43283
+    },
+    {
+      "attributes": {
+        "ALL_SCALES": "1:58K",
+        "COMMENTS": "COMP;  NWI Version 2 derived by supplementing single-line stream features not mapped by the NWI with NHD 931v210.",
+        "EMULSION": "CIR",
+        "FGDC_METADATA": "https://documentst.ecosphere.fws.gov/wetlands/data/metadata/FWS_Wetlands_Project_Metadata.xml",
+        "IMAGE_DATE": "05/83",
+        "IMAGE_SCALE": 58000,
+        "IMAGE_YR": 1983,
+        "OBJECTID": 253,
+        "PROJECT_NAME": "Amherst",
+        "SOURCE_TYPE": "CIR",
+        "STATUS": "Digital",
+        "SUPPMAPINFO": "None"
+      },
+      "geometry_blob_sha256": "6858638cc2c6cc04132d8b8ffee34afce23eff1e3ee7d440be685c36c5ad8486",
+      "lineage_attribute_differences": {},
+      "service_108190_to_package_hausdorff_m": 3.504949442451918e-05,
+      "service_project_id": 44942
+    }
+  ],
+  "runtime": {
+    "GEOS": "3.11.4",
+    "PROJ": "9.3.0",
+    "proj_database_sha256": "b22eaceefa1abbfaac81b7df416b8b6fd9cfe869e15597f8cadafaf46bcef142",
+    "proj_network_enabled": false,
+    "pyproj": "3.6.1",
+    "shapely": "2.0.7",
+    "sqlite": "3.54.0"
+  },
+  "study_project_coverage": {
+    "boundary_touch_projects": [],
+    "positive_area_projects": [
+      {
+        "overlap_m2": 40375255.61882967,
+        "package_project_id": 179
+      },
+      {
+        "overlap_m2": 6365992.5435700705,
+        "package_project_id": 188
+      },
+      {
+        "overlap_m2": 8409154.840504782,
+        "package_project_id": 196
+      },
+      {
+        "overlap_m2": 43378770.80402597,
+        "package_project_id": 253
+      }
+    ],
+    "uncovered_m2": 0.0
+  },
+  "study_scope_operation": "proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=aea lat_0=23 lon_0=-96 lat_1=29.5 lat_2=45.5 x_0=0 y_0=0 ellps=GRS80",
+  "summary": {
+    "control_features": 4,
+    "default_equals_explicit_108190": true,
+    "default_operation_declared_in_metadata": false,
+    "features": 669,
+    "features_with_uncovered_project_area": 0,
+    "lineage_difference_fields": 0,
+    "local_to_service_explicit_maximum_m": {
+      "EPSG:1188": 0.00010503061111167689,
+      "EPSG:1515": 2.002884928845481e-08,
+      "ESRI:108190": 2.785417517412115e-08
+    },
+    "maximum_uncovered_feature_m2": 0.0,
+    "operation_ranges_m": {
+      "EPSG:1188": {
+        "maximum": 1.0264538480443326,
+        "minimum": 1.0239277025276035
+      },
+      "EPSG:1515": {
+        "maximum": 0.013559310052156942,
+        "minimum": 0.013474656225820041
+      },
+      "ESRI:108190": {
+        "maximum": 5.01821492691269e-05,
+        "minimum": 2.8522651799485074e-05
+      }
+    },
+    "package_projects": 4,
+    "project_count_per_feature": {
+      "1": 638,
+      "2": 29,
+      "3": 2
+    },
+    "project_footprint_108190_maximum_m": 4.4454183961419304e-05,
+    "study_boundary_uncovered_m2": 0.0
+  }
+}

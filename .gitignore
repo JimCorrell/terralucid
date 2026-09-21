@@ -44,3 +44,6 @@ __pycache__/
 /research/wetlands-availability/candidates/*.geojson
 
 /research/wetlands-package-comparison/*.response
+
+/research/wetlands-projection-lineage/runs/**/*.response
+/research/wetlands-projection-lineage/*.response
