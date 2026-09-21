@@ -100,3 +100,8 @@ extends comparison to the entire qualified Osborn service scope. Its spatial
 candidates are INFERRED identities, with DERIVED distance/overlap metrics, preserved
 identifiers and a reverse package-coverage check. No cross-release identity rule
 or geometry replacement follows automatically from spatial/classification agreement.
+
+The [bounded package ingestion](../research/wetlands-package-load/README.md) preserves
+669 native package features in private PostGIS, with original blobs/attributes and
+INFERRED service candidate links. This neither replaces the service nor establishes
+new imagery dates, accepted identity links or statewide qualification.

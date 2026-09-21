@@ -119,3 +119,8 @@ appends TL-F-0117 evidence for candidate identity, geometry/classification diffe
 and bounded coverage. It preserves the existing TL-F-0027 and TL-F-0028 resolution
 events and accepted feature/availability interpretations. Wider source qualification,
 refresh and legal applicability remain separate work.
+
+The [bounded package load](../wetlands-package-load/README.md) appends TL-F-0117
+evidence for separately queryable native package features and inferred candidate
+links. Projection cause, package imagery/project coverage, broader qualification
+and applicability remain open. TL-F-0027/0028 resolutions remain unchanged.

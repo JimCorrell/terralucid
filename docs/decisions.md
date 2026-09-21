@@ -112,3 +112,11 @@ joined variants and page provenance. Default the eight reviewed classifications
 to exact reference matches, track their review and availability dependencies, and
 keep the Maine package separate pending reconciliation. No canonical parcel joins
 or regulatory conclusions are introduced. See [wetlands ingestion](wetlands-ingestion.md).
+
+## Independent bounded package storage
+
+After PR #25, the user authorized the next bounded package load. Preserve the 669
+reviewed package features independently, retain exact geometry bytes and source
+attributes, and keep service links INFERRED with review dependencies. Mapping the
+package-local CRS identifier to equivalent EPSG:5070 changes no coordinates; no
+projection correction or source preference change is accepted.
