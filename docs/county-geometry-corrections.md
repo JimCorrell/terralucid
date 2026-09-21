@@ -10,8 +10,11 @@ requires a recorded evidentiary reason and source/correction versions.
 
 ## Bounded acceptance
 
-The initial layer supports only the three Piscataquis proposals reviewed in PR #30:
-Blanchard 27334504 and Atkinson 27249007 / 27291625. The database verifies the
+The layer supports five exact Piscataquis versions: Blanchard 27334504 and
+Atkinson 27249007 / 27291625 (reviewed in PR #30), plus Moosehead Junction
+27208875 and Spencer Bay 27336229 (reviewed in PR #33). Each group retains its
+own pinned proposal/review audits and explicit source-hash field. The new pair
+also requires the reviewed source-cycle roles. The database verifies the
 pinned proposal and review audits, source and candidate bytes, native EPSG:26919,
 validity and complete original segment multiplicity. Validity alone cannot qualify
 a candidate. Additional sources or interpretations require explicit review and an

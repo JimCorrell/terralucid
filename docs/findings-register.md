@@ -121,3 +121,9 @@ The [fixed-candidate review](../research/moosehead-spencer-review/README.md) sup
 both Moosehead Junction and Spencer Bay proposals for exact-version acceptance.
 TL-F-0029 remains in progress pending the tested validator extension and activation;
 current effective holds and the existing three corrections are unchanged.
+
+The [Moosehead Junction / Spencer Bay activation](../research/moosehead-spencer-acceptance/README.md)
+adds the two reviewed interpretations to the effective layer. TL-F-0029 remains
+in progress for the remaining 157 zoning and 21 parcel geometry holds and other
+county deficiencies. Refresh the prioritization against all five corrections
+before selecting the next investigation group.

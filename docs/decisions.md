@@ -148,3 +148,12 @@ source version. Withdrawal restores the original hold; downstream dependency
 snapshots detect changed reviews and source versions. This authorizes no automatic
 repair of other features and does not qualify county parcel screening. See the
 [county correction policy](county-geometry-corrections.md).
+
+## Moosehead Junction / Spencer Bay acceptance
+
+After merged PR #33, the user authorized the reviewed next step: extend the county
+validator for the two pinned proposals, test preservation of the existing three
+approvals, and activate the pair. Keep both source/report formats explicit;
+validity alone does not authorize a new feature or audit. New corrections require
+a new dependency snapshot and make the previous county snapshot stale. Original
+evidence, remaining holds and parcel-screening limits remain unchanged.
