@@ -1,0 +1,93 @@
+[
+  {
+    "id": "nwi-services",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/?f=pjson",
+    "retrieved_at": "2026-09-20T23:49:43.114284+00:00",
+    "http_status": 200,
+    "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "nwi-services.response",
+    "sha256": "ac5be11387733f0bee63c6e5c5dac06a8cd5d795c7418a05314c29d80990347e",
+    "bytes": 696,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "nwi-service",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer?f=pjson",
+    "retrieved_at": "2026-09-20T23:49:43.572891+00:00",
+    "http_status": 200,
+    "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "nwi-service.response",
+    "sha256": "eb49a38f05aeacbe58c868910667805f5080dfbb5641cd50311653a5c05a7fc7",
+    "bytes": 2714,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "nwi-layer",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0?f=pjson",
+    "retrieved_at": "2026-09-20T23:49:44.022304+00:00",
+    "http_status": 200,
+    "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "nwi-layer.response",
+    "sha256": "975c06d4c44ecedf23d1d5930ac1316913234ed0fd5b3a76fc365d07db466459",
+    "bytes": 21276,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "state-downloads",
+    "url": "https://www.fws.gov/program/national-wetlands-inventory/download-state-wetlands-data",
+    "retrieved_at": "2026-09-20T23:49:44.547131+00:00",
+    "http_status": 200,
+    "final_url": "https://www.fws.gov/program/national-wetlands-inventory/download-state-wetlands-data",
+    "content_type": "text/html; charset=utf-8",
+    "response_file": "state-downloads.response",
+    "sha256": "c004a5d6220d46726eeaa112f81b1e03b8bb6bf8ae00c9bdfe228cd51d9f8bcc",
+    "bytes": 103956,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "web-services",
+    "url": "https://www.fws.gov/program/national-wetlands-inventory/web-mapping-services",
+    "retrieved_at": "2026-09-20T23:49:45.251368+00:00",
+    "http_status": 200,
+    "final_url": "https://www.fws.gov/program/national-wetlands-inventory/web-mapping-services",
+    "content_type": "text/html; charset=utf-8",
+    "response_file": "web-services.response",
+    "sha256": "0ccf5e17d4d135bc1172f3202d3e3875042d5a6ee87ee5215592a3e603c882c8",
+    "bytes": 92307,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "mapper",
+    "url": "https://www.fws.gov/program/national-wetlands-inventory/wetlands-mapper",
+    "retrieved_at": "2026-09-20T23:49:47.208710+00:00",
+    "http_status": 200,
+    "final_url": "https://www.fws.gov/program/national-wetlands-inventory/wetlands-mapper",
+    "content_type": "text/html; charset=utf-8",
+    "response_file": "mapper.response",
+    "sha256": "365b8279810754e13f991d8862884bc94aab375c63f8e1d5609f8847cf30b10d",
+    "bytes": 101616,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "dep-service",
+    "url": "https://gis.maine.gov/mapservices/rest/services/dep/MaineDEP_Parcels_NDW_NWI_NHD/MapServer?f=pjson",
+    "retrieved_at": "2026-09-20T23:49:47.753979+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/dep/MaineDEP_Parcels_NDW_NWI_NHD/MapServer?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "dep-service.response",
+    "sha256": "5cce07154f93beef738c4465bac20b13f91c496e1627d756de78cd5f3b6382a9",
+    "bytes": 10455,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

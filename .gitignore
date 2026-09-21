@@ -34,3 +34,5 @@ __pycache__/
 
 /research/osborn-flood-adoption/runs/**/*.response
 /research/osborn-flood-adoption/diagnostics/*.png
+
+/research/osborn-wetlands/runs/**/*.response

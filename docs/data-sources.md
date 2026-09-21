@@ -58,3 +58,14 @@ retrieves signed ZP 796: the August 2024 map change corrected text while retaini
 existing zoning. Incorporation of FEMA case 22-01-0871P remains UNKNOWN; neither
 adoption nor non-adoption follows from the available dates. Keep FEMA hazard class,
 LUPC applicability and the mask question separate; do not equate all Zone X with P-FP.
+
+### Bounded wetlands qualification
+
+The [Osborn NWI audit](../research/osborn-wetlands/README.md) preserves 669 distinct
+wetland/deepwater source features, with 499 intersecting the study boundary.
+Imagery-source metadata dates to May 1983, despite the May 2026 release label.
+Eight conflicting joined classification lookups (TL-F-0027) and an invalid national
+availability ring (TL-F-0028) remain open. Valid imagery-source footprints cover the
+study scope; this does not establish exhaustive or current wetland detection.
+Maine package reconciliation, statewide ingestion and regulatory applicability
+remain separate gates. Empty inventory space does not establish wetland absence.

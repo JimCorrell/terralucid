@@ -80,3 +80,12 @@ supports an exact-version shell/hole decoding for TL-F-0025, with unchanged sour
 segments. The [geometry correction layer](zoning-geometry-corrections.md) now accepts
 that interpretation and provides versioned Osborn screening revisions. Historical
 exclusions remain preserved; the projection and legal-currency caveats remain open.
+
+## First wetlands qualification
+
+The [Osborn NWI service pilot](../research/osborn-wetlands/README.md) preserves a
+bounded inventory with imagery-source and availability evidence. It profiles native
+geometry and identifiers and records two new deficiencies. The Maine package has
+not yet been loaded; reconcile it with the service and resolve the lookup/availability
+holds before wider ingestion. May 1983 imagery remains a qualification on downstream
+use even if the package release is recent.

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "nwi-services",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/?f=pjson"
+  },
+  {
+    "id": "nwi-service",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer?f=pjson"
+  },
+  {
+    "id": "nwi-layer",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0?f=pjson"
+  },
+  {
+    "id": "state-downloads",
+    "url": "https://www.fws.gov/program/national-wetlands-inventory/download-state-wetlands-data"
+  },
+  {
+    "id": "web-services",
+    "url": "https://www.fws.gov/program/national-wetlands-inventory/web-mapping-services"
+  },
+  {
+    "id": "mapper",
+    "url": "https://www.fws.gov/program/national-wetlands-inventory/wetlands-mapper"
+  },
+  {
+    "id": "dep-service",
+    "url": "https://gis.maine.gov/mapservices/rest/services/dep/MaineDEP_Parcels_NDW_NWI_NHD/MapServer?f=pjson"
+  }
+]
