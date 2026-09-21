@@ -100,3 +100,8 @@ The [county zoning hold investigation](../research/piscataquis-zoning-holds/READ
 ranks the 162 zoning holds and investigates five cases. Three exact-version
 interpretations are proposed, with acceptance still pending; all original holds
 remain. TL-F-0029 tracks review/activation and remaining county qualification.
+
+The [county proposal review](../research/piscataquis-zoning-review/README.md)
+independently corroborates the three proposed interpretations. TL-F-0029 remains
+in progress for a county correction layer and the remaining qualification work;
+a favorable review does not activate geometry or remove original holds.
