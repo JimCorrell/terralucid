@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid county correction activation",
+  "expected_event_id": "10b922107f05f1948bfe42fad8fd256afad883af0b04810ae1b57b9e39bad838",
+  "finding_id": "TL-F-0029",
+  "next_action": "Investigate unsupported Moosehead Junction and Spencer Bay touch patterns, then continue prioritized county holds. Preserve parcel identity, municipal applicability and wetland imagery follow-ups; require current correction dependencies for downstream analysis.",
+  "note": "Three independently reviewed exact-version geometry interpretations activated through immutable correction history. Original county evidence/holds retained; effective holds and dependency snapshots exposed. County parcel screening remains unqualified.",
+  "priority": "high",
+  "status": "in_progress"
+}

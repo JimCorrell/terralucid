@@ -137,3 +137,14 @@ source geometries. Store this new source scope separately from exact-version
 Osborn acceptances. Native wetlands package geometry remains independent of
 service identity and accepted service defaults. See the
 [county ingestion](../research/piscataquis-ingestion/README.md).
+
+## Reviewed county geometry acceptance
+
+After PR #30 was merged, the user authorized implementing the county correction
+layer. Activate the three independently supported exact-version interpretations
+through immutable review history, preserving every original county record and
+hold. Accepted interpretations become the downstream default for their reviewed
+source version. Withdrawal restores the original hold; downstream dependency
+snapshots detect changed reviews and source versions. This authorizes no automatic
+repair of other features and does not qualify county parcel screening. See the
+[county correction policy](county-geometry-corrections.md).

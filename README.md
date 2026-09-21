@@ -33,3 +33,7 @@ classifications, availability dependencies and imagery/legal qualifications.
 The [Piscataquis County inventory and evaluation](research/piscataquis-ingestion/README.md)
 expands parcels, LUPC zoning, and NWI package wetlands together, retaining source
 geometry holds, jurisdiction coverage and imagery-age qualifications.
+
+The [county geometry correction layer](docs/county-geometry-corrections.md) exposes
+three reviewed interpretations alongside original evidence, with withdrawal
+history and dependency checks for future county analysis.

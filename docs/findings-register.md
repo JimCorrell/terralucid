@@ -105,3 +105,9 @@ The [county proposal review](../research/piscataquis-zoning-review/README.md)
 independently corroborates the three proposed interpretations. TL-F-0029 remains
 in progress for a county correction layer and the remaining qualification work;
 a favorable review does not activate geometry or remove original holds.
+
+County geometry activation is recorded in the
+[county correction evidence](../research/county-corrections/README.md). TL-F-0029
+remains in progress: three reviewed representations can clear their effective
+geometry holds while original holds and remaining county deficiencies persist.
+No other finding is closed by this activation.
