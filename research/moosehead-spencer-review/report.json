@@ -1,0 +1,163 @@
+{
+  "cases": [
+    {
+      "activation_status": "not_activated",
+      "area_difference_from_publisher_m2": -1.0170042514801025e-06,
+      "candidate_sha256": "bec5fedbfad1d20f3c055eb94ebf13443e898c2c23bc4dcc202065b93cfe5982",
+      "checks": {
+        "all_segments_preserved_with_multiplicity": true,
+        "candidate_area_m2": 5904526.979045488,
+        "candidate_valid": true,
+        "equals_independent_even_odd_fill": true,
+        "face_classification_mismatches": 0,
+        "filled_faces": 119,
+        "minimum_sample_boundary_distance_m": 0.0033390333919817252,
+        "source_faces": 272,
+        "symmetric_difference_m2": 0.0
+      },
+      "cycle_review": {
+        "exact_hole_cycles": 153,
+        "exact_shell_cycles": 119,
+        "source_cycle_roles_preserved": true,
+        "split_rings": [
+          {
+            "counterclockwise": [
+              false,
+              true
+            ],
+            "cycles": 2,
+            "source_ring": 18,
+            "type": "shell_hole"
+          },
+          {
+            "counterclockwise": [
+              true,
+              false
+            ],
+            "cycles": 2,
+            "source_ring": 44,
+            "type": "shell_hole"
+          },
+          {
+            "candidate_shell_index": 56,
+            "counterclockwise": [
+              true,
+              true
+            ],
+            "cycles": 2,
+            "loop_area_m2": [
+              4226.690125000012,
+              2185.8060249952896
+            ],
+            "source_ring": 163,
+            "type": "two_holes"
+          }
+        ]
+      },
+      "evidence_state": "DERIVED",
+      "map": "moosehead-junction-twp",
+      "object_id": 27208875,
+      "recommendation": "supported_for_exact_version_acceptance",
+      "source_feature_sha256": "57952c641c28d9e0c212511eac83ca804c9443570bdb6573e7b61b90f6595812",
+      "zone": "P-SL2: Shoreland - 75'"
+    },
+    {
+      "activation_status": "not_activated",
+      "area_difference_from_publisher_m2": 3.6600977182388306e-07,
+      "candidate_sha256": "bd94a4d7263ed27e9c9062c00ddd399090bc6eda8e6e39fd445be4359860994f",
+      "checks": {
+        "all_segments_preserved_with_multiplicity": true,
+        "candidate_area_m2": 4971904.835016521,
+        "candidate_valid": true,
+        "equals_independent_even_odd_fill": true,
+        "face_classification_mismatches": 0,
+        "filled_faces": 150,
+        "minimum_sample_boundary_distance_m": 0.04415405981491495,
+        "source_faces": 288,
+        "symmetric_difference_m2": 0.0
+      },
+      "cycle_review": {
+        "exact_hole_cycles": 138,
+        "exact_shell_cycles": 150,
+        "source_cycle_roles_preserved": true,
+        "split_rings": [
+          {
+            "counterclockwise": [
+              false,
+              true
+            ],
+            "cycles": 2,
+            "source_ring": 22,
+            "type": "shell_hole"
+          },
+          {
+            "candidate_shell_index": 9,
+            "counterclockwise": [
+              true,
+              true
+            ],
+            "cycles": 2,
+            "loop_area_m2": [
+              4218.008973989949,
+              2988.4569450249946
+            ],
+            "source_ring": 44,
+            "type": "two_holes"
+          }
+        ]
+      },
+      "evidence_state": "DERIVED",
+      "map": "spencer-bay-twp",
+      "object_id": 27336229,
+      "recommendation": "supported_for_exact_version_acceptance",
+      "source_feature_sha256": "7622647f1978750573db4cbc2a8bb8beaa700431805cd6ac22de8082f84c1d20",
+      "zone": "P-SL2: Shoreland - 75'"
+    }
+  ],
+  "county_audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259",
+  "evidence_state": "DERIVED",
+  "inputs": {
+    ".local/piscataquis-held-zoning-gap.wkb": "92e6115c9875aac118a5c1c520cefb2d943d0646c0dbb8c24d2075190f2c4750",
+    "research/county-corrections/checkpoint.json": "623f3670e517ac78f82e9765585d419d15a04f58c65bd25836f326fade6a584d",
+    "research/county-corrections/report.json": "f71944bb815efe7b873c5a49aace783c2056b072d89d2ddcfce9532ae12b05c5",
+    "research/moosehead-spencer/candidates/27208875.geojson": "bec5fedbfad1d20f3c055eb94ebf13443e898c2c23bc4dcc202065b93cfe5982",
+    "research/moosehead-spencer/candidates/27336229.geojson": "bd94a4d7263ed27e9c9062c00ddd399090bc6eda8e6e39fd445be4359860994f",
+    "research/moosehead-spencer/report.json": "959a971c95dc6e81a1179d26f345eba9dc2fe9b908c40107f43272b27ef5d49a",
+    "research/piscataquis-ingestion/report.json": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259",
+    "research/piscataquis-ingestion/runs/capture/lupc-zoning-page-17.response": "b26638d34a362a72c6b542f1b06193a6fa404da3098613ffa6cb3c2ef3294794",
+    "research/piscataquis-ingestion/runs/capture/lupc-zoning-page-347.response": "a366de6109fd490746caa6ecdf61f4cd1a7b813772294d6d78484ecf8455f300",
+    "research/piscataquis-zoning-holds/candidates/27249007.geojson": "63a8d72b865ff1543accf8b0831a0a9a6baac343844fe8f5dedd16aa1bfe0d09",
+    "research/piscataquis-zoning-holds/candidates/27291625.geojson": "6c080b3c394a2a3da1d9989cd2040d57cbae7ee4120a9edd82416e31297e7b23",
+    "research/piscataquis-zoning-holds/candidates/27334504.geojson": "178f59b92aa942bdec0d6eafe800fa2650f054d5bc29a48cc1bd8b2670914ae9",
+    "research/piscataquis-zoning-holds/map-review.json": "180bf1f82ab628ad3f448980cc8ed2aaac826a0607875a41008b9c2cccafa064",
+    "research/piscataquis-zoning-holds/ranking.json": "e346d801cff4cad0a65494a53d3992199848266bbe1693de28a3a3b4efb02768",
+    "research/piscataquis-zoning-holds/report.json": "25f03b37818d1fc5cf25a6fa1e9264d48824c8585dbbf9776574dd6682905b6c",
+    "research/piscataquis-zoning-holds/runs/maps/moosehead-junction-twp-map.response": "31ad814b659c8e35fdc26fd83219a8fd6dfa2411073d10dfef699564fe53f665",
+    "research/piscataquis-zoning-holds/runs/maps/spencer-bay-twp-map.response": "80c85e5461bc6ac4a57dc627478f028217f36bb0a1d26ee2f2b5864869d41e88",
+    "research/piscataquis-zoning-holds/runs/source/geojson-27208875.response": "cbc183ad6ddef2ec95d00c5a8c3dec2ad8485ff0f0c4ede5839e032854eaa07a",
+    "research/piscataquis-zoning-holds/runs/source/geojson-27336229.response": "e02219ad5b2f885b04a83a13b2d94138020261700222934876657fce14e5af45",
+    "research/piscataquis-zoning-holds/runs/source/native-27208875.response": "5a64f77b5f3d7d41cf0c64c64f9262ad16d0f2e802cb181af635d05376720c31",
+    "research/piscataquis-zoning-holds/runs/source/native-27336229.response": "1f8f8638934fa92e0aa2d94944810d4b48aebb057f75af9d83ee1cace28fcbf4",
+    "research/piscataquis-zoning-holds/runs/specification/esri-ring-specification.response": "9bb444674617e320419aacbcc78f4ac47d2db8c23f5b129f8e5ce819f5d4f1d2",
+    "scripts/investigate_county_zoning_cases.py": "0fc73a80251b4ee293b1d4325ee165e21ac8356be3b3e3d807a43da2d6583e58",
+    "scripts/investigate_moosehead_spencer.py": "e011e6aa3a9ac2dd123909c0e78dbdc919f047a04e9a60b94a655ef935dad999",
+    "scripts/investigate_osborn_zoning.py": "f3587380e6b2f7f9c3f9c7dfdf175b6dbee9449a4cbf176d34f1db882cf48bb5",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b",
+    "scripts/review_county_zoning_proposals.py": "baed5325cc979144cc9c98f0c4a29135dd18989647d494227af65d5562ccb35b"
+  },
+  "limits": [
+    "Cycle walk is separate from the proposal splitter; fill check is rerun using the previously tested independent ray-crossing algorithm. Same GEOS engine, not publisher/survey confirmation.",
+    "Archived source/map evidence is reused; no fresh retrieval or legal-currency determination.",
+    "Prior 10.2247 km\u00b2 coverage scenario is not recomputed or promoted to current coverage.",
+    "No candidate regeneration, source edits, correction events, schema change or screening qualification."
+  ],
+  "method": "scripts/review_moosehead_spencer.py",
+  "method_sha256": "b2f65837d5886638ffa021382b9cf68fccd7648cc7319a8d7efbeef9facee146",
+  "proposal_audit_sha256": "959a971c95dc6e81a1179d26f345eba9dc2fe9b908c40107f43272b27ef5d49a",
+  "review_conclusion": "Both fixed candidates preserve exact source cycles, their shell/hole roles and independent even-odd fill. Supported for exact-version acceptance after a tested extension of the county validator.",
+  "runtime": {
+    "GEOS": "3.11.4",
+    "numpy": "2.0.2",
+    "shapely": "2.0.7"
+  }
+}

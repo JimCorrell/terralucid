@@ -116,3 +116,8 @@ The [Moosehead Junction / Spencer Bay investigation](../research/moosehead-spenc
 identifies point-touching hole pairs and records two complete-feature proposals.
 TL-F-0029 remains in progress pending their review; neither source hold is cleared
 and no existing county acceptance is changed by this investigation.
+
+The [fixed-candidate review](../research/moosehead-spencer-review/README.md) supports
+both Moosehead Junction and Spencer Bay proposals for exact-version acceptance.
+TL-F-0029 remains in progress pending the tested validator extension and activation;
+current effective holds and the existing three corrections are unchanged.
