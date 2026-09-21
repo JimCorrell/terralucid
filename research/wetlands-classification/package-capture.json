@@ -1,0 +1,94 @@
+{
+  "url": "https://documentst.ecosphere.fws.gov/wetlands/data/State-Downloads/ME_geopackage_wetlands.zip",
+  "retrieved_at": "2026-09-21T00:10:37.792973+00:00",
+  "final_url": "https://documentst.ecosphere.fws.gov/wetlands/data/State-Downloads/ME_geopackage_wetlands.zip",
+  "http_status": 200,
+  "headers": {
+    "Content-Type": "application/zip",
+    "Content-Length": "437448614",
+    "Connection": "close",
+    "Date": "Mon, 21 Sep 2026 00:10:39 GMT",
+    "Last-Modified": "Wed, 29 Apr 2026 16:18:10 GMT",
+    "ETag": "\"435e70c5478fc3b860c99c04e9b492ad-26\"",
+    "x-amz-storage-class": "INTELLIGENT_TIERING",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "YjZPMi2QmM6coZ.p4QL_OEAPl4PfrPOX",
+    "Accept-Ranges": "bytes",
+    "Server": "AmazonS3",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 464b491a9abf8ea780af299d2685fe56.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "IAD61-P11",
+    "X-Amz-Cf-Id": "4G9AFbV3mc7UqQypkdKbprj7Clb_MEsYN6sGjXTD4HF8TUHxHkF7sw=="
+  },
+  "bytes": 437448614,
+  "sha256": "ae1332336dbe5b6d255c29d75134c2959370ce9aa43c94fc2abb413475f1dcd1",
+  "response_path": "package/maine.zip.response",
+  "parts": [
+    {
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "09919fec78a758d04d0840df2c65a6aded2c0b0347454c3caa03dbbd166e8bf9",
+      "storage_object": "sha256/09919fec78a758d04d0840df2c65a6aded2c0b0347454c3caa03dbbd166e8bf9.response"
+    },
+    {
+      "offset": 40000000,
+      "bytes": 40000000,
+      "sha256": "dbb8556b618da2f7e4dc0aa753a7031fb269571bd0891102d06d325023980552",
+      "storage_object": "sha256/dbb8556b618da2f7e4dc0aa753a7031fb269571bd0891102d06d325023980552.response"
+    },
+    {
+      "offset": 80000000,
+      "bytes": 40000000,
+      "sha256": "50c40cfe4f5feab4f91adcd2052680076d716d4b2726524db1e8e5de4822545e",
+      "storage_object": "sha256/50c40cfe4f5feab4f91adcd2052680076d716d4b2726524db1e8e5de4822545e.response"
+    },
+    {
+      "offset": 120000000,
+      "bytes": 40000000,
+      "sha256": "7e9679395fe63273bb0eff68f41f1424c779ba57f96db51394c5e7e4a9b5327d",
+      "storage_object": "sha256/7e9679395fe63273bb0eff68f41f1424c779ba57f96db51394c5e7e4a9b5327d.response"
+    },
+    {
+      "offset": 160000000,
+      "bytes": 40000000,
+      "sha256": "8ce02606e04ff1ec7b6b5d91eb41b15112a7f0af0d7065d48407282f09a62a30",
+      "storage_object": "sha256/8ce02606e04ff1ec7b6b5d91eb41b15112a7f0af0d7065d48407282f09a62a30.response"
+    },
+    {
+      "offset": 200000000,
+      "bytes": 40000000,
+      "sha256": "cf074e990699364ff5d86cdf99f00b5d919b325242708a569d102e377d9efd8e",
+      "storage_object": "sha256/cf074e990699364ff5d86cdf99f00b5d919b325242708a569d102e377d9efd8e.response"
+    },
+    {
+      "offset": 240000000,
+      "bytes": 40000000,
+      "sha256": "c9d81efee1e1102c2c8bfb7c7863fa5bef701be16bebfd1f7ae4cde110509034",
+      "storage_object": "sha256/c9d81efee1e1102c2c8bfb7c7863fa5bef701be16bebfd1f7ae4cde110509034.response"
+    },
+    {
+      "offset": 280000000,
+      "bytes": 40000000,
+      "sha256": "67f5d3d9b0c4ac93a4866bac5ad2c8a6cd51ba0acac7811609b9bc48cff3848a",
+      "storage_object": "sha256/67f5d3d9b0c4ac93a4866bac5ad2c8a6cd51ba0acac7811609b9bc48cff3848a.response"
+    },
+    {
+      "offset": 320000000,
+      "bytes": 40000000,
+      "sha256": "9bd2d1d2eadd85f2b3785fbf2115cb5fba583e9434c9355a4a6331619bfd757d",
+      "storage_object": "sha256/9bd2d1d2eadd85f2b3785fbf2115cb5fba583e9434c9355a4a6331619bfd757d.response"
+    },
+    {
+      "offset": 360000000,
+      "bytes": 40000000,
+      "sha256": "b65ad2d9a8775707fd33bc91039ad92a6c3279e34ff0038360a9356a41f9471b",
+      "storage_object": "sha256/b65ad2d9a8775707fd33bc91039ad92a6c3279e34ff0038360a9356a41f9471b.response"
+    },
+    {
+      "offset": 400000000,
+      "bytes": 37448614,
+      "sha256": "8ffc6f50fe7dc34dd9ef050e1b92f3cb3e0f149594bc0bd591b330c46b5c0f6c",
+      "storage_object": "sha256/8ffc6f50fe7dc34dd9ef050e1b92f3cb3e0f149594bc0bd591b330c46b5c0f6c.response"
+    }
+  ]
+}

@@ -89,3 +89,9 @@ geometry and identifiers and records two new deficiencies. The Maine package has
 not yet been loaded; reconcile it with the service and resolve the lookup/availability
 holds before wider ingestion. May 1983 imagery remains a qualification on downstream
 use even if the package release is recent.
+
+The [classification follow-up](../research/wetlands-classification/README.md)
+archives the Maine GeoPackage and resolves the eight lookup interpretations.
+Package/service identifiers and projected boundaries differ; candidate comparisons
+do not establish a general crosswalk. Availability geometry (TL-F-0028), wider
+package qualification and a queryable wetlands load remain future work.

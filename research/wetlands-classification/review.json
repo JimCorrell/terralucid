@@ -1,0 +1,13 @@
+{
+  "scope": "TL-F-0027: eight exact native service records in the prior Osborn audit; PUBFh and PUBFx lookup interpretation.",
+  "evidence_state": "DERIVED",
+  "conclusion": "Select the complete joined definition for each of these exact records: PUBFh lookup 5448 and PUBFx lookup 5453. Both match every official CSV reference field, with empty CSV fields normalized to service null. Interpreter dictionary labels corroborate P, UB, F, h and x. Preserve incomplete lookups 6186/6187 as source evidence; their missing values do not negate the coded regime or modifier.",
+  "meaning": {
+    "PUBFh": "Palustrine, unconsolidated bottom, semipermanently flooded, diked/impounded.",
+    "PUBFx": "Palustrine, unconsolidated bottom, semipermanently flooded, excavated."
+  },
+  "resolution_boundary": "Resolve the eight-record interpretation hold, not the publisher's duplicate-join defect. The live service still returns the competing rows. This evidence does not establish why the publisher has those rows or that the defect has been repaired.",
+  "downstream": "Use this reviewed reference match for the exact prior audit and native-core/lookup/reference hashes, carrying this audit and the TL-F-0027 resolution event as provenance. New versions need review. Original snapshots remain unchanged. This audit does not insert records into the municipal correction view or introduce a generic wetlands correction schema.",
+  "package_comparison": "The complete Maine GeoPackage ZIP is archived privately, but only the eight records are compared. A 2-metre Hausdorff-distance gate identifies one nearby candidate per feature, with matching codes. Candidate identities remain INFERRED: service GlobalID differs from package NWI_ID, boundaries are not identical and the selected projection reports 4-metre accuracy. The gate is an investigative comparison parameter, not an accuracy guarantee, legal tolerance, or canonical matching rule.",
+  "limits": "Official code definitions describe what a source code means, not verified present-day ground conditions. May 1983 image lineage, legal wetland delineation and applicability, statewide ingestion, cross-release identity and TL-F-0028 availability geometry remain unresolved. No geometry or parcel screening changes."
+}

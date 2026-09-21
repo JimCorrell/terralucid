@@ -1,0 +1,23 @@
+{
+  "scope": "Eight-record NWI classification reference and Maine package comparison",
+  "as_of": "2026-09-21T00:14:15.644654+00:00",
+  "sources": [
+    {
+      "id": "wetlands-classification",
+      "probe_ids": [
+        "classification-page",
+        "current-eight-features",
+        "code-interpreter",
+        "code-definitions"
+      ],
+      "source_urls": [
+        "https://www.fws.gov/program/national-wetlands-inventory/classification-codes",
+        "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?f=json&objectIds=2274990%2C2275013%2C2275026%2C2275028%2C2275040%2C2279189%2C2279269%2C2279274&outFields=%2A&returnGeometry=true",
+        "https://documentst.ecosphere.fws.gov/wetlands/data/tools/Wetlands-Code-Interpreter.zip",
+        "https://documentst.ecosphere.fws.gov/wetlands/downloads/NWI-Code-Definitions.zip",
+        "https://documentst.ecosphere.fws.gov/wetlands/data/State-Downloads/ME_geopackage_wetlands.zip"
+      ],
+      "rights": "Exact source references and original Maine package archived privately; code meaning is not legal wetland delineation."
+    }
+  ]
+}

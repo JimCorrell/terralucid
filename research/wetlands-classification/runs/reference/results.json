@@ -1,0 +1,28 @@
+[
+  {
+    "id": "code-interpreter",
+    "url": "https://documentst.ecosphere.fws.gov/wetlands/data/tools/Wetlands-Code-Interpreter.zip",
+    "retrieved_at": "2026-09-21T00:10:44.355725+00:00",
+    "http_status": 200,
+    "final_url": "https://documentst.ecosphere.fws.gov/wetlands/data/tools/Wetlands-Code-Interpreter.zip",
+    "content_type": "application/zip",
+    "response_file": "code-interpreter.response",
+    "sha256": "9a604c90f90339160ace6208d8392a6226a7e86571eb41b502b2b58c36b766d3",
+    "bytes": 14653,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "code-definitions",
+    "url": "https://documentst.ecosphere.fws.gov/wetlands/downloads/NWI-Code-Definitions.zip",
+    "retrieved_at": "2026-09-21T00:10:44.900442+00:00",
+    "http_status": 200,
+    "final_url": "https://documentst.ecosphere.fws.gov/wetlands/downloads/NWI-Code-Definitions.zip",
+    "content_type": "application/zip",
+    "response_file": "code-definitions.response",
+    "sha256": "5542b50c26ea9c5f4063d3acfbda53a9186c33b8bcaa9046ef73767d51d88109",
+    "bytes": 757121,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

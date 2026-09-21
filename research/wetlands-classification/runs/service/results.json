@@ -1,0 +1,15 @@
+[
+  {
+    "id": "current-eight-features",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?f=json&objectIds=2274990%2C2275013%2C2275026%2C2275028%2C2275040%2C2279189%2C2279269%2C2279274&outFields=%2A&returnGeometry=true",
+    "retrieved_at": "2026-09-21T00:14:15.644654+00:00",
+    "http_status": 200,
+    "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?f=json&objectIds=2274990%2C2275013%2C2275026%2C2275028%2C2275040%2C2279189%2C2279269%2C2279274&outFields=%2A&returnGeometry=true",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "current-eight-features.response",
+    "sha256": "1791d27900c3980a55980d9832c9b68795d79866fd472521d8775f8b81aa6eec",
+    "bytes": 68120,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

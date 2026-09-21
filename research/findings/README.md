@@ -91,3 +91,9 @@ The [bounded Osborn wetlands audit](../osborn-wetlands/README.md) advances TL-F-
 and adds **TL-F-0027** for conflicting joined NWI classification definitions and
 **TL-F-0028** for invalid native availability geometry. Exact source variants,
 May 1983 imagery metadata and next actions remain visible; neither issue is resolved.
+
+The [NWI classification review](../wetlands-classification/README.md) resolves
+**TL-F-0027 for the eight reviewed source records** through exact official-reference
+matches. The upstream duplicate join persists; this is not a publisher-repair claim.
+TL-F-0117 retains package/identity/projection and applicability work. TL-F-0028 is
+unchanged and open. Earlier definitions and findings history remain intact.

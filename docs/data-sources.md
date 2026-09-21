@@ -69,3 +69,10 @@ availability ring (TL-F-0028) remain open. Valid imagery-source footprints cover
 study scope; this does not establish exhaustive or current wetland detection.
 Maine package reconciliation, statewide ingestion and regulatory applicability
 remain separate gates. Empty inventory space does not establish wetland absence.
+
+The [classification follow-up](../research/wetlands-classification/README.md)
+resolves TL-F-0027's eight-record interpretation using the official CSV and decoder.
+The complete PUBFh/PUBFx definitions match; incomplete duplicate lookups remain in
+the live service and in the archive. The Maine package is now archived with eight
+spatial candidate comparisons, not loaded statewide. Identifier/projection differences,
+May 1983 imagery and TL-F-0028 remain qualified. Use exact reviewed versions downstream.

@@ -1,0 +1,6 @@
+[
+  {
+    "id": "current-eight-features",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?f=json&objectIds=2274990%2C2275013%2C2275026%2C2275028%2C2275040%2C2279189%2C2279269%2C2279274&outFields=%2A&returnGeometry=true"
+  }
+]
