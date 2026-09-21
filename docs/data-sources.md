@@ -111,3 +111,11 @@ numerically reconciles all 669 pairs through explicit ESRI:108190, supported by 
 unchanged live service controls. Four native package project footprints cover the
 load and study boundary, retaining May 1983 imagery and undated NHD supplementation.
 This neither corrects source geometry nor establishes current/complete/legal wetlands.
+
+The [Piscataquis County inventory](../research/piscataquis-ingestion/README.md)
+expands native parcel and LUPC capture and extracts county wetlands/project metadata
+from the archived Maine package. It preserves source versions, held geometry,
+outside capture candidates and per-jurisdiction coverage evidence. County project
+imagery is dated 1984–1986; accepted Osborn corrections and qualifications do not
+transfer automatically. Official municipal zoning and legal applicability remain
+separate evidence requirements.
