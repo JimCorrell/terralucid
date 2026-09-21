@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid Moosehead/Spencer proposal review",
+  "expected_event_id": "3454dfa3a4e6510c39480f8d4ee49e3fc41b641a2e1b39ac800b2d96d6700b36",
+  "finding_id": "TL-F-0029",
+  "next_action": "Extend and test the county validator for these two pinned proposal/review versions, then activate with immutable expected-event history and a new dependency snapshot. Preserve original evidence and all remaining county deficiencies.",
+  "note": "Fixed candidates for Moosehead Junction 27208875 and Spencer Bay 27336229 pass separate source-cycle/role/common-owner checks and repeated independent fill checks. Both supported for exact-version acceptance; neither activated.",
+  "priority": "high",
+  "status": "in_progress"
+}

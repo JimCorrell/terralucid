@@ -1,0 +1,8 @@
+{
+  "command": "python -m unittest discover -s tests -p 'test_moosehead_spencer_review.py'",
+  "files": {
+    "scripts/review_moosehead_spencer.py": "b2f65837d5886638ffa021382b9cf68fccd7648cc7319a8d7efbeef9facee146",
+    "tests/test_moosehead_spencer_review.py": "6fd9af43009b590ded0f73c877ee16b9a5f237fe4c99adfac56c83b37077076b"
+  },
+  "targeted_tests_passed": 6
+}
