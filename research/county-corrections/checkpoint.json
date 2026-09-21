@@ -1,0 +1,21 @@
+{
+  "acceptances_loaded": 3,
+  "archive_objects_verified": 14,
+  "audit_sha256": "f71944bb815efe7b873c5a49aace783c2056b072d89d2ddcfce9532ae12b05c5",
+  "dependency_snapshot_id": "d0756dd73405ebd6ae3aa3a72db2d91a9f2fd5a74355e1324f628c14f25bc4c9",
+  "effective_total_geometry_holds": 180,
+  "effective_zoning_holds": 159,
+  "finding_event_id": "261b9b2c436a3e8fbae0752a4814de7ce6477d532eac5d44a8a22373a26b47e7",
+  "finding_status": "in_progress",
+  "isolated_integration_tests_passed": true,
+  "live_synthetic_test_events": 0,
+  "migration": "20260921050000",
+  "migration_applied": true,
+  "original_county_fingerprints_unchanged": true,
+  "original_total_geometry_holds": 183,
+  "original_zoning_holds": 162,
+  "prepared_load_sha256": "02bbbd11e48feb16730502b4a16c7f5c8ea5ded5def874fe0a8ab49f7ed3d951",
+  "project_ref": "yytsjlmbyqhcqfalbjca",
+  "qualified_rows": 0,
+  "verified_at": "2026-09-21T18:34:02.070046+00:00"
+}
