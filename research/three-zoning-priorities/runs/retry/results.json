@@ -1,0 +1,41 @@
+[
+  {
+    "id": "native-27304757",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27304757&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+    "retrieved_at": "2026-09-21T23:22:02.206858+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27304757&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "native-27304757.response",
+    "sha256": "3df9bbf6b4c01ec77b47db0531a599c6318a7be4ab37a4ab7b4488a99b94409d",
+    "bytes": 2947936,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "geojson-27304757",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27304757&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+    "retrieved_at": "2026-09-21T23:22:03.609589+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27304757&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+    "content_type": "application/geo+json; charset=UTF-8",
+    "response_file": "geojson-27304757.response",
+    "sha256": "790340d9502ef06f9589bdf0e93768be73eb19fa9ffa503dee9474d2485a24a0",
+    "bytes": 2946663,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "native-27270812",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27270812&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+    "retrieved_at": "2026-09-21T23:22:05.710473+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27270812&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "native-27270812.response",
+    "sha256": "78ac10bc3db4dabc109b9a3f994f16b5215895b14c53b67f6eeb6eb72debb863",
+    "bytes": 1105828,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

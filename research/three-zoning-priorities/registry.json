@@ -1,0 +1,39 @@
+{
+  "scope": "Three ranked Piscataquis zoning geometry investigations; exact-source proposals only, no activation.",
+  "sources": [
+    {
+      "id": "lupc-zoning",
+      "name": "LUPC zoning service variants, map index and official maps",
+      "probe_ids": [
+        "publisher-page",
+        "layer-metadata",
+        "map-index",
+        "native-27304757",
+        "geojson-27304757",
+        "native-27270812",
+        "geojson-27270812",
+        "native-27207268",
+        "geojson-27207268",
+        "east-middlesex-canal-grant-twp-map",
+        "t4-r11-wels-map",
+        "t7-r11-wels-map"
+      ],
+      "publisher": "Maine LUPC",
+      "rights": "Private research archive; redistribution rights not established.",
+      "source_urls": [
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=TOWNNAME+like+%27%25Middlesex%25%27+OR+TOWNNAME%3D%27T7+R11+WELS%27+OR+TOWNNAME%3D%27T4+R11+WELS%27&outFields=%2A&returnGeometry=false&f=json",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27304757&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27304757&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27270812&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27270812&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27207268&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27207268&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/east-middlesex-canal-grant-twp.pdf",
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t4-r11-wels.pdf",
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t7-r11-wels.pdf"
+      ]
+    }
+  ]
+}

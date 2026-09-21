@@ -1,0 +1,44 @@
+{
+  "authentic_cases": [
+    {
+      "candidate_sha256": "47b5a125668da3580220741a6430dcfba6e558d0c85bad26bd7cae51d437a148",
+      "exact_cycle_roles": true,
+      "fill_difference_m2": 0.0,
+      "object_id": 27304757,
+      "source_faces": 156
+    },
+    {
+      "candidate_sha256": "ca169c3ab9bcb181c9e3533cb83b5463eb443b5d29ea1e866ccd61dfe5040a6a",
+      "exact_cycle_roles": true,
+      "fill_difference_m2": 0.0,
+      "object_id": 27270812,
+      "source_faces": 263
+    },
+    {
+      "candidate_sha256": "0d121d894fd418c3f71f885790bd4bdd4d1981fed5a542237f508835a964bf98",
+      "exact_cycle_roles": true,
+      "fill_difference_m2": 0.0,
+      "object_id": 27207268,
+      "source_faces": 80
+    }
+  ],
+  "checks": [
+    "All three fresh native features exactly match the original county records.",
+    "Fixed serialized candidates preserve segment multiplicity, shell/hole cycle roles and common ownership of touching holes.",
+    "Separate ray-crossing classification matches all 499 source faces; same GEOS engine, not independent publisher evidence.",
+    "Wrong CRS, incomplete responses, changed source/geometry, missing holes, shared edges, overlapping loops and unsupported walks rejected.",
+    "Scenario union handles overlapping proposals and accepted baseline without double counting."
+  ],
+  "passed": true,
+  "runtime": {
+    "GEOS": "3.11.4",
+    "numpy": "2.0.2",
+    "shapely": "2.0.7"
+  },
+  "test_files": {
+    "tests/test_moosehead_spencer.py": "f755d929c6ce4fbd7fde468cbd907ae16c85cf080a60bc97f55ce22dc95391df",
+    "tests/test_moosehead_spencer_review.py": "6fd9af43009b590ded0f73c877ee16b9a5f237fe4c99adfac56c83b37077076b",
+    "tests/test_three_zoning_priorities.py": "656bb2909de37a2c659f572b5def2dd5c7ec54e7f2dc20d1d9187e0947beeffd"
+  },
+  "tests_run": 20
+}
