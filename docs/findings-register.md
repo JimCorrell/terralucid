@@ -127,3 +127,9 @@ adds the two reviewed interpretations to the effective layer. TL-F-0029 remains
 in progress for the remaining 157 zoning and 21 parcel geometry holds and other
 county deficiencies. Refresh the prioritization against all five corrections
 before selecting the next investigation group.
+
+The [three-priority investigation](../research/three-zoning-priorities/README.md)
+records East Middlesex Canal Grant, T7 R11 WELS and T4 R11 WELS together. Fresh
+native versions match the county source, and all three fixed proposals pass
+separate cycle/fill checks. TL-F-0029 retains exact-version validator extension
+and activation as the next action; all 157 zoning holds remain until acceptance.

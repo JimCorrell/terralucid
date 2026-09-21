@@ -1,0 +1,68 @@
+{
+  "evidence_state": "DERIVED",
+  "maps": {
+    "east-middlesex-canal-grant-twp": {
+      "adopted": "1999-09-16",
+      "amendments": [
+        {
+          "effective": "2001-05-31",
+          "permit": "ZP654",
+          "remark": "Time extension"
+        },
+        {
+          "effective": "2002-06-27",
+          "permit": "ZP654A",
+          "remark": "Time extension"
+        },
+        {
+          "effective": "2002-12-26",
+          "permit": "ZP672",
+          "remark": "Expiration of P-RP"
+        }
+      ],
+      "context": "P-SL2 corridors, wetlands and lake protection around Moosehead Lake, Little Spencer Pond and Lobster Lake; M-GN and multiple other protection districts.",
+      "effective": "1999-10-01",
+      "page": 1,
+      "pdf_sha256": "34d1eb63718f6140ccaa6f21a0021e5c48221925477a1c588338fcd61a446f1c",
+      "retrieved_at": "2026-09-21T23:21:36.548918+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/east-middlesex-canal-grant-twp.pdf"
+    },
+    "t4-r11-wels": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Adoption of digital NWI wetlands"
+        }
+      ],
+      "context": "P-SL2 corridors among extensive wetland districts, with Harrington Lake at the southern edge.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "bd93a5efd920a9f9dfddf1b2738fb0d18942ef90a235c125400d6c03d990877d",
+      "retrieved_at": "2026-09-21T23:21:37.384723+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t4-r11-wels.pdf"
+    },
+    "t7-r11-wels": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Adoption of digital NWI wetlands"
+        }
+      ],
+      "context": "P-SL2 corridors among lakes and wetlands; southern P-UA note references the Allagash Wilderness Waterway.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "3fd5c9f1faa220059863d2423c1261fab86a9a0bac75b392725c20e49f33b66b",
+      "retrieved_at": "2026-09-21T23:21:38.034677+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t7-r11-wels.pdf"
+    }
+  },
+  "review": "Manual inspection of three full-page Poppler renders and enlarged notes; T4 notes also rendered with PyMuPDF to resolve Poppler text clipping. No tracing or coordinate derivation.",
+  "shared_caveats": [
+    "Map notes defer to Chapter 10 rules where mapped and described boundaries conflict.",
+    "Some wetland and stream protections are not drawn; water-dependent districts can follow water locations on the ground.",
+    "Recorded dates are document statements, not a legal-currency determination.",
+    "PDF context cannot certify exact repeated-vertex topology, surveyed boundaries, access or buildability."
+  ]
+}

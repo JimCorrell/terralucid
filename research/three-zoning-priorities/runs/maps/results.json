@@ -1,0 +1,44 @@
+[
+  {
+    "id": "east-middlesex-canal-grant-twp-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/east-middlesex-canal-grant-twp.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-21T23:21:36.548918+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/east-middlesex-canal-grant-twp.pdf",
+    "content_type": "application/pdf",
+    "response_file": "east-middlesex-canal-grant-twp-map.response",
+    "sha256": "34d1eb63718f6140ccaa6f21a0021e5c48221925477a1c588338fcd61a446f1c",
+    "bytes": 3089881,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "t4-r11-wels-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t4-r11-wels.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-21T23:21:37.384723+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t4-r11-wels.pdf",
+    "content_type": "application/pdf",
+    "response_file": "t4-r11-wels-map.response",
+    "sha256": "bd93a5efd920a9f9dfddf1b2738fb0d18942ef90a235c125400d6c03d990877d",
+    "bytes": 2876151,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "t7-r11-wels-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t7-r11-wels.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-21T23:21:38.034677+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t7-r11-wels.pdf",
+    "content_type": "application/pdf",
+    "response_file": "t7-r11-wels-map.response",
+    "sha256": "3fd5c9f1faa220059863d2423c1261fab86a9a0bac75b392725c20e49f33b66b",
+    "bytes": 2792287,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  }
+]

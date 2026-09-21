@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid three-priority zoning investigation",
+  "expected_event_id": "b2b3582b20cbea28d585f9bc6b427f12254552f24afe47d9169ece8f482cf0ef",
+  "finding_id": "TL-F-0029",
+  "next_action": "Review and extend the bounded county validator for East Middlesex Canal Grant 27304757, T7 R11 WELS 27270812 and T4 R11 WELS 27207268 using these exact proposal hashes and recorded cycle/fill checks; test and activate supported versions, then refresh the ranking. Retain 157 zoning holds, 21 parcel holds, municipal applicability and wetland imagery follow-ups until separately resolved.",
+  "note": "All three ranked exact-source interpretations preserve complete source segments, cycle roles and independent fill; current native records match the county capture. Official map evidence and limitations recorded. Three proposals only; no geometry activated.",
+  "priority": "high",
+  "status": "in_progress"
+}
