@@ -36,3 +36,6 @@ __pycache__/
 /research/osborn-flood-adoption/diagnostics/*.png
 
 /research/osborn-wetlands/runs/**/*.response
+
+/research/wetlands-classification/runs/**/*.response
+/research/wetlands-classification/package/*

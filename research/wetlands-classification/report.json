@@ -1,0 +1,993 @@
+{
+  "checks": {
+    "empty_csv_fields_normalized_to_null": true,
+    "exact_complete_reference_match_per_feature": true,
+    "native_records_and_lookup_variants_unchanged": true,
+    "package_spatial_candidates_agree_on_code": true,
+    "unique_reference_row_per_code": true,
+    "upstream_lookup_defect_still_present": true
+  },
+  "decoder_labels": {
+    "PUBFh": {
+      "class": "Unconsolidated Bottom (UB): Includes all wetlands and deepwater habitats with at least 25% cover of particles smaller than stones (less than 6-7 cm), and a vegetative cover less than 30%.",
+      "modifier": "Diked/Impounded (h): These wetlands have been created or modified by a man-made barrier or dam that obstructs the inflow or outflow of water.",
+      "system": "Palustrine (P): The Palustrine System includes all nontidal wetlands dominated by trees, shrubs, persistent emergents, emergent mosses or lichens, and all such wetlands that occur in tidal areas where salinity due to ocean-derived salts is below 0.5 ppt. It also includes wetlands lacking such vegetation, but with all of the following four characteristics: (1) area less than 8 ha (20 acres); (2) active wave-formed or bedrock shoreline features lacking; (3) water depth in the deepest part of basin less than 2.5 m (8.2 ft) at low water; and (4) salinity due to ocean-derived salts less than 0.5 ppt.",
+      "water_regime": "Semipermanently Flooded (F): Surface water persists throughout the growing season in most years. When surface water is absent, the water table is usually at or very near the land surface."
+    },
+    "PUBFx": {
+      "class": "Unconsolidated Bottom (UB): Includes all wetlands and deepwater habitats with at least 25% cover of particles smaller than stones (less than 6-7 cm), and a vegetative cover less than 30%.",
+      "modifier": "Excavated (x): This Modifier is used to identify wetland basins or channels that were excavated by humans.",
+      "system": "Palustrine (P): The Palustrine System includes all nontidal wetlands dominated by trees, shrubs, persistent emergents, emergent mosses or lichens, and all such wetlands that occur in tidal areas where salinity due to ocean-derived salts is below 0.5 ppt. It also includes wetlands lacking such vegetation, but with all of the following four characteristics: (1) area less than 8 ha (20 acres); (2) active wave-formed or bedrock shoreline features lacking; (3) water depth in the deepest part of basin less than 2.5 m (8.2 ft) at low water; and (4) salinity due to ocean-derived salts less than 0.5 ppt.",
+      "water_regime": "Semipermanently Flooded (F): Surface water persists throughout the growing season in most years. When surface water is absent, the water table is usually at or very near the land surface."
+    }
+  },
+  "evidence": {
+    "discovery/classification-page": {
+      "bytes": 101165,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.fws.gov/program/national-wetlands-inventory/classification-codes",
+      "http_status": 200,
+      "id": "classification-page",
+      "pdf_signature": false,
+      "response_file": "classification-page.response",
+      "response_path": "runs/discovery/classification-page.response",
+      "retrieved_at": "2026-09-21T00:09:44.239980+00:00",
+      "sha256": "7e74d6844a49183527373a3bcfc62c489d6c7827bae108e67525b9976022118d",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.fws.gov/program/national-wetlands-inventory/classification-codes"
+    },
+    "reference/code-definitions": {
+      "bytes": 757121,
+      "content_type": "application/zip",
+      "final_url": "https://documentst.ecosphere.fws.gov/wetlands/downloads/NWI-Code-Definitions.zip",
+      "http_status": 200,
+      "id": "code-definitions",
+      "pdf_signature": false,
+      "response_file": "code-definitions.response",
+      "response_path": "runs/reference/code-definitions.response",
+      "retrieved_at": "2026-09-21T00:10:44.900442+00:00",
+      "sha256": "5542b50c26ea9c5f4063d3acfbda53a9186c33b8bcaa9046ef73767d51d88109",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://documentst.ecosphere.fws.gov/wetlands/downloads/NWI-Code-Definitions.zip"
+    },
+    "reference/code-interpreter": {
+      "bytes": 14653,
+      "content_type": "application/zip",
+      "final_url": "https://documentst.ecosphere.fws.gov/wetlands/data/tools/Wetlands-Code-Interpreter.zip",
+      "http_status": 200,
+      "id": "code-interpreter",
+      "pdf_signature": false,
+      "response_file": "code-interpreter.response",
+      "response_path": "runs/reference/code-interpreter.response",
+      "retrieved_at": "2026-09-21T00:10:44.355725+00:00",
+      "sha256": "9a604c90f90339160ace6208d8392a6226a7e86571eb41b502b2b58c36b766d3",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://documentst.ecosphere.fws.gov/wetlands/data/tools/Wetlands-Code-Interpreter.zip"
+    },
+    "service/current-eight-features": {
+      "bytes": 68120,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?f=json&objectIds=2274990%2C2275013%2C2275026%2C2275028%2C2275040%2C2279189%2C2279269%2C2279274&outFields=%2A&returnGeometry=true",
+      "http_status": 200,
+      "id": "current-eight-features",
+      "pdf_signature": false,
+      "response_file": "current-eight-features.response",
+      "response_path": "runs/service/current-eight-features.response",
+      "retrieved_at": "2026-09-21T00:14:15.644654+00:00",
+      "sha256": "1791d27900c3980a55980d9832c9b68795d79866fd472521d8775f8b81aa6eec",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?f=json&objectIds=2274990%2C2275013%2C2275026%2C2275028%2C2275040%2C2279189%2C2279269%2C2279274&outFields=%2A&returnGeometry=true"
+    }
+  },
+  "evidence_state": "DERIVED",
+  "finding_reviews": [
+    {
+      "finding_id": "TL-F-0027",
+      "next_action": "Use the pinned reference-matched interpretation for these exact records. On new snapshots recheck core/lookup hashes and reference versions; reopen for discrepancies. Do not use repeated joined rows as separate wetlands.",
+      "note": "The exact eight-record lookup ambiguity is resolved for interpretation: official CSV has one row per PUBFh/PUBFx, matching the complete service variant in every reference field; official decoder labels agree. Preserve competing rows with eight missing fields. Upstream duplicate lookup remains present; publisher repair is not claimed. Package spatial candidates corroborate codes, not canonical identity or exact geometry.",
+      "priority": "medium",
+      "report_pointer": "/records",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "TL-F-0117",
+      "next_action": "Investigate TL-F-0028 availability geometry. Before wider ingestion reconcile package/service identity and projection, qualify package/project coverage and refresh behavior, and retain imagery age plus field/regulatory due diligence.",
+      "note": "Maine package archived intact and compared for the eight conflicted codes. Candidate counterparts agree on classifications, but package NWI_ID differs from service GlobalID and projected boundaries differ by about a metre. This is not statewide loading or identity/geometry reconciliation. Old-image and legal applicability qualifications remain. TL-F-0028 is unchanged.",
+      "priority": "medium",
+      "report_pointer": "/package",
+      "status": "in_progress"
+    }
+  ],
+  "inputs": {
+    "research/osborn-wetlands/report.json": "e1449e8384d5d712dfdae9df26814330d1b9f7dc31ae82fc8765bce565b61906",
+    "research/osborn-wetlands/runs/features/wetland-page-10.response": "fd04ddf5a1c13daf9706a0874b8f846a89e8aecd945c8fefb6f7e73c1fe730c6",
+    "research/osborn-wetlands/runs/features/wetland-page-11.response": "d89e9a6a1d7b48b0cfc2ef6546cfb5cd4feb2f16b3cc1d0bf6a4e04a6741c690",
+    "research/wetlands-classification/package-capture.json": "180476e97b48841b62934c78207d0e915c6feb28286366542dc76fe976d786b6",
+    "research/wetlands-classification/probes.json": "efab1ff601b95efd135981741b7c170079392bbcab721e2b7ab5a7da1780fed7",
+    "research/wetlands-classification/reference-probes.json": "7d5a7f1bc86527056672d82d398713f2d7e5d9e8a2251686a182429857814cff",
+    "research/wetlands-classification/review.json": "bfe42a695df6e403e7d601343639370d169eb7d3b15c05bbbb2175ec96f9866e",
+    "research/wetlands-classification/service-probes.json": "1cb9b8c4ae8697a645cd125f7572194ea7d09b7bacf79ea32be1aad78827b19c",
+    "scripts/collect_document_evidence.py": "512463a8e1b2f024b99084f00dd97c6fc853051be480e98335a4d96466c6b1e9",
+    "scripts/collect_maine_wetlands_package.py": "878e1239010261f5b49ac3c73e7059a4cc896ad53da925b4dde0c0f0ede645ee",
+    "scripts/investigate_osborn_wetlands.py": "e5e30a137f6c280ac376426d41b11a2fe72f5fa9dc20a6a577a60952c89999dc",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b"
+  },
+  "method": "scripts/investigate_wetlands_classification.py",
+  "method_sha256": "6fd0bc125759b63f86795ea0c9625666ce9586fb74b75bd2b45ddc765d13a4fa",
+  "package": {
+    "bytes": 437448614,
+    "comparison_operation": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=aea lat_0=23 lon_0=-96 lat_1=29.5 lat_2=45.5 x_0=0 y_0=0 ellps=GRS80",
+    "comparison_reported_accuracy_m": 4.0,
+    "extracted": {
+      "bytes": 993513472,
+      "member": "ME_geopackage_wetlands.gpkg",
+      "sha256": "a224dc073dc87b1a6fccead6f8701304aa67cf734cd351b7e5fc28c2c3b2018f"
+    },
+    "final_url": "https://documentst.ecosphere.fws.gov/wetlands/data/State-Downloads/ME_geopackage_wetlands.zip",
+    "headers": {
+      "Accept-Ranges": "bytes",
+      "Connection": "close",
+      "Content-Length": "437448614",
+      "Content-Type": "application/zip",
+      "Date": "Mon, 21 Sep 2026 00:10:39 GMT",
+      "ETag": "\"435e70c5478fc3b860c99c04e9b492ad-26\"",
+      "Last-Modified": "Wed, 29 Apr 2026 16:18:10 GMT",
+      "Server": "AmazonS3",
+      "Via": "1.1 464b491a9abf8ea780af299d2685fe56.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Id": "4G9AFbV3mc7UqQypkdKbprj7Clb_MEsYN6sGjXTD4HF8TUHxHkF7sw==",
+      "X-Amz-Cf-Pop": "IAD61-P11",
+      "X-Cache": "Miss from cloudfront",
+      "x-amz-server-side-encryption": "AES256",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-version-id": "YjZPMi2QmM6coZ.p4QL_OEAPl4PfrPOX"
+    },
+    "http_status": 200,
+    "inventory_rows": 587644,
+    "parts": [
+      {
+        "bytes": 40000000,
+        "offset": 0,
+        "sha256": "09919fec78a758d04d0840df2c65a6aded2c0b0347454c3caa03dbbd166e8bf9",
+        "storage_object": "sha256/09919fec78a758d04d0840df2c65a6aded2c0b0347454c3caa03dbbd166e8bf9.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 40000000,
+        "sha256": "dbb8556b618da2f7e4dc0aa753a7031fb269571bd0891102d06d325023980552",
+        "storage_object": "sha256/dbb8556b618da2f7e4dc0aa753a7031fb269571bd0891102d06d325023980552.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 80000000,
+        "sha256": "50c40cfe4f5feab4f91adcd2052680076d716d4b2726524db1e8e5de4822545e",
+        "storage_object": "sha256/50c40cfe4f5feab4f91adcd2052680076d716d4b2726524db1e8e5de4822545e.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 120000000,
+        "sha256": "7e9679395fe63273bb0eff68f41f1424c779ba57f96db51394c5e7e4a9b5327d",
+        "storage_object": "sha256/7e9679395fe63273bb0eff68f41f1424c779ba57f96db51394c5e7e4a9b5327d.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 160000000,
+        "sha256": "8ce02606e04ff1ec7b6b5d91eb41b15112a7f0af0d7065d48407282f09a62a30",
+        "storage_object": "sha256/8ce02606e04ff1ec7b6b5d91eb41b15112a7f0af0d7065d48407282f09a62a30.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 200000000,
+        "sha256": "cf074e990699364ff5d86cdf99f00b5d919b325242708a569d102e377d9efd8e",
+        "storage_object": "sha256/cf074e990699364ff5d86cdf99f00b5d919b325242708a569d102e377d9efd8e.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 240000000,
+        "sha256": "c9d81efee1e1102c2c8bfb7c7863fa5bef701be16bebfd1f7ae4cde110509034",
+        "storage_object": "sha256/c9d81efee1e1102c2c8bfb7c7863fa5bef701be16bebfd1f7ae4cde110509034.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 280000000,
+        "sha256": "67f5d3d9b0c4ac93a4866bac5ad2c8a6cd51ba0acac7811609b9bc48cff3848a",
+        "storage_object": "sha256/67f5d3d9b0c4ac93a4866bac5ad2c8a6cd51ba0acac7811609b9bc48cff3848a.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 320000000,
+        "sha256": "9bd2d1d2eadd85f2b3785fbf2115cb5fba583e9434c9355a4a6331619bfd757d",
+        "storage_object": "sha256/9bd2d1d2eadd85f2b3785fbf2115cb5fba583e9434c9355a4a6331619bfd757d.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 360000000,
+        "sha256": "b65ad2d9a8775707fd33bc91039ad92a6c3279e34ff0038360a9356a41f9471b",
+        "storage_object": "sha256/b65ad2d9a8775707fd33bc91039ad92a6c3279e34ff0038360a9356a41f9471b.response"
+      },
+      {
+        "bytes": 37448614,
+        "offset": 400000000,
+        "sha256": "8ffc6f50fe7dc34dd9ef050e1b92f3cb3e0f149594bc0bd591b330c46b5c0f6c",
+        "storage_object": "sha256/8ffc6f50fe7dc34dd9ef050e1b92f3cb3e0f149594bc0bd591b330c46b5c0f6c.response"
+      }
+    ],
+    "response_path": "package/maine.zip.response",
+    "retrieved_at": "2026-09-21T00:10:37.792973+00:00",
+    "scope": "Entire ZIP archived; eight-record comparison only. Not statewide feature ingestion or identity/geometry reconciliation.",
+    "sha256": "ae1332336dbe5b6d255c29d75134c2959370ce9aa43c94fc2abb413475f1dcd1",
+    "srs_wkt": "PROJCS[\"NAD_1983_Albers\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Albers\"],PARAMETER[\"False_Easting\",0.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-96.0],PARAMETER[\"Standard_Parallel_1\",29.5],PARAMETER[\"Standard_Parallel_2\",45.5],PARAMETER[\"Latitude_Of_Origin\",23.0],UNIT[\"Meter\",1.0]]",
+    "url": "https://documentst.ecosphere.fws.gov/wetlands/data/State-Downloads/ME_geopackage_wetlands.zip"
+  },
+  "prior_audit_sha256": "e1449e8384d5d712dfdae9df26814330d1b9f7dc31ae82fc8765bce565b61906",
+  "records": [
+    {
+      "ATTRIBUTE": "PUBFh",
+      "interpretation_evidence_state": "DERIVED",
+      "interpretation_status": "reviewed_reference_match",
+      "native_core_sha256": "c8f45114587b87dcbcc7089a1b1e7bababf57e4ba1e1684b49a3e675e2952bca",
+      "package_candidates": [
+        {
+          "ATTRIBUTE": "PUBFh",
+          "NWI_ID": "202409CSw{557DD054-FC00-4055-8104-A365D2D5BAD4}_01",
+          "WETLAND_TYPE": "Freshwater Pond",
+          "candidate_within_2m": true,
+          "geometry_blob_sha256": "6b5de8dffa72585904ba7eeb0b2f0334400d4577cb9b21c90a88ca1b9a7cfae4",
+          "hausdorff_distance_m": 1.0249267606405652,
+          "package_objectid": 126421,
+          "symmetric_difference_m2": 72.63807145661198
+        },
+        {
+          "ATTRIBUTE": "M1UBL",
+          "NWI_ID": "202409CSw{373C2B8C-885B-4C32-8B51-80AB7C989195}_01",
+          "WETLAND_TYPE": "Estuarine and Marine Deepwater",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "60eca199dac5cab80c2d6befd5caa84f3d4742231e75fa2ec0bc5c3090032e66",
+          "hausdorff_distance_m": 288830.8119263642,
+          "package_objectid": 179530,
+          "symmetric_difference_m2": 6896104905.7088175
+        }
+      ],
+      "package_identity_state": "INFERRED spatial counterpart only; different identifiers and non-identical projected boundary",
+      "prior_native_geometry_sha256": "b4f7289b26a3e2dd087db561e8ca187ba294c3ee9802d0f87c2adafbdefbc881",
+      "reference_row_sha256": "708b63e1e94836c47f141f912fafb8c98c5b9a70edd3668ba09169820ea4f232",
+      "remaining_variants": [
+        {
+          "differences": {
+            "MODIFIER1": {
+              "reference": "h",
+              "service": null
+            },
+            "MODIFIER1_DEFINITION": {
+              "reference": "These wetlands have been created or modified by a man-made barrier or dam that obstructs the inflow or outflow of water.",
+              "service": null
+            },
+            "MODIFIER1_GROUP": {
+              "reference": "Special Modifier",
+              "service": null
+            },
+            "MODIFIER1_NAME": {
+              "reference": "Diked/Impounded",
+              "service": null
+            },
+            "WATER_REGIME": {
+              "reference": "F",
+              "service": null
+            },
+            "WATER_REGIME_DEFINITION": {
+              "reference": "Surface water persists throughout the growing season in most years. When surface water is absent, the water table is usually at or very near the land surface.",
+              "service": null
+            },
+            "WATER_REGIME_NAME": {
+              "reference": "Semipermanently Flooded",
+              "service": null
+            },
+            "WATER_REGIME_SUBGROUP": {
+              "reference": "Nontidal",
+              "service": null
+            }
+          },
+          "lookup_objectid": 6186
+        }
+      ],
+      "selected_lookup_objectid": 5448,
+      "selected_lookup_sha256": "f0042ed7d8c5805666ed1701db606849f2df32def739629448f24ff4544a5822",
+      "service_globalid": "{69F3DC73-3C6F-4FD4-9930-265616A5FB30}",
+      "service_objectid": 2274990
+    },
+    {
+      "ATTRIBUTE": "PUBFh",
+      "interpretation_evidence_state": "DERIVED",
+      "interpretation_status": "reviewed_reference_match",
+      "native_core_sha256": "f7a5f9ecb93e7d5b3a836359ba5c12c65a9b0de08e57ab6762e211306afa2641",
+      "package_candidates": [
+        {
+          "ATTRIBUTE": "PSS1E",
+          "NWI_ID": "202409CSw{1392B8F2-94D3-4932-8506-5D2F361909AF}_01",
+          "WETLAND_TYPE": "Freshwater Forested/Shrub Wetland",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "ceab8b53aaad09307b7110005e0af3d140d18993a2ee65ec7777806c85ed3a2a",
+          "hausdorff_distance_m": 124.12727725388712,
+          "package_objectid": 123909,
+          "symmetric_difference_m2": 3647.1964983809594
+        },
+        {
+          "ATTRIBUTE": "PUBFh",
+          "NWI_ID": "202409CSw{23D85CB0-EA4B-4B2E-BBED-AFE666E7884C}_01",
+          "WETLAND_TYPE": "Freshwater Pond",
+          "candidate_within_2m": true,
+          "geometry_blob_sha256": "3a4b37bf770a15004fa85c7f7da12676b87b8d6c0d24f32ec16f7f3fce2ecded",
+          "hausdorff_distance_m": 1.025059823934962,
+          "package_objectid": 126423,
+          "symmetric_difference_m2": 196.28013523372124
+        },
+        {
+          "ATTRIBUTE": "M1UBL",
+          "NWI_ID": "202409CSw{373C2B8C-885B-4C32-8B51-80AB7C989195}_01",
+          "WETLAND_TYPE": "Estuarine and Marine Deepwater",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "60eca199dac5cab80c2d6befd5caa84f3d4742231e75fa2ec0bc5c3090032e66",
+          "hausdorff_distance_m": 289528.00267873466,
+          "package_objectid": 179530,
+          "symmetric_difference_m2": 6896107315.846585
+        }
+      ],
+      "package_identity_state": "INFERRED spatial counterpart only; different identifiers and non-identical projected boundary",
+      "prior_native_geometry_sha256": "8b00146f9e5bede01950f2cf612f563e54ca792a4825512937d1d3ce287708b9",
+      "reference_row_sha256": "708b63e1e94836c47f141f912fafb8c98c5b9a70edd3668ba09169820ea4f232",
+      "remaining_variants": [
+        {
+          "differences": {
+            "MODIFIER1": {
+              "reference": "h",
+              "service": null
+            },
+            "MODIFIER1_DEFINITION": {
+              "reference": "These wetlands have been created or modified by a man-made barrier or dam that obstructs the inflow or outflow of water.",
+              "service": null
+            },
+            "MODIFIER1_GROUP": {
+              "reference": "Special Modifier",
+              "service": null
+            },
+            "MODIFIER1_NAME": {
+              "reference": "Diked/Impounded",
+              "service": null
+            },
+            "WATER_REGIME": {
+              "reference": "F",
+              "service": null
+            },
+            "WATER_REGIME_DEFINITION": {
+              "reference": "Surface water persists throughout the growing season in most years. When surface water is absent, the water table is usually at or very near the land surface.",
+              "service": null
+            },
+            "WATER_REGIME_NAME": {
+              "reference": "Semipermanently Flooded",
+              "service": null
+            },
+            "WATER_REGIME_SUBGROUP": {
+              "reference": "Nontidal",
+              "service": null
+            }
+          },
+          "lookup_objectid": 6186
+        }
+      ],
+      "selected_lookup_objectid": 5448,
+      "selected_lookup_sha256": "f0042ed7d8c5805666ed1701db606849f2df32def739629448f24ff4544a5822",
+      "service_globalid": "{3C2D86E2-5A14-4705-B9E5-DD35567C0070}",
+      "service_objectid": 2275013
+    },
+    {
+      "ATTRIBUTE": "PUBFh",
+      "interpretation_evidence_state": "DERIVED",
+      "interpretation_status": "reviewed_reference_match",
+      "native_core_sha256": "9c2802c5cce521d4bc6efab290566b97d2c41110ab1718134c35c48ce15a41ce",
+      "package_candidates": [
+        {
+          "ATTRIBUTE": "PUBFh",
+          "NWI_ID": "202409CSw{76FC7DD6-BA7D-40E3-A840-8363F630FEB3}_01",
+          "WETLAND_TYPE": "Freshwater Pond",
+          "candidate_within_2m": true,
+          "geometry_blob_sha256": "8b7a698ce0df9cc81f763d1a20e451971f417c9d10bba116897b303f0c03ca81",
+          "hausdorff_distance_m": 1.0253162141085708,
+          "package_objectid": 126424,
+          "symmetric_difference_m2": 46.11310673278504
+        },
+        {
+          "ATTRIBUTE": "M1UBL",
+          "NWI_ID": "202409CSw{373C2B8C-885B-4C32-8B51-80AB7C989195}_01",
+          "WETLAND_TYPE": "Estuarine and Marine Deepwater",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "60eca199dac5cab80c2d6befd5caa84f3d4742231e75fa2ec0bc5c3090032e66",
+          "hausdorff_distance_m": 294731.2949149009,
+          "package_objectid": 179530,
+          "symmetric_difference_m2": 6896104573.003828
+        }
+      ],
+      "package_identity_state": "INFERRED spatial counterpart only; different identifiers and non-identical projected boundary",
+      "prior_native_geometry_sha256": "51a1621339d20c4966e513a844964d334f216af8c6f9f8d988d3ae6021e5491a",
+      "reference_row_sha256": "708b63e1e94836c47f141f912fafb8c98c5b9a70edd3668ba09169820ea4f232",
+      "remaining_variants": [
+        {
+          "differences": {
+            "MODIFIER1": {
+              "reference": "h",
+              "service": null
+            },
+            "MODIFIER1_DEFINITION": {
+              "reference": "These wetlands have been created or modified by a man-made barrier or dam that obstructs the inflow or outflow of water.",
+              "service": null
+            },
+            "MODIFIER1_GROUP": {
+              "reference": "Special Modifier",
+              "service": null
+            },
+            "MODIFIER1_NAME": {
+              "reference": "Diked/Impounded",
+              "service": null
+            },
+            "WATER_REGIME": {
+              "reference": "F",
+              "service": null
+            },
+            "WATER_REGIME_DEFINITION": {
+              "reference": "Surface water persists throughout the growing season in most years. When surface water is absent, the water table is usually at or very near the land surface.",
+              "service": null
+            },
+            "WATER_REGIME_NAME": {
+              "reference": "Semipermanently Flooded",
+              "service": null
+            },
+            "WATER_REGIME_SUBGROUP": {
+              "reference": "Nontidal",
+              "service": null
+            }
+          },
+          "lookup_objectid": 6186
+        }
+      ],
+      "selected_lookup_objectid": 5448,
+      "selected_lookup_sha256": "f0042ed7d8c5805666ed1701db606849f2df32def739629448f24ff4544a5822",
+      "service_globalid": "{BA1C9679-79A1-44BC-B383-15227D29E8CE}",
+      "service_objectid": 2275026
+    },
+    {
+      "ATTRIBUTE": "PUBFh",
+      "interpretation_evidence_state": "DERIVED",
+      "interpretation_status": "reviewed_reference_match",
+      "native_core_sha256": "d4bb3e384b6010af5becddcefef213c2fed086c2610bff3dd8bf1c22931dc0a5",
+      "package_candidates": [
+        {
+          "ATTRIBUTE": "PUBFh",
+          "NWI_ID": "202409CSw{CDCD7DCF-AFBC-48CE-97F3-372A955C06DB}_01",
+          "WETLAND_TYPE": "Freshwater Pond",
+          "candidate_within_2m": true,
+          "geometry_blob_sha256": "a3007177896219534bc5c66e91dc5175fb3b157a6d2fd8563a7c2fc548e2afab",
+          "hausdorff_distance_m": 1.0253480873167127,
+          "package_objectid": 126425,
+          "symmetric_difference_m2": 201.4961821044698
+        },
+        {
+          "ATTRIBUTE": "M1UBL",
+          "NWI_ID": "202409CSw{373C2B8C-885B-4C32-8B51-80AB7C989195}_01",
+          "WETLAND_TYPE": "Estuarine and Marine Deepwater",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "60eca199dac5cab80c2d6befd5caa84f3d4742231e75fa2ec0bc5c3090032e66",
+          "hausdorff_distance_m": 290995.0653526845,
+          "package_objectid": 179530,
+          "symmetric_difference_m2": 6896112533.032931
+        }
+      ],
+      "package_identity_state": "INFERRED spatial counterpart only; different identifiers and non-identical projected boundary",
+      "prior_native_geometry_sha256": "0bb4364351a923ba0777dd0cf038be6eaca377d0f4219f2a87834b2d6b1a32f3",
+      "reference_row_sha256": "708b63e1e94836c47f141f912fafb8c98c5b9a70edd3668ba09169820ea4f232",
+      "remaining_variants": [
+        {
+          "differences": {
+            "MODIFIER1": {
+              "reference": "h",
+              "service": null
+            },
+            "MODIFIER1_DEFINITION": {
+              "reference": "These wetlands have been created or modified by a man-made barrier or dam that obstructs the inflow or outflow of water.",
+              "service": null
+            },
+            "MODIFIER1_GROUP": {
+              "reference": "Special Modifier",
+              "service": null
+            },
+            "MODIFIER1_NAME": {
+              "reference": "Diked/Impounded",
+              "service": null
+            },
+            "WATER_REGIME": {
+              "reference": "F",
+              "service": null
+            },
+            "WATER_REGIME_DEFINITION": {
+              "reference": "Surface water persists throughout the growing season in most years. When surface water is absent, the water table is usually at or very near the land surface.",
+              "service": null
+            },
+            "WATER_REGIME_NAME": {
+              "reference": "Semipermanently Flooded",
+              "service": null
+            },
+            "WATER_REGIME_SUBGROUP": {
+              "reference": "Nontidal",
+              "service": null
+            }
+          },
+          "lookup_objectid": 6186
+        }
+      ],
+      "selected_lookup_objectid": 5448,
+      "selected_lookup_sha256": "f0042ed7d8c5805666ed1701db606849f2df32def739629448f24ff4544a5822",
+      "service_globalid": "{BFFF151D-A832-4344-8590-905A81BBB4FD}",
+      "service_objectid": 2275028
+    },
+    {
+      "ATTRIBUTE": "PUBFh",
+      "interpretation_evidence_state": "DERIVED",
+      "interpretation_status": "reviewed_reference_match",
+      "native_core_sha256": "b0b315aa1dcbca04a8ec648db414da158454ef5ef6b1c7914ce9a869fb0bd7ef",
+      "package_candidates": [
+        {
+          "ATTRIBUTE": "PUBFh",
+          "NWI_ID": "202409CSw{63DB7C8A-0851-42D0-92D9-9256A46992D8}_01",
+          "WETLAND_TYPE": "Freshwater Pond",
+          "candidate_within_2m": true,
+          "geometry_blob_sha256": "088429d98f9d9f145bc2f7d86bd878b64530280244cae3c71a6ca33198368d4a",
+          "hausdorff_distance_m": 1.025524251164137,
+          "package_objectid": 126428,
+          "symmetric_difference_m2": 68.11303129276791
+        },
+        {
+          "ATTRIBUTE": "R4SBC",
+          "NWI_ID": "202409CSw{18E47AE3-1051-4906-B05E-07E4841F98DE}_01",
+          "WETLAND_TYPE": "Riverine",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "58ab6fc40ddcea1e73bd0553b230f979843303a12f78f405c380a04cca8fe076",
+          "hausdorff_distance_m": 895.410756322448,
+          "package_objectid": 128779,
+          "symmetric_difference_m2": 8527.82943198305
+        },
+        {
+          "ATTRIBUTE": "M1UBL",
+          "NWI_ID": "202409CSw{373C2B8C-885B-4C32-8B51-80AB7C989195}_01",
+          "WETLAND_TYPE": "Estuarine and Marine Deepwater",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "60eca199dac5cab80c2d6befd5caa84f3d4742231e75fa2ec0bc5c3090032e66",
+          "hausdorff_distance_m": 294331.7979622572,
+          "package_objectid": 179530,
+          "symmetric_difference_m2": 6896105098.658822
+        }
+      ],
+      "package_identity_state": "INFERRED spatial counterpart only; different identifiers and non-identical projected boundary",
+      "prior_native_geometry_sha256": "55bef6186406e7ba99ea8b2d2b40bbc23f5521366ad5ad967e2cbe7c50a0ee45",
+      "reference_row_sha256": "708b63e1e94836c47f141f912fafb8c98c5b9a70edd3668ba09169820ea4f232",
+      "remaining_variants": [
+        {
+          "differences": {
+            "MODIFIER1": {
+              "reference": "h",
+              "service": null
+            },
+            "MODIFIER1_DEFINITION": {
+              "reference": "These wetlands have been created or modified by a man-made barrier or dam that obstructs the inflow or outflow of water.",
+              "service": null
+            },
+            "MODIFIER1_GROUP": {
+              "reference": "Special Modifier",
+              "service": null
+            },
+            "MODIFIER1_NAME": {
+              "reference": "Diked/Impounded",
+              "service": null
+            },
+            "WATER_REGIME": {
+              "reference": "F",
+              "service": null
+            },
+            "WATER_REGIME_DEFINITION": {
+              "reference": "Surface water persists throughout the growing season in most years. When surface water is absent, the water table is usually at or very near the land surface.",
+              "service": null
+            },
+            "WATER_REGIME_NAME": {
+              "reference": "Semipermanently Flooded",
+              "service": null
+            },
+            "WATER_REGIME_SUBGROUP": {
+              "reference": "Nontidal",
+              "service": null
+            }
+          },
+          "lookup_objectid": 6186
+        }
+      ],
+      "selected_lookup_objectid": 5448,
+      "selected_lookup_sha256": "f0042ed7d8c5805666ed1701db606849f2df32def739629448f24ff4544a5822",
+      "service_globalid": "{33669272-8AB8-4CF9-AE42-E720A539D840}",
+      "service_objectid": 2275040
+    },
+    {
+      "ATTRIBUTE": "PUBFx",
+      "interpretation_evidence_state": "DERIVED",
+      "interpretation_status": "reviewed_reference_match",
+      "native_core_sha256": "31acd4157ed7a2f0b87f9a7707138c25ecbacbe7012a00adf88954fe5b2aff39",
+      "package_candidates": [
+        {
+          "ATTRIBUTE": "R2UBH",
+          "NWI_ID": "202409CSw{B7C7EE60-6CDF-46F7-B96E-2880CF33EB9A}_01",
+          "WETLAND_TYPE": "Riverine",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "1f1ad9e17251a98f114930afcc1a78589ece1caf2d15d9433b783f89155d7590",
+          "hausdorff_distance_m": 4940.265935976934,
+          "package_objectid": 127536,
+          "symmetric_difference_m2": 277467.42657227564
+        },
+        {
+          "ATTRIBUTE": "PUBFx",
+          "NWI_ID": "202409CSw{4B8BE2D4-731F-470B-85DC-1F02990438A0}_01",
+          "WETLAND_TYPE": "Freshwater Pond",
+          "candidate_within_2m": true,
+          "geometry_blob_sha256": "a75bfaa4e804eaf526efbc4f7a10b05b61928d70e8a6c8d2a0a182b956ddd1db",
+          "hausdorff_distance_m": 1.02435662949913,
+          "package_objectid": 126505,
+          "symmetric_difference_m2": 44.168875518372985
+        },
+        {
+          "ATTRIBUTE": "M1UBL",
+          "NWI_ID": "202409CSw{373C2B8C-885B-4C32-8B51-80AB7C989195}_01",
+          "WETLAND_TYPE": "Estuarine and Marine Deepwater",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "60eca199dac5cab80c2d6befd5caa84f3d4742231e75fa2ec0bc5c3090032e66",
+          "hausdorff_distance_m": 289743.41817236424,
+          "package_objectid": 179530,
+          "symmetric_difference_m2": 6896104633.02774
+        }
+      ],
+      "package_identity_state": "INFERRED spatial counterpart only; different identifiers and non-identical projected boundary",
+      "prior_native_geometry_sha256": "dfb69aa51842b0502d3fec83ce7d8fbbf22269c5273517ff7923f024feef5053",
+      "reference_row_sha256": "54a941fb4ac3410450c60a259523a4ffb0ab8b6e99087f54a7f0e8b6a7ba31f0",
+      "remaining_variants": [
+        {
+          "differences": {
+            "MODIFIER1": {
+              "reference": "x",
+              "service": null
+            },
+            "MODIFIER1_DEFINITION": {
+              "reference": "This Modifier is used to identify wetland basins or channels that were excavated by humans.",
+              "service": null
+            },
+            "MODIFIER1_GROUP": {
+              "reference": "Special Modifier",
+              "service": null
+            },
+            "MODIFIER1_NAME": {
+              "reference": "Excavated",
+              "service": null
+            },
+            "WATER_REGIME": {
+              "reference": "F",
+              "service": null
+            },
+            "WATER_REGIME_DEFINITION": {
+              "reference": "Surface water persists throughout the growing season in most years. When surface water is absent, the water table is usually at or very near the land surface.",
+              "service": null
+            },
+            "WATER_REGIME_NAME": {
+              "reference": "Semipermanently Flooded",
+              "service": null
+            },
+            "WATER_REGIME_SUBGROUP": {
+              "reference": "Nontidal",
+              "service": null
+            }
+          },
+          "lookup_objectid": 6187
+        }
+      ],
+      "selected_lookup_objectid": 5453,
+      "selected_lookup_sha256": "b10464d91acf7500fac3ce329b9ae347610471b53c4a27d01c36402d998ed85f",
+      "service_globalid": "{642BD2A8-4A8E-44A7-B5E4-9482F4EEAA9A}",
+      "service_objectid": 2279189
+    },
+    {
+      "ATTRIBUTE": "PUBFx",
+      "interpretation_evidence_state": "DERIVED",
+      "interpretation_status": "reviewed_reference_match",
+      "native_core_sha256": "754b9c598a4e81cbe69746c44dca18758b5d689e61e4655f1148cd3bf9333b0c",
+      "package_candidates": [
+        {
+          "ATTRIBUTE": "R2UBH",
+          "NWI_ID": "202409CSw{07963787-3895-44AA-8802-58F26BC388C2}_01",
+          "WETLAND_TYPE": "Riverine",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "049bb0ab0e509b311c64bb004ffc263c961a425509e73537ef14ed6f70b1808c",
+          "hausdorff_distance_m": 4393.47037364575,
+          "package_objectid": 127551,
+          "symmetric_difference_m2": 118617.32490665415
+        },
+        {
+          "ATTRIBUTE": "L1UBH",
+          "NWI_ID": "202409CSw{FC97A6D0-9E0D-4565-993F-AC4590C63C9B}_01",
+          "WETLAND_TYPE": "Lake",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "8591b421dc72b5ec97144d3d0201ae66c8115fa3d6888fd81b109969f64290e7",
+          "hausdorff_distance_m": 4297.436896689329,
+          "package_objectid": 129797,
+          "symmetric_difference_m2": 7226454.922520354
+        },
+        {
+          "ATTRIBUTE": "PUBFx",
+          "NWI_ID": "202409CSw{BA404FDD-19D8-4D78-A603-6458805ECC9D}_01",
+          "WETLAND_TYPE": "Freshwater Pond",
+          "candidate_within_2m": true,
+          "geometry_blob_sha256": "85be9699def5d54d0fee0b363cb615bc9c842807aebe0e3d3bf67316dfd3caf0",
+          "hausdorff_distance_m": 1.0251276152250544,
+          "package_objectid": 126508,
+          "symmetric_difference_m2": 46.0885018532991
+        },
+        {
+          "ATTRIBUTE": "PFO4E",
+          "NWI_ID": "202409CSw{A6438A17-6740-4331-9464-44815AF628CA}_01",
+          "WETLAND_TYPE": "Freshwater Forested/Shrub Wetland",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "4e2e94adb1c04859beccc59557a2f7bce88cde713ce34db61a0a80b4f1abd37c",
+          "hausdorff_distance_m": 441.68006038121786,
+          "package_objectid": 121476,
+          "symmetric_difference_m2": 83223.95104486636
+        },
+        {
+          "ATTRIBUTE": "M1UBL",
+          "NWI_ID": "202409CSw{373C2B8C-885B-4C32-8B51-80AB7C989195}_01",
+          "WETLAND_TYPE": "Estuarine and Marine Deepwater",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "60eca199dac5cab80c2d6befd5caa84f3d4742231e75fa2ec0bc5c3090032e66",
+          "hausdorff_distance_m": 294403.3770662775,
+          "package_objectid": 179530,
+          "symmetric_difference_m2": 6896104572.920681
+        }
+      ],
+      "package_identity_state": "INFERRED spatial counterpart only; different identifiers and non-identical projected boundary",
+      "prior_native_geometry_sha256": "58a0250cb7f1a830d7e12b32ec1af57084a04053105365bb835b72094c316910",
+      "reference_row_sha256": "54a941fb4ac3410450c60a259523a4ffb0ab8b6e99087f54a7f0e8b6a7ba31f0",
+      "remaining_variants": [
+        {
+          "differences": {
+            "MODIFIER1": {
+              "reference": "x",
+              "service": null
+            },
+            "MODIFIER1_DEFINITION": {
+              "reference": "This Modifier is used to identify wetland basins or channels that were excavated by humans.",
+              "service": null
+            },
+            "MODIFIER1_GROUP": {
+              "reference": "Special Modifier",
+              "service": null
+            },
+            "MODIFIER1_NAME": {
+              "reference": "Excavated",
+              "service": null
+            },
+            "WATER_REGIME": {
+              "reference": "F",
+              "service": null
+            },
+            "WATER_REGIME_DEFINITION": {
+              "reference": "Surface water persists throughout the growing season in most years. When surface water is absent, the water table is usually at or very near the land surface.",
+              "service": null
+            },
+            "WATER_REGIME_NAME": {
+              "reference": "Semipermanently Flooded",
+              "service": null
+            },
+            "WATER_REGIME_SUBGROUP": {
+              "reference": "Nontidal",
+              "service": null
+            }
+          },
+          "lookup_objectid": 6187
+        }
+      ],
+      "selected_lookup_objectid": 5453,
+      "selected_lookup_sha256": "b10464d91acf7500fac3ce329b9ae347610471b53c4a27d01c36402d998ed85f",
+      "service_globalid": "{63E5C69E-0910-4FB3-A1D6-EBD8C840409B}",
+      "service_objectid": 2279269
+    },
+    {
+      "ATTRIBUTE": "PUBFx",
+      "interpretation_evidence_state": "DERIVED",
+      "interpretation_status": "reviewed_reference_match",
+      "native_core_sha256": "25e312d880e2de446e88f8173e307c941fb9dd9634e3d90cf7aab06844074cfb",
+      "package_candidates": [
+        {
+          "ATTRIBUTE": "PUBFx",
+          "NWI_ID": "202409CSw{426037D1-533C-4224-9D4E-D9A4AF3FB52F}_01",
+          "WETLAND_TYPE": "Freshwater Pond",
+          "candidate_within_2m": true,
+          "geometry_blob_sha256": "0e03946e54d46bfdab1b8bcb424c8a49ea9b08955418b9d38515b301ab83416f",
+          "hausdorff_distance_m": 1.025178301198578,
+          "package_objectid": 126509,
+          "symmetric_difference_m2": 52.45174135545868
+        },
+        {
+          "ATTRIBUTE": "M1UBL",
+          "NWI_ID": "202409CSw{373C2B8C-885B-4C32-8B51-80AB7C989195}_01",
+          "WETLAND_TYPE": "Estuarine and Marine Deepwater",
+          "candidate_within_2m": false,
+          "geometry_blob_sha256": "60eca199dac5cab80c2d6befd5caa84f3d4742231e75fa2ec0bc5c3090032e66",
+          "hausdorff_distance_m": 294300.78311585926,
+          "package_objectid": 179530,
+          "symmetric_difference_m2": 6896104766.390495
+        }
+      ],
+      "package_identity_state": "INFERRED spatial counterpart only; different identifiers and non-identical projected boundary",
+      "prior_native_geometry_sha256": "092871ca9917fb32924fbddfe855a3e6c6d4efb723fc74f789e55b018e612199",
+      "reference_row_sha256": "54a941fb4ac3410450c60a259523a4ffb0ab8b6e99087f54a7f0e8b6a7ba31f0",
+      "remaining_variants": [
+        {
+          "differences": {
+            "MODIFIER1": {
+              "reference": "x",
+              "service": null
+            },
+            "MODIFIER1_DEFINITION": {
+              "reference": "This Modifier is used to identify wetland basins or channels that were excavated by humans.",
+              "service": null
+            },
+            "MODIFIER1_GROUP": {
+              "reference": "Special Modifier",
+              "service": null
+            },
+            "MODIFIER1_NAME": {
+              "reference": "Excavated",
+              "service": null
+            },
+            "WATER_REGIME": {
+              "reference": "F",
+              "service": null
+            },
+            "WATER_REGIME_DEFINITION": {
+              "reference": "Surface water persists throughout the growing season in most years. When surface water is absent, the water table is usually at or very near the land surface.",
+              "service": null
+            },
+            "WATER_REGIME_NAME": {
+              "reference": "Semipermanently Flooded",
+              "service": null
+            },
+            "WATER_REGIME_SUBGROUP": {
+              "reference": "Nontidal",
+              "service": null
+            }
+          },
+          "lookup_objectid": 6187
+        }
+      ],
+      "selected_lookup_objectid": 5453,
+      "selected_lookup_sha256": "b10464d91acf7500fac3ce329b9ae347610471b53c4a27d01c36402d998ed85f",
+      "service_globalid": "{E87B7EE9-79D6-4854-8F4C-CB2DF4806CD0}",
+      "service_objectid": 2279274
+    }
+  ],
+  "reference_members": {
+    "csv": {
+      "member": "NWI-Code-Definitions/NWI_Code_Definitions.csv",
+      "sha256": "44270a436c284bad07426f6499280e18fd2636c1972b6edf882ab0753ffcbe93"
+    },
+    "python": {
+      "execution": "Not executed; named literal dictionaries read using AST literal_eval.",
+      "member": "WetlandsCodeChecker112/wetlands-code-checker-interpreter_external1.1.2.py",
+      "sha256": "779779bc06cba75e7055c135d452f84845e483e43d048e4ccc88e34c5ba535ed"
+    }
+  },
+  "reference_metadata": {
+    "accconst": [
+      "None"
+    ],
+    "metd": [
+      "October 2024"
+    ],
+    "pubdate": [
+      "October 2024"
+    ],
+    "useconst": [
+      "For use with current National Wetlands Inventory - Version 2.0 data with a metadata published date of at least May 2016. Older versions of the data will not have normalized NWI codes and will not provide consist crosswalks to this table and the classification definitions. Due to the length of information in the description fields it is recommended to use query interfaces that allow up to 1,000 characters per field (e.g. if using ArcMap use the HTML Popup tool instead of the Identify tool)."
+    ]
+  },
+  "reference_rows": {
+    "PUBFh": {
+      "ATTRIBUTE": "PUBFh",
+      "CLASS": "UB",
+      "CLASS_DEFINITION": "Includes all wetlands and deepwater habitats with at least 25% cover of particles smaller than stones (less than 6-7 cm), and a vegetative cover less than 30%.",
+      "CLASS_NAME": "Unconsolidated Bottom",
+      "MODIFIER1": "h",
+      "MODIFIER1_DEFINITION": "These wetlands have been created or modified by a man-made barrier or dam that obstructs the inflow or outflow of water.",
+      "MODIFIER1_GROUP": "Special Modifier",
+      "MODIFIER1_NAME": "Diked/Impounded",
+      "MODIFIER1_SUBGROUP": "",
+      "MODIFIER2": "",
+      "MODIFIER2_DEFINITION": "",
+      "MODIFIER2_GROUP": "",
+      "MODIFIER2_NAME": "",
+      "MODIFIER2_SUBGROUP": "",
+      "SPLIT_CLASS": "",
+      "SPLIT_CLASS_DEFINITION": "",
+      "SPLIT_CLASS_NAME": "",
+      "SPLIT_SUBCLASS": "",
+      "SPLIT_SUBCLASS_DEFINITION": "",
+      "SPLIT_SUBCLASS_NAME": "",
+      "SUBCLASS": "",
+      "SUBCLASS_DEFINITION": "",
+      "SUBCLASS_NAME": "",
+      "SUBSYSTEM": "",
+      "SUBSYSTEM_DEFINITION": "",
+      "SUBSYSTEM_NAME": "",
+      "SYSTEM": "P",
+      "SYSTEM_DEFINITION": "The Palustrine System includes all nontidal wetlands dominated by trees, shrubs, persistent emergents, emergent mosses or lichens, and all such wetlands that occur in tidal areas where salinity due to ocean-derived salts is below 0.5 ppt. It also includes wetlands lacking such vegetation, but with all of the following four characteristics: (1) area less than 8 ha (20 acres); (2) active wave-formed or bedrock shoreline features lacking; (3) water depth in the deepest part of basin less than 2.5 m (8.2 ft) at low water; and (4) salinity due to ocean-derived salts less than 0.5 ppt.",
+      "SYSTEM_NAME": "Palustrine",
+      "WATER_REGIME": "F",
+      "WATER_REGIME_DEFINITION": "Surface water persists throughout the growing season in most years. When surface water is absent, the water table is usually at or very near the land surface.",
+      "WATER_REGIME_NAME": "Semipermanently Flooded",
+      "WATER_REGIME_SUBGROUP": "Nontidal"
+    },
+    "PUBFx": {
+      "ATTRIBUTE": "PUBFx",
+      "CLASS": "UB",
+      "CLASS_DEFINITION": "Includes all wetlands and deepwater habitats with at least 25% cover of particles smaller than stones (less than 6-7 cm), and a vegetative cover less than 30%.",
+      "CLASS_NAME": "Unconsolidated Bottom",
+      "MODIFIER1": "x",
+      "MODIFIER1_DEFINITION": "This Modifier is used to identify wetland basins or channels that were excavated by humans.",
+      "MODIFIER1_GROUP": "Special Modifier",
+      "MODIFIER1_NAME": "Excavated",
+      "MODIFIER1_SUBGROUP": "",
+      "MODIFIER2": "",
+      "MODIFIER2_DEFINITION": "",
+      "MODIFIER2_GROUP": "",
+      "MODIFIER2_NAME": "",
+      "MODIFIER2_SUBGROUP": "",
+      "SPLIT_CLASS": "",
+      "SPLIT_CLASS_DEFINITION": "",
+      "SPLIT_CLASS_NAME": "",
+      "SPLIT_SUBCLASS": "",
+      "SPLIT_SUBCLASS_DEFINITION": "",
+      "SPLIT_SUBCLASS_NAME": "",
+      "SUBCLASS": "",
+      "SUBCLASS_DEFINITION": "",
+      "SUBCLASS_NAME": "",
+      "SUBSYSTEM": "",
+      "SUBSYSTEM_DEFINITION": "",
+      "SUBSYSTEM_NAME": "",
+      "SYSTEM": "P",
+      "SYSTEM_DEFINITION": "The Palustrine System includes all nontidal wetlands dominated by trees, shrubs, persistent emergents, emergent mosses or lichens, and all such wetlands that occur in tidal areas where salinity due to ocean-derived salts is below 0.5 ppt. It also includes wetlands lacking such vegetation, but with all of the following four characteristics: (1) area less than 8 ha (20 acres); (2) active wave-formed or bedrock shoreline features lacking; (3) water depth in the deepest part of basin less than 2.5 m (8.2 ft) at low water; and (4) salinity due to ocean-derived salts less than 0.5 ppt.",
+      "SYSTEM_NAME": "Palustrine",
+      "WATER_REGIME": "F",
+      "WATER_REGIME_DEFINITION": "Surface water persists throughout the growing season in most years. When surface water is absent, the water table is usually at or very near the land surface.",
+      "WATER_REGIME_NAME": "Semipermanently Flooded",
+      "WATER_REGIME_SUBGROUP": "Nontidal"
+    }
+  },
+  "review": {
+    "conclusion": "Select the complete joined definition for each of these exact records: PUBFh lookup 5448 and PUBFx lookup 5453. Both match every official CSV reference field, with empty CSV fields normalized to service null. Interpreter dictionary labels corroborate P, UB, F, h and x. Preserve incomplete lookups 6186/6187 as source evidence; their missing values do not negate the coded regime or modifier.",
+    "downstream": "Use this reviewed reference match for the exact prior audit and native-core/lookup/reference hashes, carrying this audit and the TL-F-0027 resolution event as provenance. New versions need review. Original snapshots remain unchanged. This audit does not insert records into the municipal correction view or introduce a generic wetlands correction schema.",
+    "evidence_state": "DERIVED",
+    "limits": "Official code definitions describe what a source code means, not verified present-day ground conditions. May 1983 image lineage, legal wetland delineation and applicability, statewide ingestion, cross-release identity and TL-F-0028 availability geometry remain unresolved. No geometry or parcel screening changes.",
+    "meaning": {
+      "PUBFh": "Palustrine, unconsolidated bottom, semipermanently flooded, diked/impounded.",
+      "PUBFx": "Palustrine, unconsolidated bottom, semipermanently flooded, excavated."
+    },
+    "package_comparison": "The complete Maine GeoPackage ZIP is archived privately, but only the eight records are compared. A 2-metre Hausdorff-distance gate identifies one nearby candidate per feature, with matching codes. Candidate identities remain INFERRED: service GlobalID differs from package NWI_ID, boundaries are not identical and the selected projection reports 4-metre accuracy. The gate is an investigative comparison parameter, not an accuracy guarantee, legal tolerance, or canonical matching rule.",
+    "resolution_boundary": "Resolve the eight-record interpretation hold, not the publisher's duplicate-join defect. The live service still returns the competing rows. This evidence does not establish why the publisher has those rows or that the defect has been repaired.",
+    "scope": "TL-F-0027: eight exact native service records in the prior Osborn audit; PUBFh and PUBFx lookup interpretation."
+  },
+  "runtime": {
+    "GEOS": "3.11.4",
+    "PROJ": "9.3.0",
+    "pyproj": "3.6.1",
+    "shapely": "2.0.7",
+    "sqlite": "3.54.0"
+  }
+}
