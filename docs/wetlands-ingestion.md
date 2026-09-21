@@ -74,3 +74,12 @@ checks; administrators can bypass database controls. The query layer does not
 prevent a downstream consumer from ignoring its status flags.
 
 See the [load checkpoint](../research/wetlands-load/README.md).
+
+## Separate bounded package records
+
+The [package load](../research/wetlands-package-load/README.md) retains 669 reviewed
+Maine package features alongside the service inventory, preserving native geometry
+bytes and attributes. The package uses equivalent CRS identifier EPSG:5070 without
+coordinate transformation. Candidate links remain INFERRED, and existing service
+defaults remain unchanged. `ingest.wetlands_package_current` exposes comparison and
+service review dependencies; source selection and boundary differences remain explicit.

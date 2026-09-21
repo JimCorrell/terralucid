@@ -39,3 +39,7 @@ For wetlands inventory, use `ingest.wetlands_feature_current` filtered to the in
 load audit. Check `needs_revisit`, retain source variants and use `effective_lookup`
 for reviewed classifications. Carry imagery age and legal/completeness unknowns
 forward. See [wetlands ingestion policy](docs/wetlands-ingestion.md).
+
+Keep bounded package wetlands separate in `ingest.wetlands_package_current`, filtered
+by audit. Candidate links remain INFERRED; check `needs_revisit` and do not replace
+service defaults or merge identities. See [package load](research/wetlands-package-load/README.md).

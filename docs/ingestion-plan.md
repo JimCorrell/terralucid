@@ -119,3 +119,8 @@ compares the 669 service records with spatial candidates in the archived Maine
 package, preserving threshold sensitivity, reverse-scope gaps and ambiguous or
 conflicting candidates. Identity links and broader package ingestion require
 separate evidence-based review; this investigation changes no accepted geometry.
+
+The [bounded package load](../research/wetlands-package-load/README.md) now stores
+those 669 package candidates separately. Next investigate the consistent displacement
+and qualify package imagery/project coverage before broader ingestion. Inferred
+identity, native geometry differences and refresh/legal unknowns remain visible.
