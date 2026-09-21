@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid Moosehead/Spencer correction activation",
+  "expected_event_id": "0bbb079ca6d2d2875687f2e31265cdae0357fb02a7654bd18171484974dde22a",
+  "finding_id": "TL-F-0029",
+  "next_action": "Continue prioritized evaluation of the remaining 157 zoning geometry holds; refresh ranking against all five accepted interpretations before choosing the next bounded group. Retain 21 parcel holds, municipal applicability and wetland imagery follow-ups; do not qualify parcel screening.",
+  "note": "Two reviewed exact-version interpretations activated alongside the unchanged original three. Original county evidence/holds retained; new dependency snapshot replaces the now-stale three-correction snapshot for downstream work.",
+  "priority": "high",
+  "status": "in_progress"
+}
