@@ -108,3 +108,8 @@ The [availability acceptance](../availability-acceptance/README.md) resolves
 **TL-F-0028 for the exact reviewed representation**, with acceptance history and
 coverage dependencies. TL-F-0117 remains in progress; TL-F-0027 remains resolved
 for its eight reviewed classifications. Earlier occurrences/reviews are unchanged.
+
+The [bounded wetlands feature load](../wetlands-load/README.md) adds a TL-F-0117
+occurrence and in-progress review documenting queryable inventory and remaining
+package/service, imagery/refresh and applicability work. TL-F-0027 and TL-F-0028
+resolutions remain unchanged; their dependencies are now exposed to feature consumers.

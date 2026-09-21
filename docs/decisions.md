@@ -103,3 +103,12 @@ events and stale-result dependencies. The bounded Osborn coverage calculation is
 DERIVED; completeness, current conditions and legal applicability remain UNKNOWN.
 This resolves TL-F-0028's exact-version representation hold. See the
 [availability geometry policy](availability-geometry-corrections.md).
+
+## Bounded queryable wetlands inventory
+
+After PR #23, the user approved the wetlands load. Load the already qualified
+Osborn service snapshot into private versioned feature storage, retaining all
+joined variants and page provenance. Default the eight reviewed classifications
+to exact reference matches, track their review and availability dependencies, and
+keep the Maine package separate pending reconciliation. No canonical parcel joins
+or regulatory conclusions are introduced. See [wetlands ingestion](wetlands-ingestion.md).

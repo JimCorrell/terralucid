@@ -106,3 +106,10 @@ activates that exact interpretation and records one versioned Osborn coverage
 result. TL-F-0028's representation hold is resolved. Next qualify a bounded
 queryable wetlands feature load, retaining package/service identity, projection,
 imagery age and field/legal limits under TL-F-0117. Wider ingestion remains gated.
+
+The [queryable wetlands load](../research/wetlands-load/README.md) now retains the
+669 qualified service records with reviewed classification and availability
+dependencies. Next compare a bounded package/service scope beyond the eight
+conflicts, preserving unmatched/multiple candidates and projection differences
+before wider ingestion. Imagery refresh and field/regulatory evidence remain
+separate TL-F-0117 work; parcel screening is not part of this load.

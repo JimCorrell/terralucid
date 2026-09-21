@@ -88,3 +88,9 @@ activates only that reviewed version. The national availability geometry is stor
 and one Osborn coverage result is computed; this is not statewide wetlands feature
 ingestion. TL-F-0028's representation hold is resolved, with original evidence and
 all source-age/completeness/legal qualifications preserved.
+
+The [bounded feature load](../research/wetlands-load/README.md) makes the historical
+669-record Osborn service capture queryable in private PostGIS. It retains all
+677 joined lookup variants and 679 page occurrences, with exact-version defaults
+for the eight resolved classifications. This does not reconcile or ingest the
+Maine package statewide; imagery-age, completeness and applicability limits persist.
