@@ -1,0 +1,406 @@
+{
+  "candidate": {
+    "acceptance": "proposed_only",
+    "area_limit": "Web Mercator coordinate area only; numerical comparison is not ground acreage.",
+    "candidate_coordinates_with_closures": 372420,
+    "coordinate_area_epsg3857": 21726035193475.254,
+    "decomposed_cycles": 167,
+    "directed_boundary_segments_preserved": 372253,
+    "holes": 74,
+    "original_coordinates_with_closures": 372409,
+    "original_rings": 156,
+    "path": "research/wetlands-availability/candidates/status-3.geojson",
+    "polygons": 93,
+    "publisher_shape_area": 21726035193475.34,
+    "publisher_shape_area_difference": -0.0859375,
+    "sha256": "173e3680d2a5474ec7ffbbe460206ddc90374fe21e37c4be3f46e915c0a6e836",
+    "valid": true
+  },
+  "checks": {
+    "every_directed_source_segment_and_multiplicity_preserved": true,
+    "export_attributes_identical": true,
+    "native_bytes_identical_to_prior_capture": true,
+    "native_export_undirected_edges_identical": true,
+    "no_snapping_buffer_make_valid_or_coordinate_movement": true,
+    "original_export_validity": "Ring Self-intersection[-17790712.3758 8399571.7405]",
+    "source_map_pixels_matching_Digital_renderer": 640000,
+    "source_map_rgba": [
+      152,
+      179,
+      64,
+      255
+    ]
+  },
+  "coverage": {
+    "all_11_touch_vertices_outside_scope": true,
+    "candidate_covers_scope": true,
+    "candidate_uncovered_coordinate_area": 0.0,
+    "image_source_footprints_cover_scope": true,
+    "limit": "EPSG:3857 coordinate-space coverage diagnostics, not ground area. Availability is not wetland completeness, currency or legal applicability.",
+    "scope": "Exact prior FEMA CID 230595 study boundary; not legal/surveyed parcel boundary",
+    "transform": "proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84",
+    "transform_reported_accuracy_m": 4.0
+  },
+  "evidence": {
+    "source/esri-geometry": {
+      "bytes": 266246,
+      "content_type": "text/html",
+      "final_url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+      "http_status": 200,
+      "id": "esri-geometry",
+      "pdf_signature": false,
+      "response_file": "esri-geometry.response",
+      "response_path": "runs/source/esri-geometry.response",
+      "retrieved_at": "2026-09-21T00:27:21.435500+00:00",
+      "sha256": "9bb444674617e320419aacbcc78f4ac47d2db8c23f5b129f8e5ce819f5d4f1d2",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/"
+    },
+    "source/geojson-status": {
+      "bytes": 14633039,
+      "content_type": "application/geo+json; charset=UTF-8",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0/query?f=geojson&objectIds=3&outFields=%2A&returnGeometry=true&outSR=3857",
+      "http_status": 200,
+      "id": "geojson-status",
+      "pdf_signature": false,
+      "response_file": "geojson-status.response",
+      "response_path": "runs/source/geojson-status.response",
+      "retrieved_at": "2026-09-21T00:27:18.625327+00:00",
+      "sha256": "e497b3c7d31b297ff6cb5f5c4472c9862e41313f7ae14869168d0b55a90c5939",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0/query?f=geojson&objectIds=3&outFields=%2A&returnGeometry=true&outSR=3857"
+    },
+    "source/native-status": {
+      "bytes": 14633327,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0/query?f=json&objectIds=3&outFields=%2A&returnGeometry=true",
+      "http_status": 200,
+      "id": "native-status",
+      "pdf_signature": false,
+      "response_file": "native-status.response",
+      "response_path": "runs/source/native-status.response",
+      "retrieved_at": "2026-09-21T00:27:15.601759+00:00",
+      "sha256": "434b6becc32ea018436807e4e0868710a86da372ac67524368cc1c464dc8b2b3",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0/query?f=json&objectIds=3&outFields=%2A&returnGeometry=true"
+    },
+    "source/osborn-status-map": {
+      "bytes": 4324,
+      "content_type": "image/png",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/export?f=image&bbox=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&bboxSR=4269&imageSR=3857&size=800%2C800&format=png32&transparent=false&layers=show%3A0",
+      "http_status": 200,
+      "id": "osborn-status-map",
+      "pdf_signature": false,
+      "response_file": "osborn-status-map.response",
+      "response_path": "runs/source/osborn-status-map.response",
+      "retrieved_at": "2026-09-21T00:27:22.102430+00:00",
+      "sha256": "6ced05c52d4dbc364399e82129052462f095f9beee79043bde487b5282cab975",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/export?f=image&bbox=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&bboxSR=4269&imageSR=3857&size=800%2C800&format=png32&transparent=false&layers=show%3A0"
+    },
+    "source/status-layer": {
+      "bytes": 10012,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0?f=pjson",
+      "http_status": 200,
+      "id": "status-layer",
+      "pdf_signature": false,
+      "response_file": "status-layer.response",
+      "response_path": "runs/source/status-layer.response",
+      "retrieved_at": "2026-09-21T00:27:15.199659+00:00",
+      "sha256": "89aeff1f841c7a2def6690cc064cc2e103a3ae9d061c6f1e0aa5bd93b77c8fd6",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0?f=pjson"
+    },
+    "source/status-service": {
+      "bytes": 3252,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer?f=pjson",
+      "http_status": 200,
+      "id": "status-service",
+      "pdf_signature": false,
+      "response_file": "status-service.response",
+      "response_path": "runs/source/status-service.response",
+      "retrieved_at": "2026-09-21T00:27:14.767350+00:00",
+      "sha256": "a379fd2f52ef3d79c9eeab548d375f407690f74ef2ae4234b9b0b0e125fc2893",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer?f=pjson"
+    }
+  },
+  "evidence_state": "DERIVED",
+  "finding_reviews": [
+    {
+      "finding_id": "TL-F-0028",
+      "next_action": "Review the exact-version proposed decode for acceptance with explicit geometry-version dependencies before enabling any coverage overlay; retain original and future-version holds. No national boundary accuracy or legal wetland determination is implied.",
+      "note": "Five rings contain eleven exact twice-visited vertices. Esri documents vertex touches; native and GeoJSON share unchanged segments, but GeoJSON fails strict validity. Decomposing the existing cycles gives a valid 93-shell/74-hole proposal preserving every directed segment and multiplicity. Original bytes preserved; proposal not accepted. Osborn coverage is corroborated by the service rendering and source-imagery footprints, not field completeness.",
+      "priority": "medium",
+      "report_pointer": "/candidate",
+      "status": "in_progress"
+    },
+    {
+      "finding_id": "TL-F-0117",
+      "next_action": "Review availability proposal acceptance before a bounded coverage layer; separately qualify package/service identity, projection and refresh. Preserve old-imagery and field/legal due-diligence limits.",
+      "note": "TL-F-0028 diagnosis supports an exact-segment availability decode. All repeated vertices are outside Osborn; proposed Digital coverage agrees with service rendering and four imagery-source footprints. Geometry remains a proposal. May 1983 imagery, package/service identity and projection, broader qualification and regulatory applicability remain open.",
+      "priority": "medium",
+      "report_pointer": "/coverage",
+      "status": "in_progress"
+    }
+  ],
+  "inputs": {
+    "research/osborn-fema/runs/identity/osborn-jurisdiction.response": "813824533f6c03c71fb8024431e0bd9f86e10b46c8e9ba12eb9c2ddf4d13696a",
+    "research/osborn-wetlands/report.json": "e1449e8384d5d712dfdae9df26814330d1b9f7dc31ae82fc8765bce565b61906",
+    "research/osborn-wetlands/runs/coverage/image-year-features.response": "104749b11cde12dda3f106e5af1716872a0111d8870bb92b1c59f361f24c6dbe",
+    "research/osborn-wetlands/runs/coverage/mapping-status-features.response": "434b6becc32ea018436807e4e0868710a86da372ac67524368cc1c464dc8b2b3",
+    "research/wetlands-availability/candidates/status-3.geojson": "173e3680d2a5474ec7ffbbe460206ddc90374fe21e37c4be3f46e915c0a6e836",
+    "research/wetlands-availability/probes.json": "6b3513f668e0ae778576451f72ae9e43a5c014f4d77708be1f60b263e4e8f4bb",
+    "research/wetlands-availability/review.json": "bf6d0867e62c65517d0fafe3262220f563f3ed75fc5e4b6c27740507a73f1168",
+    "scripts/collect_document_evidence.py": "512463a8e1b2f024b99084f00dd97c6fc853051be480e98335a4d96466c6b1e9",
+    "scripts/investigate_osborn_wetlands.py": "e5e30a137f6c280ac376426d41b11a2fe72f5fa9dc20a6a577a60952c89999dc",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b"
+  },
+  "method": "scripts/investigate_wetlands_availability.py",
+  "method_sha256": "1dc6c24ad83ea840aa3e233f68e20b84fc28361d84cc40e4bc55850adfa19f8d",
+  "prior_audit_sha256": "e1449e8384d5d712dfdae9df26814330d1b9f7dc31ae82fc8765bce565b61906",
+  "review": {
+    "conclusion": "The strict-validity failure is consistent with a representation incompatibility: Esri allows vertex self-touches, while the exported unsplit rings fail GEOS validation. Eleven exact repeated vertices in five rings split into simple cycles. Documented winding and unique hole containment yield a valid candidate while preserving every directed boundary segment and its multiplicity.",
+    "coverage": "The candidate covers the exact prior FEMA Osborn study boundary. Four valid imagery-source footprints also cover it. All eleven contact vertices are outside that boundary. These agree on mapping availability, not exhaustive wetland detection, present-day imagery, or legal applicability.",
+    "downstream": "Keep the original geometry hold until the proposal is explicitly accepted and dependent coverage calculations retain the source audit, candidate hash and acceptance event. New source versions require review. Existing correction views and zoning screenings are unchanged.",
+    "evidence_state": "DERIVED",
+    "map_review": "Visually inspected the original 800x800 service-rendered PNG for the requested Osborn envelope. It is solid green, matching the layer's Digital renderer. This corroborates regional availability only; it does not independently certify eleven distant contact vertices or national boundary accuracy. Service aspect-ratio adjustment may expand the requested extent.",
+    "proposal": "Archive a proposed EPSG:3857 MultiPolygon with 93 shells and 74 holes. No source coordinate is moved, no edge removed, no hole filled and no general repair applied. This is a source-version-specific proposal; not an automatic repair fallback or an accepted effective geometry.",
+    "remaining": "May 1983 imagery, package/service identity and projection differences, wider package qualification and field/regulatory due diligence remain unresolved. No parcel screening or legal wetland determination is introduced.",
+    "scope": "TL-F-0028, exact prior national Wetlands_Status OBJECTID 3, with bounded Osborn coverage corroboration."
+  },
+  "ring_details": [
+    {
+      "cycles": [
+        {
+          "coordinates": 6,
+          "counterclockwise": true,
+          "valid": true
+        },
+        {
+          "coordinates": 4,
+          "counterclockwise": true,
+          "valid": true
+        },
+        {
+          "coordinates": 6,
+          "counterclockwise": true,
+          "valid": true
+        },
+        {
+          "coordinates": 7,
+          "counterclockwise": true,
+          "valid": true
+        },
+        {
+          "coordinates": 142998,
+          "counterclockwise": false,
+          "valid": true
+        }
+      ],
+      "original_coordinates": 143017,
+      "original_validity": "Ring Self-intersection[-7509816.3204 5659795.6571]",
+      "repeated_vertices_epsg3857": [
+        [
+          -8784151.7539,
+          5295757.497100003
+        ],
+        [
+          -8784058.9078,
+          5296017.896200001
+        ],
+        [
+          -7509816.3204,
+          5659795.6570999995
+        ],
+        [
+          -11131987.3518,
+          3250380.9558999985
+        ]
+      ],
+      "repeated_vertices_epsg4326": [
+        [
+          -78.9093777855367,
+          42.89338162056428
+        ],
+        [
+          -78.90854373482969,
+          42.89509534862688
+        ],
+        [
+          -67.46182781545544,
+          45.24260357879586
+        ],
+        [
+          -100.00034380747135,
+          28.01116057658343
+        ]
+      ],
+      "ring_index": 40
+    },
+    {
+      "cycles": [
+        {
+          "coordinates": 4,
+          "counterclockwise": true,
+          "valid": true
+        },
+        {
+          "coordinates": 5,
+          "counterclockwise": true,
+          "valid": true
+        }
+      ],
+      "original_coordinates": 8,
+      "original_validity": "Ring Self-intersection[-8783761.4338 5297011.0912]",
+      "repeated_vertices_epsg3857": [
+        [
+          -8783761.4338,
+          5297011.091200002
+        ]
+      ],
+      "repeated_vertices_epsg4326": [
+        [
+          -78.90587148042142,
+          42.90163128631947
+        ]
+      ],
+      "ring_index": 66
+    },
+    {
+      "cycles": [
+        {
+          "coordinates": 27,
+          "counterclockwise": true,
+          "valid": true
+        },
+        {
+          "coordinates": 4,
+          "counterclockwise": true,
+          "valid": true
+        },
+        {
+          "coordinates": 1420,
+          "counterclockwise": true,
+          "valid": true
+        },
+        {
+          "coordinates": 83,
+          "counterclockwise": true,
+          "valid": true
+        },
+        {
+          "coordinates": 113000,
+          "counterclockwise": false,
+          "valid": true
+        }
+      ],
+      "original_coordinates": 114530,
+      "original_validity": "Ring Self-intersection[-17658301.4279 8234456.8524]",
+      "repeated_vertices_epsg3857": [
+        [
+          -15863303.553,
+          9808673.912299998
+        ],
+        [
+          -14620151.875,
+          7658535.508299999
+        ],
+        [
+          -17407830.3862,
+          8289093.771600001
+        ],
+        [
+          -17658301.4279,
+          8234456.852399997
+        ]
+      ],
+      "repeated_vertices_epsg4326": [
+        [
+          -142.50248038287407,
+          65.74969549704332
+        ],
+        [
+          -131.3350588546118,
+          56.499668871100745
+        ],
+        [
+          -156.3772009928369,
+          59.49928803589
+        ],
+        [
+          -158.6272206427214,
+          59.24925615912548
+        ]
+      ],
+      "ring_index": 123
+    },
+    {
+      "cycles": [
+        {
+          "coordinates": 167,
+          "counterclockwise": true,
+          "valid": true
+        },
+        {
+          "coordinates": 96,
+          "counterclockwise": true,
+          "valid": true
+        }
+      ],
+      "original_coordinates": 262,
+      "original_validity": "Ring Self-intersection[-16920813.7967 9039077.4798]",
+      "repeated_vertices_epsg3857": [
+        [
+          -16920813.7967,
+          9039077.4798
+        ]
+      ],
+      "repeated_vertices_epsg4326": [
+        [
+          -152.0022565331608,
+          62.74945023981484
+        ]
+      ],
+      "ring_index": 134
+    },
+    {
+      "cycles": [
+        {
+          "coordinates": 608,
+          "counterclockwise": true,
+          "valid": true
+        },
+        {
+          "coordinates": 511,
+          "counterclockwise": true,
+          "valid": true
+        }
+      ],
+      "original_coordinates": 1118,
+      "original_validity": "Ring Self-intersection[-17790712.3758 8399571.7405]",
+      "repeated_vertices_epsg3857": [
+        [
+          -17790712.3758,
+          8399571.740500003
+        ]
+      ],
+      "repeated_vertices_epsg4326": [
+        [
+          -159.81668842555462,
+          59.99925371922144
+        ]
+      ],
+      "ring_index": 144
+    }
+  ],
+  "runtime": {
+    "GEOS": "3.11.4",
+    "PROJ": "9.3.0",
+    "PyMuPDF": "1.24.14",
+    "pyproj": "3.6.1",
+    "shapely": "2.0.7"
+  }
+}

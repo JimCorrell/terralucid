@@ -39,3 +39,6 @@ __pycache__/
 
 /research/wetlands-classification/runs/**/*.response
 /research/wetlands-classification/package/*
+
+/research/wetlands-availability/runs/**/*.response
+/research/wetlands-availability/candidates/*.geojson

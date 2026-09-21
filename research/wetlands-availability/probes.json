@@ -1,0 +1,26 @@
+[
+  {
+    "id": "status-service",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer?f=pjson"
+  },
+  {
+    "id": "status-layer",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0?f=pjson"
+  },
+  {
+    "id": "native-status",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0/query?f=json&objectIds=3&outFields=%2A&returnGeometry=true"
+  },
+  {
+    "id": "geojson-status",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/0/query?f=geojson&objectIds=3&outFields=%2A&returnGeometry=true&outSR=3857"
+  },
+  {
+    "id": "esri-geometry",
+    "url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/"
+  },
+  {
+    "id": "osborn-status-map",
+    "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands_Status/MapServer/export?f=image&bbox=-68.32622701569562%2C44.73057528366104%2C-68.1810145426096%2C44.83352943911103&bboxSR=4269&imageSR=3857&size=800%2C800&format=png32&transparent=false&layers=show%3A0"
+  }
+]

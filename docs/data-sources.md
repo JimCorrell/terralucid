@@ -76,3 +76,9 @@ The complete PUBFh/PUBFx definitions match; incomplete duplicate lookups remain 
 the live service and in the archive. The Maine package is now archived with eight
 spatial candidate comparisons, not loaded statewide. Identifier/projection differences,
 May 1983 imagery and TL-F-0028 remain qualified. Use exact reviewed versions downstream.
+
+The [TL-F-0028 investigation](../research/wetlands-availability/README.md) finds
+five self-touching native availability rings. An exact-segment decomposition gives
+a valid 93-exterior/74-hole proposal. Osborn availability agrees with the official
+service rendering and imagery footprints, without establishing wetland completeness.
+The proposal is unaccepted; the original geometry hold and source-age/legal limits remain.
