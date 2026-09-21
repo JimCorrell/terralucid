@@ -1,0 +1,36 @@
+{
+  "archive_bucket_private": true,
+  "county_fingerprints_unchanged": true,
+  "county_geometry_holds": 183,
+  "county_rows": 120449,
+  "county_zoning_holds": 162,
+  "finding_reviews": [
+    {
+      "event_id": "9de17af9073931f245d5bce23d553518949f8f14c4f22355f2700504a8e22fdb",
+      "finding_id": "TL-F-0022",
+      "next_action": "Review explicit native-ring decoding for Alfred 439584, then test a separately versioned geometry interpretation in ingestion; keep original GeoJSON and revisit other invalid cases independently.",
+      "occurrence_count": 8,
+      "priority": "high",
+      "status": "in_progress"
+    },
+    {
+      "event_id": "10b922107f05f1948bfe42fad8fd256afad883af0b04810ae1b57b9e39bad838",
+      "finding_id": "TL-F-0029",
+      "next_action": "Implement and validate county correction history for reviewed candidates 27334504, 27249007 and 27291625, with exact source/candidate pins, acceptance/withdrawal events, effective holds and dependency invalidation before activation. Retain other zoning, parcel, municipal and imagery follow-ups.",
+      "occurrence_count": 3,
+      "priority": "high",
+      "status": "in_progress"
+    },
+    {
+      "event_id": "3882de3a73b11d225c0e9e49cb537d4828b19c121edf7def01aeb87507b3efd9",
+      "finding_id": "TL-F-0109",
+      "next_action": "Ask LUPC for the controlling record or written interpretation for Osborn CID 230595 and case 22-01-0871P, including whether the 2016 reference incorporates this LOMR and the applicable effective date. Preserve the answer and distinguish it from the FEMA mask inquiry.",
+      "occurrence_count": 6,
+      "priority": "medium",
+      "status": "in_progress"
+    }
+  ],
+  "investigation_audit_present": true,
+  "investigation_occurrences": 1,
+  "verified_at": "2026-09-21T16:32:38.259617+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "archive_objects_verified": 38,
+  "audit_sha256": "b7d02438499be17b55445bb5b2c5cd621cbe6f24182d238569524e0c9ab20cb7",
+  "finding_event_id": "10b922107f05f1948bfe42fad8fd256afad883af0b04810ae1b57b9e39bad838",
+  "finding_status": "in_progress",
+  "geometry_acceptances": 0,
+  "original_county_fingerprints_unchanged": true,
+  "original_total_geometry_holds": 183,
+  "original_zoning_holds": 162,
+  "project_ref": "yytsjlmbyqhcqfalbjca",
+  "review_and_finding_loaded": true,
+  "source_faces_checked": 1199,
+  "supported_proposals": 3,
+  "targeted_tests_passed": 4,
+  "verified_at": "2026-09-21T16:32:38.259617+00:00"
+}

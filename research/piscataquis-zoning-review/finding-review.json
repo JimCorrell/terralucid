@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid county proposal review",
+  "expected_event_id": "fb618c33a923315d564d1f7dbe3bddf636ade294eec7fc502790f9f310a1fe83",
+  "finding_id": "TL-F-0029",
+  "next_action": "Implement and validate county correction history for reviewed candidates 27334504, 27249007 and 27291625, with exact source/candidate pins, acceptance/withdrawal events, effective holds and dependency invalidation before activation. Retain other zoning, parcel, municipal and imagery follow-ups.",
+  "note": "All three pinned proposals passed independent source even-odd fill reconstruction, exact segment checks and evidence-chain verification. Recommend exact-version acceptance as DERIVED interpretations. No geometry acceptance or default change performed; all county holds remain.",
+  "priority": "high",
+  "status": "in_progress"
+}
