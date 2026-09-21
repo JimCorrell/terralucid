@@ -1,0 +1,23 @@
+{
+  "archive_objects_verified": 32,
+  "audit_and_finding_loaded": true,
+  "audit_sha256": "959a971c95dc6e81a1179d26f345eba9dc2fe9b908c40107f43272b27ef5d49a",
+  "dependency_snapshot_unchanged": true,
+  "effective_total_geometry_holds": 180,
+  "effective_zoning_holds": 159,
+  "existing_geometry_acceptances_unchanged": 3,
+  "finding_event_id": "3454dfa3a4e6510c39480f8d4ee49e3fc41b641a2e1b39ac800b2d96d6700b36",
+  "finding_status": "in_progress",
+  "investigated_features_still_held": true,
+  "new_geometry_acceptances": 0,
+  "new_proposals": 2,
+  "new_source_observations": 0,
+  "original_county_fingerprints_unchanged": true,
+  "original_county_rows": 120449,
+  "original_total_geometry_holds": 183,
+  "original_zoning_holds": 162,
+  "project_ref": "yytsjlmbyqhcqfalbjca",
+  "source_faces_checked": 560,
+  "targeted_tests_passed": 8,
+  "verified_at": "2026-09-21T18:57:17.658832+00:00"
+}
