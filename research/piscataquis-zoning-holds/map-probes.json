@@ -1,0 +1,22 @@
+[
+  {
+    "id": "moosehead-junction-twp-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/moosehead-junction-twp.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "blanchard-twp-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/blanchard-twp.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "spencer-bay-twp-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/spencer-bay-twp.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "atkinson-twp-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/atkinson-twp.pdf",
+    "format": "pdf"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "esri-ring-specification",
+    "url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+    "retrieved_at": "2026-09-21T15:41:57.342827+00:00",
+    "http_status": 200,
+    "final_url": "https://developers.arcgis.com/rest/services-reference/enterprise/geometry-objects/",
+    "content_type": "text/html",
+    "response_file": "esri-ring-specification.response",
+    "sha256": "9bb444674617e320419aacbcc78f4ac47d2db8c23f5b129f8e5ce819f5d4f1d2",
+    "bytes": 266246,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

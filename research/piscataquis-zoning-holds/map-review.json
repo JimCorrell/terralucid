@@ -1,0 +1,62 @@
+{
+  "conclusion": "Use map evidence for context and limits. Any representation proposal requires unchanged native coordinates, supported ring semantics, valid final topology, and exact segment preservation.",
+  "evidence_state": "DERIVED",
+  "maps": {
+    "atkinson-twp-map": {
+      "adopted": "2020-02-12",
+      "amendment_dates": [
+        "2020-02-27",
+        "2024-08-01"
+      ],
+      "context": "M-GN occupies extensive areas around protection districts; P-SL2 corridors are shown. The 2024 amendment concerns FEMA adoption text.",
+      "effective": "2020-02-27",
+      "page": 1,
+      "pdf_sha256": "fa5ea501ea113556c2798f724dc51f63f5e163fc6eab3bdec63276ae5a472504",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/atkinson-twp.pdf"
+    },
+    "blanchard-twp-map": {
+      "adopted": "2005-08-03",
+      "amendment_dates": [
+        "2005-08-18"
+      ],
+      "context": "P-SL2 stream corridors and multiple wetland/protection districts appear across the township.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "f288558c9a36b39d8be94d2e9c87d95f248f78581d527e07854eff377c0338f2",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/blanchard-twp.pdf"
+    },
+    "moosehead-junction-twp-map": {
+      "adopted": "2005-08-03",
+      "amendment_dates": [
+        "2005-08-18",
+        "2018-08-23"
+      ],
+      "context": "P-SL2 corridors and wetland districts appear alongside Moosehead Lake and inland waters.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "31ad814b659c8e35fdc26fd83219a8fd6dfa2411073d10dfef699564fe53f665",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/moosehead-junction-twp.pdf"
+    },
+    "spencer-bay-twp-map": {
+      "adopted": "2005-08-03",
+      "amendment_dates": [
+        "2005-08-18",
+        "2009-10-08",
+        "2010-08-19",
+        "2020-07-30"
+      ],
+      "context": "Main viewport plus western inset; P-SL2 and wetland districts appear in the township. The full-size map is township-wide despite the feature PANEL value ending in west.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "80c85e5461bc6ac4a57dc627478f028217f36bb0a1d26ee2f2b5864869d41e88",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/spencer-bay-twp.pdf"
+    }
+  },
+  "review": "Manual visual review of each full page and extracted map notes; no tracing or boundary digitization. PyMuPDF renders used for inspection.",
+  "shared_caveats": [
+    "The notes defer to Chapter 10 when map and rule descriptions conflict.",
+    "Some wetland and stream protections are omitted from the drawing. Water-dependent boundaries can depend on water locations on the ground.",
+    "Map dates are recorded document statements, not a fresh legal-currency determination.",
+    "General mapped context does not resolve exact repeated vertices or nested-ring topology. No geometric correction is inferred from PDF pixels."
+  ]
+}

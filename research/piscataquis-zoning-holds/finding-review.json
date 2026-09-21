@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid county zoning investigation",
+  "expected_event_id": "fd5c48e2efada65944104341322d6a69d9a2fa4a28a8627121316ca9b75896cb",
+  "finding_id": "TL-F-0029",
+  "next_action": "Review three exact-version candidate interpretations for Blanchard 27334504 and Atkinson 27249007/27291625; design a county correction layer before activation. Investigate Moosehead Junction 27208875 and Spencer Bay 27336229 touch patterns separately; retain parcel, municipal-zoning and imagery follow-ups.",
+  "note": "Ranked all 162 zoning holds and investigated five unchanged native features against service GeoJSON and four official maps. Three exact-segment interpretations are proposed; none accepted. Two unsupported touch patterns and all other county qualification issues remain open.",
+  "priority": "high",
+  "status": "in_progress"
+}
