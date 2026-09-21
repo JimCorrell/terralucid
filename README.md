@@ -29,3 +29,7 @@ issues and legal-adoption unknowns before parcel screening.
 The [bounded wetlands load](research/wetlands-load/README.md) makes the 669-record
 Osborn NWI service inventory queryable, retaining source variants, reviewed
 classifications, availability dependencies and imagery/legal qualifications.
+
+The [Piscataquis County inventory and evaluation](research/piscataquis-ingestion/README.md)
+expands parcels, LUPC zoning, and NWI package wetlands together, retaining source
+geometry holds, jurisdiction coverage and imagery-age qualifications.

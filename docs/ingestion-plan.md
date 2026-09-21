@@ -131,3 +131,13 @@ package-specific project coverage for every loaded feature. Next qualify broader
 package geometry/project coverage and refresh behavior, keeping cross-release
 identity, old imagery and field/regulatory evidence unresolved. Existing comparison
 metrics remain historical; no global transformation or source preference is changed.
+
+## County-scale source evaluation
+
+The user selected **Piscataquis County** for the next parcel, zoning, and wetlands
+inventory. See the [county capture and evaluation](../research/piscataquis-ingestion/README.md).
+Use its jurisdiction coverage, geometry holds, identifier/date profiles, and
+wetland project metadata to prioritize follow-up. County expansion does not require
+resolving every statewide deficiency; candidate-level due diligence remains a
+later, more detailed gate. Municipal zoning gaps and held source geometries remain
+explicit limitations on the county inventory.

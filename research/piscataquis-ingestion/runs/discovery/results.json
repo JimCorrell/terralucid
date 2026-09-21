@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ut-parcels-metadata",
+    "source_id": "ut-parcels",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0?f=pjson",
+    "purpose": "Qualify county scope and native CRS",
+    "retrieved_at": "2026-09-21T12:36:11.913667+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "ut-parcels-metadata.response",
+    "sha256": "c0c2ed05e37068f7e235fb61da7a00206dae500e8dd46ea7ccbe7c192c76c599",
+    "bytes": 8799,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "organized-parcels-metadata",
+    "source_id": "organized-parcels",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10?f=pjson",
+    "purpose": "Qualify county scope and native CRS",
+    "retrieved_at": "2026-09-21T12:36:12.234328+00:00",
+    "http_status": 200,
+    "final_url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10?f=pjson",
+    "content_type": "application/json; charset=utf-8",
+    "response_file": "organized-parcels-metadata.response",
+    "sha256": "e32509d53a398f2667b8124fadbe2d7982be1f40a43915b18c2493d1ddac5e6b",
+    "bytes": 22167,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "civil-boundaries-metadata",
+    "source_id": "civil-boundaries",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/0?f=pjson",
+    "purpose": "Qualify county scope and native CRS",
+    "retrieved_at": "2026-09-21T12:36:12.601045+00:00",
+    "http_status": 200,
+    "final_url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/0?f=pjson",
+    "content_type": "application/json; charset=utf-8",
+    "response_file": "civil-boundaries-metadata.response",
+    "sha256": "41dbec3aedae4d537d4176e6787b334b4c90b60dec9d999ede537422791ccd30",
+    "bytes": 20060,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "lupc-zoning-metadata",
+    "source_id": "lupc-zoning",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+    "purpose": "Qualify county scope and native CRS",
+    "retrieved_at": "2026-09-21T12:36:12.946254+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+    "content_type": "text/plain; charset=UTF-8",
+    "response_file": "lupc-zoning-metadata.response",
+    "sha256": "e431122da6f3b35e17824a8ce0f91b0a020f6adf94138e3ef24a39fbf1f6bc65",
+    "bytes": 110668,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

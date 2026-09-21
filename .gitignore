@@ -47,3 +47,9 @@ __pycache__/
 
 /research/wetlands-projection-lineage/runs/**/*.response
 /research/wetlands-projection-lineage/*.response
+
+/research/piscataquis-ingestion/runs/**/*.response
+/research/piscataquis-ingestion/*.response
+/research/piscataquis-ingestion/report.json
+/research/piscataquis-ingestion/capture.json
+/research/piscataquis-ingestion/runs/capture/results.json

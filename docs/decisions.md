@@ -120,3 +120,20 @@ reviewed package features independently, retain exact geometry bytes and source
 attributes, and keep service links INFERRED with review dependencies. Mapping the
 package-local CRS identifier to equivalent EPSG:5070 changes no coordinates; no
 projection correction or source preference change is accepted.
+
+## Piscataquis County evaluation scope
+
+After PR #27, the user chose Piscataquis County as a middle ground between
+statewide qualification and individual-parcel investigation, explicitly including
+parcels, zoning, and wetlands together. Include organized and unorganized areas;
+jurisdiction type remains an attribute. Preserve county-bounded sources first,
+then evaluate coverage, geometry, identifiers, source age, and unresolved risks.
+This authorizes a county source inventory, not new scoring weights, automatic
+corrections, legal conclusions, or statewide qualification.
+
+The study boundary is a DERIVED union of Maine civil features labeled Piscataquis,
+including water parts. Capture surrounding-envelope candidates and retain full
+source geometries. Store this new source scope separately from exact-version
+Osborn acceptances. Native wetlands package geometry remains independent of
+service identity and accepted service defaults. See the
+[county ingestion](../research/piscataquis-ingestion/README.md).

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ut-parcels-metadata",
+    "source_id": "ut-parcels",
+    "url": "https://gis.maine.gov/mapservices/rest/services/mrs/Maine_Parcels_Unorganized_Territory/MapServer/0?f=pjson",
+    "purpose": "Qualify county scope and native CRS"
+  },
+  {
+    "id": "organized-parcels-metadata",
+    "source_id": "organized-parcels",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10?f=pjson",
+    "purpose": "Qualify county scope and native CRS"
+  },
+  {
+    "id": "civil-boundaries-metadata",
+    "source_id": "civil-boundaries",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/0?f=pjson",
+    "purpose": "Qualify county scope and native CRS"
+  },
+  {
+    "id": "lupc-zoning-metadata",
+    "source_id": "lupc-zoning",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+    "purpose": "Qualify county scope and native CRS"
+  }
+]

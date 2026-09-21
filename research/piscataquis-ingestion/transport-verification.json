@@ -1,0 +1,11 @@
+{
+  "audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259",
+  "feature_rows": 120449,
+  "record_manifest_matches": true,
+  "original_sql_sha256": "b0e9e3664f015fd5aa3fd7bb21e4fb81f680b036a9de532c73a8a069e66b2ba2",
+  "copy_sql_sha256": "fc48d9786c24203181d2a334d9203108e4c71a8bc371426085ecd5b19c6c5917",
+  "method_sha256": "cdf303e289b77dfb0bf36ad71d7af4ee33fc52631dfe95d81dfce32fa7299eb6",
+  "rows_per_copy": 25,
+  "empty_batch_required": true,
+  "statement_timeout": "disabled only inside the load transaction"
+}

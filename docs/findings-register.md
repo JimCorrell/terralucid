@@ -89,3 +89,9 @@ For a new issue category, add a new catalog ID and its evidence/next action, the
 add the appropriate detection and occurrence mapping in the importer. Do not edit
 old definitions to hide a previous conclusion or use the seed file to change status.
 No refresh scheduler, notification policy or automatic resolution is configured.
+
+The [Piscataquis County inventory](../research/piscataquis-ingestion/README.md)
+adds **TL-F-0029** for county qualification and appends audit evidence to existing
+coverage, identifier/date, overlap, geometry, zoning and NWI categories. Prior review
+states are preserved. Holds and coverage gaps remain actionable after successful
+loading; source retention does not resolve them.

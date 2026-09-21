@@ -43,3 +43,10 @@ forward. See [wetlands ingestion policy](docs/wetlands-ingestion.md).
 Keep bounded package wetlands separate in `ingest.wetlands_package_current`, filtered
 by audit. Candidate links remain INFERRED; check `needs_revisit` and do not replace
 service defaults or merge identities. See [package load](research/wetlands-package-load/README.md).
+
+For the Piscataquis source inventory, use `ingest.county_inventory` filtered to the
+intended audit. Distinguish interior intersections, boundary touches, outside
+capture candidates, and held geometry. It is raw inventory and is explicitly not
+qualified for parcel screening. Do not inherit Osborn corrections, service/package
+identity links, availability results, or legal interpretations. See the
+[county scope and evaluation](research/piscataquis-ingestion/README.md).

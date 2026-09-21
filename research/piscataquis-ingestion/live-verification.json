@@ -1,0 +1,90 @@
+{
+  "audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259",
+  "bucket_private": true,
+  "county_finding": {
+    "event_id": "fd5c48e2efada65944104341322d6a69d9a2fa4a28a8627121316ca9b75896cb",
+    "finding_id": "TL-F-0029",
+    "next_action": "Prioritize county geometry holds and jurisdiction coverage gaps; review municipal zoning and wetland imagery before enabling parcel screening.",
+    "occurrence_count": 1,
+    "priority": "high",
+    "status": "open"
+  },
+  "database_size": "1237 MB",
+  "feature_rows": 120449,
+  "feature_table_size": "1148 MB",
+  "finding_occurrences": 11,
+  "held_geometries": 183,
+  "manifest_matches": true,
+  "private_tables": true,
+  "private_view": true,
+  "scope_counts": [
+    {
+      "records": 386,
+      "scope_relation": "interior",
+      "source_id": "civil-boundaries"
+    },
+    {
+      "records": 162,
+      "scope_relation": "held",
+      "source_id": "lupc-zoning"
+    },
+    {
+      "records": 33673,
+      "scope_relation": "interior",
+      "source_id": "lupc-zoning"
+    },
+    {
+      "records": 9064,
+      "scope_relation": "outside",
+      "source_id": "lupc-zoning"
+    },
+    {
+      "records": 2,
+      "scope_relation": "touch",
+      "source_id": "lupc-zoning"
+    },
+    {
+      "records": 58584,
+      "scope_relation": "interior",
+      "source_id": "nwi-package"
+    },
+    {
+      "records": 107,
+      "scope_relation": "interior",
+      "source_id": "nwi-project"
+    },
+    {
+      "records": 3,
+      "scope_relation": "held",
+      "source_id": "organized-parcels"
+    },
+    {
+      "records": 7680,
+      "scope_relation": "interior",
+      "source_id": "organized-parcels"
+    },
+    {
+      "records": 2397,
+      "scope_relation": "outside",
+      "source_id": "organized-parcels"
+    },
+    {
+      "records": 18,
+      "scope_relation": "held",
+      "source_id": "ut-parcels"
+    },
+    {
+      "records": 5975,
+      "scope_relation": "interior",
+      "source_id": "ut-parcels"
+    },
+    {
+      "records": 2398,
+      "scope_relation": "outside",
+      "source_id": "ut-parcels"
+    }
+  ],
+  "source_observations": 694,
+  "unexpected_geometry_state": 0,
+  "verified_at": "2026-09-21T15:25:19.944228+00:00"
+}
