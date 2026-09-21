@@ -34,3 +34,8 @@ for the exact source version and require `geometry_hold=false`. Use
 `ingest.availability_coverage_latest` for the intended study-boundary version and
 check `needs_revisit` before use. Carry imagery-age, completeness and legal unknowns
 forward. See [availability geometry policy](docs/availability-geometry-corrections.md).
+
+For wetlands inventory, use `ingest.wetlands_feature_current` filtered to the intended
+load audit. Check `needs_revisit`, retain source variants and use `effective_lookup`
+for reviewed classifications. Carry imagery age and legal/completeness unknowns
+forward. See [wetlands ingestion policy](docs/wetlands-ingestion.md).

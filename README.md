@@ -25,3 +25,7 @@ geometry defects and correction-event dependencies.
 [Osborn FEMA source qualification](research/osborn-fema/README.md) connects current
 flood-zone evidence to the 2016 study and 2024 map revision, preserving geometry
 issues and legal-adoption unknowns before parcel screening.
+
+The [bounded wetlands load](research/wetlands-load/README.md) makes the 669-record
+Osborn NWI service inventory queryable, retaining source variants, reviewed
+classifications, availability dependencies and imagery/legal qualifications.
