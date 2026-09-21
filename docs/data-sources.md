@@ -94,3 +94,9 @@ The [bounded feature load](../research/wetlands-load/README.md) makes the histor
 677 joined lookup variants and 679 page occurrences, with exact-version defaults
 for the eight resolved classifications. This does not reconcile or ingest the
 Maine package statewide; imagery-age, completeness and applicability limits persist.
+
+The [service/package comparison](../research/wetlands-package-comparison/README.md)
+extends comparison to the entire qualified Osborn service scope. Its spatial
+candidates are INFERRED identities, with DERIVED distance/overlap metrics, preserved
+identifiers and a reverse package-coverage check. No cross-release identity rule
+or geometry replacement follows automatically from spatial/classification agreement.

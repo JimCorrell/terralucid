@@ -1,0 +1,229 @@
+{
+  "availability_result_id": "9874844cb3788a81be34652585b6ffb70c57286d56b7959741dc660bca5ac07b",
+  "classification_audit_sha256": "a1fd940a039662c703ec254963e70cd245f0632c970a62748591e5136f261c12",
+  "classification_event_id": "560e8844f3aef6c1b716524080d285790510924422df5db0ba3ae94de7019f48",
+  "decision": {
+    "accepted_changes": "None: no identity crosswalk, geometry replacement or projection correction.",
+    "bounded_candidate_agreement": true,
+    "open": "Projection cause, cross-release identity, statewide geometry/coverage, imagery refresh and legal applicability remain unqualified.",
+    "recommendation": "If bounded candidate agreement passes, a separate versioned package load for this scope is supported as the next proposal; retain source identifiers/geometries and INFERRED candidate links. This does not qualify statewide ingestion."
+  },
+  "details": {
+    "bytes": 6728474,
+    "path": "research/wetlands-package-comparison/detailed-results.response",
+    "reverse_scope_records": 669,
+    "service_records": 669,
+    "sha256": "07dd03febb6368257f3437b429bcad8b9b1a67e541ab98776614155ea5265585"
+  },
+  "evidence_state": "DERIVED",
+  "inputs": {
+    "research/availability-acceptance/report.json": "72c1e0f8114cc0f8c8cae6be84c3f575ca80758e1c640ecfa98704835dae56a2",
+    "research/osborn-wetlands/registry.json": "a0953efb0d78ba3308ad1f10f7142345f20fcf2df6dd6ce82c7992d20441c154",
+    "research/osborn-wetlands/report.json": "e1449e8384d5d712dfdae9df26814330d1b9f7dc31ae82fc8765bce565b61906",
+    "research/osborn-wetlands/runs/features/wetland-page-1.response": "e49fbae0ab6204ca592edc21f088695bc5d00c8bec6bb058cc08ea048a7af862",
+    "research/osborn-wetlands/runs/features/wetland-page-10.response": "fd04ddf5a1c13daf9706a0874b8f846a89e8aecd945c8fefb6f7e73c1fe730c6",
+    "research/osborn-wetlands/runs/features/wetland-page-11.response": "d89e9a6a1d7b48b0cfc2ef6546cfb5cd4feb2f16b3cc1d0bf6a4e04a6741c690",
+    "research/osborn-wetlands/runs/features/wetland-page-12.response": "c35b98e979c19cb110546aaf0e3d60d4e254c273ad62df32c476f9a765156fa9",
+    "research/osborn-wetlands/runs/features/wetland-page-13.response": "b158c14d6ee9558128203ba68c32ece1a40aabf956639bf5b9c378797ea74b1e",
+    "research/osborn-wetlands/runs/features/wetland-page-14.response": "ce79497d91084e77e67c5b557168a7d46bbea7777ca6e14fed81e6972eb12790",
+    "research/osborn-wetlands/runs/features/wetland-page-2.response": "68b451322c0579c08dba35723a7c0853a5ff36201611e9ee6523e458e60857bf",
+    "research/osborn-wetlands/runs/features/wetland-page-3.response": "17e79acd9d2dce1102443d3b8d627a9888a62ca4533ec844a96bb8ab68b67fc7",
+    "research/osborn-wetlands/runs/features/wetland-page-4.response": "1188e9b6c16054ec603b3dd45f3779b365fb9eb7a154a91b868c2f7b183f4fe2",
+    "research/osborn-wetlands/runs/features/wetland-page-5.response": "3f723c8437561116037ee45d263b2918c8b707f22f70668edae45645633106b4",
+    "research/osborn-wetlands/runs/features/wetland-page-6.response": "9595aa74009f1f74532a584c63189b57fa4b93819f904a7c87246d84f60de8e9",
+    "research/osborn-wetlands/runs/features/wetland-page-7.response": "8000a1e52854ae820b65e3a94ed3f321706655fccc73b161bbad8b09bebbaa45",
+    "research/osborn-wetlands/runs/features/wetland-page-8.response": "222ee35d4a39fa41fa00288d4cab215ea22875980bcb9f13b3ac56e7ec25632c",
+    "research/osborn-wetlands/runs/features/wetland-page-9.response": "89fc2af97a47d266b4c2bd130ee97530e6300393a890743709424bebefb0fbe5",
+    "research/wetlands-classification/report.json": "a1fd940a039662c703ec254963e70cd245f0632c970a62748591e5136f261c12",
+    "research/wetlands-load/report.json": "5802819c4376110fcac2a58b3bdf652e82524472ae15ba62913a4375551f3d39",
+    "research/wetlands-package-comparison/detailed-results.response": "07dd03febb6368257f3437b429bcad8b9b1a67e541ab98776614155ea5265585",
+    "scripts/compare_wetlands_package.py": "617a4e628f897d22c58ffc1121068e3702628ce576d4db280f5f821b828d1fa6",
+    "scripts/investigate_osborn_wetlands.py": "e5e30a137f6c280ac376426d41b11a2fe72f5fa9dc20a6a577a60952c89999dc",
+    "scripts/investigate_wetlands_classification.py": "6fd0bc125759b63f86795ea0c9625666ce9586fb74b75bd2b45ddc765d13a4fa",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b",
+    "scripts/prepare_wetlands_load.py": "a36635e8bb70d1539f9b41ad1789c8a3e0bbeba35098d213ff68595e91102639",
+    "scripts/prepare_zoning_geometry.py": "90f9797a15ad9d13dfa7630315d4f8f3731005b5e8b485dd5583ca7509c35d7e",
+    "supabase/migrations/20260921020000_bounded_wetlands.sql": "949e22f04748ca2930e300bd26be73227d4b9b80555e1e07cdf6342d63fbe7b2"
+  },
+  "limits": {
+    "geometry": "Native EPSG:3857 decoded without repair; not a legal delineation",
+    "identity": "Service snapshot OBJECTID only; GlobalID cross-release persistence UNKNOWN; no package crosswalk",
+    "imagery": "May 1983; later NHD supplementation has no established acquisition date",
+    "legal_applicability": "UNKNOWN",
+    "present_day_conditions": "UNKNOWN",
+    "scope": "All envelope records retained, including neighbors; prior profile intersects FEMA study boundary, not parcel boundary",
+    "wetland_completeness": "UNKNOWN"
+  },
+  "load_audit_sha256": "5802819c4376110fcac2a58b3bdf652e82524472ae15ba62913a4375551f3d39",
+  "method": "scripts/compare_wetlands_package.py",
+  "method_sha256": "617a4e628f897d22c58ffc1121068e3702628ce576d4db280f5f821b828d1fa6",
+  "package": {
+    "bytes": 437448614,
+    "comparison_operation": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=aea lat_0=23 lon_0=-96 lat_1=29.5 lat_2=45.5 x_0=0 y_0=0 ellps=GRS80",
+    "comparison_reported_accuracy_m": 4.0,
+    "extracted": {
+      "bytes": 993513472,
+      "member": "ME_geopackage_wetlands.gpkg",
+      "sha256": "a224dc073dc87b1a6fccead6f8701304aa67cf734cd351b7e5fc28c2c3b2018f"
+    },
+    "final_url": "https://documentst.ecosphere.fws.gov/wetlands/data/State-Downloads/ME_geopackage_wetlands.zip",
+    "headers": {
+      "Accept-Ranges": "bytes",
+      "Connection": "close",
+      "Content-Length": "437448614",
+      "Content-Type": "application/zip",
+      "Date": "Mon, 21 Sep 2026 00:10:39 GMT",
+      "ETag": "\"435e70c5478fc3b860c99c04e9b492ad-26\"",
+      "Last-Modified": "Wed, 29 Apr 2026 16:18:10 GMT",
+      "Server": "AmazonS3",
+      "Via": "1.1 464b491a9abf8ea780af299d2685fe56.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Id": "4G9AFbV3mc7UqQypkdKbprj7Clb_MEsYN6sGjXTD4HF8TUHxHkF7sw==",
+      "X-Amz-Cf-Pop": "IAD61-P11",
+      "X-Cache": "Miss from cloudfront",
+      "x-amz-server-side-encryption": "AES256",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-version-id": "YjZPMi2QmM6coZ.p4QL_OEAPl4PfrPOX"
+    },
+    "http_status": 200,
+    "inventory_rows": 587644,
+    "parts": [
+      {
+        "bytes": 40000000,
+        "offset": 0,
+        "sha256": "09919fec78a758d04d0840df2c65a6aded2c0b0347454c3caa03dbbd166e8bf9",
+        "storage_object": "sha256/09919fec78a758d04d0840df2c65a6aded2c0b0347454c3caa03dbbd166e8bf9.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 40000000,
+        "sha256": "dbb8556b618da2f7e4dc0aa753a7031fb269571bd0891102d06d325023980552",
+        "storage_object": "sha256/dbb8556b618da2f7e4dc0aa753a7031fb269571bd0891102d06d325023980552.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 80000000,
+        "sha256": "50c40cfe4f5feab4f91adcd2052680076d716d4b2726524db1e8e5de4822545e",
+        "storage_object": "sha256/50c40cfe4f5feab4f91adcd2052680076d716d4b2726524db1e8e5de4822545e.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 120000000,
+        "sha256": "7e9679395fe63273bb0eff68f41f1424c779ba57f96db51394c5e7e4a9b5327d",
+        "storage_object": "sha256/7e9679395fe63273bb0eff68f41f1424c779ba57f96db51394c5e7e4a9b5327d.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 160000000,
+        "sha256": "8ce02606e04ff1ec7b6b5d91eb41b15112a7f0af0d7065d48407282f09a62a30",
+        "storage_object": "sha256/8ce02606e04ff1ec7b6b5d91eb41b15112a7f0af0d7065d48407282f09a62a30.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 200000000,
+        "sha256": "cf074e990699364ff5d86cdf99f00b5d919b325242708a569d102e377d9efd8e",
+        "storage_object": "sha256/cf074e990699364ff5d86cdf99f00b5d919b325242708a569d102e377d9efd8e.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 240000000,
+        "sha256": "c9d81efee1e1102c2c8bfb7c7863fa5bef701be16bebfd1f7ae4cde110509034",
+        "storage_object": "sha256/c9d81efee1e1102c2c8bfb7c7863fa5bef701be16bebfd1f7ae4cde110509034.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 280000000,
+        "sha256": "67f5d3d9b0c4ac93a4866bac5ad2c8a6cd51ba0acac7811609b9bc48cff3848a",
+        "storage_object": "sha256/67f5d3d9b0c4ac93a4866bac5ad2c8a6cd51ba0acac7811609b9bc48cff3848a.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 320000000,
+        "sha256": "9bd2d1d2eadd85f2b3785fbf2115cb5fba583e9434c9355a4a6331619bfd757d",
+        "storage_object": "sha256/9bd2d1d2eadd85f2b3785fbf2115cb5fba583e9434c9355a4a6331619bfd757d.response"
+      },
+      {
+        "bytes": 40000000,
+        "offset": 360000000,
+        "sha256": "b65ad2d9a8775707fd33bc91039ad92a6c3279e34ff0038360a9356a41f9471b",
+        "storage_object": "sha256/b65ad2d9a8775707fd33bc91039ad92a6c3279e34ff0038360a9356a41f9471b.response"
+      },
+      {
+        "bytes": 37448614,
+        "offset": 400000000,
+        "sha256": "8ffc6f50fe7dc34dd9ef050e1b92f3cb3e0f149594bc0bd591b330c46b5c0f6c",
+        "storage_object": "sha256/8ffc6f50fe7dc34dd9ef050e1b92f3cb3e0f149594bc0bd591b330c46b5c0f6c.response"
+      }
+    ],
+    "response_path": "package/maine.zip.response",
+    "retrieved_at": "2026-09-21T00:10:37.792973+00:00",
+    "scope": "Entire ZIP archived; eight-record comparison only. Not statewide feature ingestion or identity/geometry reconciliation.",
+    "sha256": "ae1332336dbe5b6d255c29d75134c2959370ce9aa43c94fc2abb413475f1dcd1",
+    "srs_wkt": "PROJCS[\"NAD_1983_Albers\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Albers\"],PARAMETER[\"False_Easting\",0.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-96.0],PARAMETER[\"Standard_Parallel_1\",29.5],PARAMETER[\"Standard_Parallel_2\",45.5],PARAMETER[\"Latitude_Of_Origin\",23.0],UNIT[\"Meter\",1.0]]",
+    "url": "https://documentst.ecosphere.fws.gov/wetlands/data/State-Downloads/ME_geopackage_wetlands.zip"
+  },
+  "parameters": {
+    "bbox_padding_m": 10,
+    "distance": "GEOS discrete Hausdorff on full polygons without densification; extremal coordinate lower bound >10m skips exact distance but retains candidate/overlap. Investigative tolerance, not accuracy or legal-boundary guarantee",
+    "matching": "All spatial bounding-box candidates retained; no identifier/code prefilter and no nearest-match selection. Prepared disjoint predicate skips overlays; disjoint symmetric-difference area equals summed areas",
+    "primary_hausdorff_gate_m": 2,
+    "reverse_scope": "Original geographic study envelope; edges densified at 0.001 degrees, projected to package CRS; includes touching features",
+    "sensitivity_gates_m": [
+      1,
+      2,
+      5,
+      10
+    ]
+  },
+  "runtime": {
+    "GEOS": "3.11.4",
+    "PROJ": "9.3.0",
+    "pyproj": "3.6.1",
+    "shapely": "2.0.7",
+    "sqlite": "3.54.0"
+  },
+  "summary": {
+    "bbox_candidate_pairs": 4692,
+    "candidate_geometry_holds": 0,
+    "package_candidates_shared_by_multiple_service_features": {},
+    "package_inventory_rows": 587644,
+    "primary_candidate_distance_range_m": [
+      1.0239277025276035,
+      1.0264538480443326
+    ],
+    "primary_code_disagreements": 0,
+    "primary_exact_geometry_equal": 0,
+    "primary_package_ids_equal_reverse_scope": true,
+    "primary_package_ids_unique": 669,
+    "primary_type_disagreements": 0,
+    "reverse_scope_geometry_holds": [],
+    "reverse_scope_multiple_service_candidates": [],
+    "reverse_scope_package_features": 669,
+    "reverse_scope_without_service_2m_candidate": [],
+    "sensitivity": {
+      "1": {
+        "no_candidate_within_gate": 669
+      },
+      "10": {
+        "single_agreeing_candidate": 669
+      },
+      "2": {
+        "single_agreeing_candidate": 669
+      },
+      "5": {
+        "single_agreeing_candidate": 669
+      }
+    },
+    "service_features": 669,
+    "service_with_conflicting_2m_candidate": [],
+    "service_with_multiple_2m_candidates": [],
+    "service_without_2m_candidate": [],
+    "unique_package_candidates_inspected": 1299
+  },
+  "transformation": {
+    "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=aea lat_0=23 lon_0=-96 lat_1=29.5 lat_2=45.5 x_0=0 y_0=0 ellps=GRS80",
+    "package_crs_wkt": "PROJCS[\"NAD_1983_Albers\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Albers\"],PARAMETER[\"False_Easting\",0.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-96.0],PARAMETER[\"Standard_Parallel_1\",29.5],PARAMETER[\"Standard_Parallel_2\",45.5],PARAMETER[\"Latitude_Of_Origin\",23.0],UNIT[\"Meter\",1.0]]",
+    "reported_accuracy_m": 4.0,
+    "scope_definition": "proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=aea lat_0=23 lon_0=-96 lat_1=29.5 lat_2=45.5 x_0=0 y_0=0 ellps=GRS80",
+    "scope_reported_accuracy_m": 0.0
+  }
+}
