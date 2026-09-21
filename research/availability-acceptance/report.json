@@ -1,0 +1,65 @@
+{
+  "acceptance": {
+    "actor": "TerraLucid user-authorized availability activation",
+    "correction_id": "b8aa7aa5f0426c839d5b3b6ac5ce5dd596f369a25d96f3e09e8aa3d224b7808d",
+    "event_id": "09edfbb9b213737aa6fdaedc5626b40dc51515401a3019408ffd72e2ef189b51",
+    "note": "User approved activation after merged PR #22. Accept only the reviewed exact-segment EPSG:3857 decode, retain DERIVED evidence, original archive, imagery-age and field/legal qualifications.",
+    "status": "accepted"
+  },
+  "candidate_sha256": "173e3680d2a5474ec7ffbbe460206ddc90374fe21e37c4be3f46e915c0a6e836",
+  "coverage": {
+    "computation": "PostGIS ST_Covers against accepted EPSG:3857 geometry; subject transformed from EPSG:4269; database stores runtime and event dependency.",
+    "expected_digital_coverage": true,
+    "legal_applicability": "UNKNOWN",
+    "present_day_conditions": "UNKNOWN",
+    "scope": "FEMA study boundary CID 230595, not a legal/surveyed parcel boundary",
+    "source_imagery": "May 1983; supplementation separately qualified",
+    "state": "DERIVED",
+    "wetland_completeness": "UNKNOWN"
+  },
+  "evidence_state": "DERIVED",
+  "finding_reviews": [
+    {
+      "finding_id": "TL-F-0028",
+      "next_action": "Use the exact accepted version and check coverage needs_revisit. Review new source versions separately. Keep imagery age, source completeness and legal applicability qualified.",
+      "note": "User-authorized exact-version decode is accepted as DERIVED. Original bytes and proposal remain archived. A bounded Osborn Digital coverage result is computed by PostGIS, retaining the source, candidate, study boundary and acceptance event. Revocation blocks new coverage and marks existing results stale; reacceptance requires recomputation. This resolves this representation hold, not mapping completeness or legal wetlands.",
+      "priority": "medium",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "TL-F-0117",
+      "next_action": "Qualify package/service identity and projection plus bounded feature ingestion before wider coverage. Preserve imagery age and wetland absence/legal-applicability unknowns.",
+      "note": "Availability interpretation activated and bounded Osborn coverage recorded with acceptance dependencies. TL-F-0028 is resolved for this exact representation; wider wetlands ingestion, package/service identity and projection, source-image age and field/legal applicability remain open.",
+      "priority": "medium",
+      "status": "in_progress"
+    }
+  ],
+  "inputs": {
+    "research/osborn-fema/report.json": "2f106e1b19fa2b13415741a109d34f1f9dbc4fdb04cf67e77fe882325aebe5ff",
+    "research/osborn-fema/runs/identity/osborn-jurisdiction.response": "813824533f6c03c71fb8024431e0bd9f86e10b46c8e9ba12eb9c2ddf4d13696a",
+    "research/osborn-wetlands/report.json": "e1449e8384d5d712dfdae9df26814330d1b9f7dc31ae82fc8765bce565b61906",
+    "research/wetlands-availability/candidates/status-3.geojson": "173e3680d2a5474ec7ffbbe460206ddc90374fe21e37c4be3f46e915c0a6e836",
+    "research/wetlands-availability/report.json": "73a3f6899afdc374c273a2a69f4ef445926b02b4af6b73351cedfd12a5de7d66",
+    "scripts/prepare_availability_acceptance.py": "6ae4913abfdfcd10e83c82a1dd864ce86da4466350d1e51600e2a3c6d2a7603b",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b",
+    "scripts/prepare_zoning_geometry.py": "90f9797a15ad9d13dfa7630315d4f8f3731005b5e8b485dd5583ca7509c35d7e",
+    "supabase/migrations/20260921010000_availability_acceptance.sql": "05f66d2484befc2dda192b6e51a5bb270d3b70aee30491267197c758742aee15"
+  },
+  "limits": {
+    "conclusion": "The strict-validity failure is consistent with a representation incompatibility: Esri allows vertex self-touches, while the exported unsplit rings fail GEOS validation. Eleven exact repeated vertices in five rings split into simple cycles. Documented winding and unique hole containment yield a valid candidate while preserving every directed boundary segment and its multiplicity.",
+    "coverage": "The candidate covers the exact prior FEMA Osborn study boundary. Four valid imagery-source footprints also cover it. All eleven contact vertices are outside that boundary. These agree on mapping availability, not exhaustive wetland detection, present-day imagery, or legal applicability.",
+    "downstream": "Keep the original geometry hold until the proposal is explicitly accepted and dependent coverage calculations retain the source audit, candidate hash and acceptance event. New source versions require review. Existing correction views and zoning screenings are unchanged.",
+    "evidence_state": "DERIVED",
+    "map_review": "Visually inspected the original 800x800 service-rendered PNG for the requested Osborn envelope. It is solid green, matching the layer's Digital renderer. This corroborates regional availability only; it does not independently certify eleven distant contact vertices or national boundary accuracy. Service aspect-ratio adjustment may expand the requested extent.",
+    "proposal": "Archive a proposed EPSG:3857 MultiPolygon with 93 shells and 74 holes. No source coordinate is moved, no edge removed, no hole filled and no general repair applied. This is a source-version-specific proposal; not an automatic repair fallback or an accepted effective geometry.",
+    "remaining": "May 1983 imagery, package/service identity and projection differences, wider package qualification and field/regulatory due diligence remain unresolved. No parcel screening or legal wetland determination is introduced.",
+    "scope": "TL-F-0028, exact prior national Wetlands_Status OBJECTID 3, with bounded Osborn coverage corroboration."
+  },
+  "method": "scripts/prepare_availability_acceptance.py",
+  "method_sha256": "6ae4913abfdfcd10e83c82a1dd864ce86da4466350d1e51600e2a3c6d2a7603b",
+  "proposal_audit_sha256": "73a3f6899afdc374c273a2a69f4ef445926b02b4af6b73351cedfd12a5de7d66",
+  "source_audit_sha256": "e1449e8384d5d712dfdae9df26814330d1b9f7dc31ae82fc8765bce565b61906",
+  "source_payload_sha256": "434b6becc32ea018436807e4e0868710a86da372ac67524368cc1c464dc8b2b3",
+  "subject_audit_sha256": "2f106e1b19fa2b13415741a109d34f1f9dbc4fdb04cf67e77fe882325aebe5ff",
+  "subject_payload_sha256": "813824533f6c03c71fb8024431e0bd9f86e10b46c8e9ba12eb9c2ddf4d13696a"
+}

@@ -100,3 +100,9 @@ The [availability follow-up](../research/wetlands-availability/README.md) diagno
 TL-F-0028 and archives an unaccepted exact-segment decode. Review acceptance and
 version dependencies before enabling that coverage overlay. Source-image age,
 package/service reconciliation and field/regulatory limits remain separate gates.
+
+The [availability acceptance](../research/availability-acceptance/README.md) now
+activates that exact interpretation and records one versioned Osborn coverage
+result. TL-F-0028's representation hold is resolved. Next qualify a bounded
+queryable wetlands feature load, retaining package/service identity, projection,
+imagery age and field/legal limits under TL-F-0117. Wider ingestion remains gated.

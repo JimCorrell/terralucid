@@ -82,3 +82,9 @@ five self-touching native availability rings. An exact-segment decomposition giv
 a valid 93-exterior/74-hole proposal. Osborn availability agrees with the official
 service rendering and imagery footprints, without establishing wetland completeness.
 The proposal is unaccepted; the original geometry hold and source-age/legal limits remain.
+
+The subsequent [availability acceptance](../research/availability-acceptance/README.md)
+activates only that reviewed version. The national availability geometry is stored
+and one Osborn coverage result is computed; this is not statewide wetlands feature
+ingestion. TL-F-0028's representation hold is resolved, with original evidence and
+all source-age/completeness/legal qualifications preserved.

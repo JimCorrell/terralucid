@@ -28,3 +28,9 @@ For reviewed zoning geometry, use `ingest.corrected_zoning_feature` and
 `needs_revisit` before using a screening; stale results require review or
 recomputation. Preserve geometry acceptance-event dependencies and limits. See
 [the geometry correction policy](docs/zoning-geometry-corrections.md).
+
+For reviewed NWI availability, default to `ingest.effective_availability_geometry`
+for the exact source version and require `geometry_hold=false`. Use
+`ingest.availability_coverage_latest` for the intended study-boundary version and
+check `needs_revisit` before use. Carry imagery-age, completeness and legal unknowns
+forward. See [availability geometry policy](docs/availability-geometry-corrections.md).
