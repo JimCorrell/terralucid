@@ -113,3 +113,9 @@ dependencies. Next compare a bounded package/service scope beyond the eight
 conflicts, preserving unmatched/multiple candidates and projection differences
 before wider ingestion. Imagery refresh and field/regulatory evidence remain
 separate TL-F-0117 work; parcel screening is not part of this load.
+
+The [bounded package comparison](../research/wetlands-package-comparison/README.md)
+compares the 669 service records with spatial candidates in the archived Maine
+package, preserving threshold sensitivity, reverse-scope gaps and ambiguous or
+conflicting candidates. Identity links and broader package ingestion require
+separate evidence-based review; this investigation changes no accepted geometry.

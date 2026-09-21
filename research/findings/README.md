@@ -113,3 +113,9 @@ The [bounded wetlands feature load](../wetlands-load/README.md) adds a TL-F-0117
 occurrence and in-progress review documenting queryable inventory and remaining
 package/service, imagery/refresh and applicability work. TL-F-0027 and TL-F-0028
 resolutions remain unchanged; their dependencies are now exposed to feature consumers.
+
+The [669-feature package comparison](../wetlands-package-comparison/README.md)
+appends TL-F-0117 evidence for candidate identity, geometry/classification differences
+and bounded coverage. It preserves the existing TL-F-0027 and TL-F-0028 resolution
+events and accepted feature/availability interpretations. Wider source qualification,
+refresh and legal applicability remain separate work.
