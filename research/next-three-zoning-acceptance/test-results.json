@@ -1,0 +1,23 @@
+{
+  "checks": [
+    "previous validator rejects all three new exact versions",
+    "changed initial baseline rejected atomically",
+    "fresh inserts enforce source/audit/candidate binding, cycle/fill evidence, runtime validity and exact segment multiplicity for all three cases",
+    "authentic eleven-feature activation and full load replay",
+    "prior eight approvals unchanged; old snapshot stale and new snapshot current",
+    "withdrawal, reacceptance, immutable history, stale review/snapshot, source/candidate binding, segment multiplicity, privacy, unchanged source counts",
+    "snapshot waits for concurrent writer then captures committed withdrawal",
+    "concurrent reviews serialize and reject stale expected event",
+    "historical full activation replay preserves later events"
+  ],
+  "database_version": "PostgreSQL 17.5 (Debian 17.5-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",
+  "fixture": "120449 original archived county records and proposal/review audit chain; disposable Docker database",
+  "load_sha256": "15c2f122128f22c7ab6c39d80bf34406919e639676533f3dc9496f10684b62fc",
+  "passed": true,
+  "postgis_version": "POSTGIS=\"3.5.2 dea6d0a\" [EXTENSION] PGSQL=\"170\" GEOS=\"3.9.0-CAPI-1.16.2\" PROJ=\"7.2.1 NETWORK_ENABLED=OFF URL_ENDPOINT=https://cdn.proj.org USER_WRITABLE_DIRECTORY=/var/lib/postgresql/.local/share/proj DATABASE_PATH=/usr/share/proj/proj.db\" (compiled against PROJ 7.2.1) LIBXML=\"2.9.10\" LIBJSON=\"0.15\" LIBPROTOBUF=\"1.3.3\" WAGYU=\"0.5.0 (Internal)\"",
+  "snapshot_lock_wait_seconds": 2.72,
+  "test_files": {
+    "tests/next_three_zoning_acceptance.sql": "7cb5488430c9726f743edf18546bad9e625669b6de227608db7020e9a984416b",
+    "tests/run_next_three_zoning_acceptance.py": "22a4976c2b574847beae998a13b918fa9051b91f6ba8fc2e004e5a563268a133"
+  }
+}

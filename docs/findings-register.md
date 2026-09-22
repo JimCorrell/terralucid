@@ -150,3 +150,11 @@ records T4 R13 WELS, T7 R9 WELS and T6 R15 WELS together. All three proposals
 pass cycle/fill checks; T4 R13 and T6 R15 also equal valid service GeoJSON.
 TL-F-0029 remains in progress for exact-version acceptance-layer review and
 activation. The eight accepted versions and 154 zoning / 21 parcel holds remain.
+
+The [PR #39 activation](../research/next-three-zoning-acceptance/README.md)
+accepts T4 R13 WELS, T7 R9 WELS and T6 R15 WELS after bounded validator and
+lifecycle tests. Eleven accepted versions leave 151 zoning and 21 parcel holds.
+The [eleven-correction ranking](../research/eleven-correction-ranking/README.md)
+refreshes priorities against the new snapshot; TL-F-0029 remains in progress for
+remaining geometry and county qualification issues. Original holds and all
+previous finding events are retained.
