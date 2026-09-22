@@ -1,0 +1,57 @@
+{
+  "evidence_state": "DERIVED",
+  "maps": {
+    "t4-r13-wels": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Adoption of digital NWI wetlands"
+        }
+      ],
+      "context": "P-SL2 corridors, wetlands and lake protection west of Chesuncook Lake.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "8a628da4b8be28772027debc765cd8a19b1c6c6d820da531f622c145d76f4962",
+      "retrieved_at": "2026-09-22T15:37:56.382879+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t4-r13-wels.pdf"
+    },
+    "t6-r15-wels": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Adoption of digital NWI wetlands"
+        }
+      ],
+      "context": "P-SL2 corridors around Loon Lake and the Hurd ponds among wetland and other protection districts.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "413d462547a9627816e7877b567890867b415fc0de6de786a0df8d12c09f872e",
+      "retrieved_at": "2026-09-22T15:37:56.960323+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t6-r15-wels.pdf"
+    },
+    "t7-r9-wels": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Adoption of digital NWI wetlands"
+        }
+      ],
+      "context": "P-SL2 corridors among wetlands and ponds south of Millinocket Lake.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "a9d6cd0940a710a19fc7c2fbd285a4b1a9201d2988c0a6ef05cc85abaaa30f07",
+      "retrieved_at": "2026-09-22T15:37:57.532042+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t7-r9-wels.pdf"
+    }
+  },
+  "review": "Manual inspection of three full-page PyMuPDF renders and extracted notes. No tracing or coordinate derivation.",
+  "shared_caveats": [
+    "Map notes defer to Chapter 10 rules where mapped and described boundaries conflict.",
+    "Some wetland and stream protections are not drawn; water-dependent districts can follow water locations on the ground.",
+    "Recorded dates are document statements, not a legal-currency determination.",
+    "PDF context cannot certify exact repeated-vertex topology, surveyed boundaries, access or buildability."
+  ]
+}

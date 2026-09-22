@@ -1,0 +1,44 @@
+[
+  {
+    "id": "t4-r13-wels-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t4-r13-wels.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T15:37:56.382879+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t4-r13-wels.pdf",
+    "content_type": "application/pdf",
+    "response_file": "t4-r13-wels-map.response",
+    "sha256": "8a628da4b8be28772027debc765cd8a19b1c6c6d820da531f622c145d76f4962",
+    "bytes": 1592858,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "t6-r15-wels-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t6-r15-wels.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T15:37:56.960323+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t6-r15-wels.pdf",
+    "content_type": "application/pdf",
+    "response_file": "t6-r15-wels-map.response",
+    "sha256": "413d462547a9627816e7877b567890867b415fc0de6de786a0df8d12c09f872e",
+    "bytes": 2202135,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "t7-r9-wels-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t7-r9-wels.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T15:37:57.532042+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t7-r9-wels.pdf",
+    "content_type": "application/pdf",
+    "response_file": "t7-r9-wels-map.response",
+    "sha256": "a9d6cd0940a710a19fc7c2fbd285a4b1a9201d2988c0a6ef05cc85abaaa30f07",
+    "bytes": 2026670,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  }
+]

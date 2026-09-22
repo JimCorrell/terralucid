@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid next-three zoning investigation",
+  "expected_event_id": "bfdf9755d4a69f7ebc9f483bb73e1c0738daa07ec911a3e243fc8ac51900dba0",
+  "finding_id": "TL-F-0029",
+  "next_action": "Review the exact T4 R13 WELS 27224591, T7 R9 WELS 27320676 and T6 R15 WELS 27243652 proposal hashes; extend and test the bounded acceptance layer as needed, activate only supported versions, then refresh ranking. Retain 154 zoning and 21 parcel holds, municipal applicability and wetland imagery follow-ups until separately resolved.",
+  "note": "All three exact-source proposals preserve source segments, cycle roles and independent fill. Native versions match the county capture; T4 R13 and T6 R15 proposals also equal valid service GeoJSON. T7 R9 requires splitting two holes at their existing shared vertex. Official map context and limitations recorded. Proposals only; eight accepted versions unchanged.",
+  "priority": "high",
+  "status": "in_progress"
+}

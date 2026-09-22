@@ -89,3 +89,8 @@ requires the reviewed five-correction snapshot for its initial atomic load.
 A changed baseline or a partially present cohort requires review. Exact historical
 full-load replay preserves later correction events and cannot restore an earlier
 acceptance after withdrawal.
+
+The [next three ranked proposals](../research/next-three-zoning-priorities/README.md)
+retain the eight-correction baseline. T4 R13 and T6 R15 require innermost hole
+ownership; T7 R9 also requires a split at an existing hole contact. These are
+proposals with fixed-source cycle/fill evidence, pending bounded acceptance.
