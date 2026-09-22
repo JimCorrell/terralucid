@@ -1,0 +1,46 @@
+{
+  "authentic_cases": [
+    {
+      "candidate_sha256": "35d6945df890b3eeae2691244040488cdcd90fe9945df1ef3df1efdf8b5f651e",
+      "exact_cycle_roles": true,
+      "fill_difference_m2": 0.0,
+      "object_id": 27233351,
+      "source_faces": 96
+    },
+    {
+      "candidate_sha256": "683a3d597134954658d3662d7ea1c036ca03dc89f913e02c3318693c2dae04be",
+      "exact_cycle_roles": true,
+      "fill_difference_m2": 0.0,
+      "object_id": 27314083,
+      "source_faces": 74
+    },
+    {
+      "candidate_sha256": "10681813bf3740c2cd0fe3774fc02b223aef9f58b436c1b4918a9aa4beadcc81",
+      "exact_cycle_roles": true,
+      "fill_difference_m2": 0.0,
+      "object_id": 27316137,
+      "source_faces": 75
+    }
+  ],
+  "checks": [
+    "All three fresh native features exactly match the original county records.",
+    "Fixed serialized candidates preserve segment multiplicity, shell/hole cycle roles and common ownership of touching holes.",
+    "Separate ray-crossing classification matches all 245 source faces; same GEOS engine, not independent publisher evidence.",
+    "Wrong CRS, incomplete responses, changed source/geometry, missing holes, shared edges, overlapping loops and unsupported walks rejected.",
+    "Scenario union handles overlapping proposals and accepted baseline without double counting.",
+    "Nested-shell fixtures verify multiple holes choose the innermost owner; wrong ownership and missing enclosing holes rejected.",
+    "All three authentic candidates equal valid service GeoJSON and require no source ring splits."
+  ],
+  "passed": true,
+  "runtime": {
+    "GEOS": "3.11.4",
+    "numpy": "2.0.2",
+    "shapely": "2.0.7"
+  },
+  "test_files": {
+    "tests/test_latest_three_zoning_priorities.py": "df586ae37e45c33a93388f56bcc27411a2443494fcc3f57c58bd3001e53c08c9",
+    "tests/test_moosehead_spencer.py": "f755d929c6ce4fbd7fde468cbd907ae16c85cf080a60bc97f55ce22dc95391df",
+    "tests/test_moosehead_spencer_review.py": "6fd9af43009b590ded0f73c877ee16b9a5f237fe4c99adfac56c83b37077076b"
+  },
+  "tests_run": 23
+}

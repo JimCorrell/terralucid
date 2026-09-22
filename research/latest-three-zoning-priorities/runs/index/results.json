@@ -1,0 +1,15 @@
+[
+  {
+    "id": "chesuncook-map-index",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=MAP%3D%27chesuncook-twp%27&outFields=%2A&returnGeometry=false&f=json",
+    "retrieved_at": "2026-09-22T16:01:25.150558+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=MAP%3D%27chesuncook-twp%27&outFields=%2A&returnGeometry=false&f=json",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "chesuncook-map-index.response",
+    "sha256": "0adcffd3404e2ee4bcf034f481f97940ec7c04fa4d8e047f830824e90090660e",
+    "bytes": 4897,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

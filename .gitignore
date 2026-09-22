@@ -68,3 +68,7 @@ __pycache__/
 /research/next-three-zoning-priorities/runs/**/*.response
 /research/next-three-zoning-priorities/candidates/
 /research/next-three-zoning-priorities/diagnostics/
+
+/research/latest-three-zoning-priorities/runs/**/*.response
+/research/latest-three-zoning-priorities/candidates/
+/research/latest-three-zoning-priorities/diagnostics/

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "chesuncook-twp-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/chesuncook-twp.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T16:01:46.641053+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/chesuncook-twp.pdf",
+    "content_type": "application/pdf",
+    "response_file": "chesuncook-twp-map.response",
+    "sha256": "2e9481fce76432741626538825ccdbf8b40c85e92eb626251fdb2ed13e2cd2de",
+    "bytes": 2101462,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  }
+]

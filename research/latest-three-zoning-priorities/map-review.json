@@ -1,0 +1,71 @@
+{
+  "evidence_state": "DERIVED",
+  "map_index_caveats": [
+    "Chesuncook index TOWNNAME is Chesuncook Twp. with a terminal period; the initial exact-name query omitted it. A follow-up MAP query returned its official link.",
+    "T1 R11 map-index AMEND_DATE states 2005-08-18 while the PDF lists ZP770 effective 2018-04-26. Retain both; amendment metadata is insufficient to establish legal currency."
+  ],
+  "maps": {
+    "chesuncook-twp": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Adoption of digital NWI wetlands"
+        },
+        {
+          "effective": "2019-01-25",
+          "location": "1",
+          "permit": "ZP774"
+        }
+      ],
+      "context": "P-SL2 corridors west of Chesuncook Lake; accessible-lake, wetland and unusual-area protection context.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "2e9481fce76432741626538825ccdbf8b40c85e92eb626251fdb2ed13e2cd2de",
+      "retrieved_at": "2026-09-22T16:01:46.641053+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/chesuncook-twp.pdf"
+    },
+    "t1-r11-wels": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Adoption of digital NWI wetlands"
+        },
+        {
+          "effective": "2018-04-26",
+          "location": "1",
+          "permit": "ZP770"
+        }
+      ],
+      "context": "P-SL2 corridors among ponds south of Nahmakanta Lake; recreation, wetland and development district context.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "20abb59294ad51d9605d14bb50cb6dc7074ab217a5cf3b68183663d818bc8b6b",
+      "retrieved_at": "2026-09-22T16:01:25.988561+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t1-r11-wels.pdf"
+    },
+    "t10-r15-wels": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Adoption of digital NWI wetlands"
+        }
+      ],
+      "context": "P-SL2 corridors around Chemquasabamticook Lake among wetlands and fish/wildlife protection districts.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "be2e74e8eb77c91a4845b289f5f720cb1bb4522a840d0f0cd59c7aaead70244c",
+      "retrieved_at": "2026-09-22T16:01:26.770705+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t10-r15-wels.pdf"
+    }
+  },
+  "review": "Manual inspection of three full-page PyMuPDF renders and enlarged notes. No tracing or coordinate derivation.",
+  "shared_caveats": [
+    "Map notes defer to Chapter 10 rules where mapped and described boundaries conflict.",
+    "Some wetland and stream protections are not drawn; water-dependent districts can follow water locations on the ground.",
+    "Recorded dates are document statements, not a legal-currency determination.",
+    "PDF context cannot certify exact repeated-vertex topology, surveyed boundaries, access or buildability."
+  ]
+}

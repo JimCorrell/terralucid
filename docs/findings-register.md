@@ -158,3 +158,10 @@ The [eleven-correction ranking](../research/eleven-correction-ranking/README.md)
 refreshes priorities against the new snapshot; TL-F-0029 remains in progress for
 remaining geometry and county qualification issues. Original holds and all
 previous finding events are retained.
+
+The [latest-three investigation](../research/latest-three-zoning-priorities/README.md)
+supports T10 R15 WELS, Chesuncook Township and T1 R11 WELS proposals, all equal
+to valid service GeoJSON. Eleven acceptances and all current holds remain unchanged.
+TL-F-0029 retains bounded acceptance as the next step and separately records T1 R11's
+map-index AMEND_DATE (2005-08-18) versus PDF ZP770 amendment (2018-04-26).
+Resolve that discrepancy before treating index amendment metadata as legal currency.
