@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "map": "orneville-twp",
+      "petition": "ZP796",
+      "decision_date": "2024-07-17",
+      "decision_stated_effective_date": "2024-08-01",
+      "signed_document_sha256": "99b5fffd32db59f318549b136da8c6507446beb547e9321f7af173a072ecd25f",
+      "evidence_state": "VERIFIED",
+      "interpretation_state": "DERIVED",
+      "record_pages": {
+        "identity_and_text_only_scope": 1,
+        "firm_only_template": 2,
+        "orneville_included": 4,
+        "staff_process": 7,
+        "signed_approval_and_effective_date": 10
+      },
+      "historical_followup_status": "correction_record_scope_and_date_established",
+      "legal_currency": "UNKNOWN",
+      "source_value_replacement": null,
+      "geometry_change_authorized": false,
+      "finding": "Signed staff decision explicitly preserves existing zoning and corrects adoption-note text only. Orneville appears in its FIRM-only list. The August1,2024 map amendment is supported; the 1987 FIRM date is a separate referenced-document date.",
+      "remaining_unknowns": [
+        "Exact pre-correction Orneville note not located; no before/after wording or geometry reconstruction claimed.",
+        "Completeness and current applicability of FEMA panels, later revisions and parcel-specific flood constraints not established.",
+        "Index AMEND_DATE remains2005-08-18; do not use it as complete amendment history."
+      ]
+    }
+  ],
+  "review_method": "Read signed decision; visually inspected complete pages1,2,4,10 and published map note. Draft five-year report PDF p53 (printed52) corroborates wider111-MCD scope; no individual review of those other maps. Search for pre-August2024 Orneville map did not locate an authoritative earlier version. No officials contacted.",
+  "downstream_policy": "Retain approved historical text-correction date separately from FIRM date and initial map adoption. Published note says FIRM hazard areas may be regulated even when not displayed on the zoning map; do not infer no flood constraint from absent displayed P-FP or from NFHL availability. Resolve applicable FEMA products/revisions on parcel trigger. Preserve all other PR48 finding follow-ups."
+}

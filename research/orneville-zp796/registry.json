@@ -1,0 +1,17 @@
+{
+  "scope": "Orneville ZP796 clerical text correction investigation",
+  "sources": [
+    {
+      "id": "lupc-zoning",
+      "name": "Official signed ZP796 record, map, index and later draft report",
+      "publisher": "Maine LUPC",
+      "rights": "Private research archive; redistribution rights not established.",
+      "probe_ids": [
+        "map-index",
+        "zp796-record",
+        "orneville-map",
+        "five-year-report"
+      ]
+    }
+  ]
+}
