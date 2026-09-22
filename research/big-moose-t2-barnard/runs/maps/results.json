@@ -1,0 +1,44 @@
+[
+  {
+    "id": "t2-r12-wels-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t2-r12-wels.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T16:25:27.778916+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t2-r12-wels.pdf",
+    "content_type": "application/pdf",
+    "response_file": "t2-r12-wels-map.response",
+    "sha256": "9bed91c299ceba5e1ea0c7e42b316e1e30fe3ac6557a8f4c7034506a3eff0a52",
+    "bytes": 2154303,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "big-moose-twp-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/big-moose-twp.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T16:25:28.499835+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/big-moose-twp.pdf",
+    "content_type": "application/pdf",
+    "response_file": "big-moose-twp-map.response",
+    "sha256": "01e774550a12039a8464d9f74edbfead66b6d2f28352405d642777c1bdb94c17",
+    "bytes": 3533012,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "barnard-twp-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/barnard-twp.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T16:25:29.226122+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/barnard-twp.pdf",
+    "content_type": "application/pdf",
+    "response_file": "barnard-twp-map.response",
+    "sha256": "25ab0b6920ca8dbccababef7b4c091aa9741a1fa66f6b12f468a3a03a4d36554",
+    "bytes": 2398350,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  }
+]

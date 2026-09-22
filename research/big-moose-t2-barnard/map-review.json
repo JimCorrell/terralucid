@@ -1,0 +1,99 @@
+{
+  "evidence_state": "DERIVED",
+  "map_index_caveats": [
+    "Big Moose map-index AMEND_DATE is 2016-01-30; PDF lists later ZP707B effective 2020-07-30 and ZP791 effective 2022-12-30. Retain both; index metadata does not establish legal currency.",
+    "The previously recorded T1 R11 index/PDF amendment-date discrepancy remains open; this investigation does not revisit or resolve it."
+  ],
+  "maps": {
+    "barnard-twp": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Adoption of digital NWI wetlands"
+        }
+      ],
+      "context": "P-SL2 corridors among wetlands, M-GN areas and residential districts around Barnard.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "25ab0b6920ca8dbccababef7b4c091aa9741a1fa66f6b12f468a3a03a4d36554",
+      "retrieved_at": "2026-09-22T16:25:29.226122+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/barnard-twp.pdf"
+    },
+    "big-moose-twp": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Adoption of digital NWI wetlands"
+        },
+        {
+          "effective": "2009-10-08",
+          "location": 1,
+          "permit": "ZP707",
+          "remark": "P-RP 014 expires October 8, 2039"
+        },
+        {
+          "effective": "2010-08-19",
+          "location": 2,
+          "permit": "ZP707A",
+          "remark": "P-RP 014 expires October 8, 2039"
+        },
+        {
+          "effective": "2014-05-29",
+          "location": 3,
+          "permit": "ZP744"
+        },
+        {
+          "effective": "2015-12-24",
+          "location": 4,
+          "permit": "ZP758"
+        },
+        {
+          "effective": "2016-01-30",
+          "location": 5,
+          "permit": "ZP757"
+        },
+        {
+          "effective": "2020-07-30",
+          "location": 6,
+          "permit": "ZP707B",
+          "remark": "P-RP 014 terminated"
+        },
+        {
+          "effective": "2022-12-30",
+          "location": 7,
+          "permit": "ZP791"
+        }
+      ],
+      "context": "Extensive M-GN areas among mountain, wetland, fish/wildlife and development districts west of Moosehead Lake. Map refers island zoning to separate Moosehead Lake Islands maps.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "01e774550a12039a8464d9f74edbfead66b6d2f28352405d642777c1bdb94c17",
+      "retrieved_at": "2026-09-22T16:25:28.499835+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/big-moose-twp.pdf"
+    },
+    "t2-r12-wels": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Adoption of digital NWI wetlands"
+        }
+      ],
+      "context": "P-SL2 corridors among lake, wetland, fish/wildlife and recreation districts near Caribou Lake and other ponds.",
+      "effective": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "9bed91c299ceba5e1ea0c7e42b316e1e30fe3ac6557a8f4c7034506a3eff0a52",
+      "retrieved_at": "2026-09-22T16:25:27.778916+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t2-r12-wels.pdf"
+    }
+  },
+  "review": "Manual inspection of three full-page PyMuPDF renders and enlarged notes. No tracing or coordinate derivation.",
+  "shared_caveats": [
+    "Map notes defer to Chapter 10 rules where mapped and described boundaries conflict.",
+    "Some wetland and stream protections are not drawn; water-dependent districts can follow water locations on the ground.",
+    "Recorded dates are document statements, not a legal-currency determination.",
+    "PDF context cannot certify exact repeated-vertex topology, surveyed boundaries, access or buildability."
+  ]
+}

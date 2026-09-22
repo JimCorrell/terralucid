@@ -1,0 +1,38 @@
+[
+  {
+    "id": "publisher-page",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html"
+  },
+  {
+    "id": "layer-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson"
+  },
+  {
+    "id": "map-index",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=MAP+IN+%28%27big-moose-twp%27%2C%27t2-r12-wels%27%2C%27barnard-twp%27%29&outFields=%2A&returnGeometry=false&f=json"
+  },
+  {
+    "id": "native-27257109",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27257109&outFields=%2A&returnGeometry=true&f=json&outSR=26919"
+  },
+  {
+    "id": "geojson-27257109",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27257109&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919"
+  },
+  {
+    "id": "native-27321193",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27321193&outFields=%2A&returnGeometry=true&f=json&outSR=26919"
+  },
+  {
+    "id": "geojson-27321193",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27321193&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919"
+  },
+  {
+    "id": "native-27303187",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27303187&outFields=%2A&returnGeometry=true&f=json&outSR=26919"
+  },
+  {
+    "id": "geojson-27303187",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27303187&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919"
+  }
+]

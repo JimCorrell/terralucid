@@ -1,0 +1,210 @@
+{
+  "rows": [
+    {
+      "verification": {
+        "verified_at": "2026-09-22T16:29:20.862968+00:00",
+        "investigation_audit_present": true,
+        "investigation_occurrences": 1,
+        "source_observations": 12,
+        "three_cases_still_held": true,
+        "ranking_audit_present": true,
+        "ranking_occurrences": 1,
+        "ranking_snapshot_current": true,
+        "wrong_source_rejected": true,
+        "old_snapshot_rejected": true,
+        "activation_audit_present": true,
+        "activation_occurrences": 1,
+        "new_features_effective_holds_cleared": true,
+        "county_rows": 120449,
+        "original_total_holds": 183,
+        "original_zoning_holds": 162,
+        "county_fingerprints_unchanged": true,
+        "effective_total_holds": 169,
+        "effective_zoning_holds": 148,
+        "qualified_rows": 0,
+        "accepted": [
+          {
+            "object_id": 27207268,
+            "correction_id": "a0f01e34a133492da74c5635ec5d0eeb4641775354ff2cce754d2861f6a0bc35",
+            "candidate_sha256": "0d121d894fd418c3f71f885790bd4bdd4d1981fed5a542237f508835a964bf98",
+            "geometry_event_id": "6d49364cc221c47e27e3ee9ed1d3eefc1f4381c7b41c45e665ea511cdc61ab16",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          },
+          {
+            "object_id": 27208875,
+            "correction_id": "238fa17758515d1028c1e6bf69c0086f37d0a6170550982a3c7e9b10b3e57d1f",
+            "candidate_sha256": "bec5fedbfad1d20f3c055eb94ebf13443e898c2c23bc4dcc202065b93cfe5982",
+            "geometry_event_id": "4b97de472bf8ba81a56b46e7dc6394699482374d2d8634ec31bc8606ce31bfdd",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          },
+          {
+            "object_id": 27224591,
+            "correction_id": "b8c30faf9f498b096ccbb3e69fd10d11025d6870d6241c66e1a5e5dc59c9fd47",
+            "candidate_sha256": "db78a66cadf76b947901a0f1370a8fde2de6855dc40196888da70159e2420bd5",
+            "geometry_event_id": "66413560f74fc91a18c9688e4dcc94c43b7d0525973c2403235bfedd54ef2b14",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          },
+          {
+            "object_id": 27233351,
+            "correction_id": "27882a5f5a0efae7d9c519a29cd513da2fbd80f4bd39ce9324253b3eeaa1e5d3",
+            "candidate_sha256": "35d6945df890b3eeae2691244040488cdcd90fe9945df1ef3df1efdf8b5f651e",
+            "geometry_event_id": "e7a7a18ffdb836742b915573e7cda97cad35d161a49dce08de16600b7dd1ad31",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          },
+          {
+            "object_id": 27243652,
+            "correction_id": "a5b87372c4944a92caf9ecf48f51dea92e7f9ded992dce6b4682421d32c3c14a",
+            "candidate_sha256": "37b9fbaa5e28c176e38eb06593d5ba285707256f75672410d7b2980e05787804",
+            "geometry_event_id": "fc1d6968d29ade7f5f1c499ec9902b33b86ef42abb2d0392b5be7e8c414e6964",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          },
+          {
+            "object_id": 27249007,
+            "correction_id": "c916460613425b3431bbd549b0424d4ec5ea629fff6bc7e379f8fbdf621b8f8a",
+            "candidate_sha256": "63a8d72b865ff1543accf8b0831a0a9a6baac343844fe8f5dedd16aa1bfe0d09",
+            "geometry_event_id": "9461ad650fb93ff085159e107e11dd64031cf60ac9dd95e567ba6d7cecc9b197",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          },
+          {
+            "object_id": 27270812,
+            "correction_id": "3b0dac42bb781dc5cd2c4f7a3cc627b4d64ab2d47b997ffebde7fbc0ebe6085c",
+            "candidate_sha256": "ca169c3ab9bcb181c9e3533cb83b5463eb443b5d29ea1e866ccd61dfe5040a6a",
+            "geometry_event_id": "ae4e5cfaddb8d73100f497173c1386e8f07e9cae84128a002e9cb6083a4622ad",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          },
+          {
+            "object_id": 27291625,
+            "correction_id": "75228c9dab20e577d6d2a4011a16e1847aa94ab2107097116ce76daa8e11b1f4",
+            "candidate_sha256": "6c080b3c394a2a3da1d9989cd2040d57cbae7ee4120a9edd82416e31297e7b23",
+            "geometry_event_id": "c409ce31b99d3b8a8f0e80334735eda52c006d6f103c59c8fc02ef504ace6dd0",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          },
+          {
+            "object_id": 27304757,
+            "correction_id": "4a78f4fa910dfea90cbabc5226220c4181a4e78fe9fb14d0ce06b02a1f9c8a7a",
+            "candidate_sha256": "47b5a125668da3580220741a6430dcfba6e558d0c85bad26bd7cae51d437a148",
+            "geometry_event_id": "7cfa01611b5311df343ab41705332468b5ad4765496d6e7cf3f2221460ce79d3",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          },
+          {
+            "object_id": 27314083,
+            "correction_id": "7f60016e1845f21d72eb1647ddf20b2a31b7696aea1de932d2232bc6f6408c7e",
+            "candidate_sha256": "683a3d597134954658d3662d7ea1c036ca03dc89f913e02c3318693c2dae04be",
+            "geometry_event_id": "9baf6690763e73b3d7af05a2f37e5862e2419396325096e9be1de0ec6edf0732",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          },
+          {
+            "object_id": 27316137,
+            "correction_id": "e02fadfb0958695378c9994625a790762585a9c26007471d02883c2f85317025",
+            "candidate_sha256": "10681813bf3740c2cd0fe3774fc02b223aef9f58b436c1b4918a9aa4beadcc81",
+            "geometry_event_id": "d8ba2f9f7da75efcd2c138e57376042a79f374fedc5b2bf989cc8fdb23a8ef94",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          },
+          {
+            "object_id": 27320676,
+            "correction_id": "208a70d608c6ce48cb2005e3fa88fbc01ef50b38310a1c0318203fe1fddd7b79",
+            "candidate_sha256": "c7c4bbfc3746445a4c0346510d1cdf16020d6a80f726eae3f02dd7af99d36382",
+            "geometry_event_id": "d4518c29e8d13ffd30a64a900088e0811d24d3b7eea4f6ce4606d4c109fe77b3",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          },
+          {
+            "object_id": 27334504,
+            "correction_id": "1923fce64a18116ebc9cda52b44d6dff59a631934da6e9939ed8da1fad035843",
+            "candidate_sha256": "178f59b92aa942bdec0d6eafe800fa2650f054d5bc29a48cc1bd8b2670914ae9",
+            "geometry_event_id": "75820753f2a02a4540be8e1c3f6cd234bf8b3ef9a3cb1e10b69e4e65aa08b55a",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          },
+          {
+            "object_id": 27336229,
+            "correction_id": "fcaad291ce0bd47697a9283c36277baf34c00007d4e54bda2b6288ecb50507c8",
+            "candidate_sha256": "bd94a4d7263ed27e9c9062c00ddd399090bc6eda8e6e39fd445be4359860994f",
+            "geometry_event_id": "9db1feeb15415f022bd101d754231c0384a92b18ae3d1aefda0e5179b153855b",
+            "effective_scope_relation": "interior",
+            "valid": true,
+            "srid": 26919
+          }
+        ],
+        "snapshots": [
+          {
+            "snapshot_id": "d0756dd73405ebd6ae3aa3a72db2d91a9f2fd5a74355e1324f628c14f25bc4c9",
+            "source_audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259",
+            "needs_revisit": true
+          },
+          {
+            "snapshot_id": "6953a46ca94beb0c5fa74bac958926d015afb78c65ccfe28c35b08fc10f9d048",
+            "source_audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259",
+            "needs_revisit": true
+          },
+          {
+            "snapshot_id": "7a862e0e28a8d54afd6c5a58c0964a5482393836fc2af767cad80b42e26a20f8",
+            "source_audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259",
+            "needs_revisit": true
+          },
+          {
+            "snapshot_id": "bcd341fe5cd1d7afe0a2d79a1e58991c5e4c954f6f8f64add9592a8cfca89eed",
+            "source_audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259",
+            "needs_revisit": true
+          },
+          {
+            "snapshot_id": "7d750c5646a7e6368835db664092e4941e14908f35369a19d90863bacbddd492",
+            "source_audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259",
+            "needs_revisit": false
+          }
+        ],
+        "finding_reviews": [
+          {
+            "finding_id": "TL-F-0022",
+            "event_id": "9de17af9073931f245d5bce23d553518949f8f14c4f22355f2700504a8e22fdb",
+            "status": "in_progress",
+            "priority": "high",
+            "next_action": "Review explicit native-ring decoding for Alfred 439584, then test a separately versioned geometry interpretation in ingestion; keep original GeoJSON and revisit other invalid cases independently.",
+            "occurrence_count": 8
+          },
+          {
+            "finding_id": "TL-F-0029",
+            "event_id": "07cc418b242d9e6ab1740f8996d5da3d0928c5eaf43e25c59a768f6e1d7456aa",
+            "status": "in_progress",
+            "priority": "high",
+            "next_action": "Review exact Big Moose 27257109, T2 R12 WELS 27321193 and Barnard 27303187 proposal hashes; extend/test bounded acceptance, activate supported versions and refresh ranking. Retain 148 zoning and 21 parcel holds and county qualification follow-ups. Resolve amendment metadata discrepancies before legal-currency use: Big Moose index 2016-01-30 versus PDF amendments through 2022-12-30, and T1 R11 index 2005-08-18 versus PDF ZP770 2018-04-26.",
+            "occurrence_count": 18
+          },
+          {
+            "finding_id": "TL-F-0109",
+            "event_id": "3882de3a73b11d225c0e9e49cb537d4828b19c121edf7def01aeb87507b3efd9",
+            "status": "in_progress",
+            "priority": "medium",
+            "next_action": "Ask LUPC for the controlling record or written interpretation for Osborn CID 230595 and case 22-01-0871P, including whether the 2016 reference incorporates this LOMR and the applicable effective date. Preserve the answer and distinguish it from the FEMA mask inquiry.",
+            "occurrence_count": 6
+          }
+        ],
+        "archive_bucket_private": true
+      }
+    }
+  ]
+}
