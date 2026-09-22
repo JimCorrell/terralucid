@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid Big Moose T2 R12 Barnard acceptance",
+  "expected_event_id": "07cc418b242d9e6ab1740f8996d5da3d0928c5eaf43e25c59a768f6e1d7456aa",
+  "finding_id": "TL-F-0029",
+  "next_action": "Refresh ranking against seventeen accepted versions. Retain 145 zoning and 21 parcel holds, municipal applicability and wetland imagery follow-ups. Resolve amendment metadata before legal-currency use: Big Moose index 2016-01-30 versus PDF through 2022-12-30, and T1 R11 index 2005-08-18 versus PDF ZP770 2018-04-26.",
+  "note": "Activate exact reviewed Big Moose, T2 R12 and Barnard versions after bounded validator and lifecycle tests. Preserve originals, fourteen earlier accepted versions and both amendment metadata discrepancies.",
+  "priority": "high",
+  "status": "in_progress"
+}

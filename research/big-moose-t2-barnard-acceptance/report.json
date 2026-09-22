@@ -1,0 +1,70 @@
+{
+  "baseline_snapshot_id": "7d750c5646a7e6368835db664092e4941e14908f35369a19d90863bacbddd492",
+  "corrections": [
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "3af908280f999ad5cecb6193ce3b789afc0cc0387f1fa88db39b199a38a918ac",
+        "event_id": "bc020097f2f30c4e8a0fd8c5ef71eb0b0428f243e0aecfb2d80c536e7f6ba1d8",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "c2dab2de99284559c7db97c00afbc9e9214bddbc465306b86ae5b65aacdd3b1a",
+      "correction_id": "3af908280f999ad5cecb6193ce3b789afc0cc0387f1fa88db39b199a38a918ac",
+      "object_id": 27257109,
+      "source_feature_sha256": "488bb5fbceb67327c91788e8f0eaee8edc0dc28774fc5ebcfeb6b25ef5ef0314",
+      "source_input_sha256": "1cc1b7e094ef0e5a09ff56012680b660469338c820cf4066bb50b2b8550fbd82"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "e37ce9f525fb4115e971c35e2416d22e7175dcb70cc4559bfdd58c2811189e1f",
+        "event_id": "96c28c5cff9c5e7781ef34006da24edb89834a0fa2adaa796280d19ec43898a5",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "f7efca43ffe1ac0678c87209c0dccfda888625b0ca13481d957cf24933dd1444",
+      "correction_id": "e37ce9f525fb4115e971c35e2416d22e7175dcb70cc4559bfdd58c2811189e1f",
+      "object_id": 27321193,
+      "source_feature_sha256": "f3273c7f40f6f2a5d00ca530b0467b89e4dcc7ecc9f3f10fd62a99fbee1803e6",
+      "source_input_sha256": "734ee5b8799bd5d49ab3ce795b441886a3b242acc1436b63e505da9d02c2cf51"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "22721e582a79785b6db0f57517c5341c2a558623a433e2a3aa5205be0877257d",
+        "event_id": "d0a54ef2d316ae7cdb751022c1afbd8e8bc43a5b24ad881eb90abf01c1816eff",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "280aca979d53d306a11d210d157d3de3e293bd9af6eebcdb181d0accd06dad31",
+      "correction_id": "22721e582a79785b6db0f57517c5341c2a558623a433e2a3aa5205be0877257d",
+      "object_id": 27303187,
+      "source_feature_sha256": "a9b6cba93491292c3de77e5471e0bb11b36a6e3ee0de5b95ba6a1cbaf65291e6",
+      "source_input_sha256": "35f4e214f688dfe1a64c48484ca89a0c710a00a3d78f189bc83122a4727ab751"
+    }
+  ],
+  "evidence_state": "DERIVED",
+  "expected_effective_total_holds": 166,
+  "expected_effective_zoning_holds": 145,
+  "expected_original_total_holds": 183,
+  "expected_original_zoning_holds": 162,
+  "inputs": {
+    "research/big-moose-t2-barnard-acceptance/baseline.json": "9f2e941a572dd0b6a46d135480831846cc512c7b36552669cbf55ae18b98c3ba",
+    "research/big-moose-t2-barnard/report.json": "eca57f7cce399a9f4de70d6096c4adf002f79d5528927983374e19d51c5d6a50",
+    "research/piscataquis-ingestion/transport-verification.json": "78f7a6d43b1312917f58a28c3981924df6eb65552efc545bfa429b53c00f0272",
+    "scripts/prepare_big_moose_t2_barnard_acceptance.py": "29829707a9f048f683e3c6d4fa1e1d2af757eac5dd6f11d354cf5fe016f05933",
+    "supabase/migrations/20260922030000_big_moose_t2_barnard_acceptance.sql": "33f30281da02e9a4a4479b77dd58e28187b9ddfa9eec55d21598a6a56ac08f7e"
+  },
+  "limits": [
+    "Geometry interpretations only, not legal zoning or surveyed boundaries.",
+    "Other county holds, municipal applicability, parcel identity and wetland age remain unresolved. Big Moose index amendment date 2016-01-30 versus PDF amendments through 2022-12-30 and T1 R11 index amendment date 2005-08-18 versus PDF ZP770 effective 2018-04-26 remains open; geometry acceptance does not resolve legal currency.",
+    "Three additional exact versions only; preserve the prior fourteen corrections. New captures require new review."
+  ],
+  "method": "scripts/prepare_big_moose_t2_barnard_acceptance.py",
+  "method_sha256": "29829707a9f048f683e3c6d4fa1e1d2af757eac5dd6f11d354cf5fe016f05933",
+  "proposal_audit_sha256": "eca57f7cce399a9f4de70d6096c4adf002f79d5528927983374e19d51c5d6a50",
+  "qualified_for_parcel_screening": false,
+  "review_audit_sha256": "eca57f7cce399a9f4de70d6096c4adf002f79d5528927983374e19d51c5d6a50",
+  "source_audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259"
+}

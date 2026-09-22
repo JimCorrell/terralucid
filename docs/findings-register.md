@@ -178,3 +178,10 @@ supports three exact contact interpretations pending bounded acceptance. Fourtee
 acceptances and current holds remain unchanged. TL-F-0029 also records Big Moose's
 index AMEND_DATE 2016-01-30 versus PDF amendments through 2022-12-30, alongside the
 unresolved T1 R11 discrepancy. Neither geometry interpretation establishes legal currency.
+
+The [PR #43 activation](../research/big-moose-t2-barnard-acceptance/README.md)
+accepts Big Moose, T2 R12 WELS and Barnard after bounded validator and history tests.
+Seventeen accepted versions leave 145 zoning and 21 parcel holds. The
+[seventeen-correction ranking](../research/seventeen-correction-ranking/README.md)
+uses the new snapshot. TL-F-0029 retains Big Moose and T1 R11 amendment metadata
+follow-ups alongside remaining geometry and county qualification issues.

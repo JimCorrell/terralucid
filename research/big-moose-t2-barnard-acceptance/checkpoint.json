@@ -1,0 +1,20 @@
+{
+  "accepted_count": 17,
+  "archive_verification": {
+    "new_downloads": 8,
+    "reverified_prior_downloads": 6,
+    "verified": 14
+  },
+  "audit_sha256": "5706404c305240e90e460184ff6d3f138b89c92f6a105e287e8dea7d1fe10463",
+  "both_amendment_discrepancies_retained": true,
+  "effective_total_holds": 166,
+  "effective_zoning_holds": 145,
+  "finding_event_id": "0336d53d556dcdb43c72d3ade7cba9d2916e19382b29a4888c0216fc6dd9b86f",
+  "geometry_snapshot_id": "9c6eaf3da53ce57b66ecdb200d3abf72d11d38bd3fcdd8db5fe41a7cde62151c",
+  "load_sha256": "fa36370d4ad7780197365d97f42d7a723d2e48d626506572f18533602ed090e1",
+  "original_fingerprints_unchanged": true,
+  "other_findings_unchanged": true,
+  "previous_acceptance_versions_unchanged": true,
+  "qualified_rows": 0,
+  "verified_at": "2026-09-22T16:37:17.558621+00:00"
+}

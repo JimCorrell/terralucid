@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid seventeen-correction ranking refresh",
+  "expected_event_id": "0336d53d556dcdb43c72d3ade7cba9d2916e19382b29a4888c0216fc6dd9b86f",
+  "finding_id": "TL-F-0029",
+  "next_action": "Investigate T7 R12 WELS 27213354, Rainbow Township 27313589 and T9 R10 WELS 27278243 using original/native geometry and official maps; recheck snapshot currency first. Retain 21 parcel holds, municipal applicability and wetland imagery follow-ups. Resolve amendment metadata before legal-currency use: Big Moose index 2016-01-30 versus PDF through 2022-12-30, and T1 R11 index 2005-08-18 versus PDF ZP770 2018-04-26.",
+  "note": "Refreshed all 145 remaining zoning holds against seventeen exact accepted versions. Preserve original sources and historical rankings; envelope-based investigation bounds are not parcel screening or legal coverage.",
+  "priority": "high",
+  "status": "in_progress"
+}
