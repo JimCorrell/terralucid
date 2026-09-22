@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid Big Moose T2 R12 Barnard investigation",
+  "expected_event_id": "67f51f5c19e92169982a86ef76ef8afa47f6af6de45e9640f3f5893258b08958",
+  "finding_id": "TL-F-0029",
+  "next_action": "Review exact Big Moose 27257109, T2 R12 WELS 27321193 and Barnard 27303187 proposal hashes; extend/test bounded acceptance, activate supported versions and refresh ranking. Retain 148 zoning and 21 parcel holds and county qualification follow-ups. Resolve amendment metadata discrepancies before legal-currency use: Big Moose index 2016-01-30 versus PDF amendments through 2022-12-30, and T1 R11 index 2005-08-18 versus PDF ZP770 2018-04-26.",
+  "note": "All three source-preserving contact interpretations pass fixed cycle/fill checks; native records match originals, while all service GeoJSON variants remain invalid. Big Moose and Barnard have shell/hole contacts; T2 R12 has two touching-hole pairs. Maps and Big Moose amendment metadata discrepancy retained. Proposals only; fourteen accepted versions unchanged.",
+  "priority": "high",
+  "status": "in_progress"
+}

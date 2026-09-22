@@ -72,3 +72,7 @@ __pycache__/
 /research/latest-three-zoning-priorities/runs/**/*.response
 /research/latest-three-zoning-priorities/candidates/
 /research/latest-three-zoning-priorities/diagnostics/
+
+/research/big-moose-t2-barnard/runs/**/*.response
+/research/big-moose-t2-barnard/candidates/
+/research/big-moose-t2-barnard/diagnostics/

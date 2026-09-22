@@ -172,3 +172,9 @@ history tests. Fourteen accepted versions leave 148 zoning and 21 parcel holds.
 The [fourteen-correction ranking](../research/fourteen-correction-ranking/README.md)
 uses the new snapshot. TL-F-0029 remains in progress and carries the unresolved
 T1 R11 amendment-date discrepancy into both activation and ranking reviews.
+
+The [Big Moose / T2 R12 / Barnard investigation](../research/big-moose-t2-barnard/README.md)
+supports three exact contact interpretations pending bounded acceptance. Fourteen
+acceptances and current holds remain unchanged. TL-F-0029 also records Big Moose's
+index AMEND_DATE 2016-01-30 versus PDF amendments through 2022-12-30, alongside the
+unresolved T1 R11 discrepancy. Neither geometry interpretation establishes legal currency.

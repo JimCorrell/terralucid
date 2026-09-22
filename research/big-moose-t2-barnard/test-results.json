@@ -1,0 +1,46 @@
+{
+  "authentic_cases": [
+    {
+      "candidate_sha256": "c2dab2de99284559c7db97c00afbc9e9214bddbc465306b86ae5b65aacdd3b1a",
+      "exact_cycle_roles": true,
+      "fill_difference_m2": 0.0,
+      "object_id": 27257109,
+      "source_faces": 75
+    },
+    {
+      "candidate_sha256": "f7efca43ffe1ac0678c87209c0dccfda888625b0ca13481d957cf24933dd1444",
+      "exact_cycle_roles": true,
+      "fill_difference_m2": 0.0,
+      "object_id": 27321193,
+      "source_faces": 223
+    },
+    {
+      "candidate_sha256": "280aca979d53d306a11d210d157d3de3e293bd9af6eebcdb181d0accd06dad31",
+      "exact_cycle_roles": true,
+      "fill_difference_m2": 0.0,
+      "object_id": 27303187,
+      "source_faces": 213
+    }
+  ],
+  "checks": [
+    "All three fresh native features exactly match the original county records.",
+    "Fixed serialized candidates preserve segment multiplicity, shell/hole cycle roles and common ownership of touching holes.",
+    "Separate ray-crossing classification matches all 511 source faces; same GEOS engine, not independent publisher evidence.",
+    "Wrong CRS, incomplete responses, changed source/geometry, missing holes, shared edges, overlapping loops and unsupported walks rejected.",
+    "Scenario union handles overlapping proposals and accepted baseline without double counting.",
+    "Nested-shell fixtures verify multiple holes choose the innermost owner; wrong ownership and missing enclosing holes rejected.",
+    "Authentic candidates retain the expected shell/hole and two-touching-hole contact patterns."
+  ],
+  "passed": true,
+  "runtime": {
+    "GEOS": "3.11.4",
+    "numpy": "2.0.2",
+    "shapely": "2.0.7"
+  },
+  "test_files": {
+    "tests/test_big_moose_t2_barnard.py": "1a1dc2fa969fd15ca80fdc525263285eb139008df2129c94afe520ff8e0d65c7",
+    "tests/test_moosehead_spencer.py": "f755d929c6ce4fbd7fde468cbd907ae16c85cf080a60bc97f55ce22dc95391df",
+    "tests/test_moosehead_spencer_review.py": "6fd9af43009b590ded0f73c877ee16b9a5f237fe4c99adfac56c83b37077076b"
+  },
+  "tests_run": 23
+}
