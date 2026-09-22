@@ -1,0 +1,17 @@
+{
+  "archive_objects_verified": 161,
+  "audit_sha256": "6b8896283cc6637d5d2dc77c51fe1fe28f2600f64c76ef25649f05893ad418eb",
+  "effective_total_holds": 175,
+  "effective_zoning_holds": 154,
+  "eight_accepted_versions_unchanged": true,
+  "finding_event_id": "bfdf9755d4a69f7ebc9f483bb73e1c0738daa07ec911a3e243fc8ac51900dba0",
+  "geometry_snapshot_id": "7a862e0e28a8d54afd6c5a58c0964a5482393836fc2af767cad80b42e26a20f8",
+  "load_sha256": "7487f4f2a1d567edb622e981cd3c8074b0fc10054aede60ccedf249adeea8e8e",
+  "new_objects_uploaded_and_downloaded": 10,
+  "original_county_fingerprints_unchanged": true,
+  "other_finding_events_unchanged": true,
+  "previous_independent_downloads_reverified": 151,
+  "qualified_rows": 0,
+  "snapshot_current": true,
+  "verified_at": "2026-09-22T14:31:54.245511+00:00"
+}

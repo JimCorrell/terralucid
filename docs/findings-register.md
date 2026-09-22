@@ -139,3 +139,8 @@ activates the reviewed East Middlesex Canal Grant, T7 R11 WELS and T4 R11 WELS
 versions after validator and lifecycle tests. Original holds remain in history;
 effective holds become 154 zoning and 21 parcel holds. TL-F-0029 stays in progress
 and calls for ranking recomputation against all eight correction versions.
+
+The [eight-correction ranking](../research/eight-correction-ranking/README.md)
+refreshes all 154 remaining zoning holds. TL-F-0029 keeps T4 R13 WELS, T7 R9 WELS
+and T6 R15 WELS as the next bounded investigation group, subject to snapshot
+currency checks; other county qualification issues remain open.

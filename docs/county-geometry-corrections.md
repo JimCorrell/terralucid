@@ -49,12 +49,11 @@ explicit extension; do not update immutable history.
 
 ## Dependencies for downstream analysis
 
-The [refreshed zoning-hold ranking](../research/county-ranking-refresh/README.md)
-is a downstream result bound to a correction snapshot. It remains an investigation
-priority list, not a county screening result. Its five-correction snapshot becomes
-stale after the three PR #36 acceptances; recompute before using the ranking.
-Consumers must integrate this protocol
-before persisting or using county results:
+The [eight-correction zoning-hold ranking](../research/eight-correction-ranking/README.md)
+is the refreshed downstream result after PR #37. It is bound to the eight-correction
+snapshot and remains an investigation priority list, not a county screening result.
+The historical five-correction ranking is stale and preserved for comparison.
+Consumers must integrate this protocol before persisting or using county results:
 
 1. Use PostgreSQL’s default READ COMMITTED isolation. In the same transaction
    as reading effective inputs, call
