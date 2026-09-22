@@ -167,3 +167,15 @@ Unassessed suitability is neither a clearance nor a rejection and does not block
 general discovery. Material suitability unknowns remain offer-readiness blockers
 for purchase candidates. This records workflow intent; no new load or automated
 trigger is implemented by this documentation change.
+
+## Initial area evidence qualification
+
+Following merged PR #52, implement read-only, topic-specific qualification over
+an explicitly selected county inventory audit and geometry snapshot. Preserve
+source identities, accepted geometry versions, held-envelope uncertainty and
+unresolved findings. Return evidence and limits rather than a blanket parcel
+approval. Pin dependencies and check them before reuse. Keep septic/buildability
+investigations purchase-triggered; soils/terrain availability remains a separate
+source-preparation task. The first implementation uses private local packets and
+administrative read-only queries, with no new canonical parcel schema or data
+promotion. See [area qualification](area-qualification.md).

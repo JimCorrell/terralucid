@@ -1,0 +1,37 @@
+{
+  "unit_tests": {
+    "command": "python3 -m unittest discover -s tests -p test_area_qualification.py",
+    "passed": 18
+  },
+  "postgis_integration": {
+    "command": "python3 tests/check_area_qualification_sql.py",
+    "passed": [
+      "indexed native and projected candidates",
+      "accepted extent outside original bbox retained",
+      "remote valid feature excluded",
+      "unlocated hold retained",
+      "source parcel lookup",
+      "absent subject fails closed",
+      "read-only extraction preserves fixtures"
+    ],
+    "environment": "Disposable PostGIS17-3.5; synthetic fixture tables; container removed"
+  },
+  "archived_Orneville_regression": {
+    "source_report": "research/county-readiness/report.json",
+    "sha256": "bccb31dd5d50ad971ccfbfd9b9071e769ad694334cdb02b468150b4fcb259fa1",
+    "base_product": "230465A",
+    "catalog_letters": 27,
+    "geometry": "synthetic test AOI; no live parcel applicability claim"
+  },
+  "live_validation": {
+    "status": "BLOCKED",
+    "attempted_scope": "500 m radius diagnostic area clipped to archived Orneville civil boundary",
+    "errors": [
+      "EAUTHQUERY unsupported or invalid secret format",
+      "EAUTHQUERY auth_query secret check timed out",
+      "LegacyDbConfigLoginRoleStatusError: Failed to create login role: Connection terminated due to connection timeout (544)"
+    ],
+    "result": "No live packet or live freshness check certified. Stalled task clients stopped. Retry capture and check when Supabase connection recovers."
+  },
+  "database_mutations": false
+}

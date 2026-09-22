@@ -26,3 +26,9 @@ Reviewed zoning geometry follows the same exact-version policy through
 `ingest.corrected_zoning_feature`. Consumers use `ingest.zoning_screening_latest`
 and inspect `needs_revisit`; geometry review changes preserve prior results and
 flag dependent calculations. See [geometry history](zoning-geometry-corrections.md).
+
+The initial [area qualification consumer](area-qualification.md) builds a private,
+read-only evidence packet for an AOI or assessment source record. It checks
+coverage, holds, source conflicts and dependencies separately by topic. It does
+not change the county inventory's qualification flags or establish canonical
+parcel identity, legal applicability or offer readiness.
