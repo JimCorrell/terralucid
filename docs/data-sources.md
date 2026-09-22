@@ -125,6 +125,12 @@ separate evidence requirements.
 Requested after the county readiness review; both remain **pending investigation**.
 These are planned work items, not observed dataset defects or completed loads.
 
+Qualify and make soils and elevation/terrain data readily available across the
+study area, independent of purchase interest in any individual parcel. Source
+coverage, provenance and quality checks belong to this data preparation stage.
+Parcel-specific septic suitability, usable building areas and siting analysis
+are triggered only when a parcel is selected for purchase investigation.
+
 - **Soil boundaries / septic screening:** qualify the candidate USDA SSURGO
   coverage for Piscataquis County, map-unit boundaries and component/limitation
   attributes. Check identifiers, dates, mapping scale, geometry quality and
@@ -133,12 +139,13 @@ These are planned work items, not observed dataset defects or completed loads.
   soil polygon intersection into septic approval.
 - **Topography / slope buildability:** qualify candidate USGS/Maine elevation
   or LiDAR coverage, acquisition dates, resolution, vertical accuracy, units,
-  datum and missing-data areas. Define reproducible slope calculations and
-  assess potentially usable portions of a parcel, including access and septic
-  siting implications. Keep slope evidence separate from legal buildability and
+  datum and missing-data areas. Define reproducible slope calculations for later
+  purchase-candidate analysis of usable areas, access and septic siting. Keep slope evidence separate from legal buildability and
   site approval; no source product, cutoff or scoring weight is selected yet.
 
 Here “topography” means terrain elevation and slope, as requested for buildability;
-geometry topology remains a separate shape-validity concern. Carry both pending
-investigations into parcel/AOI evidence packets as unknown until qualified, and
-record any discovered source deficiencies in the private findings register.
+geometry topology remains a separate shape-validity concern. Keep data availability/quality status separate from parcel suitability status.
+For parcels without purchase interest, suitability is not yet assessed and is
+not a discovery gate. For purchase candidates, carry unresolved suitability
+questions into due diligence. Record discovered source deficiencies in the
+private findings register.

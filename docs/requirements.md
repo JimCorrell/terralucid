@@ -15,6 +15,13 @@ Find remote, rural, private Maine property suitable for the user's intended base
 
 ## Due diligence and readiness
 
+Keep qualified soils and terrain data readily available across the study area
+for retrieval and later analysis. Trigger parcel-specific septic suitability and
+buildability investigations only when the user selects a parcel for purchase
+investigation. Unassessed suitability does not block general discovery or data
+availability and must not be presented as either suitable or unsuitable. For a
+purchase candidate, resolve material suitability unknowns before offer readiness.
+
 - Investigate legal access, deed and title, easements, recorded plans, road status, zoning, septic suitability, and practical buildability.
 - Investigate soil map-unit boundaries and attributes for septic screening, retaining mapping scale, boundary uncertainty, source dates and within-unit variability; require site-specific evaluation for suitability.
 - Investigate topography/elevation for slope-related buildability, retaining elevation resolution, accuracy, datum, acquisition date and slope calculation method. Evaluate usable areas within a parcel rather than relying only on parcel-average slope; no suitability threshold is established yet.
