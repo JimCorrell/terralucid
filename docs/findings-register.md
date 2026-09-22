@@ -214,3 +214,11 @@ Shawtown (June24/25 versus July2/21,2015) and T1 R11 (April13/26,2018).
 TL-F-0029 remains in progress; final signed decisions and original filings
 are the next evidence targets. No source date is replaced, no legal currency
 is established, and no county qualification or geometry hold is changed.
+
+The [signed ZP750/ZP770 reconciliation](../research/zp750-zp770-dates/README.md)
+establishes the dates stated in the final decisions: June 25, 2015 and April 26,
+2018. Both agree with map amendment rows. TL-F-0029 retains the unexplained
+filing/annual-report variance (including newly observed April 24, 2018), original
+source dates, other map follow-ups and county qualification limits. Original
+filings and recorded maps/agency reconciliation remain necessary if exact
+historical legal effectiveness becomes material to a parcel or transaction.

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "legacy-index-2015",
+    "url": "https://www.maine.gov/sos/cec/rules/notices/2015/index.html",
+    "format": "html",
+    "discovery": "Legacy archive path candidate; successful HTTP response alone does not establish document identity.",
+    "retrieved_at": "2026-09-22T18:14:18.590771+00:00",
+    "http_status": 404,
+    "final_url": "https://www.maine.gov/sos/cec/rules/notices/2015/index.html",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "legacy-index-2015.response",
+    "sha256": "c7c112ec4e6f515b96bcc49cd252f0ad82871fc1d62b80ce889d3848fde0d690",
+    "bytes": 89211,
+    "status": "HTTP_ERROR",
+    "pdf_signature": false
+  },
+  {
+    "id": "legacy-index-2018",
+    "url": "https://www.maine.gov/sos/cec/rules/notices/2018/index.html",
+    "format": "html",
+    "discovery": "Legacy archive path candidate; successful HTTP response alone does not establish document identity.",
+    "retrieved_at": "2026-09-22T18:14:19.678109+00:00",
+    "http_status": 404,
+    "final_url": "https://www.maine.gov/sos/cec/rules/notices/2018/index.html",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "legacy-index-2018.response",
+    "sha256": "41ece8ed0c12f48f38675ac4de6216a2764eed3e33df4b9820d709931b596786",
+    "bytes": 89148,
+    "status": "HTTP_ERROR",
+    "pdf_signature": false
+  },
+  {
+    "id": "legacy-notice-070815",
+    "url": "https://www.maine.gov/sos/cec/rules/notices/2015/070815.html",
+    "format": "html",
+    "discovery": "Bounded candidate weekly notice following conflicting dates; identity must be checked.",
+    "retrieved_at": "2026-09-22T18:14:20.776265+00:00",
+    "http_status": 404,
+    "final_url": "https://www.maine.gov/sos/cec/rules/notices/2015/070815.html",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "legacy-notice-070815.response",
+    "sha256": "4f7033b9b28a2d5252a4c4ed59cc867018addd976b2938fa3755e09d95386c63",
+    "bytes": 89323,
+    "status": "HTTP_ERROR",
+    "pdf_signature": false
+  },
+  {
+    "id": "legacy-notice-042518",
+    "url": "https://www.maine.gov/sos/cec/rules/notices/2018/042518.html",
+    "format": "html",
+    "discovery": "Bounded candidate weekly notice following conflicting dates; identity must be checked.",
+    "retrieved_at": "2026-09-22T18:14:22.178206+00:00",
+    "http_status": 404,
+    "final_url": "https://www.maine.gov/sos/cec/rules/notices/2018/042518.html",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "legacy-notice-042518.response",
+    "sha256": "0756eccbc985121fca30c1567219512bf06f63d99d163fc814d9095d0b8b3054",
+    "bytes": 89257,
+    "status": "HTTP_ERROR",
+    "pdf_signature": false
+  }
+]

@@ -138,3 +138,9 @@ The [map-date investigation](../research/map-date-investigation/README.md) recor
 corroborated historical amendments separately from conflicting official dates.
 Do not use map-index amendment dates or document edit timestamps as proof of
 current legal zoning. Geometry acceptance and date evidence remain independent.
+
+For ZP750 and ZP770, the [signed-decision reconciliation](../research/zp750-zp770-dates/README.md)
+now supplies explicit historical `decision_stated_effective_date` values with
+source checksum and page provenance. Carry the open filing variance and UNKNOWN
+current legal applicability; do not overwrite index dates or clear geometry,
+legal or qualification holds from this evidence.

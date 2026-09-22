@@ -1,0 +1,24 @@
+[
+  {
+    "id": "signed-zp750",
+    "url": "https://www.maine.gov/dacf/lupc/signedpermits/zp750.pdf",
+    "format": "pdf",
+    "discovery": "Candidate path inferred from observed signedpermits naming pattern; verify response before treating as evidence."
+  },
+  {
+    "id": "signed-zp770",
+    "url": "https://www.maine.gov/dacf/lupc/signedpermits/zp770.pdf",
+    "format": "pdf",
+    "discovery": "Candidate path inferred from observed signedpermits naming pattern; verify response before treating as evidence."
+  },
+  {
+    "id": "annual-2018-summary",
+    "url": "https://legislature.maine.gov/doc/2687",
+    "format": "pdf"
+  },
+  {
+    "id": "sos-archive",
+    "url": "https://www.maine.gov/sos/rulemaking/notices/rulemaking-notices-prior-years",
+    "format": "html"
+  }
+]

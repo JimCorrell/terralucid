@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "map": "shawtown-twp",
+      "petition": "ZP750",
+      "decision_date": "2015-06-10",
+      "decision_stated_effective_date": "2015-06-25",
+      "decision_evidence_state": "VERIFIED",
+      "signed_evidence": "initial/signed-zp750",
+      "identity_page": 1,
+      "effective_date_page": 14,
+      "signed_document_pages": 14,
+      "signature_observation": "Visible signature above Nicholas D. Livesay, Executive Director; decision is not labeled draft. No independent signature authentication performed.",
+      "other_observed_dates": [
+        {
+          "date": "2015-06-24",
+          "meaning": "Index AMEND_DATE and EFFECTIVE_DATE; map effective paragraph",
+          "prior_evidence": [
+            "detail/map-index",
+            "official/shawtown-twp"
+          ]
+        },
+        {
+          "date": "2015-06-25",
+          "meaning": "Map ZP750 amendment row; draft decision",
+          "prior_evidence": [
+            "official/shawtown-twp",
+            "official/zp750-draft"
+          ]
+        },
+        {
+          "date": "2015-07-02",
+          "meaning": "Annual detail labels effective date, filing 2015-119",
+          "prior_evidence": [
+            "official/zp750-annual-detail"
+          ]
+        },
+        {
+          "date": "2015-07-21",
+          "meaning": "Annual summary labels effective date, filing 2015-119",
+          "prior_evidence": [
+            "official/zp750-annual-summary"
+          ]
+        }
+      ],
+      "finding": "The final signed decision agrees with the map amendment row and supersedes reliance on the unsigned draft for this action. The June24 paragraph/index and July2/21 annual entries remain unexplained conflicting observations.",
+      "reconciliation_status": "historical_decision_date_established_filing_variance_open",
+      "interpretation_state": "DERIVED",
+      "selected_history_field": "decision_stated_effective_date",
+      "selection_reason": "Direct signed action-specific decision explicitly states this date; corroborated by the map amendment row. Preserve all contrary observations.",
+      "source_value_replacement": null,
+      "legal_currency": "UNKNOWN",
+      "next_action": "If exact historical legal effectiveness is material to a parcel or transaction, obtain original filing and recorded map/agency reconciliation. Do not treat annual-report discrepancies as resolved or automatically relabel them filing/publication dates.",
+      "signed_document_sha256": "e239ed62b9d2922dea74a51b758b353b2a3a9fc799b66f649d4711227662f42a"
+    },
+    {
+      "map": "t1-r11-wels",
+      "petition": "ZP770",
+      "decision_date": "2018-04-11",
+      "decision_stated_effective_date": "2018-04-26",
+      "decision_evidence_state": "VERIFIED",
+      "signed_evidence": "initial/signed-zp770",
+      "identity_page": 1,
+      "effective_date_page": 7,
+      "signed_document_pages": 8,
+      "signature_observation": "Visible handwritten signature above the printed Nicholas D. Livesay, Executive Director line; do not infer signer identity from handwriting. Decision is not labeled draft. Page8 is an attached map.",
+      "other_observed_dates": [
+        {
+          "date": "2005-08-18",
+          "meaning": "Index AMEND_DATE (older than action)",
+          "prior_evidence": [
+            "detail/map-index"
+          ]
+        },
+        {
+          "date": "2018-04-26",
+          "meaning": "Map ZP770 amendment row; draft decision",
+          "prior_evidence": [
+            "official/t1-r11-wels",
+            "detail/zp770-packet"
+          ]
+        },
+        {
+          "date": "2018-04-13",
+          "meaning": "Annual detail labels effective date, filing 2018-067",
+          "prior_evidence": [
+            "retry/zp770-annual-retry"
+          ]
+        },
+        {
+          "date": "2018-04-24",
+          "meaning": "Newly captured annual summary labels effective date, filing 2018-067",
+          "evidence": "initial/annual-2018-summary",
+          "page": 4
+        }
+      ],
+      "finding": "The signed decision agrees with the map amendment row and draft. The 2018 annual summary introduces a third date (April24) alongside April13 in the detailed annual report. No evidence establishes either as the filing date or a superseding decision.",
+      "reconciliation_status": "historical_decision_date_established_filing_variance_open",
+      "interpretation_state": "DERIVED",
+      "selected_history_field": "decision_stated_effective_date",
+      "selection_reason": "Direct signed action-specific decision explicitly states this date; corroborated by the map amendment row. Preserve all contrary observations.",
+      "source_value_replacement": null,
+      "legal_currency": "UNKNOWN",
+      "next_action": "If exact historical legal effectiveness is material to a parcel or transaction, obtain original filing and recorded map/agency reconciliation. Do not treat annual-report discrepancies as resolved or automatically relabel them filing/publication dates.",
+      "signed_document_sha256": "187f7f466c2bc9a749fc218b42e71b4c163d723dd6e81211318dcd87df6fdc23"
+    }
+  ],
+  "review_method": "Manual visual comparison of complete identity and signed effective-date pages, and annual summary table p4. Source PDFs are scans; text extraction returned no text for either decision. Original PDFs were not OCR-modified. File page numbers are one-based.",
+  "limits": [
+    "Decision-stated historical date is established; actual legal operation, completeness of later amendments, and current parcel-specific applicability remain UNKNOWN.",
+    "Original filings 2015-119 and 2018-067 were not obtained. Current SOS archive has no 2015/2018 entries; four bounded legacy candidates returned HTTP404. This is a search limit, not evidence records are absent.",
+    "Annual summary/date differences may be clerical or procedural, but no explanation is proven. No officials contacted.",
+    "The signedpermits URLs were inferred from observed publisher naming conventions, then identity and signatures verified by inspecting the returned PDFs."
+  ],
+  "remaining_other_map_followups": "Preserve Big Moose, Beaver Cove, Bowdoin College Grant West, T1 R13 historical corroboration/currentness limits and Orneville ZP796 follow-up from PR47."
+}

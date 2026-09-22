@@ -1,0 +1,21 @@
+{
+  "scope": "Reconcile ZP750 and ZP770 historical decision dates; preserve source and filing contradictions.",
+  "sources": [
+    {
+      "id": "lupc-zoning",
+      "name": "Signed LUPC decisions, official annual summary and filing search evidence",
+      "publisher": "Maine LUPC and Secretary of State via Legislature",
+      "rights": "Private research archive; redistribution rights not established.",
+      "probe_ids": [
+        "annual-2018-summary",
+        "legacy-index-2015",
+        "legacy-index-2018",
+        "legacy-notice-042518",
+        "legacy-notice-070815",
+        "signed-zp750",
+        "signed-zp770",
+        "sos-archive"
+      ]
+    }
+  ]
+}

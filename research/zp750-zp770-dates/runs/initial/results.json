@@ -1,0 +1,60 @@
+[
+  {
+    "id": "signed-zp750",
+    "url": "https://www.maine.gov/dacf/lupc/signedpermits/zp750.pdf",
+    "format": "pdf",
+    "discovery": "Candidate path inferred from observed signedpermits naming pattern; verify response before treating as evidence.",
+    "retrieved_at": "2026-09-22T18:12:53.925782+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/signedpermits/zp750.pdf",
+    "content_type": "application/pdf",
+    "response_file": "signed-zp750.response",
+    "sha256": "e239ed62b9d2922dea74a51b758b353b2a3a9fc799b66f649d4711227662f42a",
+    "bytes": 711288,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "signed-zp770",
+    "url": "https://www.maine.gov/dacf/lupc/signedpermits/zp770.pdf",
+    "format": "pdf",
+    "discovery": "Candidate path inferred from observed signedpermits naming pattern; verify response before treating as evidence.",
+    "retrieved_at": "2026-09-22T18:12:54.384690+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/signedpermits/zp770.pdf",
+    "content_type": "application/pdf",
+    "response_file": "signed-zp770.response",
+    "sha256": "187f7f466c2bc9a749fc218b42e71b4c163d723dd6e81211318dcd87df6fdc23",
+    "bytes": 4621582,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "annual-2018-summary",
+    "url": "https://legislature.maine.gov/doc/2687",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T18:12:55.180309+00:00",
+    "http_status": 200,
+    "final_url": "https://legislature.maine.gov/doc/2687",
+    "content_type": "application/pdf",
+    "response_file": "annual-2018-summary.response",
+    "sha256": "d0f996c5472dd5f62f1e8fe86eb2b5a0cb939a061e387efefd3cf90fa1cc0075",
+    "bytes": 774258,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "sos-archive",
+    "url": "https://www.maine.gov/sos/rulemaking/notices/rulemaking-notices-prior-years",
+    "format": "html",
+    "retrieved_at": "2026-09-22T18:12:56.600128+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/sos/rulemaking/notices/rulemaking-notices-prior-years",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "sos-archive.response",
+    "sha256": "19612b050b6a8623a5ea89e3e006464f74e6195be0aef87253890bad6c4d3b98",
+    "bytes": 152951,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

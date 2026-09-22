@@ -83,3 +83,6 @@ __pycache__/
 
 /research/map-date-investigation/runs/**/*.response
 /research/map-date-investigation/diagnostics/
+
+/research/zp750-zp770-dates/runs/**/*.response
+/research/zp750-zp770-dates/diagnostics/
