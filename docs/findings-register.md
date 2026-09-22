@@ -133,3 +133,9 @@ records East Middlesex Canal Grant, T7 R11 WELS and T4 R11 WELS together. Fresh
 native versions match the county source, and all three fixed proposals pass
 separate cycle/fill checks. TL-F-0029 retains exact-version validator extension
 and activation as the next action; all 157 zoning holds remain until acceptance.
+
+The [three-priority acceptance](../research/three-zoning-acceptance/README.md)
+activates the reviewed East Middlesex Canal Grant, T7 R11 WELS and T4 R11 WELS
+versions after validator and lifecycle tests. Original holds remain in history;
+effective holds become 154 zoning and 21 parcel holds. TL-F-0029 stays in progress
+and calls for ranking recomputation against all eight correction versions.

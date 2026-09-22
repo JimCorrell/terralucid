@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid county correction activation",
+  "expected_event_id": "bf33a4e36b93b9329b9639788c99f4ddeb9b3b1c81d718eda5851e34e39389c5",
+  "finding_id": "TL-F-0029",
+  "next_action": "Refresh the remaining 154 zoning-hold ranking against all eight accepted interpretations and the new dependency snapshot before choosing the next cases. Retain 21 parcel holds, municipal applicability and wetland imagery follow-ups; county inventory remains unqualified for parcel screening.",
+  "note": "Accept the three PR36 exact-source geometry interpretations after bounded validator and lifecycle tests; preserve originals, the five earlier approvals and all remaining county qualification issues.",
+  "priority": "high",
+  "status": "in_progress"
+}
