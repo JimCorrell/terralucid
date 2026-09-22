@@ -1,0 +1,26 @@
+[
+  {
+    "id": "legacy-index-2015",
+    "url": "https://www.maine.gov/sos/cec/rules/notices/2015/index.html",
+    "format": "html",
+    "discovery": "Legacy archive path candidate; successful HTTP response alone does not establish document identity."
+  },
+  {
+    "id": "legacy-index-2018",
+    "url": "https://www.maine.gov/sos/cec/rules/notices/2018/index.html",
+    "format": "html",
+    "discovery": "Legacy archive path candidate; successful HTTP response alone does not establish document identity."
+  },
+  {
+    "id": "legacy-notice-070815",
+    "url": "https://www.maine.gov/sos/cec/rules/notices/2015/070815.html",
+    "format": "html",
+    "discovery": "Bounded candidate weekly notice following conflicting dates; identity must be checked."
+  },
+  {
+    "id": "legacy-notice-042518",
+    "url": "https://www.maine.gov/sos/cec/rules/notices/2018/042518.html",
+    "format": "html",
+    "discovery": "Bounded candidate weekly notice following conflicting dates; identity must be checked."
+  }
+]

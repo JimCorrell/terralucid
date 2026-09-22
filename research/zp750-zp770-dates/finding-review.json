@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid ZP750/ZP770 signed-decision reconciliation",
+  "expected_event_id": "5ae4e427a628d38c38eb0f12e0217d014e72f33ead616ed14bd756dfca43caf7",
+  "finding_id": "TL-F-0029",
+  "status": "in_progress",
+  "priority": "high",
+  "note": "Signed decisions establish decision-stated historical effective dates: ZP750 June25,2015 (p14); ZP770 April26,2018 (p7). Preserve conflicting map/annual values; 2018 annual summary adds April24. Filing variance and current legal applicability remain unresolved; no source values or geometry changed.",
+  "next_action": "Use explicitly named decision_stated_effective_date with signed-source provenance for these two historical actions. On material parcel/transaction dependency, obtain original filings2015-119 and2018-067 and recorded maps/agency reconciliation; do not reinterpret annual dates without evidence. Retain Orneville ZP796 correction-record follow-up and remaining four map-currentness limits. County remains 134 zoning/21 parcel holds, 28 accepted versions, zero qualified rows; use current ranking and parcel-triggered review."
+}

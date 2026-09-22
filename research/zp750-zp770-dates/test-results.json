@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "tests": 6,
+  "checks": [
+    "review scope and pinned decision transcription",
+    "reject annual date substitution",
+    "reject legal-currency promotion",
+    "reject source-value replacement",
+    "reject closing filing variance",
+    "reject duplicate/out-of-scope cases"
+  ],
+  "test_file_sha256": "d3458dcbd5cbe1d56c3da53995f91da8688073c9583cc5d3880edf25fba96439"
+}
