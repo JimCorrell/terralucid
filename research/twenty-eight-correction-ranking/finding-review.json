@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid twenty-eight-correction ranking refresh",
+  "expected_event_id": "4d307e7eb8a09a0470e2e070d4dc12d68fb73063611915905f2d64d37a2dde8b",
+  "finding_id": "TL-F-0029",
+  "next_action": "Investigate the seven map-date follow-ups next. The refreshed geometry envelope priorities are t7-r12-wels 27213354, rainbow-twp 27313589, t9-r10-wels 27278243. Reassess diminishing returns before further broad geometry cleanup. Resolve legal-currency metadata: beaver-cove: Retain index AMEND_DATE 2012-09-04 versus PDF amendment 2022-12-30; legal currency unresolved.; orneville-twp: Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2024-08-01; legal currency unresolved.; bowdoin-college-grant-west-twp: Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2020-07-30; legal currency unresolved.; t1-r13-wels: Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2020-07-30; legal currency unresolved.; shawtown-twp: Retain index AMEND_DATE 2015-06-24 versus PDF amendment 2015-06-25; legal currency unresolved. PDF effective-date paragraph also says 2015-06-24 while ZP750 row says 2015-06-25. Prior follow-ups remain: Big Moose index 2016-01-30 versus PDF through 2022-12-30; T1 R11 index 2005-08-18 versus PDF ZP770 2018-04-26.",
+  "note": "Refreshed 134 remaining zoning holds against all 28 accepted exact versions. Preserve originals, all seven map-date follow-ups and county qualification limits.",
+  "priority": "high",
+  "status": "in_progress"
+}

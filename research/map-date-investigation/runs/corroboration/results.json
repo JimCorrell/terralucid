@@ -1,0 +1,24 @@
+[
+  {
+    "id": "zp791-project",
+    "url": "https://www.maine.gov/dacf/lupc/projects/moosehead_region_planning_project/moosehead_regional_planning.html",
+    "format": "html",
+    "retrieved_at": "2026-09-22T17:55:32.482198+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/projects/moosehead_region_planning_project/moosehead_regional_planning.html",
+    "content_type": "text/html",
+    "response_file": "zp791-project.response",
+    "sha256": "1ef088ff234f029d239fa441e7dd05ef7271d7387d322094832d775e2db1fb82",
+    "bytes": 28656,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "zp770-annual",
+    "url": "https://web.legis.maine.gov/doc/2688",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T17:55:32.733011+00:00",
+    "status": "REQUEST_FAILED",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'web.legis.maine.gov'. (_ssl.c:1129)>"
+  }
+]

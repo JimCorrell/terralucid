@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "production_load_sha256": "6f3fe7aa9ac2e51da146f3443d02dd52e3adccc7f5e045823fa2064a6f8eea8e",
+  "fixture_note": "Only snapshot/dependency and expected-finding-event bindings adapted to versions left by lifecycle tests. Production SQL unchanged.",
+  "checks": [
+    "stale finding-event rejection rolls back audit and observations",
+    "fixture-bound load and idempotent replay",
+    "exact geometry dependencies unchanged",
+    "25 source observations, one byte-less failure retained in logs",
+    "current finding event matches date-review manifest"
+  ]
+}

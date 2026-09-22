@@ -1,0 +1,16 @@
+[
+  {
+    "id": "zp770-annual-retry",
+    "url": "https://legislature.maine.gov/doc/2688",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T17:55:59.768541+00:00",
+    "http_status": 200,
+    "final_url": "https://legislature.maine.gov/doc/2688",
+    "content_type": "application/pdf",
+    "response_file": "zp770-annual-retry.response",
+    "sha256": "669e7773d889fafc845a3a7e0a74e94ca7a793bb964ba1b4143f351ac4794d09",
+    "bytes": 270806,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  }
+]

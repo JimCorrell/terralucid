@@ -1,0 +1,182 @@
+{
+  "baseline_snapshot_id": "9c6eaf3da53ce57b66ecdb200d3abf72d11d38bd3fcdd8db5fe41a7cde62151c",
+  "corrections": [
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "c8131e47faac4375297dd11c201098832422d0ad4951d4189b3e5888dca0b463",
+        "event_id": "3b7d01ea53fb8f118456d7daccfe84d201ebe409e97b8d8f29819c0a0e7c05d8",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "f0772ac8474146f921df9c98759bb38902cd58423639ce7d700b50fe66473068",
+      "correction_id": "c8131e47faac4375297dd11c201098832422d0ad4951d4189b3e5888dca0b463",
+      "object_id": 27342226,
+      "source_feature_sha256": "3c01585bccb437898c1b8d4258b3109958fd82af77701f975c6bd3459dbd24bd",
+      "source_input_sha256": "8a72c5540653c93300705e3b9d2c234fed59b925e8b891c8c977c1f7f4706129"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "64bbf6adf70ac1ecfd5661c2f4458eac248973c24aea345c329bd6e77de76daf",
+        "event_id": "4f04961945805c7e5a2b9ceaee3bc6aa6e0a4cb00e369c93952a0359bf663ce8",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "f11a46441747311447dcab1e9436e2741ec1b11498f4fb3656383de8d3869159",
+      "correction_id": "64bbf6adf70ac1ecfd5661c2f4458eac248973c24aea345c329bd6e77de76daf",
+      "object_id": 27365331,
+      "source_feature_sha256": "92e5befd9346b1d135bc5976d1ea2424fc51888ddc5b3c621afc1556157f6db5",
+      "source_input_sha256": "b6ed5ee1bbf5a2002ec00ac6bbe07ad9e1990f6a84c26c85736d8a011305f19e"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "963b72dd3a4b8b6699cb7ffc3572d2cc83f4860fa2e3e4126c15a5f95334db72",
+        "event_id": "7b7ee7a927c3e834d3bdd331b3b9154690bf280c3ba31fbdc5a27b7f8f62530c",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "e0117fb6eabe761d4172bafd58c13a98a69bbb8ed529c3e3cbd94a66fa363862",
+      "correction_id": "963b72dd3a4b8b6699cb7ffc3572d2cc83f4860fa2e3e4126c15a5f95334db72",
+      "object_id": 27364426,
+      "source_feature_sha256": "b48c9f80ff71bd50d60a74956c0f78cff5f0c4a30c285aa263e6c7fd6c6a63e4",
+      "source_input_sha256": "cf04442886bd0886ab0977e1ece6a8e767f330d199f57705788b8df4ac27f796"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "0c60b0596a68a2cb8eb736a964ba6a5a6be0617309ec01819fdf4f1f294a2388",
+        "event_id": "f97144b5fe389c5af052d8b1979fd29269e90f65e4da6008e5c8809b7601b1b5",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "15d3dda5c0c69f7c498b064eef71d82bfa23f4811f0d0b658f3305713833214f",
+      "correction_id": "0c60b0596a68a2cb8eb736a964ba6a5a6be0617309ec01819fdf4f1f294a2388",
+      "object_id": 27339379,
+      "source_feature_sha256": "ab49ad48501c519972961ddd4dd8797482ff34f6e109c8f895dbe361cbd7d04a",
+      "source_input_sha256": "9dfd746aef487771218d4a8324645cb791e118faa9ea515cf821475c5f6921cf"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "f0629491c42640a8316a1faa773ff3508946848221fd186cede85893b52792ab",
+        "event_id": "2fe84795416b568c6ebe952b5f78230bcd44715ec06e13acd4242d2909f66326",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "e1883491d7c59c10d170d67c4202f6db4964933a9e2df21474c89c91dfd630d6",
+      "correction_id": "f0629491c42640a8316a1faa773ff3508946848221fd186cede85893b52792ab",
+      "object_id": 27364538,
+      "source_feature_sha256": "ce4f55c24fcf326d897a6d4ff2ebc237b3a59716d542d4a319536d6e9a1cbd8c",
+      "source_input_sha256": "a0a82f36ce9059c54a825d1aa8086cf0d261849ad147d775ed184581a6ab0dee"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "6bd6448e518b5cd97bc83f006ed0f99f30b2545b8e59d9949c7814d36248b6cc",
+        "event_id": "2fdbce95036ff2edcdfb1dbe43b925e8284d00bc894c92764870b4af07b57ba2",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "298257fc6380b4114e5c4c34848c4b51bb4ac193c6d160223073c3f384e9011c",
+      "correction_id": "6bd6448e518b5cd97bc83f006ed0f99f30b2545b8e59d9949c7814d36248b6cc",
+      "object_id": 27324664,
+      "source_feature_sha256": "34e415961deb8274959c7b9cb53c4d61d1c7cdb3b88cf3ee145cfd4a0e1722f0",
+      "source_input_sha256": "076ffd2eaaa0ccdd174a25a48afe203f7732e5848ec8f902120307be84a909a9"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "65ad2c1b54b15582ccf6f11595d3dbeeaeafa7dcaf4bf623dff64d584eb7b8cc",
+        "event_id": "9cfdfa29909e722b8f5ff1c90d3435ec8cce69f537e81a69a0ef85293b0843ed",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "fe0d0512fff01a5c68aca16f2ab7fca944b4709c1585ac10313bec31dd365ffe",
+      "correction_id": "65ad2c1b54b15582ccf6f11595d3dbeeaeafa7dcaf4bf623dff64d584eb7b8cc",
+      "object_id": 27321394,
+      "source_feature_sha256": "716889fe5c55febe05b0ea992244ac8cd34d0771e0c3c195a2b8a56285bdd688",
+      "source_input_sha256": "fd562dc35db7f72949785698b54c1851d51f6fe007a7a9c01f6431fd7cc4c4ff"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "83f116a139cf522f151002b56df804c1644088049e2667f6a2d58404bcb7f362",
+        "event_id": "ef661b339a4a05349cddcaa11484dc7170ffafbe69030e6d16618f4f9cb0502a",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "5f6713d69ed2f5687722570c1b1348413c62318fdd09b40b27b03a38f1cc3de5",
+      "correction_id": "83f116a139cf522f151002b56df804c1644088049e2667f6a2d58404bcb7f362",
+      "object_id": 27366878,
+      "source_feature_sha256": "7c9abd250f1390b8114072650f3ea1d5bd1b3f56b9dd9bd0232eec8d1908e3e6",
+      "source_input_sha256": "ec30701eb64ae2cd8a0295d0ac1da106eb43cbf542a9b7c5a2ae246b38986d27"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "6652d9e34ddbacb31a2fa1b8764a1ecccffe61a18ff052958f17c4455aef001d",
+        "event_id": "4b771ec7df56500b0bf86c0754b9341720821571165a4969168b5626ba92be4a",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "f5d555f414f24c320c9a803dacbd62ddcd4fc51fe18310c40641d1e14fee9fec",
+      "correction_id": "6652d9e34ddbacb31a2fa1b8764a1ecccffe61a18ff052958f17c4455aef001d",
+      "object_id": 27261431,
+      "source_feature_sha256": "ca87c20c47f1112b642ed6ef3b24466ea2dde764d4bf47a75e85240428988502",
+      "source_input_sha256": "f9c69560105939d05042bb24759151685c95fa2de914d3c1146c02e93a527db5"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "48abff6e24c75e546eb0ccdcf6fb65db2377dbbc63461a1470a3b266fe503444",
+        "event_id": "b9ff0bde3be8eb703d0b6da70c60553aff487daed09224722703b7f94f391796",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "827137ad6a82060fdd495f1849a51e54f6607332d8249bfedff109fc18b3cce4",
+      "correction_id": "48abff6e24c75e546eb0ccdcf6fb65db2377dbbc63461a1470a3b266fe503444",
+      "object_id": 27304932,
+      "source_feature_sha256": "50b2ded8e7be7ff9a476763bd2a75994e7a1192a954f479793426e5e73a6037e",
+      "source_input_sha256": "4f56f9bcdbea716ff84ca5a7326b56de06a9f07e1c2fffb6355d5701cc4f2dd8"
+    },
+    {
+      "acceptance": {
+        "actor": "TerraLucid county correction activation",
+        "correction_id": "2c71194c669b2fb834e68cd33e92a8ff326df1b1cfd7f9209bf87a94a66d0be4",
+        "event_id": "2a0bf1a58410cb0a49c4e8d7ab061e501cf7f18f48a279646d35e09acd8b7662",
+        "note": "Accept the independently reviewed exact-version DERIVED representation; preserve original source, legal unknowns and other qualification holds.",
+        "status": "accepted"
+      },
+      "candidate_sha256": "391f4ca0ee3cf9580771f732cadbe5b898af4e892af445da6dc5c69246a97e0c",
+      "correction_id": "2c71194c669b2fb834e68cd33e92a8ff326df1b1cfd7f9209bf87a94a66d0be4",
+      "object_id": 27358396,
+      "source_feature_sha256": "8ba98dfdbc428d333e7908a0b02880f9a7c112e5d3c079fef381490d1cedb15b",
+      "source_input_sha256": "d82c3c312a769a9617f716e7f47b063c8690ef83454a0a96fcf171b8fb7f58bb"
+    }
+  ],
+  "evidence_state": "DERIVED",
+  "expected_effective_total_holds": 155,
+  "expected_effective_zoning_holds": 134,
+  "expected_original_total_holds": 183,
+  "expected_original_zoning_holds": 162,
+  "inputs": {
+    "research/piscataquis-ingestion/transport-verification.json": "78f7a6d43b1312917f58a28c3981924df6eb65552efc545bfa429b53c00f0272",
+    "research/ten-case-acceptance/baseline.json": "e5d8c79d31c104ed8b0ae84f26cedd775eb15a7b620223acc188b340447fd064",
+    "research/ten-case-zoning-review/report.json": "7f8aa420e8ad488e1cb4752b781488ef1489783282ab782bff99d109992f0221",
+    "scripts/prepare_ten_case_acceptance.py": "4344f3a18db4bc12042e5bc8d871da6a1d9587808f09692e2ec711752fba788a",
+    "supabase/migrations/20260922040000_ten_case_acceptance.sql": "37acdeedeeee6d30255cabfdfadee0e7c8aaa390c217c5e9acf4a4f885349609"
+  },
+  "limits": [
+    "Geometry interpretations only, not legal zoning or surveyed boundaries.",
+    "Other county holds, municipal applicability, parcel identity and wetland age remain unresolved. The five PR46 map-date follow-ups (Beaver Cove, Orneville, Bowdoin College Grant West, T1 R13 and Shawtown) remain open. Big Moose index amendment date 2016-01-30 versus PDF amendments through 2022-12-30 and T1 R11 index amendment date 2005-08-18 versus PDF ZP770 effective 2018-04-26 remains open; geometry acceptance does not resolve legal currency.",
+    "Eleven additional exact versions only; preserve the prior seventeen corrections. New captures require new review."
+  ],
+  "method": "scripts/prepare_ten_case_acceptance.py",
+  "method_sha256": "4344f3a18db4bc12042e5bc8d871da6a1d9587808f09692e2ec711752fba788a",
+  "proposal_audit_sha256": "7f8aa420e8ad488e1cb4752b781488ef1489783282ab782bff99d109992f0221",
+  "qualified_for_parcel_screening": false,
+  "review_audit_sha256": "7f8aa420e8ad488e1cb4752b781488ef1489783282ab782bff99d109992f0221",
+  "source_audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259"
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "zp770-agenda",
+    "url": "https://www.maine.gov/tools/whatsnew/attach.php?id=788689&an=1",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T17:54:20.972726+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/tools/whatsnew/attach.php?id=788689&an=1",
+    "content_type": "application/pdf",
+    "response_file": "zp770-agenda.response",
+    "sha256": "b4f16fbf59ee4927884c670dfa58751dfa585b4e8be51a0ab42f0777b98585d3",
+    "bytes": 90628,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "zp770-record",
+    "url": "https://www.maine.gov/tools/whatsnew/attach.php?id=788689&an=2",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T17:54:21.276709+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/tools/whatsnew/attach.php?id=788689&an=2",
+    "content_type": "application/pdf",
+    "response_file": "zp770-record.response",
+    "sha256": "080b9a50743b681fc515dba314a37f2d50f2de40dd037b8fef42c1cea967201b",
+    "bytes": 90912,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "zp750-record",
+    "url": "https://www.maine.gov/tools/whatsnew/attach.php?id=644302&an=2",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T17:54:21.561291+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/tools/whatsnew/attach.php?id=644302&an=2",
+    "content_type": "application/pdf",
+    "response_file": "zp750-record.response",
+    "sha256": "c58d2bdbe71fded391585041397ffa5c1f2d41e7cbe96c0e0feaa20eae6db384",
+    "bytes": 23138,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "zp791-agenda",
+    "url": "https://www.maine.gov/tools/whatsnew/attach.php?id=9644000&an=1",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T17:54:21.774004+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/tools/whatsnew/attach.php?id=9644000&an=1",
+    "content_type": "application/pdf",
+    "response_file": "zp791-agenda.response",
+    "sha256": "f9e5a0689c3c1840f0c580f34288c45b13fed1534a10149ec5360bb5fbfe6b71",
+    "bytes": 201422,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "june2024-agenda",
+    "url": "https://www.maine.gov/tools/whatsnew/attach.php?id=12754886&an=1",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T17:54:22.057480+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/tools/whatsnew/attach.php?id=12754886&an=1",
+    "content_type": "application/pdf",
+    "response_file": "june2024-agenda.response",
+    "sha256": "eea63878e7e1a917a23fbcbe42c1d7feb2f5745fe15e6f305d6ba287cabb1173",
+    "bytes": 190611,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  }
+]

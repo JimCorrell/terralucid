@@ -1,0 +1,134 @@
+{
+  "cases": [
+    {
+      "map": "big-moose-twp",
+      "pdf_latest_listed_amendment": "2022-12-30",
+      "petition": "ZP791",
+      "date_evidence_state": "VERIFIED",
+      "interpretation_state": "DERIVED",
+      "investigation_status": "corroborated_history",
+      "evidence_refs": [
+        "official/big-moose-twp",
+        "detail/map-index",
+        "corroboration/zp791-project",
+        "official/zp707b-decision"
+      ],
+      "finding": "Official completed-project page corroborates December 30, 2022; signed termination decision p19 corroborates July 30, 2020. Index amendment value predates both.",
+      "legal_currency": "UNKNOWN",
+      "proposed_source_value_replacement": null,
+      "next_action": "Retain independently evidenced amendment history; verify completeness and applicable current zoning when a parcel triggers due diligence."
+    },
+    {
+      "map": "beaver-cove",
+      "pdf_latest_listed_amendment": "2022-12-30",
+      "petition": "ZP791",
+      "date_evidence_state": "VERIFIED",
+      "interpretation_state": "DERIVED",
+      "investigation_status": "corroborated_history",
+      "evidence_refs": [
+        "official/beaver-cove",
+        "detail/map-index",
+        "corroboration/zp791-project",
+        "official/zp707b-decision"
+      ],
+      "finding": "Same two regional actions as Big Moose; map-index value predates both.",
+      "legal_currency": "UNKNOWN",
+      "proposed_source_value_replacement": null,
+      "next_action": "Retain independently evidenced amendment history; verify completeness and applicable current zoning when a parcel triggers due diligence."
+    },
+    {
+      "map": "bowdoin-college-grant-west-twp",
+      "pdf_latest_listed_amendment": "2020-07-30",
+      "petition": "ZP707B",
+      "date_evidence_state": "VERIFIED",
+      "interpretation_state": "DERIVED",
+      "investigation_status": "corroborated_history",
+      "evidence_refs": [
+        "official/bowdoin-college-grant-west-twp",
+        "detail/map-index",
+        "official/zp707b-decision",
+        "official/zp707b-page"
+      ],
+      "finding": "Signed decision pp1-2 identifies affected locality; p19 establishes July 30, 2020 effective date.",
+      "legal_currency": "UNKNOWN",
+      "proposed_source_value_replacement": null,
+      "next_action": "Retain independently evidenced amendment history; verify completeness and applicable current zoning when a parcel triggers due diligence."
+    },
+    {
+      "map": "t1-r13-wels",
+      "pdf_latest_listed_amendment": "2020-07-30",
+      "petition": "ZP707B",
+      "date_evidence_state": "VERIFIED",
+      "interpretation_state": "DERIVED",
+      "investigation_status": "corroborated_history",
+      "evidence_refs": [
+        "official/t1-r13-wels",
+        "detail/map-index",
+        "official/zp707b-decision",
+        "official/zp707b-page"
+      ],
+      "finding": "Signed decision p2 identifies affected locality; p19 establishes July 30, 2020 effective date.",
+      "legal_currency": "UNKNOWN",
+      "proposed_source_value_replacement": null,
+      "next_action": "Retain independently evidenced amendment history; verify completeness and applicable current zoning when a parcel triggers due diligence."
+    },
+    {
+      "map": "t1-r11-wels",
+      "pdf_latest_listed_amendment": "2018-04-26",
+      "petition": "ZP770",
+      "date_evidence_state": "VERIFIED",
+      "interpretation_state": "DERIVED",
+      "investigation_status": "conflicting_official_dates",
+      "evidence_refs": [
+        "official/t1-r11-wels",
+        "detail/map-index",
+        "detail/zp770-packet",
+        "retry/zp770-annual-retry"
+      ],
+      "finding": "Map and unsigned draft packet PDF p11 state April 26, 2018; official annual report PDF p26 identifies filing 2018-067 but labels April 13, 2018 as effective. Do not substitute either date as authoritative.",
+      "legal_currency": "UNKNOWN",
+      "proposed_source_value_replacement": null,
+      "next_action": "Obtain final signed decision and original filing; reconcile effective-date meanings before selecting a canonical date."
+    },
+    {
+      "map": "orneville-twp",
+      "pdf_latest_listed_amendment": "2024-08-01",
+      "petition": "ZP796",
+      "date_evidence_state": "VERIFIED",
+      "interpretation_state": "DERIVED",
+      "investigation_status": "map_text_correction",
+      "evidence_refs": [
+        "official/orneville-twp",
+        "detail/map-index",
+        "official/orneville-twp",
+        "detail/map-index"
+      ],
+      "finding": "Map p1 describes a clerical FEMA-adoption-text correction, not evidence of a new flood boundary. Index last_edited_date_text is 8/1/2024; FEMA_Effective_Date matches map FIRM date April 17, 1987. Final correction record not located.",
+      "legal_currency": "UNKNOWN",
+      "proposed_source_value_replacement": null,
+      "next_action": "Obtain ZP796 correction record and prior map text if a parcel depends on Orneville flood zoning; do not infer FEMA coverage from this edit."
+    },
+    {
+      "map": "shawtown-twp",
+      "pdf_latest_listed_amendment": "2015-06-25",
+      "petition": "ZP750",
+      "date_evidence_state": "VERIFIED",
+      "interpretation_state": "DERIVED",
+      "investigation_status": "conflicting_official_dates",
+      "evidence_refs": [
+        "official/shawtown-twp",
+        "detail/map-index",
+        "official/zp750-draft",
+        "official/zp750-annual-detail",
+        "official/zp750-annual-summary"
+      ],
+      "finding": "Map amendment row and unsigned draft packet PDF p17 say June 25, 2015; map paragraph and index say June 24. Annual detail PDF p33 says July 2; annual summary PDF p4 says July 21, both filing 2015-119. Distinct meanings or transcription errors are possible but unproven.",
+      "legal_currency": "UNKNOWN",
+      "proposed_source_value_replacement": null,
+      "next_action": "Obtain final signed decision and original filing; reconcile effective-date meanings before selecting a canonical date."
+    }
+  ],
+  "review_method": "Manual document comparison. PDF page numbers are one-based file pages. Signed ZP707B p19 and annual-report conflict rows visually inspected. Draft packets are corroborating context, not final decisions. Seven official map amendment blocks reviewed; index field aliases provide no definition guaranteeing latest amendment currency.",
+  "search_limits": "Searched petition numbers and locality/date combinations; followed official commission calendar and project links. Meeting records link audio, not signed decisions; audio was not transcribed. June 2024 agenda does not list ZP796; absence is not evidence of no action. First annual-report host failed and was preserved; canonical Legislature host succeeded. No officials contacted.",
+  "downstream_policy": "Store initial adoption, initial effective date, amendment history, document edit timestamps and FEMA reference dates separately. Never choose max(date) as legal currency. Preserve every conflicting source value. No geometry, source metadata or qualification changes."
+}

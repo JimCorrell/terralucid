@@ -200,3 +200,17 @@ follow-ups: Beaver Cove, Bowdoin College Grant West, T1 R13 WELS, Orneville and
 Shawtown (including a one-day internal PDF discrepancy). Big Moose and T1 R11
 remain open. Katahdin's two-contact interpretation is a bounded proposal, not
 a general repair or accepted correction.
+
+The [PR #46 activation](../research/ten-case-acceptance/README.md) accepts all
+eleven reviewed exact versions after full fixture and lifecycle checks. There
+are now 28 acceptances, 134 zoning holds and 21 parcel holds. The
+[28-correction ranking](../research/twenty-eight-correction-ranking/README.md)
+uses the new snapshot and preserves prior evidence.
+
+The [seven-map date investigation](../research/map-date-investigation/README.md)
+corroborates four historical amendment sequences and records Orneville's
+clerical-text update. It exposes additional official-date conflicts for
+Shawtown (June24/25 versus July2/21,2015) and T1 R11 (April13/26,2018).
+TL-F-0029 remains in progress; final signed decisions and original filings
+are the next evidence targets. No source date is replaced, no legal currency
+is established, and no county qualification or geometry hold is changed.

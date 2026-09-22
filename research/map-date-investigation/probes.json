@@ -1,0 +1,82 @@
+[
+  {
+    "id": "calendar",
+    "url": "https://www.maine.gov/dacf/lupc/about/calendar/calendar_archive.shtml",
+    "format": "other"
+  },
+  {
+    "id": "zp707b-page",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/resourceplans/moosehead_prp014.html",
+    "format": "other"
+  },
+  {
+    "id": "zp707b-decision",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/resourceplans/moosehead/zp707B_WeyerhaeuserPetition/decision/zp707b.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "zp750-draft",
+    "url": "https://www.maine.gov/dacf/lupc/agenda_items/061015/CommMemo_ZP750_Medawisla.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "zp750-annual-detail",
+    "url": "https://www.legislature.maine.gov/doc/988",
+    "format": "pdf"
+  },
+  {
+    "id": "zp750-annual-summary",
+    "url": "https://legislature.maine.gov/doc/1011",
+    "format": "pdf"
+  },
+  {
+    "id": "zp791-draft-attachments",
+    "url": "https://www.maine.gov/dacf/lupc/agenda_items/121422/Moosehead-Regional-Planning/Attachments_1-7.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "zp791-memo",
+    "url": "https://www.maine.gov/dacf/lupc/agenda_items/121422/Moosehead-Regional-Planning/MooseheadRPP_FinalPackageAdoption_Memo_12072022.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "index-metadata",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0?f=pjson",
+    "format": "other"
+  },
+  {
+    "id": "big-moose-twp",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/big-moose-twp.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "t1-r11-wels",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t1-r11-wels.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "beaver-cove",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/beaver-cove.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "bowdoin-college-grant-west-twp",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/bowdoin-college-grant-west-twp.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "t1-r13-wels",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t1-r13-wels.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "orneville-twp",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/orneville-twp.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "shawtown-twp",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/shawtown-twp.pdf",
+    "format": "pdf"
+  }
+]
