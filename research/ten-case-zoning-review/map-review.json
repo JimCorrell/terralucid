@@ -1,0 +1,303 @@
+{
+  "evidence_state": "DERIVED",
+  "maps": {
+    "beaver-cove": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2003-06-05",
+          "permit": "ZP676"
+        },
+        {
+          "effective": "2005-08-18",
+          "remark": "Digital NWI wetlands adoption"
+        },
+        {
+          "effective": "2007-11-22",
+          "permit": "ZP712"
+        },
+        {
+          "effective": "2009-10-08",
+          "permit": "ZP707"
+        },
+        {
+          "effective": "2010-08-19",
+          "permit": "ZP707A"
+        },
+        {
+          "effective": "2012-09-04",
+          "permit": "ZP739"
+        },
+        {
+          "effective": "2020-07-30",
+          "permit": "ZP707B"
+        },
+        {
+          "effective": "2022-12-30",
+          "permit": "ZP791"
+        }
+      ],
+      "context": "M-GN areas around mountain, pond, wetland and development districts; two map panels, island zoning referred to separate Moosehead Lake Islands maps.",
+      "date_discrepancy": "Retain index AMEND_DATE 2012-09-04 versus PDF amendment 2022-12-30; legal currency unresolved.",
+      "effective": "2005-08-18",
+      "index_amend_date": "2012-09-04",
+      "latest_listed_amendment": "2022-12-30",
+      "page": 1,
+      "pdf_sha256": "36bb211bc6e91f114f00b957e6d49217c118141d51b1a36e4d806c0c3ec5bcaa",
+      "retrieved_at": "2026-09-22T17:11:39.132807+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/beaver-cove.pdf"
+    },
+    "bowdoin-college-grant-west-twp": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Digital NWI wetlands adoption"
+        },
+        {
+          "effective": "2009-10-08",
+          "permit": "ZP707"
+        },
+        {
+          "effective": "2010-08-19",
+          "permit": "ZP707A"
+        },
+        {
+          "effective": "2020-07-30",
+          "permit": "ZP707B"
+        }
+      ],
+      "context": "P-SL2 corridors among mountain, wetland and recreation districts near Wilson ponds.",
+      "date_discrepancy": "Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2020-07-30; legal currency unresolved.",
+      "effective": "2005-08-18",
+      "index_amend_date": "2005-08-18",
+      "latest_listed_amendment": "2020-07-30",
+      "page": 1,
+      "pdf_sha256": "11657ed8bddbcc28b1f4353470c7fc17d6a4e6cc86798a3bfb7af972f88f74b0",
+      "retrieved_at": "2026-09-22T17:11:38.133703+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/bowdoin-college-grant-west-twp.pdf"
+    },
+    "katahdin-iron-works-twp": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Digital NWI wetlands adoption"
+        }
+      ],
+      "context": "P-SL2 stream corridors among wetlands and ponds; P-UA historical-site protection note. Map supports context, not exact contact coordinates.",
+      "effective": "2005-08-18",
+      "index_amend_date": "2005-08-18",
+      "latest_listed_amendment": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "86d751aa35a3cd159be16be362b0d8d7953732d0c76891902b2f90d89cb7b8e7",
+      "retrieved_at": "2026-09-22T17:11:35.964561+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/katahdin-iron-works-twp.pdf"
+    },
+    "orneville-twp": {
+      "additional_note": "PDF describes ZP796 2024-08-01 as clerical correction to FEMA-adoption text and identifies FIRM dated 1987-04-17. No flood-zone geometry or legal applicability is inferred here.",
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2003-06-05",
+          "permit": "ZP678"
+        },
+        {
+          "effective": "2005-08-18",
+          "remark": "Digital NWI wetlands adoption"
+        },
+        {
+          "effective": "2024-08-01",
+          "permit": "ZP796"
+        }
+      ],
+      "context": "P-SL2 corridors around wetlands and ponds with residential/general development; separate FEMA-adoption note.",
+      "date_discrepancy": "Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2024-08-01; legal currency unresolved.",
+      "effective": "2005-08-18",
+      "index_amend_date": "2005-08-18",
+      "latest_listed_amendment": "2024-08-01",
+      "page": 1,
+      "pdf_sha256": "415da35e6fcc57a236accb0f6d6073df362c37aaa1e0ddfb53bf4fa6ffb11437",
+      "retrieved_at": "2026-09-22T17:11:39.895006+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/orneville-twp.pdf"
+    },
+    "shawtown-twp": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Digital NWI wetlands adoption"
+        },
+        {
+          "effective": "2015-06-25",
+          "permit": "ZP750"
+        }
+      ],
+      "context": "P-SL2 corridors among wetlands and ponds; recreation districts around Little and Second Roach ponds.",
+      "date_discrepancy": "Retain index AMEND_DATE 2015-06-24 versus PDF amendment 2015-06-25; legal currency unresolved. PDF effective-date paragraph also says 2015-06-24 while ZP750 row says 2015-06-25.",
+      "effective": "2015-06-24",
+      "index_amend_date": "2015-06-24",
+      "latest_listed_amendment": "2015-06-25",
+      "page": 1,
+      "pdf_sha256": "055ae23dfd0bfa8eb4acd289bd1f94eff91e294cf92c3b11c0a72444f11054c3",
+      "retrieved_at": "2026-09-22T17:11:41.620900+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/shawtown-twp.pdf"
+    },
+    "t1-r13-wels": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Digital NWI wetlands adoption"
+        },
+        {
+          "effective": "2009-10-08",
+          "permit": "ZP707"
+        },
+        {
+          "effective": "2010-08-19",
+          "permit": "ZP707A"
+        },
+        {
+          "effective": "2020-07-30",
+          "permit": "ZP707B"
+        }
+      ],
+      "context": "P-SL2 corridors around wetlands and ponds north of First Roach Pond; Kokadjo map title.",
+      "date_discrepancy": "Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2020-07-30; legal currency unresolved.",
+      "effective": "2005-08-18",
+      "index_amend_date": "2005-08-18",
+      "latest_listed_amendment": "2020-07-30",
+      "page": 1,
+      "pdf_sha256": "8ca3bff7b86f04c1792a45d46d4d99b570415681c0eac6d70dffe76d223cf0dd",
+      "retrieved_at": "2026-09-22T17:11:35.353727+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t1-r13-wels.pdf"
+    },
+    "t3-r13-wels": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Digital NWI wetlands adoption"
+        }
+      ],
+      "context": "P-SL2 corridors among wetlands west of Caribou and Chesuncook lakes.",
+      "effective": "2005-08-18",
+      "index_amend_date": "2005-08-18",
+      "latest_listed_amendment": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "ae88962ff2d2abef2846a2aae72b56913243796cf4c008970a96482444c657d6",
+      "retrieved_at": "2026-09-22T17:11:36.987221+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t3-r13-wels.pdf"
+    },
+    "t4-r12-wels": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Digital NWI wetlands adoption"
+        }
+      ],
+      "context": "P-SL2 corridors east of Chesuncook Lake around wetlands and pond/recreation districts.",
+      "effective": "2005-08-18",
+      "index_amend_date": "2005-08-18",
+      "latest_listed_amendment": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "79af413ff1514a588401e5c2ec61b89230fcd02cc59239adcc890ed1a70aeabf",
+      "retrieved_at": "2026-09-22T17:11:36.443706+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t4-r12-wels.pdf"
+    },
+    "t4-r9-nwp": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Digital NWI wetlands adoption"
+        }
+      ],
+      "context": "P-SL2 corridors among wetlands west and around Schoodic Lake.",
+      "effective": "2005-08-18",
+      "index_amend_date": "2005-08-18",
+      "latest_listed_amendment": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "0e01f89a405251f72f4a18470a74f992281231ed0aead3936d6408cc49f84b4c",
+      "retrieved_at": "2026-09-22T17:11:37.541824+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t4-r9-nwp.pdf"
+    },
+    "t5-r14-wels": {
+      "adopted": "1999-09-16",
+      "amendments": [
+        {
+          "effective": "2001-05-31",
+          "permit": "ZP654"
+        },
+        {
+          "effective": "2002-06-27",
+          "permit": "ZP654A"
+        },
+        {
+          "effective": "2002-12-26",
+          "permit": "ZP672"
+        }
+      ],
+      "context": "P-SL2 corridors west of Chesuncook Lake among ponds, wetlands and recreation districts.",
+      "effective": "1999-10-01",
+      "index_amend_date": "2002-12-26",
+      "latest_listed_amendment": "2002-12-26",
+      "page": 1,
+      "pdf_sha256": "6d41698d4f1dd8af3cc46d22f60923a84e55e158ee7882e8e27c67017e62a4a1",
+      "retrieved_at": "2026-09-22T17:11:40.458651+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t5-r14-wels.pdf"
+    },
+    "t7-r10-wels": {
+      "adopted": "2005-08-03",
+      "amendments": [
+        {
+          "effective": "2005-08-18",
+          "remark": "Digital NWI wetlands adoption"
+        }
+      ],
+      "context": "P-SL2 stream corridors among pond, wetland, recreation and fish/wildlife districts.",
+      "effective": "2005-08-18",
+      "index_amend_date": "2005-08-18",
+      "latest_listed_amendment": "2005-08-18",
+      "page": 1,
+      "pdf_sha256": "0496808747fd7f32e756a8408a8d8ca6575ee2e87466076cd6b575dac208f45b",
+      "retrieved_at": "2026-09-22T17:11:40.963735+00:00",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t7-r10-wels.pdf"
+    }
+  },
+  "new_date_discrepancies": [
+    {
+      "detail": "Retain index AMEND_DATE 2012-09-04 versus PDF amendment 2022-12-30; legal currency unresolved.",
+      "map": "beaver-cove"
+    },
+    {
+      "detail": "Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2024-08-01; legal currency unresolved.",
+      "map": "orneville-twp"
+    },
+    {
+      "detail": "Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2020-07-30; legal currency unresolved.",
+      "map": "bowdoin-college-grant-west-twp"
+    },
+    {
+      "detail": "Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2020-07-30; legal currency unresolved.",
+      "map": "t1-r13-wels"
+    },
+    {
+      "detail": "Retain index AMEND_DATE 2015-06-24 versus PDF amendment 2015-06-25; legal currency unresolved. PDF effective-date paragraph also says 2015-06-24 while ZP750 row says 2015-06-25.",
+      "map": "shawtown-twp"
+    }
+  ],
+  "retained_prior_followups": [
+    "Big Moose index 2016-01-30 versus PDF through 2022-12-30",
+    "T1 R11 index 2005-08-18 versus PDF ZP770 2018-04-26"
+  ],
+  "review": "Manual inspection of eleven full-page PyMuPDF renders, enlarged notes and extracted text; no tracing or coordinate derivation. Katahdin dates read from rendered text absent in extraction.",
+  "shared_caveats": [
+    "Map notes defer to Chapter 10 descriptions where mapped boundaries conflict.",
+    "Wetland/stream protections may be omitted from drawings; water-dependent boundaries may follow actual water locations.",
+    "Dates are document statements, not legal-currency findings.",
+    "PDF context does not certify exact vertex topology, surveyed boundaries, access or buildability."
+  ]
+}

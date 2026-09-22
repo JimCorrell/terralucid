@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "Original/native exact equality, service attributes and complete segment multiplicity",
+    "Changed source, incomplete response and altered geometry rejected",
+    "Eleven fixed candidates independently checked for original cycles and even-odd fill",
+    "Bounded two-contact Katahdin split; reversed roles, missing hole, duplicate/nonfinite coordinates, single-contact and crossing rejection",
+    "Overlapping scenario contributions and accepted baseline counted once",
+    "Five new and two retained map-date follow-ups preserved"
+  ],
+  "fixed_candidates_reviewed": 11,
+  "passed": true,
+  "runtime": {
+    "GEOS": "3.11.4",
+    "numpy": "2.0.2",
+    "shapely": "2.0.7"
+  },
+  "source_faces_checked": 3110,
+  "test_files": {
+    "tests/test_moosehead_spencer.py": "f755d929c6ce4fbd7fde468cbd907ae16c85cf080a60bc97f55ce22dc95391df",
+    "tests/test_moosehead_spencer_review.py": "6fd9af43009b590ded0f73c877ee16b9a5f237fe4c99adfac56c83b37077076b",
+    "tests/test_ten_case_zoning.py": "c5d256ea9bc635456f27e54837f29dd41c011ab95f33cfd4306935f6a1c72711"
+  },
+  "unit_tests": 31
+}

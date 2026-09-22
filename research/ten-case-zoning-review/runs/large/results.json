@@ -1,0 +1,80 @@
+[
+  {
+    "id": "native-27365331",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27365331&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+    "retrieved_at": "2026-09-22T17:12:42.867774+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27365331&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "native-27365331.response",
+    "sha256": "9a6deaeb4bb6411e03f447548d036d02c0c5c40834116e2cc35610f2af385211",
+    "bytes": 2730226,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "geojson-27365331",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27365331&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+    "retrieved_at": "2026-09-22T17:12:46.462438+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27365331&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+    "content_type": "application/geo+json; charset=UTF-8",
+    "response_file": "geojson-27365331.response",
+    "sha256": "59888ac2ffc1d6f7c9c097e4c1edf7599c93043dbf41869404527aa2a165d1f6",
+    "bytes": 2729291,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "native-27364426",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27364426&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+    "retrieved_at": "2026-09-22T17:12:48.225076+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27364426&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "native-27364426.response",
+    "sha256": "f66ec0c2b4cb697484b4cf106ffe509e58ee1486bef5a0bb03bbb0cc68420c2b",
+    "bytes": 2439952,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "geojson-27364426",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27364426&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+    "retrieved_at": "2026-09-22T17:12:50.641269+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27364426&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+    "content_type": "application/geo+json; charset=UTF-8",
+    "response_file": "geojson-27364426.response",
+    "sha256": "5be3d59ad8956f13ed5ab407761ccdcfa77c1919a52600dfee417d1b7e83ff47",
+    "bytes": 2438775,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "native-27321394",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27321394&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+    "retrieved_at": "2026-09-22T17:12:52.672784+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27321394&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "native-27321394.response",
+    "sha256": "1ef4dfba59400fb242309efcbf20f7e9aa6751199804a906ec1f3c03a9b2aa0e",
+    "bytes": 4929082,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  },
+  {
+    "id": "geojson-27321394",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27321394&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+    "retrieved_at": "2026-09-22T17:12:59.657026+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27321394&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+    "content_type": "application/geo+json; charset=UTF-8",
+    "response_file": "geojson-27321394.response",
+    "sha256": "bf8cb8cf0e223c5da7e53a61ea14f51bbaad7be6d758f45d5db4fda80d3f0b7c",
+    "bytes": 4928001,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

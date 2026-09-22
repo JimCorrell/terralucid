@@ -76,3 +76,7 @@ __pycache__/
 /research/big-moose-t2-barnard/runs/**/*.response
 /research/big-moose-t2-barnard/candidates/
 /research/big-moose-t2-barnard/diagnostics/
+
+/research/ten-case-zoning-review/runs/**/*.response
+/research/ten-case-zoning-review/candidates/
+/research/ten-case-zoning-review/diagnostics/
