@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid eight-correction ranking refresh",
+  "expected_event_id": "a45033f3362c783ffa08369d178376bc646c6f7ec81174172763b828c3e7cd77",
+  "finding_id": "TL-F-0029",
+  "next_action": "Investigate T4 R13 WELS 27224591, T7 R9 WELS 27320676 and T6 R15 WELS 27243652 as the next bounded group using original/native geometry and official map evidence. Recheck snapshot currency before using the ranking. Retain 21 parcel holds, municipal applicability and wetland imagery follow-ups.",
+  "note": "Refreshed all 154 remaining zoning holds against eight accepted exact versions, preserving both prior rankings and all original source evidence. Upper bounds remain investigation priorities, not parcel screening.",
+  "priority": "high",
+  "status": "in_progress"
+}
