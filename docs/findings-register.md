@@ -185,3 +185,10 @@ Seventeen accepted versions leave 145 zoning and 21 parcel holds. The
 [seventeen-correction ranking](../research/seventeen-correction-ranking/README.md)
 uses the new snapshot. TL-F-0029 retains Big Moose and T1 R11 amendment metadata
 follow-ups alongside remaining geometry and county qualification issues.
+
+The [PR #44 baseline backlog assessment](../research/county-backlog-assessment/README.md)
+retains a complete inventory of the 145 remaining zoning and 21 parcel geometry
+holds, including unsupported computational cases. It recommends grouped evidence
+review and parcel-triggered follow-up, without changing live finding status,
+acceptances or the published ranking. TL-F-0029 and both amendment discrepancies
+remain open; see the assessment for the proposed next work and deferral triggers.
