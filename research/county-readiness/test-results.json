@@ -1,0 +1,6 @@
+{
+  "command": ".local/conflict-venv/bin/python -m unittest discover -s tests -p test_county_readiness.py",
+  "tests": 3,
+  "passed": 3,
+  "scope": "Reject failed or truncated queries as absence; catalog validation"
+}

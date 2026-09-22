@@ -1,0 +1,22 @@
+{
+  "audit_sha256": "bccb31dd5d50ad971ccfbfd9b9071e769ad694334cdb02b468150b4fcb259fa1",
+  "registry_sha256": "6830ed026e4d6ed4afec28bbf70d6bc7a204eb3372bee07095e738f73b7ac491",
+  "finding_event_id": "361017510a245a423a4564e42800d7215ab38578d00db28506b98a1e122eb9c9",
+  "new_source_observations": 8,
+  "failed_requests_preserved_in_logs": 6,
+  "verified_at": "2026-09-22T18:52:34.916223+00:00",
+  "archive_verification": {
+    "verified": 40,
+    "reverified_prior_downloads": 5,
+    "new_downloads": 35
+  },
+  "accepted_versions_unchanged": 28,
+  "effective_zoning_holds": 134,
+  "effective_parcel_holds": 21,
+  "qualified_rows": 0,
+  "ranking_snapshot_current": true,
+  "originals_unchanged": true,
+  "county_finding_occurrences": 27,
+  "tests_passed": 3,
+  "report_reproduced_byte_for_byte": true
+}

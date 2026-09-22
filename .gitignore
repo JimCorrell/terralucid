@@ -89,3 +89,6 @@ __pycache__/
 
 /research/orneville-zp796/runs/**/*.response
 /research/orneville-zp796/diagnostics/
+
+/research/county-readiness/runs/**/*.response
+/research/county-readiness/diagnostics/

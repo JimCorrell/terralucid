@@ -1,0 +1,40 @@
+[
+  {
+    "id": "catalog-orneville",
+    "url": "https://msc.fema.gov/portal/advanceSearch",
+    "post_form": {
+      "method": "search",
+      "selstate": "23",
+      "selcounty": "23021",
+      "selcommunity": "230465",
+      "txtjurisdictionname": "",
+      "jurisdictionkey": "",
+      "jurisdictionvalue": "",
+      "searchedCid": "230465",
+      "searchedDateStart": "",
+      "searchedDateEnd": "",
+      "txtstartdate": "",
+      "txtenddate": "",
+      "txtproductid": ""
+    }
+  },
+  {
+    "id": "catalog-piscataquis",
+    "url": "https://msc.fema.gov/portal/advanceSearch",
+    "post_form": {
+      "method": "search",
+      "selstate": "23",
+      "selcounty": "23021",
+      "selcommunity": "23021C",
+      "txtjurisdictionname": "",
+      "jurisdictionkey": "",
+      "jurisdictionvalue": "",
+      "searchedCid": "23021C",
+      "searchedDateStart": "",
+      "searchedDateEnd": "",
+      "txtstartdate": "",
+      "txtenddate": "",
+      "txtproductid": ""
+    }
+  }
+]

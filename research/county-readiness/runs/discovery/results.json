@@ -1,0 +1,22 @@
+[
+  {
+    "id": "msc-communities",
+    "url": "https://msc.fema.gov/portal/advanceSearch?getCommunity=23021&state=23",
+    "retrieved_at": "2026-09-22T18:44:09.239645+00:00",
+    "status": "REQUEST_FAILED",
+    "error": "<urlopen error [Errno 54] Connection reset by peer>"
+  },
+  {
+    "id": "maine-guidance",
+    "url": "https://www.maine.gov/moca/programs/floodplain-management-program/mapping-resources",
+    "retrieved_at": "2026-09-22T18:44:09.704430+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/moca/programs/floodplain-management-program/mapping-resources",
+    "content_type": "text/html; charset=UTF-8",
+    "response_file": "maine-guidance.response",
+    "sha256": "2ed452d4aca590ffb14bc725853057cb8a6fdaac76c31928855639f48c45d3e9",
+    "bytes": 31466,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

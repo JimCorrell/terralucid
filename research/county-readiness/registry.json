@@ -1,0 +1,59 @@
+{
+  "scope": "Piscataquis readiness and Orneville FEMA evidence; no clearance",
+  "sources": [
+    {
+      "id": "readiness-discovery",
+      "probe_ids": [
+        "msc-communities",
+        "maine-guidance"
+      ]
+    },
+    {
+      "id": "readiness-catalog",
+      "probe_ids": [
+        "catalog-orneville",
+        "catalog-piscataquis"
+      ]
+    },
+    {
+      "id": "readiness-products",
+      "probe_ids": [
+        "orneville-firm",
+        "jurisdiction"
+      ]
+    },
+    {
+      "id": "readiness-retry",
+      "probe_ids": [
+        "orneville-firm",
+        "jurisdiction"
+      ]
+    },
+    {
+      "id": "readiness-spatial",
+      "probe_ids": [
+        "availability-ids",
+        "panels-ids",
+        "hazards-ids"
+      ]
+    },
+    {
+      "id": "readiness-availability-retry",
+      "probe_ids": [
+        "availability-ids"
+      ]
+    },
+    {
+      "id": "readiness-panels",
+      "probe_ids": [
+        "panel-candidates"
+      ]
+    },
+    {
+      "id": "readiness-panels-retry",
+      "probe_ids": [
+        "panel-candidates"
+      ]
+    }
+  ]
+}

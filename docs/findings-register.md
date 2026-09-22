@@ -231,3 +231,13 @@ the referenced April 17, 1987 FIRM. The historical correction-record follow-up
 is established. TL-F-0029 remains in progress for county deficiencies and
 parcel-triggered currentness/FEMA verification. Exact earlier wording is
 unlocated; no source date, geometry or qualification flag changes.
+
+The [post-PR49 county readiness review](../research/county-readiness/README.md)
+keeps TL-F-0029 in progress and recommends parcel/AOI qualification checks plus a
+county FEMA product inventory. Orneville's official 1987 TIFF contains an index
+and three printed panels with Zone A; 27 catalog LOMAs remain unreviewed for
+parcel applicability. Empty NFHL hazard/availability envelope queries do not
+establish no flood hazard. Two panel-envelope candidate identities remain
+unverified after failed detail requests. County source identity, municipal
+zoning, currentness and transaction due-diligence gaps remain explicit; no
+qualification flags or correction versions are changed.

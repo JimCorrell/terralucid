@@ -1,0 +1,15 @@
+[
+  {
+    "id": "availability-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/0/query?where=1%3D1&geometry=499386.8127%2C4997082.9998%2C511275.0625%2C5008399.5&geometryType=esriGeometryEnvelope&inSR=26919&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "retrieved_at": "2026-09-22T18:48:36.034518+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/0/query?where=1%3D1&geometry=499386.8127%2C4997082.9998%2C511275.0625%2C5008399.5&geometryType=esriGeometryEnvelope&inSR=26919&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "content_type": "application/json;charset=UTF-8",
+    "response_file": "availability-ids.response",
+    "sha256": "667410564a013e24d2b824ed7ea5c2613b8f5a6ea02633399a491988c5e3a512",
+    "bytes": 49,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid county readiness review",
+  "expected_event_id": "66dad567cac4ee11dcb85fe66344b88f86649e3f74341a792daf9efd2d789331",
+  "finding_id": "TL-F-0029",
+  "status": "in_progress",
+  "priority": "high",
+  "note": "County research inventory usable with explicit limits: 28 accepted corrections,134 zoning/21 parcel holds,zero qualified rows. Orneville MSC230465A includes index and panels01,02,04 with ZoneA;27 effective-category LOMAs require parcel-triggered review. Digital absence is not clearance.",
+  "next_action": "Implement parcel/AOI evidence qualification checks and county FEMA product/coverage inventory. Review applicable Orneville letters and official map for selected parcels; retain municipal zoning, identity/currentness, wetlands imagery, legal access/title and septic/buildability unknowns. Preserve unresolved map-date filing variance, all geometry holds and current ranking."
+}

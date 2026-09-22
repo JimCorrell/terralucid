@@ -1,0 +1,14 @@
+[
+  {
+    "id": "availability-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/0/query?where=1%3D1&geometry=499386.8127%2C4997082.9998%2C511275.0625%2C5008399.5&geometryType=esriGeometryEnvelope&inSR=26919&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true"
+  },
+  {
+    "id": "panels-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/3/query?where=1%3D1&geometry=499386.8127%2C4997082.9998%2C511275.0625%2C5008399.5&geometryType=esriGeometryEnvelope&inSR=26919&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true"
+  },
+  {
+    "id": "hazards-ids",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?where=1%3D1&geometry=499386.8127%2C4997082.9998%2C511275.0625%2C5008399.5&geometryType=esriGeometryEnvelope&inSR=26919&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true"
+  }
+]
