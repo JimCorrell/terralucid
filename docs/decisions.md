@@ -157,3 +157,13 @@ approvals, and activate the pair. Keep both source/report formats explicit;
 validity alone does not authorize a new feature or audit. New corrections require
 a new dependency snapshot and make the previous county snapshot stale. Original
 evidence, remaining holds and parcel-screening limits remain unchanged.
+
+## Soils and terrain availability versus purchase due diligence
+
+User clarification following PR #51: maintain qualified soils and terrain data
+readily available across the study area. Investigate parcel-specific septic
+suitability and buildability only for parcels selected for purchase investigation.
+Unassessed suitability is neither a clearance nor a rejection and does not block
+general discovery. Material suitability unknowns remain offer-readiness blockers
+for purchase candidates. This records workflow intent; no new load or automated
+trigger is implemented by this documentation change.
