@@ -112,3 +112,12 @@ The [PR #43 activation](../research/big-moose-t2-barnard-acceptance/README.md)
 requires the reviewed fourteen-correction baseline. It clears only geometry holds;
 Big Moose and T1 R11 map-index/PDF amendment discrepancies remain open and do not
 inherit legal-currency approval from geometry acceptance.
+
+## Backlog assessment after PR #44
+
+The [county backlog assessment](../research/county-backlog-assessment/README.md)
+checks archived-source computational feasibility and conditional coverage gains.
+Its batch sizes and stopping criteria are recommendations, not adopted acceptance
+policy. Passing those checks does not create a correction proposal or authorize
+acceptance. Native/service comparison, official map review and exact-version
+acceptance controls remain required; parcel geometry needs its own review.
