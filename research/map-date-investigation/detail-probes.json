@@ -1,0 +1,12 @@
+[
+  {
+    "id": "zp770-packet",
+    "url": "https://www.maine.gov/dacf/lupc/agenda_items/041118/zp770_ThirdMusquashPond_CommPkt.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "map-index",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=MAP+IN+%28%27big-moose-twp%27%2C%27t1-r11-wels%27%2C%27beaver-cove%27%2C%27bowdoin-college-grant-west-twp%27%2C%27t1-r13-wels%27%2C%27orneville-twp%27%2C%27shawtown-twp%27%29&outFields=%2A&returnGeometry=false&f=json",
+    "format": "json"
+  }
+]

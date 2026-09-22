@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid map-date investigation",
+  "expected_event_id": "f6ec4fb395653f7f13edf558320c842cd9bcbc01ff299e854e154ac2ef0466b2",
+  "finding_id": "TL-F-0029",
+  "status": "in_progress",
+  "priority": "high",
+  "note": "Investigated seven map-date discrepancies: four corroborated amendment histories, Orneville clerical-text evidence, two conflicting official-date cases. Preserve originals; no date replacement or legal-currency promotion. Twenty-eight corrections remain accepted; 134 zoning and 21 parcel holds.",
+  "next_action": "Prioritize final signed ZP750 decision and original filing 2015-119 (June24/25 vs July2/21), and final ZP770 decision/filing2018-067 (April13 vs April26). Obtain ZP796 correction record on parcel trigger. Retain verified ZP707B and ZP791 history separately from stale index metadata; completeness/current legal applicability remains UNKNOWN. Use refreshed ranking with county qualification holds; defer broad geometry cleanup per backlog assessment."
+}

@@ -1,0 +1,19 @@
+{
+  "accepted_count": 28,
+  "archive_verification": {
+    "new_downloads": 8,
+    "reverified_prior_downloads": 164,
+    "verified": 172
+  },
+  "audit_sha256": "a20ffe8bde648dc77fd502a15283c613b2a04c3b8dbf40c86417edd45f6fab1f",
+  "effective_parcel_holds": 21,
+  "effective_zoning_holds": 134,
+  "finding_event_id": "f6ec4fb395653f7f13edf558320c842cd9bcbc01ff299e854e154ac2ef0466b2",
+  "geometry_snapshot_id": "2781767e923e3ddb8871737e6d41d162bf1c91fef8a632da9b9e9a5927888316",
+  "load_sha256": "1f18d9c944bc10813771f6cb44d1c2cdcd1f8a47ad0be405de0ef329831e2430",
+  "original_fingerprints_unchanged": true,
+  "other_findings_unchanged": true,
+  "previous_acceptance_versions_unchanged": true,
+  "qualified_rows": 0,
+  "verified_at": "2026-09-22T17:48:44.06773+00:00"
+}

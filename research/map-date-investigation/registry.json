@@ -1,0 +1,39 @@
+{
+  "scope": "Seven county map-date investigations; no corrections or legal conclusions.",
+  "sources": [
+    {
+      "id": "lupc-zoning",
+      "name": "Official LUPC map and amendment evidence",
+      "publisher": "Maine LUPC and Maine Secretary of State via Legislature",
+      "rights": "Private research archive; redistribution rights not established.",
+      "probe_ids": [
+        "beaver-cove",
+        "big-moose-twp",
+        "bowdoin-college-grant-west-twp",
+        "calendar",
+        "index-metadata",
+        "june2024-agenda",
+        "map-index",
+        "orneville-twp",
+        "shawtown-twp",
+        "t1-r11-wels",
+        "t1-r13-wels",
+        "zp707b-decision",
+        "zp707b-page",
+        "zp750-annual-detail",
+        "zp750-annual-summary",
+        "zp750-draft",
+        "zp750-record",
+        "zp770-agenda",
+        "zp770-annual",
+        "zp770-annual-retry",
+        "zp770-packet",
+        "zp770-record",
+        "zp791-agenda",
+        "zp791-draft-attachments",
+        "zp791-memo",
+        "zp791-project"
+      ]
+    }
+  ]
+}

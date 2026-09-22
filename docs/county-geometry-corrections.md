@@ -10,18 +10,22 @@ requires a recorded evidentiary reason and source/correction versions.
 
 ## Bounded acceptance
 
-The layer supports seventeen exact Piscataquis versions: Blanchard 27334504 and
+The layer supports twenty-eight exact Piscataquis versions: Blanchard 27334504 and
 Atkinson 27249007 / 27291625 (reviewed in PR #30), plus Moosehead Junction
 27208875 and Spencer Bay 27336229 (reviewed in PR #33), plus East Middlesex Canal Grant
 27304757, T7 R11 WELS 27270812 and T4 R11 WELS 27207268 (PR #36), plus
 T4 R13 WELS 27224591, T7 R9 WELS 27320676 and T6 R15 WELS 27243652 (PR #39), plus
 T10 R15 WELS 27233351, Chesuncook Township 27314083 and T1 R11 WELS 27316137 (PR #41), plus
-Big Moose Township 27257109, T2 R12 WELS 27321193 and Barnard Township 27303187 (PR #43).
-Each group retains pinned audits and an explicit source-hash field. The PR #36, PR #39, PR #41 and PR #43 groups
+Big Moose Township 27257109, T2 R12 WELS 27321193 and Barnard Township 27303187 (PR #43), plus the eleven exact versions in
+[PR #46](../research/ten-case-zoning-review/README.md): Beaver Cove 27342226, T7 R10 WELS
+27365331, Orneville 27364426, Bowdoin College Grant West 27339379, T5 R14 WELS
+27364538, T1 R13 WELS 27324664, T4 R9 NWP 27321394, Shawtown 27366878,
+T3 R13 WELS 27261431, T4 R12 WELS 27304932 and Katahdin Iron Works 27358396.
+Each group retains pinned audits and an explicit source-hash field. The PR #36, PR #39, PR #41, PR #43 and PR #46 groups
 bind both audit references to their respective exact combined investigation,
 which contains proposals and separate fixed-candidate cycle/fill checks. This
-exception applies only to each group of three IDs and its audit hash; the earlier groups
-still require their distinct proposal and review audits. The latter fourteen
+exception applies only to these listed groups and their pinned audit hashes; the earlier groups
+still require their distinct proposal and review audits. The latter twenty-five
 corrections also require reviewed source-cycle roles. The database verifies the
 pinned proposal and review audits, source and candidate bytes, native EPSG:26919,
 validity and complete original segment multiplicity. Validity alone cannot qualify
@@ -52,10 +56,10 @@ explicit extension; do not update immutable history.
 
 ## Dependencies for downstream analysis
 
-The [seventeen-correction zoning-hold ranking](../research/seventeen-correction-ranking/README.md)
-is refreshed after activation of the PR #43 proposals. It is bound to the new
+The [twenty-eight-correction zoning-hold ranking](../research/twenty-eight-correction-ranking/README.md)
+is refreshed after activation of the PR #46 proposals. It is bound to the new
 snapshot and remains an investigation priority list, not a county screening result.
-The historical fourteen-correction ranking is stale and preserved for comparison.
+The historical seventeen-correction ranking is stale and preserved for comparison.
 Consumers must integrate this protocol before persisting or using county results:
 
 1. Use PostgreSQL’s default READ COMMITTED isolation. In the same transaction
@@ -123,7 +127,14 @@ acceptance. Native/service comparison, official map review and exact-version
 acceptance controls remain required; parcel geometry needs its own review.
 
 The [ten-case evidence review](../research/ten-case-zoning-review/README.md) includes
-a separately tested two-contact interpretation for Katahdin Iron Works. All eleven
-versions remain proposals. The current validator still supports only the seventeen
-accepted versions; any extension must bind the new source/candidate/audit hashes
-and retain all seven map-date follow-ups without conferring legal currency.
+a separately tested two-contact interpretation for Katahdin Iron Works. Its original proposal status is preserved. The
+[PR #46 activation](../research/ten-case-acceptance/README.md) now accepts those eleven
+exact versions through a tested bounded extension, preserving all seventeen prior
+acceptances and all original source records. All seven map-date follow-ups remain
+separate from geometry acceptance; later document review cannot establish current
+legal zoning without the required supporting evidence.
+
+The [map-date investigation](../research/map-date-investigation/README.md) records
+corroborated historical amendments separately from conflicting official dates.
+Do not use map-index amendment dates or document edit timestamps as proof of
+current legal zoning. Geometry acceptance and date evidence remain independent.

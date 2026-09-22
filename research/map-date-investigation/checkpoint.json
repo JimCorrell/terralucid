@@ -1,0 +1,20 @@
+{
+  "audit_sha256": "0520e8136fe08fe664b0f45f9cb2f8eee2c259d514d74ea9e9e18ff707aaea34",
+  "finding_event_id": "5ae4e427a628d38c38eb0f12e0217d014e72f33ead616ed14bd756dfca43caf7",
+  "load_sha256": "6f3fe7aa9ac2e51da146f3443d02dd52e3adccc7f5e045823fa2064a6f8eea8e",
+  "verified_at": "2026-09-22T18:01:57.265959+00:00",
+  "accepted_count": 28,
+  "effective_zoning_holds": 134,
+  "effective_parcel_holds": 21,
+  "qualified_rows": 0,
+  "all_acceptance_versions_unchanged": true,
+  "original_fingerprints_unchanged": true,
+  "other_findings_unchanged": true,
+  "ranking_snapshot_current": true,
+  "finding_occurrence_count": 24,
+  "archive_verification": {
+    "verified": 43,
+    "reverified_prior_downloads": 11,
+    "new_downloads": 32
+  }
+}

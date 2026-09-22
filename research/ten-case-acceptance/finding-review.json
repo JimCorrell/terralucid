@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid eleven-proposal activation",
+  "expected_event_id": "15aa1dcfec565c72d29ed665cc964dbdf09e5ac2cbc9271745439c11db076117",
+  "finding_id": "TL-F-0029",
+  "next_action": "Refresh the ranking after 28 acceptances (134 zoning and 21 parcel holds remain), then investigate the seven map-date follow-ups using official evidence. Resolve legal-currency metadata: beaver-cove: Retain index AMEND_DATE 2012-09-04 versus PDF amendment 2022-12-30; legal currency unresolved.; orneville-twp: Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2024-08-01; legal currency unresolved.; bowdoin-college-grant-west-twp: Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2020-07-30; legal currency unresolved.; t1-r13-wels: Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2020-07-30; legal currency unresolved.; shawtown-twp: Retain index AMEND_DATE 2015-06-24 versus PDF amendment 2015-06-25; legal currency unresolved. PDF effective-date paragraph also says 2015-06-24 while ZP750 row says 2015-06-25. Prior follow-ups remain: Big Moose index 2016-01-30 versus PDF through 2022-12-30; T1 R11 index 2005-08-18 versus PDF ZP770 2018-04-26.",
+  "note": "Activate eleven reviewed exact versions after bounded validator/history tests; preserve seventeen prior acceptances, all originals and all seven map-date follow-ups.",
+  "priority": "high",
+  "status": "in_progress"
+}
