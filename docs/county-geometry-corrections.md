@@ -144,3 +144,9 @@ now supplies explicit historical `decision_stated_effective_date` values with
 source checksum and page provenance. Carry the open filing variance and UNKNOWN
 current legal applicability; do not overwrite index dates or clear geometry,
 legal or qualification holds from this evidence.
+
+The [Orneville ZP796 record](../research/orneville-zp796/README.md) confirms a
+text-only historical correction. Keep its August 1, 2024 effective date separate
+from the referenced April 17, 1987 FIRM. Absent displayed P-FP geometry does not
+establish absence of flood constraints; verify applicable FEMA products and
+revisions on parcel trigger. This record does not alter geometry acceptance.

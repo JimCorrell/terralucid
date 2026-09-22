@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid Orneville ZP796 investigation",
+  "expected_event_id": "d372a4479df5d250276a04f649409592708134ce8610530dedbd1e7e1e4a674c",
+  "finding_id": "TL-F-0029",
+  "status": "in_progress",
+  "priority": "high",
+  "note": "Orneville correction record located: signed ZP796 July17,2024, effective August1,2024; explicitly text-only and Orneville listed FIRM-only. Published note matches approved template with FIRM1987-04-17. Historical scope/date follow-up established; no source or geometry replacement.",
+  "next_action": "For relevant parcels verify the applicable Orneville FIRM panels and later revisions; do not treat absent mapped P-FP as absence of flood constraints. Exact earlier note remains unlocated; retrieve only if change history is material. Preserve ZP750/ZP770 signed historical dates and open original-filing variance, other four map-currentness limits, 134 zoning/21 parcel holds and current28-correction ranking."
+}

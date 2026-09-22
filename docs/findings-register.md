@@ -222,3 +222,12 @@ filing/annual-report variance (including newly observed April 24, 2018), origina
 source dates, other map follow-ups and county qualification limits. Original
 filings and recorded maps/agency reconciliation remain necessary if exact
 historical legal effectiveness becomes material to a parcel or transaction.
+
+The [Orneville ZP796 investigation](../research/orneville-zp796/README.md) locates
+the signed July 17, 2024 decision, explicitly preserves existing zoning, and
+confirms August 1, 2024 as the text-correction effective date. Orneville is listed
+as FIRM-only; the published note exactly matches the approved template using
+the referenced April 17, 1987 FIRM. The historical correction-record follow-up
+is established. TL-F-0029 remains in progress for county deficiencies and
+parcel-triggered currentness/FEMA verification. Exact earlier wording is
+unlocated; no source date, geometry or qualification flag changes.

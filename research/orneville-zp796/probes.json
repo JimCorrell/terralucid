@@ -1,0 +1,18 @@
+[
+  {
+    "id": "zp796-record",
+    "url": "https://www.maine.gov/dacf/lupc/signedpermits/zp796.pdf",
+    "format": "pdf",
+    "discovery": "Candidate publisher signedpermits path; verify document identity."
+  },
+  {
+    "id": "orneville-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/orneville-twp.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "five-year-report",
+    "url": "https://www.maine.gov/dacf/lupc/projects/location_of_development/reports/CommMemoAdjSub5YrReportDraft-12-11-2025.pdf",
+    "format": "pdf"
+  }
+]

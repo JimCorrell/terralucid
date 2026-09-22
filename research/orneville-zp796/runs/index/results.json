@@ -1,0 +1,16 @@
+[
+  {
+    "id": "map-index",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=MAP%3D%27orneville-twp%27&outFields=%2A&returnGeometry=false&f=json",
+    "format": "json",
+    "retrieved_at": "2026-09-22T18:23:58.281774+00:00",
+    "http_status": 200,
+    "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=MAP%3D%27orneville-twp%27&outFields=%2A&returnGeometry=false&f=json",
+    "content_type": "application/json; charset=UTF-8",
+    "response_file": "map-index.response",
+    "sha256": "ec0f6f6259d7099c2037bacc700ce7842b7ffc2fcd82102dfd900ce82c1c28d7",
+    "bytes": 4909,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]

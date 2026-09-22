@@ -86,3 +86,6 @@ __pycache__/
 
 /research/zp750-zp770-dates/runs/**/*.response
 /research/zp750-zp770-dates/diagnostics/
+
+/research/orneville-zp796/runs/**/*.response
+/research/orneville-zp796/diagnostics/

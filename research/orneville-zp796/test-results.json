@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "tests": 6,
+  "checks": [
+    "pinned historical scope/date",
+    "reject conflating correction and FIRM dates",
+    "reject geometry promotion",
+    "reject current legal promotion",
+    "whitespace-only note variation accepted",
+    "wrong referenced FIRM date rejected"
+  ],
+  "test_file_sha256": "fbee8617cf27276a898252898d8af1bf8d5b579d8554203d8f7c602ada6d78bc"
+}

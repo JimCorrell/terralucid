@@ -1,0 +1,45 @@
+[
+  {
+    "id": "zp796-record",
+    "url": "https://www.maine.gov/dacf/lupc/signedpermits/zp796.pdf",
+    "format": "pdf",
+    "discovery": "Candidate publisher signedpermits path; verify document identity.",
+    "retrieved_at": "2026-09-22T18:23:20.444614+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/signedpermits/zp796.pdf",
+    "content_type": "application/pdf",
+    "response_file": "zp796-record.response",
+    "sha256": "99b5fffd32db59f318549b136da8c6507446beb547e9321f7af173a072ecd25f",
+    "bytes": 884293,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "orneville-map",
+    "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/orneville-twp.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T18:23:20.973367+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/orneville-twp.pdf",
+    "content_type": "application/pdf",
+    "response_file": "orneville-map.response",
+    "sha256": "415da35e6fcc57a236accb0f6d6073df362c37aaa1e0ddfb53bf4fa6ffb11437",
+    "bytes": 2515815,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  },
+  {
+    "id": "five-year-report",
+    "url": "https://www.maine.gov/dacf/lupc/projects/location_of_development/reports/CommMemoAdjSub5YrReportDraft-12-11-2025.pdf",
+    "format": "pdf",
+    "retrieved_at": "2026-09-22T18:23:21.527247+00:00",
+    "http_status": 200,
+    "final_url": "https://www.maine.gov/dacf/lupc/projects/location_of_development/reports/CommMemoAdjSub5YrReportDraft-12-11-2025.pdf",
+    "content_type": "application/pdf",
+    "response_file": "five-year-report.response",
+    "sha256": "3290fba1393192289dcdfacc964d931860ec3e6fda18b30ecf0eae34dfa67e52",
+    "bytes": 2751734,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": true
+  }
+]
