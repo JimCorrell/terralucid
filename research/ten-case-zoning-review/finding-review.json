@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid ten-case and Katahdin investigation",
+  "expected_event_id": "43acd72a3de98131f9f54d760b1269f8ce5137ab3da6ea6b6f4de573f3ccafe4",
+  "finding_id": "TL-F-0029",
+  "next_action": "Review eleven exact proposal versions, extend/test bounded acceptance and refresh ranking only after activation. Retain 145 zoning and 21 parcel holds until then, plus county qualification, municipal applicability, parcel identity and wetland-age follow-ups. Resolve legal-currency metadata: beaver-cove: Retain index AMEND_DATE 2012-09-04 versus PDF amendment 2022-12-30; legal currency unresolved.; orneville-twp: Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2024-08-01; legal currency unresolved.; bowdoin-college-grant-west-twp: Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2020-07-30; legal currency unresolved.; t1-r13-wels: Retain index AMEND_DATE 2005-08-18 versus PDF amendment 2020-07-30; legal currency unresolved.; shawtown-twp: Retain index AMEND_DATE 2015-06-24 versus PDF amendment 2015-06-25; legal currency unresolved. PDF effective-date paragraph also says 2015-06-24 while ZP750 row says 2015-06-25. Prior follow-ups remain: Big Moose index 2016-01-30 versus PDF through 2022-12-30; T1 R11 index 2005-08-18 versus PDF ZP770 2018-04-26.",
+  "note": "Eleven exact-source geometry proposals pass source, fixed cycle and independent fill checks; four equal valid service GeoJSON, seven service variants remain invalid. Katahdin ring zero needs a bounded two-contact shell/two-hole interpretation. All 17 accepted versions remain unchanged; no holds cleared. Five additional map-date follow-ups are recorded alongside Big Moose and T1 R11.",
+  "priority": "high",
+  "status": "in_progress"
+}

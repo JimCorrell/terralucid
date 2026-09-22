@@ -1,0 +1,22 @@
+{
+  "accepted_count": 17,
+  "all_seven_map_date_followups_retained": true,
+  "archive_verification": {
+    "new_downloads": 62,
+    "reverified_prior_downloads": 54,
+    "verified": 116
+  },
+  "audit_sha256": "7f8aa420e8ad488e1cb4752b781488ef1489783282ab782bff99d109992f0221",
+  "effective_parcel_holds": 21,
+  "effective_zoning_holds": 145,
+  "failed_retrievals_preserved": 6,
+  "finding_event_id": "15aa1dcfec565c72d29ed665cc964dbdf09e5ac2cbc9271745439c11db076117",
+  "geometry_snapshot_id": "9c6eaf3da53ce57b66ecdb200d3abf72d11d38bd3fcdd8db5fe41a7cde62151c",
+  "load_sha256": "c207468de7b30f152d85fe6695c45dbc17902beecefc3b22a52c640cbe4d9fd6",
+  "new_source_observations": 36,
+  "original_fingerprints_unchanged": true,
+  "other_findings_unchanged": true,
+  "previous_acceptance_versions_unchanged": true,
+  "qualified_rows": 0,
+  "verified_at": "2026-09-22T17:21:32.41767+00:00"
+}

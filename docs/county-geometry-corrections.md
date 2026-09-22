@@ -121,3 +121,9 @@ Its batch sizes and stopping criteria are recommendations, not adopted acceptanc
 policy. Passing those checks does not create a correction proposal or authorize
 acceptance. Native/service comparison, official map review and exact-version
 acceptance controls remain required; parcel geometry needs its own review.
+
+The [ten-case evidence review](../research/ten-case-zoning-review/README.md) includes
+a separately tested two-contact interpretation for Katahdin Iron Works. All eleven
+versions remain proposals. The current validator still supports only the seventeen
+accepted versions; any extension must bind the new source/candidate/audit hashes
+and retain all seven map-date follow-ups without conferring legal currency.

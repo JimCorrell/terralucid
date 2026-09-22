@@ -192,3 +192,11 @@ holds, including unsupported computational cases. It recommends grouped evidence
 review and parcel-triggered follow-up, without changing live finding status,
 acceptances or the published ranking. TL-F-0029 and both amendment discrepancies
 remain open; see the assessment for the proposed next work and deferral triggers.
+
+The [ten-case review and Katahdin exception](../research/ten-case-zoning-review/README.md)
+support eleven exact-version proposals while retaining all 145 zoning and 21 parcel
+holds and seventeen accepted versions. TL-F-0029 records five additional map-date
+follow-ups: Beaver Cove, Bowdoin College Grant West, T1 R13 WELS, Orneville and
+Shawtown (including a one-day internal PDF discrepancy). Big Moose and T1 R11
+remain open. Katahdin's two-contact interpretation is a bounded proposal, not
+a general repair or accepted correction.
