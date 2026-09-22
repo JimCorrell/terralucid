@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid latest-three county acceptance",
+  "expected_event_id": "beac8ffd8cd282bf51e2e22e013c3ca453e6311aa25d95dc9d85bb9bda7730c4",
+  "finding_id": "TL-F-0029",
+  "next_action": "Refresh the ranking against fourteen accepted versions. Retain 148 zoning and 21 parcel holds, municipal applicability and wetland imagery follow-ups. Resolve T1 R11 map-index AMEND_DATE 2005-08-18 versus PDF ZP770 effective 2018-04-26 before relying on amendment metadata for legal currency.",
+  "note": "Activate the exact reviewed T10 R15, Chesuncook and T1 R11 geometry versions after bounded validator and lifecycle tests. Preserve originals, eleven previous acceptances and the unresolved T1 R11 amendment-date discrepancy.",
+  "priority": "high",
+  "status": "in_progress"
+}
