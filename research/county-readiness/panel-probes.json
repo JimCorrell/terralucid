@@ -1,0 +1,6 @@
+[
+  {
+    "id": "panel-candidates",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/3/query?objectIds=546495%2C546496&outFields=%2A&returnGeometry=true&outSR=26919&f=json"
+  }
+]

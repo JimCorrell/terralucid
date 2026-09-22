@@ -150,3 +150,10 @@ text-only historical correction. Keep its August 1, 2024 effective date separate
 from the referenced April 17, 1987 FIRM. Absent displayed P-FP geometry does not
 establish absence of flood constraints; verify applicable FEMA products and
 revisions on parcel trigger. This record does not alter geometry acceptance.
+
+The [county readiness review](../research/county-readiness/README.md) recommends
+consumer qualification checks before further blanket repair. Current geometry
+snapshots alone cannot establish FEMA coverage, zoning applicability or parcel
+identity. Orneville's scanned FIRM and its catalog letters must remain available
+even when a digital hazard query is empty. These are recommendations and evidence
+limits, not a new implemented qualification layer.

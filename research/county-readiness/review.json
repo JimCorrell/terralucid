@@ -1,0 +1,15 @@
+{
+  "classification": "VERIFIED document content; UNKNOWN parcel applicability",
+  "inspected": "Unmodified four-page TIFF in official MSC product 230465A ZIP; full-page rendered images inspected",
+  "pages": {
+    "1": "Map index panels01\u201304;03 not printed area in ZoneC; community230465A; effective1987-04-17",
+    "2": "Panel01 ZoneA at Alder Stream; effective1987-04-17",
+    "3": "Panel02 ZoneA at Freese Bog, Boyd Lake, Dead Stream; effective1987-04-17",
+    "4": "Panel04 ZoneA at Boyd Lake and Dead Stream; effective1987-04-17"
+  },
+  "limits": [
+    "Map visual inspection is not a georeferenced parcel-zone intersection",
+    "27 catalog LOMA documents not reviewed; no parcel applicability claimed",
+    "Missing digital hazards and absent P-FP do not establish no flood hazard"
+  ]
+}

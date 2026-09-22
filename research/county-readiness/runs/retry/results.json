@@ -1,0 +1,22 @@
+[
+  {
+    "id": "orneville-firm",
+    "url": "https://msc.fema.gov/portal/downloadProduct?productTypeID=FINAL_PRODUCT&productSubTypeID=FIRM_PANEL&productID=230465A",
+    "retrieved_at": "2026-09-22T18:45:52.528837+00:00",
+    "status": "REQUEST_FAILED",
+    "error": "<urlopen error [Errno 54] Connection reset by peer>"
+  },
+  {
+    "id": "jurisdiction",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/22/query?where=CID%3D%27230465%27&outFields=%2A&returnGeometry=true&f=json",
+    "retrieved_at": "2026-09-22T18:45:53.903577+00:00",
+    "http_status": 200,
+    "final_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/22/query?where=CID%3D%27230465%27&outFields=%2A&returnGeometry=true&f=json",
+    "content_type": "application/json;charset=UTF-8",
+    "response_file": "jurisdiction.response",
+    "sha256": "f4bb173d1427b0803a5939c817c0cc7b8b9ee60f2b0b1f5e24bc21c5d3ed3132",
+    "bytes": 2096,
+    "status": "NON_JSON_RESPONSE",
+    "pdf_signature": false
+  }
+]
