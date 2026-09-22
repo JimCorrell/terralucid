@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid fourteen-correction ranking refresh",
+  "expected_event_id": "9d405a839353e2d482885e561a9b0888b3a4c4701bf95821a95a8229763a2c6c",
+  "finding_id": "TL-F-0029",
+  "next_action": "Investigate Big Moose Township 27257109, T2 R12 WELS 27321193 and Barnard Township 27303187 using original/native geometry and official maps; recheck snapshot currency first. Retain 21 parcel holds, municipal applicability and wetland imagery follow-ups. Resolve T1 R11 map-index AMEND_DATE 2005-08-18 versus PDF ZP770 effective 2018-04-26 before relying on amendment metadata for legal currency.",
+  "note": "Refreshed all 148 remaining zoning holds against fourteen exact accepted versions. Preserve original sources and historical rankings. Investigation upper bounds are not parcel screening or legal coverage.",
+  "priority": "high",
+  "status": "in_progress"
+}

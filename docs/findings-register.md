@@ -165,3 +165,10 @@ to valid service GeoJSON. Eleven acceptances and all current holds remain unchan
 TL-F-0029 retains bounded acceptance as the next step and separately records T1 R11's
 map-index AMEND_DATE (2005-08-18) versus PDF ZP770 amendment (2018-04-26).
 Resolve that discrepancy before treating index amendment metadata as legal currency.
+
+The [PR #41 activation](../research/latest-three-zoning-acceptance/README.md)
+accepts T10 R15 WELS, Chesuncook Township and T1 R11 WELS after validator and
+history tests. Fourteen accepted versions leave 148 zoning and 21 parcel holds.
+The [fourteen-correction ranking](../research/fourteen-correction-ranking/README.md)
+uses the new snapshot. TL-F-0029 remains in progress and carries the unresolved
+T1 R11 amendment-date discrepancy into both activation and ranking reviews.
