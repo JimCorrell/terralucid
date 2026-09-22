@@ -10,15 +10,16 @@ requires a recorded evidentiary reason and source/correction versions.
 
 ## Bounded acceptance
 
-The layer supports eight exact Piscataquis versions: Blanchard 27334504 and
+The layer supports eleven exact Piscataquis versions: Blanchard 27334504 and
 Atkinson 27249007 / 27291625 (reviewed in PR #30), plus Moosehead Junction
 27208875 and Spencer Bay 27336229 (reviewed in PR #33), plus East Middlesex Canal Grant
-27304757, T7 R11 WELS 27270812 and T4 R11 WELS 27207268 (PR #36).
-Each group retains pinned audits and an explicit source-hash field. The newest
-three bind both audit references to the exact PR #36 combined investigation,
+27304757, T7 R11 WELS 27270812 and T4 R11 WELS 27207268 (PR #36), plus
+T4 R13 WELS 27224591, T7 R9 WELS 27320676 and T6 R15 WELS 27243652 (PR #39).
+Each group retains pinned audits and an explicit source-hash field. The PR #36 and PR #39 groups
+bind both audit references to their respective exact combined investigation,
 which contains proposals and separate fixed-candidate cycle/fill checks. This
-exception applies only to those three IDs and that audit hash; the earlier groups
-still require their distinct proposal and review audits. The latter five
+exception applies only to each group of three IDs and its audit hash; the earlier groups
+still require their distinct proposal and review audits. The latter eight
 corrections also require reviewed source-cycle roles. The database verifies the
 pinned proposal and review audits, source and candidate bytes, native EPSG:26919,
 validity and complete original segment multiplicity. Validity alone cannot qualify
@@ -49,10 +50,10 @@ explicit extension; do not update immutable history.
 
 ## Dependencies for downstream analysis
 
-The [eight-correction zoning-hold ranking](../research/eight-correction-ranking/README.md)
-is the refreshed downstream result after PR #37. It is bound to the eight-correction
+The [eleven-correction zoning-hold ranking](../research/eleven-correction-ranking/README.md)
+is refreshed after activation of the PR #39 proposals. It is bound to the new
 snapshot and remains an investigation priority list, not a county screening result.
-The historical five-correction ranking is stale and preserved for comparison.
+The historical eight-correction ranking is stale and preserved for comparison.
 Consumers must integrate this protocol before persisting or using county results:
 
 1. Use PostgreSQL’s default READ COMMITTED isolation. In the same transaction
@@ -92,5 +93,10 @@ acceptance after withdrawal.
 
 The [next three ranked proposals](../research/next-three-zoning-priorities/README.md)
 retain the eight-correction baseline. T4 R13 and T6 R15 require innermost hole
-ownership; T7 R9 also requires a split at an existing hole contact. These are
-proposals with fixed-source cycle/fill evidence, pending bounded acceptance.
+ownership; T7 R9 also requires a split at an existing hole contact. Their original
+proposal status and fixed-source cycle/fill evidence remain preserved; the
+subsequent activation is recorded separately below.
+
+The [PR #39 activation](../research/next-three-zoning-acceptance/README.md) requires
+the reviewed eight-correction baseline, retains all original evidence and earlier
+acceptance versions, and clears only the three reviewed geometry holds.

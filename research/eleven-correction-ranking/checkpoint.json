@@ -1,0 +1,20 @@
+{
+  "accepted_count": 11,
+  "accepted_versions_unchanged": true,
+  "audit_sha256": "5510a6d2d39e371d8456d68201970f047b6e8893c8fca0dfffc8b21ddf1a6e27",
+  "effective_total_holds": 172,
+  "effective_zoning_holds": 151,
+  "finding_event_id": "1472052069614d6b90b34aa9430ab40a44c9a2fa47c90d88501d57bb6b436e38",
+  "geometry_snapshot_id": "bcd341fe5cd1d7afe0a2d79a1e58991c5e4c954f6f8f64add9592a8cfca89eed",
+  "load_sha256": "37f1a21057912f64a55ac70637ce59b3ecb14e2301d3d1a513e650871393d28d",
+  "new_archive_downloads": 8,
+  "new_source_observations": 0,
+  "original_fingerprints_unchanged": true,
+  "other_findings_unchanged": true,
+  "previous_ranking_needs_revisit": true,
+  "qualified_rows": 0,
+  "ranking_snapshot_current": true,
+  "reverified_prior_downloads": 154,
+  "verified_archive_objects": 162,
+  "verified_at": "2026-09-22T15:57:13.729567+00:00"
+}

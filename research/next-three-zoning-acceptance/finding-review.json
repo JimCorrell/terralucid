@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid next-three county acceptance",
+  "expected_event_id": "aeb9c277ae3710882e98333d8a235f10647dde28dcbfccd1228a6bf237864417",
+  "finding_id": "TL-F-0029",
+  "next_action": "Refresh the ranking against all eleven accepted correction versions. Retain 151 zoning and 21 parcel holds, municipal applicability and wetland imagery follow-ups.",
+  "note": "Activate the reviewed exact T4 R13, T7 R9 and T6 R15 representations after bounded validator and lifecycle tests. Preserve originals and prior eight accepted versions.",
+  "priority": "high",
+  "status": "in_progress"
+}

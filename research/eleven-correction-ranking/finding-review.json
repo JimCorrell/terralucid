@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid eleven-correction ranking refresh",
+  "expected_event_id": "00fdb3a00d5e750bb363c6da89244f236a085cb549ab83de26a1e7e26f1716c5",
+  "finding_id": "TL-F-0029",
+  "next_action": "Investigate T10 R15 WELS 27233351, Chesuncook Township 27314083 and T1 R11 WELS 27316137 as the next bounded group using original/native geometry and official maps. Recheck snapshot currency before using the ranking. Retain 21 parcel holds, municipal applicability and wetland imagery follow-ups.",
+  "note": "Refreshed all 151 remaining zoning holds against eleven exact accepted correction versions. Original sources and historical rankings preserved; ranking is an envelope-based investigation upper bound, not parcel screening.",
+  "priority": "high",
+  "status": "in_progress"
+}
