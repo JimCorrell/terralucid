@@ -16,6 +16,8 @@ Find remote, rural, private Maine property suitable for the user's intended base
 ## Due diligence and readiness
 
 - Investigate legal access, deed and title, easements, recorded plans, road status, zoning, septic suitability, and practical buildability.
+- Investigate soil map-unit boundaries and attributes for septic screening, retaining mapping scale, boundary uncertainty, source dates and within-unit variability; require site-specific evaluation for suitability.
+- Investigate topography/elevation for slope-related buildability, retaining elevation resolution, accuracy, datum, acquisition date and slope calculation method. Evaluate usable areas within a parcel rather than relying only on parcel-average slope; no suitability threshold is established yet.
 - Generate a parcel due-diligence package with evidence, critical unknowns, and requests for documents or field/professional checks.
 - Do not mark a parcel offer-ready while critical unknowns for its intended use remain unresolved.
 

@@ -119,3 +119,26 @@ outside capture candidates and per-jurisdiction coverage evidence. County projec
 imagery is dated 1984–1986; accepted Osborn corrections and qualifications do not
 transfer automatically. Official municipal zoning and legal applicability remain
 separate evidence requirements.
+
+## Planned soils and terrain investigations
+
+Requested after the county readiness review; both remain **pending investigation**.
+These are planned work items, not observed dataset defects or completed loads.
+
+- **Soil boundaries / septic screening:** qualify the candidate USDA SSURGO
+  coverage for Piscataquis County, map-unit boundaries and component/limitation
+  attributes. Check identifiers, dates, mapping scale, geometry quality and
+  boundary uncertainty. Preserve variation within a map unit and identify the
+  field evidence needed to assess a proposed septic location. Do not turn a
+  soil polygon intersection into septic approval.
+- **Topography / slope buildability:** qualify candidate USGS/Maine elevation
+  or LiDAR coverage, acquisition dates, resolution, vertical accuracy, units,
+  datum and missing-data areas. Define reproducible slope calculations and
+  assess potentially usable portions of a parcel, including access and septic
+  siting implications. Keep slope evidence separate from legal buildability and
+  site approval; no source product, cutoff or scoring weight is selected yet.
+
+Here “topography” means terrain elevation and slope, as requested for buildability;
+geometry topology remains a separate shape-validity concern. Carry both pending
+investigations into parcel/AOI evidence packets as unknown until qualified, and
+record any discovered source deficiencies in the private findings register.
