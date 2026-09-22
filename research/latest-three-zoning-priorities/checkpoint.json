@@ -1,0 +1,19 @@
+{
+  "accepted_correction_versions_unchanged": true,
+  "all_three_proposals_remain_held": true,
+  "audit_sha256": "33259813dfcc2b5fa814d0f49547df52c71e5bab9f3a5e3de1e60106efe86673",
+  "effective_total_holds": 172,
+  "effective_zoning_holds": 151,
+  "finding_event_id": "beac8ffd8cd282bf51e2e22e013c3ca453e6311aa25d95dc9d85bb9bda7730c4",
+  "geometry_snapshot_id": "bcd341fe5cd1d7afe0a2d79a1e58991c5e4c954f6f8f64add9592a8cfca89eed",
+  "load_sha256": "0373b38ea1cdbc4d3999b24cc33786b3598fc7c6df4879d3d8b40fd6c399ca4f",
+  "new_independent_archive_downloads": 31,
+  "new_source_observations": 13,
+  "original_county_rows": 120449,
+  "original_fingerprints_unchanged": true,
+  "other_findings_unchanged": true,
+  "qualified_rows": 0,
+  "reverified_previous_independent_downloads": 39,
+  "verified_archive_objects": 70,
+  "verified_at": "2026-09-22T16:05:12.856641+00:00"
+}

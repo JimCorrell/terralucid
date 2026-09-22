@@ -1,0 +1,6 @@
+[
+  {
+    "id": "chesuncook-map-index",
+    "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=MAP%3D%27chesuncook-twp%27&outFields=%2A&returnGeometry=false&f=json"
+  }
+]

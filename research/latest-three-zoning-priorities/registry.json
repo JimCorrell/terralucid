@@ -1,0 +1,41 @@
+{
+  "scope": "Three ranked Piscataquis zoning geometry investigations; exact-source proposals only, no activation.",
+  "sources": [
+    {
+      "id": "lupc-zoning",
+      "name": "LUPC zoning service variants, map index and official maps",
+      "probe_ids": [
+        "chesuncook-twp-map",
+        "chesuncook-map-index",
+        "t1-r11-wels-map",
+        "t10-r15-wels-map",
+        "publisher-page",
+        "layer-metadata",
+        "map-index",
+        "native-27233351",
+        "geojson-27233351",
+        "native-27314083",
+        "geojson-27314083",
+        "native-27316137",
+        "geojson-27316137"
+      ],
+      "publisher": "Maine LUPC",
+      "rights": "Private research archive; redistribution rights not established.",
+      "source_urls": [
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/chesuncook-twp.pdf",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=MAP%3D%27chesuncook-twp%27&outFields=%2A&returnGeometry=false&f=json",
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t1-r11-wels.pdf",
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t10-r15-wels.pdf",
+        "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=TOWNNAME+IN+%28%27T10+R15+WELS%27%2C%27Chesuncook+Twp%27%2C%27T1+R11+WELS%27%29&outFields=%2A&returnGeometry=false&f=json",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27233351&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27233351&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27314083&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27314083&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27316137&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+        "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27316137&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919"
+      ]
+    }
+  ]
+}

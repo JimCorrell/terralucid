@@ -1,0 +1,9 @@
+{
+  "actor": "TerraLucid latest-three zoning investigation",
+  "expected_event_id": "1472052069614d6b90b34aa9430ab40a44c9a2fa47c90d88501d57bb6b436e38",
+  "finding_id": "TL-F-0029",
+  "next_action": "Review exact T10 R15 WELS 27233351, Chesuncook Township 27314083 and T1 R11 WELS 27316137 proposal hashes; extend and test bounded acceptance, then activate supported versions and refresh ranking. Retain 151 zoning and 21 parcel holds and county qualification follow-ups. Resolve T1 R11 map-index AMEND_DATE 2005-08-18 versus PDF ZP770 effective 2018-04-26 before relying on amendment metadata for legal currency.",
+  "note": "All three source-preserving innermost-hole interpretations pass fixed cycle/fill checks and equal valid service GeoJSON; native records match preserved originals. No ring splits or coordinate moves. Official map dates and T1 R11 index/PDF discrepancy retained. Proposals only; eleven accepted versions unchanged.",
+  "priority": "high",
+  "status": "in_progress"
+}
