@@ -1,0 +1,588 @@
+{
+  "cases": [
+    {
+      "additional_effective_baseline_gap_m2": 4327365.486311016,
+      "area_difference_from_publisher_m2": 1.3597309589385986e-07,
+      "candidate_equals_service_geojson": true,
+      "candidate_path": "research/next-three-zoning-priorities/candidates/27224591.geojson",
+      "candidate_sha256": "db78a66cadf76b947901a0f1370a8fde2de6855dc40196888da70159e2420bd5",
+      "cycle_review": {
+        "exact_hole_cycles": 98,
+        "exact_shell_cycles": 155,
+        "source_cycle_roles_preserved": true,
+        "split_rings": []
+      },
+      "details": {
+        "assembly": {
+          "candidate_holes": 98,
+          "candidate_shells": 155,
+          "nested_hole_assignments": [
+            {
+              "chosen_innermost_shell": 18,
+              "containing_shell_indices": [
+                18,
+                2
+              ],
+              "hole_index_after_split": 38
+            }
+          ],
+          "segments_preserved_with_multiplicity": true,
+          "source_rings": 253,
+          "splits": []
+        },
+        "splits": []
+      },
+      "geojson_evidence": "source/geojson-27224591",
+      "independent_fill_check": {
+        "all_segments_preserved_with_multiplicity": true,
+        "candidate_area_m2": 4327731.819193771,
+        "candidate_valid": true,
+        "equals_independent_even_odd_fill": true,
+        "face_classification_mismatches": 0,
+        "filled_faces": 155,
+        "minimum_sample_boundary_distance_m": 0.005700192981448658,
+        "source_faces": 253,
+        "symmetric_difference_m2": 0.0
+      },
+      "invalid_rings": [],
+      "map": "t4-r13-wels",
+      "map_evidence": {
+        "adopted": "2005-08-03",
+        "amendments": [
+          {
+            "effective": "2005-08-18",
+            "remark": "Adoption of digital NWI wetlands"
+          }
+        ],
+        "context": "P-SL2 corridors, wetlands and lake protection west of Chesuncook Lake.",
+        "effective": "2005-08-18",
+        "page": 1,
+        "pdf_sha256": "8a628da4b8be28772027debc765cd8a19b1c6c6d820da531f622c145d76f4962",
+        "retrieved_at": "2026-09-22T15:37:56.382879+00:00",
+        "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t4-r13-wels.pdf"
+      },
+      "native_evidence": "source/native-27224591",
+      "native_matches_original": true,
+      "object_id": 27224591,
+      "original_hold": "Ambiguous/uncontained hole",
+      "original_response_sha256": "a1dbbdfa68ee6bcbee1df5d31479edbc68f6d7acb30ee134cc6b62666d13dff1",
+      "publisher_area_m2": 4327731.819193635,
+      "rank": 1,
+      "recommendation": "supported_for_exact_version_acceptance_after_validator_extension",
+      "service_attributes_and_segments_match": true,
+      "service_geojson_valid": true,
+      "service_geojson_validity": "Valid Geometry",
+      "source_feature_sha256": "189c634794dcc2ca95f4018c66839e2857f8e01583ee3b478da838ae558f335a",
+      "source_ring_count": 253,
+      "status": "proposed_not_accepted",
+      "zone": "P-SL2: Shoreland - 75'"
+    },
+    {
+      "additional_effective_baseline_gap_m2": 5456373.180649303,
+      "area_difference_from_publisher_m2": 1.9548460841178894e-06,
+      "candidate_equals_service_geojson": null,
+      "candidate_path": "research/next-three-zoning-priorities/candidates/27320676.geojson",
+      "candidate_sha256": "c7c4bbfc3746445a4c0346510d1cdf16020d6a80f726eae3f02dd7af99d36382",
+      "cycle_review": {
+        "exact_hole_cycles": 258,
+        "exact_shell_cycles": 264,
+        "source_cycle_roles_preserved": true,
+        "split_rings": [
+          {
+            "candidate_shell_index": 37,
+            "counterclockwise": [
+              true,
+              true
+            ],
+            "cycles": 2,
+            "loop_area_m2": [
+              9492.644999983488,
+              8723.55619999968
+            ],
+            "source_ring": 105,
+            "type": "two_holes"
+          }
+        ]
+      },
+      "details": {
+        "assembly": {
+          "candidate_holes": 258,
+          "candidate_shells": 264,
+          "nested_hole_assignments": [
+            {
+              "chosen_innermost_shell": 102,
+              "containing_shell_indices": [
+                102,
+                0
+              ],
+              "hole_index_after_split": 138
+            }
+          ],
+          "segments_preserved_with_multiplicity": true,
+          "source_rings": 522,
+          "splits": []
+        },
+        "splits": [
+          {
+            "counterclockwise": [
+              true,
+              true
+            ],
+            "interior_overlap_m2": 0,
+            "intersection_type": "Point",
+            "loop_area_m2": [
+              9492.644999983488,
+              8723.55619999968
+            ],
+            "loop_coordinate_counts": [
+              46,
+              31
+            ],
+            "repeated_vertex": [
+              504040.6799999997,
+              5123304.42
+            ],
+            "segments_preserved_with_multiplicity": true,
+            "source_ring": 105,
+            "type": "two_touching_holes",
+            "zero_based_indices": [
+              0,
+              45
+            ]
+          }
+        ]
+      },
+      "geojson_evidence": "source/geojson-27320676",
+      "independent_fill_check": {
+        "all_segments_preserved_with_multiplicity": true,
+        "candidate_area_m2": 6102817.8770013545,
+        "candidate_valid": true,
+        "equals_independent_even_odd_fill": true,
+        "face_classification_mismatches": 0,
+        "filled_faces": 264,
+        "minimum_sample_boundary_distance_m": 0.007499859804308261,
+        "source_faces": 522,
+        "symmetric_difference_m2": 0.0
+      },
+      "invalid_rings": [
+        {
+          "index": 105,
+          "reason": "Ring Self-intersection[504040.68 5123304.42]"
+        }
+      ],
+      "map": "t7-r9-wels",
+      "map_evidence": {
+        "adopted": "2005-08-03",
+        "amendments": [
+          {
+            "effective": "2005-08-18",
+            "remark": "Adoption of digital NWI wetlands"
+          }
+        ],
+        "context": "P-SL2 corridors among wetlands and ponds south of Millinocket Lake.",
+        "effective": "2005-08-18",
+        "page": 1,
+        "pdf_sha256": "a9d6cd0940a710a19fc7c2fbd285a4b1a9201d2988c0a6ef05cc85abaaa30f07",
+        "retrieved_at": "2026-09-22T15:37:57.532042+00:00",
+        "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t7-r9-wels.pdf"
+      },
+      "native_evidence": "source/native-27320676",
+      "native_matches_original": true,
+      "object_id": 27320676,
+      "original_hold": "Ring Self-intersection[504040.68 5123304.42]",
+      "original_response_sha256": "7770c7c3dd4b8b3207aefb73e7c2b9505332bb616efce5391bb6b056f3a57123",
+      "publisher_area_m2": 6102817.8769994,
+      "rank": 2,
+      "recommendation": "supported_for_exact_version_acceptance_after_validator_extension",
+      "service_attributes_and_segments_match": true,
+      "service_geojson_valid": false,
+      "service_geojson_validity": "Ring Self-intersection[504040.68 5123304.42]",
+      "source_feature_sha256": "b58794ea3c3064ba06654b108987ae73a4634e0833c0dbe3a6e34f93042b56c8",
+      "source_ring_count": 521,
+      "status": "proposed_not_accepted",
+      "zone": "P-SL2: Shoreland - 75'"
+    },
+    {
+      "additional_effective_baseline_gap_m2": 4153032.6313606934,
+      "area_difference_from_publisher_m2": 2.1420419216156006e-08,
+      "candidate_equals_service_geojson": true,
+      "candidate_path": "research/next-three-zoning-priorities/candidates/27243652.geojson",
+      "candidate_sha256": "37b9fbaa5e28c176e38eb06593d5ba285707256f75672410d7b2980e05787804",
+      "cycle_review": {
+        "exact_hole_cycles": 126,
+        "exact_shell_cycles": 132,
+        "source_cycle_roles_preserved": true,
+        "split_rings": []
+      },
+      "details": {
+        "assembly": {
+          "candidate_holes": 126,
+          "candidate_shells": 132,
+          "nested_hole_assignments": [
+            {
+              "chosen_innermost_shell": 57,
+              "containing_shell_indices": [
+                57,
+                89
+              ],
+              "hole_index_after_split": 46
+            },
+            {
+              "chosen_innermost_shell": 57,
+              "containing_shell_indices": [
+                57,
+                89
+              ],
+              "hole_index_after_split": 47
+            }
+          ],
+          "segments_preserved_with_multiplicity": true,
+          "source_rings": 258,
+          "splits": []
+        },
+        "splits": []
+      },
+      "geojson_evidence": "source/geojson-27243652",
+      "independent_fill_check": {
+        "all_segments_preserved_with_multiplicity": true,
+        "candidate_area_m2": 4863742.377804821,
+        "candidate_valid": true,
+        "equals_independent_even_odd_fill": true,
+        "face_classification_mismatches": 0,
+        "filled_faces": 132,
+        "minimum_sample_boundary_distance_m": 0.07457748222307765,
+        "source_faces": 258,
+        "symmetric_difference_m2": 0.0
+      },
+      "invalid_rings": [],
+      "map": "t6-r15-wels",
+      "map_evidence": {
+        "adopted": "2005-08-03",
+        "amendments": [
+          {
+            "effective": "2005-08-18",
+            "remark": "Adoption of digital NWI wetlands"
+          }
+        ],
+        "context": "P-SL2 corridors around Loon Lake and the Hurd ponds among wetland and other protection districts.",
+        "effective": "2005-08-18",
+        "page": 1,
+        "pdf_sha256": "413d462547a9627816e7877b567890867b415fc0de6de786a0df8d12c09f872e",
+        "retrieved_at": "2026-09-22T15:37:56.960323+00:00",
+        "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t6-r15-wels.pdf"
+      },
+      "native_evidence": "source/native-27243652",
+      "native_matches_original": true,
+      "object_id": 27243652,
+      "original_hold": "Ambiguous/uncontained hole",
+      "original_response_sha256": "ba71db7cce2b848942b5c479dc3f8578634551b4d2d933b69655d7798ca7127d",
+      "publisher_area_m2": 4863742.3778048,
+      "rank": 3,
+      "recommendation": "supported_for_exact_version_acceptance_after_validator_extension",
+      "service_attributes_and_segments_match": true,
+      "service_geojson_valid": true,
+      "service_geojson_validity": "Valid Geometry",
+      "source_feature_sha256": "dd8499e730a8cf92b2d628664afade60f299ba6b7597875257f0add8e99a46af",
+      "source_ring_count": 258,
+      "status": "proposed_not_accepted",
+      "zone": "P-SL2: Shoreland - 75'"
+    }
+  ],
+  "evidence": {
+    "maps/t4-r13-wels-map": {
+      "bytes": 1592858,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t4-r13-wels.pdf",
+      "format": "pdf",
+      "http_status": 200,
+      "id": "t4-r13-wels-map",
+      "pdf_signature": true,
+      "response_file": "t4-r13-wels-map.response",
+      "response_path": "research/next-three-zoning-priorities/runs/maps/t4-r13-wels-map.response",
+      "retrieved_at": "2026-09-22T15:37:56.382879+00:00",
+      "sha256": "8a628da4b8be28772027debc765cd8a19b1c6c6d820da531f622c145d76f4962",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t4-r13-wels.pdf"
+    },
+    "maps/t6-r15-wels-map": {
+      "bytes": 2202135,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t6-r15-wels.pdf",
+      "format": "pdf",
+      "http_status": 200,
+      "id": "t6-r15-wels-map",
+      "pdf_signature": true,
+      "response_file": "t6-r15-wels-map.response",
+      "response_path": "research/next-three-zoning-priorities/runs/maps/t6-r15-wels-map.response",
+      "retrieved_at": "2026-09-22T15:37:56.960323+00:00",
+      "sha256": "413d462547a9627816e7877b567890867b415fc0de6de786a0df8d12c09f872e",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t6-r15-wels.pdf"
+    },
+    "maps/t7-r9-wels-map": {
+      "bytes": 2026670,
+      "content_type": "application/pdf",
+      "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t7-r9-wels.pdf",
+      "format": "pdf",
+      "http_status": 200,
+      "id": "t7-r9-wels-map",
+      "pdf_signature": true,
+      "response_file": "t7-r9-wels-map.response",
+      "response_path": "research/next-three-zoning-priorities/runs/maps/t7-r9-wels-map.response",
+      "retrieved_at": "2026-09-22T15:37:57.532042+00:00",
+      "sha256": "a9d6cd0940a710a19fc7c2fbd285a4b1a9201d2988c0a6ef05cc85abaaa30f07",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/maps/t7-r9-wels.pdf"
+    },
+    "source/geojson-27224591": {
+      "bytes": 1217274,
+      "content_type": "application/geo+json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27224591&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+      "http_status": 200,
+      "id": "geojson-27224591",
+      "pdf_signature": false,
+      "response_file": "geojson-27224591.response",
+      "response_path": "research/next-three-zoning-priorities/runs/source/geojson-27224591.response",
+      "retrieved_at": "2026-09-22T15:37:34.150709+00:00",
+      "sha256": "65cf41ee21c035c0079694ac4cbd77892a2f5e011023ae5b8a6a4ab21e4fda25",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27224591&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919"
+    },
+    "source/geojson-27243652": {
+      "bytes": 1341449,
+      "content_type": "application/geo+json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27243652&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+      "http_status": 200,
+      "id": "geojson-27243652",
+      "pdf_signature": false,
+      "response_file": "geojson-27243652.response",
+      "response_path": "research/next-three-zoning-priorities/runs/source/geojson-27243652.response",
+      "retrieved_at": "2026-09-22T15:38:21.597116+00:00",
+      "sha256": "ddd99fbc365612413a8f1a61773dd14412524b9d2fa2fc83a332e500085771ac",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27243652&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919"
+    },
+    "source/geojson-27320676": {
+      "bytes": 2379932,
+      "content_type": "application/geo+json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27320676&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919",
+      "http_status": 200,
+      "id": "geojson-27320676",
+      "pdf_signature": false,
+      "response_file": "geojson-27320676.response",
+      "response_path": "research/next-three-zoning-priorities/runs/source/geojson-27320676.response",
+      "retrieved_at": "2026-09-22T15:38:16.476515+00:00",
+      "sha256": "dc0f3ab2be2101172c9ab3c80ead70c2ff65ae8296d3989c543a7cd1c0ee53ab",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27320676&outFields=%2A&returnGeometry=true&f=geojson&outSR=26919"
+    },
+    "source/layer-metadata": {
+      "bytes": 110668,
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson",
+      "http_status": 200,
+      "id": "layer-metadata",
+      "pdf_signature": false,
+      "response_file": "layer-metadata.response",
+      "response_path": "research/next-three-zoning-priorities/runs/source/layer-metadata.response",
+      "retrieved_at": "2026-09-22T15:37:18.350331+00:00",
+      "sha256": "e431122da6f3b35e17824a8ce0f91b0a020f6adf94138e3ef24a39fbf1f6bc65",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0?f=pjson"
+    },
+    "source/map-index": {
+      "bytes": 7114,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=TOWNNAME+IN+%28%27T4+R13+WELS%27%2C%27T7+R9+WELS%27%2C%27T6+R15+WELS%27%29&outFields=%2A&returnGeometry=false&f=json",
+      "http_status": 200,
+      "id": "map-index",
+      "pdf_signature": false,
+      "response_file": "map-index.response",
+      "response_path": "research/next-three-zoning-priorities/runs/source/map-index.response",
+      "retrieved_at": "2026-09-22T15:37:18.664819+00:00",
+      "sha256": "60e5183f14511af3a30128b4466476d0f1400c67e979bbf30c2dc136c8ca1cf1",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data/MapServer/0/query?where=TOWNNAME+IN+%28%27T4+R13+WELS%27%2C%27T7+R9+WELS%27%2C%27T6+R15+WELS%27%29&outFields=%2A&returnGeometry=false&f=json"
+    },
+    "source/native-27224591": {
+      "bytes": 1218415,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27224591&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+      "http_status": 200,
+      "id": "native-27224591",
+      "pdf_signature": false,
+      "response_file": "native-27224591.response",
+      "response_path": "research/next-three-zoning-priorities/runs/source/native-27224591.response",
+      "retrieved_at": "2026-09-22T15:37:19.583116+00:00",
+      "sha256": "15f5d67b1ef9e58b84d66b29cc0eb582b90f78e71700ccd161c5fa9a5235adf4",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27224591&outFields=%2A&returnGeometry=true&f=json&outSR=26919"
+    },
+    "source/native-27243652": {
+      "bytes": 1342636,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27243652&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+      "http_status": 200,
+      "id": "native-27243652",
+      "pdf_signature": false,
+      "response_file": "native-27243652.response",
+      "response_path": "research/next-three-zoning-priorities/runs/source/native-27243652.response",
+      "retrieved_at": "2026-09-22T15:38:19.694758+00:00",
+      "sha256": "30a1bd117daf03018029f750e08284e04322fdd96768afd9b9bc872063a13cee",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27243652&outFields=%2A&returnGeometry=true&f=json&outSR=26919"
+    },
+    "source/native-27320676": {
+      "bytes": 2380855,
+      "content_type": "application/json; charset=UTF-8",
+      "final_url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27320676&outFields=%2A&returnGeometry=true&f=json&outSR=26919",
+      "http_status": 200,
+      "id": "native-27320676",
+      "pdf_signature": false,
+      "response_file": "native-27320676.response",
+      "response_path": "research/next-three-zoning-priorities/runs/source/native-27320676.response",
+      "retrieved_at": "2026-09-22T15:38:04.644599+00:00",
+      "sha256": "78b7ed40f75a3f2d51f26dcad40431bfbdbe707b9257b7a184f573af06dc2a05",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://gis.maine.gov/mapservices/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer/0/query?objectIds=27320676&outFields=%2A&returnGeometry=true&f=json&outSR=26919"
+    },
+    "source/publisher-page": {
+      "bytes": 25238,
+      "content_type": "text/html",
+      "final_url": "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html",
+      "http_status": 200,
+      "id": "publisher-page",
+      "pdf_signature": false,
+      "response_file": "publisher-page.response",
+      "response_path": "research/next-three-zoning-priorities/runs/source/publisher-page.response",
+      "retrieved_at": "2026-09-22T15:37:18.147311+00:00",
+      "sha256": "c17e6397d6ff2447cf3cde92dc19cbcd9e6b40deed94a4095423766f9b3a85cc",
+      "status": "NON_JSON_RESPONSE",
+      "url": "https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html"
+    }
+  },
+  "evidence_state": "DERIVED",
+  "geometry_dependencies": {
+    "1923fce64a18116ebc9cda52b44d6dff59a631934da6e9939ed8da1fad035843": {
+      "candidate_sha256": "178f59b92aa942bdec0d6eafe800fa2650f054d5bc29a48cc1bd8b2670914ae9",
+      "event_id": "75820753f2a02a4540be8e1c3f6cd234bf8b3ef9a3cb1e10b69e4e65aa08b55a",
+      "source_input_sha256": "a3a5c5f8c33244214623df30508d176e7125eeda14b0d16ae80faac205b96a3d",
+      "status": "accepted"
+    },
+    "238fa17758515d1028c1e6bf69c0086f37d0a6170550982a3c7e9b10b3e57d1f": {
+      "candidate_sha256": "bec5fedbfad1d20f3c055eb94ebf13443e898c2c23bc4dcc202065b93cfe5982",
+      "event_id": "4b97de472bf8ba81a56b46e7dc6394699482374d2d8634ec31bc8606ce31bfdd",
+      "source_input_sha256": "ccad379df5506c4fff7ad4786581eab4514036963a81e20ecd9917eef69aa7b4",
+      "status": "accepted"
+    },
+    "3b0dac42bb781dc5cd2c4f7a3cc627b4d64ab2d47b997ffebde7fbc0ebe6085c": {
+      "candidate_sha256": "ca169c3ab9bcb181c9e3533cb83b5463eb443b5d29ea1e866ccd61dfe5040a6a",
+      "event_id": "ae4e5cfaddb8d73100f497173c1386e8f07e9cae84128a002e9cb6083a4622ad",
+      "source_input_sha256": "370d4abffde6fad8a40338eefbeec4db390849c060ac0cb38898641147b22fc8",
+      "status": "accepted"
+    },
+    "4a78f4fa910dfea90cbabc5226220c4181a4e78fe9fb14d0ce06b02a1f9c8a7a": {
+      "candidate_sha256": "47b5a125668da3580220741a6430dcfba6e558d0c85bad26bd7cae51d437a148",
+      "event_id": "7cfa01611b5311df343ab41705332468b5ad4765496d6e7cf3f2221460ce79d3",
+      "source_input_sha256": "3a9e9548ee4acc06578591b4d3b66e9dbccd0b5276a3f0b84eaf3448033afe48",
+      "status": "accepted"
+    },
+    "75228c9dab20e577d6d2a4011a16e1847aa94ab2107097116ce76daa8e11b1f4": {
+      "candidate_sha256": "6c080b3c394a2a3da1d9989cd2040d57cbae7ee4120a9edd82416e31297e7b23",
+      "event_id": "c409ce31b99d3b8a8f0e80334735eda52c006d6f103c59c8fc02ef504ace6dd0",
+      "source_input_sha256": "178a76ce5899c3046a132643287304f4d0bed4e66bdac33739845b8191678ff4",
+      "status": "accepted"
+    },
+    "a0f01e34a133492da74c5635ec5d0eeb4641775354ff2cce754d2861f6a0bc35": {
+      "candidate_sha256": "0d121d894fd418c3f71f885790bd4bdd4d1981fed5a542237f508835a964bf98",
+      "event_id": "6d49364cc221c47e27e3ee9ed1d3eefc1f4381c7b41c45e665ea511cdc61ab16",
+      "source_input_sha256": "f857700d1a74e7d9b7b4f8d8d34ef509c9bb088684d937c5608e58f861ce93df",
+      "status": "accepted"
+    },
+    "c916460613425b3431bbd549b0424d4ec5ea629fff6bc7e379f8fbdf621b8f8a": {
+      "candidate_sha256": "63a8d72b865ff1543accf8b0831a0a9a6baac343844fe8f5dedd16aa1bfe0d09",
+      "event_id": "9461ad650fb93ff085159e107e11dd64031cf60ac9dd95e567ba6d7cecc9b197",
+      "source_input_sha256": "b15048c21c284550db796511132e87fd07bd5c9f441cd4a72e9910ef4ebcdef4",
+      "status": "accepted"
+    },
+    "fcaad291ce0bd47697a9283c36277baf34c00007d4e54bda2b6288ecb50507c8": {
+      "candidate_sha256": "bd94a4d7263ed27e9c9062c00ddd399090bc6eda8e6e39fd445be4359860994f",
+      "event_id": "9db1feeb15415f022bd101d754231c0384a92b18ae3d1aefda0e5179b153855b",
+      "source_input_sha256": "447396354ec8a8b5ec35f0f950a0374f45021717b8d0dcd386d8e3c8e08be8da",
+      "status": "accepted"
+    }
+  },
+  "geometry_snapshot_id": "7a862e0e28a8d54afd6c5a58c0964a5482393836fc2af767cad80b42e26a20f8",
+  "inputs": {
+    ".local/piscataquis-held-zoning-gap.wkb": "92e6115c9875aac118a5c1c520cefb2d943d0646c0dbb8c24d2075190f2c4750",
+    "research/county-corrections/report.json": "f71944bb815efe7b873c5a49aace783c2056b072d89d2ddcfce9532ae12b05c5",
+    "research/eight-correction-ranking/report.json": "6b8896283cc6637d5d2dc77c51fe1fe28f2600f64c76ef25649f05893ad418eb",
+    "research/moosehead-spencer-acceptance/report.json": "29eb98bf8d6fd719aebb2cf1c1cd062169378a336564a62a8a0b0d983a1fd464",
+    "research/moosehead-spencer/candidates/27208875.geojson": "bec5fedbfad1d20f3c055eb94ebf13443e898c2c23bc4dcc202065b93cfe5982",
+    "research/moosehead-spencer/candidates/27336229.geojson": "bd94a4d7263ed27e9c9062c00ddd399090bc6eda8e6e39fd445be4359860994f",
+    "research/next-three-zoning-priorities/candidates/27224591.geojson": "db78a66cadf76b947901a0f1370a8fde2de6855dc40196888da70159e2420bd5",
+    "research/next-three-zoning-priorities/candidates/27243652.geojson": "37b9fbaa5e28c176e38eb06593d5ba285707256f75672410d7b2980e05787804",
+    "research/next-three-zoning-priorities/candidates/27320676.geojson": "c7c4bbfc3746445a4c0346510d1cdf16020d6a80f726eae3f02dd7af99d36382",
+    "research/next-three-zoning-priorities/dependencies.json": "8f3ec5d0986b91cd3f7155a258960d026564fc993d4900f28d8d03227e0bee50",
+    "research/next-three-zoning-priorities/map-probes.json": "6f4237507e1a617942c0c160d5de91e7f60c0aa227a139d365c31a57a5ee0590",
+    "research/next-three-zoning-priorities/map-review.json": "7801e8d275c25d745bd68a22bbc72f9fdd8526fb730b840fb25e95872d461fc5",
+    "research/next-three-zoning-priorities/probes.json": "3f096520fbb114152392231e9ea1e29c530e194c345d887232428faca9cab85a",
+    "research/next-three-zoning-priorities/registry.json": "f776828139bd719e7aeb912dca57812a84418d93cb76821d82b845c241bfc35f",
+    "research/next-three-zoning-priorities/runs/maps/results.json": "334759121e1c836a5f092ac35ae2e1f53eb0d4242145b103a9a32acd797e4ad0",
+    "research/next-three-zoning-priorities/runs/maps/t4-r13-wels-map.response": "8a628da4b8be28772027debc765cd8a19b1c6c6d820da531f622c145d76f4962",
+    "research/next-three-zoning-priorities/runs/maps/t6-r15-wels-map.response": "413d462547a9627816e7877b567890867b415fc0de6de786a0df8d12c09f872e",
+    "research/next-three-zoning-priorities/runs/maps/t7-r9-wels-map.response": "a9d6cd0940a710a19fc7c2fbd285a4b1a9201d2988c0a6ef05cc85abaaa30f07",
+    "research/next-three-zoning-priorities/runs/source/geojson-27224591.response": "65cf41ee21c035c0079694ac4cbd77892a2f5e011023ae5b8a6a4ab21e4fda25",
+    "research/next-three-zoning-priorities/runs/source/geojson-27243652.response": "ddd99fbc365612413a8f1a61773dd14412524b9d2fa2fc83a332e500085771ac",
+    "research/next-three-zoning-priorities/runs/source/geojson-27320676.response": "dc0f3ab2be2101172c9ab3c80ead70c2ff65ae8296d3989c543a7cd1c0ee53ab",
+    "research/next-three-zoning-priorities/runs/source/layer-metadata.response": "e431122da6f3b35e17824a8ce0f91b0a020f6adf94138e3ef24a39fbf1f6bc65",
+    "research/next-three-zoning-priorities/runs/source/map-index.response": "60e5183f14511af3a30128b4466476d0f1400c67e979bbf30c2dc136c8ca1cf1",
+    "research/next-three-zoning-priorities/runs/source/native-27224591.response": "15f5d67b1ef9e58b84d66b29cc0eb582b90f78e71700ccd161c5fa9a5235adf4",
+    "research/next-three-zoning-priorities/runs/source/native-27243652.response": "30a1bd117daf03018029f750e08284e04322fdd96768afd9b9bc872063a13cee",
+    "research/next-three-zoning-priorities/runs/source/native-27320676.response": "78b7ed40f75a3f2d51f26dcad40431bfbdbe707b9257b7a184f573af06dc2a05",
+    "research/next-three-zoning-priorities/runs/source/publisher-page.response": "c17e6397d6ff2447cf3cde92dc19cbcd9e6b40deed94a4095423766f9b3a85cc",
+    "research/next-three-zoning-priorities/runs/source/results.json": "503df8a23ba95c7be174c983e60efda922e1b4680fc1ca7a92675d007a881636",
+    "research/piscataquis-ingestion/runs/capture/lupc-zoning-page-106.response": "ba71db7cce2b848942b5c479dc3f8578634551b4d2d933b69655d7798ca7127d",
+    "research/piscataquis-ingestion/runs/capture/lupc-zoning-page-307.response": "7770c7c3dd4b8b3207aefb73e7c2b9505332bb616efce5391bb6b056f3a57123",
+    "research/piscataquis-ingestion/runs/capture/lupc-zoning-page-57.response": "a1dbbdfa68ee6bcbee1df5d31479edbc68f6d7acb30ee134cc6b62666d13dff1",
+    "research/piscataquis-zoning-holds/candidates/27249007.geojson": "63a8d72b865ff1543accf8b0831a0a9a6baac343844fe8f5dedd16aa1bfe0d09",
+    "research/piscataquis-zoning-holds/candidates/27291625.geojson": "6c080b3c394a2a3da1d9989cd2040d57cbae7ee4120a9edd82416e31297e7b23",
+    "research/piscataquis-zoning-holds/candidates/27334504.geojson": "178f59b92aa942bdec0d6eafe800fa2650f054d5bc29a48cc1bd8b2670914ae9",
+    "research/piscataquis-zoning-holds/ranking.json": "e346d801cff4cad0a65494a53d3992199848266bbe1693de28a3a3b4efb02768",
+    "research/piscataquis-zoning-holds/report.json": "25f03b37818d1fc5cf25a6fa1e9264d48824c8585dbbf9776574dd6682905b6c",
+    "research/piscataquis-zoning-holds/runs/specification/esri-ring-specification.response": "9bb444674617e320419aacbcc78f4ac47d2db8c23f5b129f8e5ce819f5d4f1d2",
+    "research/three-zoning-acceptance/report.json": "7e5ec1b5350fbb6d657551ef31d1739a34a4e3e22d0e5f312d7c5e8bd3e87c17",
+    "research/three-zoning-priorities/candidates/27207268.geojson": "0d121d894fd418c3f71f885790bd4bdd4d1981fed5a542237f508835a964bf98",
+    "research/three-zoning-priorities/candidates/27270812.geojson": "ca169c3ab9bcb181c9e3533cb83b5463eb443b5d29ea1e866ccd61dfe5040a6a",
+    "research/three-zoning-priorities/candidates/27304757.geojson": "47b5a125668da3580220741a6430dcfba6e558d0c85bad26bd7cae51d437a148",
+    "scripts/capture_county_ranking.sql": "7d7ec18facfa8385bf83b5b668e9a85bfb190a221e13421970aa85e9e4d4555a",
+    "scripts/collect_document_evidence.py": "512463a8e1b2f024b99084f00dd97c6fc853051be480e98335a4d96466c6b1e9",
+    "scripts/investigate_county_zoning_cases.py": "0fc73a80251b4ee293b1d4325ee165e21ac8356be3b3e3d807a43da2d6583e58",
+    "scripts/investigate_moosehead_spencer.py": "e011e6aa3a9ac2dd123909c0e78dbdc919f047a04e9a60b94a655ef935dad999",
+    "scripts/investigate_osborn_zoning.py": "f3587380e6b2f7f9c3f9c7dfdf175b6dbee9449a4cbf176d34f1db882cf48bb5",
+    "scripts/prepare_source_staging.py": "c1feaa12cda89130a0dbad9ab01f3170b94b87300b2014d5f3fda2d647fb8c5b",
+    "scripts/probe_sources.py": "f605be82f30b4939c376ecb59d4704471d77ffbc1c989c9a9a43ad0b13b42a52",
+    "scripts/refresh_county_ranking.py": "a130537f8479e6f4ec053bc03483421fe531fac26eded88c9ca8a0cbec9fff55",
+    "scripts/refresh_eight_correction_ranking.py": "66129c962004fd1cc2d837eecb1e5c79b2313129c80704a728066de6636e4dd6",
+    "scripts/review_county_zoning_proposals.py": "baed5325cc979144cc9c98f0c4a29135dd18989647d494227af65d5562ccb35b",
+    "scripts/review_moosehead_spencer.py": "b2f65837d5886638ffa021382b9cf68fccd7648cc7319a8d7efbeef9facee146"
+  },
+  "limits": [
+    "No activation: all 154 zoning and 21 parcel holds remain; eight prior acceptances are unchanged.",
+    "Distinct cycle/fill algorithms use the same GEOS engine and are not publisher approval or survey evidence.",
+    "Official maps provide context and limitations, not exact contact coordinates or legal currency.",
+    "Scenario is potential usable inventory geometry, not absent zoning, buildability or qualified parcel screening."
+  ],
+  "method": "scripts/investigate_next_three_zoning_priorities.py",
+  "method_sha256": "ddd08350ffb3f4a5ee8cd9f7e3549101aa0a4dddb2ec1efa3ec549a1c13c0830",
+  "proposed_combined_additional_gap_m2": 13936771.298321009,
+  "ranking_audit_sha256": "6b8896283cc6637d5d2dc77c51fe1fe28f2600f64c76ef25649f05893ad418eb",
+  "review_conclusion": "All three exact-source proposals preserve complete segment multiplicity, source cycle roles and independent even-odd fill. Supported for reviewable exact-version activation after a tested extension of the bounded county validator.",
+  "runtime": {
+    "GEOS": "3.11.4",
+    "numpy": "2.0.2",
+    "shapely": "2.0.7"
+  },
+  "scenario_method": "Union of proposal intersections with the original valid-zoning gap, minus union of all eight accepted candidates; spatially indexed exact overlay.",
+  "source_audit_sha256": "fad71a48eab71fce398a8e51bd3fb4e9b7169e1d0e0f2a6ed91b1a18a5fad259"
+}

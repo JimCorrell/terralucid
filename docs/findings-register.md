@@ -144,3 +144,9 @@ The [eight-correction ranking](../research/eight-correction-ranking/README.md)
 refreshes all 154 remaining zoning holds. TL-F-0029 keeps T4 R13 WELS, T7 R9 WELS
 and T6 R15 WELS as the next bounded investigation group, subject to snapshot
 currency checks; other county qualification issues remain open.
+
+The [next-three investigation](../research/next-three-zoning-priorities/README.md)
+records T4 R13 WELS, T7 R9 WELS and T6 R15 WELS together. All three proposals
+pass cycle/fill checks; T4 R13 and T6 R15 also equal valid service GeoJSON.
+TL-F-0029 remains in progress for exact-version acceptance-layer review and
+activation. The eight accepted versions and 154 zoning / 21 parcel holds remain.
