@@ -21,7 +21,12 @@
  select c.source_audit_sha256,c.source_id,c.object_id from ingest.county_geometry_current c cross join request r
  where c.source_audit_sha256=r.j->>'audit' and c.correction_status='accepted'
 ), candidates as materialized (
- select e.*,f.data,case when e.effective_geometry is not null then ST_Transform(e.effective_geometry,26919) end as g
+ -- Project only consumed evidence fields. In particular, do not materialize
+ -- the view's county-wide scope-relation calculations for this bounded AOI.
+ select e.source_id,e.object_id,e.input_sha256,e.source_attributes,
+ e.effective_geometry_hold,e.effective_quality_flags,e.provenance,e.correction_id,
+ e.geometry_event_id,e.candidate_sha256,e.correction_status,f.data,
+ case when e.effective_geometry is not null then ST_Transform(e.effective_geometry,26919) end as g
  from eligible k join ingest.effective_county_inventory e using(audit_sha256,source_id,object_id)
  join ingest.county_inventory_feature f using(audit_sha256,source_id,object_id)
  cross join request r cross join aoi a

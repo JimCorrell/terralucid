@@ -31,7 +31,17 @@
       "EAUTHQUERY auth_query secret check timed out",
       "LegacyDbConfigLoginRoleStatusError: Failed to create login role: Connection terminated due to connection timeout (544)"
     ],
-    "result": "No live packet or live freshness check certified. Stalled task clients stopped. Retry capture and check when Supabase connection recovers."
+    "result": "No live packet or live freshness check certified. Stalled task clients stopped. Retry capture and check when Supabase connection recovers.",
+    "retry": {
+      "at": "2026-09-22T19:50:39.604936+00:00",
+      "project_status": "ACTIVE_HEALTHY",
+      "temporary_login": "Credential acquisition failed before extraction started",
+      "alternate_management_api": "Not executed: existing CLI credential lookup is waiting for macOS Keychain; computer-use status reports Mac locked",
+      "required_action": "Unlock Mac, then retry read-only capture and currency check",
+      "sql_refinement": "Project only consumed columns; avoid materializing county-wide scope-relation computations",
+      "unit_tests_passed": 18,
+      "isolated_postgis_checks_passed": 7
+    }
   },
   "database_mutations": false
 }

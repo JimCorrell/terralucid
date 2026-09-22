@@ -52,3 +52,16 @@ connection recovers, run `capture` for a bounded area and `check` its packet;
 inspect topic results before treating live operation as verified. This review
 makes no database writes and leaves all existing acceptance/qualification state
 unchanged by construction.
+
+## Follow-up retry
+
+The project status API reports `ACTIVE_HEALTHY`, but temporary login acquisition
+still fails before extraction. An alternate documented Management API probe has
+not executed: access to the existing CLI credential is waiting on macOS Keychain,
+and computer-use status reports the Mac locked. Unlocking is required to finish
+that diagnostic; project health alone does not certify a working database query.
+
+The extractor now selects only evidence fields it consumes, avoiding evaluation
+of the effective view's unused county-wide scope-relation calculations. All 18
+unit tests and seven isolated PostGIS checks pass after this refinement. This is
+not a claim of measured live-query speed or successful live validation.
