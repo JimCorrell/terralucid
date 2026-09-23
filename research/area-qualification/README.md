@@ -75,7 +75,7 @@ invalid polygons. Original source records, input hashes, holds and provenance
 remain intact in Supabase. Degenerate point/line extents are retained. Tests cover
 empty rings, invalid vertices, booleans, numeric overflow and unsupported CRS.
 
-## Earlier failed attempts and remaining connection limit
+## Earlier failed attempts and connection acceptance
 
 Earlier direct connections returned EAUTHQUERY errors and a 544 login-role
 creation timeout. Subsequent API attempts encountered private-function permission
@@ -85,8 +85,33 @@ successful live check.
 
 The verified alternative generates SQL locally and imports the SQL Editor's
 **Copy as JSON** results. It does not request credentials, create login roles or
-retry authentication. The direct CLI/pooler adapter has not been revalidated.
+retry authentication. The CLI/pooler connection subsequently passed the acceptance test below.
 Use the documented dashboard workflow when that connection is unavailable.
 
 No production database writes, migrations, source repairs, finding resolutions,
 acceptance changes or qualification promotions were performed.
+
+## CLI acceptance — 2026-09-23
+
+All stages passed with **one temporary-credential acquisition and one persistent
+psql session**. The same backend was confirmed before and after the test:
+
+| Stage | Result | Seconds |
+| --- | --- | ---: |
+| Simple read in read-only transaction | PASS | 0.80 |
+| Private snapshot-validation function | PASS | 0.20 |
+| Full compact qualification capture | PASS | 13.57 |
+| Fresh dependency query | PASS | 0.22 |
+| Same-session confirmation | PASS | 0.10 |
+
+The capture returned 159 source records; its packet passed freshness comparison
+with `needs_revisit=false`. No production data was changed. There were no retries
+or direct Keychain lookups. The temporary client was closed after verification.
+Aggregate results, method/capture hashes and timestamps are in `validation.json`;
+raw packets and the bounded acceptance harness remain private under `.local/`.
+
+This verifies the automated CLI-backed connection and qualification SQL in one
+session. It does not test separate `capture`/`check` invocations that independently
+acquire credentials, establish the cause of every earlier authentication error,
+or guarantee continued service availability. Future runs should fail immediately
+on authentication errors rather than cycle through credential requests.
