@@ -145,3 +145,7 @@ again.
 
 Tests: `python3 -m unittest discover -s tests -p test_area_qualification.py`.
 See [validation evidence](../research/area-qualification/README.md).
+
+A [bounded live county test set](../research/county-qualification-tests/README.md)
+exercises source parcels, cross-source overlaps, nearby holds, accepted zoning
+and missing coverage. It also records an unresolved numerical-precision follow-up.
