@@ -1,0 +1,23 @@
+{
+  "started_at": "2026-09-23T16:12:13.648497+00:00",
+  "status": "FAIL",
+  "batch": "b31e3034caee9f70361bb9c769b936b8709fcab38706f89cdee22c9265aad512",
+  "stages": [
+    {
+      "name": "preflight",
+      "seconds": 1.82
+    },
+    {
+      "name": "migration",
+      "seconds": 0.9
+    },
+    {
+      "name": "batch_lookup",
+      "seconds": 0.04
+    }
+  ],
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "failure": "JSONDecodeError",
+  "completed_at": "2026-09-23T16:12:18.438870+00:00"
+}

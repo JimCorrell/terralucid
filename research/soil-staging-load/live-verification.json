@@ -1,0 +1,60 @@
+{
+  "started_at": "2026-09-23T16:14:39.282749+00:00",
+  "status": "PASS",
+  "batch": "b31e3034caee9f70361bb9c769b936b8709fcab38706f89cdee22c9265aad512",
+  "stages": [
+    {
+      "name": "preflight",
+      "seconds": 1.16
+    },
+    {
+      "name": "batch_lookup",
+      "seconds": 0.04
+    },
+    {
+      "name": "atomic_source_load",
+      "seconds": 175.28
+    },
+    {
+      "name": "privacy_and_archive_references",
+      "seconds": 2.01
+    },
+    {
+      "name": "finding_history",
+      "seconds": 0.27
+    },
+    {
+      "name": "finding_readback",
+      "seconds": 0.05
+    }
+  ],
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "readback": {
+    "holds": 7,
+    "records": 38237,
+    "geometry_rows": 29361,
+    "row_fingerprint": "ebc2f65c4dd137613517bfb6dbb0ea6ab5b4c1db4f6b2ab6e6a61739cf18661d",
+    "geometry_mismatches": 0
+  },
+  "replayed_existing_batch": false,
+  "privacy": {
+    "backend": 66995,
+    "rls_tables": 3,
+    "archive_count": 82,
+    "client_grants": 0,
+    "county_records": 120449,
+    "database_bytes": 1679985811,
+    "client_policies": 0,
+    "record_table_bytes": 326320128,
+    "missing_storage_objects": 0
+  },
+  "same_backend_confirmed": true,
+  "finding": {
+    "status": "in_progress",
+    "event_id": "f2711fcb26a6f985e36c8b57a2ae5a6153de72d8b064c5a54f9fdb33a9c0e3ee",
+    "finding_id": "TL-F-0113",
+    "next_action": "Investigate seven held soil polygons and the 41.13 km2 residual coverage gap; verify units, scale and source dates before enabling soil availability. Septic suitability remains purchase-triggered."
+  },
+  "completed_at": "2026-09-23T16:17:40.085367+00:00"
+}

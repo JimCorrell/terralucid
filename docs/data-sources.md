@@ -161,3 +161,10 @@ Seven polygons are held; valid polygon coverage is approximately 99.627%, with a
 41.13 km² residual requiring investigation. This is prepared evidence, not a live
 Supabase soil layer or site qualification. The terrain manifest is narrowed to
 248 county-intersecting catalog rectangles; valid-pixel coverage remains unknown.
+
+
+The [soil staging deployment](../research/soil-staging-load/README.md) now makes
+38,237 source records queryable in private Supabase staging, with every original
+archive object verified on download. The seven geometry holds and 41.13 km²
+residual persist. This supersedes the preparation-only load status above; soils
+availability and suitability remain unqualified, and terrain rasters are not loaded.
