@@ -1,0 +1,20 @@
+{
+  "report_sha256": "b31e3034caee9f70361bb9c769b936b8709fcab38706f89cdee22c9265aad512",
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "updates": [
+    {
+      "status": "in_progress",
+      "event_id": "52ce26f46987d424199d0e60bdf692598ab018bbada70b816d05c273be55b658",
+      "finding_id": "TL-F-0104",
+      "next_action": "Inspect retained tile/project acquisition metadata, raster headers, NoData masks, datum/units, accuracy and overlaps; select source rules and estimate final storage before raster loading."
+    },
+    {
+      "status": "in_progress",
+      "event_id": "ceb5c1473beddd9bedfd2a5723ab036651edced633b47cd407685c439889fc0d",
+      "finding_id": "TL-F-0113",
+      "next_action": "Stage the source bundle and original archives in private Supabase; investigate the seven held polygons and residual county gap without automatic repair; verify units, scale, acquisition dates and missing attributes before enabling an availability adapter."
+    }
+  ],
+  "source_geometry_writes": false
+}
