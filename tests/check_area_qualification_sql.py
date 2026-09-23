@@ -51,8 +51,9 @@ try:
     geometry=json.loads(run(f'set search_path=pg_catalog,ingest,extensions;select ST_AsGeoJSON(ST_Transform({inside},4326));'))
     request={'audit':audit,'snapshot':snapshot,'geometry':geometry,'purchase_candidate':False}
     def extract(r):
-        sql=(ROOT/'scripts/qualification_context.sql').read_text().replace('__REQUEST__',"'"+json.dumps(r).replace("'","''")+"'")+(ROOT/'scripts/qualification_extract.sql').read_text()
-        return json.loads(run('begin isolation level repeatable read read only;set local search_path=pg_catalog,ingest,extensions;'+sql+'commit;'))
+        sys.path.insert(0,str(ROOT/'scripts'))
+        from qualify_area import query_sql
+        return json.loads(run(query_sql(r)))
     result=extract(request);ids={f['object_id'] for f in result['features']}
     assert ids=={1,2,4,5},ids
     assert next(f for f in result['features'] if f['object_id']==2)['correction_status']=='accepted'
@@ -81,7 +82,38 @@ try:
         assert 'raw_held_geometry' not in f
     run("update ingest.county_inventory_feature set data=jsonb_set(data,'{srid}','4326') where object_id=4")
     assert next(f for f in extract(request)['features'] if f['object_id']==4)['held_bounds'] is None
+    from soil_availability import BATCH
+    from qualify_area import qualify,currency
+    run("""set search_path=pg_catalog,ingest,extensions;
+    create table ingest.soil_batch(report_sha256 text);
+    create table ingest.soil_geometry_study(source_batch_sha256 text,boundary geometry);
+    create table ingest.soil_record(report_sha256 text,kind text,source_key text,parent_key text,input_sha256 text,response_sha256 text,input_text text);
+    create table ingest.effective_soil_geometry(report_sha256 text,source_key text,input_sha256 text,response_sha256 text,source_attributes jsonb,provenance jsonb,correction_id text,candidate_sha256 text,geometry_event_id text,correction_status text,effective_geometry geometry,effective_geometry_hold text);
+    create function ingest.soil_geometry_snapshot_is_current(text,text) returns boolean language sql as $$select $1=repeat('c',64)$$;
+    create function ingest.soil_geometry_dependencies(text) returns jsonb language sql as $$select '{"fixture":"accepted"}'::jsonb$$;
+    """)
+    run(f"""set search_path=pg_catalog,ingest,extensions;
+    insert into ingest.soil_batch values('{BATCH}');
+    insert into ingest.soil_geometry_study values('{BATCH}',ST_MakeEnvelope(499000,4999000,502000,5002000,26919));
+    insert into ingest.effective_soil_geometry values('{BATCH}','p','input','response','{{"mukey":"m"}}','{{}}','correction','candidate','event','accepted',ST_Transform(ST_MakeEnvelope(499900,4999900,500200,5000200,26919),4326),null);
+    """)
+    from prepare_source_staging import literal
+    for kind,key,parent,raw in [('legend','l',None,{'areasymbol':'ME615','projectscale':'24000'}),('mapunit','m','l',{'lkey':'l','vtsepticsyscl':'Ia'}),('component','c','m',{'mukey':'m','comppct_r':'85','compkind':'Miscellaneous area'})]:
+        text=json.dumps({'raw':raw,'provenance':{'fixture':True}})
+        run('insert into ingest.soil_record values ('+','.join([literal(BATCH),literal(kind),literal(key),'null' if parent is None else literal(parent),literal('input'),literal('response'),literal(text)])+');')
+    soil_request=request|{'soils':{'batch':BATCH,'snapshot':'c'*64}}
+    soil_result=extract(soil_request);packet=qualify(soil_result);t=packet['topics']['soils']
+    assert t['inventory_intersections_usable'] and t['component_mixtures'][0]['unlisted_percent']=='15'
+    assert t['records'][0]['geometry_event_id']=='event' and len(t['tables'])==3
+    assert not packet['qualified_for_parcel_screening']
+    stale=extract(soil_request|{'soils':{'batch':BATCH,'snapshot':'d'*64}})
+    assert not qualify(stale)['topics']['soils']['inventory_intersections_usable']
+    assert currency(packet,stale['context'])['needs_revisit']
+    run("update ingest.effective_soil_geometry set effective_geometry=null,effective_geometry_hold='withdrawn';")
+    held=qualify(extract(soil_request))['topics']['soils']
+    assert not held['inventory_intersections_usable'] and held['held_keys']==['p']
+    assert run('select count(*) from ingest.soil_record')=='3'
     assert run('select count(*) from ingest.county_inventory_feature')=='5'
-    print(json.dumps({'passed':['indexed native and projected candidates','accepted extent outside original bbox retained','remote valid feature excluded','unlocated hold retained','source parcel lookup','absent subject fails closed','read-only extraction preserves fixtures','held bounds preserve extrema and reject malformed, nonfinite or unsupported evidence']}))
+    print(json.dumps({'passed':['indexed native and projected candidates','accepted extent outside original bbox retained','remote valid feature excluded','unlocated hold retained','source parcel lookup','absent subject fails closed','read-only extraction preserves fixtures','held bounds preserve extrema and reject malformed, nonfinite or unsupported evidence','soil joins, accepted geometry, metadata, deficits, stale snapshot and withdrawn hold']}))
 finally:
     subprocess.run(['docker','rm','-f',name],capture_output=True)

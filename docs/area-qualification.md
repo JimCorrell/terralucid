@@ -92,7 +92,8 @@ and `not_requested`. There is deliberately no automatic suitability approval.
 | Zoning | Effective LUPC intersections, geometric coverage, held envelopes and missing municipal-source warning | Geometric coverage is not legal jurisdiction, applicable rules or current legal zoning |
 | Wetlands | Package feature intersections and union coverage of project footprints | Footprint coverage is not wetland completeness; imagery age and site/legal status require review |
 | Flood | Route intersecting Orneville civil-boundary evidence to archived county-readiness audits, including scanned FIRM and catalog letters | No digital flood overlay qualified; letters not adjudicated. Other communities remain missing in this adapter |
-| Soils and terrain | Explicit source-adapter availability status | No qualified adapter is implemented yet; keep these missing-data tasks separate from suitability |
+| Soils | Optional exact-version inventory adapter: accepted geometry, AOI coverage, tabular links, metadata and mixture limits | Availability is separate from soil completeness or site suitability |
+| Terrain | Explicit missing-adapter status | No terrain adapter implemented yet |
 | Septic and buildability | `not_requested` for discovery, `review_required` for purchase candidates | Neither state establishes suitability; missing site investigations do not block general discovery |
 | Access/title | Explicit unknown and purchase-candidate review requirement | Mapped access does not establish rights |
 
@@ -162,3 +163,13 @@ and missing coverage. Its numerical-precision follow-up is investigated in the
 
 The [post-PR-55 live refresh](../research/qualification-refresh/README.md) regenerates
 the four diagnostic packets and records their fresh dependency checks.
+
+## Bounded soil inventory adapter (version 2)
+
+Requests may add `soils: {batch, snapshot}` for the reviewed soil source version.
+See [soil availability checks and component-gap evidence](../research/soil-availability/README.md)
+for exact IDs, qualification rules, metadata limits and reproduction. Omission keeps
+soils missing without querying soil tables. This changes the method/schema version;
+regenerate older packets before reuse. Soil dependencies join the existing context
+and finding checks. Existing accepted soil snapshots are read, not created, inside
+the read-only transaction.

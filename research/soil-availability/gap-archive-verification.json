@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "project_ref": "yytsjlmbyqhcqfalbjca",
+  "bucket": "terralucid-source-snapshots",
+  "bucket_private": true,
+  "credential_lookups": 1,
+  "verified_at": "2026-09-23T17:58:57.911213+00:00",
+  "metadata_report_sha256": "2f23086c1e6503484a7eccff8fbb52d3101b671a3979a7242d0b74a2875d349f",
+  "objects": [
+    {
+      "sha256": "297bf6e3882b3e300e712b9e9a6c99d9dd498f0113ebcbdf2535d3e9f94d7d4d",
+      "bytes": 45338,
+      "storage_object": "sha256/297bf6e3882b3e300e712b9e9a6c99d9dd498f0113ebcbdf2535d3e9f94d7d4d.response",
+      "already_present": false,
+      "readback_matches": true
+    },
+    {
+      "sha256": "2f23086c1e6503484a7eccff8fbb52d3101b671a3979a7242d0b74a2875d349f",
+      "bytes": 1041,
+      "storage_object": "sha256/2f23086c1e6503484a7eccff8fbb52d3101b671a3979a7242d0b74a2875d349f.response",
+      "already_present": false,
+      "readback_matches": true
+    },
+    {
+      "sha256": "57cd24ac55711808f559ce4aa217308b0894d9996c9d9285386680434eebcce8",
+      "bytes": 59670,
+      "storage_object": "sha256/57cd24ac55711808f559ce4aa217308b0894d9996c9d9285386680434eebcce8.response",
+      "already_present": false,
+      "readback_matches": true
+    },
+    {
+      "sha256": "c0b450d43b04a2e784c1b3718f796d368a7ba52cf6aafd49d5b900faf7a436e2",
+      "bytes": 2657,
+      "storage_object": "sha256/c0b450d43b04a2e784c1b3718f796d368a7ba52cf6aafd49d5b900faf7a436e2.response",
+      "already_present": false,
+      "readback_matches": true
+    }
+  ],
+  "verified_bytes": 108706
+}
