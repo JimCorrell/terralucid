@@ -109,7 +109,7 @@ Requires NumPy and rasterio plus the preserved private subsets. Tests cover an
 analytical plane on shifted grids, strict invalid-stencil/edge rejection,
 signed source differences, both edge orientations, unsupported seams and the
 separation of terrain gradient from a known source offset. All 20 terrain tests
-pass. The original subsets already have private archive verification in the preceding
-pilot investigations. Archival of this new comparison and the TL-F-0104 event
-append are pending explicit approval after automatic approval review blocked the
-archive operation. No production raster, source geometry or schema is changed.
+pass. The inputs, method, tests and report are preserved in private object storage with
+[hash readback verification](archive-verification.json). The comparison was appended
+to TL-F-0104, which remains in progress; see [finding update](finding-update.json).
+No production raster, source geometry or schema is changed.

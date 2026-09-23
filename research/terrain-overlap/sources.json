@@ -1,0 +1,50 @@
+[
+  {
+    "file": "eastern2017.tif",
+    "url": null,
+    "provenance_path": ".local/terrain-area-pilot-final/0-subset.tif",
+    "sha256": "d2b14b3cdaaea57363f50e46360ae1e963bfd2987e661fb90035a5fcb4ad3a87"
+  },
+  {
+    "file": "western2016.tif",
+    "url": null,
+    "provenance_path": ".local/terrain-gap/0-subset.tif",
+    "sha256": "4fa3055b7c5833e68c1a8d01739da0ce86faa39e22af1faae897e762b165900f"
+  },
+  {
+    "file": "western2024.tif",
+    "url": null,
+    "provenance_path": ".local/terrain-gap/1-subset.tif",
+    "sha256": "53ef73e4999e9750fda5709c108ed0d633dbe192a2062bf6889cc8d3d06860f9"
+  },
+  {
+    "file": "method.py",
+    "url": null,
+    "provenance_path": "scripts/compare_terrain_heights.py",
+    "sha256": "af637de84b0aed3d404bcf51f0ae57d0d7bfab58371bb365ed0955234f247f27"
+  },
+  {
+    "file": "method-tests.py",
+    "url": null,
+    "provenance_path": "tests/test_terrain_heights.py",
+    "sha256": "3a1572463bc50dbb665b6bf78828b3a65e094b8c4cc6a426164344ac2a681ae7"
+  },
+  {
+    "file": "pilot-report.json",
+    "url": null,
+    "provenance_path": "research/terrain-area-pilot/report.json",
+    "sha256": "e993f6b1e6ee78ddb5ad565b65369a3ebbe4cb81e1270253c6ef3d7399978069"
+  },
+  {
+    "file": "alternatives-report.json",
+    "url": null,
+    "provenance_path": "research/terrain-gap/report.json",
+    "sha256": "5572275d5aacaf0a67ea16e1c4627581a3d3a8b8420cbee1b722982756c2049a"
+  },
+  {
+    "file": "validation.log",
+    "url": null,
+    "provenance_path": ".local/terrain-overlap-tests.log",
+    "sha256": "47e4407fce276699b6e82dbb0579341cfe4f33942b0247364303159549e405e8"
+  }
+]
