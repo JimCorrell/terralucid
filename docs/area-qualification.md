@@ -102,8 +102,17 @@ county scope and no relevant geometry hold affects it. It does **not** qualify
 parcel screening, identity, legal conclusions or an absence claim. Partial
 coverage and open findings remain visible even when some intersections are usable.
 No arbitrary overlap tolerance, age cutoff, buildability threshold or score is
-introduced. Coverage areas use EPSG:26919; full geometric coverage requires zero
-computed uncovered area. Mere boundary touches remain distinct from positive area.
+introduced. Coverage areas use EPSG:26919. Full geometric coverage is established
+when an individual effective input covers the AOI, or otherwise when the computed
+AOI-minus-source-union area is zero. The `basis` field records which calculation
+was used (or `no_geometries` for missing coverage). A covering input avoids
+union-created edge slivers; no tolerance, snapping or source repair is used.
+Fractions are bounded to [0, 1] and derived from the uncovered-area complement.
+Every positive computed gap remains `partial_geometric`, even if floating-point
+rounding makes its fraction display as 1. Use `state` and `uncovered_m2`, not a
+rounded percentage, to interpret coverage. Predicates describe stored geometry,
+not surveyed or legal boundaries. Mere boundary touches remain distinct from
+positive area.
 
 ## Geometry and findings
 
@@ -148,4 +157,5 @@ See [validation evidence](../research/area-qualification/README.md).
 
 A [bounded live county test set](../research/county-qualification-tests/README.md)
 exercises source parcels, cross-source overlaps, nearby holds, accepted zoning
-and missing coverage. It also records an unresolved numerical-precision follow-up.
+and missing coverage. Its numerical-precision follow-up is investigated in the
+[offline precision replay](../research/qualification-precision/README.md).

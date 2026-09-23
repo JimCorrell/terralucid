@@ -87,3 +87,8 @@ analysis follow-up, not a new source deficiency or an assigned TL-F register ID.
 
 Review numerical precision with reproducible fixtures next. The missing source
 adapters and parcel-specific applicability work remain separate backlog items.
+
+
+Follow-up: the [offline precision investigation](../qualification-precision/README.md)
+resolves these observed calculation artifacts without an area tolerance. The
+original report above and its open-at-test-time status are retained as history.

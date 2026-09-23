@@ -179,3 +179,14 @@ investigations purchase-triggered; soils/terrain availability remains a separate
 source-preparation task. The first implementation uses private local packets and
 administrative read-only queries, with no new canonical parcel schema or data
 promotion. See [area qualification](area-qualification.md).
+
+
+## Coverage numerical precision
+
+Use direct containment by an effective input as evidence of full geometric AOI
+coverage before combining inputs. Otherwise measure AOI minus the source union.
+Derive a bounded fraction from that gap; retain every positive gap as partial,
+even if its fraction rounds to one. No epsilon, coordinate snapping or repaired
+source is introduced. This changes derived coverage reporting only, with the
+existing method dependency requiring packet regeneration. Holds and suitability
+limits remain independent. See the [precision investigation](../research/qualification-precision/README.md).

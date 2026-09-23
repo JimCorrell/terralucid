@@ -3,8 +3,8 @@ from unittest.mock import patch
 import contextlib,io
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from shapely.geometry import box
-from qualify_area import qualify,currency,validate_request,private_write,query_sql,read_export,main
+from shapely.geometry import box,Polygon
+from qualify_area import coverage,qualify,currency,validate_request,private_write,query_sql,read_export,main
 
 def feature(source,oid,g=None,hold=None,rings=None,code=None):
     return {'source_id':source,'object_id':oid,'input_sha256':str(oid),'geometry_wkb':g.wkb_hex if g is not None else None,
@@ -17,6 +17,41 @@ def capture():
       'aoi_wkb':a.wkb_hex,'aoi_within_county':True,'findings':[],
       'features':[feature('ut-parcels',1,a),feature('lupc-zoning',2,a),feature('nwi-project',3,a),feature('nwi-package',4,box(0,0,2,2))]}
 class QualificationTests(unittest.TestCase):
+    def test_union_sliver_does_not_override_covering_source(self):
+        # Synthetic projected coordinates, generated with random.Random(42).
+        a=Polygon([(500063.9426798458,5000002.501075522),(500042.19218196854,5000002.979721944),(500027.50293183693,5000022.321073815),(500021.86379748036,5000050.535528811),(500073.6471214164,5000067.669948743),(500089.2179567705,5000008.693883263)])
+        b=Polygon([(500080.9430456678,5000000.649875968),(500002.6535969684,5000019.883765069),(500022.0440622041,5000058.926568388),(500080.5819251833,5000069.813939499)])
+        from shapely.ops import unary_union
+        self.assertTrue(a.is_valid and b.is_valid)
+        # The legacy calculation produces a positive sliver on the pinned GEOS.
+        import shapely
+        if shapely.geos_version_string=='3.11.4':
+            self.assertGreater(a.difference(unary_union([a,b]).intersection(a)).area,0)
+        for gs in ([a,b],[b,a]):
+            result=coverage(gs,a)
+            self.assertEqual(result['state'],'full_geometric')
+            self.assertEqual(result['fraction'],1.0)
+            self.assertEqual(result['uncovered_m2'],0.0)
+    def test_coverage_collective_full_and_real_tiny_gap(self):
+        a=box(0,0,1,1)
+        self.assertEqual(coverage([box(0,0,0.5,1),box(0.5,0,1,1)],a)['state'],'full_geometric')
+        for gap in (1e-8,1e-12):
+            result=coverage([box(0,0,0.5-gap,1),box(0.5,0,1,1)],a)
+            self.assertEqual(result['state'],'partial_geometric')
+            self.assertGreater(result['uncovered_m2'],0)
+            self.assertLessEqual(result['fraction'],1)
+        # A positive gap can coexist with a fraction rounded to one.
+        result=coverage([box(1e-18,0,1,1)],a)
+        self.assertEqual(result['fraction'],1)
+        self.assertEqual(result['state'],'partial_geometric')
+        self.assertGreater(result['uncovered_m2'],0)
+    def test_coverage_empty_disjoint_touch_and_containment(self):
+        a=box(0,0,1,1)
+        self.assertEqual(coverage([],a)['state'],'missing')
+        for g in [box(1,0,2,1),box(2,0,3,1)]:
+            self.assertEqual(coverage([g],a)['fraction'],0)
+            self.assertEqual(coverage([g],a)['uncovered_m2'],1)
+        self.assertEqual(coverage([box(-1,-1,2,2)],a)['fraction'],1)
     def test_source_overlap_preserved_without_merge(self):
         c=capture();c['features'].append(feature('organized-parcels',8,box(1,1,5,5)))
         p=qualify(c);t=p['topics']['identity'];self.assertEqual(len(t['records']),2)
