@@ -1,0 +1,169 @@
+{
+  "evidence_state": "DERIVED",
+  "analysis_qualified": false,
+  "method_sha256": "ed8ad28135657da8b8065cefa5b186152ae8721ab422ea954b0704d33ee4ae33",
+  "height_method_sha256": "af637de84b0aed3d404bcf51f0ae57d0d7bfab58371bb365ed0955234f247f27",
+  "height_report_sha256": "5e5b7359a14d13c1d4608cbb69b7f6a995716f592408ee041a6a8cecfbc35440",
+  "input_sha256": {
+    "eastern2017": "d2b14b3cdaaea57363f50e46360ae1e963bfd2987e661fb90035a5fcb4ad3a87",
+    "western2016": "4fa3055b7c5833e68c1a8d01739da0ce86faa39e22af1faae897e762b165900f",
+    "western2024": "53ef73e4999e9750fda5709c108ed0d633dbe192a2062bf6889cc8d3d06860f9"
+  },
+  "runtime": {
+    "numpy": "2.0.2"
+  },
+  "aoi_bounds": [
+    475114.0,
+    5024374.0,
+    475626.0,
+    5024886.0
+  ],
+  "operator": "3x3 weighted derivatives [1,2,1]/8 across opposite columns/rows; degrees(atan(hypot(dx,dy))); meters horizontally and vertically.",
+  "comparison": "Compute native slopes first. Bilinear sample Western slope angles at Eastern centers, requiring four finite native slopes. Sign Western minus Eastern; not slope of a resampled DEM.",
+  "seam_hold_definition": "Any internal Eastern-grid 3x3 neighborhood containing both retained-Eastern and fill labels. Native slope support required separately. No padding outside captured subsets.",
+  "internal_seam_hold_cells": 1024,
+  "aoi_edge_hold_cells": 2044,
+  "native_valid_slope_centers": {
+    "eastern2017": 183610,
+    "western2016": 248346,
+    "western2024": 248346
+  },
+  "comparisons": [
+    {
+      "alternative": "western2016",
+      "largest_absolute_difference_locations": [
+        {
+          "easting": 475530.5,
+          "northing": 5024801.5,
+          "difference_degrees": 39.76984642726423,
+          "eastern_slope_degrees": 6.856108904289773,
+          "western_slope_degrees": 46.625955331554
+        },
+        {
+          "easting": 475531.5,
+          "northing": 5024801.5,
+          "difference_degrees": 38.38471307693095,
+          "eastern_slope_degrees": 6.996198070090145,
+          "western_slope_degrees": 45.380911147021095
+        },
+        {
+          "easting": 475599.5,
+          "northing": 5024827.5,
+          "difference_degrees": 36.287934456827415,
+          "eastern_slope_degrees": 9.781521608606528,
+          "western_slope_degrees": 46.06945606543395
+        },
+        {
+          "easting": 475599.5,
+          "northing": 5024826.5,
+          "difference_degrees": 35.75497936016568,
+          "eastern_slope_degrees": 11.496963868746242,
+          "western_slope_degrees": 47.25194322891192
+        },
+        {
+          "easting": 475541.5,
+          "northing": 5024756.5,
+          "difference_degrees": 35.23243743461488,
+          "eastern_slope_degrees": 11.426018143509763,
+          "western_slope_degrees": 46.658455578124645
+        }
+      ],
+      "slope_difference": {
+        "count": 170860,
+        "mean_degrees": 0.2566913734447444,
+        "median_degrees": 0.20806063911756434,
+        "p05_degrees": -4.110708422132046,
+        "p95_degrees": 4.717391408403959,
+        "absolute_p95_degrees": 5.673704085945467,
+        "max_absolute_degrees": 39.76984642726423
+      },
+      "sampling_sensitivity": {
+        "count": 170860,
+        "mean_degrees": 6.6650011457241555e-06,
+        "median_degrees": -9.907141283349574e-06,
+        "p05_degrees": -0.002148455899585855,
+        "p95_degrees": 0.0022310231485759054,
+        "absolute_p95_degrees": 0.0027761510556512546,
+        "max_absolute_degrees": 0.015065116679668478
+      },
+      "hypothetical_source_assignment": {
+        "supported_cells": 259076,
+        "support_missing_cells": 0,
+        "source_boundary_held_cells": 1024,
+        "aoi_edge_held_cells": 2044,
+        "total_cells": 262144
+      },
+      "seam_adjacent_source_difference": {
+        "count": 0
+      }
+    },
+    {
+      "alternative": "western2024",
+      "largest_absolute_difference_locations": [
+        {
+          "easting": 475530.5,
+          "northing": 5024801.5,
+          "difference_degrees": 41.23539677241601,
+          "eastern_slope_degrees": 6.856108904289773,
+          "western_slope_degrees": 48.091505676705786
+        },
+        {
+          "easting": 475531.5,
+          "northing": 5024801.5,
+          "difference_degrees": 40.17983713517807,
+          "eastern_slope_degrees": 6.996198070090145,
+          "western_slope_degrees": 47.176035205268214
+        },
+        {
+          "easting": 475529.5,
+          "northing": 5024801.5,
+          "difference_degrees": 36.498183996696376,
+          "eastern_slope_degrees": 10.8362303586229,
+          "western_slope_degrees": 47.334414355319275
+        },
+        {
+          "easting": 475599.5,
+          "northing": 5024827.5,
+          "difference_degrees": 34.915174939246825,
+          "eastern_slope_degrees": 9.781521608606528,
+          "western_slope_degrees": 44.69669654785335
+        },
+        {
+          "easting": 475530.5,
+          "northing": 5024800.5,
+          "difference_degrees": 34.175635936088156,
+          "eastern_slope_degrees": 6.702196357810375,
+          "western_slope_degrees": 40.87783229389853
+        }
+      ],
+      "slope_difference": {
+        "count": 170860,
+        "mean_degrees": 0.12811636312426916,
+        "median_degrees": 0.08840918245011808,
+        "p05_degrees": -4.156697184199603,
+        "p95_degrees": 4.418936477471586,
+        "absolute_p95_degrees": 5.601541407760143,
+        "max_absolute_degrees": 41.23539677241601
+      },
+      "sampling_sensitivity": {
+        "count": 170860,
+        "mean_degrees": 7.218361642289653e-06,
+        "median_degrees": -1.033105735714912e-05,
+        "p05_degrees": -0.0020084459329897443,
+        "p95_degrees": 0.00209329596859029,
+        "absolute_p95_degrees": 0.0026717404857802044,
+        "max_absolute_degrees": 0.011646577267518055
+      },
+      "hypothetical_source_assignment": {
+        "supported_cells": 259076,
+        "support_missing_cells": 0,
+        "source_boundary_held_cells": 1024,
+        "aoi_edge_held_cells": 2044,
+        "total_cells": 262144
+      },
+      "seam_adjacent_source_difference": {
+        "count": 0
+      }
+    }
+  ]
+}

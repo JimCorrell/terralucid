@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "terrain_tests": 24,
+  "replay": "byte-identical report",
+  "report_sha256": "fa64ae300ee1418858301aa075834d49f75ed7cdd34ab9ed3f9deaa6a9e8396d",
+  "archive_and_finding_update": "pending explicit approval"
+}
