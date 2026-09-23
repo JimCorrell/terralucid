@@ -53,3 +53,11 @@ against the intended audit before use. Follow the
 capture candidates, and held geometry. This inventory is explicitly not qualified for parcel screening. Do not inherit Osborn corrections, service/package
 identity links, availability results, or legal interpretations. See the
 [county scope and evaluation](research/piscataquis-ingestion/README.md).
+
+For reviewed soil geometry, use `ingest.effective_soil_geometry` filtered to the
+intended source report hash. Capture `ingest.record_soil_geometry_snapshot` in the
+same READ COMMITTED transaction as analytical reads and require
+`ingest.soil_geometry_snapshot_is_current` before reusing results. Preserve original
+holds, evidence and correction versions; acceptance changes only effective geometry.
+Soil availability and purchase-triggered septic/buildability qualification remain
+separate. See [soil acceptance policy](docs/soil-geometry-acceptance.md).

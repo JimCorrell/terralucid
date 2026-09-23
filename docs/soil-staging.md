@@ -97,3 +97,7 @@ TL-F-0113 remains in progress. The qualification adapter still reports soils as
 missing because it has no qualified source adapter; loading does not silently
 change that status. No septic/buildability assessment or slope calculation occurs.
 Terrain tiles were not loaded by this soil staging step.
+
+The [soil geometry acceptance layer](soil-geometry-acceptance.md) provides explicit
+review events and effective geometry without rewriting these original source rows.
+Its implementation and isolated tests do not activate the proposals in Supabase.
