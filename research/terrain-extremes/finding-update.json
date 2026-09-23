@@ -1,0 +1,14 @@
+{
+  "report_sha256": "3b30f860bc9645928b7e9f8f2223155377303b9faa2f5b399740e180e6c2e988",
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "updates": [
+    {
+      "status": "in_progress",
+      "event_id": "7afc6580a44a910d08e2987960de6490919bfb410136323fff4d9b5e85dd3b0e",
+      "finding_id": "TL-F-0104",
+      "next_action": "Seek bounded independent original ground-point and processing/breakline evidence at the three groups; verify availability and provenance before retrieval. Dated imagery may provide context but not bare-earth elevation truth. Preserve source-specific outputs and unresolved discrepancies if unavailable. Retain county date/metadata gaps and purchase-triggered qualification limits."
+    }
+  ],
+  "source_geometry_writes": false
+}
