@@ -45,6 +45,41 @@ five-minute timeout and the disposable client a six-minute deadline. Query error
 are saved in owner-only diagnostic files under `.local/qualification-errors/`. No new database migration or write
 privilege is required; use existing administrative access, not a public API.
 
+## Existing dashboard session (no credential lookup)
+
+When the CLI connection fails, use the already authenticated Supabase SQL Editor.
+Do not repeatedly retrieve Keychain credentials or rotate temporary login roles.
+Generate the same read-only query locally:
+
+```sh
+python3 scripts/qualify_area.py sql --request .local/request.json
+python3 scripts/qualify_area.py sql --request .local/request.json --context-only
+```
+
+Run the first query in the intended project's SQL Editor as its existing
+administrative user. Export the result using **Copy as JSON** into a private file.
+Generate the packet without any connection or authentication:
+
+```sh
+python3 scripts/qualify_area.py capture --request .local/request.json \
+  --from-export .local/capture-export.json --output .local/new-area-packet
+```
+
+Then run the context-only query anew and export its result separately:
+
+```sh
+python3 scripts/qualify_area.py check --packet .local/new-area-packet/packet.json \
+  --from-export .local/context-export.json
+```
+
+Both exports must contain exactly one JSON result row. The capture must match
+the requested area, audit, snapshot and purchase-candidate flag. Import rejects
+missing, malformed or mismatched results; it never falls back to authentication.
+An export comparison establishes currency only as of that query. Reusing an old
+context export does not establish present currency. Run generated SQL unchanged;
+export files are trusted operator-supplied evidence, not authenticated attestations.
+Keep exported source evidence private just like directly captured packets.
+
 ## Results and limits
 
 Each topic has a status, evidence classification, reasons and relevant source
@@ -74,7 +109,10 @@ computed uncovered area. Mere boundary touches remain distinct from positive are
 
 Read `ingest.effective_county_inventory` for the exact audit, retaining acceptance
 IDs, candidate hashes and event versions. For held native Esri geometry, form
-only a bounding rectangle over every finite vertex in EPSG:26919. A touching or
+only a bounding rectangle over every finite vertex in EPSG:26919. The SQL returns
+compact `held_bounds` derived from those vertices; it does not transmit every
+county-wide held ring. Malformed or unsupported extent evidence remains unknown.
+Original geometry stays in Supabase with its source hash and provenance. A touching or
 intersecting envelope withholds the affected topic's inventory intersections.
 A missing/malformed/unsupported extent is conservatively a possible county-wide
 block for that source. An outside envelope is not an AOI blocker. No polygon is

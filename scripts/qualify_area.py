@@ -31,6 +31,23 @@ def validate_request(r):
         if not all(math.isfinite(x) for x in g.bounds) or not(-180<=g.bounds[0]<=g.bounds[2]<=180 and -90<=g.bounds[1]<=g.bounds[3]<=90):raise ValueError('AOI must be longitude/latitude EPSG:4326')
     elif r.get('source_id') not in PARCELS or type(r.get('object_id')) is not int or r['object_id']<0:raise ValueError('Expected assessment source and object ID')
 
+def query_sql(request,context_only=False):
+    """The same read-only query for the CLI client or an authenticated SQL editor."""
+    validate_request(request)
+    literal="'"+json.dumps(request,allow_nan=False).replace("'","''")+"'"
+    sql=(ROOT/'scripts/qualification_context.sql').read_text().replace('__REQUEST__',literal)
+    sql+= ' select document from context;' if context_only else (ROOT/'scripts/qualification_extract.sql').read_text()
+    return "BEGIN ISOLATION LEVEL REPEATABLE READ READ ONLY; SET LOCAL standard_conforming_strings=on; SET LOCAL search_path=pg_catalog,ingest,extensions; SET LOCAL statement_timeout='5min';\n"+sql+'\nCOMMIT;'
+
+def read_export(path,column):
+    """Read the SQL editor's Copy as JSON result; require exactly one result row."""
+    rows=json.loads(path.read_bytes())
+    if not isinstance(rows,list) or len(rows)!=1 or not isinstance(rows[0],dict) or set(rows[0])!={column}:
+        raise ValueError('Expected one exported SQL result row with column '+column)
+    value=rows[0][column]
+    if not isinstance(value,dict):raise ValueError('Expected a JSON object in the exported result')
+    return value
+
 def read_database(request,context_only=False):
     validate_request(request)
     cli=os.environ.get('TERRALUCID_SUPABASE_CLI')
@@ -39,10 +56,7 @@ def read_database(request,context_only=False):
     if result.returncode:raise RuntimeError('Could not obtain temporary linked database credentials')
     env=connection_environment(result.stdout,'yytsjlmbyqhcqfalbjca')
     env['PGCONNECT_TIMEOUT']='20'
-    literal="'"+json.dumps(request,allow_nan=False).replace("'","''")+"'"
-    sql=(ROOT/'scripts/qualification_context.sql').read_text().replace('__REQUEST__',literal)
-    sql+= ' select document from context;' if context_only else (ROOT/'scripts/qualification_extract.sql').read_text()
-    sql="SET ROLE postgres; BEGIN ISOLATION LEVEL REPEATABLE READ READ ONLY; SET LOCAL standard_conforming_strings=on; SET LOCAL search_path=pg_catalog,ingest,extensions; SET LOCAL statement_timeout='5min';\n"+sql+'\nCOMMIT;'
+    sql='SET ROLE postgres; '+query_sql(request,context_only)
     client='terralucid-qualification-'+uuid.uuid4().hex[:12]
     cmd=['docker','run','--rm','--name',client,'-i','--platform','linux/amd64']
     for key in env:cmd+=['--env',key]
@@ -62,6 +76,13 @@ def read_database(request,context_only=False):
 def held_envelope(f):
     """No decoding/repair: conservative rectangle around every original vertex."""
     try:
+        if 'held_bounds' in f:
+            bounds=f['held_bounds']
+            if f['native_srid']!=26919 or not isinstance(bounds,list) or len(bounds)!=4:return None
+            if any(type(x) not in (float,int) or not math.isfinite(x) for x in bounds):return None
+            if bounds[0]>bounds[2] or bounds[1]>bounds[3]:return None
+            from shapely.geometry import MultiPoint
+            return MultiPoint([(bounds[0],bounds[1]),(bounds[2],bounds[3])]).envelope
         rings=f['raw_held_geometry']['rings']
         if not isinstance(rings,list) or not rings: return None
         points=[]
@@ -191,14 +212,26 @@ def private_write(path,value):
 def main():
     p=argparse.ArgumentParser(description=__doc__);sub=p.add_subparsers(dest='command',required=True)
     q=sub.add_parser('capture');q.add_argument('--request',type=Path,required=True);q.add_argument('--output',type=Path,required=True)
+    q.add_argument('--from-export',type=Path,help='SQL editor Copy as JSON capture result; no connection or credential lookup')
     q=sub.add_parser('check');q.add_argument('--packet',type=Path,required=True)
+    q.add_argument('--from-export',type=Path,help='Fresh SQL editor Copy as JSON context result; no connection or credential lookup')
+    q=sub.add_parser('sql');q.add_argument('--request',type=Path,required=True);q.add_argument('--context-only',action='store_true')
     a=p.parse_args()
-    if a.command=='capture':
+    if a.command=='sql':
+        print(query_sql(json.loads(a.request.read_bytes()),a.context_only));return 0
+    elif a.command=='capture':
         if a.output.exists():raise ValueError('Output directory must be new')
-        request=json.loads(a.request.read_bytes());capture=read_database(request);packet=qualify(capture)
+        request=json.loads(a.request.read_bytes());validate_request(request)
+        capture=read_export(a.from_export,'jsonb_build_object') if a.from_export else read_database(request)
+        if capture.get('request')!=request:raise ValueError('Export does not match requested area and dependencies')
+        packet=qualify(capture)
         private_write(a.output/'capture.json',capture);private_write(a.output/'packet.json',packet)
         print('Private evidence packet written; no database changes')
     else:
-        packet=json.loads(a.packet.read_bytes());result=currency(packet,read_database(packet['request'],True));print(json.dumps(result));return 2 if result['needs_revisit'] else 0
+        packet=json.loads(a.packet.read_bytes())
+        context=read_export(a.from_export,'document') if a.from_export else read_database(packet['request'],True)
+        result=currency(packet,context)
+        if a.from_export:result['verification_basis']='supplied_context_export; currency only as of that query, not a new live connection'
+        print(json.dumps(result));return 2 if result['needs_revisit'] else 0
     return 0
 if __name__=='__main__':raise SystemExit(main())

@@ -47,7 +47,23 @@ select jsonb_build_object(
  'features',(select coalesce(jsonb_agg(jsonb_build_object(
  'source_id',source_id,'object_id',object_id,'input_sha256',input_sha256,
  'geometry_wkb',encode(ST_AsBinary(g),'hex'),'hold',effective_geometry_hold,
- 'raw_held_geometry',case when effective_geometry_hold is not null then data#>'{raw_feature,geometry}' end,
+ -- Return only a conservative extent for held geometry, not county-wide raw
+ -- rings. Malformed coordinates/structure or another CRS leave extent unknown.
+ -- Originals remain in county_inventory_feature, pinned by input_sha256.
+ 'held_bounds',case when effective_geometry_hold is not null and data->'srid'='26919'::jsonb
+ and jsonb_typeof(data#>'{raw_feature,geometry,rings}')='array' then (
+   select case when count(x)>0 and bool_and(ring_ok and
+     (point is null or (jsonb_typeof(point)='array' and x is not null and y is not null
+       and abs(x)<=1.7976931348623157e308 and abs(y)<=1.7976931348623157e308)))
+     then jsonb_build_array(min(x),min(y),max(x),max(y)) end
+   from (
+     select jsonb_typeof(r.value)='array' as ring_ok,p.value as point,
+       case when jsonb_typeof(p.value->0)='number' then (p.value->>0)::numeric end as x,
+       case when jsonb_typeof(p.value->1)='number' then (p.value->>1)::numeric end as y
+     from jsonb_array_elements(data#>'{raw_feature,geometry,rings}') r
+     left join lateral jsonb_array_elements(case when jsonb_typeof(r.value)='array' then r.value else '[]'::jsonb end) p on true
+   ) vertices
+ ) end,
  'native_srid',data->'srid','attributes',source_attributes,'parsed_date',data->'parsed_date',
  'flags',effective_quality_flags,'provenance',provenance,'correction_id',correction_id,
  'geometry_event_id',geometry_event_id,'candidate_sha256',candidate_sha256,'correction_status',correction_status

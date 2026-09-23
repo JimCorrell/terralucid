@@ -38,30 +38,55 @@ conservative dependency invalidation and remaining applicability limits. This
 is a first evidence qualification layer, not a completed county flood inventory,
 canonical identity resolver or automated due-diligence clearance.
 
-## Result
+## Current result — verified through dashboard export
 
-**18 unit tests and seven isolated PostGIS integration checks pass.** The archived
-Orneville regression uses the actual PR #50 report: product230465A and 27 catalog
-letters remain evidence with UNKNOWN parcel applicability and no digital flood
-clearance.
+**22 unit tests and eight isolated PostGIS integration checks pass.** Tests include
+malformed/empty/unsupported held geometry, compact extrema, export-only operation
+without authentication, mismatched exports and changed dependency detection.
 
-**Live validation is blocked.** Supabase returned temporary-login authentication
-errors and then a 544 login-role creation connection timeout. No live packet or
-live freshness check is claimed. Stalled task clients were stopped. After the
-connection recovers, run `capture` for a bounded area and `check` its packet;
-inspect topic results before treating live operation as verified. This review
-makes no database writes and leaves all existing acceptance/qualification state
-unchanged by construction.
+A live read-only capture succeeded through the existing authenticated Supabase
+SQL Editor session on 2026-09-23 UTC. The successful test uses a small diagnostic
+rectangle inside Orneville, rather than the initial 500 m circle. Its request hash,
+capture hash, runtime and aggregate results are recorded in `validation.json`.
+The executed SELECT was checked against the repository SQL. Raw exports and the
+resulting packet remain private. A separate fresh context query on 2026-09-23
+matched the packet: `needs_revisit=false`. This certifies unchanged registered
+dependencies as of that query, not real-world currentness.
 
-## Follow-up retry
+The capture retains 159 source records, including all 155 held records as
+conservative extent evidence. Orneville product 230465A and 27 catalog letters
+remain available with UNKNOWN parcel applicability. Identity and wetlands allow
+bounded inventory intersections with review requirements. Zoning is missing at
+this diagnostic AOI; no absence-based clearance is granted. Soils/terrain remain
+missing adapters; septic/buildability remain `not_requested` for discovery.
+Parcel-screening qualification stays false and offer readiness is not assessed.
 
-The project status API reports `ACTIVE_HEALTHY`, but temporary login acquisition
-still fails before extraction. An alternate documented Management API probe has
-not executed: access to the existing CLI credential is waiting on macOS Keychain,
-and computer-use status reports the Mac locked. Unlocking is required to finish
-that diagnostic; project health alone does not certify a working database query.
+## Extraction correction
 
-The extractor now selects only evidence fields it consumes, avoiding evaluation
-of the effective view's unused county-wide scope-relation calculations. All 18
-unit tests and seven isolated PostGIS checks pass after this refinement. This is
-not a claim of measured live-query speed or successful live validation.
+The original query returned 53,457,544 bytes of held raw geometry even for this
+small area. A compact diagnostic query succeeded while the full fetch failed.
+Returning conservative coordinate extrema instead of all held rings reduced the
+successful browser export to 502,912 characters. This is evidence of an oversized
+payload problem; it does not explain every earlier authentication failure.
+
+The SQL examines every raw vertex, rejects malformed or unsupported extent
+evidence, and returns only bounds or UNKNOWN. This does not decode or repair the
+invalid polygons. Original source records, input hashes, holds and provenance
+remain intact in Supabase. Degenerate point/line extents are retained. Tests cover
+empty rings, invalid vertices, booleans, numeric overflow and unsupported CRS.
+
+## Earlier failed attempts and remaining connection limit
+
+Earlier direct connections returned EAUTHQUERY errors and a 544 login-role
+creation timeout. Subsequent API attempts encountered private-function permission
+failure and a 524 gateway timeout. Repeated Keychain requests were stopped at the
+user's request. Their history remains in `validation.json`; none counts as a
+successful live check.
+
+The verified alternative generates SQL locally and imports the SQL Editor's
+**Copy as JSON** results. It does not request credentials, create login roles or
+retry authentication. The direct CLI/pooler adapter has not been revalidated.
+Use the documented dashboard workflow when that connection is unavailable.
+
+No production database writes, migrations, source repairs, finding resolutions,
+acceptance changes or qualification promotions were performed.

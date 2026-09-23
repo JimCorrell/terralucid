@@ -61,7 +61,27 @@ try:
     assert subject['aoi_wkb'] is not None
     missing=extract({'audit':audit,'snapshot':snapshot,'source_id':'ut-parcels','object_id':999,'purchase_candidate':False})
     assert missing['aoi_wkb'] is None and missing['features']==[]
+    # Extent compaction must agree with conservative raw-ring handling. One
+    # malformed vertex invalidates the entire extent; do not silently skip it.
+    fixtures=[
+      ([[[500000,5000000],[500100,5000100]]],[500000,5000000,500100,5000100]),
+      ([[],[[500000,5000000]]],[500000,5000000,500000,5000000]),
+      ([],None),([[]],None),([None],None),
+      ([[[500000,5000000],['bad',5000100]]],None),
+      ([[[500000,5000000],None]],None),
+      ([[[500000,5000000],[True,5000100]]],None),
+      ([[[500000,5000000],[1e308,5000100]]],[500000,5000000,1e308,5000100]),
+      ([[[500000,5000000],[10**309,5000100]]],None),
+    ]
+    for rings,expected in fixtures:
+        data=json.dumps({'srid':26919,'raw_feature':{'geometry':{'rings':rings}}}).replace("'","''")
+        run(f"update ingest.county_inventory_feature set data='{data}'::jsonb where object_id=4")
+        f=next(f for f in extract(request)['features'] if f['object_id']==4)
+        assert (None if f['held_bounds'] is None else list(map(float,f['held_bounds'])))==expected,(rings,f['held_bounds'])
+        assert 'raw_held_geometry' not in f
+    run("update ingest.county_inventory_feature set data=jsonb_set(data,'{srid}','4326') where object_id=4")
+    assert next(f for f in extract(request)['features'] if f['object_id']==4)['held_bounds'] is None
     assert run('select count(*) from ingest.county_inventory_feature')=='5'
-    print(json.dumps({'passed':['indexed native and projected candidates','accepted extent outside original bbox retained','remote valid feature excluded','unlocated hold retained','source parcel lookup','absent subject fails closed','read-only extraction preserves fixtures']}))
+    print(json.dumps({'passed':['indexed native and projected candidates','accepted extent outside original bbox retained','remote valid feature excluded','unlocated hold retained','source parcel lookup','absent subject fails closed','read-only extraction preserves fixtures','held bounds preserve extrema and reject malformed, nonfinite or unsupported evidence']}))
 finally:
     subprocess.run(['docker','rm','-f',name],capture_output=True)

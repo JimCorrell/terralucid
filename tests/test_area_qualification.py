@@ -1,8 +1,10 @@
 import copy,json,sys,tempfile,unittest
+from unittest.mock import patch
+import contextlib,io
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from shapely.geometry import box
-from qualify_area import qualify,currency,validate_request,private_write
+from qualify_area import qualify,currency,validate_request,private_write,query_sql,read_export,main
 
 def feature(source,oid,g=None,hold=None,rings=None,code=None):
     return {'source_id':source,'object_id':oid,'input_sha256':str(oid),'geometry_wkb':g.wkb_hex if g is not None else None,
@@ -34,6 +36,15 @@ class QualificationTests(unittest.TestCase):
     def test_remote_hold_not_global_block(self):
         c=capture();c['features'].append(feature('lupc-zoning',5,hold='crossing',rings=[[[100,100],[101,101],[100,100]]]))
         self.assertTrue(qualify(c)['topics']['zoning']['inventory_intersections_usable'])
+    def test_compact_held_bounds_preserve_topic_blocks(self):
+        c=capture();f=feature('lupc-zoning',5,hold='crossing',rings=[[[9,9],[12,9],[12,12],[9,9]]]);c['features'].append(f)
+        raw=qualify(c)['topics']['zoning']['held_evidence']
+        f['held_bounds']=[9,9,12,12];f.pop('raw_held_geometry')
+        self.assertEqual(qualify(c)['topics']['zoning']['held_evidence'],raw)
+        for bounds in [None,[12,9,9,12],[False,9,12,12],[9,9,float('inf'),12]]:
+            f['held_bounds']=bounds
+            from qualify_area import held_envelope
+            self.assertIsNone(held_envelope(f))
     def test_accepted_effective_geometry_used(self):
         c=capture();c['features'][1].update(correction_status='accepted',geometry_event_id='event',candidate_sha256='candidate')
         p=qualify(c);self.assertTrue(p['topics']['zoning']['inventory_intersections_usable'])
@@ -91,4 +102,37 @@ class QualificationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d)/'packet.json';private_write(p,{'a':1});self.assertEqual(p.stat().st_mode&0o777,0o600)
             with self.assertRaises(FileExistsError):private_write(p,{'a':2})
+class ExportTests(unittest.TestCase):
+    def test_export_workflow_never_connects(self):
+        with tempfile.TemporaryDirectory() as d, patch('qualify_area.read_database',side_effect=AssertionError('Unexpected authentication')):
+            root=Path(d);c=json.loads(json.dumps(capture()));r=root/'request.json';r.write_text(json.dumps(c['request']))
+            source=root/'capture-export.json';source.write_text(json.dumps([{'jsonb_build_object':c}]))
+            output=root/'packet'
+            with contextlib.redirect_stdout(io.StringIO()),patch.object(sys,'argv',['qualify_area','capture','--request',str(r),'--output',str(output),'--from-export',str(source)]):
+                self.assertEqual(main(),0)
+            ctx=root/'context-export.json';ctx.write_text(json.dumps([{'document':c['context']}]))
+            args=['qualify_area','check','--packet',str(output/'packet.json'),'--from-export',str(ctx)]
+            with contextlib.redirect_stdout(io.StringIO()) as stdout,patch.object(sys,'argv',args):self.assertEqual(main(),0)
+            self.assertIn('supplied_context_export',stdout.getvalue())
+            c['context']['finding_dependencies']={'new':'evidence'};ctx.write_text(json.dumps([{'document':c['context']}]))
+            with contextlib.redirect_stdout(io.StringIO()),patch.object(sys,'argv',args):self.assertEqual(main(),2)
+            c['request']['purchase_candidate']=True;source.write_text(json.dumps([{'jsonb_build_object':c}]))
+            with patch.object(sys,'argv',['qualify_area','capture','--request',str(r),'--output',str(root/'wrong'),'--from-export',str(source)]),self.assertRaises(ValueError):main()
+            self.assertFalse((root/'wrong').exists())
+    def test_invalid_exports_fail_closed(self):
+        with tempfile.TemporaryDirectory() as d:
+            p=Path(d)/'export.json'
+            for value in [[],[{},{}],[{'document':None}],[{'unexpected':{}}],{'document':{}}]:
+                p.write_text(json.dumps(value))
+                with self.assertRaises(ValueError):read_export(p,'document')
+    def test_generated_sql_preserves_readonly_and_quotes(self):
+        r=capture()['request'];r['note']="a'b\\c"
+        for context_only in (False,True):
+            sql=query_sql(r,context_only)
+            self.assertTrue(sql.startswith('BEGIN ISOLATION LEVEL REPEATABLE READ READ ONLY;'))
+            self.assertTrue(sql.endswith('COMMIT;'))
+            self.assertIn('standard_conforming_strings=on',sql)
+            self.assertIn("a''b",sql)
+            self.assertEqual('select document from context;' in sql,context_only)
+
 if __name__=='__main__':unittest.main()
