@@ -1,0 +1,14 @@
+{
+  "report_sha256": "96fe753c78865814aacf39b8d8b6102d0dd69bcf48d1de0968a91e70138b6ed1",
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "updates": [
+    {
+      "status": "in_progress",
+      "event_id": "bdd4afdfebf15833d199df958757044d0abdc335a81f9d94e5cc419efe140a14",
+      "finding_id": "TL-F-0113",
+      "next_action": "Implement and test a bounded inventory availability adapter with exact source/geometry dependencies, units, scale, date meanings, missingness and mixture limits. Keep field-observation age and site suitability unknown; septic/buildability review remains purchase-triggered."
+    }
+  ],
+  "source_geometry_writes": false
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "file": "TablesAndColumnsReport.pdf",
+    "url": "https://sdmdataaccess.sc.egov.usda.gov/documents/TablesAndColumnsReport.pdf",
+    "sha256": "04878fb8aa70210a8087606652511bbab04794caab2f9c2f02b88ad1049b345d",
+    "retrieved_at": "2026-09-23T17:42:07.941055+00:00"
+  },
+  {
+    "file": "TableColumnDescriptionsReport.pdf",
+    "url": "https://sdmdataaccess.sc.egov.usda.gov/documents/TableColumnDescriptionsReport.pdf",
+    "sha256": "6e1badc3d3449bd7a8b313a47205db6ff023d1ec7aa5287119fd3f63d4b99d0b",
+    "retrieved_at": "2026-09-23T17:42:08.433973+00:00"
+  },
+  {
+    "file": "SoilDataAccessQueryGuide.pdf",
+    "url": "https://sdmdataaccess.sc.egov.usda.gov/documents/SoilDataAccessQueryGuide.pdf",
+    "sha256": "1f0a6f770eed8832d3c5fcec877a356ddc4803e67844c76158e3b28fdc591c9e",
+    "retrieved_at": "2026-09-23T17:42:08.839930+00:00"
+  },
+  {
+    "file": "survey-metadata.response",
+    "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "payload": {
+      "query": "SELECT areasymbol,saversion,saverest,fgdcmetadata FROM sacatalog WHERE areasymbol IN ('ME602','ME612','ME614','ME615','ME619','ME620','ME621') ORDER BY areasymbol",
+      "format": "JSON+COLUMNNAME"
+    },
+    "sha256": "77e153ed333672abed4f5edac2acfac32703f4b7961761409ade5d1d0f8c2ae3",
+    "retrieved_at": "2026-09-23T17:42:09.257241+00:00"
+  }
+]
