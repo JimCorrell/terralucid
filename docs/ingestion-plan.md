@@ -196,3 +196,9 @@ is now documented for both pilot source families. Next perform a bounded shared-
 height/seam diagnostic with explicit grid handling and immutable inputs, then
 propose source-selection rules. Do not automatically apply a geoid difference to
 already NAVD88 elevations or derive parcel suitability from project-level accuracy.
+
+The [pilot overlap and source-boundary diagnostic](../research/terrain-overlap/README.md)
+finds about an 11 cm mean source-switch contribution at the prospective seam,
+with spatially varying residuals. Original inputs remain unchanged. Next review
+a source-aware slope diagnostic that holds neighborhoods crossing source switches;
+no height correction, source preference or terrain qualification is activated.

@@ -1,0 +1,299 @@
+{
+  "evidence_state": "DERIVED",
+  "method_sha256": "af637de84b0aed3d404bcf51f0ae57d0d7bfab58371bb365ed0955234f247f27",
+  "input_sha256": {
+    "eastern2017": "d2b14b3cdaaea57363f50e46360ae1e963bfd2987e661fb90035a5fcb4ad3a87",
+    "western2016": "4fa3055b7c5833e68c1a8d01739da0ce86faa39e22af1faae897e762b165900f",
+    "western2024": "53ef73e4999e9750fda5709c108ed0d633dbe192a2062bf6889cc8d3d06860f9"
+  },
+  "runtime": {
+    "numpy": "2.0.2",
+    "rasterio": "1.4.3"
+  },
+  "alignment": "Float64 bilinear sampling at Eastern native pixel centers; all four source pixels must be valid and finite; no extrapolation. Nearest-center diagnostic sensitivity on identical supported cells.",
+  "sign": "alternative minus Eastern 2017; seam oriented Eastern-valid cell toward Eastern-NoData cell",
+  "analysis_qualified": false,
+  "aoi_bounds": [
+    475114.0,
+    5024374.0,
+    475626.0,
+    5024886.0
+  ],
+  "comparisons": [
+    {
+      "alternative": "western2016",
+      "overlap": {
+        "count": 172556,
+        "mean_m": -0.11169786587191134,
+        "median_m": -0.11763357399831875,
+        "rms_difference_m": 0.16511283141104638,
+        "p05_m": -0.2789424732613668,
+        "p95_m": 0.07443336208952189,
+        "abs_p95_m": 0.2881197351699427,
+        "max_abs_m": 2.1277285076757835
+      },
+      "quadrants": {
+        "NW": {
+          "count": 27234,
+          "mean_m": -0.11127547861013833,
+          "median_m": -0.11478371445767266,
+          "rms_difference_m": 0.16310758366359887,
+          "p05_m": -0.2743093143432503,
+          "p95_m": 0.06875433245568822,
+          "abs_p95_m": 0.28574602954155626,
+          "max_abs_m": 1.8188607470544866
+        },
+        "NE": {
+          "count": 59136,
+          "mean_m": -0.12016443957299897,
+          "median_m": -0.12994164858949375,
+          "rms_difference_m": 0.17526889669194975,
+          "p05_m": -0.28434607903946585,
+          "p95_m": 0.06815526255387283,
+          "abs_p95_m": 0.2949410081531312,
+          "max_abs_m": 2.1277285076757835
+        },
+        "SW": {
+          "count": 27050,
+          "mean_m": -0.08740376154440968,
+          "median_m": -0.0892882650357052,
+          "rms_difference_m": 0.17000713825142655,
+          "p05_m": -0.2908363495454097,
+          "p95_m": 0.13131548841066232,
+          "abs_p95_m": 0.3074587710170603,
+          "max_abs_m": 1.5165333906582816
+        },
+        "SE": {
+          "count": 59136,
+          "mean_m": -0.11453842854707579,
+          "median_m": -0.11699145930660393,
+          "rms_difference_m": 0.15283377125798991,
+          "p05_m": -0.2701225972783661,
+          "p95_m": 0.04866695008832522,
+          "abs_p95_m": 0.27289898335053664,
+          "max_abs_m": 0.8812897988313466
+        }
+      },
+      "largest_absolute_residual_locations": [
+        {
+          "easting": 475530.5,
+          "northing": 5024802.5,
+          "difference_m": 2.1277285076757835
+        },
+        {
+          "easting": 475529.5,
+          "northing": 5024803.5,
+          "difference_m": 2.0999301809331428
+        },
+        {
+          "easting": 475529.5,
+          "northing": 5024802.5,
+          "difference_m": 1.9857241164002062
+        },
+        {
+          "easting": 475531.5,
+          "northing": 5024802.5,
+          "difference_m": 1.9251101826213244
+        },
+        {
+          "easting": 475530.5,
+          "northing": 5024803.5,
+          "difference_m": 1.8710982915706609
+        }
+      ],
+      "bilinear_minus_nearest": {
+        "count": 172556,
+        "mean_m": 3.4660279557031465e-05,
+        "median_m": 3.2555087045693654e-05,
+        "rms_difference_m": 8.647126712785223e-05,
+        "p05_m": -8.613976995519579e-05,
+        "p95_m": 0.00015711366970094787,
+        "abs_p95_m": 0.00016580086037265573,
+        "max_abs_m": 0.0007490049397915755
+      },
+      "base_gap_cells": 76788,
+      "supported_gap_cells": 76788,
+      "seam": {
+        "candidate_edges": 514,
+        "supported_edges": 514,
+        "unsupported_edges": 0,
+        "cross_source_step": {
+          "count": 514,
+          "mean_m": -0.16681275659499725,
+          "median_m": -0.1682316266608268,
+          "rms_difference_m": 0.21888462108935122,
+          "p05_m": -0.4016065844121144,
+          "p95_m": 0.05884613457875344,
+          "abs_p95_m": 0.40160658441211416,
+          "max_abs_m": 0.6177534921574761
+        },
+        "within_alternative_step": {
+          "count": 514,
+          "mean_m": -0.058893186697421926,
+          "median_m": -0.05611908260856069,
+          "rms_difference_m": 0.11695968000543179,
+          "p05_m": -0.23069810661641554,
+          "p95_m": 0.09684895470372502,
+          "abs_p95_m": 0.24640072483734465,
+          "max_abs_m": 0.35490987741621893
+        },
+        "source_switch_contribution": {
+          "count": 514,
+          "mean_m": -0.10791956989757534,
+          "median_m": -0.10707834555327622,
+          "rms_difference_m": 0.1642887558264388,
+          "p05_m": -0.3139046981214335,
+          "p95_m": 0.08641355597061558,
+          "abs_p95_m": 0.3170607581784435,
+          "max_abs_m": 0.6193160540734652
+        }
+      }
+    },
+    {
+      "alternative": "western2024",
+      "overlap": {
+        "count": 172556,
+        "mean_m": -0.0961701903454257,
+        "median_m": -0.09861142565992509,
+        "rms_difference_m": 0.1638187564334929,
+        "p05_m": -0.26774190596010783,
+        "p95_m": 0.081740448819275,
+        "abs_p95_m": 0.2854414122871418,
+        "max_abs_m": 2.266602034609093
+      },
+      "quadrants": {
+        "NW": {
+          "count": 27234,
+          "mean_m": -0.10586513871665501,
+          "median_m": -0.10211935247083659,
+          "rms_difference_m": 0.16054884061550312,
+          "p05_m": -0.27882359095063974,
+          "p95_m": 0.05949017893759103,
+          "abs_p95_m": 0.28623470038054105,
+          "max_abs_m": 1.689079561957442
+        },
+        "NE": {
+          "count": 59136,
+          "mean_m": -0.07885377297088256,
+          "median_m": -0.08459874553244617,
+          "rms_difference_m": 0.17263663855388314,
+          "p05_m": -0.2731228544874824,
+          "p95_m": 0.1321747691783628,
+          "abs_p95_m": 0.30830372058234445,
+          "max_abs_m": 2.266602034609093
+        },
+        "SW": {
+          "count": 27050,
+          "mean_m": -0.10440632131762019,
+          "median_m": -0.10426988806804616,
+          "rms_difference_m": 0.15391062667389196,
+          "p05_m": -0.27244859134333127,
+          "p95_m": 0.058675112968505444,
+          "abs_p95_m": 0.2787803260671694,
+          "max_abs_m": 1.154719531991816
+        },
+        "SE": {
+          "count": 59136,
+          "mean_m": -0.10525440454863635,
+          "median_m": -0.10655492235824227,
+          "rms_difference_m": 0.16061828140211384,
+          "p05_m": -0.25632723980447736,
+          "p95_m": 0.04765876350044351,
+          "abs_p95_m": 0.26883610104573563,
+          "max_abs_m": 1.6398107868674288
+        }
+      },
+      "largest_absolute_residual_locations": [
+        {
+          "easting": 475530.5,
+          "northing": 5024802.5,
+          "difference_m": 2.266602034609093
+        },
+        {
+          "easting": 475529.5,
+          "northing": 5024802.5,
+          "difference_m": 2.185353547504178
+        },
+        {
+          "easting": 475529.5,
+          "northing": 5024803.5,
+          "difference_m": 2.113639605658932
+        },
+        {
+          "easting": 475531.5,
+          "northing": 5024802.5,
+          "difference_m": 2.046403105480408
+        },
+        {
+          "easting": 475528.5,
+          "northing": 5024802.5,
+          "difference_m": 2.0147378564876703
+        }
+      ],
+      "bilinear_minus_nearest": {
+        "count": 172556,
+        "mean_m": 3.4637070514395986e-05,
+        "median_m": 3.132838462249765e-05,
+        "rms_difference_m": 8.440704421640092e-05,
+        "p05_m": -7.98304319005183e-05,
+        "p95_m": 0.00015247105700666452,
+        "abs_p95_m": 0.00016154538498369675,
+        "max_abs_m": 0.0007915696542113437
+      },
+      "base_gap_cells": 76788,
+      "supported_gap_cells": 76788,
+      "seam": {
+        "candidate_edges": 514,
+        "supported_edges": 514,
+        "unsupported_edges": 0,
+        "cross_source_step": {
+          "count": 514,
+          "mean_m": -0.17168957771085352,
+          "median_m": -0.17190106685855255,
+          "rms_difference_m": 0.21547799477017415,
+          "p05_m": -0.3669712065404269,
+          "p95_m": 0.04285756377600462,
+          "abs_p95_m": 0.3669712065404268,
+          "max_abs_m": 0.5998941713918953
+        },
+        "within_alternative_step": {
+          "count": 514,
+          "mean_m": -0.060715537506657626,
+          "median_m": -0.05394392826759997,
+          "rms_difference_m": 0.10572134739530491,
+          "p05_m": -0.21610907424526715,
+          "p95_m": 0.07854282469488251,
+          "abs_p95_m": 0.2161090742452671,
+          "max_abs_m": 0.3359003480611591
+        },
+        "source_switch_contribution": {
+          "count": 514,
+          "mean_m": -0.11097404020419589,
+          "median_m": -0.10340336651039195,
+          "rms_difference_m": 0.15535736257655278,
+          "p05_m": -0.29379957279243885,
+          "p95_m": 0.06453205367480727,
+          "abs_p95_m": 0.2964503687261753,
+          "max_abs_m": 0.4624656530434379
+        }
+      }
+    }
+  ],
+  "boundary_retained_cell_centers_bounds": [
+    475263.5,
+    5024374.5,
+    475265.5,
+    5024885.5
+  ],
+  "boundary_definition": "Internal four-neighbor Eastern valid/NoData edges; not a surveyed boundary or official project acquisition boundary; AOI perimeter excluded.",
+  "western2024_minus_2016_native_overlap": {
+    "count": 249344,
+    "mean_m": 0.0009614527837451723,
+    "median_m": 0.01483154296875,
+    "rms_difference_m": 0.14425588648663953,
+    "p05_m": -0.201141357421875,
+    "p95_m": 0.16245803833007777,
+    "abs_p95_m": 0.271484375,
+    "max_abs_m": 1.645965576171875
+  }
+}
