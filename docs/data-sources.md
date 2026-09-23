@@ -207,3 +207,8 @@ finds about an 11 cm mean source-switch contribution at the prospective seam,
 with spatially varying residuals. Original inputs remain unchanged. Next review
 a source-aware slope diagnostic that holds neighborhoods crossing source switches;
 no height correction, source preference or terrain qualification is activated.
+
+The [source-aware slope diagnostic](../research/terrain-slopes/README.md)
+flags 1,024 source-boundary neighborhoods and 2,044 AOI-edge centers. Independent
+source slopes still differ locally; next inspect recorded native height/slope
+extremes before source selection. No production qualification is activated.
