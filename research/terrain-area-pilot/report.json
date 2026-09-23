@@ -1,0 +1,80 @@
+{
+  "evidence_state": "DERIVED",
+  "request_sha256": "cc7884cf952e4eb5d5383744306b2b8cf2358bf37464654055548ba37a2a1bb9",
+  "readiness_sha256": "9ca20284726c2ef0798b3af22f2cdece20b67ffb4fe47867fda9750fcaa84591",
+  "county_boundary_sha256": "5d242c188fb5580198ebc1b828976d454637dd7f6185e362bee573ab43d9e728",
+  "method_sha256": "2de0b1de9eb761b70ed49b6e07df5f55b36630907eb70ff1f4d0806639fef0e7",
+  "range_reader_sha256": "f55be5e2a208aaa5bbb55b0732902edb6412db909aa82c76b0f8719a57863b66",
+  "runtime": {
+    "rasterio": "1.4.3",
+    "gdal": "3.9.3",
+    "tifffile": "2024.8.30"
+  },
+  "diagnostic_only": true,
+  "max_raster_transfer_bytes": 8388608,
+  "sources": [
+    {
+      "source_id": "5eacf6f382cefae35a24ebc7",
+      "etag": "\"84bbf5456e2b4da16a3d114cbf143662\"",
+      "source_file_bytes": 139306764,
+      "window": [
+        5120,
+        5120,
+        512,
+        512
+      ],
+      "bounds": [
+        475114.0,
+        5024374.0,
+        475626.0,
+        5024886.0
+      ],
+      "epsg": 26919,
+      "crs_wkt": "PROJCS[\"NAD83 / UTM zone 19N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-69],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26919\"]]",
+      "resolution": [
+        1.0,
+        1.0
+      ],
+      "nodata": -999999.0,
+      "pixels": 262144,
+      "nodata_pixels": 76788,
+      "nonfinite_unmasked_pixels": 0,
+      "valid_pixels": 185356,
+      "valid_fraction": 0.7070770263671875,
+      "valid_area_m2": 185356.0,
+      "coverage": "partial_native_pixel_coverage",
+      "raster_transfer_bytes": 748611,
+      "captured_blocks": [
+        [
+          20,
+          20
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          21,
+          20
+        ],
+        [
+          21,
+          21
+        ]
+      ],
+      "subset_file": "0-subset.tif",
+      "subset_bytes": 582224,
+      "subset_sha256": "d2b14b3cdaaea57363f50e46360ae1e963bfd2987e661fb90035a5fcb4ad3a87",
+      "analysis_qualified": false
+    }
+  ],
+  "limits": [
+    "Pinned catalog selection is not refreshed county-wide discovery. Source currency, date conflicts and datum/accuracy qualification remain separate.",
+    "Native rectangular diagnostic area only; no parcel identity, slope, source priority, county availability or buildability qualification.",
+    "Subset is a DERIVED lossless window; archived source ranges are exact original bytes, not a complete source TIFF."
+  ],
+  "status": "retrieved_not_qualified",
+  "raster_transfer_bytes": 748611,
+  "subset_bytes": 582224,
+  "sources_sha256": "e04e36fd9b8cefb4d7ef3d549b04119fc7bab94f02d16ae8ef26fa0f12d54523"
+}

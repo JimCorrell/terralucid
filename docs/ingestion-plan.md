@@ -174,3 +174,11 @@ area, transfer budget, automatic source preference, clipping method or slope
 threshold has been selected by this plan. Existing TL-F-0104 date, metadata,
 size and overlap questions remain open. Purchase-specific suitability is a
 later review, and broad terrain cataloging does not await that review.
+
+The [small-area terrain pilot](../research/terrain-area-pilot/README.md) now
+implements bounded native-window retrieval from explicitly pinned reviewed
+sources. It preserves exact source ranges and a lossless subset in private object
+storage, measures valid/NoData pixels and supports offline replay. Its 512-meter
+square has partial coverage; next investigate a bounded alternative source for
+that gap. County-wide dynamic discovery, persisted terrain catalog/results tables
+and terrain availability qualification remain pending.

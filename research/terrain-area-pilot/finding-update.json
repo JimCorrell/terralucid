@@ -1,0 +1,14 @@
+{
+  "report_sha256": "e993f6b1e6ee78ddb5ad565b65369a3ebbe4cb81e1270253c6ef3d7399978069",
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "updates": [
+    {
+      "status": "in_progress",
+      "event_id": "5761965b291697b38bde099bbb25d95c9ae5ada747c33b951f7c657962e8442a",
+      "finding_id": "TL-F-0104",
+      "next_action": "Investigate a bounded alternative source window for the pilot NoData area: verify native extent, exact version, acquisition/datum/accuracy evidence and compatible grids; compare separate valid-pixel masks before proposing source-selection rules. Continue county-wide metadata discovery and on-demand retrieval; supersede the former eight-full-tile load plan. Keep source alternatives, gaps and uncertainty explicit. No county availability or purchase-specific slope/buildability qualification yet."
+    }
+  ],
+  "source_geometry_writes": false
+}
