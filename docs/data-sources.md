@@ -175,6 +175,8 @@ The [bounded terrain review](../research/terrain-readiness/README.md) inspects o
 retained elevation tile from each of eight county project groups. It records
 NoData samples, catalog/file-size discrepancies, acquisition-date conflicts,
 original geoid/accuracy qualifications and overlapping raster differences under
-TL-F-0104. An eight-tile full-mask/storage pilot is proposed; county terrain
-availability and slope qualification remain pending. No automatic newest-source
-priority or raster storage policy is enacted.
+TL-F-0104. The subsequent [terrain decision](decisions.md#terrain-catalog-and-retrieval-on-demand)
+replaces the proposed eight-tile full-file load with county-wide source discovery
+and retrieval for candidate areas. Preserve exact analysis inputs in private
+object storage and keep metadata/results in PostgreSQL. Terrain availability and
+slope qualification remain pending; no automatic newest-source priority is selected.
