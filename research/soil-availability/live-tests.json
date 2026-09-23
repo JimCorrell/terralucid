@@ -1,0 +1,183 @@
+{
+  "cases": [
+    {
+      "capture_sha256": "7e1402ca69c0641e33cd5331e081c8401f6f4c090a2c0a167d8f937480f06532",
+      "case": "orneville_source_parcel",
+      "component_mixtures": [
+        {
+          "component_count": 4,
+          "component_locations": "UNKNOWN",
+          "listed_percent_total": "90",
+          "mukey": "285311",
+          "normalized": false,
+          "percentage_state": "under_100",
+          "unlisted_percent": "10"
+        },
+        {
+          "component_count": 1,
+          "component_locations": "UNKNOWN",
+          "listed_percent_total": "100",
+          "mukey": "285377",
+          "normalized": false,
+          "percentage_state": "sums_to_100",
+          "unlisted_percent": "0"
+        }
+      ],
+      "coverage": {
+        "basis": "aoi_minus_source_union",
+        "fraction": 1.0,
+        "state": "full_geometric",
+        "uncovered_m2": 0.0
+      },
+      "freshness": {
+        "needs_revisit": false,
+        "reasons": [],
+        "use_policy": "unchanged_dependencies_only; retain all topic limits"
+      },
+      "horizon_profiles": [
+        {
+          "cokey": "26559909",
+          "horizon_count": 5,
+          "horizon_state": "records_present"
+        },
+        {
+          "cokey": "26559910",
+          "horizon_count": 7,
+          "horizon_state": "records_present"
+        },
+        {
+          "cokey": "26559911",
+          "horizon_count": 9,
+          "horizon_state": "records_present"
+        },
+        {
+          "cokey": "26559912",
+          "horizon_count": 4,
+          "horizon_state": "records_present"
+        },
+        {
+          "cokey": "26559854",
+          "horizon_count": 0,
+          "horizon_state": "absent_miscellaneous_area"
+        }
+      ],
+      "inventory_intersections_usable": true,
+      "metadata_sha256": "96fe753c78865814aacf39b8d8b6102d0dd69bcf48d1de0968a91e70138b6ed1",
+      "packet_sha256": "e9c2f9ac8bc6f4323d33c46d4c2b6d94f6b92d753c29022b0c5d5b2487edc6d9",
+      "soil_polygons": 2,
+      "status": "review_required"
+    },
+    {
+      "capture_sha256": "c8d25bff75a527159552caca3739d1e8f75efb92659bd54f36e2064a489f274b",
+      "case": "accepted_soil_diagnostic_area",
+      "component_mixtures": [
+        {
+          "component_count": 4,
+          "component_locations": "UNKNOWN",
+          "listed_percent_total": "93",
+          "mukey": "285368",
+          "normalized": false,
+          "percentage_state": "under_100",
+          "unlisted_percent": "7"
+        }
+      ],
+      "coverage": {
+        "basis": "source_covers_aoi",
+        "fraction": 1.0,
+        "state": "full_geometric",
+        "uncovered_m2": 0.0
+      },
+      "freshness": {
+        "needs_revisit": false,
+        "reasons": [],
+        "use_policy": "unchanged_dependencies_only; retain all topic limits"
+      },
+      "horizon_profiles": [
+        {
+          "cokey": "26559858",
+          "horizon_count": 4,
+          "horizon_state": "records_present"
+        },
+        {
+          "cokey": "26559859",
+          "horizon_count": 5,
+          "horizon_state": "records_present"
+        },
+        {
+          "cokey": "26559860",
+          "horizon_count": 3,
+          "horizon_state": "records_present"
+        },
+        {
+          "cokey": "26559861",
+          "horizon_count": 3,
+          "horizon_state": "records_present"
+        }
+      ],
+      "inventory_intersections_usable": true,
+      "metadata_sha256": "96fe753c78865814aacf39b8d8b6102d0dd69bcf48d1de0968a91e70138b6ed1",
+      "packet_sha256": "96a0b3f1236b534d8ee2b7f05a750a687d7d87fd7675229850dac00a1001d58e",
+      "soil_polygons": 1,
+      "status": "review_required"
+    }
+  ],
+  "completed_at": "2026-09-23T17:59:51.696180+00:00",
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "database_writes": "one append-only finding event; no source or qualification state changes",
+  "finding_update": {
+    "event_id": "718dfbbf8e259b29bc6610e92fadd070c9e32c105bbdc2c5a284f01aa882ac0f",
+    "finding_id": "TL-F-0113",
+    "status": "in_progress"
+  },
+  "method_sha256": "96f31d159edfbc6967787e8fc51796ce59c6637e35f12cc4660c0fbc70ab8ee4",
+  "same_backend_confirmed": true,
+  "stages": [
+    {
+      "stage": "credential_acquisition",
+      "status": "PASS"
+    },
+    {
+      "seconds": 0.79,
+      "stage": "simple_read",
+      "status": "PASS"
+    },
+    {
+      "seconds": 0.35,
+      "stage": "private_function_access",
+      "status": "PASS"
+    },
+    {
+      "seconds": 0.2,
+      "stage": "component_gap_finding",
+      "status": "PASS"
+    },
+    {
+      "seconds": 0.8,
+      "stage": "select_corrected_soil_area",
+      "status": "PASS"
+    },
+    {
+      "seconds": 27.02,
+      "stage": "orneville_source_parcel",
+      "status": "PASS"
+    },
+    {
+      "seconds": 19.84,
+      "stage": "accepted_soil_diagnostic_area",
+      "status": "PASS"
+    },
+    {
+      "seconds": 0.44,
+      "stage": "fresh_context",
+      "status": "PASS"
+    },
+    {
+      "seconds": 0.11,
+      "stage": "same_session_confirmation",
+      "status": "PASS"
+    }
+  ],
+  "started_at": "2026-09-23T17:58:59.851100+00:00",
+  "status": "PASS"
+}

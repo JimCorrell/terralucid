@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "method_sha256": "96f31d159edfbc6967787e8fc51796ce59c6637e35f12cc4660c0fbc70ab8ee4",
+  "unit_tests": {
+    "existing_area_qualification": 25,
+    "soil_availability": 6
+  },
+  "isolated_postgis_checks": [
+    "legacy indexed/projected extraction and held extent behavior",
+    "soil polygon-to-mapunit-to-legend/component joins",
+    "accepted soil correction retained",
+    "component remainder retained",
+    "stale soil snapshot blocks and invalidates",
+    "withdrawn hold blocks without repair",
+    "read-only extraction preserves fixtures"
+  ],
+  "live_readback": "research/soil-availability/live-tests.json",
+  "scope_limits": [
+    "Two live diagnostic areas, not county-wide parcel qualification",
+    "No suitability thresholds or source normalization",
+    "No terrain adapter added"
+  ]
+}

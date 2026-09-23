@@ -2,6 +2,7 @@
 with request as (select __REQUEST__::jsonb as j),
 context as (
  select jsonb_build_object(
+ 'soils',__SOIL_CONTEXT__,
  'database_runtime',postgis_full_version(),
  'source_audit',j->>'audit','geometry_snapshot',j->>'snapshot',
  'source_exists',exists(select 1 from ingest.county_inventory_batch where audit_sha256=j->>'audit'),

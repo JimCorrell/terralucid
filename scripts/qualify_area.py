@@ -11,18 +11,23 @@ from shapely.geometry import shape
 from shapely.ops import unary_union
 from shapely.strtree import STRtree
 from apply_prepared_load import connection_environment
+from soil_availability import qualify_soils,BATCH,METADATA
 
 ROOT=Path(__file__).resolve().parents[1]
-VERSION='area-qualification-v1'
+VERSION='area-qualification-v2'
 PARCELS={'ut-parcels','organized-parcels'}
 GROUPS={'identity':PARCELS,'zoning':{'lupc-zoning'},'wetlands':{'nwi-package','nwi-project'}}
 
 def digest(value):return hashlib.sha256(json.dumps(value,sort_keys=True,separators=(',',':'),allow_nan=False).encode()).hexdigest()
 def method_hash():
-    return digest({'files':{p:hashlib.sha256((ROOT/'scripts'/p).read_bytes()).hexdigest() for p in ['qualify_area.py','qualification_context.sql','qualification_extract.sql']},'shapely':shapely.__version__,'geos':shapely.geos_version_string})
+    return digest({'files':{p:hashlib.sha256((ROOT/'scripts'/p).read_bytes()).hexdigest() for p in ['qualify_area.py','qualification_context.sql','qualification_extract.sql','qualification_soils.sql','soil_availability.py']},'shapely':shapely.__version__,'geos':shapely.geos_version_string})
 def validate_request(r):
     for k in ('audit','snapshot'):
         if not isinstance(r.get(k),str) or len(r[k])!=64 or any(c not in '0123456789abcdef' for c in r[k]):raise ValueError('Expected SHA-256 '+k)
+    if 'soils' in r:
+        soil=r['soils']
+        if not isinstance(soil,dict) or set(soil)!={'batch','snapshot'} or soil['batch']!=BATCH:raise ValueError('Unsupported soil batch/request')
+        if not isinstance(soil['snapshot'],str) or len(soil['snapshot'])!=64 or any(c not in '0123456789abcdef' for c in soil['snapshot']):raise ValueError('Expected soil snapshot SHA-256')
     if type(r.get('purchase_candidate')) is not bool:raise ValueError('Explicit purchase-candidate boolean required')
     if 'geometry' in r:
         if 'source_id' in r or 'object_id' in r:raise ValueError('Select either AOI or source parcel')
@@ -36,7 +41,10 @@ def query_sql(request,context_only=False):
     validate_request(request)
     literal="'"+json.dumps(request,allow_nan=False).replace("'","''")+"'"
     sql=(ROOT/'scripts/qualification_context.sql').read_text().replace('__REQUEST__',literal)
+    soil_context="jsonb_build_object('batch',j#>>'{soils,batch}','snapshot',j#>>'{soils,snapshot}','metadata_sha256','"+METADATA+"','source_exists',exists(select 1 from ingest.soil_batch where report_sha256=j#>>'{soils,batch}'),'snapshot_current',ingest.soil_geometry_snapshot_is_current(j#>>'{soils,snapshot}',j#>>'{soils,batch}'),'geometry_dependencies',ingest.soil_geometry_dependencies(j#>>'{soils,batch}'))" if 'soils' in request else 'null'
+    sql=sql.replace('__SOIL_CONTEXT__',soil_context)
     sql+= ' select document from context;' if context_only else (ROOT/'scripts/qualification_extract.sql').read_text()
+    sql=sql.replace('__SOIL_CTES__',(ROOT/'scripts/qualification_soils.sql').read_text() if 'soils' in request else '').replace('__SOIL_CAPTURE__','(select document from soil_capture)' if 'soils' in request else 'null')
     return "BEGIN ISOLATION LEVEL REPEATABLE READ READ ONLY; SET LOCAL standard_conforming_strings=on; SET LOCAL search_path=pg_catalog,ingest,extensions; SET LOCAL statement_timeout='5min';\n"+sql+'\nCOMMIT;'
 
 def read_export(path,column):
@@ -184,7 +192,8 @@ def qualify(capture):
     topics['flood']={'status':'review_required' if evidence else 'missing','evidence':evidence,'evidence_state':'UNKNOWN',
         'inventory_intersections_usable':False,'reasons':['flood_overlay_not_qualified','empty_digital_response_is_not_clearance','current_map_and_letter_applicability_unverified'],
         'legal_or_site_suitability':'UNKNOWN'}
-    for name in ['soils','terrain']:
+    topics['soils']=qualify_soils(capture,aoi,coverage)
+    for name in ['terrain']:
         topics[name]={'status':'missing','evidence_state':'UNKNOWN','reasons':['no_qualified_source_adapter_in_this_version'],'blocks_general_discovery':False}
     for name in ['septic_suitability','buildability']:
         topics[name]={'status':'review_required' if r['purchase_candidate'] else 'not_requested','evidence_state':'UNKNOWN',
@@ -207,6 +216,7 @@ def currency(packet,context):
     if packet.get('context')!=context:reasons.append('captured_dependencies_changed')
     if not context.get('snapshot_current'):reasons.append('geometry_snapshot_stale')
     if not context.get('source_exists'):reasons.append('source_audit_missing')
+    if packet.get('request',{}).get('soils') and (not context.get('soils') or not context['soils'].get('snapshot_current') or not context['soils'].get('source_exists')):reasons.append('soil_dependencies_stale_or_missing')
     return {'needs_revisit':bool(reasons),'reasons':reasons,'use_policy':'recompute_before_use' if reasons else 'unchanged_dependencies_only; retain all topic limits'}
 
 def private_write(path,value):

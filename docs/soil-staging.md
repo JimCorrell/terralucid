@@ -111,3 +111,9 @@ and separates whole-survey from county-linked missingness. It proposes a limited
 inventory availability adapter; no adapter is enabled by that audit. Preserve
 component percentage deficits and exclude Vermont-specific septic interpretation
 from Maine qualification.
+
+The [soil availability adapter](../research/soil-availability/README.md) implements
+those bounded checks for explicitly requested source/snapshot versions. It reports
+inventory usability with limitations, not parcel qualification. A direct USDA
+comparison corroborates the component deficits as source representation; unknown
+minor components are neither invented nor normalized away.

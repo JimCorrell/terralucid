@@ -1,0 +1,24 @@
+{
+  "evidence_state": "DERIVED",
+  "method_sha256": "1be4f853fa1f90214ac92700b8754b1cd4563bb9c445512e47590c149a052351",
+  "metadata_report_sha256": "96fe753c78865814aacf39b8d8b6102d0dd69bcf48d1de0968a91e70138b6ed1",
+  "bundle_report_sha256": "b31e3034caee9f70361bb9c769b936b8709fcab38706f89cdee22c9265aad512",
+  "mapunits_queried": 262,
+  "archived_components": 716,
+  "fresh_components": 716,
+  "compared_fields": [
+    "mukey",
+    "cokey",
+    "compname",
+    "compkind",
+    "majcompflag",
+    "comppct_l",
+    "comppct_r",
+    "comppct_h"
+  ],
+  "exact_selected_rows_match": true,
+  "new_keys": [],
+  "missing_keys": [],
+  "interpretation": "USDA documents that some minor components may not be individually recorded. Matching direct rows supports a source representation limitation rather than a retrieval omission for this scope. It does not identify the omitted components or establish site conditions.",
+  "action": "Preserve total and unlisted proportion; no normalization or imputed component. Retain per-map-unit uncertainty."
+}

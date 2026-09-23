@@ -39,7 +39,9 @@
  and document->>'source_audit_sha256'=(select j->>'audit' from request)
  order by sha256
 )
+__SOIL_CTES__
 select jsonb_build_object(
+ 'soils',__SOIL_CAPTURE__,
  'captured_at',clock_timestamp(),'context',(select document from context),'request',(select j from request),
  'aoi_wkb',(select encode(ST_AsBinary(g),'hex') from aoi),
  'aoi_within_county',(select ST_Covers(b.boundary,a.g) from ingest.county_inventory_batch b cross join aoi a cross join request r where b.audit_sha256=r.j->>'audit'),
