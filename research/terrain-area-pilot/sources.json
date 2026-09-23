@@ -1,0 +1,57 @@
+[
+  {
+    "file": "0-header.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Eastern_B2_2017/TIFF/USGS_one_meter_x47y503_ME_Eastern_B2_2017.tif",
+    "sha256": "182f4635c0fa1c6e85cea0b74360c41147583898da2210dba0432c7bdb3d7440",
+    "bytes": 65536,
+    "status": 206,
+    "retrieved_at": "2026-09-23T18:57:30.534601+00:00",
+    "etag": "\"84bbf5456e2b4da16a3d114cbf143662\"",
+    "last_modified": "Fri, 13 Feb 2026 14:01:41 GMT",
+    "content_range": "bytes 0-65535/139306764"
+  },
+  {
+    "file": "0-range-1.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Eastern_B2_2017/TIFF/USGS_one_meter_x47y503_ME_Eastern_B2_2017.tif",
+    "sha256": "f3ec3d0ee0d34118f7f6c12b2daa57b53cfbb2bcecd140a545e0567252817e1e",
+    "bytes": 106902,
+    "status": 206,
+    "retrieved_at": "2026-09-23T18:57:31.318808+00:00",
+    "etag": "\"84bbf5456e2b4da16a3d114cbf143662\"",
+    "last_modified": "Fri, 13 Feb 2026 14:01:41 GMT",
+    "content_range": "bytes 116882628-116989529/139306764"
+  },
+  {
+    "file": "0-range-2.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Eastern_B2_2017/TIFF/USGS_one_meter_x47y503_ME_Eastern_B2_2017.tif",
+    "sha256": "07d2d53ea31f5c5843e74518fbe89054354afcc338c3f5457eedc188948992b6",
+    "bytes": 237046,
+    "status": 206,
+    "retrieved_at": "2026-09-23T18:57:32.096649+00:00",
+    "etag": "\"84bbf5456e2b4da16a3d114cbf143662\"",
+    "last_modified": "Fri, 13 Feb 2026 14:01:41 GMT",
+    "content_range": "bytes 116989530-117226575/139306764"
+  },
+  {
+    "file": "0-range-3.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Eastern_B2_2017/TIFF/USGS_one_meter_x47y503_ME_Eastern_B2_2017.tif",
+    "sha256": "9f08539a07242e312e649fa83401322e93b9dd6544551b1e611a5edd07542f19",
+    "bytes": 103342,
+    "status": 206,
+    "retrieved_at": "2026-09-23T18:57:32.853778+00:00",
+    "etag": "\"84bbf5456e2b4da16a3d114cbf143662\"",
+    "last_modified": "Fri, 13 Feb 2026 14:01:41 GMT",
+    "content_range": "bytes 121214142-121317483/139306764"
+  },
+  {
+    "file": "0-range-4.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Eastern_B2_2017/TIFF/USGS_one_meter_x47y503_ME_Eastern_B2_2017.tif",
+    "sha256": "767788c7f9070f315ee4877cc9fa31df1b4b66ccf1c413040b2e38d86d2f1bae",
+    "bytes": 235785,
+    "status": 206,
+    "retrieved_at": "2026-09-23T18:57:33.610726+00:00",
+    "etag": "\"84bbf5456e2b4da16a3d114cbf143662\"",
+    "last_modified": "Fri, 13 Feb 2026 14:01:41 GMT",
+    "content_range": "bytes 121317484-121553268/139306764"
+  }
+]

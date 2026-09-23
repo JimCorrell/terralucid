@@ -1,0 +1,52 @@
+{
+  "evidence_state": "DERIVED",
+  "readiness_sha256": "9ca20284726c2ef0798b3af22f2cdece20b67ffb4fe47867fda9750fcaa84591",
+  "county_boundary_sha256": "5d242c188fb5580198ebc1b828976d454637dd7f6185e362bee573ab43d9e728",
+  "method": "Shapely county.intersection(box(*native_raster_bounds)).area in EPSG26919, no snapping or tolerance; eight prior representative headers only. Raster rectangles are not valid-pixel masks.",
+  "runtime": {
+    "shapely": "2.0.7",
+    "geos": "3.11.4"
+  },
+  "results": [
+    {
+      "source_id": "60d2c0e0d34e840986528af4",
+      "project": "ME_CrownofMaine_2018_A18",
+      "native_extent_county_intersection_m2": 14222621.315591099
+    },
+    {
+      "source_id": "65c711a2d34ef4b119cb2c32",
+      "project": "ME_EasternME_2017_A17",
+      "native_extent_county_intersection_m2": 100195258.70133679
+    },
+    {
+      "source_id": "5eacf54782cefae35a24e153",
+      "project": "ME_Eastern_B1_2017",
+      "native_extent_county_intersection_m2": 14222619.355569322
+    },
+    {
+      "source_id": "5eacf6f382cefae35a24ebc7",
+      "project": "ME_Eastern_B2_2017",
+      "native_extent_county_intersection_m2": 100240144.0
+    },
+    {
+      "source_id": "672adf19d34e16b32e73054e",
+      "project": "ME_MidCentral_B23",
+      "native_extent_county_intersection_m2": 0.0
+    },
+    {
+      "source_id": "6a753ec11ba49b79d0c34490",
+      "project": "ME_WesternMtns_B24",
+      "native_extent_county_intersection_m2": 68538.1748321119
+    },
+    {
+      "source_id": "6635c582d34edc29f40a10dc",
+      "project": "ME_Western_ME_LiDAR_2016_B16",
+      "native_extent_county_intersection_m2": 68538.1748321119
+    },
+    {
+      "source_id": "663b0d42d34e77890839b681",
+      "project": "Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA",
+      "native_extent_county_intersection_m2": 0.0
+    }
+  ]
+}

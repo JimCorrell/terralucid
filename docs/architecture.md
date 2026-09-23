@@ -42,4 +42,7 @@ in private object storage. Preserve the exact inputs used in each analysis,
 including any subset extent and processing history. Bulk county raster storage
 is deferred pending demonstrated reuse and a separate capacity assessment.
 See the [terrain decision](decisions.md#terrain-catalog-and-retrieval-on-demand).
-This direction is not yet implemented as a retrieval or qualification service.
+The [small-area pilot](../research/terrain-area-pilot/README.md) implements
+bounded diagnostic retrieval and evidence preservation for explicitly pinned
+sources. Dynamic county-wide discovery and terrain qualification services remain
+pending.

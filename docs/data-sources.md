@@ -180,3 +180,10 @@ replaces the proposed eight-tile full-file load with county-wide source discover
 and retrieval for candidate areas. Preserve exact analysis inputs in private
 object storage and keep metadata/results in PostgreSQL. Terrain availability and
 slope qualification remain pending; no automatic newest-source priority is selected.
+
+The [retrieval pilot](../research/terrain-area-pilot/README.md) retrieved a complete
+512-meter diagnostic window using 0.75 MB of source bytes, finding 70.7% valid
+pixels. The remaining NoData is explicit. Native raster extents also exclude
+some candidates retained by geographic catalog rectangles. These results support
+bounded retrieval and exact-version evidence retention, not county coverage or
+source suitability; TL-F-0104 remains in progress.
