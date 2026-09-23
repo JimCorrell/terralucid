@@ -122,8 +122,12 @@ separate evidence requirements.
 
 ## Planned soils and terrain investigations
 
-Requested after the county readiness review; both remain **pending investigation**.
-These are planned work items, not observed dataset defects or completed loads.
+Requested after the county readiness review. An
+[initial county source-catalog assessment](../research/soils-terrain-readiness/README.md)
+now identifies soil survey candidates, validates bounded tabular joins and lists
+terrain download candidates. Exact spatial coverage, source-quality qualification
+and feature/raster loads remain pending. These are preparation tasks, not observed
+dataset defects or completed loads.
 
 Qualify and make soils and elevation/terrain data readily available across the
 study area, independent of purchase interest in any individual parcel. Source
