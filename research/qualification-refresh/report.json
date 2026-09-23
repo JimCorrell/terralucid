@@ -1,0 +1,461 @@
+{
+  "cases": [
+    {
+      "capture_sha256": "ec56f65e0e390f6f1fb9d41a9b6a57045abe239cfaa9c909783210839b1ec053",
+      "case": "orneville_parcel",
+      "freshness": {
+        "needs_revisit": false,
+        "reasons": [],
+        "use_policy": "unchanged_dependencies_only; retain all topic limits"
+      },
+      "overlap_candidates": 0,
+      "packet_sha256": "ffbf2dd9fc95d8a2fbe2cd0556be92fde152d1344ee19040333d82adfe176519",
+      "request_sha256": "aaaf0550674f10e9d081a3a43da6f2ad86de9edf9d13b5d9234469ddcbaf15a4",
+      "status": "PASS",
+      "topics": {
+        "access_title": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "not_requested"
+        },
+        "buildability": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "not_requested"
+        },
+        "flood": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": false,
+          "records": 0,
+          "status": "review_required"
+        },
+        "identity": {
+          "coverage": {
+            "basis": "source_covers_aoi",
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "held_evidence": 0,
+          "inventory_intersections_usable": true,
+          "records": 5,
+          "status": "review_required"
+        },
+        "septic_suitability": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "not_requested"
+        },
+        "soils": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "missing"
+        },
+        "terrain": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "missing"
+        },
+        "wetlands": {
+          "coverage": {
+            "basis": "source_covers_aoi",
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "held_evidence": 0,
+          "inventory_intersections_usable": true,
+          "records": 2,
+          "status": "review_required"
+        },
+        "zoning": {
+          "coverage": {
+            "basis": "source_covers_aoi",
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "held_evidence": 0,
+          "inventory_intersections_usable": true,
+          "records": 1,
+          "status": "review_required"
+        }
+      },
+      "same_request_as_pr54": true
+    },
+    {
+      "capture_sha256": "93c8f35f16bf22c40c795ce6b07d7756a5315fb2863d84a8707e5690a60223a6",
+      "case": "overlapping_sources",
+      "freshness": {
+        "needs_revisit": false,
+        "reasons": [],
+        "use_policy": "unchanged_dependencies_only; retain all topic limits"
+      },
+      "overlap_candidates": 3,
+      "packet_sha256": "9407e2f37ff8f96fdbd7b3c0a174b381d2a479999441185b78e395e3eba8df80",
+      "request_sha256": "2e2856b3f80de907e9c248a6e657f8e6245feab832441839604eda84dc7762dd",
+      "status": "PASS",
+      "topics": {
+        "access_title": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "not_requested"
+        },
+        "buildability": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "not_requested"
+        },
+        "flood": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": false,
+          "records": 0,
+          "status": "missing"
+        },
+        "identity": {
+          "coverage": {
+            "basis": "source_covers_aoi",
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "held_evidence": 0,
+          "inventory_intersections_usable": true,
+          "records": 9,
+          "status": "review_required"
+        },
+        "septic_suitability": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "not_requested"
+        },
+        "soils": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "missing"
+        },
+        "terrain": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "missing"
+        },
+        "wetlands": {
+          "coverage": {
+            "basis": "source_covers_aoi",
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "held_evidence": 0,
+          "inventory_intersections_usable": true,
+          "records": 5,
+          "status": "review_required"
+        },
+        "zoning": {
+          "coverage": {
+            "basis": "aoi_minus_source_union",
+            "fraction": 0.010689232621080125,
+            "state": "partial_geometric",
+            "uncovered_m2": 495220.97281339666
+          },
+          "held_evidence": 0,
+          "inventory_intersections_usable": true,
+          "records": 3,
+          "status": "review_required"
+        }
+      },
+      "same_request_as_pr54": true
+    },
+    {
+      "capture_sha256": "f7794d2c88a2b919f9c48612e4446cad68de8707f5e389d2fd16d950be4ebdd9",
+      "case": "parcel_near_hold",
+      "freshness": {
+        "needs_revisit": false,
+        "reasons": [],
+        "use_policy": "unchanged_dependencies_only; retain all topic limits"
+      },
+      "overlap_candidates": 0,
+      "packet_sha256": "6ef9c32eeb84f799afeb477c766daa9726b6b5dd8a309678d16b8111d3fc0684",
+      "request_sha256": "4396cae6b93db8abb12f8d393c43ed982e6ffcb504178e7843145f3ab47b8700",
+      "status": "PASS",
+      "topics": {
+        "access_title": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "not_requested"
+        },
+        "buildability": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "not_requested"
+        },
+        "flood": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": false,
+          "records": 0,
+          "status": "missing"
+        },
+        "identity": {
+          "coverage": {
+            "basis": "source_covers_aoi",
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "held_evidence": 0,
+          "inventory_intersections_usable": true,
+          "records": 3,
+          "status": "review_required"
+        },
+        "septic_suitability": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "not_requested"
+        },
+        "soils": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "missing"
+        },
+        "terrain": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "missing"
+        },
+        "wetlands": {
+          "coverage": {
+            "basis": "source_covers_aoi",
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "held_evidence": 0,
+          "inventory_intersections_usable": true,
+          "records": 2,
+          "status": "review_required"
+        },
+        "zoning": {
+          "coverage": {
+            "basis": "aoi_minus_source_union",
+            "fraction": 0.9996310820512838,
+            "state": "partial_geometric",
+            "uncovered_m2": 5.776254006397802
+          },
+          "held_evidence": 1,
+          "inventory_intersections_usable": false,
+          "records": 2,
+          "status": "review_required"
+        }
+      },
+      "same_request_as_pr54": true
+    },
+    {
+      "capture_sha256": "470eaf00f597edee6dc8e16fa372266ac6f169675d75f366fac38c95f2f4ad28",
+      "case": "accepted_zoning_area",
+      "freshness": {
+        "needs_revisit": false,
+        "reasons": [],
+        "use_policy": "unchanged_dependencies_only; retain all topic limits"
+      },
+      "overlap_candidates": 0,
+      "packet_sha256": "085e34271c6498a05ececb960fb214fc63cb88a3f0869504ee97089a7851f8b1",
+      "request_sha256": "a70ff8c7faab02ce479cf39fdbd49a982b72d9a81726c8006783035d9665cff6",
+      "status": "PASS",
+      "topics": {
+        "access_title": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "not_requested"
+        },
+        "buildability": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "not_requested"
+        },
+        "flood": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": false,
+          "records": 0,
+          "status": "missing"
+        },
+        "identity": {
+          "coverage": {
+            "basis": "source_covers_aoi",
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "held_evidence": 0,
+          "inventory_intersections_usable": true,
+          "records": 1,
+          "status": "review_required"
+        },
+        "septic_suitability": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "not_requested"
+        },
+        "soils": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "missing"
+        },
+        "terrain": {
+          "coverage": null,
+          "held_evidence": 0,
+          "inventory_intersections_usable": null,
+          "records": 0,
+          "status": "missing"
+        },
+        "wetlands": {
+          "coverage": {
+            "basis": "source_covers_aoi",
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "held_evidence": 0,
+          "inventory_intersections_usable": true,
+          "records": 2,
+          "status": "review_required"
+        },
+        "zoning": {
+          "coverage": {
+            "basis": "source_covers_aoi",
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "held_evidence": 0,
+          "inventory_intersections_usable": true,
+          "records": 1,
+          "status": "review_required"
+        }
+      },
+      "same_request_as_pr54": true
+    }
+  ],
+  "completed_at": "2026-09-23T13:20:35.503789+00:00",
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "database_writes": false,
+  "held_source_rejected": true,
+  "local_purchase_flag_simulation": "PASS; no purchase designation or database write",
+  "method_sha256": "0a6fbbfb01c98e578a89aa4e0114add4861a5423134bec78a2f9792fedd55613",
+  "same_backend_confirmed": true,
+  "stages": [
+    {
+      "stage": "credential_acquisition",
+      "status": "PASS"
+    },
+    {
+      "seconds": 0.71,
+      "stage": "simple_read",
+      "status": "PASS"
+    },
+    {
+      "seconds": 0.26,
+      "stage": "private_function_access",
+      "status": "PASS"
+    },
+    {
+      "seconds": 0.89,
+      "stage": "select_cross_source_overlap",
+      "status": "PASS"
+    },
+    {
+      "seconds": 0.18,
+      "stage": "select_orneville_parcel",
+      "status": "PASS"
+    },
+    {
+      "seconds": 1.37,
+      "stage": "select_accepted_geometry_area",
+      "status": "PASS"
+    },
+    {
+      "seconds": 4.18,
+      "stage": "select_parcel_near_hold",
+      "status": "PASS"
+    },
+    {
+      "seconds": 13.87,
+      "stage": "orneville_parcel",
+      "status": "PASS"
+    },
+    {
+      "seconds": 12.02,
+      "stage": "overlapping_sources",
+      "status": "PASS"
+    },
+    {
+      "seconds": 11.13,
+      "stage": "parcel_near_hold",
+      "status": "PASS"
+    },
+    {
+      "seconds": 12.1,
+      "stage": "accepted_zoning_area",
+      "status": "PASS"
+    },
+    {
+      "seconds": 0.25,
+      "stage": "held_source_parcel",
+      "status": "PASS"
+    },
+    {
+      "seconds": 0.2,
+      "stage": "fresh_context",
+      "status": "PASS"
+    },
+    {
+      "seconds": 0.1,
+      "stage": "same_session_confirmation",
+      "status": "PASS"
+    }
+  ],
+  "started_at": "2026-09-23T13:19:34.971906+00:00",
+  "status": "PASS"
+}

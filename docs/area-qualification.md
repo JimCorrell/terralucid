@@ -159,3 +159,6 @@ A [bounded live county test set](../research/county-qualification-tests/README.m
 exercises source parcels, cross-source overlaps, nearby holds, accepted zoning
 and missing coverage. Its numerical-precision follow-up is investigated in the
 [offline precision replay](../research/qualification-precision/README.md).
+
+The [post-PR-55 live refresh](../research/qualification-refresh/README.md) regenerates
+the four diagnostic packets and records their fresh dependency checks.
