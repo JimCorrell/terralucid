@@ -1,0 +1,14 @@
+{
+  "report_sha256": "9ca20284726c2ef0798b3af22f2cdece20b67ffb4fe47867fda9750fcaa84591",
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "updates": [
+    {
+      "status": "in_progress",
+      "event_id": "6c074d550fc72c4c1f96d1838558254c6a5960809654f546cca8ea08cafa5af9",
+      "finding_id": "TL-F-0104",
+      "next_action": "Run a bounded eight-representative-tile pilot after confirming storage/transfer allowance. Pin complete file versions/hashes, map work-unit dates and final accuracy evidence, reconcile date/metadata/size discrepancies, scan full native valid masks and county intersections, inspect overlap differences and geoid/CRS compatibility. Propose explicit source/NoData/seam rules and reduced storage estimates before county raster loading or terrain availability qualification. Keep septic/buildability purchase-triggered."
+    }
+  ],
+  "source_geometry_writes": false
+}

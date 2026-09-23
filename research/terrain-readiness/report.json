@@ -1,0 +1,1752 @@
+{
+  "evidence_state": "DERIVED",
+  "method_sha256": "f55be5e2a208aaa5bbb55b0732902edb6412db909aa82c76b0f8719a57863b66",
+  "catalog_sha256": "97683cb4356b6f1182540d9a959b3b45ccdebe11d6407ff3cb3547fc6693e4c8",
+  "selection_sha256": "b31e3034caee9f70361bb9c769b936b8709fcab38706f89cdee22c9265aad512",
+  "runtime": {
+    "rasterio": "1.4.3",
+    "gdal": "3.9.3",
+    "tifffile": "2024.8.30"
+  },
+  "retained_count": 248,
+  "advertised_bytes": 66582755487,
+  "exact_catalog_rectangles": 168,
+  "multiply_listed_rectangles": 63,
+  "rectangle_multiplicity": {
+    "1": 105,
+    "2": 54,
+    "3": 1,
+    "4": 8
+  },
+  "projects": [
+    {
+      "project": "ME_CrownofMaine_2018_A18",
+      "retained_tiles": 28,
+      "advertised_bytes": 6167149249,
+      "representative_source_id": "60d2c0e0d34e840986528af4",
+      "publication_dates": [
+        "2021-06-16"
+      ],
+      "dates": [
+        {
+          "type": "Publication",
+          "dateString": "2021-06-16",
+          "label": "Publication Date"
+        },
+        {
+          "type": "Start",
+          "dateString": "2018-05-12",
+          "label": ""
+        },
+        {
+          "type": "End",
+          "dateString": "2019-06-08",
+          "label": ""
+        },
+        {
+          "type": "Info",
+          "dateString": "2021-06-23 00:04:32",
+          "label": "File Modification Date"
+        }
+      ],
+      "metadata_links": [
+        {
+          "type": "Online Link",
+          "uri": "https://nationalmap.gov/elevation.html",
+          "rel": "related",
+          "hidden": false
+        },
+        {
+          "type": "Online Link",
+          "uri": "https://nationalmap.gov/viewer.html",
+          "rel": "related",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://nationalmap.gov/3DEP/3dep_prodmetadata.html",
+          "rel": "related",
+          "title": "3D Elevation Program (3DEP) Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B1_2018",
+          "rel": "related",
+          "title": "Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B2_2018",
+          "rel": "related",
+          "title": "Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/geotiff/ME_CrownofMaine_2018_A18/USGS_1M_19_x44y509_ME_CrownofMaine_2018_A18.xml",
+          "rel": "related",
+          "title": "Product Metadata",
+          "hidden": false
+        },
+        {
+          "type": "browseImage",
+          "typeLabel": "Browse Image",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_CrownofMaine_2018_A18/browse/USGS_1M_19_x44y509_ME_CrownofMaine_2018_A18.jpg",
+          "rel": "related",
+          "title": "Thumbnail JPG image",
+          "hidden": false
+        },
+        {
+          "type": "download",
+          "typeLabel": "Download",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_CrownofMaine_2018_A18/TIFF/USGS_1M_19_x44y509_ME_CrownofMaine_2018_A18.tif",
+          "rel": "related",
+          "title": "TIFF",
+          "hidden": false,
+          "length": 40454527
+        }
+      ],
+      "raster": {
+        "crs_wkt": "PROJCS[\"NAD83 / UTM zone 19N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-69],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26919\"]]",
+        "epsg": 26919,
+        "width": 10012,
+        "height": 10012,
+        "resolution": [
+          1.0,
+          1.0
+        ],
+        "bounds": [
+          439994.0002759434,
+          5079993.999608195,
+          450006.0002759434,
+          5090005.999608195
+        ],
+        "dtype": "float32",
+        "nodata": -999999.0,
+        "units": [
+          null
+        ],
+        "tags": {
+          "AREA_OR_POINT": "Area"
+        },
+        "band_tags": {
+          "STATISTICS_MAXIMUM": "392.45816040039",
+          "STATISTICS_MEAN": "353.43805280725",
+          "STATISTICS_MINIMUM": "321.45007324219",
+          "STATISTICS_STDDEV": "17.74251695887",
+          "STATISTICS_VALID_PERCENT": "10.81"
+        },
+        "block_shape": [
+          256,
+          256
+        ],
+        "samples": [
+          {
+            "row": 0,
+            "column": 0,
+            "width": 256,
+            "height": 256,
+            "pixels": 65536,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 367.0812683105469,
+            "finite_max": 381.4289245605469
+          },
+          {
+            "row": 0,
+            "column": 5120,
+            "width": 256,
+            "height": 256,
+            "pixels": 65536,
+            "masked": 65536,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 0,
+            "column": 9984,
+            "width": 28,
+            "height": 256,
+            "pixels": 7168,
+            "masked": 7168,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 5120,
+            "column": 0,
+            "width": 256,
+            "height": 256,
+            "pixels": 65536,
+            "masked": 65536,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 5120,
+            "column": 5120,
+            "width": 256,
+            "height": 256,
+            "pixels": 65536,
+            "masked": 65536,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 5120,
+            "column": 9984,
+            "width": 28,
+            "height": 256,
+            "pixels": 7168,
+            "masked": 7168,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 9984,
+            "column": 0,
+            "width": 256,
+            "height": 28,
+            "pixels": 7168,
+            "masked": 7168,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 9984,
+            "column": 5120,
+            "width": 256,
+            "height": 28,
+            "pixels": 7168,
+            "masked": 7168,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 9984,
+            "column": 9984,
+            "width": 28,
+            "height": 28,
+            "pixels": 784,
+            "masked": 784,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          }
+        ],
+        "source_id": "60d2c0e0d34e840986528af4",
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_CrownofMaine_2018_A18/TIFF/USGS_1M_19_x44y509_ME_CrownofMaine_2018_A18.tif",
+        "etag": "\"bade403d2448b7518c410452ae077018\"",
+        "current_file_bytes": 40454527,
+        "catalog_file_bytes": 40454527,
+        "bytes_read": 253194,
+        "scope": "Nine native raster blocks; not county-clipped, not representative statistical sampling or complete valid-pixel coverage"
+      }
+    },
+    {
+      "project": "ME_EasternME_2017_A17",
+      "retained_tiles": 2,
+      "advertised_bytes": 7491543,
+      "representative_source_id": "65c711a2d34ef4b119cb2c32",
+      "publication_dates": [
+        "2024-02-06"
+      ],
+      "dates": [
+        {
+          "type": "Publication",
+          "dateString": "2024-02-06",
+          "label": "Publication Date"
+        },
+        {
+          "type": "Start",
+          "dateString": "2017-04-30",
+          "label": ""
+        },
+        {
+          "type": "End",
+          "dateString": "2017-11-21",
+          "label": ""
+        },
+        {
+          "type": "Info",
+          "dateString": "2024-02-10 00:03:13",
+          "label": "File Modification Date"
+        }
+      ],
+      "metadata_links": [
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://nationalmap.gov/3DEP/3dep_prodmetadata.html",
+          "rel": "related",
+          "title": "3D Elevation Program (3DEP) Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/metadata/ME_EasternME_2017_A17/ME_Eastern_TL_2017",
+          "rel": "related",
+          "title": "Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/geotiff/ME_EasternME_2017_A17/USGS_1M_19_x50y504_ME_EasternME_2017_A17.xml",
+          "rel": "related",
+          "title": "Product Metadata",
+          "hidden": false
+        },
+        {
+          "type": "browseImage",
+          "typeLabel": "Browse Image",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_EasternME_2017_A17/browse/USGS_1M_19_x50y504_ME_EasternME_2017_A17.jpg",
+          "rel": "related",
+          "title": "Thumbnail JPG image",
+          "hidden": false
+        },
+        {
+          "type": "download",
+          "typeLabel": "Download",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_EasternME_2017_A17/TIFF/USGS_1M_19_x50y504_ME_EasternME_2017_A17.tif",
+          "rel": "related",
+          "title": "TIFF",
+          "hidden": false,
+          "length": 3725561
+        }
+      ],
+      "raster": {
+        "crs_wkt": "PROJCS[\"NAD83 / UTM zone 19N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-69],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26919\"]]",
+        "epsg": 26919,
+        "width": 10012,
+        "height": 10012,
+        "resolution": [
+          1.0,
+          1.0
+        ],
+        "bounds": [
+          499994.00031243276,
+          5029993.99960244,
+          510006.00031243276,
+          5040005.99960244
+        ],
+        "dtype": "float32",
+        "nodata": -999999.0,
+        "units": [
+          null
+        ],
+        "tags": {
+          "AREA_OR_POINT": "Area"
+        },
+        "band_tags": {},
+        "block_shape": [
+          512,
+          512
+        ],
+        "samples": [
+          {
+            "row": 0,
+            "column": 0,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 262144,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 0,
+            "column": 5120,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 262144,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 0,
+            "column": 9728,
+            "width": 284,
+            "height": 512,
+            "pixels": 145408,
+            "masked": 142336,
+            "nonfinite_unmasked": 0,
+            "finite_min": 165.4044647216797,
+            "finite_max": 171.04763793945312
+          },
+          {
+            "row": 5120,
+            "column": 0,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 262144,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 5120,
+            "column": 5120,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 262144,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 5120,
+            "column": 9728,
+            "width": 284,
+            "height": 512,
+            "pixels": 145408,
+            "masked": 145408,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 9728,
+            "column": 0,
+            "width": 512,
+            "height": 284,
+            "pixels": 145408,
+            "masked": 145408,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 9728,
+            "column": 5120,
+            "width": 512,
+            "height": 284,
+            "pixels": 145408,
+            "masked": 145408,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 9728,
+            "column": 9728,
+            "width": 284,
+            "height": 284,
+            "pixels": 80656,
+            "masked": 80656,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          }
+        ],
+        "source_id": "65c711a2d34ef4b119cb2c32",
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_EasternME_2017_A17/TIFF/USGS_1M_19_x50y504_ME_EasternME_2017_A17.tif",
+        "etag": "\"2093113f1956c3e21565786c37a6aa54\"",
+        "current_file_bytes": 3725561,
+        "catalog_file_bytes": 3725561,
+        "bytes_read": 141755,
+        "scope": "Nine native raster blocks; not county-clipped, not representative statistical sampling or complete valid-pixel coverage"
+      }
+    },
+    {
+      "project": "ME_Eastern_B1_2017",
+      "retained_tiles": 65,
+      "advertised_bytes": 22852025711,
+      "representative_source_id": "5eacf54782cefae35a24e153",
+      "publication_dates": [
+        "2020-03-30"
+      ],
+      "dates": [
+        {
+          "type": "Publication",
+          "dateString": "2020-03-30",
+          "label": "Publication Date"
+        },
+        {
+          "type": "Start",
+          "dateString": "2017-04-30",
+          "label": ""
+        },
+        {
+          "type": "End",
+          "dateString": "2017-12-04",
+          "label": ""
+        },
+        {
+          "type": "Info",
+          "dateString": "2020-11-17 14:07:33",
+          "label": "File Modification Date"
+        }
+      ],
+      "metadata_links": [
+        {
+          "type": "Online Link",
+          "uri": "http://nationalmap.gov/elevation.html",
+          "rel": "related",
+          "hidden": false
+        },
+        {
+          "type": "Online Link",
+          "uri": "http://nationalmap.gov/viewer.html",
+          "rel": "related",
+          "hidden": false
+        },
+        {
+          "type": "webLink",
+          "uri": "http://nationalmap.gov/3DEP/3dep_prodmetadata.html",
+          "rel": "related",
+          "title": "3D Elevation Program (3DEP) Metadata",
+          "hidden": false
+        },
+        {
+          "type": "browseImage",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Eastern_B1_2017/browse/USGS_one_meter_x44y509_ME_Eastern_B1_2017_thumb.jpg",
+          "rel": "related",
+          "title": "Thumbnail JPG image",
+          "hidden": false
+        },
+        {
+          "type": "download",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Eastern_B1_2017/TIFF/USGS_one_meter_x44y509_ME_Eastern_B1_2017.tif",
+          "rel": "related",
+          "title": "TIFF",
+          "hidden": false,
+          "length": 110383596
+        }
+      ],
+      "metadata_error": "StopIteration: ",
+      "raster": {
+        "crs_wkt": "PROJCS[\"NAD83 / UTM zone 19N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-69],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26919\"]]",
+        "epsg": 26919,
+        "width": 10012,
+        "height": 10012,
+        "resolution": [
+          1.0,
+          1.0
+        ],
+        "bounds": [
+          439994.0,
+          5079994.0,
+          450006.0,
+          5090006.0
+        ],
+        "dtype": "float32",
+        "nodata": -999999.0,
+        "units": [
+          null
+        ],
+        "tags": {
+          "AREA_OR_POINT": "Area"
+        },
+        "band_tags": {
+          "LAYER_TYPE": "athematic"
+        },
+        "block_shape": [
+          256,
+          256
+        ],
+        "samples": [
+          {
+            "row": 0,
+            "column": 0,
+            "width": 256,
+            "height": 256,
+            "pixels": 65536,
+            "masked": 65536,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 0,
+            "column": 5120,
+            "width": 256,
+            "height": 256,
+            "pixels": 65536,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 354.7607116699219,
+            "finite_max": 360.1435241699219
+          },
+          {
+            "row": 0,
+            "column": 9984,
+            "width": 28,
+            "height": 256,
+            "pixels": 7168,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 324.9690856933594,
+            "finite_max": 327.39984130859375
+          },
+          {
+            "row": 5120,
+            "column": 0,
+            "width": 256,
+            "height": 256,
+            "pixels": 65536,
+            "masked": 65536,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 5120,
+            "column": 5120,
+            "width": 256,
+            "height": 256,
+            "pixels": 65536,
+            "masked": 65536,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 5120,
+            "column": 9984,
+            "width": 28,
+            "height": 256,
+            "pixels": 7168,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 295.1796569824219,
+            "finite_max": 316.4857177734375
+          },
+          {
+            "row": 9984,
+            "column": 0,
+            "width": 256,
+            "height": 28,
+            "pixels": 7168,
+            "masked": 7168,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 9984,
+            "column": 5120,
+            "width": 256,
+            "height": 28,
+            "pixels": 7168,
+            "masked": 7168,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 9984,
+            "column": 9984,
+            "width": 28,
+            "height": 28,
+            "pixels": 784,
+            "masked": 784,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          }
+        ],
+        "source_id": "5eacf54782cefae35a24e153",
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Eastern_B1_2017/TIFF/USGS_one_meter_x44y509_ME_Eastern_B1_2017.tif",
+        "etag": "\"946c6e11584520c8a95c08ef2d7e1ccb\"",
+        "current_file_bytes": 110387477,
+        "catalog_file_bytes": 110383596,
+        "bytes_read": 333337,
+        "scope": "Nine native raster blocks; not county-clipped, not representative statistical sampling or complete valid-pixel coverage"
+      }
+    },
+    {
+      "project": "ME_Eastern_B2_2017",
+      "retained_tiles": 19,
+      "advertised_bytes": 4966894797,
+      "representative_source_id": "5eacf6f382cefae35a24ebc7",
+      "publication_dates": [
+        "2020-03-30"
+      ],
+      "dates": [
+        {
+          "type": "Publication",
+          "dateString": "2020-03-30",
+          "label": "Publication Date"
+        },
+        {
+          "type": "Start",
+          "dateString": "2017-04-30",
+          "label": ""
+        },
+        {
+          "type": "End",
+          "dateString": "2017-12-04",
+          "label": ""
+        },
+        {
+          "type": "Info",
+          "dateString": "2020-11-17 14:10:00",
+          "label": "File Modification Date"
+        }
+      ],
+      "metadata_links": [
+        {
+          "type": "Online Link",
+          "uri": "http://nationalmap.gov/elevation.html",
+          "rel": "related",
+          "hidden": false
+        },
+        {
+          "type": "Online Link",
+          "uri": "http://nationalmap.gov/viewer.html",
+          "rel": "related",
+          "hidden": false
+        },
+        {
+          "type": "webLink",
+          "uri": "http://nationalmap.gov/3DEP/3dep_prodmetadata.html",
+          "rel": "related",
+          "title": "3D Elevation Program (3DEP) Metadata",
+          "hidden": false
+        },
+        {
+          "type": "browseImage",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Eastern_B2_2017/browse/USGS_one_meter_x47y503_ME_Eastern_B2_2017_thumb.jpg",
+          "rel": "related",
+          "title": "Thumbnail JPG image",
+          "hidden": false
+        },
+        {
+          "type": "download",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Eastern_B2_2017/TIFF/USGS_one_meter_x47y503_ME_Eastern_B2_2017.tif",
+          "rel": "related",
+          "title": "TIFF",
+          "hidden": false,
+          "length": 139303322
+        }
+      ],
+      "metadata_error": "StopIteration: ",
+      "raster": {
+        "crs_wkt": "PROJCS[\"NAD83 / UTM zone 19N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-69],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26919\"]]",
+        "epsg": 26919,
+        "width": 10012,
+        "height": 10012,
+        "resolution": [
+          1.0,
+          1.0
+        ],
+        "bounds": [
+          469994.0,
+          5019994.0,
+          480006.0,
+          5030006.0
+        ],
+        "dtype": "float32",
+        "nodata": -999999.0,
+        "units": [
+          null
+        ],
+        "tags": {
+          "AREA_OR_POINT": "Area"
+        },
+        "band_tags": {
+          "LAYER_TYPE": "athematic"
+        },
+        "block_shape": [
+          256,
+          256
+        ],
+        "samples": [
+          {
+            "row": 0,
+            "column": 0,
+            "width": 256,
+            "height": 256,
+            "pixels": 65536,
+            "masked": 65536,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 0,
+            "column": 5120,
+            "width": 256,
+            "height": 256,
+            "pixels": 65536,
+            "masked": 34304,
+            "nonfinite_unmasked": 0,
+            "finite_min": 359.8761901855469,
+            "finite_max": 389.5290832519531
+          },
+          {
+            "row": 0,
+            "column": 9984,
+            "width": 28,
+            "height": 256,
+            "pixels": 7168,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 275.7403869628906,
+            "finite_max": 285.7164306640625
+          },
+          {
+            "row": 5120,
+            "column": 0,
+            "width": 256,
+            "height": 256,
+            "pixels": 65536,
+            "masked": 65536,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 5120,
+            "column": 5120,
+            "width": 256,
+            "height": 256,
+            "pixels": 65536,
+            "masked": 38302,
+            "nonfinite_unmasked": 0,
+            "finite_min": 245.11402893066406,
+            "finite_max": 297.4954833984375
+          },
+          {
+            "row": 5120,
+            "column": 9984,
+            "width": 28,
+            "height": 256,
+            "pixels": 7168,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 237.84463500976562,
+            "finite_max": 251.80343627929688
+          },
+          {
+            "row": 9984,
+            "column": 0,
+            "width": 256,
+            "height": 28,
+            "pixels": 7168,
+            "masked": 7168,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 9984,
+            "column": 5120,
+            "width": 256,
+            "height": 28,
+            "pixels": 7168,
+            "masked": 7168,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 9984,
+            "column": 9984,
+            "width": 28,
+            "height": 28,
+            "pixels": 784,
+            "masked": 784,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          }
+        ],
+        "source_id": "5eacf6f382cefae35a24ebc7",
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Eastern_B2_2017/TIFF/USGS_one_meter_x47y503_ME_Eastern_B2_2017.tif",
+        "etag": "\"84bbf5456e2b4da16a3d114cbf143662\"",
+        "current_file_bytes": 139306764,
+        "catalog_file_bytes": 139303322,
+        "bytes_read": 360190,
+        "scope": "Nine native raster blocks; not county-clipped, not representative statistical sampling or complete valid-pixel coverage"
+      }
+    },
+    {
+      "project": "ME_MidCentral_B23",
+      "retained_tiles": 26,
+      "advertised_bytes": 7392515821,
+      "representative_source_id": "672adf19d34e16b32e73054e",
+      "publication_dates": [
+        "2024-10-25"
+      ],
+      "dates": [
+        {
+          "type": "Publication",
+          "dateString": "2024-10-25",
+          "label": "Publication Date"
+        },
+        {
+          "type": "Start",
+          "dateString": "2023-04-28",
+          "label": ""
+        },
+        {
+          "type": "End",
+          "dateString": "2023-05-18",
+          "label": ""
+        },
+        {
+          "type": "Info",
+          "dateString": "2024-11-05 21:14:26",
+          "label": "File Modification Date"
+        }
+      ],
+      "metadata_links": [
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://nationalmap.gov/3DEP/3dep_prodmetadata.html",
+          "rel": "related",
+          "title": "3D Elevation Program (3DEP) Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/metadata/ME_MidCentral_B23/ME_MidCentral_1_B23",
+          "rel": "related",
+          "title": "Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/geotiff/ME_MidCentral_B23/USGS_1M_19_x44y499_ME_MidCentral_B23.xml",
+          "rel": "related",
+          "title": "Product Metadata",
+          "hidden": false
+        },
+        {
+          "type": "browseImage",
+          "typeLabel": "Browse Image",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_MidCentral_B23/browse/USGS_1M_19_x44y499_ME_MidCentral_B23.jpg",
+          "rel": "related",
+          "title": "Thumbnail JPG image",
+          "hidden": false
+        },
+        {
+          "type": "download",
+          "typeLabel": "Download",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_MidCentral_B23/TIFF/USGS_1M_19_x44y499_ME_MidCentral_B23.tif",
+          "rel": "related",
+          "title": "TIFF",
+          "hidden": false,
+          "length": 350673947
+        }
+      ],
+      "raster": {
+        "crs_wkt": "PROJCS[\"NAD83 / UTM zone 19N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-69],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26919\"]]",
+        "epsg": 26919,
+        "width": 10012,
+        "height": 10012,
+        "resolution": [
+          1.0,
+          1.0
+        ],
+        "bounds": [
+          439994.00026704196,
+          4979993.999572454,
+          450006.00026704196,
+          4990005.999572454
+        ],
+        "dtype": "float32",
+        "nodata": -999999.0,
+        "units": [
+          null
+        ],
+        "tags": {
+          "AREA_OR_POINT": "Area"
+        },
+        "band_tags": {
+          "STATISTICS_MAXIMUM": "510.76834106445",
+          "STATISTICS_MEAN": "257.84558911602",
+          "STATISTICS_MINIMUM": "135.10314941406",
+          "STATISTICS_STDDEV": "54.523432880898",
+          "STATISTICS_VALID_PERCENT": "100"
+        },
+        "block_shape": [
+          512,
+          512
+        ],
+        "samples": [
+          {
+            "row": 0,
+            "column": 0,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 290.02459716796875,
+            "finite_max": 374.0307922363281
+          },
+          {
+            "row": 0,
+            "column": 5120,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 285.9367980957031,
+            "finite_max": 313.46270751953125
+          },
+          {
+            "row": 0,
+            "column": 9728,
+            "width": 284,
+            "height": 512,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 253.77706909179688,
+            "finite_max": 309.3172607421875
+          },
+          {
+            "row": 5120,
+            "column": 0,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 246.74847412109375,
+            "finite_max": 275.152099609375
+          },
+          {
+            "row": 5120,
+            "column": 5120,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 211.2920684814453,
+            "finite_max": 264.7268371582031
+          },
+          {
+            "row": 5120,
+            "column": 9728,
+            "width": 284,
+            "height": 512,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 196.82421875,
+            "finite_max": 222.13511657714844
+          },
+          {
+            "row": 9728,
+            "column": 0,
+            "width": 512,
+            "height": 284,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 225.81552124023438,
+            "finite_max": 259.3092346191406
+          },
+          {
+            "row": 9728,
+            "column": 5120,
+            "width": 512,
+            "height": 284,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 139.66104125976562,
+            "finite_max": 204.37156677246094
+          },
+          {
+            "row": 9728,
+            "column": 9728,
+            "width": 284,
+            "height": 284,
+            "pixels": 80656,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 165.04559326171875,
+            "finite_max": 178.0948486328125
+          }
+        ],
+        "source_id": "672adf19d34e16b32e73054e",
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_MidCentral_B23/TIFF/USGS_1M_19_x44y499_ME_MidCentral_B23.tif",
+        "etag": "\"fdb2d6f17709c3dcc29a159883f54ef2-67\"",
+        "current_file_bytes": 350673947,
+        "catalog_file_bytes": 350673947,
+        "bytes_read": 4539986,
+        "scope": "Nine native raster blocks; not county-clipped, not representative statistical sampling or complete valid-pixel coverage"
+      }
+    },
+    {
+      "project": "ME_WesternMtns_B24",
+      "retained_tiles": 42,
+      "advertised_bytes": 9648905884,
+      "representative_source_id": "6a753ec11ba49b79d0c34490",
+      "publication_dates": [
+        "2026-07-28",
+        "2026-08-06"
+      ],
+      "dates": [
+        {
+          "type": "Publication",
+          "dateString": "2026-07-28",
+          "label": "Publication Date"
+        },
+        {
+          "type": "Start",
+          "dateString": "2024-10-17",
+          "label": ""
+        },
+        {
+          "type": "End",
+          "dateString": "2024-11-15",
+          "label": ""
+        },
+        {
+          "type": "Info",
+          "dateString": "2026-08-06 21:11:13",
+          "label": "File Modification Date"
+        }
+      ],
+      "metadata_links": [
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://nationalmap.gov/3DEP/3dep_prodmetadata.html",
+          "rel": "related",
+          "title": "3D Elevation Program (3DEP) Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/metadata/ME_WesternMtns_B24/ME_WesternMtns_1_B24",
+          "rel": "related",
+          "title": "3D Elevation Program (3DEP) Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/geotiff/ME_WesternMtns_B24/USGS_1M_19_x43y504_ME_WesternMtns_B24.xml",
+          "rel": "related",
+          "title": "Product Metadata",
+          "hidden": false
+        },
+        {
+          "type": "browseImage",
+          "typeLabel": "Browse Image",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/browse/USGS_1M_19_x43y504_ME_WesternMtns_B24.jpg",
+          "rel": "related",
+          "title": "Thumbnail JPG image",
+          "hidden": false
+        },
+        {
+          "type": "download",
+          "typeLabel": "Download",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x43y504_ME_WesternMtns_B24.tif",
+          "rel": "related",
+          "title": "TIFF",
+          "hidden": false,
+          "length": 325182776
+        }
+      ],
+      "raster": {
+        "crs_wkt": "PROJCS[\"NAD83 / UTM zone 19N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-69],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26919\"]]",
+        "epsg": 26919,
+        "width": 10012,
+        "height": 10012,
+        "resolution": [
+          1.0,
+          1.0
+        ],
+        "bounds": [
+          429994.0002770562,
+          5029993.999646069,
+          440006.0002770562,
+          5040005.999646069
+        ],
+        "dtype": "float32",
+        "nodata": -999999.0,
+        "units": [
+          null
+        ],
+        "tags": {
+          "AREA_OR_POINT": "Area"
+        },
+        "band_tags": {
+          "STATISTICS_MAXIMUM": "602.45526123047",
+          "STATISTICS_MEAN": "323.79433721451",
+          "STATISTICS_MINIMUM": "218.22207641602",
+          "STATISTICS_STDDEV": "35.644864503934",
+          "STATISTICS_VALID_PERCENT": "100"
+        },
+        "block_shape": [
+          512,
+          512
+        ],
+        "samples": [
+          {
+            "row": 0,
+            "column": 0,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 355.8695068359375,
+            "finite_max": 362.4927062988281
+          },
+          {
+            "row": 0,
+            "column": 5120,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 290.0299987792969,
+            "finite_max": 296.4233703613281
+          },
+          {
+            "row": 0,
+            "column": 9728,
+            "width": 284,
+            "height": 512,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 400.2963562011719,
+            "finite_max": 602.4552612304688
+          },
+          {
+            "row": 5120,
+            "column": 0,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 294.47052001953125,
+            "finite_max": 317.4078369140625
+          },
+          {
+            "row": 5120,
+            "column": 5120,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 302.6624755859375,
+            "finite_max": 307.8609619140625
+          },
+          {
+            "row": 5120,
+            "column": 9728,
+            "width": 284,
+            "height": 512,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 364.6827392578125,
+            "finite_max": 432.2197265625
+          },
+          {
+            "row": 9728,
+            "column": 0,
+            "width": 512,
+            "height": 284,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 271.9429931640625,
+            "finite_max": 306.114013671875
+          },
+          {
+            "row": 9728,
+            "column": 5120,
+            "width": 512,
+            "height": 284,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 331.10546875,
+            "finite_max": 359.8318786621094
+          },
+          {
+            "row": 9728,
+            "column": 9728,
+            "width": 284,
+            "height": 284,
+            "pixels": 80656,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 438.47613525390625,
+            "finite_max": 456.9529113769531
+          }
+        ],
+        "source_id": "6a753ec11ba49b79d0c34490",
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x43y504_ME_WesternMtns_B24.tif",
+        "etag": "\"c3c6fcc20ec3ea280ce70134218956a3-63\"",
+        "current_file_bytes": 325182776,
+        "catalog_file_bytes": 325182776,
+        "bytes_read": 3797267,
+        "scope": "Nine native raster blocks; not county-clipped, not representative statistical sampling or complete valid-pixel coverage"
+      }
+    },
+    {
+      "project": "ME_Western_ME_LiDAR_2016_B16",
+      "retained_tiles": 41,
+      "advertised_bytes": 9576813208,
+      "representative_source_id": "6635c582d34edc29f40a10dc",
+      "publication_dates": [
+        "2024-05-02"
+      ],
+      "dates": [
+        {
+          "type": "Publication",
+          "dateString": "2024-05-02",
+          "label": "Publication Date"
+        },
+        {
+          "type": "Start",
+          "dateString": "2016-04-05",
+          "label": ""
+        },
+        {
+          "type": "End",
+          "dateString": "2016-05-21",
+          "label": ""
+        },
+        {
+          "type": "Info",
+          "dateString": "2024-05-04 00:19:54",
+          "label": "File Modification Date"
+        }
+      ],
+      "metadata_links": [
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://nationalmap.gov/3DEP/3dep_prodmetadata.html",
+          "rel": "related",
+          "title": "3D Elevation Program (3DEP) Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/metadata/ME_Western_ME_LiDAR_2016_B16/ME_Western_2016",
+          "rel": "related",
+          "title": "Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/geotiff/ME_Western_ME_LiDAR_2016_B16/USGS_1M_19_x43y504_ME_Western_ME_LiDAR_2016_B16.xml",
+          "rel": "related",
+          "title": "Product Metadata",
+          "hidden": false
+        },
+        {
+          "type": "browseImage",
+          "typeLabel": "Browse Image",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/browse/USGS_1M_19_x43y504_ME_Western_ME_LiDAR_2016_B16.jpg",
+          "rel": "related",
+          "title": "Thumbnail JPG image",
+          "hidden": false
+        },
+        {
+          "type": "download",
+          "typeLabel": "Download",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x43y504_ME_Western_ME_LiDAR_2016_B16.tif",
+          "rel": "related",
+          "title": "TIFF",
+          "hidden": false,
+          "length": 326347192
+        }
+      ],
+      "raster": {
+        "crs_wkt": "PROJCS[\"NAD83 / UTM zone 19N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-69],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26919\"]]",
+        "epsg": 26919,
+        "width": 10012,
+        "height": 10012,
+        "resolution": [
+          1.0,
+          1.0
+        ],
+        "bounds": [
+          429994.0002770562,
+          5029993.999646069,
+          440006.0002770562,
+          5040005.999646069
+        ],
+        "dtype": "float32",
+        "nodata": -999999.0,
+        "units": [
+          null
+        ],
+        "tags": {
+          "AREA_OR_POINT": "Area"
+        },
+        "band_tags": {},
+        "block_shape": [
+          512,
+          512
+        ],
+        "samples": [
+          {
+            "row": 0,
+            "column": 0,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 355.8502502441406,
+            "finite_max": 362.70513916015625
+          },
+          {
+            "row": 0,
+            "column": 5120,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 290.63055419921875,
+            "finite_max": 296.4033203125
+          },
+          {
+            "row": 0,
+            "column": 9728,
+            "width": 284,
+            "height": 512,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 400.2217102050781,
+            "finite_max": 602.1458740234375
+          },
+          {
+            "row": 5120,
+            "column": 0,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 294.3450927734375,
+            "finite_max": 317.1581726074219
+          },
+          {
+            "row": 5120,
+            "column": 5120,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 302.588623046875,
+            "finite_max": 308.0581970214844
+          },
+          {
+            "row": 5120,
+            "column": 9728,
+            "width": 284,
+            "height": 512,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 364.87860107421875,
+            "finite_max": 432.2664489746094
+          },
+          {
+            "row": 9728,
+            "column": 0,
+            "width": 512,
+            "height": 284,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 271.6196594238281,
+            "finite_max": 306.12786865234375
+          },
+          {
+            "row": 9728,
+            "column": 5120,
+            "width": 512,
+            "height": 284,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 331.0614013671875,
+            "finite_max": 359.8467712402344
+          },
+          {
+            "row": 9728,
+            "column": 9728,
+            "width": 284,
+            "height": 284,
+            "pixels": 80656,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 438.2566223144531,
+            "finite_max": 456.94537353515625
+          }
+        ],
+        "source_id": "6635c582d34edc29f40a10dc",
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x43y504_ME_Western_ME_LiDAR_2016_B16.tif",
+        "etag": "\"d4325633b850873bf64fddf566c4794f-63\"",
+        "current_file_bytes": 326347192,
+        "catalog_file_bytes": 326347192,
+        "bytes_read": 3820340,
+        "scope": "Nine native raster blocks; not county-clipped, not representative statistical sampling or complete valid-pixel coverage"
+      }
+    },
+    {
+      "project": "Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA",
+      "retained_tiles": 25,
+      "advertised_bytes": 5970959274,
+      "representative_source_id": "663b0d42d34e77890839b681",
+      "publication_dates": [
+        "2024-05-03",
+        "2024-05-08"
+      ],
+      "dates": [
+        {
+          "type": "Publication",
+          "dateString": "2024-05-08",
+          "label": "Publication Date"
+        },
+        {
+          "type": "Start",
+          "dateString": "2015-04-26",
+          "label": ""
+        },
+        {
+          "type": "End",
+          "dateString": "2015-12-05",
+          "label": ""
+        },
+        {
+          "type": "Info",
+          "dateString": "2024-05-10 00:00:46",
+          "label": "File Modification Date"
+        }
+      ],
+      "metadata_links": [
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://nationalmap.gov/3DEP/3dep_prodmetadata.html",
+          "rel": "related",
+          "title": "3D Elevation Program (3DEP) Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/metadata/Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA/ME_ME-MA-QL2-L2_2015",
+          "rel": "related",
+          "title": "Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/geotiff/Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA/USGS_1M_19_x44y499_Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA.xml",
+          "rel": "related",
+          "title": "Product Metadata",
+          "hidden": false
+        },
+        {
+          "type": "browseImage",
+          "typeLabel": "Browse Image",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA/browse/USGS_1M_19_x44y499_Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA.jpg",
+          "rel": "related",
+          "title": "Thumbnail JPG image",
+          "hidden": false
+        },
+        {
+          "type": "download",
+          "typeLabel": "Download",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA/TIFF/USGS_1M_19_x44y499_Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA.tif",
+          "rel": "related",
+          "title": "TIFF",
+          "hidden": false,
+          "length": 65034925
+        }
+      ],
+      "raster": {
+        "crs_wkt": "PROJCS[\"NAD83 / UTM zone 19N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-69],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26919\"]]",
+        "epsg": 26919,
+        "width": 10012,
+        "height": 10012,
+        "resolution": [
+          1.0,
+          1.0
+        ],
+        "bounds": [
+          439994.00026704196,
+          4979993.999572454,
+          450006.00026704196,
+          4990005.999572454
+        ],
+        "dtype": "float32",
+        "nodata": -999999.0,
+        "units": [
+          null
+        ],
+        "tags": {
+          "AREA_OR_POINT": "Area"
+        },
+        "band_tags": {},
+        "block_shape": [
+          512,
+          512
+        ],
+        "samples": [
+          {
+            "row": 0,
+            "column": 0,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 262144,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 0,
+            "column": 5120,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 262144,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 0,
+            "column": 9728,
+            "width": 284,
+            "height": 512,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 253.7987823486328,
+            "finite_max": 309.5300598144531
+          },
+          {
+            "row": 5120,
+            "column": 0,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 262144,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 5120,
+            "column": 5120,
+            "width": 512,
+            "height": 512,
+            "pixels": 262144,
+            "masked": 262144,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 5120,
+            "column": 9728,
+            "width": 284,
+            "height": 512,
+            "pixels": 145408,
+            "masked": 0,
+            "nonfinite_unmasked": 0,
+            "finite_min": 196.75660705566406,
+            "finite_max": 222.19427490234375
+          },
+          {
+            "row": 9728,
+            "column": 0,
+            "width": 512,
+            "height": 284,
+            "pixels": 145408,
+            "masked": 145408,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 9728,
+            "column": 5120,
+            "width": 512,
+            "height": 284,
+            "pixels": 145408,
+            "masked": 145408,
+            "nonfinite_unmasked": 0,
+            "finite_min": null,
+            "finite_max": null
+          },
+          {
+            "row": 9728,
+            "column": 9728,
+            "width": 284,
+            "height": 284,
+            "pixels": 80656,
+            "masked": 1668,
+            "nonfinite_unmasked": 0,
+            "finite_min": 165.0279541015625,
+            "finite_max": 178.0849609375
+          }
+        ],
+        "source_id": "663b0d42d34e77890839b681",
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA/TIFF/USGS_1M_19_x44y499_Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA.tif",
+        "etag": "\"61165d79cfdd1e1b5b8d0d3641e9881c\"",
+        "current_file_bytes": 65034925,
+        "catalog_file_bytes": 65034925,
+        "bytes_read": 1138313,
+        "scope": "Nine native raster blocks; not county-clipped, not representative statistical sampling or complete valid-pixel coverage"
+      }
+    }
+  ],
+  "limits": [
+    "First retained catalog tile per project only. Metadata may vary within a project.",
+    "Exact rectangle equality is not equivalent to raster or valid-data coverage equality.",
+    "No full raster, mosaic, slope, source priority, terrain availability or suitability accepted."
+  ],
+  "sources_sha256": "f4b9501b6387333a7fa84494375a7e1d324c2bdd9cef8b08f4f463885c0921a7",
+  "raw_report_sha256": "7e49e50476f3dc499a5e1d7a3bc9f69e251c31cd9cb373e0f60ca823bec0e175",
+  "total_raster_bytes_read": 14384382,
+  "readiness": "bounded_pilot_proposed; county_terrain_availability_not_qualified"
+}

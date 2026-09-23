@@ -168,3 +168,13 @@ The [soil staging deployment](../research/soil-staging-load/README.md) now makes
 archive object verified on download. The seven geometry holds and 41.13 km²
 residual persist. This supersedes the preparation-only load status above; soils
 availability and suitability remain unqualified, and terrain rasters are not loaded.
+
+## Terrain readiness follow-up
+
+The [bounded terrain review](../research/terrain-readiness/README.md) inspects one
+retained elevation tile from each of eight county project groups. It records
+NoData samples, catalog/file-size discrepancies, acquisition-date conflicts,
+original geoid/accuracy qualifications and overlapping raster differences under
+TL-F-0104. An eight-tile full-mask/storage pilot is proposed; county terrain
+availability and slope qualification remain pending. No automatic newest-source
+priority or raster storage policy is enacted.

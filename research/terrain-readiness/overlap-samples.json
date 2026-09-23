@@ -1,0 +1,31 @@
+{
+  "evidence_state": "DERIVED",
+  "method_sha256": "2a6b028f474e352ff778287d21c710f2b7c2771024a3605a7668b770212e3374",
+  "input_report_sha256": "7e49e50476f3dc499a5e1d7a3bc9f69e251c31cd9cb373e0f60ca823bec0e175",
+  "pairs": [
+    {
+      "a": "ME_MidCentral_B23",
+      "b": "Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA",
+      "shared_blocks": 9,
+      "union_valid_pixels": 1710864,
+      "both_valid_pixels": 369804,
+      "b_minus_a_median": 0.029022216796875,
+      "absolute_difference_p95": 0.201263427734375,
+      "absolute_difference_max": 1.556304931640625
+    },
+    {
+      "a": "ME_WesternMtns_B24",
+      "b": "ME_Western_ME_LiDAR_2016_B16",
+      "shared_blocks": 9,
+      "union_valid_pixels": 1710864,
+      "both_valid_pixels": 1710864,
+      "b_minus_a_median": 0.02752685546875,
+      "absolute_difference_p95": 0.6300048828125,
+      "absolute_difference_max": 7.17047119140625
+    }
+  ],
+  "limits": [
+    "Raw differences of matching sampled native pixels, without datum adjustment. Not an accuracy assessment or preferred-source rule.",
+    "Samples are not clipped to county; no claim about county coverage, statistical representativeness or full-project seams."
+  ]
+}
