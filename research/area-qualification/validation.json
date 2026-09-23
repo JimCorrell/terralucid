@@ -1,0 +1,175 @@
+{
+  "unit_tests": {
+    "command": "python3 -m unittest discover -s tests -p test_area_qualification.py",
+    "passed": 22
+  },
+  "postgis_integration": {
+    "command": "python3 tests/check_area_qualification_sql.py",
+    "passed": [
+      "indexed native and projected candidates",
+      "accepted extent outside original bbox retained",
+      "remote valid feature excluded",
+      "unlocated hold retained",
+      "source parcel lookup",
+      "absent subject fails closed",
+      "read-only extraction preserves fixtures",
+      "held bounds preserve extrema and reject malformed, nonfinite or unsupported evidence"
+    ],
+    "environment": "Disposable PostGIS17-3.5; synthetic fixture tables; container removed"
+  },
+  "archived_Orneville_regression": {
+    "source_report": "research/county-readiness/report.json",
+    "sha256": "bccb31dd5d50ad971ccfbfd9b9071e769ad694334cdb02b468150b4fcb259fa1",
+    "base_product": "230465A",
+    "catalog_letters": 27,
+    "geometry": "synthetic test AOI; no live parcel applicability claim"
+  },
+  "live_validation": {
+    "status": "PASS_VIA_AUTHENTICATED_DASHBOARD_EXPORT",
+    "scope": "Small diagnostic rectangle inside Orneville, not a selected purchase parcel; replaces initial 500 m circle for bounded validation",
+    "captured_at": "2026-09-23T00:42:54.153191+00:00",
+    "freshness_checked_at": "2026-09-23T12:45:13.488539+00:00",
+    "transport": "Existing authenticated Supabase SQL Editor session; read-only transactions; no Keychain lookup",
+    "sql_verification": "Executed capture SELECT matches checked-in SQL after removing comments/whitespace; 45-second statement timeout used for this dashboard run",
+    "method_sha256": "6f06f6d51b7ae30c1c2a0c9dddce86f7ba741efc292176ffb2cf14b4afc8a556",
+    "request_sha256": "fc99f5e3f88d541f14d89a99fad9e7c27b4d516f93fbd81228f9ce7ba0b36cc9",
+    "capture_sha256": "98fe98b7479e7b6d64076f1a8b77eb3f6133c58dbe5407dea37ce6754c305eaa",
+    "packet_file_sha256": "4eaf3df65862f1a2079d32b2db62a1f9a96fe7a9236d94593a6679e35f89f38a",
+    "context_export_file_sha256": "64559275875079053a10055e5e16e05fff2af8a74fb3ccd90afa201277a62a79",
+    "feature_count": 159,
+    "held_records_retained": 155,
+    "unknown_held_extents": 0,
+    "original_held_geometry_text_bytes": 53457544,
+    "browser_export_characters": 502912,
+    "freshness": {
+      "needs_revisit": false,
+      "reasons": [],
+      "use_policy": "unchanged_dependencies_only; retain all topic limits"
+    },
+    "topics": {
+      "access_title": {
+        "status": "not_requested"
+      },
+      "buildability": {
+        "status": "not_requested",
+        "blocks_general_discovery": false
+      },
+      "flood": {
+        "status": "review_required",
+        "inventory_intersections_usable": false
+      },
+      "identity": {
+        "status": "review_required",
+        "inventory_intersections_usable": true
+      },
+      "septic_suitability": {
+        "status": "not_requested",
+        "blocks_general_discovery": false
+      },
+      "soils": {
+        "status": "missing",
+        "blocks_general_discovery": false
+      },
+      "terrain": {
+        "status": "missing",
+        "blocks_general_discovery": false
+      },
+      "wetlands": {
+        "status": "review_required",
+        "inventory_intersections_usable": true
+      },
+      "zoning": {
+        "status": "missing",
+        "inventory_intersections_usable": false
+      }
+    },
+    "orneville": {
+      "base_product": "230465A",
+      "catalog_letters": 27,
+      "parcel_applicability": "UNKNOWN"
+    },
+    "qualified_for_parcel_screening": false,
+    "offer_readiness": "NOT_ASSESSED",
+    "runtime": {
+      "postgis": "POSTGIS=\"3.3.7 a0c7967\" [EXTENSION] PGSQL=\"170\" GEOS=\"3.14.1-CAPI-1.20.5\" PROJ=\"9.7.1\" LIBXML=\"2.15.1\" LIBJSON=\"0.18\" LIBPROTOBUF=\"1.5.2\" WAGYU=\"0.5.0 (Internal)\"",
+      "postgres": "PostgreSQL 17.6 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 15.2.0, 64-bit"
+    },
+    "remaining_transport_limit": "Superseded by the successful single-session CLI acceptance below. Dashboard export remains a verified alternative; neither run guarantees future availability."
+  },
+  "database_mutations": false,
+  "previous_live_attempts": [
+    {
+      "status": "BLOCKED",
+      "attempted_scope": "500 m radius diagnostic area clipped to archived Orneville civil boundary",
+      "errors": [
+        "EAUTHQUERY unsupported or invalid secret format",
+        "EAUTHQUERY auth_query secret check timed out",
+        "LegacyDbConfigLoginRoleStatusError: Failed to create login role: Connection terminated due to connection timeout (544)"
+      ],
+      "result": "No live packet or live freshness check certified. Stalled task clients stopped. Retry capture and check when Supabase connection recovers.",
+      "retry": {
+        "at": "2026-09-22T19:50:39.604936+00:00",
+        "project_status": "ACTIVE_HEALTHY",
+        "temporary_login": "Credential acquisition failed before extraction started",
+        "alternate_management_api": "Not executed: existing CLI credential lookup is waiting for macOS Keychain; computer-use status reports Mac locked",
+        "required_action": "Unlock Mac, then retry read-only capture and currency check",
+        "sql_refinement": "Project only consumed columns; avoid materializing county-wide scope-relation computations",
+        "unit_tests_passed": 18,
+        "isolated_postgis_checks_passed": 7
+      }
+    },
+    {
+      "result": "Direct pooler EAUTHQUERY and stalled client; API restricted role denied private function; administrative API returned 524; repeated Keychain prompts stopped at user request."
+    }
+  ],
+  "cli_connection_acceptance": {
+    "capture_sha256": "cbfd5473a90296bef3deb0eb4cdd88967d301bb7c10b6b39b8f8aecd72965de5",
+    "completed_at": "2026-09-23T13:00:26.196277+00:00",
+    "credential_acquisitions": 1,
+    "database_sessions": 1,
+    "database_writes": false,
+    "feature_count": 159,
+    "freshness": {
+      "needs_revisit": false,
+      "reasons": [],
+      "use_policy": "unchanged_dependencies_only; retain all topic limits"
+    },
+    "method_sha256": "6f06f6d51b7ae30c1c2a0c9dddce86f7ba741efc292176ffb2cf14b4afc8a556",
+    "same_backend_confirmed": true,
+    "stages": [
+      {
+        "stage": "credential_acquisition",
+        "status": "PASS"
+      },
+      {
+        "seconds": 0.8,
+        "stage": "simple_read",
+        "status": "PASS"
+      },
+      {
+        "seconds": 0.2,
+        "stage": "private_function_access",
+        "status": "PASS"
+      },
+      {
+        "seconds": 13.57,
+        "stage": "qualification_capture",
+        "status": "PASS"
+      },
+      {
+        "seconds": 0.22,
+        "stage": "fresh_context",
+        "status": "PASS"
+      },
+      {
+        "seconds": 0.1,
+        "stage": "same_session_confirmation",
+        "status": "PASS"
+      }
+    ],
+    "started_at": "2026-09-23T13:00:08.625867+00:00",
+    "status": "PASS",
+    "verification_scope": "Single CLI temporary-credential acquisition and persistent psql session over the configured Supabase pooler; same backend before and after capture/check. Separate capture/check CLI invocations with fresh credentials each time were not exercised.",
+    "harness_sha256": "eefb72c60eee2f660ea0457254e86f79d5f579f6f5e9f929cc8f403bb92857f7"
+  }
+}
