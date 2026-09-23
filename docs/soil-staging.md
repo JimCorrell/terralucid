@@ -87,7 +87,11 @@ backend per invocation. No direct Keychain lookup is performed.
 ## Qualification remains separate
 
 Seven source polygons remain held. Valid, unheld polygon coverage is approximately
-99.627%, with a 41.13 km² residual whose cause remains unassessed. Null attributes,
+99.627%, with a 41.13 km² residual. The
+[held-polygon investigation](../research/soil-holds-investigation/README.md)
+accounts for that gap through three of seven exact-source correction proposals,
+leaving only a microscopic positive numerical remainder in a hypothetical replay.
+Proposals are unaccepted; live coverage and all seven holds remain unchanged. Null attributes,
 component variability, source dates, scale and units retain their qualifications.
 TL-F-0113 remains in progress. The qualification adapter still reports soils as
 missing because it has no qualified source adapter; loading does not silently

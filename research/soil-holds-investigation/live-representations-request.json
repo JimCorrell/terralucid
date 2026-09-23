@@ -1,0 +1,9 @@
+{
+  "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+  "payload": {
+    "query": "SELECT mupolygonkey,mukey,mupolygongeo.STIsValid() AS native_valid,mupolygongeo.STArea() AS native_coordinate_area,mupolygongeo.STAsText() AS source_wkt,CONVERT(varchar(max),mupolygongeo.STAsBinary(),2) AS source_wkb,mupolygonproj.STAsText() AS wm_wkt FROM mupolygon WHERE mupolygonkey IN (363859326,363864542,364049010,364075555,364075709,364075751,364095557) ORDER BY mupolygonkey",
+    "format": "JSON+COLUMNNAME"
+  },
+  "retrieved_at": "2026-09-23T16:50:24.984527+00:00",
+  "sha256": "42262151e4dc2a434016ddf892e1a0ef6a84c33eb7406e5ad36152d66bac2ee0"
+}
