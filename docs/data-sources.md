@@ -153,3 +153,11 @@ For parcels without purchase interest, suitability is not yet assessed and is
 not a discovery gate. For purchase candidates, carry unresolved suitability
 questions into due diligence. Record discovered source deficiencies in the
 private findings register.
+
+
+The [county soils preparation](../research/county-soils-preparation/README.md)
+now retains 29,368 polygon candidates and linked tables in a private source bundle.
+Seven polygons are held; valid polygon coverage is approximately 99.627%, with a
+41.13 km² residual requiring investigation. This is prepared evidence, not a live
+Supabase soil layer or site qualification. The terrain manifest is narrowed to
+248 county-intersecting catalog rectangles; valid-pixel coverage remains unknown.

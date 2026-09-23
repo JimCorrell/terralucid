@@ -141,3 +141,13 @@ wetland project metadata to prioritize follow-up. County expansion does not requ
 resolving every statewide deficiency; candidate-level due diligence remains a
 later, more detailed gate. Municipal zoning gaps and held source geometries remain
 explicit limitations on the county inventory.
+
+
+## County soils preparation
+
+The [prepared soil source bundle](../research/county-soils-preparation/README.md)
+contains reconciled spatial membership and full map-unit/component/horizon source
+rows. Next implement and test private staging/archive transfer, preserve the seven
+held source polygons, and investigate residual coverage under TL-F-0113. Terrain
+candidate narrowing under TL-F-0104 precedes raster metadata/valid-pixel checks.
+Neither availability adapter is enabled by preparation alone.
