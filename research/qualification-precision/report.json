@@ -1,0 +1,198 @@
+{
+  "follow_up": "qualification-numerical-precision",
+  "status": "resolved_for_observed_cases",
+  "mode": "offline replay of PR54 captures; no live currency claim or database writes",
+  "method_sha256": "0a6fbbfb01c98e578a89aa4e0114add4861a5423134bec78a2f9792fedd55613",
+  "shapely": "2.0.7",
+  "geos": "3.11.4",
+  "cases": [
+    {
+      "case": "orneville_parcel",
+      "capture_file_sha256": "7cf3ea8d3c02d45dfbfa852cc1a4e64a8bbb6f83cdecb0d1989f242dc92b10cf",
+      "coverage": {
+        "identity": {
+          "before": {
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "after": {
+            "fraction": 1.0,
+            "uncovered_m2": 0.0,
+            "state": "full_geometric",
+            "basis": "source_covers_aoi"
+          }
+        },
+        "zoning": {
+          "before": {
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "after": {
+            "fraction": 1.0,
+            "uncovered_m2": 0.0,
+            "state": "full_geometric",
+            "basis": "source_covers_aoi"
+          }
+        },
+        "wetlands": {
+          "before": {
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "after": {
+            "fraction": 1.0,
+            "uncovered_m2": 0.0,
+            "state": "full_geometric",
+            "basis": "source_covers_aoi"
+          }
+        }
+      },
+      "noncoverage_evidence_and_permissions_unchanged": true,
+      "previous_packet_requires_method_revisit": true
+    },
+    {
+      "case": "overlapping_sources",
+      "capture_file_sha256": "69f426135a3cb77f56b054de4fbe790008270fa4005b112b18851520717decbc",
+      "coverage": {
+        "identity": {
+          "before": {
+            "fraction": 0.9999999999998914,
+            "state": "partial_geometric",
+            "uncovered_m2": 5.426966254162835e-08
+          },
+          "after": {
+            "fraction": 1.0,
+            "uncovered_m2": 0.0,
+            "state": "full_geometric",
+            "basis": "source_covers_aoi"
+          }
+        },
+        "zoning": {
+          "before": {
+            "fraction": 0.010689232621047973,
+            "state": "partial_geometric",
+            "uncovered_m2": 495220.9728134191
+          },
+          "after": {
+            "fraction": 0.010689232621080125,
+            "uncovered_m2": 495220.97281339666,
+            "state": "partial_geometric",
+            "basis": "aoi_minus_source_union"
+          }
+        },
+        "wetlands": {
+          "before": {
+            "fraction": 0.9999999999999997,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "after": {
+            "fraction": 1.0,
+            "uncovered_m2": 0.0,
+            "state": "full_geometric",
+            "basis": "source_covers_aoi"
+          }
+        }
+      },
+      "noncoverage_evidence_and_permissions_unchanged": true,
+      "previous_packet_requires_method_revisit": true
+    },
+    {
+      "case": "parcel_near_hold",
+      "capture_file_sha256": "36cfde17965022d6d994c1da431303fe8df021f9051477d24ba242ce0da2bd36",
+      "coverage": {
+        "identity": {
+          "before": {
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "after": {
+            "fraction": 1.0,
+            "uncovered_m2": 0.0,
+            "state": "full_geometric",
+            "basis": "source_covers_aoi"
+          }
+        },
+        "zoning": {
+          "before": {
+            "fraction": 0.9996310820529772,
+            "state": "partial_geometric",
+            "uncovered_m2": 5.77625399491691
+          },
+          "after": {
+            "fraction": 0.9996310820512838,
+            "uncovered_m2": 5.776254006397802,
+            "state": "partial_geometric",
+            "basis": "aoi_minus_source_union"
+          }
+        },
+        "wetlands": {
+          "before": {
+            "fraction": 1.0,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "after": {
+            "fraction": 1.0,
+            "uncovered_m2": 0.0,
+            "state": "full_geometric",
+            "basis": "source_covers_aoi"
+          }
+        }
+      },
+      "noncoverage_evidence_and_permissions_unchanged": true,
+      "previous_packet_requires_method_revisit": true
+    },
+    {
+      "case": "accepted_zoning_area",
+      "capture_file_sha256": "5234f0b70203e831cc0e63b4e799f79f147484f4c15cf2ef50c79bba46ba26e5",
+      "coverage": {
+        "identity": {
+          "before": {
+            "fraction": 1.0000000000000002,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "after": {
+            "fraction": 1.0,
+            "uncovered_m2": 0.0,
+            "state": "full_geometric",
+            "basis": "source_covers_aoi"
+          }
+        },
+        "zoning": {
+          "before": {
+            "fraction": 1.0000000000000002,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "after": {
+            "fraction": 1.0,
+            "uncovered_m2": 0.0,
+            "state": "full_geometric",
+            "basis": "source_covers_aoi"
+          }
+        },
+        "wetlands": {
+          "before": {
+            "fraction": 1.0000000000000002,
+            "state": "full_geometric",
+            "uncovered_m2": 0.0
+          },
+          "after": {
+            "fraction": 1.0,
+            "uncovered_m2": 0.0,
+            "state": "full_geometric",
+            "basis": "source_covers_aoi"
+          }
+        }
+      },
+      "noncoverage_evidence_and_permissions_unchanged": true,
+      "previous_packet_requires_method_revisit": true
+    }
+  ]
+}

@@ -103,10 +103,16 @@ def ref(f):
     return {k:f.get(k) for k in ['source_id','object_id','input_sha256','provenance','flags','parsed_date','correction_id','geometry_event_id','candidate_sha256','correction_status']}
 
 def coverage(geometries,aoi):
-    if not geometries:return {'fraction':0.0,'uncovered_m2':aoi.area,'state':'missing'}
-    covered=unary_union(geometries).intersection(aoi)
-    gap=aoi.difference(covered).area
-    return {'fraction':covered.area/aoi.area,'uncovered_m2':gap,'state':'full_geometric' if gap==0 else 'partial_geometric'}
+    if not geometries:return {'fraction':0.0,'uncovered_m2':aoi.area,'state':'missing','basis':'no_geometries'}
+    # A covering input proves full coverage without union-created edge slivers.
+    # This is a predicate on stored geometry, not a legal boundary assertion.
+    if any(g.covers(aoi) for g in geometries):
+        return {'fraction':1.0,'uncovered_m2':0.0,'state':'full_geometric','basis':'source_covers_aoi'}
+    gap=aoi.difference(unary_union(geometries)).area
+    # Derive the fraction from the same gap used for the state. Never use a
+    # rounded fraction to clear a positive gap, however small it is.
+    fraction=max(0.0,min(1.0,1.0-gap/aoi.area))
+    return {'fraction':fraction,'uncovered_m2':gap,'state':'full_geometric' if gap==0 else 'partial_geometric','basis':'aoi_minus_source_union'}
 
 def qualify(capture):
     r=capture['request'];validate_request(r);ctx=capture['context']
