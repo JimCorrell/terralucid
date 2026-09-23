@@ -1,0 +1,8 @@
+{
+  "terrain_tests": 20,
+  "status": "PASS",
+  "offline_replay": "byte-identical report",
+  "report_sha256": "5e5b7359a14d13c1d4608cbb69b7f6a995716f592408ee041a6a8cecfbc35440",
+  "new_archive": "PASS: 10 objects readback verified",
+  "finding_event": "appended to TL-F-0104; in_progress"
+}

@@ -201,3 +201,9 @@ Eastern 2017 and Western 2024. Both declare NAVD88 in meters; GEOID12B versus GE
 is a processing-model difference, not by itself evidence for a vertical correction.
 Project-level statistics and publisher label discrepancies remain visible. Local
 overlap/seam checks are the next qualification step; no raster merge is activated.
+
+The [pilot overlap and source-boundary diagnostic](../research/terrain-overlap/README.md)
+finds about an 11 cm mean source-switch contribution at the prospective seam,
+with spatially varying residuals. Original inputs remain unchanged. Next review
+a source-aware slope diagnostic that holds neighborhoods crossing source switches;
+no height correction, source preference or terrain qualification is activated.

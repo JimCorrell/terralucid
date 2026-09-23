@@ -1,0 +1,14 @@
+{
+  "report_sha256": "5e5b7359a14d13c1d4608cbb69b7f6a995716f592408ee041a6a8cecfbc35440",
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "updates": [
+    {
+      "status": "in_progress",
+      "event_id": "d0ed60c2e738497e15486d733a35ee68750279943edec29ac8bc36bf6f3c6fd9",
+      "finding_id": "TL-F-0104",
+      "next_action": "Review source-aware slope diagnostic with explicit neighborhood, holding calculations crossing source boundaries; compare slopes independently by source. Investigate spatial extremes before proposing offset correction or source preference. No local acceptance threshold selected. Retain county date/metadata gaps and purchase-triggered suitability limits."
+    }
+  ],
+  "source_geometry_writes": false
+}
