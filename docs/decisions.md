@@ -200,3 +200,13 @@ bucket. Scope each record to its report version and retain parent links, origina
 geometry, holds and outside candidates. Loading is separate from availability
 qualification and purchase-triggered septic due diligence. See
 [soil staging](soil-staging.md) for integrity and access controls.
+
+## Soil geometry acceptance
+
+The seven exact-source interpretations reviewed in PR #59 use a separate private
+soil acceptance layer: immutable proposals and accepted/withdrawn events, default
+accepted geometry, source-version-bound dependency snapshots and strict geometric
+coverage recomputation. Original WKT and holds remain unchanged; effective holds
+clear only through explicit acceptance. This does not enable a soil availability
+adapter or establish septic/buildability suitability. See
+[soil acceptance policy](soil-geometry-acceptance.md).
