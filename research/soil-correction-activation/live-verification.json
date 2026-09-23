@@ -1,0 +1,163 @@
+{
+  "started_at": "2026-09-23T17:32:49.329704+00:00",
+  "status": "PASS",
+  "batch": "b31e3034caee9f70361bb9c769b936b8709fcab38706f89cdee22c9265aad512",
+  "stages": [
+    {
+      "name": "preflight",
+      "seconds": 2.22
+    },
+    {
+      "name": "source_fingerprint",
+      "seconds": 37.88
+    },
+    {
+      "name": "activation_begin",
+      "seconds": 0.16
+    },
+    {
+      "name": "proposals",
+      "seconds": 1.51
+    },
+    {
+      "name": "reconcile_missing_investigation",
+      "seconds": 0.08
+    },
+    {
+      "name": "acceptance_events",
+      "seconds": 0.27
+    },
+    {
+      "name": "coverage",
+      "seconds": 66.9
+    },
+    {
+      "name": "finding_update",
+      "seconds": 0.07
+    },
+    {
+      "name": "commit",
+      "seconds": 0.08
+    },
+    {
+      "name": "source_readback",
+      "seconds": 61.11
+    },
+    {
+      "name": "final_readback",
+      "seconds": 7.28
+    }
+  ],
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "migration_sha256": "357f49f1f25f0141d5269bd9edb3adc5258ffdca5806c101ba7548d2868fd17f",
+  "proposals_sql_sha256": "7f9c4cf488662feeed30eba4e30c4edf84dac7bbe633b0af4fafd753e8ffa46c",
+  "runner_sha256": "010e5908e91b8fb0f1c6470034cf1b3d1ba722de93418f18b154bbfc060bbd3c",
+  "preflight": {
+    "backend": 73024,
+    "finding": {
+      "status": "in_progress",
+      "event_id": "f2711fcb26a6f985e36c8b57a2ae5a6153de72d8b064c5a54f9fdb33a9c0e3ee",
+      "priority": "medium"
+    },
+    "installed": true,
+    "pending_event": null,
+    "bucket_private": true,
+    "county_records": 120449,
+    "migration_sha256": "357f49f1f25f0141d5269bd9edb3adc5258ffdca5806c101ba7548d2868fd17f"
+  },
+  "pending_event_reconciliation": "absent",
+  "source_before": {
+    "holds": 7,
+    "records": 38237,
+    "geometry_rows": 29361,
+    "row_fingerprint": "ebc2f65c4dd137613517bfb6dbb0ea6ab5b4c1db4f6b2ab6e6a61739cf18661d",
+    "geometry_mismatches": 0
+  },
+  "acceptance_events": [
+    {
+      "event_id": "b52a0141081a22181a2213a7055f9ee1c6063562acd33623ce2f59342d364155",
+      "correction_id": "315eb5d0964d3aadc26ddfadc4721690ca9850e9927b6e88f2305b907dcb36e9",
+      "status": "accepted",
+      "actor": "Codex",
+      "note": "User authorized activation after merged PR60; exact PR59 proposal, original directed segments preserved. Geometry only; no suitability or availability qualification."
+    },
+    {
+      "event_id": "d4aa851e0e551e2cbd5f7d7d581625a6d64677fc3f38b97bfc634edc4d391c0b",
+      "correction_id": "33757b19842db387f4e1f94407a37e21dbfa0ab809d60b7e21c7d999ce6b85f8",
+      "status": "accepted",
+      "actor": "Codex",
+      "note": "User authorized activation after merged PR60; exact PR59 proposal, original directed segments preserved. Geometry only; no suitability or availability qualification."
+    },
+    {
+      "event_id": "3dc98af66387afe351b7a5f8bd9429fea3a3f8df50ad1f06c074164aa3ea26cd",
+      "correction_id": "712dec9e1fbe6cecb75a14fdf731c4e6478c4e32450fd3e1cfcd37142fae1169",
+      "status": "accepted",
+      "actor": "Codex",
+      "note": "User authorized activation after merged PR60; exact PR59 proposal, original directed segments preserved. Geometry only; no suitability or availability qualification."
+    },
+    {
+      "event_id": "44c476ecdc5718aaedf983cf75f9155ab5c64590e940aae3f289864fafabe2d0",
+      "correction_id": "e2a325b40a63dfe7a42474dd97ebbbaa6eb5d790f24645c0ea32326836d85f23",
+      "status": "accepted",
+      "actor": "Codex",
+      "note": "User authorized activation after merged PR60; exact PR59 proposal, original directed segments preserved. Geometry only; no suitability or availability qualification."
+    },
+    {
+      "event_id": "35b993c68403ff5372acf171aa602ab53ec46f99f666e02974258b4f3f890cf5",
+      "correction_id": "f618d973a26d5ea43902630a2196a218b90e05bbe8365365d18856edb725648f",
+      "status": "accepted",
+      "actor": "Codex",
+      "note": "User authorized activation after merged PR60; exact PR59 proposal, original directed segments preserved. Geometry only; no suitability or availability qualification."
+    },
+    {
+      "event_id": "8301065f006a7a99fc4e65e17ff26e69febbc0d2980da34b4b5a5be79b65fbdd",
+      "correction_id": "576b1ed1a91a44d1bb1b42737f771ec5582656a6c295c8cb2121ee4a9d3382dc",
+      "status": "accepted",
+      "actor": "Codex",
+      "note": "User authorized activation after merged PR60; exact PR59 proposal, original directed segments preserved. Geometry only; no suitability or availability qualification."
+    },
+    {
+      "event_id": "d3ffff113821da63b14c2c14b8d2dc900cd5358122d3e37769ba4b8eb38941ef",
+      "correction_id": "53a793cb9c15fcf7573c37c5fb267433899acc0fd50bc5def002dc1172a1e6e3",
+      "status": "accepted",
+      "actor": "Codex",
+      "note": "User authorized activation after merged PR60; exact PR59 proposal, original directed segments preserved. Geometry only; no suitability or availability qualification."
+    }
+  ],
+  "coverage": {
+    "snapshot_id": "ba5c5310cf4a81242b257a461a576d04d367cef4cafeaec1413a7a6b83e65b7c",
+    "uncovered_m2": 0,
+    "held_polygons": 0,
+    "coverage_state": "full_geometric",
+    "evidence_state": "DERIVED",
+    "postgis_version": "POSTGIS=\"3.3.7 a0c7967\" [EXTENSION] PGSQL=\"170\" GEOS=\"3.14.1-CAPI-1.20.5\" PROJ=\"9.7.1\" LIBXML=\"2.15.1\" LIBJSON=\"0.18\" LIBPROTOBUF=\"1.5.2\" WAGYU=\"0.5.0 (Internal)\"",
+    "boundary_area_m2": 11026559443.2065,
+    "source_batch_sha256": "b31e3034caee9f70361bb9c769b936b8709fcab38706f89cdee22c9265aad512",
+    "qualified_for_parcel_screening": false
+  },
+  "committed": true,
+  "source_after": {
+    "holds": 7,
+    "records": 38237,
+    "geometry_rows": 29361,
+    "row_fingerprint": "ebc2f65c4dd137613517bfb6dbb0ea6ab5b4c1db4f6b2ab6e6a61739cf18661d",
+    "geometry_mismatches": 0
+  },
+  "readback": {
+    "backend": 73024,
+    "finding": {
+      "status": "in_progress",
+      "event_id": "298720b2a7831ce7a41c19f32e7576a2c7917e965a804fa0451a175d8a9a019a",
+      "finding_id": "TL-F-0113",
+      "next_action": "Qualify soil units, scale, survey/source dates and attribute limitations before enabling availability. Retain coverage/runtime and correction snapshot dependencies. Septic/buildability adjudication remains purchase-triggered."
+    },
+    "accepted": 7,
+    "rls_tables": 4,
+    "client_grants": 0,
+    "county_records": 120449,
+    "effective_holds": 0,
+    "snapshot_current": true
+  },
+  "completed_at": "2026-09-23T17:35:51.785476+00:00"
+}

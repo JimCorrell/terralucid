@@ -91,7 +91,9 @@ Seven source polygons remain held. Valid, unheld polygon coverage is approximate
 [held-polygon investigation](../research/soil-holds-investigation/README.md)
 accounts for that gap through three of seven exact-source correction proposals,
 leaving only a microscopic positive numerical remainder in a hypothetical replay.
-Proposals are unaccepted; live coverage and all seven holds remain unchanged. Null attributes,
+The [authorized activation](../research/soil-correction-activation/README.md)
+now accepts all seven proposals. Live effective coverage reports zero uncovered
+area and zero effective holds; all seven original source holds remain unchanged. Null attributes,
 component variability, source dates, scale and units retain their qualifications.
 TL-F-0113 remains in progress. The qualification adapter still reports soils as
 missing because it has no qualified source adapter; loading does not silently
@@ -100,4 +102,5 @@ Terrain tiles were not loaded by this soil staging step.
 
 The [soil geometry acceptance layer](soil-geometry-acceptance.md) provides explicit
 review events and effective geometry without rewriting these original source rows.
-Its implementation and isolated tests do not activate the proposals in Supabase.
+The reviewed proposals are now activated in Supabase; use the current dependency
+snapshot and retain all qualification limits.
