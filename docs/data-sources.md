@@ -187,3 +187,10 @@ pixels. The remaining NoData is explicit. Native raster extents also exclude
 some candidates retained by geographic catalog rectangles. These results support
 bounded retrieval and exact-version evidence retention, not county coverage or
 source suitability; TL-F-0104 remains in progress.
+
+The [terrain gap comparison](../research/terrain-gap/README.md) verifies that two
+bounded Western Maine alternatives each cover the original pilot's missing area.
+Either alternative's mask plus the Eastern B2 mask covers the square, while each
+source alone remains partial. Original geoid/accuracy qualifications and small
+native-grid offsets prevent automatic merging or source preference. TL-F-0104
+remains in progress; no county coverage or suitability conclusion follows.

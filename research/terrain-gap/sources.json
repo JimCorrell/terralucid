@@ -1,0 +1,178 @@
+[
+  {
+    "file": "0-item.json",
+    "url": "https://www.sciencebase.gov/catalog/item/6635c4e3d34edc29f40a1058?format=json",
+    "sha256": "f942cdefc9b86ea1ef5517491606633b81e567fb0c52ccf43c6534be61b7dcde",
+    "bytes": 11239,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:05:34.038104+00:00",
+    "etag": null,
+    "last_modified": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "content_range": null
+  },
+  {
+    "file": "0-product.xml",
+    "url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/geotiff/ME_Western_ME_LiDAR_2016_B16/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.xml",
+    "sha256": "4a122f7c4d897711ca4538c6ab8acb61f5013cbd1ade2ed2fa9f6761d0b9b15f",
+    "bytes": 13322,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:05:34.332042+00:00",
+    "etag": "\"340a-61799f283f112\"",
+    "last_modified": "Sat, 04 May 2024 05:17:06 GMT",
+    "content_range": null
+  },
+  {
+    "file": "0-header-header.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+    "sha256": "dd06896097e7166b9434b03a36dd945b9d0669543c9c1a337b909866b2347516",
+    "bytes": 65536,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:35.106538+00:00",
+    "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+    "last_modified": "Fri, 13 Feb 2026 14:32:57 GMT",
+    "content_range": "bytes 0-65535/248518972"
+  },
+  {
+    "file": "0-pixels-header.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+    "sha256": "dd06896097e7166b9434b03a36dd945b9d0669543c9c1a337b909866b2347516",
+    "bytes": 65536,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:35.722880+00:00",
+    "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+    "last_modified": "Fri, 13 Feb 2026 14:32:57 GMT",
+    "content_range": "bytes 0-65535/248518972"
+  },
+  {
+    "file": "0-pixels-range-1.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+    "sha256": "819aa97fc0a12e705ae03b6c88f60ac6fe89b5008562ef8e82515f734ea9c040",
+    "bytes": 681883,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:36.782302+00:00",
+    "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+    "last_modified": "Fri, 13 Feb 2026 14:32:57 GMT",
+    "content_range": "bytes 135879168-136561050/248518972"
+  },
+  {
+    "file": "0-pixels-range-2.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+    "sha256": "6fdfe91f2eb7b2da99f6fb8390526c159fa09fe789e7edde66cdde66e389c139",
+    "bytes": 658465,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:38.055996+00:00",
+    "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+    "last_modified": "Fri, 13 Feb 2026 14:32:57 GMT",
+    "content_range": "bytes 136561059-137219523/248518972"
+  },
+  {
+    "file": "0-pixels-range-3.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+    "sha256": "2fc03e0a53112f15b3fe87b3d043f1343c77140b1928f6d2dbc356dab01deaf5",
+    "bytes": 684501,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:38.983597+00:00",
+    "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+    "last_modified": "Fri, 13 Feb 2026 14:32:57 GMT",
+    "content_range": "bytes 141112277-141796777/248518972"
+  },
+  {
+    "file": "0-pixels-range-4.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+    "sha256": "6e4d964ca1e7937e3e056fb5a272db39e00b8d47b995ff1a9ddf423fc5c0aa96",
+    "bytes": 673661,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:39.920601+00:00",
+    "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+    "last_modified": "Fri, 13 Feb 2026 14:32:57 GMT",
+    "content_range": "bytes 141796786-142470446/248518972"
+  },
+  {
+    "file": "1-item.json",
+    "url": "https://www.sciencebase.gov/catalog/item/6a753eb51ba49b79d0c34402?format=json",
+    "sha256": "4c4b51e63a95cb51480329e5848b5c70bf223e41c4b1a7578953cd6097b2921c",
+    "bytes": 9509,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:05:40.345603+00:00",
+    "etag": null,
+    "last_modified": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "content_range": null
+  },
+  {
+    "file": "1-product.xml",
+    "url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/geotiff/ME_WesternMtns_B24/USGS_1M_19_x47y503_ME_WesternMtns_B24.xml",
+    "sha256": "4f3519c5c1a4580f8dbe89bb2deff37f0211f0acd814b20799e8eea277c7a769",
+    "bytes": 13469,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:05:40.627235+00:00",
+    "etag": "\"349d-6586b841a0917\"",
+    "last_modified": "Fri, 07 Aug 2026 02:11:01 GMT",
+    "content_range": null
+  },
+  {
+    "file": "1-header-header.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+    "sha256": "d49214a35afcf01c4d0b02c62b9b61aea225f95372a110a6fa34c5bba6877191",
+    "bytes": 65536,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:41.285644+00:00",
+    "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+    "last_modified": "Thu, 06 Aug 2026 19:57:35 GMT",
+    "content_range": "bytes 0-65535/246731827"
+  },
+  {
+    "file": "1-pixels-header.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+    "sha256": "d49214a35afcf01c4d0b02c62b9b61aea225f95372a110a6fa34c5bba6877191",
+    "bytes": 65536,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:42.081980+00:00",
+    "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+    "last_modified": "Thu, 06 Aug 2026 19:57:35 GMT",
+    "content_range": "bytes 0-65535/246731827"
+  },
+  {
+    "file": "1-pixels-range-1.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+    "sha256": "94514651a92933773ac89f8ebd5713b2dc969fe6b07ed326b86e1d28de86b394",
+    "bytes": 676400,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:43.046411+00:00",
+    "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+    "last_modified": "Thu, 06 Aug 2026 19:57:35 GMT",
+    "content_range": "bytes 135094506-135770905/246731827"
+  },
+  {
+    "file": "1-pixels-range-2.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+    "sha256": "8b21f37ef7b04ec75a1c3a0dee04bddca7bc3acb45c6da579c740dc740826e49",
+    "bytes": 653130,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:44.095619+00:00",
+    "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+    "last_modified": "Thu, 06 Aug 2026 19:57:35 GMT",
+    "content_range": "bytes 135770914-136424043/246731827"
+  },
+  {
+    "file": "1-pixels-range-3.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+    "sha256": "5d9135de97912ab25816257b929126b89c52ad3aa7b5bad3e4dde089b8cb4e29",
+    "bytes": 680633,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:45.198580+00:00",
+    "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+    "last_modified": "Thu, 06 Aug 2026 19:57:35 GMT",
+    "content_range": "bytes 140273618-140954250/246731827"
+  },
+  {
+    "file": "1-pixels-range-4.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+    "sha256": "24108e97790d4ac6b8e8f8b39a7107da4e69f0fdb313068d07552e03f768883c",
+    "bytes": 669881,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:46.174621+00:00",
+    "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+    "last_modified": "Thu, 06 Aug 2026 19:57:35 GMT",
+    "content_range": "bytes 140954259-141624139/246731827"
+  }
+]

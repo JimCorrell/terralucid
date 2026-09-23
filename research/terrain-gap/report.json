@@ -1,0 +1,355 @@
+{
+  "evidence_state": "DERIVED",
+  "method_sha256": "6ecf374d5b3df306187dfc67c8127f665e2a6aa3296302c04a53b32c6f9cf1ef",
+  "retrieval_method_sha256": "2de0b1de9eb761b70ed49b6e07df5f55b36630907eb70ff1f4d0806639fef0e7",
+  "range_reader_sha256": "f55be5e2a208aaa5bbb55b0732902edb6412db909aa82c76b0f8719a57863b66",
+  "request_sha256": "cc7884cf952e4eb5d5383744306b2b8cf2358bf37464654055548ba37a2a1bb9",
+  "pilot_sha256": "e993f6b1e6ee78ddb5ad565b65369a3ebbe4cb81e1270253c6ef3d7399978069",
+  "catalog_sha256": "97683cb4356b6f1182540d9a959b3b45ccdebe11d6407ff3cb3547fc6693e4c8",
+  "selection_sha256": "b31e3034caee9f70361bb9c769b936b8709fcab38706f89cdee22c9265aad512",
+  "county_boundary_sha256": "5d242c188fb5580198ebc1b828976d454637dd7f6185e362bee573ab43d9e728",
+  "aoi_bounds": [
+    475114.0,
+    5024374.0,
+    475626.0,
+    5024886.0
+  ],
+  "epsg": 26919,
+  "candidate_ids": [
+    "6635c4e3d34edc29f40a1058",
+    "6a753eb51ba49b79d0c34402",
+    "5eacf6f382cefae35a24ebc7"
+  ],
+  "max_raster_transfer_bytes": 33554432,
+  "projects": [
+    {
+      "source_id": "6635c4e3d34edc29f40a1058",
+      "title": "USGS 1 Meter 19 x47y503 ME_Western_ME_LiDAR_2016_B16",
+      "dates": [
+        {
+          "type": "Publication",
+          "dateString": "2024-05-02",
+          "label": "Publication Date"
+        },
+        {
+          "type": "Start",
+          "dateString": "2016-04-05",
+          "label": ""
+        },
+        {
+          "type": "End",
+          "dateString": "2016-05-21",
+          "label": ""
+        },
+        {
+          "type": "Info",
+          "dateString": "2024-05-04 00:17:06",
+          "label": "File Modification Date"
+        }
+      ],
+      "metadata_links": [
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://nationalmap.gov/3DEP/3dep_prodmetadata.html",
+          "rel": "related",
+          "title": "3D Elevation Program (3DEP) Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/metadata/ME_Western_ME_LiDAR_2016_B16/ME_Western_2016",
+          "rel": "related",
+          "title": "Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/geotiff/ME_Western_ME_LiDAR_2016_B16/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.xml",
+          "rel": "related",
+          "title": "Product Metadata",
+          "hidden": false
+        },
+        {
+          "type": "browseImage",
+          "typeLabel": "Browse Image",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/browse/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.jpg",
+          "rel": "related",
+          "title": "Thumbnail JPG image",
+          "hidden": false
+        },
+        {
+          "type": "download",
+          "typeLabel": "Download",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+          "rel": "related",
+          "title": "TIFF",
+          "hidden": false,
+          "length": 248518972
+        }
+      ],
+      "product_time_fields": {
+        "idinfo/timeperd/timeinfo/rngdates/begdate": [
+          "20160405"
+        ],
+        "idinfo/timeperd/timeinfo/rngdates/enddate": [
+          "20160521"
+        ],
+        "idinfo/timeperd/current": [
+          "publication date"
+        ]
+      },
+      "header": {
+        "source_id": "6635c4e3d34edc29f40a1058",
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+        "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+        "current_file_bytes": 248518972,
+        "width": 10012,
+        "height": 10012,
+        "bounds": [
+          469994.00027691096,
+          5019993.999646217,
+          480006.00027691096,
+          5030005.999646217
+        ],
+        "resolution": [
+          1.0,
+          1.0
+        ],
+        "crs_wkt": "PROJCS[\"NAD83 / UTM zone 19N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-69],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26919\"]]",
+        "epsg": 26919,
+        "nodata": -999999.0,
+        "dtype": "float32",
+        "units": [
+          null
+        ],
+        "header_transfer_bytes": 65536
+      },
+      "subset": {
+        "source_id": "6635c4e3d34edc29f40a1058",
+        "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+        "source_file_bytes": 248518972,
+        "window": [
+          5119,
+          5119,
+          513,
+          513
+        ],
+        "bounds": [
+          475113.00027691096,
+          5024373.999646217,
+          475626.00027691096,
+          5024886.999646217
+        ],
+        "epsg": 26919,
+        "crs_wkt": "PROJCS[\"NAD83 / UTM zone 19N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-69],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26919\"]]",
+        "resolution": [
+          1.0,
+          1.0
+        ],
+        "nodata": -999999.0,
+        "pixels": 263169,
+        "nodata_pixels": 12825,
+        "nonfinite_unmasked_pixels": 0,
+        "valid_pixels": 250344,
+        "valid_fraction": 0.9512670565302144,
+        "valid_area_m2": 250344.0,
+        "coverage": "partial_native_pixel_coverage",
+        "raster_transfer_bytes": 2764046,
+        "captured_blocks": [
+          [
+            9,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "subset_file": "0-subset.tif",
+        "subset_bytes": 776095,
+        "subset_sha256": "4fa3055b7c5833e68c1a8d01739da0ce86faa39e22af1faae897e762b165900f",
+        "analysis_qualified": false
+      },
+      "raster_transfer_bytes": 2829582
+    },
+    {
+      "source_id": "6a753eb51ba49b79d0c34402",
+      "title": "USGS 1 Meter 19 x47y503 ME_WesternMtns_B24",
+      "dates": [
+        {
+          "type": "Publication",
+          "dateString": "2026-07-28",
+          "label": "Publication Date"
+        },
+        {
+          "type": "Start",
+          "dateString": "2024-10-17",
+          "label": ""
+        },
+        {
+          "type": "End",
+          "dateString": "2024-11-15",
+          "label": ""
+        },
+        {
+          "type": "Info",
+          "dateString": "2026-08-06 21:11:01",
+          "label": "File Modification Date"
+        }
+      ],
+      "metadata_links": [
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://nationalmap.gov/3DEP/3dep_prodmetadata.html",
+          "rel": "related",
+          "title": "3D Elevation Program (3DEP) Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/metadata/ME_WesternMtns_B24/ME_WesternMtns_1_B24",
+          "rel": "related",
+          "title": "3D Elevation Program (3DEP) Metadata",
+          "hidden": false
+        },
+        {
+          "type": "originalMetadata",
+          "typeLabel": "Original Metadata",
+          "uri": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/geotiff/ME_WesternMtns_B24/USGS_1M_19_x47y503_ME_WesternMtns_B24.xml",
+          "rel": "related",
+          "title": "Product Metadata",
+          "hidden": false
+        },
+        {
+          "type": "browseImage",
+          "typeLabel": "Browse Image",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/browse/USGS_1M_19_x47y503_ME_WesternMtns_B24.jpg",
+          "rel": "related",
+          "title": "Thumbnail JPG image",
+          "hidden": false
+        },
+        {
+          "type": "download",
+          "typeLabel": "Download",
+          "uri": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+          "rel": "related",
+          "title": "TIFF",
+          "hidden": false,
+          "length": 246731827
+        }
+      ],
+      "product_time_fields": {
+        "idinfo/timeperd/timeinfo/rngdates/begdate": [
+          "20241017"
+        ],
+        "idinfo/timeperd/timeinfo/rngdates/enddate": [
+          "20241115"
+        ],
+        "idinfo/timeperd/current": [
+          "publication date"
+        ]
+      },
+      "header": {
+        "source_id": "6a753eb51ba49b79d0c34402",
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+        "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+        "current_file_bytes": 246731827,
+        "width": 10012,
+        "height": 10012,
+        "bounds": [
+          469994.00027691096,
+          5019993.999646217,
+          480006.00027691096,
+          5030005.999646217
+        ],
+        "resolution": [
+          1.0,
+          1.0
+        ],
+        "crs_wkt": "PROJCS[\"NAD83 / UTM zone 19N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-69],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26919\"]]",
+        "epsg": 26919,
+        "nodata": -999999.0,
+        "dtype": "float32",
+        "units": [
+          null
+        ],
+        "header_transfer_bytes": 65536
+      },
+      "subset": {
+        "source_id": "6a753eb51ba49b79d0c34402",
+        "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+        "source_file_bytes": 246731827,
+        "window": [
+          5119,
+          5119,
+          513,
+          513
+        ],
+        "bounds": [
+          475113.00027691096,
+          5024373.999646217,
+          475626.00027691096,
+          5024886.999646217
+        ],
+        "epsg": 26919,
+        "crs_wkt": "PROJCS[\"NAD83 / UTM zone 19N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-69],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26919\"]]",
+        "resolution": [
+          1.0,
+          1.0
+        ],
+        "nodata": -999999.0,
+        "pixels": 263169,
+        "nodata_pixels": 12825,
+        "nonfinite_unmasked_pixels": 0,
+        "valid_pixels": 250344,
+        "valid_fraction": 0.9512670565302144,
+        "valid_area_m2": 250344.0,
+        "coverage": "partial_native_pixel_coverage",
+        "raster_transfer_bytes": 2745580,
+        "captured_blocks": [
+          [
+            9,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "subset_file": "1-subset.tif",
+        "subset_bytes": 778103,
+        "subset_sha256": "53ef73e4999e9750fda5709c108ed0d633dbe192a2062bf6889cc8d3d06860f9",
+        "analysis_qualified": false
+      },
+      "raster_transfer_bytes": 2811116
+    }
+  ],
+  "limits": [
+    "Pinned catalog discovery only, not a fresh exhaustive product search.",
+    "Native windows enclose AOI and can extend by a border pixel; compare masks spatially, never by array index alone.",
+    "No preferred source, resampling, mosaic, slope, county availability or suitability qualification."
+  ],
+  "raster_transfer_bytes": 5640698,
+  "sources_sha256": "eac346c9b54a20ece7b91736d990d2d4b7c9ed779b52891c8131d636d3f1f44f"
+}
