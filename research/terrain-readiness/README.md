@@ -1,5 +1,11 @@
 # Piscataquis terrain readiness
 
+**Subsequent decision after PR #64:** the user selected county-wide source
+discovery with elevation retrieval for candidate areas. The eight-full-tile load
+proposal below is historical and superseded as the default next step. Preserve
+this review as evidence; follow the [current terrain decision](../../docs/decisions.md#terrain-catalog-and-retrieval-on-demand)
+and [retrieval plan](../../docs/ingestion-plan.md#terrain-retrieval-next-step).
+
 **Readiness: proceed to a bounded raster pilot, not county availability or slope
 qualification.** This review uses the pinned PR #57 county candidate selection.
 No full DEM was downloaded or loaded, no source priority was activated, and no

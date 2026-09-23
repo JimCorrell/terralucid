@@ -157,3 +157,20 @@ The [soil staging load](../research/soil-staging-load/README.md) completes priva
 archive transfer and transactional record loading for that prepared version.
 Next investigate its held polygons and coverage gap and qualify metadata before
 enabling a soils availability adapter. Terrain data qualification remains separate.
+
+## Terrain retrieval next step
+
+Following PR #64 and the agreed [terrain direction](decisions.md#terrain-catalog-and-retrieval-on-demand),
+prepare a bounded area retrieval workflow instead of the proposed eight-full-tile
+load. Use the retained county catalog to identify candidate sources, keep source
+conflicts visible, and verify source versions, units/datum and valid pixels for
+the requested area. Preserve the exact inputs used, hashes, spatial scope and
+processing history in private object storage; retain metadata and results in
+Supabase/PostGIS. Distinguish discoverable, retrieved and qualified evidence.
+
+Measure database, file-storage and transfer needs separately before live loading.
+Select a diagnostic area and bound its retrieval before running the pilot; no
+area, transfer budget, automatic source preference, clipping method or slope
+threshold has been selected by this plan. Existing TL-F-0104 date, metadata,
+size and overlap questions remain open. Purchase-specific suitability is a
+later review, and broad terrain cataloging does not await that review.

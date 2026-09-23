@@ -16,7 +16,11 @@ Find remote, rural, private Maine property suitable for the user's intended base
 ## Due diligence and readiness
 
 Keep qualified soils and terrain data readily available across the study area
-for retrieval and later analysis. Trigger parcel-specific septic suitability and
+for retrieval and later analysis. For terrain, maintain county-wide source
+discovery and retrieve elevation for candidate areas on demand, preserving exact
+analysis inputs and provenance in private storage. Catalog presence alone does
+not establish qualified valid-pixel coverage; county-wide raster replication is
+not required. Trigger parcel-specific septic suitability and
 buildability investigations only when the user selects a parcel for purchase
 investigation. Unassessed suitability does not block general discovery or data
 availability and must not be presented as either suitable or unsuitable. For a

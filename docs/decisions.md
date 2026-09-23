@@ -210,3 +210,34 @@ coverage recomputation. Original WKT and holds remain unchanged; effective holds
 clear only through explicit acceptance. This does not enable a soil availability
 adapter or establish septic/buildability suitability. See
 [soil acceptance policy](soil-geometry-acceptance.md).
+
+## Terrain catalog and retrieval on demand
+
+Following merged PR #64, the user accepted county-wide terrain source discovery
+with elevation retrieval for candidate areas. Supabase/PostGIS remains the
+canonical store for the source catalog, provenance, coverage evidence and analysis
+results. Raster file contents belong in private object storage when retained;
+county-wide raster replication and storage of elevation cells in PostgreSQL are
+not the default. Reconsider bulk retention only when repeated use justifies it.
+
+Preserve the exact elevation inputs used for each analysis, with source/version
+identifiers, retrieval dates, hashes, spatial extent and processing provenance.
+A publisher link alone does not preserve reproducible input. Bounded source
+windows or subsets must be identified as such and remain distinguishable from
+complete original files. Required context around a candidate area depends on the
+analysis method; no buffer size, slope method or source preference is selected.
+
+The 66.6 GB catalog sum includes alternate surveys and tile areas outside the
+county; it is not a database storage requirement or a measured minimal county
+footprint. Database disk, object storage and transfer usage must be budgeted
+separately against verified account capacity. No plan upgrade, spend-cap change
+or bulk load is authorized by this decision.
+
+This supersedes the eight-complete-tile pilot as the default next load proposed
+in the [terrain readiness review](../research/terrain-readiness/README.md). Next
+prepare and test a bounded area retrieval workflow, including valid-pixel
+coverage, source/version checks and evidence retention. The existing readiness
+evidence and TL-F-0104 deficiencies remain applicable; catalog discovery does
+not establish qualified terrain coverage. Detailed septic/buildability review
+remains purchase-triggered. This is an agreed architecture direction, not an
+implemented retrieval service or availability promotion.
