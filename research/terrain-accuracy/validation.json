@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "report_sha256": "874f05db64a9fbbfb52730acbd87005e5935fda933a171bf295178d29eda14ff",
+  "offline_replay_report_exact_match": true,
+  "reviewed_render_hashes_match_replay": true,
+  "archive_objects_verified": 150,
+  "archive_verified_bytes": 10631999,
+  "full_pdf_integrity_verified": false,
+  "production_changes": false
+}

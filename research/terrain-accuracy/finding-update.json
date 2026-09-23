@@ -1,0 +1,14 @@
+{
+  "report_sha256": "874f05db64a9fbbfb52730acbd87005e5935fda933a171bf295178d29eda14ff",
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "updates": [
+    {
+      "status": "in_progress",
+      "event_id": "928e2adbcc8a937bf969852253810dc59efeffcb43ea18d37f02c9a6e2bbab5a",
+      "finding_id": "TL-F-0104",
+      "next_action": "Perform bounded shared-valid-area elevation residual and seam diagnostics with explicit grid/resampling provenance and immutable originals. Examine local bias/spread/spatial structure before proposing source preference or a correction; do not invent an acceptance threshold from project-wide statistics or automatically subtract geoid differences. Carry publisher accuracy-label differences and remaining county date/metadata deficiencies; retain purchase-triggered suitability limits."
+    }
+  ],
+  "source_geometry_writes": false
+}

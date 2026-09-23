@@ -190,3 +190,9 @@ source's measured accuracy/reference compatibility before choosing a terrain
 source rule. Keep separate valid-pixel footprints and version dependencies;
 complementary coverage alone does not authorize an elevation mosaic or slope
 calculation.
+
+[Original reference and measured-accuracy evidence](../research/terrain-accuracy/README.md)
+is now documented for both pilot source families. Next perform a bounded shared-area
+height/seam diagnostic with explicit grid handling and immutable inputs, then
+propose source-selection rules. Do not automatically apply a geoid difference to
+already NAVD88 elevations or derive parcel suitability from project-level accuracy.
