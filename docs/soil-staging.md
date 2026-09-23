@@ -104,3 +104,10 @@ The [soil geometry acceptance layer](soil-geometry-acceptance.md) provides expli
 review events and effective geometry without rewriting these original source rows.
 The reviewed proposals are now activated in Supabase; use the current dependency
 snapshot and retain all qualification limits.
+
+The [soil metadata audit](../research/soil-metadata-qualification/README.md) now
+qualifies a bounded unit dictionary, publication scales and version-date meanings,
+and separates whole-survey from county-linked missingness. It proposes a limited
+inventory availability adapter; no adapter is enabled by that audit. Preserve
+component percentage deficits and exclude Vermont-specific septic interpretation
+from Maine qualification.

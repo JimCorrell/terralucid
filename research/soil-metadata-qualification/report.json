@@ -1,0 +1,5285 @@
+{
+  "evidence_state": "DERIVED",
+  "method_sha256": "382f493fecebb946b6e5ed0fb2ae82b0018474d6770e7bae233b839a7cccd8ff",
+  "bundle": {
+    "status": "PASS",
+    "records_verified": 38237,
+    "objects_verified": 82,
+    "report_sha256": "b31e3034caee9f70361bb9c769b936b8709fcab38706f89cdee22c9265aad512",
+    "records_sha256": "12d2b2f5a966a77a4d6ad71f499be4c5dcbe61ca241ed1e0ea2e8d8685c859ef"
+  },
+  "sources": [
+    {
+      "file": "TablesAndColumnsReport.pdf",
+      "url": "https://sdmdataaccess.sc.egov.usda.gov/documents/TablesAndColumnsReport.pdf",
+      "sha256": "04878fb8aa70210a8087606652511bbab04794caab2f9c2f02b88ad1049b345d",
+      "retrieved_at": "2026-09-23T17:42:07.941055+00:00"
+    },
+    {
+      "file": "TableColumnDescriptionsReport.pdf",
+      "url": "https://sdmdataaccess.sc.egov.usda.gov/documents/TableColumnDescriptionsReport.pdf",
+      "sha256": "6e1badc3d3449bd7a8b313a47205db6ff023d1ec7aa5287119fd3f63d4b99d0b",
+      "retrieved_at": "2026-09-23T17:42:08.433973+00:00"
+    },
+    {
+      "file": "SoilDataAccessQueryGuide.pdf",
+      "url": "https://sdmdataaccess.sc.egov.usda.gov/documents/SoilDataAccessQueryGuide.pdf",
+      "sha256": "1f0a6f770eed8832d3c5fcec877a356ddc4803e67844c76158e3b28fdc591c9e",
+      "retrieved_at": "2026-09-23T17:42:08.839930+00:00"
+    },
+    {
+      "file": "survey-metadata.response",
+      "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+      "payload": {
+        "query": "SELECT areasymbol,saversion,saverest,fgdcmetadata FROM sacatalog WHERE areasymbol IN ('ME602','ME612','ME614','ME615','ME619','ME620','ME621') ORDER BY areasymbol",
+        "format": "JSON+COLUMNNAME"
+      },
+      "sha256": "77e153ed333672abed4f5edac2acfac32703f4b7961761409ade5d1d0f8c2ae3",
+      "retrieved_at": "2026-09-23T17:42:09.257241+00:00"
+    }
+  ],
+  "activation_sha256": "08ec7611ef629147f9f5a152511a1e6e1cad33a48f99735e25df4a333e2786bc",
+  "geometry_snapshot_id": "ba5c5310cf4a81242b257a461a576d04d367cef4cafeaec1413a7a6b83e65b7c",
+  "scope": "Unique map units touched by positive-area county polygons under pinned accepted corrections; not parcel-specific or area-weighted",
+  "surveys": [
+    {
+      "areasymbol": "ME602",
+      "project_scale_denominator": "20000",
+      "correlation_date": null,
+      "tabular_version": "22",
+      "survey_version": "25",
+      "version_established": "8/29/2025 11:42:22 AM",
+      "catalog_version_and_metadata_match_capture": true,
+      "fgdc_sha256": "c626975217637c833701e83c61569ff932d87b96fb5f5e74bfa8dd58a07cb702",
+      "publication_dates": [
+        "20250829"
+      ],
+      "dataset_time_begin": [
+        "20040324"
+      ],
+      "dataset_time_end": [
+        "20250829"
+      ],
+      "time_currentness": [
+        "publication date"
+      ],
+      "metadata_dates": [
+        "20250829"
+      ],
+      "source_lineage": [
+        {
+          "abbreviation": "NRCS1",
+          "scale": "20000",
+          "publication": "1972",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "USGS1",
+          "scale": "24000",
+          "publication": "1965",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS2",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": "2002",
+          "time_end": "2004"
+        },
+        {
+          "abbreviation": "USGS2",
+          "scale": "24000",
+          "publication": "1995-2001",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS3",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS4",
+          "scale": null,
+          "publication": "2003",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NASIS",
+          "scale": null,
+          "publication": "2004",
+          "time_begin": "2004",
+          "time_end": "2004"
+        },
+        {
+          "abbreviation": "NRCS5",
+          "scale": null,
+          "publication": "2004",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS6",
+          "scale": null,
+          "publication": "20060816",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS7",
+          "scale": "12000, 24000",
+          "publication": "2006 - 2009",
+          "time_begin": "2006",
+          "time_end": "2009"
+        },
+        {
+          "abbreviation": "NRCS8",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS9",
+          "scale": null,
+          "publication": "unpublished material",
+          "time_begin": "2006",
+          "time_end": "2018"
+        }
+      ]
+    },
+    {
+      "areasymbol": "ME614",
+      "project_scale_denominator": "20000",
+      "correlation_date": null,
+      "tabular_version": "22",
+      "survey_version": "24",
+      "version_established": "8/29/2025 11:39:06 AM",
+      "catalog_version_and_metadata_match_capture": true,
+      "fgdc_sha256": "f879d84e06b12a74098072dacf590e1c0b3327b2113c884a75ed9e0e38723ce1",
+      "publication_dates": [
+        "20250829"
+      ],
+      "dataset_time_begin": [
+        "20041222"
+      ],
+      "dataset_time_end": [
+        "20250829"
+      ],
+      "time_currentness": [
+        "publication date"
+      ],
+      "metadata_dates": [
+        "20250829"
+      ],
+      "source_lineage": [
+        {
+          "abbreviation": "SCS1",
+          "scale": "20000",
+          "publication": "1963",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "USGS1",
+          "scale": "24000",
+          "publication": "2005",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS1",
+          "scale": "20000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS2",
+          "scale": null,
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NASIS",
+          "scale": null,
+          "publication": "2006",
+          "time_begin": "2006",
+          "time_end": "2006"
+        },
+        {
+          "abbreviation": "NRCS3",
+          "scale": null,
+          "publication": "2004",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS4",
+          "scale": "12000, 24000",
+          "publication": "2006 - 2009",
+          "time_begin": "2006",
+          "time_end": "2009"
+        },
+        {
+          "abbreviation": "NRCS5",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS6",
+          "scale": null,
+          "publication": "2009",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS7",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS8",
+          "scale": "12000, 24000",
+          "publication": "2009 - 2011",
+          "time_begin": "2009",
+          "time_end": "2011"
+        },
+        {
+          "abbreviation": "NRCS9",
+          "scale": null,
+          "publication": "unpublished material",
+          "time_begin": "2006",
+          "time_end": "2018"
+        }
+      ]
+    },
+    {
+      "areasymbol": "ME615",
+      "project_scale_denominator": "24000",
+      "correlation_date": null,
+      "tabular_version": "25",
+      "survey_version": "28",
+      "version_established": "8/29/2025 11:39:06 AM",
+      "catalog_version_and_metadata_match_capture": true,
+      "fgdc_sha256": "8d952fc54a3d925bc427ac4e8b1d5cc56b37d93910ef84dd6195a22fd235319c",
+      "publication_dates": [
+        "20250829"
+      ],
+      "dataset_time_begin": [
+        "19960830"
+      ],
+      "dataset_time_end": [
+        "20250829"
+      ],
+      "time_currentness": [
+        "publication date"
+      ],
+      "metadata_dates": [
+        "20250829"
+      ],
+      "source_lineage": [
+        {
+          "abbreviation": "USGS1",
+          "scale": "24000",
+          "publication": "1985",
+          "time_begin": "1986",
+          "time_end": "1993"
+        },
+        {
+          "abbreviation": "USGS2",
+          "scale": "24000",
+          "publication": "1980",
+          "time_begin": "1994",
+          "time_end": "1995"
+        },
+        {
+          "abbreviation": "NRCS1",
+          "scale": null,
+          "publication": "1996",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NASIS",
+          "scale": null,
+          "publication": "2004",
+          "time_begin": "2004",
+          "time_end": "2004"
+        },
+        {
+          "abbreviation": "NRCS2",
+          "scale": null,
+          "publication": "1996",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS3",
+          "scale": null,
+          "publication": "20060821",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NAIP1",
+          "scale": "40000",
+          "publication": "2007",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS4",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS5",
+          "scale": "12000, 24000",
+          "publication": "2006 - 2009",
+          "time_begin": "2006",
+          "time_end": "2009"
+        },
+        {
+          "abbreviation": "NRCS6",
+          "scale": null,
+          "publication": "2009",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS7",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS8",
+          "scale": "24000",
+          "publication": "2009 - 2011",
+          "time_begin": "2009",
+          "time_end": "2011"
+        },
+        {
+          "abbreviation": "NRCS9",
+          "scale": null,
+          "publication": "unpublished material",
+          "time_begin": "2006",
+          "time_end": "2018"
+        }
+      ]
+    },
+    {
+      "areasymbol": "ME619",
+      "project_scale_denominator": "24000",
+      "correlation_date": null,
+      "tabular_version": "24",
+      "survey_version": "30",
+      "version_established": "8/29/2025 11:43:52 AM",
+      "catalog_version_and_metadata_match_capture": true,
+      "fgdc_sha256": "803124ffd2db2344d6eca02faa4e0fc11a492adb83a7bf2d17c769eb62c44709",
+      "publication_dates": [
+        "20250829"
+      ],
+      "dataset_time_begin": [
+        "20060717"
+      ],
+      "dataset_time_end": [
+        "20250829"
+      ],
+      "time_currentness": [
+        "publication date"
+      ],
+      "metadata_dates": [
+        "20250829"
+      ],
+      "source_lineage": [
+        {
+          "abbreviation": "USDA1",
+          "scale": "24000",
+          "publication": "1970",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "USGS1",
+          "scale": "24000",
+          "publication": "2005",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS1",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": "2004",
+          "time_end": "2005"
+        },
+        {
+          "abbreviation": "NRCS2",
+          "scale": "24000",
+          "publication": "1999",
+          "time_begin": "1968",
+          "time_end": "1997"
+        },
+        {
+          "abbreviation": "NRCS3",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS4",
+          "scale": null,
+          "publication": "2006",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NASIS",
+          "scale": null,
+          "publication": "2006",
+          "time_begin": "2006",
+          "time_end": "2006"
+        },
+        {
+          "abbreviation": "NRCS5",
+          "scale": null,
+          "publication": "2006",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS6",
+          "scale": null,
+          "publication": "2006",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS7",
+          "scale": null,
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS8",
+          "scale": null,
+          "publication": "2007",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS9",
+          "scale": null,
+          "publication": "20071024",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NAIP1",
+          "scale": "40000",
+          "publication": "2007",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS10",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS11",
+          "scale": "12000, 24000",
+          "publication": "2006 - 2009",
+          "time_begin": "2006",
+          "time_end": "2009"
+        },
+        {
+          "abbreviation": "NRCS12",
+          "scale": null,
+          "publication": "2009",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS13",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS14",
+          "scale": "24000",
+          "publication": "2009 - 2011",
+          "time_begin": "2009",
+          "time_end": "2011"
+        },
+        {
+          "abbreviation": "NRCS15",
+          "scale": null,
+          "publication": "unpublished material",
+          "time_begin": "2006",
+          "time_end": "2018"
+        }
+      ]
+    },
+    {
+      "areasymbol": "ME620",
+      "project_scale_denominator": "24000",
+      "correlation_date": null,
+      "tabular_version": "15",
+      "survey_version": "15",
+      "version_established": "8/29/2025 11:43:52 AM",
+      "catalog_version_and_metadata_match_capture": true,
+      "fgdc_sha256": "f0a63abafa1ec497b3f171c58d48ef056b35ae26e52be4220cfa4ea1446b49d3",
+      "publication_dates": [
+        "20250829"
+      ],
+      "dataset_time_begin": [
+        "20120203"
+      ],
+      "dataset_time_end": [
+        "20250829"
+      ],
+      "time_currentness": [
+        "publication date"
+      ],
+      "metadata_dates": [
+        "20250829"
+      ],
+      "source_lineage": [
+        {
+          "abbreviation": "NRCS1",
+          "scale": "24000",
+          "publication": "1997",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "USGS1",
+          "scale": "12000",
+          "publication": "1996",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS2",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS3",
+          "scale": null,
+          "publication": "2011",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NASIS",
+          "scale": null,
+          "publication": "2011",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS3",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS4",
+          "scale": "24000",
+          "publication": "2009 - 2011",
+          "time_begin": "2009",
+          "time_end": "2011"
+        },
+        {
+          "abbreviation": "NRCS5",
+          "scale": null,
+          "publication": "unpublished material",
+          "time_begin": "2006",
+          "time_end": "2018"
+        }
+      ]
+    },
+    {
+      "areasymbol": "ME621",
+      "project_scale_denominator": "24000",
+      "correlation_date": null,
+      "tabular_version": "15",
+      "survey_version": "15",
+      "version_established": "8/29/2025 11:43:52 AM",
+      "catalog_version_and_metadata_match_capture": true,
+      "fgdc_sha256": "5f5be57773184fa229995de91b02aa468402518de1f0f2cbf36487a2e7fd472b",
+      "publication_dates": [
+        "20250829"
+      ],
+      "dataset_time_begin": [
+        "20120203"
+      ],
+      "dataset_time_end": [
+        "20250829"
+      ],
+      "time_currentness": [
+        "publication date"
+      ],
+      "metadata_dates": [
+        "20250829"
+      ],
+      "source_lineage": [
+        {
+          "abbreviation": "NRCS1",
+          "scale": "24000",
+          "publication": "1997",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "USGS1",
+          "scale": "12000",
+          "publication": "1996",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS2",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS3",
+          "scale": null,
+          "publication": "2011",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NASIS",
+          "scale": null,
+          "publication": "2011",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS4",
+          "scale": "24000",
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS5",
+          "scale": "24000",
+          "publication": "2009 - 2011",
+          "time_begin": "2009",
+          "time_end": "2011"
+        },
+        {
+          "abbreviation": "NRCS6",
+          "scale": null,
+          "publication": "unpublished material",
+          "time_begin": "2006",
+          "time_end": "2018"
+        }
+      ]
+    },
+    {
+      "areasymbol": "ME612",
+      "project_scale_denominator": "24000",
+      "correlation_date": null,
+      "tabular_version": "11",
+      "survey_version": "11",
+      "version_established": "8/29/2025 11:39:06 AM",
+      "catalog_version_and_metadata_match_capture": true,
+      "fgdc_sha256": "dd42f38b578d6504639a5ee9e173f2159a10bb1e2e0fe46e96d14dea2ddec068",
+      "publication_dates": [
+        "20250829"
+      ],
+      "dataset_time_begin": [
+        "20160919"
+      ],
+      "dataset_time_end": [
+        "20250829"
+      ],
+      "time_currentness": [
+        "publication date"
+      ],
+      "metadata_dates": [
+        "20250829"
+      ],
+      "source_lineage": [
+        {
+          "abbreviation": "FSA1",
+          "scale": "24000",
+          "publication": "1997",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "USGS1",
+          "scale": "24000",
+          "publication": "1997",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NRCS1",
+          "scale": null,
+          "publication": "unpublished material",
+          "time_begin": null,
+          "time_end": null
+        },
+        {
+          "abbreviation": "NASIS",
+          "scale": null,
+          "publication": "2003",
+          "time_begin": "2003",
+          "time_end": "2003"
+        },
+        {
+          "abbreviation": "NRCS2",
+          "scale": null,
+          "publication": "unpublished material",
+          "time_begin": "2006",
+          "time_end": "2018"
+        },
+        {
+          "abbreviation": "NRCS3",
+          "scale": null,
+          "publication": "unpublished material",
+          "time_begin": "2006",
+          "time_end": "2024"
+        }
+      ]
+    }
+  ],
+  "whole_seven_survey_tables": {
+    "counts": {
+      "mapunits": 601,
+      "components": 1572,
+      "horizons": 6689
+    },
+    "missing": {
+      "component": {
+        "comppct_r": 0,
+        "slope_l": 16,
+        "slope_r": 16,
+        "slope_h": 16,
+        "drainagecl": 30,
+        "hydricrating": 16,
+        "hydgrp": 57
+      },
+      "chorizon": {
+        "hzdept_r": 0,
+        "hzdepb_r": 0,
+        "ksat_l": 4,
+        "ksat_r": 4,
+        "ksat_h": 4,
+        "awc_r": 411,
+        "sandtotal_r": 1278,
+        "claytotal_r": 1273
+      },
+      "mapunit": {
+        "vtsepticsyscl": 583,
+        "mustatus": 601,
+        "mucertstat": 601
+      }
+    },
+    "components_without_horizons": [
+      {
+        "cokey": "26558289",
+        "mukey": "284807",
+        "compname": "Water",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      },
+      {
+        "cokey": "26559563",
+        "mukey": "285295",
+        "compname": "Water Bodies",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      },
+      {
+        "cokey": "26559854",
+        "mukey": "285377",
+        "compname": "Water",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      },
+      {
+        "cokey": "26559952",
+        "mukey": "285375",
+        "compname": "Urban land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "40"
+      },
+      {
+        "cokey": "26560463",
+        "mukey": "285722",
+        "compname": "Water",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      },
+      {
+        "cokey": "26560671",
+        "mukey": "2549937",
+        "compname": "Rubble land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "60"
+      },
+      {
+        "cokey": "26560674",
+        "mukey": "2549938",
+        "compname": "Rubble land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "60"
+      },
+      {
+        "cokey": "26560675",
+        "mukey": "2549939",
+        "compname": "Rubble land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "55"
+      },
+      {
+        "cokey": "26560718",
+        "mukey": "2549958",
+        "compname": "Water",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      },
+      {
+        "cokey": "26560891",
+        "mukey": "2549960",
+        "compname": "Water",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      },
+      {
+        "cokey": "26561258",
+        "mukey": "741179",
+        "compname": "Urban land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "70"
+      },
+      {
+        "cokey": "26561415",
+        "mukey": "1482996",
+        "compname": "Dumps",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      },
+      {
+        "cokey": "26561431",
+        "mukey": "1483039",
+        "compname": "Urban land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "20"
+      },
+      {
+        "cokey": "26561434",
+        "mukey": "1483047",
+        "compname": "Urban land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "20"
+      },
+      {
+        "cokey": "26561503",
+        "mukey": "1902130",
+        "compname": "Water",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      },
+      {
+        "cokey": "26561505",
+        "mukey": "2396088",
+        "compname": "Urban land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "30"
+      },
+      {
+        "cokey": "26561507",
+        "mukey": "2396089",
+        "compname": "Urban land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "15"
+      },
+      {
+        "cokey": "26561512",
+        "mukey": "2396090",
+        "compname": "Urban land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "15"
+      },
+      {
+        "cokey": "26561583",
+        "mukey": "2752435",
+        "compname": "Urban land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "15"
+      }
+    ],
+    "component_percent_sum_exceptions": [
+      {
+        "mukey": "284745",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284746",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284747",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "284748",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284749",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "284750",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "284751",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284752",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "284753",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "284754",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "284755",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284756",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284757",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "284758",
+        "sum": "99",
+        "missing": 0
+      },
+      {
+        "mukey": "284759",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "284760",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284761",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284762",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284763",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284764",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "284765",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "284766",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "284767",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "284768",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "284769",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "284770",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "284771",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "284772",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "284773",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "284774",
+        "sum": "82",
+        "missing": 0
+      },
+      {
+        "mukey": "284775",
+        "sum": "82",
+        "missing": 0
+      },
+      {
+        "mukey": "284776",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "284777",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284778",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "284779",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "284780",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284782",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "284783",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "284784",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "284785",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284786",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284787",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "284788",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284789",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284790",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284791",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284792",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284793",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "284794",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "284795",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "284796",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "284797",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "284798",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284799",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "284800",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284801",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284802",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "284803",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "284804",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "284805",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284806",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285161",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285162",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285163",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285164",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285165",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "285166",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285167",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285168",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "285169",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285170",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285171",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285172",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285173",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285174",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "285175",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "285176",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285177",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285178",
+        "sum": "99",
+        "missing": 0
+      },
+      {
+        "mukey": "285179",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285180",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285181",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285182",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285183",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "285184",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285185",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285186",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285190",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285191",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285192",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285193",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285194",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285199",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285200",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285201",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285202",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285203",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "285204",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285205",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285206",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285207",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "285208",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285209",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285210",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285211",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285212",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285213",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285214",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285215",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285216",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285217",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285218",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285219",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285220",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285221",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "285222",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285223",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285224",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285225",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285226",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285227",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "285228",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285229",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285231",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285232",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285233",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285234",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285235",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285236",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285238",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285242",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285243",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285244",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285245",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285246",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285247",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285248",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285249",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285250",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285251",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285254",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285255",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285256",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285257",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285258",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285259",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285260",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285261",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285262",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285263",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "285264",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285265",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285266",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285267",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285268",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285269",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285270",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285271",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285272",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285273",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285274",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285275",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "285277",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285279",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285280",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285281",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285282",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285283",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285284",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285285",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285286",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285287",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285288",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285289",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285290",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285291",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285292",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285294",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285296",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285297",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285298",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285299",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285300",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285301",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285302",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285303",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285304",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285305",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285306",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285308",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285309",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285310",
+        "sum": "81",
+        "missing": 0
+      },
+      {
+        "mukey": "285311",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285312",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285313",
+        "sum": "98",
+        "missing": 0
+      },
+      {
+        "mukey": "285314",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "285315",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285316",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285317",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "285318",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285319",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285320",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285321",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285322",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285323",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285324",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285325",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285326",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285327",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285328",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285329",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285330",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285331",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285332",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285333",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "285334",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285335",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285336",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285337",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285338",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285339",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285340",
+        "sum": "79",
+        "missing": 0
+      },
+      {
+        "mukey": "285341",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285342",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285343",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285344",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285345",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285346",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285347",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285348",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285349",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285350",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285351",
+        "sum": "83",
+        "missing": 0
+      },
+      {
+        "mukey": "285352",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285353",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285354",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285355",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285356",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285357",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285358",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285359",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285360",
+        "sum": "78",
+        "missing": 0
+      },
+      {
+        "mukey": "285361",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285362",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285363",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285364",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285365",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285366",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285367",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285368",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285369",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "285370",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285371",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285372",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285373",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285374",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285375",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285376",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "285642",
+        "sum": "74",
+        "missing": 0
+      },
+      {
+        "mukey": "285643",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285644",
+        "sum": "70",
+        "missing": 0
+      },
+      {
+        "mukey": "285645",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285646",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285647",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285648",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285649",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285652",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285654",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285655",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285656",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285657",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285658",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285659",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285660",
+        "sum": "82",
+        "missing": 0
+      },
+      {
+        "mukey": "285661",
+        "sum": "77",
+        "missing": 0
+      },
+      {
+        "mukey": "285662",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285663",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285664",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285665",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "285666",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285667",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285668",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "285669",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285670",
+        "sum": "82",
+        "missing": 0
+      },
+      {
+        "mukey": "285671",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285672",
+        "sum": "77",
+        "missing": 0
+      },
+      {
+        "mukey": "285673",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285674",
+        "sum": "82",
+        "missing": 0
+      },
+      {
+        "mukey": "285675",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285676",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285677",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285678",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285679",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285680",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285681",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285689",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285690",
+        "sum": "83",
+        "missing": 0
+      },
+      {
+        "mukey": "285691",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285692",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285693",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285694",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "285695",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285696",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285697",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285698",
+        "sum": "81",
+        "missing": 0
+      },
+      {
+        "mukey": "285699",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285700",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285707",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285708",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285709",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285710",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285711",
+        "sum": "65",
+        "missing": 0
+      },
+      {
+        "mukey": "285712",
+        "sum": "65",
+        "missing": 0
+      },
+      {
+        "mukey": "285714",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285715",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285716",
+        "sum": "65",
+        "missing": 0
+      },
+      {
+        "mukey": "285717",
+        "sum": "65",
+        "missing": 0
+      },
+      {
+        "mukey": "285718",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285719",
+        "sum": "70",
+        "missing": 0
+      },
+      {
+        "mukey": "285720",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285721",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "740602",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "740622",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "740623",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "740624",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "740664",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "740665",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "740876",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "740877",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "740879",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "740933",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "741176",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "741179",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "741198",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "741199",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "741212",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "741217",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "741218",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "741290",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "741324",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "741327",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "741593",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "741610",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "741614",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "741634",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "741635",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "741911",
+        "sum": "83",
+        "missing": 0
+      },
+      {
+        "mukey": "741912",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "741913",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "742158",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "742159",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "742169",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "742170",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "744541",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "744546",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "744547",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "744548",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "744549",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "744551",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "744552",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "744554",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "744556",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "744557",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "744558",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "744561",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "744562",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "744563",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "744564",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "746040",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "746063",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "746065",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "746067",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "746068",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "746076",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "746077",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "746079",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "746267",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "1153253",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1153254",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1153256",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1153258",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1478415",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "1478416",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1478417",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "1478418",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1478421",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "1478424",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1478425",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "1478426",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "1482287",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "1482332",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "1482340",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "1482977",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1482979",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "1482981",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1482997",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "1483000",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483012",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "1483013",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483015",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483019",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "1483039",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483047",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483050",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483053",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483059",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "1483060",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483062",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "1483063",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483065",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "1483066",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "1483104",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483106",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "1483107",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "1483111",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "1483113",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "1483114",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "1483115",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483118",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "1483120",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483121",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "1483124",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "1902119",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2396088",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2396089",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2396090",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2481954",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "2481984",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2481991",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2481992",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2481995",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2481998",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2482004",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2482005",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549833",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "2549835",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "2549836",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549837",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "2549838",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549840",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "2549841",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "2549842",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "2549843",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549844",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549845",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "2549849",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549850",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549851",
+        "sum": "98",
+        "missing": 0
+      },
+      {
+        "mukey": "2549852",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "2549853",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549854",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549855",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "2549856",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "2549857",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549858",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549859",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "2549860",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549861",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "2549862",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "2549863",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2549864",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549865",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549866",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549867",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549868",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549869",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549870",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549871",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "2549872",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549873",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549874",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549875",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549876",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "2549877",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549878",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549879",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549880",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "2549881",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549882",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "2549883",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549884",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "2549885",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "2549886",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549887",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "2549888",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549889",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549890",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549891",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549892",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "2549893",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "2549894",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "2549895",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549896",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "2549897",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549898",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549899",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549900",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549901",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2549902",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "2549904",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "2549905",
+        "sum": "98",
+        "missing": 0
+      },
+      {
+        "mukey": "2549906",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2549907",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2549908",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "2549909",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549910",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549911",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549912",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "2549913",
+        "sum": "82",
+        "missing": 0
+      },
+      {
+        "mukey": "2549914",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "2549915",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "2549916",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549917",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549918",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549919",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549920",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "2549921",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "2549922",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "2549923",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2549924",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549925",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549926",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549927",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549928",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549929",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549930",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549931",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549932",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549934",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549935",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549936",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549937",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549938",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549940",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "2549941",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2549942",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549943",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549944",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549945",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "2549946",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "2549947",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549948",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549949",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549950",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549951",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "2549952",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549953",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549954",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549955",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "2549957",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549959",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "2643630",
+        "sum": "78",
+        "missing": 0
+      },
+      {
+        "mukey": "2643631",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2643632",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2643633",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "2643634",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "2643635",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2643636",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2643637",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "2643638",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2643639",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2643640",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2643641",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2643642",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "2643643",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2643644",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "2752431",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "2752433",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2752436",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2752437",
+        "sum": "98",
+        "missing": 0
+      }
+    ],
+    "mapunits_with_multiple_components": 494,
+    "mapunits_with_tied_largest_component": 0,
+    "mapunits_with_differing_drainage_classes": 436,
+    "horizon_depth_observations": [],
+    "ranges": {
+      "component.comppct": {
+        "incomplete_count": 1566,
+        "inverted_keys": []
+      },
+      "component.slope": {
+        "incomplete_count": 16,
+        "inverted_keys": []
+      },
+      "chorizon.hzdept": {
+        "incomplete_count": 2074,
+        "inverted_keys": []
+      },
+      "chorizon.hzdepb": {
+        "incomplete_count": 2074,
+        "inverted_keys": []
+      },
+      "chorizon.ksat": {
+        "incomplete_count": 4,
+        "inverted_keys": []
+      },
+      "chorizon.awc": {
+        "incomplete_count": 411,
+        "inverted_keys": []
+      }
+    }
+  },
+  "county_linked_tables": {
+    "counts": {
+      "mapunits": 278,
+      "components": 770,
+      "horizons": 3382
+    },
+    "missing": {
+      "component": {
+        "comppct_r": 0,
+        "slope_l": 14,
+        "slope_r": 14,
+        "slope_h": 14,
+        "drainagecl": 15,
+        "hydricrating": 14,
+        "hydgrp": 24
+      },
+      "chorizon": {
+        "hzdept_r": 0,
+        "hzdepb_r": 0,
+        "ksat_l": 0,
+        "ksat_r": 0,
+        "ksat_h": 0,
+        "awc_r": 195,
+        "sandtotal_r": 697,
+        "claytotal_r": 696
+      },
+      "mapunit": {
+        "vtsepticsyscl": 268,
+        "mustatus": 278,
+        "mucertstat": 278
+      }
+    },
+    "components_without_horizons": [
+      {
+        "cokey": "26558289",
+        "mukey": "284807",
+        "compname": "Water",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      },
+      {
+        "cokey": "26559563",
+        "mukey": "285295",
+        "compname": "Water Bodies",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      },
+      {
+        "cokey": "26559854",
+        "mukey": "285377",
+        "compname": "Water",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      },
+      {
+        "cokey": "26559952",
+        "mukey": "285375",
+        "compname": "Urban land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "40"
+      },
+      {
+        "cokey": "26560463",
+        "mukey": "285722",
+        "compname": "Water",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      },
+      {
+        "cokey": "26560671",
+        "mukey": "2549937",
+        "compname": "Rubble land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "60"
+      },
+      {
+        "cokey": "26560674",
+        "mukey": "2549938",
+        "compname": "Rubble land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "60"
+      },
+      {
+        "cokey": "26560675",
+        "mukey": "2549939",
+        "compname": "Rubble land",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "55"
+      },
+      {
+        "cokey": "26560718",
+        "mukey": "2549958",
+        "compname": "Water",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      },
+      {
+        "cokey": "26561503",
+        "mukey": "1902130",
+        "compname": "Water",
+        "compkind": "Miscellaneous area",
+        "comppct_r": "100"
+      }
+    ],
+    "component_percent_sum_exceptions": [
+      {
+        "mukey": "284748",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284749",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "284756",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284758",
+        "sum": "99",
+        "missing": 0
+      },
+      {
+        "mukey": "284764",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "284766",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "284767",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "284778",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "284779",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "284780",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "284782",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "284783",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "284784",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "284785",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284786",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284788",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "284797",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "284799",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "284802",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "284803",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285161",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285162",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285175",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "285176",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285178",
+        "sum": "99",
+        "missing": 0
+      },
+      {
+        "mukey": "285181",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285184",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285192",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285203",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "285204",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285207",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "285210",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285218",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285219",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285220",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285223",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285224",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285234",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285235",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285236",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285244",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285250",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285251",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285255",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285258",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285259",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "285260",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285261",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285262",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285266",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "285271",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285289",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285292",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285296",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285297",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285298",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285299",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285300",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285301",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285302",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285303",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285304",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285305",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285306",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285308",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285309",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285310",
+        "sum": "81",
+        "missing": 0
+      },
+      {
+        "mukey": "285311",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285312",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285313",
+        "sum": "98",
+        "missing": 0
+      },
+      {
+        "mukey": "285314",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "285315",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285316",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285317",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "285318",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285319",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285320",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285321",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285322",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285323",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285324",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285325",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285326",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285327",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285328",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285329",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285330",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285331",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285332",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285333",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "285334",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285335",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285336",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285337",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285338",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285339",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285340",
+        "sum": "79",
+        "missing": 0
+      },
+      {
+        "mukey": "285341",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285342",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285343",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285344",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285345",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285346",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285347",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "285348",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285349",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "285350",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285351",
+        "sum": "83",
+        "missing": 0
+      },
+      {
+        "mukey": "285352",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285353",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "285354",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285355",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285356",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285357",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285358",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285359",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285360",
+        "sum": "78",
+        "missing": 0
+      },
+      {
+        "mukey": "285361",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285362",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "285363",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285364",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285365",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285366",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285367",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285368",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285369",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "285370",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285371",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285372",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285373",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285374",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285375",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285376",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "285654",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285662",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "285663",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285674",
+        "sum": "82",
+        "missing": 0
+      },
+      {
+        "mukey": "285675",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285679",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285680",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "285694",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "285695",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285696",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285697",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "285698",
+        "sum": "81",
+        "missing": 0
+      },
+      {
+        "mukey": "285699",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "285700",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "285707",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285708",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285714",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285715",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "285721",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "741198",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "741290",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "741327",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "741911",
+        "sum": "83",
+        "missing": 0
+      },
+      {
+        "mukey": "742169",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "744546",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "744547",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "744549",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "744551",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "744552",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "744554",
+        "sum": "75",
+        "missing": 0
+      },
+      {
+        "mukey": "744557",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "744558",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "746065",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "746077",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "746079",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1153253",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1153254",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1153258",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1482340",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "1483012",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "1483063",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483065",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "1483104",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "1483113",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "1902119",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2549851",
+        "sum": "98",
+        "missing": 0
+      },
+      {
+        "mukey": "2549858",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549859",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "2549860",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549861",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "2549862",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "2549863",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2549866",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549867",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549873",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549880",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "2549882",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "2549883",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549884",
+        "sum": "94",
+        "missing": 0
+      },
+      {
+        "mukey": "2549885",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "2549886",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549887",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "2549888",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549889",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549890",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549891",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549892",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "2549893",
+        "sum": "80",
+        "missing": 0
+      },
+      {
+        "mukey": "2549894",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "2549895",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549896",
+        "sum": "95",
+        "missing": 0
+      },
+      {
+        "mukey": "2549897",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549898",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549899",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549900",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549901",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2549902",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "2549904",
+        "sum": "92",
+        "missing": 0
+      },
+      {
+        "mukey": "2549905",
+        "sum": "98",
+        "missing": 0
+      },
+      {
+        "mukey": "2549906",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2549907",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2549908",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "2549909",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549910",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549911",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549912",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "2549913",
+        "sum": "82",
+        "missing": 0
+      },
+      {
+        "mukey": "2549914",
+        "sum": "96",
+        "missing": 0
+      },
+      {
+        "mukey": "2549915",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "2549916",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549917",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549918",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549919",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549920",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "2549921",
+        "sum": "91",
+        "missing": 0
+      },
+      {
+        "mukey": "2549922",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "2549923",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2549924",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549925",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549926",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549927",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549928",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549929",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549930",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549931",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549932",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549934",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549935",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549936",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549937",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549938",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549940",
+        "sum": "89",
+        "missing": 0
+      },
+      {
+        "mukey": "2549941",
+        "sum": "88",
+        "missing": 0
+      },
+      {
+        "mukey": "2549942",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549943",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549944",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549945",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "2549946",
+        "sum": "86",
+        "missing": 0
+      },
+      {
+        "mukey": "2549947",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549948",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549949",
+        "sum": "90",
+        "missing": 0
+      },
+      {
+        "mukey": "2549950",
+        "sum": "87",
+        "missing": 0
+      },
+      {
+        "mukey": "2549951",
+        "sum": "93",
+        "missing": 0
+      },
+      {
+        "mukey": "2549952",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549953",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549954",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2549955",
+        "sum": "97",
+        "missing": 0
+      },
+      {
+        "mukey": "2549957",
+        "sum": "85",
+        "missing": 0
+      },
+      {
+        "mukey": "2643633",
+        "sum": "94",
+        "missing": 0
+      }
+    ],
+    "mapunits_with_multiple_components": 239,
+    "mapunits_with_tied_largest_component": 0,
+    "mapunits_with_differing_drainage_classes": 213,
+    "horizon_depth_observations": [],
+    "ranges": {
+      "component.comppct": {
+        "incomplete_count": 770,
+        "inverted_keys": []
+      },
+      "component.slope": {
+        "incomplete_count": 14,
+        "inverted_keys": []
+      },
+      "chorizon.hzdept": {
+        "incomplete_count": 929,
+        "inverted_keys": []
+      },
+      "chorizon.hzdepb": {
+        "incomplete_count": 930,
+        "inverted_keys": []
+      },
+      "chorizon.ksat": {
+        "incomplete_count": 0,
+        "inverted_keys": []
+      },
+      "chorizon.awc": {
+        "incomplete_count": 195,
+        "inverted_keys": []
+      }
+    }
+  },
+  "limits": [
+    "No source changes or live availability promotion",
+    "Version agreement does not establish currentness of every attribute",
+    "Source dates are not site observation dates",
+    "Components are mixtures, not separately mapped within parcels",
+    "All attributes outside the documented bounded dictionary remain unqualified"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "project_ref": "yytsjlmbyqhcqfalbjca",
+  "bucket": "terralucid-source-snapshots",
+  "bucket_private": true,
+  "credential_lookups": 1,
+  "verified_at": "2026-09-23T17:46:34.663262+00:00",
+  "metadata_report_sha256": "96fe753c78865814aacf39b8d8b6102d0dd69bcf48d1de0968a91e70138b6ed1",
+  "objects": [
+    {
+      "sha256": "04878fb8aa70210a8087606652511bbab04794caab2f9c2f02b88ad1049b345d",
+      "bytes": 2036499,
+      "storage_object": "sha256/04878fb8aa70210a8087606652511bbab04794caab2f9c2f02b88ad1049b345d.response",
+      "already_present": false,
+      "readback_matches": true
+    },
+    {
+      "sha256": "1f0a6f770eed8832d3c5fcec877a356ddc4803e67844c76158e3b28fdc591c9e",
+      "bytes": 529833,
+      "storage_object": "sha256/1f0a6f770eed8832d3c5fcec877a356ddc4803e67844c76158e3b28fdc591c9e.response",
+      "already_present": false,
+      "readback_matches": true
+    },
+    {
+      "sha256": "6e1badc3d3449bd7a8b313a47205db6ff023d1ec7aa5287119fd3f63d4b99d0b",
+      "bytes": 1862555,
+      "storage_object": "sha256/6e1badc3d3449bd7a8b313a47205db6ff023d1ec7aa5287119fd3f63d4b99d0b.response",
+      "already_present": false,
+      "readback_matches": true
+    },
+    {
+      "sha256": "77e153ed333672abed4f5edac2acfac32703f4b7961761409ade5d1d0f8c2ae3",
+      "bytes": 425503,
+      "storage_object": "sha256/77e153ed333672abed4f5edac2acfac32703f4b7961761409ade5d1d0f8c2ae3.response",
+      "already_present": false,
+      "readback_matches": true
+    },
+    {
+      "sha256": "96fe753c78865814aacf39b8d8b6102d0dd69bcf48d1de0968a91e70138b6ed1",
+      "bytes": 101557,
+      "storage_object": "sha256/96fe753c78865814aacf39b8d8b6102d0dd69bcf48d1de0968a91e70138b6ed1.response",
+      "already_present": false,
+      "readback_matches": true
+    },
+    {
+      "sha256": "f29f6d55cf35ff9b7749a34c41a4f676ef06aa97aca03bf635e49e6841590816",
+      "bytes": 1351,
+      "storage_object": "sha256/f29f6d55cf35ff9b7749a34c41a4f676ef06aa97aca03bf635e49e6841590816.response",
+      "already_present": false,
+      "readback_matches": true
+    }
+  ],
+  "verified_bytes": 4957298
+}
