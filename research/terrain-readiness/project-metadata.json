@@ -1,0 +1,549 @@
+{
+  "method_sha256": "a4b3e75766d5e6a06e0004ca4fdb9520244a0ac38fb3bdd9e6423064fc7ef88b",
+  "projects": [
+    {
+      "source_id": "60d2c0e0d34e840986528af4",
+      "item_sha256": "841df9233b3dc7be13d978b0105fd3fdbab53de1306e32b4c900070e9611beda",
+      "documents": [
+        {
+          "file": "0-item-0-0.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B1_2018/reports/vendor_provided_xml/31027_Crown_of_Maine_HydroFlattenedDEM_Metadata.xml",
+          "sha256": "8af6f7708e0de9089ba4e522b7c8992d5fa4d505d72172cabc5e19c2450b69ff",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20180512"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20180603"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "NAD 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "NAVD 1988 (GEOID 12B)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        },
+        {
+          "file": "0-item-0-1.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B1_2018/reports/vendor_provided_xml/31027_Crown_of_Maine_ProjectLevel_Metadata.xml",
+          "sha256": "f73e6fea0d8c4967b8269dc659691c93170cf728579521cdf43eaa7964308f4c",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20180512"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20180603"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "NAD 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "NAVD 1988 (GEOID 12B)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        },
+        {
+          "file": "0-item-0-2.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B1_2018/reports/vendor_provided_xml/Crown_of_Maine_31027_Delivery_2_HydroFlattenedDEM_Metadata.xml",
+          "sha256": "ca81c85308153a390114fc862a66a1942c5ef5b5a906fd57f2646c2f26c0d4c6",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20180512"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20180603"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "NAD 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "NAVD 1988 (GEOID 12B)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        },
+        {
+          "file": "0-item-0-3.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B1_2018/reports/vendor_provided_xml/Crown_of_Maine_31027_Delivery_2_ProjectLevel_Metadata.xml",
+          "sha256": "95875e84a6020e19f42dfe547be780204a2d6c088413f064f907b841f623d654",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20180512"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20180603"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "NAD 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "NAVD 1988 (GEOID 12B)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        },
+        {
+          "file": "0-item-0-4.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B1_2018/reports/vendor_provided_xml/Maine_2018_Final_HydroFlattenedDEM_Metadata.xml",
+          "sha256": "6f07dbc895617777d65ef140334f358e05e4fabe3dc8dc3d9c83d9dbaf9225c8",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20180512"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20190608"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "NAD 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "NAVD 1988 (GEOID 12B)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        },
+        {
+          "file": "0-item-0-5.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B1_2018/reports/vendor_provided_xml/Maine_2018_Final_ProjectLevel_Metadata.xml",
+          "sha256": "8289171e4fb14f68005dc444a96d7837e04b83436fe0dc816b8227173ab3ad9f",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20180512"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20190608"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "NAD 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "NAVD 1988 (GEOID 12B)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        },
+        {
+          "file": "0-item-1-0.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B2_2018/reports/vendor_provided_xml/Maine_2018_Final_HydroFlattenedDEM_Metadata.xml",
+          "sha256": "a9f7eac36d8693af29a958f8115c7cba0da534e3fef7c32b7fba07e1ca7f4317",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20180512"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20190608"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "NAD 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "NAVD 1988 (GEOID 12B)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        },
+        {
+          "file": "0-item-1-1.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B2_2018/reports/vendor_provided_xml/Maine_2018_Final_ProjectLevel_Metadata.xml",
+          "sha256": "55c14d7129bd6ebb4d5564198fd44c2268b502a13795a431059a0663e36382fd",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20180512"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20190608"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "NAD 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "NAVD 1988 (GEOID 12B)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        }
+      ],
+      "listings": [
+        {
+          "prefix": "StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B1_2018",
+          "scope": "Root objects and discovered reports directories only",
+          "report_prefixes": [
+            "StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B1_2018/reports/"
+          ]
+        },
+        {
+          "prefix": "StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B2_2018",
+          "scope": "Root objects and discovered reports directories only",
+          "report_prefixes": [
+            "StagedProducts/Elevation/metadata/ME_CrownofMaine_2018_A18/ME_CrownofMaine_B2_2018/reports/"
+          ]
+        }
+      ],
+      "selected_xml_count": 2
+    },
+    {
+      "source_id": "65c711a2d34ef4b119cb2c32",
+      "item_sha256": "851daf98b011efaffaba6e600246be3ada3cb3a97199060aa52d46dcef1d89ec",
+      "documents": [
+        {
+          "file": "1-item-0-0.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_EasternME_2017_A17/ME_Eastern_TL_2017/reports/vendor_provided_xml/USGS_Maine_2017_LiDAR_HydroFlattenedDEM_Metadata.xml",
+          "sha256": "30f9c84c4e04a13f8b1ed423c5513fe06838d79bb2bb2ddf575ad6925dd3fe50",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20170430"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20171204"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "North American Datum of 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "North American Vertical Datum of 1988 (GEOID12B)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meter"
+            ]
+          }
+        },
+        {
+          "file": "1-item-0-1.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_EasternME_2017_A17/ME_Eastern_TL_2017/reports/vendor_provided_xml/USGS_Maine_2017_LiDAR_ProjectLevel_Metadata.xml",
+          "sha256": "f581fe9c050cffecdc7fab5c933727ecbc59cece95cadf14a4915d06f82e652b",
+          "parse_error": "mismatched tag: line 94, column 6"
+        }
+      ],
+      "listings": [
+        {
+          "prefix": "StagedProducts/Elevation/metadata/ME_EasternME_2017_A17/ME_Eastern_TL_2017",
+          "scope": "Root objects and discovered reports directories only",
+          "report_prefixes": [
+            "StagedProducts/Elevation/metadata/ME_EasternME_2017_A17/ME_Eastern_TL_2017/reports/"
+          ]
+        }
+      ],
+      "selected_xml_count": 2
+    },
+    {
+      "source_id": "5eacf54782cefae35a24e153",
+      "item_sha256": "77986c1bbca2170988c3434e2e8173626dfc6e124ac0d2425f6022ca82bc5ce2",
+      "documents": []
+    },
+    {
+      "source_id": "5eacf6f382cefae35a24ebc7",
+      "item_sha256": "89b8dfb952eb93c64b6791d5f583e9c8314204c5c7e2cc4909a7b93dc62f8929",
+      "documents": []
+    },
+    {
+      "source_id": "672adf19d34e16b32e73054e",
+      "item_sha256": "c60592aecfc25d0d632ba03222059e1cbb61f7e41bb8cd43214072bc36db565d",
+      "documents": [
+        {
+          "file": "4-item-0-0.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_MidCentral_B23/ME_MidCentral_1_B23/reports/vendor_provided_xml/ME_MidCentral_B23_WU300513_DEM.xml",
+          "sha256": "36b829f145ac546333f4d9bdec80a0cc8f3b93fd3540e02df7eee34d7d4248cc",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20240428"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20240518"
+            ],
+            "idinfo/timeperd/current": [
+              "Ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "North American Datum of 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "NAVD88 Geoid 18"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "Meter"
+            ]
+          }
+        }
+      ],
+      "listings": [
+        {
+          "prefix": "StagedProducts/Elevation/metadata/ME_MidCentral_B23/ME_MidCentral_1_B23",
+          "scope": "Root objects and discovered reports directories only",
+          "report_prefixes": [
+            "StagedProducts/Elevation/metadata/ME_MidCentral_B23/ME_MidCentral_1_B23/reports/"
+          ]
+        }
+      ],
+      "selected_xml_count": 1
+    },
+    {
+      "source_id": "6a753ec11ba49b79d0c34490",
+      "item_sha256": "b4a6697f88eeb9dd4665ccd2d3a13b17fdedc4ee94f17766de85de659c4031ac",
+      "documents": [
+        {
+          "file": "5-item-0-0.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_WesternMtns_B24/ME_WesternMtns_1_B24/reports/vendor_provided_xml/ME_WesternMtns_B24_WU301127_DEM.xml",
+          "sha256": "4aee16d69218fa24c4882434623e59749cd4cf83a9c5255bf5e739bb609ceae6",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20241017"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20241115"
+            ],
+            "idinfo/timeperd/current": [
+              "Ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "North American Datum of 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "NAVD88 Geoid 18"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "Meter"
+            ]
+          }
+        }
+      ],
+      "listings": [
+        {
+          "prefix": "StagedProducts/Elevation/metadata/ME_WesternMtns_B24/ME_WesternMtns_1_B24",
+          "scope": "Root objects and discovered reports directories only",
+          "report_prefixes": [
+            "StagedProducts/Elevation/metadata/ME_WesternMtns_B24/ME_WesternMtns_1_B24/reports/"
+          ]
+        }
+      ],
+      "selected_xml_count": 1
+    },
+    {
+      "source_id": "6635c582d34edc29f40a10dc",
+      "item_sha256": "3b19d54a6c942a40efc86fc87605eac5c9b3246d8890c1147ed566e707f9a6ac",
+      "documents": [
+        {
+          "file": "6-item-0-0.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_Western_ME_LiDAR_2016_B16/ME_Western_2016/reports/vendor_provided_xml/27146_Maine2016_HydroFlattenedDEM_Metadata.xml",
+          "sha256": "f3102de907ea1f6b77eda200f8f29d7bbebd170abc75d02e077e40dbbc8944af",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20160405"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20160521"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "North American Datum of 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "North American Vertical Datum of 1988 (Geoid 12B)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        },
+        {
+          "file": "6-item-0-1.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_Western_ME_LiDAR_2016_B16/ME_Western_2016/reports/vendor_provided_xml/27146_Maine2016_ProjectLevel_Metadata.xml",
+          "sha256": "8e127ac9cf9631fcc3878bd1ffc7fedb514f503a9ffc8837bf0ce38fd8f5a4f7",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20160405"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20160521"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "North American Datum of 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "North American Vertical Datum of 1988 (Geoid 12B)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        }
+      ],
+      "listings": [
+        {
+          "prefix": "StagedProducts/Elevation/metadata/ME_Western_ME_LiDAR_2016_B16/ME_Western_2016",
+          "scope": "Root objects and discovered reports directories only",
+          "report_prefixes": [
+            "StagedProducts/Elevation/metadata/ME_Western_ME_LiDAR_2016_B16/ME_Western_2016/reports/"
+          ]
+        }
+      ],
+      "selected_xml_count": 2
+    },
+    {
+      "source_id": "663b0d42d34e77890839b681",
+      "item_sha256": "6e28b063854b6913e80d887e6676a4b366e4f546076f5c8dc8ceefe7157a5c40",
+      "documents": [
+        {
+          "file": "7-item-0-0.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA/ME_ME-MA-QL2-L2_2015/reports/provisional_vendor_provided_xml/ME_QL2_UTM_19_HydroFlattened_DEM_Metadata.xml",
+          "sha256": "f7e8576ee92543d31c425fdba03bd1ebb6d952b32cb6cc3802fb8e8bdb252795",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20150426"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "Unknown"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "North American Datum of 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "North American Vertical Datum of 1988, GEOID12A"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        },
+        {
+          "file": "7-item-0-1.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA/ME_ME-MA-QL2-L2_2015/reports/provisional_vendor_provided_xml/ME_QL2_UTM_19_Project_Level_Metadata.xml",
+          "sha256": "ca41fe89bca62bcdbc4c81417dc550acee54e86c4e82b2eaddd9f95f2e8130b2",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20150426"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "Unknown"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "North American Datum of 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "North American Vertical Datum of 1988, GEOID12A"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        },
+        {
+          "file": "7-item-0-2.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA/ME_ME-MA-QL2-L2_2015/reports/vendor_provided_xml/ME_QL2_UTM_19_Hydro-Flattened_DEM_Metadata.xml",
+          "sha256": "20f743eff70287d83e33f8327cf04dd7de7b17e69a744f8b3d4ddcb4404d7de3",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20150504"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20151110"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "North American Datum of 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "North American Vertical Datum of 1988 (Geoid12A)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        },
+        {
+          "file": "7-item-0-3.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA/ME_ME-MA-QL2-L2_2015/reports/vendor_provided_xml/ME_QL2_UTM_19_ProjectLevel_Metadata.xml",
+          "sha256": "93f08883a1c5b83c923df1a0629d25fe69050d0eca73ad780bcc1af18deddb0e",
+          "source_fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20150504"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20151110"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "North American Datum of 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "North American Vertical Datum of 1988 (Geoid12A)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ]
+          }
+        }
+      ],
+      "listings": [
+        {
+          "prefix": "StagedProducts/Elevation/metadata/Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA/ME_ME-MA-QL2-L2_2015",
+          "scope": "Root objects and discovered reports directories only",
+          "report_prefixes": [
+            "StagedProducts/Elevation/metadata/Maine_and_Massachusetts_QL1_and_QL2_LiDAR_BAA/ME_ME-MA-QL2-L2_2015/reports/"
+          ]
+        }
+      ],
+      "selected_xml_count": 4
+    }
+  ]
+}
