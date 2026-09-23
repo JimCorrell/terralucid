@@ -1,0 +1,88 @@
+{
+  "evidence_state": "DERIVED",
+  "method_sha256": "b96dd115001704eba4e7f4ed79c9d10a0d090d079eaf77d7ef24c226e6755be6",
+  "runtime": {
+    "pymupdf": "1.24.14"
+  },
+  "eastern_dem_xml_sha256": "7a9fe78431a94c04899d1117f4321835e13510445af454687fe8ce1ede020543",
+  "eastern_dem_fields": {
+    "begdate": [
+      "20170430"
+    ],
+    "enddate": [
+      "20171204"
+    ],
+    "horizdn": [
+      "North American Datum of 1983 (2011)"
+    ],
+    "altdatum": [
+      "North American Vertical Datum of 1988 (GEOID12B)"
+    ],
+    "altunits": [
+      "meter"
+    ],
+    "vertaccr": [
+      "The project specifications require the accuracy (ACCz) of the derived DEM be calculated and reported in two ways: 1. The required NVA is: 19.6 cm at a 95% confidence level, derived according to the ASPRS Positional Accuracy Standards for Geospatial Data, i.e., based on RMSE of 10 cm in the \"bare earth\" and \"urban\" land cover classes. This is a required accuracy. The NVA was tested with 176 checkpoints located in bare earth and urban (non-vegetated) areas. 2. Vegetated Vertical Accuracy (VVA): VVA shall be reported for \"forested\", \"shrubs\", and \"tall weeds\" land cover classes. The target VVA is: 29.4 cm at the 95th percentile, derived according to ASPRS Guidelines, Vertical Accuracy Reporting for LiDAR Data, i.e., based on the 95th percentile error in all vegetated land cover classes combined. This is a target accuracy. The VVA was tested with 123 checkpoints located in forested, shrubs, and tall weeds (vegetated) areas. The checkpoints were distributed throughout the project area and were surveyed using GPS techniques. See survey report for additional survey methodologies. AccuracyZ has been tested to meet 19.6 cm or better Non-Vegetated Vertical Accuracy at 95% confidence level using RMSE(z) x 1.9600 as defined by the ASPRS Positional Accuracy Standards for Geospatial Data; assessed and reported using National Digital Elevation Program (NDEP)/ASRPS Guidelines."
+    ],
+    "vertaccv": [
+      "0.099",
+      "0.255"
+    ],
+    "vertacce": [
+      "This data set was tested to meet ASPRS Positional Accuracy Standards for Digital Geospatial Data (2014) for a 10 cm RMSEz Vertical Accuracy Class. Actual NVA accuracy was found to be RMSEz = 5.1 cm, equating to 10.0 cm at 95% confidence level. The NVA of the DEM was calculated using 176 independent checkpoints located in the Bare Earth and Urban land cover categories.",
+      "This data set was tested to meet ASPRS Positional Accuracy Standards for Digital Geospatial Data (2014) for a 10 cm RMSEz Vertical Accuracy Class. Actual NVA accuracy was found to be RMSEz = 5.1 cm, equating to 10.0 cm at 95% confidence level. Actual VVA accuracy was found to be 25.5 cm at the 95th percentile. VVA was calculated using 123 checkpoints located in the Forested, Shrubs, and Tall Weeds land cover categories at the 95th percentile, derived according to ASPRS Guidelines, Vertical Accuracy Reporting for LiDAR Data. Tested against the DEM."
+    ]
+  },
+  "western_pdf": {
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_WesternMtns_B24/ME_WesternMtns_1_B24/reports/ME_WesternMtns_B24_WU301127_Lidar_Report.pdf",
+    "etag": "\"2a90103f012f32babe2f2155cf13433d\"",
+    "complete_file_size": 199481708,
+    "retained_range_bytes": 8378732,
+    "complete_pdf_downloaded": false,
+    "reviewed_pages": [
+      {
+        "pdf_page": 22,
+        "printed_page": 19,
+        "render_file": "western-page-22.png",
+        "render_sha256": "8b9c6f8717b7194940dc8be7083d4144843ae123bcfb3c0875e3be438651281b"
+      },
+      {
+        "pdf_page": 23,
+        "printed_page": 20,
+        "render_file": "western-page-23.png",
+        "render_sha256": "244ab3e0797738a8d2f8b1398bf9735a910c26f1b94db57a2004a3326118cac4"
+      }
+    ],
+    "parser_warnings": "syntax error: expected object number\nrepairing PDF document\nformat error: non-page object in page tree\nPage tree load failed. Falling back to slow lookup",
+    "limits": "Partial sparse reconstruction, not a complete PDF. Unfetched page-tree branches produce a non-page warning. Only displayed report pages 19-20 (PDF 22-23), including table/context, are used; renders visually reviewed. No claim about inaccessible pages or attachments."
+  },
+  "measured_results": {
+    "eastern_2017": {
+      "nva_numeric_m": 0.099,
+      "nva_prose_95_percent_m": 0.1,
+      "nva_rmse_prose_m": 0.051,
+      "nva_checkpoints": 176,
+      "vva_95th_percentile_m": 0.255,
+      "vva_checkpoints": 123
+    },
+    "western_2024": {
+      "raw_pointcloud_nva_95_percent_m": 0.0652,
+      "dem_nva_95_percent_m": 0.0647,
+      "nva_checkpoints": 122,
+      "dem_vva_95th_percentile_m": 0.2023,
+      "vva_checkpoints": 31
+    }
+  },
+  "limits": [
+    "Publisher project-level measured results, not independently remeasured or local parcel accuracy.",
+    "No raster values, masks, source priorities, height corrections or terrain qualification changed."
+  ],
+  "validation": {
+    "all_captured_source_hashes_checked": true,
+    "xml_fields_and_pdf_table_context_checked": true,
+    "accuracy_table_and_context_visually_reviewed": true,
+    "usgs_summary_pages_2_3_visually_reviewed": true,
+    "full_pdf_parse_succeeded": false,
+    "elevation_data_changed": false
+  }
+}

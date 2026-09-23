@@ -194,3 +194,10 @@ Either alternative's mask plus the Eastern B2 mask covers the square, while each
 source alone remains partial. Original geoid/accuracy qualifications and small
 native-grid offsets prevent automatic merging or source preference. TL-F-0104
 remains in progress; no county coverage or suitability conclusion follows.
+
+The [terrain accuracy review](../research/terrain-accuracy/README.md) locates the
+explicit Eastern B2 original-work-unit linkage and measured DEM accuracy for both
+Eastern 2017 and Western 2024. Both declare NAVD88 in meters; GEOID12B versus GEOID18
+is a processing-model difference, not by itself evidence for a vertical correction.
+Project-level statistics and publisher label discrepancies remain visible. Local
+overlap/seam checks are the next qualification step; no raster merge is activated.
