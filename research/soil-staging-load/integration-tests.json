@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": [
+    "full_bundle_fingerprint_geometry_and_count_readback",
+    "sealed_batch_rejects_mutations_and_late_appends",
+    "duplicate_batch_rejected_without_changes",
+    "client_roles_denied_and_rls_enabled",
+    "invalid_geometry_hold_crs_and_missing_parent_roll_back"
+  ],
+  "readback": {
+    "holds": 7,
+    "records": 38237,
+    "geometry_rows": 29361,
+    "row_fingerprint": "ebc2f65c4dd137613517bfb6dbb0ea6ab5b4c1db4f6b2ab6e6a61739cf18661d",
+    "geometry_mismatches": 0
+  }
+}

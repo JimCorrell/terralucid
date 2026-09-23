@@ -128,3 +128,9 @@ Verification: six focused tests pass; a second preparation reproduced identical
 record/report bytes. The [bundle verification](bundle-verification.json) checks
 all archived object hashes and all 38,237 prepared rows against their exact source
 response rows, plus identity/count/hold consistency.
+
+
+Subsequent deployment: the [soil staging load](../soil-staging-load/README.md)
+loads this exact bundle and verifies archive/record readback. The preparation-only
+status above is historical; its holds, source qualifications and coverage result
+remain unchanged.

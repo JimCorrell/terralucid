@@ -151,3 +151,9 @@ rows. Next implement and test private staging/archive transfer, preserve the sev
 held source polygons, and investigate residual coverage under TL-F-0113. Terrain
 candidate narrowing under TL-F-0104 precedes raster metadata/valid-pixel checks.
 Neither availability adapter is enabled by preparation alone.
+
+
+The [soil staging load](../research/soil-staging-load/README.md) completes private
+archive transfer and transactional record loading for that prepared version.
+Next investigate its held polygons and coverage gap and qualify metadata before
+enabling a soils availability adapter. Terrain data qualification remains separate.

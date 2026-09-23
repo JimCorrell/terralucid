@@ -190,3 +190,13 @@ even if its fraction rounds to one. No epsilon, coordinate snapping or repaired
 source is introduced. This changes derived coverage reporting only, with the
 existing method dependency requiring packet regeneration. Holds and suitability
 limits remain independent. See the [precision investigation](../research/qualification-precision/README.md).
+
+
+## County soil source staging
+
+Following merged PR #57, load the verified soil bundle into private Supabase
+source staging and preserve exact responses in the existing private Storage
+bucket. Scope each record to its report version and retain parent links, original
+geometry, holds and outside candidates. Loading is separate from availability
+qualification and purchase-triggered septic due diligence. See
+[soil staging](soil-staging.md) for integrity and access controls.
