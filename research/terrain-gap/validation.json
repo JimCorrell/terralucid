@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "report_sha256": "5572275d5aacaf0a67ea16e1c4627581a3d3a8b8420cbee1b722982756c2049a",
+  "method_sha256": "95a6a77a4e6b4d0c1bab715d695eff50f3922097a9968f0b16adef8606ba8864",
+  "hashed_source_objects": 16,
+  "subsets_reproduced_exactly": 2,
+  "network_requests": 0
+}

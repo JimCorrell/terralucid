@@ -1,0 +1,70 @@
+{
+  "evidence_state": "DERIVED",
+  "method_sha256": "41230f9635e72ae040310cb13f04f6098f053de40dab25e0ed9b0c6767b3a629",
+  "pilot_sha256": "e993f6b1e6ee78ddb5ad565b65369a3ebbe4cb81e1270253c6ef3d7399978069",
+  "alternative_report_sha256": "5572275d5aacaf0a67ea16e1c4627581a3d3a8b8420cbee1b722982756c2049a",
+  "runtime": {
+    "shapely": "2.0.7",
+    "geos": "3.11.4",
+    "rasterio": "1.4.3"
+  },
+  "base_source_id": "5eacf6f382cefae35a24ebc7",
+  "aoi_bounds": [
+    475114.0,
+    5024374.0,
+    475626.0,
+    5024886.0
+  ],
+  "comparisons": [
+    {
+      "source_id": "6635c4e3d34edc29f40a1058",
+      "title": "USGS 1 Meter 19 x47y503 ME_Western_ME_LiDAR_2016_B16",
+      "native_bounds": [
+        475113.00027691096,
+        5024373.999646217,
+        475626.00027691096,
+        5024886.999646217
+      ],
+      "native_grid_matches_base": false,
+      "aoi_m2": 262144.0,
+      "base_valid_m2": 185356.0,
+      "base_missing_m2": 76788.0,
+      "alternative_valid_m2": 249344.14177840948,
+      "alternative_missing_m2": 12799.858221590519,
+      "original_gap_covered_m2": 76788.0,
+      "original_gap_remaining_m2": 0.0,
+      "joint_valid_m2": 172556.14177840948,
+      "base_only_valid_m2": 12799.858221590519,
+      "alternative_covers_entire_aoi": false,
+      "alternative_covers_original_gap": true,
+      "combined_coverage": "full_geometric"
+    },
+    {
+      "source_id": "6a753eb51ba49b79d0c34402",
+      "title": "USGS 1 Meter 19 x47y503 ME_WesternMtns_B24",
+      "native_bounds": [
+        475113.00027691096,
+        5024373.999646217,
+        475626.00027691096,
+        5024886.999646217
+      ],
+      "native_grid_matches_base": false,
+      "aoi_m2": 262144.0,
+      "base_valid_m2": 185356.0,
+      "base_missing_m2": 76788.0,
+      "alternative_valid_m2": 249344.14177840948,
+      "alternative_missing_m2": 12799.858221590519,
+      "original_gap_covered_m2": 76788.0,
+      "original_gap_remaining_m2": 0.0,
+      "joint_valid_m2": 172556.14177840948,
+      "base_only_valid_m2": 12799.858221590519,
+      "alternative_covers_entire_aoi": false,
+      "alternative_covers_original_gap": true,
+      "combined_coverage": "full_geometric"
+    }
+  ],
+  "limits": [
+    "Exact spatial intersection of native valid-pixel footprints with original AOI. No snapping, tolerance, resampling, blending or source choice.",
+    "Complete geometric coverage does not establish elevation accuracy, datum compatibility, source currency, suitability or county availability."
+  ]
+}

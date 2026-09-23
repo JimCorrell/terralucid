@@ -1,0 +1,355 @@
+[
+  {
+    "file": "raster-0-item.json",
+    "url": "https://www.sciencebase.gov/catalog/item/6635c4e3d34edc29f40a1058?format=json",
+    "sha256": "f942cdefc9b86ea1ef5517491606633b81e567fb0c52ccf43c6534be61b7dcde",
+    "bytes": 11239,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:05:34.038104+00:00",
+    "etag": null,
+    "last_modified": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "content_range": null
+  },
+  {
+    "file": "raster-0-product.xml",
+    "url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/geotiff/ME_Western_ME_LiDAR_2016_B16/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.xml",
+    "sha256": "4a122f7c4d897711ca4538c6ab8acb61f5013cbd1ade2ed2fa9f6761d0b9b15f",
+    "bytes": 13322,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:05:34.332042+00:00",
+    "etag": "\"340a-61799f283f112\"",
+    "last_modified": "Sat, 04 May 2024 05:17:06 GMT",
+    "content_range": null
+  },
+  {
+    "file": "raster-0-header-header.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+    "sha256": "dd06896097e7166b9434b03a36dd945b9d0669543c9c1a337b909866b2347516",
+    "bytes": 65536,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:35.106538+00:00",
+    "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+    "last_modified": "Fri, 13 Feb 2026 14:32:57 GMT",
+    "content_range": "bytes 0-65535/248518972"
+  },
+  {
+    "file": "raster-0-pixels-header.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+    "sha256": "dd06896097e7166b9434b03a36dd945b9d0669543c9c1a337b909866b2347516",
+    "bytes": 65536,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:35.722880+00:00",
+    "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+    "last_modified": "Fri, 13 Feb 2026 14:32:57 GMT",
+    "content_range": "bytes 0-65535/248518972"
+  },
+  {
+    "file": "raster-0-pixels-range-1.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+    "sha256": "819aa97fc0a12e705ae03b6c88f60ac6fe89b5008562ef8e82515f734ea9c040",
+    "bytes": 681883,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:36.782302+00:00",
+    "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+    "last_modified": "Fri, 13 Feb 2026 14:32:57 GMT",
+    "content_range": "bytes 135879168-136561050/248518972"
+  },
+  {
+    "file": "raster-0-pixels-range-2.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+    "sha256": "6fdfe91f2eb7b2da99f6fb8390526c159fa09fe789e7edde66cdde66e389c139",
+    "bytes": 658465,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:38.055996+00:00",
+    "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+    "last_modified": "Fri, 13 Feb 2026 14:32:57 GMT",
+    "content_range": "bytes 136561059-137219523/248518972"
+  },
+  {
+    "file": "raster-0-pixels-range-3.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+    "sha256": "2fc03e0a53112f15b3fe87b3d043f1343c77140b1928f6d2dbc356dab01deaf5",
+    "bytes": 684501,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:38.983597+00:00",
+    "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+    "last_modified": "Fri, 13 Feb 2026 14:32:57 GMT",
+    "content_range": "bytes 141112277-141796777/248518972"
+  },
+  {
+    "file": "raster-0-pixels-range-4.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_Western_ME_LiDAR_2016_B16/TIFF/USGS_1M_19_x47y503_ME_Western_ME_LiDAR_2016_B16.tif",
+    "sha256": "6e4d964ca1e7937e3e056fb5a272db39e00b8d47b995ff1a9ddf423fc5c0aa96",
+    "bytes": 673661,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:39.920601+00:00",
+    "etag": "\"2dd496dd8b908906960861ccb3ae0ef6-48\"",
+    "last_modified": "Fri, 13 Feb 2026 14:32:57 GMT",
+    "content_range": "bytes 141796786-142470446/248518972"
+  },
+  {
+    "file": "raster-1-item.json",
+    "url": "https://www.sciencebase.gov/catalog/item/6a753eb51ba49b79d0c34402?format=json",
+    "sha256": "4c4b51e63a95cb51480329e5848b5c70bf223e41c4b1a7578953cd6097b2921c",
+    "bytes": 9509,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:05:40.345603+00:00",
+    "etag": null,
+    "last_modified": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "content_range": null
+  },
+  {
+    "file": "raster-1-product.xml",
+    "url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/geotiff/ME_WesternMtns_B24/USGS_1M_19_x47y503_ME_WesternMtns_B24.xml",
+    "sha256": "4f3519c5c1a4580f8dbe89bb2deff37f0211f0acd814b20799e8eea277c7a769",
+    "bytes": 13469,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:05:40.627235+00:00",
+    "etag": "\"349d-6586b841a0917\"",
+    "last_modified": "Fri, 07 Aug 2026 02:11:01 GMT",
+    "content_range": null
+  },
+  {
+    "file": "raster-1-header-header.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+    "sha256": "d49214a35afcf01c4d0b02c62b9b61aea225f95372a110a6fa34c5bba6877191",
+    "bytes": 65536,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:41.285644+00:00",
+    "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+    "last_modified": "Thu, 06 Aug 2026 19:57:35 GMT",
+    "content_range": "bytes 0-65535/246731827"
+  },
+  {
+    "file": "raster-1-pixels-header.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+    "sha256": "d49214a35afcf01c4d0b02c62b9b61aea225f95372a110a6fa34c5bba6877191",
+    "bytes": 65536,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:42.081980+00:00",
+    "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+    "last_modified": "Thu, 06 Aug 2026 19:57:35 GMT",
+    "content_range": "bytes 0-65535/246731827"
+  },
+  {
+    "file": "raster-1-pixels-range-1.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+    "sha256": "94514651a92933773ac89f8ebd5713b2dc969fe6b07ed326b86e1d28de86b394",
+    "bytes": 676400,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:43.046411+00:00",
+    "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+    "last_modified": "Thu, 06 Aug 2026 19:57:35 GMT",
+    "content_range": "bytes 135094506-135770905/246731827"
+  },
+  {
+    "file": "raster-1-pixels-range-2.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+    "sha256": "8b21f37ef7b04ec75a1c3a0dee04bddca7bc3acb45c6da579c740dc740826e49",
+    "bytes": 653130,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:44.095619+00:00",
+    "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+    "last_modified": "Thu, 06 Aug 2026 19:57:35 GMT",
+    "content_range": "bytes 135770914-136424043/246731827"
+  },
+  {
+    "file": "raster-1-pixels-range-3.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+    "sha256": "5d9135de97912ab25816257b929126b89c52ad3aa7b5bad3e4dde089b8cb4e29",
+    "bytes": 680633,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:45.198580+00:00",
+    "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+    "last_modified": "Thu, 06 Aug 2026 19:57:35 GMT",
+    "content_range": "bytes 140273618-140954250/246731827"
+  },
+  {
+    "file": "raster-1-pixels-range-4.bin",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/ME_WesternMtns_B24/TIFF/USGS_1M_19_x47y503_ME_WesternMtns_B24.tif",
+    "sha256": "24108e97790d4ac6b8e8f8b39a7107da4e69f0fdb313068d07552e03f768883c",
+    "bytes": 669881,
+    "status": 206,
+    "retrieved_at": "2026-09-23T20:05:46.174621+00:00",
+    "etag": "\"1637b63badd01531cd8623954f206ccf-48\"",
+    "last_modified": "Thu, 06 Aug 2026 19:57:35 GMT",
+    "content_range": "bytes 140954259-141624139/246731827"
+  },
+  {
+    "file": "raster-sources.json",
+    "url": "derived:.local/terrain-gap/sources.json",
+    "sha256": "eac346c9b54a20ece7b91736d990d2d4b7c9ed779b52891c8131d636d3f1f44f"
+  },
+  {
+    "file": "raster-report.json",
+    "url": "derived:.local/terrain-gap/report.json",
+    "sha256": "5572275d5aacaf0a67ea16e1c4627581a3d3a8b8420cbee1b722982756c2049a"
+  },
+  {
+    "file": "metadata-0-item-0-root.xml",
+    "url": "https://prd-tnm.s3.amazonaws.com/?list-type=2&prefix=StagedProducts%2FElevation%2Fmetadata%2FME_Western_ME_LiDAR_2016_B16%2FME_Western_2016%2F&delimiter=%2F",
+    "sha256": "0ebc8f9392c117c087c44e36fcfa7d35a088eee20fbefb87c9a184288f49c965",
+    "bytes": 1056,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:06:44.687936+00:00",
+    "etag": null,
+    "last_modified": null,
+    "content_range": null
+  },
+  {
+    "file": "metadata-0-item-0-reports-0.xml",
+    "url": "https://prd-tnm.s3.amazonaws.com/?list-type=2&prefix=StagedProducts%2FElevation%2Fmetadata%2FME_Western_ME_LiDAR_2016_B16%2FME_Western_2016%2Freports%2F",
+    "sha256": "1e3f188f8cdb6a2b56411035f5b560399561b725b1784d307a3f6b0b298a1e6f",
+    "bytes": 20924,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:06:45.230396+00:00",
+    "etag": null,
+    "last_modified": null,
+    "content_range": null
+  },
+  {
+    "file": "metadata-0-item-0-0.xml",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_Western_ME_LiDAR_2016_B16/ME_Western_2016/reports/vendor_provided_xml/27146_Maine2016_HydroFlattenedDEM_Metadata.xml",
+    "sha256": "f3102de907ea1f6b77eda200f8f29d7bbebd170abc75d02e077e40dbbc8944af",
+    "bytes": 10263,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:06:45.717147+00:00",
+    "etag": "\"7ee0a67cb3e6fb7e114045e6224c5bc3\"",
+    "last_modified": "Mon, 05 Dec 2022 23:23:22 GMT",
+    "content_range": null
+  },
+  {
+    "file": "metadata-0-item-0-1.xml",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_Western_ME_LiDAR_2016_B16/ME_Western_2016/reports/vendor_provided_xml/27146_Maine2016_ProjectLevel_Metadata.xml",
+    "sha256": "8e127ac9cf9631fcc3878bd1ffc7fedb514f503a9ffc8837bf0ce38fd8f5a4f7",
+    "bytes": 21465,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:06:46.324258+00:00",
+    "etag": "\"5b9a8786a24b3b59d4720408c6b0e210\"",
+    "last_modified": "Mon, 05 Dec 2022 23:23:23 GMT",
+    "content_range": null
+  },
+  {
+    "file": "metadata-1-item-0-root.xml",
+    "url": "https://prd-tnm.s3.amazonaws.com/?list-type=2&prefix=StagedProducts%2FElevation%2Fmetadata%2FME_WesternMtns_B24%2FME_WesternMtns_1_B24%2F&delimiter=%2F",
+    "sha256": "67c3487e5f2c5d561f70522faa69c6bf979b4942b3d8367779caf70824a98fda",
+    "bytes": 1120,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:06:46.798869+00:00",
+    "etag": null,
+    "last_modified": null,
+    "content_range": null
+  },
+  {
+    "file": "metadata-1-item-0-reports-0.xml",
+    "url": "https://prd-tnm.s3.amazonaws.com/?list-type=2&prefix=StagedProducts%2FElevation%2Fmetadata%2FME_WesternMtns_B24%2FME_WesternMtns_1_B24%2Freports%2F",
+    "sha256": "b0c1dc80d5157dbc49e1eb8f08e94ab77ceba2293297241ba7546af67bc18d97",
+    "bytes": 3262,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:06:47.248411+00:00",
+    "etag": null,
+    "last_modified": null,
+    "content_range": null
+  },
+  {
+    "file": "metadata-1-item-0-0.xml",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_WesternMtns_B24/ME_WesternMtns_1_B24/reports/vendor_provided_xml/ME_WesternMtns_B24_WU301127_DEM.xml",
+    "sha256": "4aee16d69218fa24c4882434623e59749cd4cf83a9c5255bf5e739bb609ceae6",
+    "bytes": 8994,
+    "status": 200,
+    "retrieved_at": "2026-09-23T20:06:47.810733+00:00",
+    "etag": "\"1650ab0831a25199fa9138641a3ab9f2\"",
+    "last_modified": "Mon, 27 Jul 2026 21:48:55 GMT",
+    "content_range": null
+  },
+  {
+    "file": "metadata-sources.json",
+    "url": "derived:.local/terrain-gap-projects/sources.json",
+    "sha256": "6b3c354c8534e92cfe9529efd606d426680c1a122535e837111f20266ebb6ebf"
+  },
+  {
+    "file": "metadata-report.json",
+    "url": "derived:.local/terrain-gap-projects/report.json",
+    "sha256": "b9ae912fdbb7e5a8e8582fec8031d5ab04585fe4d0fcdf42dbe4e3dfd7e030c5"
+  },
+  {
+    "file": "alternative-2016.tif",
+    "url": "derived:.local/terrain-gap/0-subset.tif",
+    "sha256": "4fa3055b7c5833e68c1a8d01739da0ce86faa39e22af1faae897e762b165900f"
+  },
+  {
+    "file": "alternative-2024.tif",
+    "url": "derived:.local/terrain-gap/1-subset.tif",
+    "sha256": "53ef73e4999e9750fda5709c108ed0d633dbe192a2062bf6889cc8d3d06860f9"
+  },
+  {
+    "file": "base-subset.tif",
+    "url": "derived:.local/terrain-area-pilot-final/0-subset.tif",
+    "sha256": "d2b14b3cdaaea57363f50e46360ae1e963bfd2987e661fb90035a5fcb4ad3a87"
+  },
+  {
+    "file": "county-boundary.json",
+    "url": "derived:.local/terrain-area-archive/county-boundary.json",
+    "sha256": "c11ce6fafbcd623b4994ec07ed757a53d798c67aeb950a2f896efd58f279b862"
+  },
+  {
+    "file": "base-report.json",
+    "url": "derived:research/terrain-area-pilot/report.json",
+    "sha256": "e993f6b1e6ee78ddb5ad565b65369a3ebbe4cb81e1270253c6ef3d7399978069"
+  },
+  {
+    "file": "request.json",
+    "url": "derived:research/terrain-area-pilot/request.json",
+    "sha256": "cc7884cf952e4eb5d5383744306b2b8cf2358bf37464654055548ba37a2a1bb9"
+  },
+  {
+    "file": "catalog.json",
+    "url": "derived:research/soils-terrain-readiness/report.json",
+    "sha256": "97683cb4356b6f1182540d9a959b3b45ccdebe11d6407ff3cb3547fc6693e4c8"
+  },
+  {
+    "file": "selection.json",
+    "url": "derived:research/county-soils-preparation/report.json",
+    "sha256": "b31e3034caee9f70361bb9c769b936b8709fcab38706f89cdee22c9265aad512"
+  },
+  {
+    "file": "project-metadata.json",
+    "url": "derived:research/terrain-gap/project-metadata.json",
+    "sha256": "f1c89f0b50da2755ae410a96e30d3f91c8e42c95763a771decbdd4b209789c50"
+  },
+  {
+    "file": "comparison.json",
+    "url": "derived:research/terrain-gap/comparison.json",
+    "sha256": "4820dda112d2b3d2c6a9e43854451e9a100140ab707674ef05daaaf841c98f48"
+  },
+  {
+    "file": "validation.json",
+    "url": "derived:research/terrain-gap/validation.json",
+    "sha256": "f2b698ebaaa894feb774065a1008cbd24a8f27ab45a17e8a56cf224b44e07445"
+  },
+  {
+    "file": "investigate_terrain_gap.py",
+    "url": "derived:scripts/investigate_terrain_gap.py",
+    "sha256": "6ecf374d5b3df306187dfc67c8127f665e2a6aa3296302c04a53b32c6f9cf1ef"
+  },
+  {
+    "file": "compare_terrain_gap.py",
+    "url": "derived:scripts/compare_terrain_gap.py",
+    "sha256": "41230f9635e72ae040310cb13f04f6098f053de40dab25e0ed9b0c6767b3a629"
+  },
+  {
+    "file": "retrieve_terrain_area.py",
+    "url": "derived:scripts/retrieve_terrain_area.py",
+    "sha256": "2de0b1de9eb761b70ed49b6e07df5f55b36630907eb70ff1f4d0806639fef0e7"
+  },
+  {
+    "file": "investigate_terrain_readiness.py",
+    "url": "derived:scripts/investigate_terrain_readiness.py",
+    "sha256": "f55be5e2a208aaa5bbb55b0732902edb6412db909aa82c76b0f8719a57863b66"
+  },
+  {
+    "file": "replay_terrain_gap.py",
+    "url": "derived:tests/replay_terrain_gap.py",
+    "sha256": "95a6a77a4e6b4d0c1bab715d695eff50f3922097a9968f0b16adef8606ba8864"
+  }
+]

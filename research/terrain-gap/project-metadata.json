@@ -1,0 +1,141 @@
+{
+  "method_sha256": "a4b3e75766d5e6a06e0004ca4fdb9520244a0ac38fb3bdd9e6423064fc7ef88b",
+  "projects": [
+    {
+      "source_id": "6635c4e3d34edc29f40a1058",
+      "item_sha256": "f942cdefc9b86ea1ef5517491606633b81e567fb0c52ccf43c6534be61b7dcde",
+      "documents": [
+        {
+          "file": "0-item-0-0.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_Western_ME_LiDAR_2016_B16/ME_Western_2016/reports/vendor_provided_xml/27146_Maine2016_HydroFlattenedDEM_Metadata.xml",
+          "sha256": "f3102de907ea1f6b77eda200f8f29d7bbebd170abc75d02e077e40dbbc8944af",
+          "fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20160405"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20160521"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "North American Datum of 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "North American Vertical Datum of 1988 (Geoid 12B)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ],
+            "dataqual/posacc/vertacc/vertaccr": [
+              "The project specifications require the accuracy (ACCz) of the derived DEM be calculated and reported in two ways: 1. The required NVA is: 19.6 cm at a 95% confidence level, derived according to NSSDA, i.e., based on RMSE of 10 cm in the \"bare earth\" and \"urban\" land cover classes. This is a required accuracy. The NVA was tested with 118 checkpoints located in bare earth and urban (non-vegetated) areas. 2. Vegetated Vertical Accuracy (VVA): VVA shall be reported for \"forested\", \"brushland/trees\", and \"tall weeds/crops\" land cover classes. The target VVA is: 29.4 cm at the 95th percentile, derived according to ASPRS Guidelines, Vertical Accuracy Reporting for Lidar Data, i.e., based on the 95th percentile error in all vegetated land cover classes combined. This is a target accuracy. The VVA was tested with 87 checkpoints located in forested, brushland/trees, and tall weeds/crops (vegetated) areas. The checkpoints were distributed throughout the project area and were surveyed using GPS techniques. See survey report for additional survey methodologies. AccuracyZ has been tested to meet 19.6 cm or better Non-Vegetated Vertical Accuracy at 95% confidence level using RMSE(z) x 1.9600 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASRPS Guidelines."
+            ],
+            "dataqual/posacc/vertacc/qvertpa/vertaccv": [
+              "0.113",
+              "0.253"
+            ],
+            "dataqual/posacc/vertacc/qvertpa/vertacce": [
+              "Tested 0.113 meters NVA at a 95% confidence level using RMSE(z) x 1.9600 as defined by the National Standards for Spatial Data Accuracy (NSSDA). The NVA of the DEM was calculated using 118 independent checkpoints located in the Bare Earth and Urban land cover categories.",
+              "Tested 0.253 meters VVA was calculated using 87 checkpoints located in the Forested, Brushland/Trees, and Tall Weeds/Crops land cover categories at the 95th percentile, derived according to ASPRS Guidelines, Vertical Accuracy Reporting for Lidar Data. Tested against the DEM."
+            ]
+          }
+        },
+        {
+          "file": "0-item-0-1.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_Western_ME_LiDAR_2016_B16/ME_Western_2016/reports/vendor_provided_xml/27146_Maine2016_ProjectLevel_Metadata.xml",
+          "sha256": "8e127ac9cf9631fcc3878bd1ffc7fedb514f503a9ffc8837bf0ce38fd8f5a4f7",
+          "fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20160405"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20160521"
+            ],
+            "idinfo/timeperd/current": [
+              "ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "North American Datum of 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "North American Vertical Datum of 1988 (Geoid 12B)"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "meters"
+            ],
+            "dataqual/posacc/vertacc/vertaccr": [
+              "The project specifications require that only Non-Vegetated Vertical Accuracy (NVA) be computed for raw lidar point cloud swath files. The required accuracy (ACCz) is: 19.6 cm at a 95% confidence level, derived according to NSSDA, i.e., based on RMSE of 10 cm in the \"bare earth\" and \"urban\" land cover classes. The NVA was tested with 116 of 118 checkpoints located in bare earth and urban (non-vegetated) areas. These check points were not used in the calibration or post processing of the lidar point cloud data. The checkpoints were distributed throughout the project area and were surveyed using GPS techniques. See survey report for additional survey methodologies. Elevations from the unclassified lidar surface were measured for the x,y location of each check point. Elevations interpolated from the lidar surface were then compared to the elevation values of the surveyed control points. AccuracyZ has been tested to meet 19.6 cm or better Non-Vegetated Vertical Accuracy at 95% confidence level using RMSE(z) x 1.9600 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASRPS Guidelines.\n\t\t\t\t\tThe project specifications require the accuracy (ACCz) of the derived DEM be calculated and reported in two ways: 1. The required NVA is: 19.6 cm at a 95% confidence level, derived according to NSSDA, i.e., based on RMSE of 10 cm in the \"bare earth\" and \"urban\" land cover classes. This is a required accuracy. The NVA was tested with 118 checkpoints located in bare earth and urban (non-vegetated) areas. 2. Vegetated Vertical Accuracy (VVA): VVA shall be reported for \"forested\", \"brushland/trees\", and \"tall weeds/crops\" land cover classes. The target VVA is: 29.4 cm at the 95th percentile, derived according to ASPRS Guidelines, Vertical Accuracy Reporting for Lidar Data, i.e., based on the 95th percentile error in all vegetated land cover classes combined. This is a target accuracy. The VVA was tested with 87 checkpoints located in forested, brushland/trees, and tall weeds/crops (vegetated) areas. The checkpoints were distributed throughout the project area and were surveyed using GPS techniques. See survey report for additional survey methodologies. AccuracyZ has been tested to meet 19.6 cm or better Non-Vegetated Vertical Accuracy at 95% confidence level using RMSE(z) x 1.9600 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASRPS Guidelines."
+            ],
+            "dataqual/posacc/vertacc/qvertpa/vertaccv": [
+              "0.114",
+              "0.113",
+              "0.253"
+            ],
+            "dataqual/posacc/vertacc/qvertpa/vertacce": [
+              "Tested 0.114 meters NVA at a 95% confidence level using RMSE(z) x 1.9600 as defined by the National Standards for Spatial Data Accuracy (NSSDA). The NVA of the raw lidar point cloud swath files was calculated against TINs derived from the final calibrated and controlled swath data using 116 independent checkpoints located in Bare Earth and Urban land cover classes.",
+              "Tested 0.113 meters NVA at a 95% confidence level using RMSE(z) x 1.9600 as defined by the National Standards for Spatial Data Accuracy (NSSDA). The NVA of the DEM was calculated using 118 independent checkpoints located in the Bare Earth and Urban land cover categories.",
+              "Tested 0.253 meters VVA was calculated using 87 checkpoints located in the Forested, Brushland/Trees, and Tall Weeds/Crops land cover categories at the 95th percentile, derived according to ASPRS Guidelines, Vertical Accuracy Reporting for Lidar Data. Tested against the DEM."
+            ]
+          }
+        }
+      ],
+      "listings": [
+        {
+          "prefix": "StagedProducts/Elevation/metadata/ME_Western_ME_LiDAR_2016_B16/ME_Western_2016",
+          "scope": "Root objects and discovered reports directories only",
+          "report_prefixes": [
+            "StagedProducts/Elevation/metadata/ME_Western_ME_LiDAR_2016_B16/ME_Western_2016/reports/"
+          ]
+        }
+      ],
+      "selected_xml_count": 2
+    },
+    {
+      "source_id": "6a753eb51ba49b79d0c34402",
+      "item_sha256": "4c4b51e63a95cb51480329e5848b5c70bf223e41c4b1a7578953cd6097b2921c",
+      "documents": [
+        {
+          "file": "1-item-0-0.xml",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/ME_WesternMtns_B24/ME_WesternMtns_1_B24/reports/vendor_provided_xml/ME_WesternMtns_B24_WU301127_DEM.xml",
+          "sha256": "4aee16d69218fa24c4882434623e59749cd4cf83a9c5255bf5e739bb609ceae6",
+          "fields": {
+            "idinfo/timeperd/timeinfo/rngdates/begdate": [
+              "20241017"
+            ],
+            "idinfo/timeperd/timeinfo/rngdates/enddate": [
+              "20241115"
+            ],
+            "idinfo/timeperd/current": [
+              "Ground condition"
+            ],
+            "spref/horizsys/geodetic/horizdn": [
+              "North American Datum of 1983 (2011)"
+            ],
+            "spref/vertdef/altsys/altdatum": [
+              "NAVD88 Geoid 18"
+            ],
+            "spref/vertdef/altsys/altunits": [
+              "Meter"
+            ],
+            "dataqual/posacc/vertacc/vertaccr": [
+              "This data set was produced to meet ASPRS Positional Accuracy Standard for Digital Geospatial Data (2014) for a 10-cm RMSEz Vertical Accuracy Class."
+            ],
+            "dataqual/posacc/vertacc/qvertpa/vertaccv": [],
+            "dataqual/posacc/vertacc/qvertpa/vertacce": []
+          }
+        }
+      ],
+      "listings": [
+        {
+          "prefix": "StagedProducts/Elevation/metadata/ME_WesternMtns_B24/ME_WesternMtns_1_B24",
+          "scope": "Root objects and discovered reports directories only",
+          "report_prefixes": [
+            "StagedProducts/Elevation/metadata/ME_WesternMtns_B24/ME_WesternMtns_1_B24/reports/"
+          ]
+        }
+      ],
+      "selected_xml_count": 1
+    }
+  ]
+}

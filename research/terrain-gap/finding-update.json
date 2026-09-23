@@ -1,0 +1,14 @@
+{
+  "report_sha256": "4820dda112d2b3d2c6a9e43854451e9a100140ab707674ef05daaaf841c98f48",
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "updates": [
+    {
+      "status": "in_progress",
+      "event_id": "87f2999cf78ae72b770ce0015fb0ed3e51a33262912b5457378cb956baf97bbb",
+      "finding_id": "TL-F-0104",
+      "next_action": "Qualify Eastern B2 original datum/accuracy metadata and the 2024 measured DEM accuracy/reference compatibility before proposing a source-selection or seam rule. Preserve both alternatives and exact valid masks separately. The original pilot gap has alternative coverage; keep broader date/metadata/accuracy findings in progress and do not infer county-wide completeness. Maintain bounded on-demand retrieval, not bulk county replication."
+    }
+  ],
+  "source_geometry_writes": false
+}

@@ -182,3 +182,11 @@ storage, measures valid/NoData pixels and supports offline replay. Its 512-meter
 square has partial coverage; next investigate a bounded alternative source for
 that gap. County-wide dynamic discovery, persisted terrain catalog/results tables
 and terrain availability qualification remain pending.
+
+The [bounded alternative-source investigation](../research/terrain-gap/README.md)
+finds complete geometric coverage of the original pilot gap in both inspected
+Western sources. Next qualify Eastern B2's detailed metadata and the newer
+source's measured accuracy/reference compatibility before choosing a terrain
+source rule. Keep separate valid-pixel footprints and version dependencies;
+complementary coverage alone does not authorize an elevation mosaic or slope
+calculation.
