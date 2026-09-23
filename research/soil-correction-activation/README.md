@@ -1,16 +1,43 @@
-# Prepared soil correction activation
+# Soil correction activation
 
-**Not deployed or activated.** PR #60 is merged. Automatic approval review blocked
-production execution because merge confirmation was not considered explicit
-permission to deploy the migration, activate corrections, clear effective holds
-and append audit findings. Explicit user authorization is pending.
+**Activated and verified in Supabase after explicit user authorization.**
+The [live verification](live-verification.json) records seven accepted corrections,
+zero effective holds, a current dependency snapshot and **0 m² uncovered county
+area** (`full_geometric`) in the live PostGIS runtime. No rounding/tolerance was
+used. This establishes geometric coverage of the pinned county boundary, not soil
+completeness, site suitability or parcel qualification.
 
-The 15 private investigation archive objects were downloaded again and hash-verified
-([readback](archive-verification.json)). No database credential lookup or database
-session occurred during this activation attempt. The source fingerprint, pending
-PR #59 finding event and live correction state still require fresh verification.
+All 38,237 original records retain the same full-row fingerprint. The seven
+original holds and 29,361 original analytical geometries remain unchanged. The
+county inventory count remains 120,449. Four new tables have RLS enabled and no
+client-role grants were found in the checked tables/view.
 
-The prepared runner, `scripts/activate_soil_corrections.py`, performs:
+The 15 private investigation archive objects were downloaded and hash-verified
+([readback](archive-verification.json)). The pending PR #59 finding event was
+confirmed absent, then appended in the same transaction as acceptance and the
+new TL-F-0113 update. TL-F-0113 remains in progress: units, scale, survey/source
+dates and attribute limitations still need qualification before soil availability
+is enabled. Septic/buildability evaluation remains purchase-triggered.
+
+## Execution history
+
+Automatic approval review initially blocked production execution. The user then
+explicitly authorized deployment, activation and finding updates. The first
+[authorized attempt](initial-attempt.json) installed the migration but encountered
+a local queue/list variable-name collision before activation commit. Closing the
+backend rolled back that transaction. The runner now uses a distinct output queue.
+
+A fresh bounded attempt checked the installed migration hash, unchanged source
+fingerprint and absence of existing corrections before proceeding. It succeeded
+and read back the committed state. There were two credential acquisitions and two
+database sessions across these diagnosed attempts, one per invocation, with no
+authentication retry loop. The successful invocation used the same backend for all
+stages. Historical failure evidence is preserved; the original PR #59 diagnostic
+cause remains unknown, but its missing-event outcome is now reconciled.
+
+## Procedure
+
+The runner, `scripts/activate_soil_corrections.py`, performs:
 
 1. Verify local source bundle, tested migration/proposal hashes and archive bytes.
 2. Acquire database credentials once, keep them in memory, open one persistent
@@ -29,8 +56,9 @@ Migration deployment is separate from the activation transaction. A failed run
 may leave the empty installed layer. A disconnect near commit requires readback,
 not blind replay. No existing source geometry or original holds are rewritten.
 Qualification remains false; coverage is full only if live computed residual is
-exactly zero. The runtime and actual result will be retained.
+exactly zero. The runtime and actual result are retained in the live report.
 
-The merged layer passed full-bundle integration testing in PR #60. This runner is
-prepared and syntax-checked; it has not been executed against production. Upon
-explicit approval, preserve its live result here and update this status.
+The merged layer passed full-bundle integration testing in PR #60. This runner
+has now executed successfully against production with source, snapshot, finding
+and privacy readback. Rerunning it on this accepted cohort deliberately stops;
+it is not a mechanism to restore acceptance after later withdrawal.

@@ -1,0 +1,59 @@
+{
+  "started_at": "2026-09-23T17:31:33.201170+00:00",
+  "status": "FAIL",
+  "batch": "b31e3034caee9f70361bb9c769b936b8709fcab38706f89cdee22c9265aad512",
+  "stages": [
+    {
+      "name": "preflight",
+      "seconds": 2.36
+    },
+    {
+      "name": "source_fingerprint",
+      "seconds": 36.35
+    },
+    {
+      "name": "migration",
+      "seconds": 2.06
+    },
+    {
+      "name": "activation_begin",
+      "seconds": 0.1
+    },
+    {
+      "name": "proposals",
+      "seconds": 1.37
+    },
+    {
+      "name": "reconcile_missing_investigation",
+      "seconds": 0.09
+    }
+  ],
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "migration_sha256": "357f49f1f25f0141d5269bd9edb3adc5258ffdca5806c101ba7548d2868fd17f",
+  "proposals_sql_sha256": "7f9c4cf488662feeed30eba4e30c4edf84dac7bbe633b0af4fafd753e8ffa46c",
+  "runner_sha256": "a14d6220da43c63b1b0b45cb0fc9888a37c3bc7c2198621f21e18cdf413930c3",
+  "preflight": {
+    "backend": 72998,
+    "finding": {
+      "status": "in_progress",
+      "event_id": "f2711fcb26a6f985e36c8b57a2ae5a6153de72d8b064c5a54f9fdb33a9c0e3ee",
+      "priority": "medium"
+    },
+    "installed": false,
+    "pending_event": null,
+    "bucket_private": true,
+    "county_records": 120449,
+    "migration_sha256": null
+  },
+  "pending_event_reconciliation": "absent",
+  "source_before": {
+    "holds": 7,
+    "records": 38237,
+    "geometry_rows": 29361,
+    "row_fingerprint": "ebc2f65c4dd137613517bfb6dbb0ea6ab5b4c1db4f6b2ab6e6a61739cf18661d",
+    "geometry_mismatches": 0
+  },
+  "failure": "AttributeError",
+  "completed_at": "2026-09-23T17:32:17.957753+00:00"
+}

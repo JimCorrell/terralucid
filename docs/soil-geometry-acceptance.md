@@ -103,3 +103,12 @@ Deploy the reviewed migration/proposals and record explicit acceptance events in
 separate controlled operation, then recompute coverage and append findings.
 Units, scale, survey dates and attribute limitations remain separate qualification
 work. Septic/buildability adjudication remains purchase-triggered.
+
+## Live activation
+
+The [authorized activation](../research/soil-correction-activation/README.md)
+deployed this layer and accepted all seven pinned proposals. Live coverage is
+`full_geometric` with zero uncovered area, original source history unchanged and
+TL-F-0113 still in progress for remaining qualification work. The previously
+unverified PR #59 event was absent and has now been recorded. Preserve the live
+snapshot dependency; future review events can invalidate this result.

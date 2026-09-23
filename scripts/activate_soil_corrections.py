@@ -23,10 +23,10 @@ def apply(bundle,proposals,archive,cli,out):
     pending=json.loads(re.search(r"record_finding_event\('(.+?)'::jsonb",pending_sql).group(1))
     baseline=tests['source_readback'];batch=meta['batch']
     out.mkdir(parents=True,exist_ok=False);report={'started_at':datetime.now(timezone.utc).isoformat(),'status':'FAIL','batch':meta['batch'],'stages':[],'credential_acquisitions':1,'database_sessions':1,'migration_sha256':meta['migration_sha256'],'proposals_sql_sha256':meta['proposals_sql_sha256'],'runner_sha256':file_sha(Path(__file__))}
-    client='terralucid-soil-load-'+uuid.uuid4().hex[:12];proc=None;errors=[];events=queue.Queue()
+    client='terralucid-soil-load-'+uuid.uuid4().hex[:12];proc=None;errors=[];output_events=queue.Queue()
     def stdout(stream):
-        for line in stream:events.put(line.strip())
-        events.put(None)
+        for line in stream:output_events.put(line.strip())
+        output_events.put(None)
     def stderr(stream):
         for line in stream:errors.append(line)
     def stage(name,text=None,path=None,deadline=120):
@@ -38,7 +38,7 @@ def apply(bundle,proposals,archive,cli,out):
         while True:
             remaining=deadline-(time.monotonic()-start)
             if remaining<=0:raise RuntimeError(name+' timeout')
-            try:line=events.get(timeout=remaining)
+            try:line=output_events.get(timeout=remaining)
             except queue.Empty:raise RuntimeError(name+' timeout')
             if line is None:raise RuntimeError(name+' connection ended; inspect private diagnostics before retry')
             if line==marker:break
