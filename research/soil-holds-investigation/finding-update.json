@@ -1,0 +1,11 @@
+{
+  "finding_id": "TL-F-0113",
+  "status": "UNVERIFIED",
+  "report_sha256": "ddda7a3674c616b1eda8921cdf7581fe58aecfffd6e8c32bbebd49ed8ca6df8a",
+  "credential_acquisitions": 1,
+  "database_sessions_attempted": 1,
+  "automatic_retries": 0,
+  "source_geometry_writes": false,
+  "detail": "Database subprocess returned a nonzero exit code. Its diagnostic output was not retained by the one-off runner; cause and transaction outcome are unverified. Check the exact event ID in the prepared SQL against finding history before any replay. No geometry, holds or source updates were in the transaction.",
+  "prepared_transaction_sha256": "1b77bf9d7b8935f3fdfa096407f2f23770891de7ac4b6eeb9ff25c9eae557537"
+}
