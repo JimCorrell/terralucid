@@ -207,3 +207,8 @@ The [source-aware slope diagnostic](../research/terrain-slopes/README.md)
 flags 1,024 source-boundary neighborhoods and 2,044 AOI-edge centers. Independent
 source slopes still differ locally; next inspect recorded native height/slope
 extremes before source selection. No production qualification is activated.
+
+The [native terrain extreme inspection](../research/terrain-extremes/README.md)
+finds sharper Western features at three selected groups and a nearby Western
+NoData edge at one group. Cause and source correctness remain unresolved; seek
+bounded ground-point/processing evidence before correction or source preference.
