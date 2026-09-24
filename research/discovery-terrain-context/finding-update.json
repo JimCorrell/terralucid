@@ -1,0 +1,14 @@
+{
+  "report_sha256": "dcc49059506b2f5088db8516820ef12d7819f1937bb7acee4712dce368d9238c",
+  "credential_acquisitions": 1,
+  "database_sessions": 1,
+  "updates": [
+    {
+      "status": "in_progress",
+      "event_id": "f22ff0008af77947288cc629a08a5987ef0b02118614208886ee7cac81e053bf",
+      "finding_id": "TL-F-0104",
+      "next_action": "Keep unresolved discrepancies and source-specific provenance visible without blocking county discovery. Resume detailed source correctness investigation only when it could change a purchase decision. For selected AOIs, obtain fresh multi-topic evidence packets and bounded elevation only when needed; preserve NoData and source-boundary limitations. Retain remaining metadata/date and suitability unknowns."
+    }
+  ],
+  "source_geometry_writes": false
+}

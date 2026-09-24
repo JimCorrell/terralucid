@@ -1,0 +1,99 @@
+{
+  "evidence_state": "DERIVED",
+  "validation_basis": "Offline replay of historical private captures; no live currency assertion",
+  "method_sha256": "180e3ca34548b64f1042795d8b0ae66880830bd9c019e9d78e03fdaf81344ce3",
+  "source_versions": {
+    "research/soils-terrain-readiness/report.json": "97683cb4356b6f1182540d9a959b3b45ccdebe11d6407ff3cb3547fc6693e4c8",
+    "research/county-soils-preparation/report.json": "b31e3034caee9f70361bb9c769b936b8709fcab38706f89cdee22c9265aad512",
+    "research/terrain-overlap/report.json": "5e5b7359a14d13c1d4608cbb69b7f6a995716f592408ee041a6a8cecfbc35440",
+    "research/terrain-slopes/report.json": "fa64ae300ee1418858301aa075834d49f75ed7cdd34ab9ed3f9deaa6a9e8396d",
+    "research/terrain-extremes/report.json": "3b30f860bc9645928b7e9f8f2223155377303b9faa2f5b399740e180e6c2e988"
+  },
+  "cases": [
+    {
+      "case": "orneville_source_parcel",
+      "capture_sha256": "7e1402ca69c0641e33cd5331e081c8401f6f4c090a2c0a167d8f937480f06532",
+      "topic_statuses": {
+        "identity": "review_required",
+        "zoning": "review_required",
+        "wetlands": "review_required",
+        "flood": "review_required",
+        "soils": "review_required",
+        "terrain": "review_required",
+        "septic_suitability": "not_requested",
+        "buildability": "not_requested",
+        "access_title": "not_requested"
+      },
+      "terrain_candidate_count": 2,
+      "qualified_for_parcel_screening": false
+    },
+    {
+      "case": "accepted_zoning_area",
+      "capture_sha256": "470eaf00f597edee6dc8e16fa372266ac6f169675d75f366fac38c95f2f4ad28",
+      "topic_statuses": {
+        "identity": "review_required",
+        "zoning": "review_required",
+        "wetlands": "review_required",
+        "flood": "missing",
+        "soils": "missing",
+        "terrain": "review_required",
+        "septic_suitability": "not_requested",
+        "buildability": "not_requested",
+        "access_title": "not_requested"
+      },
+      "terrain_candidate_count": 3,
+      "qualified_for_parcel_screening": false
+    },
+    {
+      "case": "orneville_parcel",
+      "capture_sha256": "ec56f65e0e390f6f1fb9d41a9b6a57045abe239cfaa9c909783210839b1ec053",
+      "topic_statuses": {
+        "identity": "review_required",
+        "zoning": "review_required",
+        "wetlands": "review_required",
+        "flood": "review_required",
+        "soils": "missing",
+        "terrain": "review_required",
+        "septic_suitability": "not_requested",
+        "buildability": "not_requested",
+        "access_title": "not_requested"
+      },
+      "terrain_candidate_count": 2,
+      "qualified_for_parcel_screening": false
+    },
+    {
+      "case": "overlapping_sources",
+      "capture_sha256": "93c8f35f16bf22c40c795ce6b07d7756a5315fb2863d84a8707e5690a60223a6",
+      "topic_statuses": {
+        "identity": "review_required",
+        "zoning": "review_required",
+        "wetlands": "review_required",
+        "flood": "missing",
+        "soils": "missing",
+        "terrain": "review_required",
+        "septic_suitability": "not_requested",
+        "buildability": "not_requested",
+        "access_title": "not_requested"
+      },
+      "terrain_candidate_count": 4,
+      "qualified_for_parcel_screening": false
+    },
+    {
+      "case": "parcel_near_hold",
+      "capture_sha256": "f7794d2c88a2b919f9c48612e4446cad68de8707f5e389d2fd16d950be4ebdd9",
+      "topic_statuses": {
+        "identity": "review_required",
+        "zoning": "review_required",
+        "wetlands": "review_required",
+        "flood": "missing",
+        "soils": "missing",
+        "terrain": "review_required",
+        "septic_suitability": "not_requested",
+        "buildability": "not_requested",
+        "access_title": "not_requested"
+      },
+      "terrain_candidate_count": 1,
+      "qualified_for_parcel_screening": false
+    }
+  ]
+}

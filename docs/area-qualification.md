@@ -93,7 +93,7 @@ and `not_requested`. There is deliberately no automatic suitability approval.
 | Wetlands | Package feature intersections and union coverage of project footprints | Footprint coverage is not wetland completeness; imagery age and site/legal status require review |
 | Flood | Route intersecting Orneville civil-boundary evidence to archived county-readiness audits, including scanned FIRM and catalog letters | No digital flood overlay qualified; letters not adjudicated. Other communities remain missing in this adapter |
 | Soils | Optional exact-version inventory adapter: accepted geometry, AOI coverage, tabular links, metadata and mixture limits | Availability is separate from soil completeness or site suitability |
-| Terrain | Explicit missing-adapter status | No terrain adapter implemented yet |
+| Terrain | Frozen county-retained catalog candidates, source hashes, uncertainty and retrieval next step | Catalog rectangles do not establish valid elevation coverage; no parcel slopes or source preference inferred |
 | Septic and buildability | `not_requested` for discovery, `review_required` for purchase candidates | Neither state establishes suitability; missing site investigations do not block general discovery |
 | Access/title | Explicit unknown and purchase-candidate review requirement | Mapped access does not establish rights |
 
@@ -173,3 +173,31 @@ soils missing without querying soil tables. This changes the method/schema versi
 regenerate older packets before reuse. Soil dependencies join the existing context
 and finding checks. Existing accepted soil snapshots are read, not created, inside
 the read-only transaction.
+
+## Discovery terrain context (version 3)
+
+Every packet now includes terrain catalog candidates and `discovery_summary`,
+which collects per-topic status, candidate count and the purchase-investigation
+flag. The existing optional soil adapter is unchanged; include the reviewed soil
+batch/snapshot to bring soils into the same packet. Missing soil requests remain
+explicitly missing rather than silently selected.
+
+Terrain candidates come from the frozen county-retained catalog. An AOI's projected
+bounding rectangle is transformed with PROJ edge densification and compared with
+publisher catalog rectangles, including touches. This is approximate candidate
+routing, not footprint or valid-pixel coverage; no candidate also does not prove
+absence of elevation data. There is no new download or database terrain load.
+
+The packet pins catalog, county-selection and pilot-diagnostic report hashes.
+Changes to those files, the adapter or pyproj/PROJ runtime invalidate packet reuse
+through the existing method check. This tracks captured versions, not unpublished
+publisher changes. Version-2 packets must be regenerated. Catalog/selection mismatch
+or missing dependency files fail rather than silently omit terrain evidence.
+
+TL-F-0104 remains an unassessed scope candidate; pilot disagreements are not
+assigned to every parcel. No source preference, corrected height or pilot slope
+is extrapolated into an AOI. Source correctness investigation is deferred until
+it could affect a purchase decision. Existing geometry holds still govern their
+own topics, and missing suitability does not block discovery.
+
+See [integration validation](../research/discovery-terrain-context/README.md).
