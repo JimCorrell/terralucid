@@ -12,15 +12,17 @@ from shapely.ops import unary_union
 from shapely.strtree import STRtree
 from apply_prepared_load import connection_environment
 from soil_availability import qualify_soils,BATCH,METADATA
+from terrain_context import catalog_context,FILES as TERRAIN_FILES
+import pyproj
 
 ROOT=Path(__file__).resolve().parents[1]
-VERSION='area-qualification-v2'
+VERSION='area-qualification-v3'
 PARCELS={'ut-parcels','organized-parcels'}
 GROUPS={'identity':PARCELS,'zoning':{'lupc-zoning'},'wetlands':{'nwi-package','nwi-project'}}
 
 def digest(value):return hashlib.sha256(json.dumps(value,sort_keys=True,separators=(',',':'),allow_nan=False).encode()).hexdigest()
 def method_hash():
-    return digest({'files':{p:hashlib.sha256((ROOT/'scripts'/p).read_bytes()).hexdigest() for p in ['qualify_area.py','qualification_context.sql','qualification_extract.sql','qualification_soils.sql','soil_availability.py']},'shapely':shapely.__version__,'geos':shapely.geos_version_string})
+    return digest({'files':{p:hashlib.sha256((ROOT/'scripts'/p).read_bytes()).hexdigest() for p in ['qualify_area.py','qualification_context.sql','qualification_extract.sql','qualification_soils.sql','soil_availability.py','terrain_context.py']},'terrain_evidence':{p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in TERRAIN_FILES},'pyproj':pyproj.__version__,'proj':pyproj.proj_version_str,'shapely':shapely.__version__,'geos':shapely.geos_version_string})
 def validate_request(r):
     for k in ('audit','snapshot'):
         if not isinstance(r.get(k),str) or len(r[k])!=64 or any(c not in '0123456789abcdef' for c in r[k]):raise ValueError('Expected SHA-256 '+k)
@@ -193,8 +195,7 @@ def qualify(capture):
         'inventory_intersections_usable':False,'reasons':['flood_overlay_not_qualified','empty_digital_response_is_not_clearance','current_map_and_letter_applicability_unverified'],
         'legal_or_site_suitability':'UNKNOWN'}
     topics['soils']=qualify_soils(capture,aoi,coverage)
-    for name in ['terrain']:
-        topics[name]={'status':'missing','evidence_state':'UNKNOWN','reasons':['no_qualified_source_adapter_in_this_version'],'blocks_general_discovery':False}
+    topics['terrain']=catalog_context(aoi)
     for name in ['septic_suitability','buildability']:
         topics[name]={'status':'review_required' if r['purchase_candidate'] else 'not_requested','evidence_state':'UNKNOWN',
             'reasons':['purchase_candidate_site_investigation_required'] if r['purchase_candidate'] else ['purchase_investigation_not_requested'],
@@ -205,7 +206,11 @@ def qualify(capture):
     return {'schema':VERSION,'method_sha256':method_hash(),'request':r,'context':ctx,'capture_sha256':digest(capture),
         'captured_at':capture.get('captured_at'),'aoi_sha256':hashlib.sha256(bytes.fromhex(capture['aoi_wkb'])).hexdigest(),'aoi_within_county':capture['aoi_within_county'],
         'jurisdiction_candidates':[ref(f)|{'source_attributes':f['attributes'],'authority_state':'UNKNOWN; historical civil attributes only'} for f in civil],
-        'topics':topics,'potential_findings':findings,'geometry_evidence_state':'DERIVED','canonical_parcel_identity':'UNKNOWN',
+        'topics':topics,'discovery_summary':{
+            'topic_statuses':{name:topic['status'] for name,topic in topics.items()},
+            'terrain_candidates':len(topics['terrain']['catalog_candidates']),
+            'purchase_investigation_requested':r['purchase_candidate'],
+            'interpretation':'Evidence inventory only; missing site suitability and unresolved terrain source choice do not block general discovery. Existing geometry holds and per-topic intersection permissions still apply.'},'potential_findings':findings,'geometry_evidence_state':'DERIVED','canonical_parcel_identity':'UNKNOWN',
         'qualified_for_parcel_screening':False,'offer_readiness':'NOT_ASSESSED',
         'limits':['Read-only evidence packet, not parcel clearance or a suitability score','Check currency before reuse; dependencies are conservative across all source observations, audits and findings','Currentness means unchanged captured dependencies, not current real-world facts','Municipal applicability and other FEMA communities need explicit source adapters'],
         'runtime':capture.get('runtime',{})}

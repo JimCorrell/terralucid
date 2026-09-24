@@ -44,5 +44,6 @@ is deferred pending demonstrated reuse and a separate capacity assessment.
 See the [terrain decision](decisions.md#terrain-catalog-and-retrieval-on-demand).
 The [small-area pilot](../research/terrain-area-pilot/README.md) implements
 bounded diagnostic retrieval and evidence preservation for explicitly pinned
-sources. Dynamic county-wide discovery and terrain qualification services remain
-pending.
+sources. The area packet now routes terrain candidates from the frozen county catalog
+alongside other topics. Dynamic catalog refresh, AOI valid-elevation availability
+and terrain qualification services remain pending.

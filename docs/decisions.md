@@ -241,3 +241,13 @@ evidence and TL-F-0104 deficiencies remain applicable; catalog discovery does
 not establish qualified terrain coverage. Detailed septic/buildability review
 remains purchase-triggered. This is an agreed architecture direction, not an
 implemented retrieval service or availability promotion.
+
+## Terrain disagreement: defer source adjudication to decision relevance
+
+Following the pilot height/slope investigations, prioritize making source context
+usable alongside parcel, zoning, wetlands and soil evidence. Preserve alternate
+sources, provenance, disagreement and source-boundary limitations. Do not block
+county discovery on resolving TL-F-0104 or determining which terrain source is
+universally correct. Resume detailed source investigation when the discrepancy
+could affect a purchase decision. No operational source default, slope threshold,
+height correction or buildability approval is selected by this decision.
